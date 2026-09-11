@@ -421,7 +421,13 @@ PAGES.health = () => {
 
 PAGES.settings = () => {
   const chk = D.live_checklist || [];
-  const passing = chk.every((c) => c.passing);
+  /* Three states, not two. An item this system cannot check from here - such as who last
+   * edited a cron schedule on GitHub - is NOT a failure, and rendering it as one is the same
+   * dishonesty as a green light with nothing behind it, only pointed the other way. It reads
+   * YOU CHECK, it does not block the button, and its detail says what to go and look at. */
+  const unverifiable = (c) => c.passing === null || c.passing === undefined;
+  const blocking = chk.filter((c) => !unverifiable(c));
+  const passing = blocking.every((c) => c.passing);
   return `<div class="page-head"><h2>Settings</h2></div>
     <div class="section-title">Cost gate</div>
     <div class="card card-pad"><dl class="kv">
@@ -433,11 +439,16 @@ PAGES.settings = () => {
     <div class="card card-pad">
       <div class="note ${passing ? "" : "warn"}" style="margin-bottom:12px">
         <strong>${D.system?.mode === "LIVE" ? "LIVE mode is enabled." : "Currently in DEMO mode."}</strong>
-        Every item below must pass before live mode can be enabled.
+        Every checkable item below must pass before live mode can be enabled. Items marked
+        YOU CHECK cannot be verified from here and do not block the button - they are things
+        only you can confirm.
       </div>
-      ${chk.map((c) => `<div class="factor"><div class="fname">${c.passing ? "PASS" : "FAIL"} - ${esc(c.name)}</div>
-        <div class="fpts">${badge(c.passing ? "OK" : "BLOCKED", c.passing ? "GREEN" : "RED")}</div>
-        <div class="fev">${esc(c.detail)}</div></div>`).join("")}
+      ${chk.map((c) => {
+        const state = unverifiable(c) ? ["YOU CHECK", "CHECK YOURSELF", "YELLOW"] : c.passing ? ["PASS", "OK", "GREEN"] : ["FAIL", "BLOCKED", "RED"];
+        return `<div class="factor"><div class="fname">${state[0]} - ${esc(c.name)}</div>
+        <div class="fpts">${badge(state[1], state[2])}</div>
+        <div class="fev">${esc(c.detail)}</div></div>`;
+      }).join("")}
       <div class="btn-row" style="margin-top:12px">
         <button class="btn primary" data-action="enable-live" ${passing ? "" : "disabled"}>I UNDERSTAND - ENABLE LIVE MODE</button>
       </div>

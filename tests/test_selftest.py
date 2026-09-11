@@ -185,3 +185,35 @@ def test_the_whole_schedule_fits_the_free_private_allowance() -> None:
     mod = _budget_module()
     total = sum(w.minutes_per_month for w in mod.read_workflows())
     assert total < mod.FREE_PRIVATE_MINUTES, f"{total:.0f} min/mo exceeds the {mod.FREE_PRIVATE_MINUTES} free private minutes."
+
+
+# ------------------------------------------------- the live checklist has three states
+
+
+def test_the_cron_authorship_item_is_unverifiable_not_failing() -> None:
+    """It depends on who last touched a cron line on GitHub, which cannot be probed from here.
+
+    Rendering an unverifiable condition as FAIL is the same dishonesty as a green light with
+    nothing behind it, only pointed the other way - and it would permanently block live mode
+    on something the system can never confirm.
+    """
+    from aicc.health import live_mode_checklist
+
+    items = {i["name"]: i for i in live_mode_checklist()}
+    cron = next((v for k, v in items.items() if "cron" in k.lower()), None)
+    assert cron is not None, "The cron-authorship reminder is missing from the checklist."
+    assert cron["passing"] is None, "It must be None (unverifiable), not False (failing)."
+    assert "docs/DEPLOYMENT.md" in cron["detail"]
+
+
+def test_every_other_checklist_item_is_a_real_boolean() -> None:
+    """Only genuinely unprobeable conditions may be None. Everything else must commit."""
+    from aicc.health import live_mode_checklist
+
+    for item in live_mode_checklist():
+        if item["passing"] is None:
+            assert "not verifiable" in item["detail"].lower() or "cannot" in item["detail"].lower(), (
+                f"{item['name']} is None but does not say why it cannot be checked."
+            )
+        else:
+            assert isinstance(item["passing"], bool), f"{item['name']} has a non-boolean passing value."

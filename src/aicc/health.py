@@ -215,6 +215,22 @@ def live_mode_checklist() -> list[dict[str, Any]]:
             "detail": sources_cap.detail,
         },
         {
+            # Cannot be probed from here - it depends on who last touched a cron line on
+            # GitHub - so it is carried as a standing reminder rather than a check that could
+            # report a false green. Anthropic's own docs: a scheduled run is attributed to
+            # "the one who last changed the workflow's cron schedule", and the action rejects
+            # a bot actor. If anyone but Andres last edited a cron, scheduled AI runs refuse
+            # to start, and they refuse quietly.
+            "name": "Andres is the last editor of every cron schedule",
+            "passing": None,
+            "detail": (
+                "Not verifiable from here. A scheduled run is attributed to whoever last changed "
+                "the cron line, and the Claude action rejects a non-human actor - so if anyone "
+                "else last edited a schedule, unattended AI runs stop without saying why. "
+                "See docs/DEPLOYMENT.md."
+            ),
+        },
+        {
             "name": "Proposal approval enabled",
             "passing": True,
             "detail": "Every proposal requires explicit approval. This is not configurable.",

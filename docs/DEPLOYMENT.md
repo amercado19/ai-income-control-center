@@ -144,3 +144,80 @@ python -m aicc emergency-stop --reason "..."
 
 Disable the schedules in the GitHub UI (Actions → workflow → Disable) if you want the cloud side
 stopped too.
+
+---
+
+## Claude subscription authentication — verified against official docs, 11 Sep 2026
+
+Andres asked for this to be settled from current official Anthropic documentation rather than
+inference. It is settled, and the answer is yes.
+
+### Officially supported, at $0 additional cost
+
+> "`CLAUDE_CODE_OAUTH_TOKEN`: an OAuth token that authenticates with your Claude subscription,
+> available on Pro, Max, Team, and Enterprise plans. Generate one by running `claude setup-token`
+> locally."
+
+And, unambiguously, on billing:
+
+> "**If you authenticate with an OAuth token, runs use your Claude subscription instead of API
+> billing.**"
+
+— <https://code.claude.com/docs/en/github-actions>
+
+So `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` → the `claude_code_oauth_token` workflow input
+draws on the subscription, not on metered credits. `ANTHROPIC_API_KEY` is the alternative, is
+**not** required, and is the thing to avoid: it is what enables pay-as-you-go.
+
+### Unattended execution is supported
+
+The docs describe an **automation mode** entered by supplying a `prompt` input, and document
+running on a `cron` schedule directly. There is no requirement for a human to be present.
+
+### Three operational gotchas, all from the same page
+
+These are the details that turn a working setup into a silently broken one months later:
+
+1. **A scheduled run is attributed to a human, and a bot is rejected.**
+
+   > "This check also applies to scheduled runs, which GitHub attributes to a repository user,
+   > usually **the one who last changed the workflow's `cron` schedule**."
+
+   So **Andres must be the last person to edit a cron line**, or the run is refused as a bot
+   actor. This is the same constraint his `mlb-dashboard` freshness alarm already documents in
+   its own header comment, arrived at there by experience rather than from the docs.
+
+2. **Scheduled workflows are disabled after 60 days of repository inactivity**, and run only from
+   the default branch. Anthropic's page states this independently of GitHub's own. See
+   `docs/OPERATIONS.md` for the mitigation.
+
+3. **The token is tied to the person who generated it.**
+
+   > "an OAuth token is tied to the subscription of the person who ran `claude setup-token`"
+
+   Fine for a personal repository. It also means the token cannot be shared or inherited, and
+   Anthropic recommends an API key instead for org-wide use — which this project will not do.
+
+### What Andres has to do, and why it cannot be done for him
+
+```bash
+claude setup-token                                    # prints a token. Do not paste it into chat.
+gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo amercado19/ai-income-control-center
+```
+
+Two commands, and both must be his. `claude setup-token` authenticates interactively against his
+subscription, and the second handles the resulting credential. An assistant holding a token that
+can act as his Claude subscription is exactly what the credential boundary exists to prevent, and
+that does not change because the token is short-lived or because permission was granted in
+advance.
+
+Until the secret exists, `HAS_CLAUDE` is `false`, the rule-based worker carries the pipeline, and
+the dashboard reports the AI worker as **NOT CONFIGURED** rather than pretending. The workflow
+checks only that the secret is non-empty — never its value.
+
+### Token lifetime
+
+The official page does not state an expiry for `CLAUDE_CODE_OAUTH_TOKEN`, and it is not inferred
+here. Treat it as long-lived but finite: `src/aicc/degradation.py` classifies a rejected
+credential as **NEEDS_HUMAN** and fails the run loudly, precisely so an expiry surfaces as a clear
+instruction rather than as a pipeline that quietly stops producing.

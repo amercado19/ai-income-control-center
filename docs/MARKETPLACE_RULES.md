@@ -241,3 +241,54 @@ Regardless of instruction:
 
 The first three are refused in code. The rest are enforced by the scoring rejections in
 `aicc.scoring.HARD_REJECT` and the claim verification in `aicc.proposals._verify_claims`.
+
+---
+
+## Sources evaluated and rejected, with the measurement
+
+Recording rejections matters as much as recording adoptions: without the number, "we looked at
+that" degrades into "we should look at that again" every few months.
+
+### jobr.pro — rejected, 1 useful listing in 100
+
+The one genuinely new free feed found in the September 2026 sweep. Technically it is the cleanest
+option available: `https://jobr.pro/feed.xml` returns 100 jobs over HTTP 200 with **no API key, no
+authentication, no approval process**, and `robots.txt` permits it (`Allow: /`, with only `/api/`,
+`/jobs?` and admin paths disallowed).
+
+It was still rejected, because the content does not survive contact with the filters:
+
+| Measure | Result |
+|---|---|
+| Listings in feed | 100 |
+| Remote | 11 |
+| **Salary stated** | **0** |
+| **Company stated** | **0** |
+| Contract-style language | 20 |
+| On-stack technical | 10 |
+| Remote **and** contract **and** on-stack | **1** |
+
+And that one was *"Lead Systems Specialist (Controls & Automation), Travel up to 75%"* — a hard
+reject under `PHYSICAL_PRESENCE_REQUIRED`. So the real yield is **zero**.
+
+With no salary and no company on any listing, every entry would also score near the floor on
+Clarity and could not be costed at all. Adding this connector would import noise and no signal.
+Re-measure with `scripts/market_reality_check.py`-style sampling before reconsidering.
+
+### USAJobs API — out of scope, but worth knowing it exists
+
+Free, email registration, API key issued immediately, automated access permitted. Federal
+positions only.
+
+Not integrated, because federal jobs are full-time employment rather than freelance work, which
+this system rejects on PSLF grounds anyway. Noted here for a different reason: federal and
+501(c)(3) employers are the **only** full-time roles that do not break Andres's PSLF eligibility.
+If the question ever changes from "find freelance work alongside the job" to "find a different
+qualifying job", this is the correct source and it is free. That is a different project.
+
+### Contra — re-verified September 2026, unchanged
+
+Checked again against `https://contra.com/features/mcp` because it would be valuable if it had
+changed. It has not: the MCP covers proposals to clients you already have, offerings, invoices,
+payment links, portfolio and chat history. **There is no job discovery surface for freelancers.**
+Contra remains a back office, not a source.
