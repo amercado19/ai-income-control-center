@@ -44,6 +44,12 @@ PLATFORM_FEES: dict[str, dict[str, Any]] = {
         "source": "https://contra.com/pricing",
     },
     "hackernews": {"rate": 0.00, "note": "Direct client, no intermediary", "source": "n/a"},
+    "freelancer_com": {
+        "rate": 0.10,
+        "note": "10% project fee (or $5 minimum on small fixed projects), plus bid credits to apply",
+        "source": "https://www.freelancer.com/about/fees-and-charges",
+    },
+    "python_jobs": {"rate": 0.00, "note": "Direct client, no intermediary", "source": "n/a"},
     "himalayas": {"rate": 0.00, "note": "Direct client, no intermediary", "source": "n/a"},
     "remoteok": {"rate": 0.00, "note": "Direct client, no intermediary", "source": "n/a"},
     "weworkremotely": {"rate": 0.00, "note": "Direct client, no intermediary", "source": "n/a"},

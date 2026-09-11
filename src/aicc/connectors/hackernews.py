@@ -8,16 +8,18 @@ Why this is first rather than Upwork or Fiverr:
 * Verified September 2026: the monthly "Who is hiring?" thread carries real contract listings
   with published rates in the $45-160/hour range.
 
-Two threads are read, and they are not equally useful:
+**Only the "Who is hiring?" thread is read.** The dedicated freelancer thread was measured
+across ten monthly threads (January-September 2026) and abandoned on the evidence:
 
-1. **"Ask HN: Who is hiring?"** - large (hundreds of comments). Mostly full-time, but a
-   consistent minority are contract/freelance with rates stated. This is where the money is.
-2. **"Ask HN: Freelancer? Seeking freelancer?"** - small, and dominated by SEEKING WORK posts
-   from other freelancers. Only the SEEKING FREELANCER side is demand. Kept because it is
-   nearly free to read, not because it is productive.
+    191 SEEKING WORK posts against 4 SEEKING FREELANCER posts - and two of those four were
+    mis-tagged supply. September 2026: 0 demand, 22 supply.
 
-Thread discovery must not assume the poster. The freelancer thread is no longer posted by the
-``whoishiring`` bot, so it is found by title match instead.
+That is not a channel, it is a queue of competitors. Reading it cost a request per run and
+returned roughly two real leads in nine months, so it was removed rather than left in to pad the
+source count. ``find_freelancer_thread`` is kept for the record and is no longer called.
+
+"Who is hiring?" by contrast carried 389 comments in September 2026, a consistent minority of
+them contract with rates stated.
 """
 
 from __future__ import annotations
@@ -144,10 +146,8 @@ class HackerNewsConnector(Connector):
         except ConnectorError as exc:
             errors.append(f"hiring thread: {exc}")
 
-        try:
-            found.extend(cls._from_freelancer_thread(limit))
-        except ConnectorError as exc:
-            errors.append(f"freelancer thread: {exc}")
+        # The freelancer thread is deliberately NOT read - see the module docstring for the
+        # nine-month supply/demand measurement that retired it.
 
         if not found and errors:
             raise ConnectorError("; ".join(errors))

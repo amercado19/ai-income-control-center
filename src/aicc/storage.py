@@ -85,6 +85,17 @@ class UnsafeToCommitError(RuntimeError):
     """Raised when a record looks like it carries a credential or personal identifier."""
 
 
+def assert_retention_permitted(record: Any) -> None:
+    """Refuse to persist content whose source contractually forbids it.
+
+    Upwork's API & MCP Terms cap caching at 24 hours and require permanent deletion after it. A
+    committed git store keeps history forever, so Upwork content simply cannot live here.
+    """
+    from .connectors.upwork import assert_not_persisted
+
+    assert_not_persisted(record)
+
+
 def assert_safe_to_commit(payload: Any, *, where: str = "record") -> None:
     """Refuse to persist anything that pattern-matches a credential.
 
@@ -121,6 +132,7 @@ class Collection:
 
     def put(self, record: Any) -> Any:
         data = _read(self.path)
+        assert_retention_permitted(record)
         payload = record.to_dict()
         assert_safe_to_commit(payload, where=f"{self.model.__name__} {record.id}")
         data[record.id] = payload
@@ -132,6 +144,7 @@ class Collection:
             return 0
         data = _read(self.path)
         for record in records:
+            assert_retention_permitted(record)
             payload = record.to_dict()
             assert_safe_to_commit(payload, where=f"{self.model.__name__} {record.id}")
             data[record.id] = payload

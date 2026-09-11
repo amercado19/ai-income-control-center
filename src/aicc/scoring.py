@@ -321,6 +321,10 @@ HARD_REJECT = {
     RiskFlag.CREDENTIAL_SHARING_REQUESTED: "Requests credential sharing.",
     RiskFlag.PAYMENT_OFF_PLATFORM: "Requests off-platform payment, which violates marketplace terms.",
     RiskFlag.GEO_EXCLUDED: "Restricted to residents of a country you are not in.",
+    RiskFlag.PROMPT_INJECTION_ATTEMPT: (
+        "The listing contains text attempting to issue instructions to this system. That is "
+        "an attack, not a client. Rejected and surfaced for review."
+    ),
 }
 
 # Applied as point deductions rather than rejection.
@@ -349,6 +353,16 @@ def detect_risks(opp: Opportunity) -> list[RiskFlag]:
 
     if _GEO_EXCLUDING.search(text):
         flags.append(RiskFlag.GEO_EXCLUDED)
+
+    # A listing that tries to give the system orders is not a client, whatever else it says.
+    # See aicc.untrusted for why this is a tripwire rather than the primary defence.
+    from .untrusted import scan_for_injection
+
+    injection = scan_for_injection(_scoring_text(opp))
+    if injection.severity == "high":
+        flags.append(RiskFlag.PROMPT_INJECTION_ATTEMPT)
+    elif injection.suspicious:
+        opp.risk_flags = list(dict.fromkeys([*opp.risk_flags, "SUSPICIOUS_CONTENT"]))
 
     # Proposal-only AI objection. If the work itself is AI-prohibited that flag already fired and
     # takes precedence - this one is specifically the weaker, application-scoped case.
@@ -465,6 +479,16 @@ def _profitability(econ: Economics, bd: ScoreBreakdown) -> float:
 SOURCE_WIN_PRIOR: dict[str, tuple[float, str]] = {
     "hackernews": (0.85, "Direct email to the poster; no bidding war, no reputation gate."),
     "direct": (0.85, "Direct relationship."),
+    "python_jobs": (
+        0.70,
+        "Small, on-stack board; applying is a direct link with far fewer applicants than an aggregator.",
+    ),
+    "freelancer_com": (
+        0.20,
+        "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an "
+        "hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new "
+        "account with no platform history still starts behind.",
+    ),
     "contra": (0.60, "Commission-free and lower volume than Upwork, but still a marketplace."),
     "himalayas": (0.45, "Aggregated listing; applicant volume unknown and often high."),
     "remoteok": (0.45, "Aggregated listing; applicant volume unknown and often high."),

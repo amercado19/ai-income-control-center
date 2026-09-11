@@ -1,5 +1,5 @@
 {
-  "job_58ce3dd19f5a": {
+  "job_510d5b1eae4a": {
     "acceptance_criteria": [
       "Row count in the output matches the total row count across the source files",
       "A README documents the column mapping",
@@ -8,28 +8,28 @@
     "agreed_price": 500.0,
     "ai_usage_units": 0.0,
     "client": "Brightline Retail Group",
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
     "deliverables": [
-      "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a/consolidated.csv",
-      "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a/README.md"
+      "/home/claude/ai-income-control-center/workspaces/job_510d5b1eae4a/consolidated.csv",
+      "/home/claude/ai-income-control-center/workspaces/job_510d5b1eae4a/README.md"
     ],
-    "delivered_at": "2026-09-11T18:02:05+00:00",
+    "delivered_at": "2026-09-11T18:45:19+00:00",
     "human_action_required": "",
     "human_minutes_spent": 0.0,
-    "id": "job_58ce3dd19f5a",
+    "id": "job_510d5b1eae4a",
     "is_demo": true,
     "job_type": "spreadsheet",
     "max_auto_revisions": 2,
-    "opportunity_id": "opp_00911b77f97a",
-    "proposal_id": "prop_e3c83c659f00",
+    "opportunity_id": "opp_bdb8192c6585",
+    "proposal_id": "prop_b72e5308cbe3",
     "qa_rounds": [
       {
         "accuracy": 40.0,
         "client_instructions": 100.0,
         "completeness": 0.0,
-        "created_at": "2026-09-11T18:02:05+00:00",
+        "created_at": "2026-09-11T18:45:19+00:00",
         "file_integrity": 100.0,
         "findings": [
           {
@@ -49,8 +49,8 @@
           }
         ],
         "formatting": 100.0,
-        "id": "qa_72ea912a1584",
-        "job_id": "job_58ce3dd19f5a",
+        "id": "qa_a6d56caeb2f5",
+        "job_id": "job_510d5b1eae4a",
         "overall_score": 77.8,
         "professional_quality": 100.0,
         "requirements_satisfied": 60.0,
@@ -64,7 +64,7 @@
         "accuracy": 100.0,
         "client_instructions": 100.0,
         "completeness": 100.0,
-        "created_at": "2026-09-11T18:02:05+00:00",
+        "created_at": "2026-09-11T18:45:19+00:00",
         "file_integrity": 100.0,
         "findings": [
           {
@@ -79,8 +79,8 @@
           }
         ],
         "formatting": 100.0,
-        "id": "qa_2546c3c77afc",
-        "job_id": "job_58ce3dd19f5a",
+        "id": "qa_30665b59f737",
+        "job_id": "job_510d5b1eae4a",
         "overall_score": 95.6,
         "professional_quality": 100.0,
         "requirements_satisfied": 60.0,
@@ -101,8 +101,8 @@
     "source": "demo",
     "status": "DELIVERED",
     "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
-    "updated_at": "2026-09-11T18:02:05+00:00",
+    "updated_at": "2026-09-11T18:45:19+00:00",
     "worker_notes": "Consolidated 3 source file(s) into 120 rows across 7 columns. Incomplete rows flagged, not dropped.",
-    "workspace": "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a"
+    "workspace": "/home/claude/ai-income-control-center/workspaces/job_510d5b1eae4a"
   }
 }

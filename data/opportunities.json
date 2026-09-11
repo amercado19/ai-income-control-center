@@ -1,50 +1,50 @@
 {
-  "opp_00911b77f97a": {
+  "opp_3402429fbc72": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
-    "budget_max": 600.0,
-    "budget_min": 400.0,
+    "budget_max": 15.0,
+    "budget_min": 15.0,
     "budget_type": "FIXED",
-    "category": "spreadsheet",
-    "client": "Brightline Retail Group",
+    "category": "scripting",
+    "client": "Anonymous",
     "competition_score": 50.0,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "confidence": 75.0,
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows. We need them consolidated into a single clean workbook with a normalized schema, plus a summary tab with month-over-month revenue by store and by category. Deliverables: one .xlsx with a Data tab, a Summary tab with pivot-ready structure, and a short README describing the column mapping you used. Requirements: preserve every original row (we will check row counts), flag any rows that failed to map rather than dropping them, and keep currency formatting consistent. We would also like the mapping logic as a Python script so we can re-run it next quarter ourselves. Scope is fixed; timeline is one week. Please tell us how you would handle the duplicate order IDs we know exist in Q3.",
+    "description": "Need a script to rename files. Simple job. Quick turnaround.",
     "discovered_by_run": "",
-    "estimated_ai_effort": 4.84,
+    "estimated_ai_effort": 1.96,
     "estimated_cost": 0.0,
-    "estimated_hours": 5.38,
-    "estimated_net_revenue": 450.0,
-    "estimated_non_ai_effort": 0.54,
-    "estimated_platform_fee": 50.0,
-    "external_id": "demo_000",
-    "id": "opp_00911b77f97a",
+    "estimated_hours": 2.45,
+    "estimated_net_revenue": 13.5,
+    "estimated_non_ai_effort": 0.49,
+    "estimated_platform_fee": 1.5,
+    "external_id": "demo_004",
+    "id": "opp_3402429fbc72",
     "is_demo": true,
-    "match_score": 77.6,
-    "posted_time": "2026-09-11T15:02:05+00:00",
-    "profit_score": 77.0,
+    "match_score": 62.4,
+    "posted_time": "2026-09-11T13:45:19+00:00",
+    "profit_score": 0.0,
     "risk_flags": [],
-    "score": 80.3,
-    "score_band": "STRONG",
+    "score": 53.1,
+    "score_band": "SKIP",
     "score_breakdown": {
       "factors": {
         "Automation Potential": {
           "available": 20.0,
-          "awarded": 18.0,
-          "evidence": "90% of estimated effort is AI-carryable (4.8h AI / 0.5h human)."
+          "awarded": 16.0,
+          "evidence": "80% of estimated effort is AI-carryable (2.0h AI / 0.5h human)."
         },
         "Clarity of Requirements": {
           "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
+          "awarded": 4.0,
+          "evidence": "Thin description; 1 skills specified; budget stated."
         },
         "Expected Profitability": {
           "available": 20.0,
-          "awarded": 15.4,
-          "evidence": "Estimated net $450 on $500 (90% margin). $257 per effective hour vs $85 target (1.8 effective h = 0.5h human + 4.8h AI discounted). Leverage: $833 per human hour."
+          "awarded": 0.0,
+          "evidence": "Estimated value $15 is below the $50 floor."
         },
         "Likelihood of Winning": {
           "available": 15.0,
@@ -58,27 +58,105 @@
         },
         "Skill Fit": {
           "available": 25.0,
-          "awarded": 19.4,
-          "evidence": "Matched 3 profile skills: excel, python, reporting."
+          "awarded": 15.6,
+          "evidence": "Matched 1 profile skills: python."
         }
       },
-      "final_score": 80.3,
+      "final_score": 53.1,
       "penalties": [],
-      "raw_total": 80.3,
+      "raw_total": 53.1,
       "rejected": false,
       "rejection_reason": ""
     },
     "skills": [
-      "python",
-      "excel"
+      "python"
     ],
     "source": "demo",
-    "status": "WON",
-    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
-    "updated_at": "2026-09-11T18:02:05+00:00",
-    "url": "https://example.invalid/demo/000"
+    "status": "SKIP",
+    "title": "[DEMO] Small Python script to rename and sort files",
+    "updated_at": "2026-09-11T18:45:19+00:00",
+    "url": "https://example.invalid/demo/004"
   },
-  "opp_0604e506914e": {
+  "opp_35f29e3d5352": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 3500.0,
+    "budget_min": 2000.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Meridian Research Institute",
+    "competition_score": 40.0,
+    "confidence": 75.0,
+    "created_at": "2026-09-11T18:45:19+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Non-profit research institute. We track sponsored program spending across about 60 active awards in spreadsheets and it has stopped scaling. We want a dashboard showing burn rate per award, projected end-of-award balance, and a flag for awards trending to underspend or overspend. Data comes from a monthly export from our finance system as CSV. Deliverables: the dashboard, the ingestion script for the monthly export, documentation, and a handover session. Requirements: it must run somewhere we control, must not require a paid subscription, and the calculations must be auditable - our finance director needs to see how each number was derived. Timeline is flexible; we care more about getting the burn-rate logic right than about speed.",
+    "discovered_by_run": "",
+    "estimated_ai_effort": 14.74,
+    "estimated_cost": 0.0,
+    "estimated_hours": 29.49,
+    "estimated_net_revenue": 2475.0,
+    "estimated_non_ai_effort": 14.75,
+    "estimated_platform_fee": 275.0,
+    "external_id": "demo_008",
+    "id": "opp_35f29e3d5352",
+    "is_demo": true,
+    "match_score": 70.0,
+    "posted_time": "2026-09-10T02:45:19+00:00",
+    "profit_score": 91.0,
+    "risk_flags": [],
+    "score": 70.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 20.0,
+          "awarded": 10.0,
+          "evidence": "50% of estimated effort is AI-carryable (14.7h AI / 14.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 10.0,
+          "awarded": 8.5,
+          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 20.0,
+          "awarded": 18.2,
+          "evidence": "Estimated net $2,475 on $2,750 (90% margin). $134 per effective hour vs $85 target (18.4 effective h = 14.8h human + 14.7h AI discounted). Leverage: $168 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 15.0,
+          "awarded": 6.0,
+          "evidence": "Synthetic. Budget >= $2,000 attracts stronger competition (-10%)."
+        },
+        "Risk": {
+          "available": 10.0,
+          "awarded": 10.0,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 25.0,
+          "awarded": 17.5,
+          "evidence": "Matched 2 profile skills: csv, dashboard."
+        }
+      },
+      "final_score": 70.2,
+      "penalties": [],
+      "raw_total": 70.2,
+      "rejected": false,
+      "rejection_reason": ""
+    },
+    "skills": [
+      "csv",
+      "dashboard"
+    ],
+    "source": "demo",
+    "status": "REVIEW",
+    "title": "[DEMO] Build an internal dashboard for our grant spending",
+    "updated_at": "2026-09-11T18:45:19+00:00",
+    "url": "https://example.invalid/demo/008"
+  },
+  "opp_539a886b5caf": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
     "budget_max": 2000.0,
@@ -88,7 +166,7 @@
     "client": "Northwind Logistics",
     "competition_score": 50.0,
     "confidence": 100.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
     "description": "We need a scheduled job that calls three REST APIs (our TMS, a weather API, and a fuel price feed), normalizes the responses, stores them, and emails a daily operations summary as a PDF. Must run unattended on a schedule - we do not want to babysit it. Requirements: retry on transient failures, alert us when a source is unavailable rather than silently producing an empty report, and keep credentials out of the codebase. Deliverables: the pipeline code with tests, a deployment guide, and the scheduled job configured and demonstrably running. We use GitHub already so GitHub Actions is fine. Acceptance criteria: seven consecutive successful scheduled runs and a correct report on each. Milestone-based payment is fine.",
@@ -100,10 +178,10 @@
     "estimated_non_ai_effort": 5.91,
     "estimated_platform_fee": 160.0,
     "external_id": "demo_001",
-    "id": "opp_0604e506914e",
+    "id": "opp_539a886b5caf",
     "is_demo": true,
     "match_score": 77.6,
-    "posted_time": "2026-09-11T09:02:05+00:00",
+    "posted_time": "2026-09-11T09:45:19+00:00",
     "profit_score": 81.5,
     "risk_flags": [],
     "score": 75.6,
@@ -157,248 +235,10 @@
     "source": "demo",
     "status": "REVIEW",
     "title": "[DEMO] Build a scheduled Python pipeline to pull our API data into a daily report",
-    "updated_at": "2026-09-11T18:02:05+00:00",
+    "updated_at": "2026-09-11T18:45:19+00:00",
     "url": "https://example.invalid/demo/001"
   },
-  "opp_06a3315cbe2e": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 15.0,
-    "budget_min": 15.0,
-    "budget_type": "FIXED",
-    "category": "scripting",
-    "client": "Anonymous",
-    "competition_score": 50.0,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Need a script to rename files. Simple job. Quick turnaround.",
-    "discovered_by_run": "",
-    "estimated_ai_effort": 1.96,
-    "estimated_cost": 0.0,
-    "estimated_hours": 2.45,
-    "estimated_net_revenue": 13.5,
-    "estimated_non_ai_effort": 0.49,
-    "estimated_platform_fee": 1.5,
-    "external_id": "demo_004",
-    "id": "opp_06a3315cbe2e",
-    "is_demo": true,
-    "match_score": 62.4,
-    "posted_time": "2026-09-11T13:02:05+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [],
-    "score": 53.1,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 16.0,
-          "evidence": "80% of estimated effort is AI-carryable (2.0h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 4.0,
-          "evidence": "Thin description; 1 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 0.0,
-          "evidence": "Estimated value $15 is below the $50 floor."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 7.5,
-          "evidence": "Synthetic."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 15.6,
-          "evidence": "Matched 1 profile skills: python."
-        }
-      },
-      "final_score": 53.1,
-      "penalties": [],
-      "raw_total": 53.1,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "python"
-    ],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Small Python script to rename and sort files",
-    "updated_at": "2026-09-11T18:02:05+00:00",
-    "url": "https://example.invalid/demo/004"
-  },
-  "opp_077b2e485448": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": 70.0,
-    "budget_min": 45.0,
-    "budget_type": "HOURLY",
-    "category": "generic",
-    "client": "Senior Python Backend Engineer",
-    "competition_score": 94.7,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Senior Python Backend Engineer | REMOTE (EMEA/APAC) We're looking for Python backend engineers to work on a trustless supercluster of performance-proofed GPU-enabled sandboxed docker container runners controlled by truly decentralized algorithms (not just PAXOS or RAFT). If you found it interesting, join Reef Technologies and tackle complex technical challenges like this on your own terms: - Contribute from wherever you like; we are fully remote - Set your own time commitment, as long as it's at least 30h per week - Influence the way we operate through our Sociocracy 3.0 decision-making process Salary on a B2B contract: - 45-70 USD or 180-280 PLN per hour - Flexible work schedule (as measured with a time tracker) - We automatically adjust rates based on inflation twice a year We're looking for someone with 5+ years of programming experience, including at least a year with Python (including open-source and significant personal projects).",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 3.75,
-    "estimated_cost": 0.0,
-    "estimated_hours": 7.5,
-    "estimated_net_revenue": 337.5,
-    "estimated_non_ai_effort": 3.75,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49532957",
-    "id": "opp_077b2e485448",
-    "is_demo": false,
-    "match_score": 62.4,
-    "posted_time": "2026-09-04T10:00:00Z",
-    "profit_score": 47.5,
-    "risk_flags": [],
-    "score": 67.4,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 10.0,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 8.0,
-          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 9.5,
-          "evidence": "Estimated net $338 on $338 (100% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 14.2,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 15.6,
-          "evidence": "Matched 1 profile skills: python."
-        }
-      },
-      "final_score": 67.4,
-      "penalties": [],
-      "raw_total": 67.4,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "python",
-      "rest",
-      "docker",
-      "ocr",
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "PROPOSAL_DRAFTED",
-    "title": "Senior Python Backend Engineer - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49532957"
-  },
-  "opp_0f738db9e6ae": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": null,
-    "budget_min": null,
-    "budget_type": "UNKNOWN",
-    "category": "generic",
-    "client": "We The Flywheel",
-    "competition_score": 85.3,
-    "confidence": 35.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We The Flywheel | AI-Native Engineers & Operators | REMOTE (worldwide) | Contract / Part-time (10-40 hrs/wk) We're a remote-first digital product studio building across sports media, AI, fitness, and personal branding - 500+ web properties and deeply AI-native workflows. AI does the heavy lifting here, but it's the leverage, not the point: we hire for the human judgment, ingenuity, and taste on top of it. Open now: Agentic PR Coordinator - media lists, outreach, drafting, and AI-assisted PR workflows for earned media. Entry-level, 10-40 hrs/week. Agentic-Led Social Media Marketer. Production Designer. Also open: Agentic Engineer, Sr Agentic Engineer, Agentic Operations Coordinator, AI Operator Team Lead.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 3.75,
-    "estimated_cost": 0.0,
-    "estimated_hours": 7.5,
-    "estimated_net_revenue": 0.0,
-    "estimated_non_ai_effort": 3.75,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49522930",
-    "id": "opp_0f738db9e6ae",
-    "is_demo": false,
-    "match_score": 0.0,
-    "posted_time": "2026-09-01T16:00:00Z",
-    "profit_score": 0.0,
-    "risk_flags": [],
-    "score": 37.2,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 10.0,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 4.5,
-          "evidence": "Moderate description (>=300 chars); 1 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 37.2,
-      "penalties": [],
-      "raw_total": 37.2,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "SKIP",
-    "title": "We The Flywheel - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49522930"
-  },
-  "opp_1da968da0d82": {
+  "opp_849492b6b17f": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
     "budget_max": 4000.0,
@@ -408,7 +248,7 @@
     "client": "Global Ventures LLC",
     "competition_score": 0.0,
     "confidence": 55.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
     "description": "We need someone to help process payments for us. You will receive funds into your account and forward them to our suppliers, keeping 10%. Must be available today. We communicate on Telegram only. Please send a small deposit to verify your account is active and we will begin immediately.",
@@ -420,10 +260,10 @@
     "estimated_non_ai_effort": 16.58,
     "estimated_platform_fee": 325.0,
     "external_id": "demo_007",
-    "id": "opp_1da968da0d82",
+    "id": "opp_849492b6b17f",
     "is_demo": true,
     "match_score": 0.0,
-    "posted_time": "2026-09-11T17:02:05+00:00",
+    "posted_time": "2026-09-11T17:45:19+00:00",
     "profit_score": 0.0,
     "risk_flags": [
       "LIKELY_SCAM",
@@ -443,38 +283,38 @@
     "source": "demo",
     "status": "SKIP",
     "title": "[DEMO] Urgent - payment processing assistant needed, start today",
-    "updated_at": "2026-09-11T18:02:05+00:00",
+    "updated_at": "2026-09-11T18:45:19+00:00",
     "url": "https://example.invalid/demo/007"
   },
-  "opp_30530869820d": {
+  "opp_b413335b274c": {
     "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": null,
-    "budget_min": null,
-    "budget_type": "UNKNOWN",
+    "automation_policy": "DEMO",
+    "budget_max": 400.0,
+    "budget_min": 400.0,
+    "budget_type": "FIXED",
     "category": "generic",
-    "client": "Vistulo",
+    "client": "Vertex Media",
     "competition_score": 0.0,
-    "confidence": 35.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
+    "confidence": 55.0,
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "Vistulo | Fully REMOTE (Poland or Romanian residents only) | B2B contract | US Eastern timezone overlap required Vistulo is a boutique outsourcing company based in Poland. We specialize in expert-level talent for financial institutions. All roles are for work with a top North American banking client. All roles are 100% remote, B2B contract, rates are net + VAT in PLN, long-term. Senior Java Trading Systems Engineer - 270-300 zl/hr - equities & FX, algo order management and routing, low-latency core Java Senior React Frontend Developer (Fixed Income) - 220-250 zl/hr Java Backend Engineer - 220-240 zl/hr - high-throughput trading backend",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 3.75,
+    "description": "Looking for a writer for 10 blog posts about supply chain software. Must be 100% human written - we run every submission through AI detection and will reject anything flagged. No ChatGPT, no AI assistance of any kind. Please confirm you understand before applying.",
+    "discovered_by_run": "",
+    "estimated_ai_effort": 3.35,
     "estimated_cost": 0.0,
-    "estimated_hours": 7.5,
-    "estimated_net_revenue": 0.0,
-    "estimated_non_ai_effort": 3.75,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49523978",
-    "id": "opp_30530869820d",
-    "is_demo": false,
+    "estimated_hours": 6.69,
+    "estimated_net_revenue": 360.0,
+    "estimated_non_ai_effort": 3.34,
+    "estimated_platform_fee": 40.0,
+    "external_id": "demo_006",
+    "id": "opp_b413335b274c",
+    "is_demo": true,
     "match_score": 0.0,
-    "posted_time": "2026-09-01T19:00:00Z",
+    "posted_time": "2026-09-11T06:45:19+00:00",
     "profit_score": 0.0,
     "risk_flags": [
-      "GEO_EXCLUDED"
+      "AI_PROHIBITED"
     ],
     "score": 0.0,
     "score_band": "SKIP",
@@ -484,69 +324,66 @@
       "penalties": [],
       "raw_total": 0.0,
       "rejected": true,
-      "rejection_reason": "Restricted to residents of a country you are not in."
+      "rejection_reason": "Client prohibits AI. Automatic reject. Accepting this and using AI anyway would be dishonest; it can be re-opened as manual work if you choose to do it by hand."
     },
-    "skills": [
-      "react",
-      "remote"
-    ],
-    "source": "hackernews",
+    "skills": [],
+    "source": "demo",
     "status": "SKIP",
-    "title": "Vistulo - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49523978"
+    "title": "[DEMO] Blog content writing - human written only, no AI",
+    "updated_at": "2026-09-11T18:45:19+00:00",
+    "url": "https://example.invalid/demo/006"
   },
-  "opp_3767bb97375a": {
+  "opp_bdb8192c6585": {
     "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": 160.0,
-    "budget_min": 120.0,
-    "budget_type": "HOURLY",
-    "category": "api_integration",
-    "client": "Noricum",
-    "competition_score": 85.3,
+    "automation_policy": "DEMO",
+    "budget_max": 600.0,
+    "budget_min": 400.0,
+    "budget_type": "FIXED",
+    "category": "spreadsheet",
+    "client": "Brightline Retail Group",
+    "competition_score": 50.0,
     "confidence": 100.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "Noricum | Senior Backend Engineer, Payments, Ledger & Provable Fairness | REMOTE (2h overlap with US Pacific) | Contract to permanent | $120-160/hr | Start by 14 Sep I'm the founder of Noricum where we build platforms - currently the money infrastructure, ledger, engine and payment rails behind a pre-launch wagering platform. The games, a cashier and a bet ledger are built and live as a front end, with written specs for the server contract: ledger schema, refusal table, round lifecycle, every game's arithmetic. The server does not exist. That is the job. You would own: A server-authoritative game engine; A double-entry ledger where balance is derived and no client write can change it; Server-side enforcement of every limit and refusal; Payment rails idempotent under duplicated webhooks; An affiliate system with referral attribution and commission payouts Must have shipped: a double-entry ledger or equivalent money system in production, a payment integration including webhook idempotency, auth and sessions you built and operated, and infrastructure you owned end to end.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 7.0,
+    "description": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows. We need them consolidated into a single clean workbook with a normalized schema, plus a summary tab with month-over-month revenue by store and by category. Deliverables: one .xlsx with a Data tab, a Summary tab with pivot-ready structure, and a short README describing the column mapping you used. Requirements: preserve every original row (we will check row counts), flag any rows that failed to map rather than dropping them, and keep currency formatting consistent. We would also like the mapping logic as a Python script so we can re-run it next quarter ourselves. Scope is fixed; timeline is one week. Please tell us how you would handle the duplicate order IDs we know exist in Q3.",
+    "discovered_by_run": "",
+    "estimated_ai_effort": 4.84,
     "estimated_cost": 0.0,
-    "estimated_hours": 10.0,
-    "estimated_net_revenue": 1200.0,
-    "estimated_non_ai_effort": 3.0,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49523604",
-    "id": "opp_3767bb97375a",
-    "is_demo": false,
-    "match_score": 0.0,
-    "posted_time": "2026-09-01T18:00:00Z",
-    "profit_score": 87.5,
+    "estimated_hours": 5.38,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 0.54,
+    "estimated_platform_fee": 50.0,
+    "external_id": "demo_000",
+    "id": "opp_bdb8192c6585",
+    "is_demo": true,
+    "match_score": 77.6,
+    "posted_time": "2026-09-11T15:45:19+00:00",
+    "profit_score": 77.0,
     "risk_flags": [],
-    "score": 62.3,
-    "score_band": "SKIP",
+    "score": 80.3,
+    "score_band": "STRONG",
     "score_breakdown": {
       "factors": {
         "Automation Potential": {
           "available": 20.0,
-          "awarded": 14.0,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+          "awarded": 18.0,
+          "evidence": "90% of estimated effort is AI-carryable (4.8h AI / 0.5h human)."
         },
         "Clarity of Requirements": {
           "available": 10.0,
-          "awarded": 8.0,
-          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+          "awarded": 10.0,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
         },
         "Expected Profitability": {
           "available": 20.0,
-          "awarded": 17.5,
-          "evidence": "Estimated net $1,200 on $1,200 (100% margin). $253 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $400 per human hour."
+          "awarded": 15.4,
+          "evidence": "Estimated net $450 on $500 (90% margin). $257 per effective hour vs $85 target (1.8 effective h = 0.5h human + 4.8h AI discounted). Leverage: $833 per human hour."
         },
         "Likelihood of Winning": {
           "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+          "awarded": 7.5,
+          "evidence": "Synthetic."
         },
         "Risk": {
           "available": 10.0,
@@ -555,27 +392,27 @@
         },
         "Skill Fit": {
           "available": 25.0,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
+          "awarded": 19.4,
+          "evidence": "Matched 3 profile skills: excel, python, reporting."
         }
       },
-      "final_score": 62.3,
+      "final_score": 80.3,
       "penalties": [],
-      "raw_total": 62.3,
+      "raw_total": 80.3,
       "rejected": false,
       "rejection_reason": ""
     },
     "skills": [
-      "webhook",
-      "remote"
+      "python",
+      "excel"
     ],
-    "source": "hackernews",
-    "status": "SKIP",
-    "title": "Noricum - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49523604"
+    "source": "demo",
+    "status": "WON",
+    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
+    "updated_at": "2026-09-11T18:45:19+00:00",
+    "url": "https://example.invalid/demo/000"
   },
-  "opp_389a5510c958": {
+  "opp_c4dbe9e4e642": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
     "budget_max": 300.0,
@@ -585,7 +422,7 @@
     "client": "Private Client",
     "competition_score": 0.0,
     "confidence": 65.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
     "description": "I need someone to write my assignment for my graduate finance module. It is 4000 words on capital structure and is due Friday. Must be original and pass the plagiarism checker. This is for my coursework so it needs to be in my voice.",
@@ -597,10 +434,10 @@
     "estimated_non_ai_effort": 2.98,
     "estimated_platform_fee": 30.0,
     "external_id": "demo_005",
-    "id": "opp_389a5510c958",
+    "id": "opp_c4dbe9e4e642",
     "is_demo": true,
     "match_score": 0.0,
-    "posted_time": "2026-09-11T16:02:05+00:00",
+    "posted_time": "2026-09-11T16:45:19+00:00",
     "profit_score": 0.0,
     "risk_flags": [
       "ACADEMIC_DISHONESTY"
@@ -621,468 +458,10 @@
     "source": "demo",
     "status": "SKIP",
     "title": "[DEMO] Write my graduate finance coursework - 4000 words",
-    "updated_at": "2026-09-11T18:02:05+00:00",
+    "updated_at": "2026-09-11T18:45:19+00:00",
     "url": "https://example.invalid/demo/005"
   },
-  "opp_53314384683f": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": null,
-    "budget_min": null,
-    "budget_type": "UNKNOWN",
-    "category": "generic",
-    "client": "Valkyrie Aero",
-    "competition_score": 85.3,
-    "confidence": 35.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Valkyrie Aero | Software Engineer (Autonomy, Perception, Frontend) | REMOTE (US) | Contract | U.S. Citizens Valkyrie Aero is a DoD prime contractor. We're building an airborne system for a manned counter-drone aircraft (that we operate) to enable a crew to find and engage Group 2-3 drones at low cost. Hiring contract software engineers for three roles: Software Engineer, Autonomy; Software Engineer, Perception; Software Engineer, Frontend (HMI) We're a small team so this isn't your traditional defense program. Bureaucracy kept to the absolute minimum. I'm on the engineering team and read every application myself. I do not use AI to screen your applications and will read and reply to every single one; but please don't send over walls of LLM generated text, I'd much rather be communicating with humans!",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 3.75,
-    "estimated_cost": 0.0,
-    "estimated_hours": 7.5,
-    "estimated_net_revenue": 0.0,
-    "estimated_non_ai_effort": 3.75,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49578811",
-    "id": "opp_53314384683f",
-    "is_demo": false,
-    "match_score": 0.0,
-    "posted_time": "2026-09-06T13:00:00Z",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "AI_PROPOSAL_DISCOURAGED"
-    ],
-    "score": 29.8,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 10.0,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 6.0,
-          "evidence": "Detailed description (>=800 chars); 1 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 7.0,
-          "evidence": "1 risk flag(s): AI_PROPOSAL_DISCOURAGED."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 29.8,
-      "penalties": [
-        {
-          "evidence": "Client asked for applications written by a human. The job is fine - write this proposal yourself rather than sending a generated one.",
-          "name": "AI_PROPOSAL_DISCOURAGED",
-          "points": 6.0
-        }
-      ],
-      "raw_total": 35.8,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "SKIP",
-    "title": "Valkyrie Aero - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49578811"
-  },
-  "opp_8cbbd1f35ffc": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 400.0,
-    "budget_min": 400.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Vertex Media",
-    "competition_score": 0.0,
-    "confidence": 55.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Looking for a writer for 10 blog posts about supply chain software. Must be 100% human written - we run every submission through AI detection and will reject anything flagged. No ChatGPT, no AI assistance of any kind. Please confirm you understand before applying.",
-    "discovered_by_run": "",
-    "estimated_ai_effort": 3.35,
-    "estimated_cost": 0.0,
-    "estimated_hours": 6.69,
-    "estimated_net_revenue": 360.0,
-    "estimated_non_ai_effort": 3.34,
-    "estimated_platform_fee": 40.0,
-    "external_id": "demo_006",
-    "id": "opp_8cbbd1f35ffc",
-    "is_demo": true,
-    "match_score": 0.0,
-    "posted_time": "2026-09-11T06:02:05+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "AI_PROHIBITED"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Client prohibits AI. Automatic reject. Accepting this and using AI anyway would be dishonest; it can be re-opened as manual work if you choose to do it by hand."
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Blog content writing - human written only, no AI",
-    "updated_at": "2026-09-11T18:02:05+00:00",
-    "url": "https://example.invalid/demo/006"
-  },
-  "opp_ab0c1096b570": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": 110.0,
-    "budget_min": 90.0,
-    "budget_type": "HOURLY",
-    "category": "generic",
-    "client": "ODK",
-    "competition_score": 85.3,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "ODK | Senior Product Manager | Remote (Worldwide) | Long-term contract, 30-40 hours/week | $90-110/hour USD ODK is an open-source platform used by thousands of organizations worldwide to collect billions of data points for disease surveillance, supply chain traceability, environmental monitoring, and more. It enables users to build powerful forms and reliably collect structured data, even in places with little or no Internet connectivity. ODK has been actively developed for 18 years. We have a mix of self-hosted and SaaS users across many sectors. We're looking for a senior product manager who will own product discovery and prioritization across this diverse user base. To be successful, you'll need to find the common needs behind very different workflows and turn them into opinionated product improvements.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 3.75,
-    "estimated_cost": 0.0,
-    "estimated_hours": 7.5,
-    "estimated_net_revenue": 675.0,
-    "estimated_non_ai_effort": 3.75,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49524080",
-    "id": "opp_ab0c1096b570",
-    "is_demo": false,
-    "match_score": 0.0,
-    "posted_time": "2026-09-02T09:00:00Z",
-    "profit_score": 72.0,
-    "risk_flags": [],
-    "score": 55.1,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 10.0,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 8.0,
-          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 14.4,
-          "evidence": "Estimated net $675 on $675 (100% margin). $144 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $180 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 55.1,
-      "penalties": [],
-      "raw_total": 55.1,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "SKIP",
-    "title": "ODK - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49524080"
-  },
-  "opp_b1e5d852121b": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": 34.0,
-    "budget_min": 23.0,
-    "budget_type": "HOURLY",
-    "category": "api_integration",
-    "client": "Search Atlas",
-    "competition_score": 85.3,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Search Atlas | Product Engineer | REMOTE (anywhere, EST hours) | Full-time contractor | $23-$34 USD/hour We're ~160 people, fully remote, building an AI marketing platform. Our main product is OTTO, which runs a site's SEO on its own. Around that we've got ad automation for Google and Meta, GBP management for multi-location brands, content gen, and LLM visibility tracking. Looking for 3+ years PM in B2B SaaS with an actual technical background. You should be able to read Python and TS, write your own SQL, find your way around an API, and not need an engineer to tell you what a stack trace says. We're Django on the back, React/Next on the front. QA is yours end to end including release sign-off.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 7.0,
-    "estimated_cost": 0.0,
-    "estimated_hours": 10.0,
-    "estimated_net_revenue": 230.0,
-    "estimated_non_ai_effort": 3.0,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49547792",
-    "id": "opp_b1e5d852121b",
-    "is_demo": false,
-    "match_score": 77.6,
-    "posted_time": "2026-09-05T11:00:00Z",
-    "profit_score": 21.0,
-    "risk_flags": [],
-    "score": 66.9,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 14.0,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 6.5,
-          "evidence": "Moderate description (>=300 chars); 7 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 4.2,
-          "evidence": "Estimated net $230 on $230 (100% margin). $48 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $77 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 19.4,
-          "evidence": "Matched 3 profile skills: automation, python, sql."
-        }
-      },
-      "final_score": 66.9,
-      "penalties": [],
-      "raw_total": 66.9,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "python",
-      "sql",
-      "api",
-      "django",
-      "automation",
-      "react",
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "PROPOSAL_DRAFTED",
-    "title": "Search Atlas - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49547792"
-  },
-  "opp_bdced9737d13": {
-    "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": 90.0,
-    "budget_min": 80.0,
-    "budget_type": "HOURLY",
-    "category": "data_pipeline",
-    "client": "Virtasant (1099 contractor for a client of ours)",
-    "competition_score": 85.3,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Virtasant (1099 contractor for a client of ours) | Remote (USA) | full-time Hey, we are a finops/cloud optimization company that also helps some of our clients with their hiring needs. For one of them (a solid healthcare data company) we're looking for a Senior Data Engineer. You need to live in the USA and be a US citizen, Green Card holder, or sole owner of your own LLC company. 80-90 USD per hour, changes of going a bit above if the candidate is amazing. The tech stuff: 7 yoe (5 of which building production-grade data or platform services), AWS-heavy, Python, SQL, dbt, (Snowflake OR BigQuery OR Redshift), Spark, Kafka, (Iceberg OR Delta OR Hudi), (Airflow OR Dagster OR Prefect), CI/CD, Docker, AWS.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 7.5,
-    "estimated_cost": 0.0,
-    "estimated_hours": 10.0,
-    "estimated_net_revenue": 800.0,
-    "estimated_non_ai_effort": 2.5,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49527133",
-    "id": "opp_bdced9737d13",
-    "is_demo": false,
-    "match_score": 77.6,
-    "posted_time": "2026-09-03T12:00:00Z",
-    "profit_score": 82.5,
-    "risk_flags": [],
-    "score": 80.2,
-    "score_band": "STRONG",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 15.0,
-          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 6.5,
-          "evidence": "Moderate description (>=300 chars); 10 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 16.5,
-          "evidence": "Estimated net $800 on $800 (100% margin). $183 per effective hour vs $85 target (4.4 effective h = 2.5h human + 7.5h AI discounted). Leverage: $320 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 19.4,
-          "evidence": "Matched 3 profile skills: ci/cd, python, sql."
-        }
-      },
-      "final_score": 80.2,
-      "penalties": [],
-      "raw_total": 80.2,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "python",
-      "sql",
-      "snowflake",
-      "bigquery",
-      "dbt",
-      "airflow",
-      "aws",
-      "docker",
-      "ci/cd",
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "PROPOSAL_DRAFTED",
-    "title": "Virtasant (1099 contractor for a client of ours) - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49527133"
-  },
-  "opp_c67a21513579": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 75.0,
-    "budget_min": 55.0,
-    "budget_type": "HOURLY",
-    "category": "web_research",
-    "client": "Lumen Home Goods",
-    "competition_score": 50.0,
-    "confidence": 80.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Ongoing part-time contract. Each week, check publicly listed prices for about 40 SKUs across six competitor websites and record them in a shared tracker with the date and a source link for each figure. We need the sources cited so we can verify. Roughly 4-6 hours a week. Please only use publicly available information; do not create accounts or bypass anything to get pricing.",
-    "discovered_by_run": "",
-    "estimated_ai_effort": 3.6,
-    "estimated_cost": 0.0,
-    "estimated_hours": 4.8,
-    "estimated_net_revenue": 237.6,
-    "estimated_non_ai_effort": 1.2,
-    "estimated_platform_fee": 26.4,
-    "external_id": "demo_003",
-    "id": "opp_c67a21513579",
-    "is_demo": true,
-    "match_score": 0.0,
-    "posted_time": "2026-09-10T12:02:05+00:00",
-    "profit_score": 63.5,
-    "risk_flags": [],
-    "score": 49.7,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 15.0,
-          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 4.5,
-          "evidence": "Moderate description (>=300 chars); budget stated."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 12.7,
-          "evidence": "Estimated net $238 on $264 (90% margin). $113 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $198 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 7.5,
-          "evidence": "Synthetic."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 49.7,
-      "penalties": [],
-      "raw_total": 49.7,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Weekly competitor pricing research compiled into a tracker",
-    "updated_at": "2026-09-11T18:02:05+00:00",
-    "url": "https://example.invalid/demo/003"
-  },
-  "opp_c9a6f3377995": {
+  "opp_d440848535a1": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
     "budget_max": 250.0,
@@ -1092,7 +471,7 @@
     "client": "Kestrel Manufacturing",
     "competition_score": 50.0,
     "confidence": 90.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
     "description": "We have roughly 300 scanned PDF invoices from suppliers. We need supplier name, invoice number, invoice date, each line item with quantity and unit price, and the invoice total, extracted into a CSV. Scans are decent quality but not perfect. Deliverable is the CSV plus a list of any invoices the extraction could not read confidently, so we can key those manually. Accuracy on totals matters more than speed - we will spot check 30 of them against the originals.",
@@ -1104,10 +483,10 @@
     "estimated_non_ai_effort": 0.51,
     "estimated_platform_fee": 25.0,
     "external_id": "demo_002",
-    "id": "opp_c9a6f3377995",
+    "id": "opp_d440848535a1",
     "is_demo": true,
     "match_score": 62.4,
-    "posted_time": "2026-09-10T22:02:05+00:00",
+    "posted_time": "2026-09-10T22:45:19+00:00",
     "profit_score": 72.0,
     "risk_flags": [],
     "score": 73.0,
@@ -1158,166 +537,83 @@
     "source": "demo",
     "status": "REVIEW",
     "title": "[DEMO] Extract line items from 300 scanned supplier invoices into CSV",
-    "updated_at": "2026-09-11T18:02:05+00:00",
+    "updated_at": "2026-09-11T18:45:19+00:00",
     "url": "https://example.invalid/demo/002"
   },
-  "opp_cc62b030ffd4": {
+  "opp_d9cb1a0d0c05": {
     "ai_allowed": null,
-    "automation_policy": "FULL_AUTO",
-    "budget_max": null,
-    "budget_min": null,
-    "budget_type": "UNKNOWN",
-    "category": "api_integration",
-    "client": "Catalyst Wayfare AI",
-    "competition_score": 85.3,
-    "confidence": 60.0,
-    "created_at": "2026-09-11T18:01:33+00:00",
+    "automation_policy": "DEMO",
+    "budget_max": 75.0,
+    "budget_min": 55.0,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Lumen Home Goods",
+    "competition_score": 50.0,
+    "confidence": 80.0,
+    "created_at": "2026-09-11T18:45:19+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "Catalyst Wayfare AI | Agent Builder | Remote (US ET Overlap) | Full-time / Part-time / Contract AI transformation firm shipping production AI systems for mid-market enterprises in regulated and technical domains - finance, energy, industrials, healthcare. We ship working systems alongside our clients' engineering teams. AI Engineer, Agent Builder - Hands-on builder delivering key projects within multi-agent orchestrations - initially for one of the country's leading power engineering firms. End-to-end ownership of individual capability agents - prompts, tools, retrieval, deterministic checks, evals, monitoring, enabling infrastructure setup. 3-5+ yrs strong Python, real production LLM API experience, shipped multiple agentic systems end-to-end. 1099 contract, ~20-40 hrs/wk.",
-    "discovered_by_run": "live_market_test_2026-09-11",
-    "estimated_ai_effort": 7.0,
+    "description": "Ongoing part-time contract. Each week, check publicly listed prices for about 40 SKUs across six competitor websites and record them in a shared tracker with the date and a source link for each figure. We need the sources cited so we can verify. Roughly 4-6 hours a week. Please only use publicly available information; do not create accounts or bypass anything to get pricing.",
+    "discovered_by_run": "",
+    "estimated_ai_effort": 3.6,
     "estimated_cost": 0.0,
-    "estimated_hours": 10.0,
-    "estimated_net_revenue": 0.0,
-    "estimated_non_ai_effort": 3.0,
-    "estimated_platform_fee": 0.0,
-    "external_id": "hn_49650855",
-    "id": "opp_cc62b030ffd4",
-    "is_demo": false,
-    "match_score": 62.4,
-    "posted_time": "2026-09-08T14:00:00Z",
-    "profit_score": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 237.6,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 26.4,
+    "external_id": "demo_003",
+    "id": "opp_d9cb1a0d0c05",
+    "is_demo": true,
+    "match_score": 0.0,
+    "posted_time": "2026-09-10T12:45:19+00:00",
+    "profit_score": 63.5,
     "risk_flags": [],
-    "score": 56.9,
+    "score": 49.7,
     "score_band": "SKIP",
     "score_breakdown": {
       "factors": {
         "Automation Potential": {
           "available": 20.0,
-          "awarded": 14.0,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+          "awarded": 15.0,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
         },
         "Clarity of Requirements": {
           "available": 10.0,
           "awarded": 4.5,
-          "evidence": "Moderate description (>=300 chars); 3 skills specified."
+          "evidence": "Moderate description (>=300 chars); budget stated."
         },
         "Expected Profitability": {
           "available": 20.0,
+          "awarded": 12.7,
+          "evidence": "Estimated net $238 on $264 (90% margin). $113 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $198 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 15.0,
+          "awarded": 7.5,
+          "evidence": "Synthetic."
+        },
+        "Risk": {
+          "available": 10.0,
+          "awarded": 10.0,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 25.0,
           "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 12.8,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 15.6,
-          "evidence": "Matched 1 profile skills: python."
+          "evidence": "No skill from the operator profile appears in this listing."
         }
       },
-      "final_score": 56.9,
+      "final_score": 49.7,
       "penalties": [],
-      "raw_total": 56.9,
+      "raw_total": 49.7,
       "rejected": false,
       "rejection_reason": ""
     },
-    "skills": [
-      "python",
-      "api",
-      "remote"
-    ],
-    "source": "hackernews",
-    "status": "SKIP",
-    "title": "Catalyst Wayfare AI - contract role",
-    "updated_at": "2026-09-11T18:01:33+00:00",
-    "url": "https://news.ycombinator.com/item?id=49650855"
-  },
-  "opp_d8196724f0d7": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 3500.0,
-    "budget_min": 2000.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Meridian Research Institute",
-    "competition_score": 40.0,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T18:02:05+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Non-profit research institute. We track sponsored program spending across about 60 active awards in spreadsheets and it has stopped scaling. We want a dashboard showing burn rate per award, projected end-of-award balance, and a flag for awards trending to underspend or overspend. Data comes from a monthly export from our finance system as CSV. Deliverables: the dashboard, the ingestion script for the monthly export, documentation, and a handover session. Requirements: it must run somewhere we control, must not require a paid subscription, and the calculations must be auditable - our finance director needs to see how each number was derived. Timeline is flexible; we care more about getting the burn-rate logic right than about speed.",
-    "discovered_by_run": "",
-    "estimated_ai_effort": 14.74,
-    "estimated_cost": 0.0,
-    "estimated_hours": 29.49,
-    "estimated_net_revenue": 2475.0,
-    "estimated_non_ai_effort": 14.75,
-    "estimated_platform_fee": 275.0,
-    "external_id": "demo_008",
-    "id": "opp_d8196724f0d7",
-    "is_demo": true,
-    "match_score": 70.0,
-    "posted_time": "2026-09-10T02:02:05+00:00",
-    "profit_score": 91.0,
-    "risk_flags": [],
-    "score": 70.2,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 20.0,
-          "awarded": 10.0,
-          "evidence": "50% of estimated effort is AI-carryable (14.7h AI / 14.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 10.0,
-          "awarded": 8.5,
-          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 20.0,
-          "awarded": 18.2,
-          "evidence": "Estimated net $2,475 on $2,750 (90% margin). $134 per effective hour vs $85 target (18.4 effective h = 14.8h human + 14.7h AI discounted). Leverage: $168 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 15.0,
-          "awarded": 6.0,
-          "evidence": "Synthetic. Budget >= $2,000 attracts stronger competition (-10%)."
-        },
-        "Risk": {
-          "available": 10.0,
-          "awarded": 10.0,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 25.0,
-          "awarded": 17.5,
-          "evidence": "Matched 2 profile skills: csv, dashboard."
-        }
-      },
-      "final_score": 70.2,
-      "penalties": [],
-      "raw_total": 70.2,
-      "rejected": false,
-      "rejection_reason": ""
-    },
-    "skills": [
-      "csv",
-      "dashboard"
-    ],
+    "skills": [],
     "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Build an internal dashboard for our grant spending",
-    "updated_at": "2026-09-11T18:02:05+00:00",
-    "url": "https://example.invalid/demo/008"
+    "status": "SKIP",
+    "title": "[DEMO] Weekly competitor pricing research compiled into a tracker",
+    "updated_at": "2026-09-11T18:45:19+00:00",
+    "url": "https://example.invalid/demo/003"
   }
 }
