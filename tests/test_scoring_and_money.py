@@ -205,3 +205,146 @@ def test_upwork_win_prior_reflects_no_job_success_score():
     hn_prior, _ = scoring.SOURCE_WIN_PRIOR["hackernews"]
     assert prior < hn_prior
     assert "job success score" in reason.lower()
+
+
+# --------------------------------------------- regressions found in the live market test
+# Every case below is drawn from a real Hacker News listing in the September 2026 thread.
+
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        # Reef Technologies quoted two currencies. The USD figure is the one that counts.
+        ("45-70 USD or 180-280 PLN per hour", (45.0, 70.0, "HOURLY")),
+        # Vistulo quoted Polish zloty. Read as dollars this was a ~4x overvaluation.
+        ("Senior Java Trading Systems Engineer - 270-300 zl/hr", (None, None, "UNKNOWN")),
+        ("220-250 zl/hr net + VAT in PLN", (None, None, "UNKNOWN")),
+        ("€60-80 per hour", (None, None, "UNKNOWN")),
+        ("£75 per hour", (None, None, "UNKNOWN")),
+        # ODK stated hours/week beside the rate. The duration must not be read as the price.
+        ("Long-term contract, 30-40 hours/week | $90-110/hour USD", (90.0, 110.0, "HOURLY")),
+        ("10-40 hrs/week, no rate given", (None, None, "UNKNOWN")),
+        ("~20-40 hrs/wk 1099 contract", (None, None, "UNKNOWN")),
+        ("$45/hour, 20-30 hrs per week", (45.0, 45.0, "HOURLY")),
+        # Still works for the straightforward cases.
+        ("$120-160/hr contract to perm", (120.0, 160.0, "HOURLY")),
+        ("80-90 USD per hour", (80.0, 90.0, "HOURLY")),
+        ("$23-$34 USD/hour", (23.0, 34.0, "HOURLY")),
+    ],
+)
+def test_rate_extraction_against_real_listings(text, expected):
+    from aicc.connectors.base import extract_rate
+
+    assert extract_rate(text) == expected
+
+
+@pytest.mark.parametrize(
+    "text,should_flag",
+    [
+        ("All roles for Poland or Romanian residents only. B2B contract.", True),
+        ("Must be based in the EU, remote", True),
+        ("U.S. Citizens only, DoD prime contractor", False),
+        ("You need to live in the USA and be a US citizen or Green Card holder", False),
+        ("Remote worldwide", False),
+    ],
+)
+def test_geographic_exclusion(text, should_flag):
+    """A listing restricted to residents of another country is a hard filter, not a preference."""
+    o = opp(text + " " * 260)
+    assert (RiskFlag.GEO_EXCLUDED in scoring.detect_risks(o)) is should_flag
+
+
+def test_geographic_exclusion_is_a_hard_reject():
+    o = opp(
+        "Fully remote, Poland or Romanian residents only, B2B contract. " * 8,
+        budget_min=80.0,
+        budget_max=90.0,
+        budget_type=BudgetType.HOURLY.value,
+    )
+    assert scoring.score_opportunity(o).rejected is True
+
+
+def test_ai_written_proposal_objection_is_not_a_prohibition_on_the_work():
+    """A client who reads applications personally and asks for no LLM-generated text has not
+    prohibited AI in the work. Rejecting the job outright discards a legitimate opportunity;
+    the right response is to write that one proposal by hand."""
+    text = (
+        "Contract software engineers for autonomy and perception roles, remote US. "
+        "I read every application myself. I do not use AI to screen your applications and will "
+        "reply to every one; but please don't send over walls of LLM generated text, I'd much "
+        "rather be communicating with humans. " * 3
+    )
+    o = opp(text, budget_min=120.0, budget_max=150.0, budget_type=BudgetType.HOURLY.value)
+    bd = scoring.score_opportunity(o)
+    assert RiskFlag.AI_PROPOSAL_DISCOURAGED.value in o.risk_flags
+    assert RiskFlag.AI_PROHIBITED.value not in o.risk_flags
+    assert bd.rejected is False, "the job is legitimate; only the generated proposal is unwelcome"
+    assert any(p["name"] == RiskFlag.AI_PROPOSAL_DISCOURAGED.value for p in bd.penalties)
+
+
+def test_work_level_ai_prohibition_still_rejects():
+    o = opp(
+        "Must be 100% human written, no AI. We run AI detection on every submission. " * 6,
+        budget_min=400.0,
+        budget_max=400.0,
+        budget_type=BudgetType.FIXED.value,
+    )
+    assert scoring.score_opportunity(o).rejected is True
+
+
+@pytest.mark.parametrize(
+    "text,prohibited",
+    [
+        # The client describing their OWN process is not a prohibition on us.
+        ("I do not use AI to screen your applications and will reply to every one", False),
+        # Substring matching used to fire on this. It is an aircraft, not an AI policy.
+        ("We operate a counter-drone aircraft, no aircraft experience needed", False),
+        ("We are an AI company building AI products with AI tooling", False),
+        ("Must be 100% human written, no AI, we run every submission through AI detection", True),
+        ("Looking for human-written only content, no ChatGPT", True),
+        ("You must not use AI for this work", True),
+        ("AI generated content will be rejected", True),
+        ("Strictly no AI", True),
+    ],
+)
+def test_ai_prohibition_detection_is_precise(text, prohibited):
+    o = opp(text + " " * 260)
+    assert (RiskFlag.AI_PROHIBITED in scoring.detect_risks(o)) is prohibited
+
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("Clean up 14 excel spreadsheets, normalize the columns, pivot tables", "spreadsheet"),
+        ("Extract line items from 300 scanned PDF invoices using OCR", "pdf_extraction"),
+        ("Build a scheduled ETL pipeline with airflow and dbt into snowflake", "data_pipeline"),
+        ("Weekly competitor pricing research across six websites, compile a tracker", "web_research"),
+        ("Build an internal dashboard showing burn rate per award with charts", "dashboard"),
+        ("Write API integration with webhooks and REST endpoints", "api_integration"),
+        # Substring matching sent this to pdf_extraction, because "ocr" hides inside "Sociocracy"
+        # and "cli" inside "client". The proposal it produced discussed invoices at a company
+        # building GPU container runners.
+        ("We use Sociocracy 3.0 and need a client-facing engineer", "generic"),
+        ("Senior Python Backend Engineer, GPU container runners, decentralized", "generic"),
+    ],
+)
+def test_category_classification(text, expected):
+    assert scoring.classify(Opportunity(description=text)) == expected
+
+
+def test_one_keyword_is_not_a_classification():
+    """A single weak hit must fall back to generic. A confidently wrong proposal template is
+    worse than a blander correct one."""
+    assert scoring.classify(Opportunity(description="We have an api.")) == "generic"
+
+
+def test_hourly_roles_get_availability_not_a_delivery_date():
+    """Quoting '4-5 business days' to a client hiring 20-40 hrs/week signals you misread the post."""
+    from aicc import proposals
+
+    hourly = opp("Ongoing contract work. " * 30, budget_min=90.0, budget_max=110.0, budget_type=BudgetType.HOURLY.value)
+    fixed = opp("One-off project. " * 30, budget_min=500.0, budget_max=500.0, budget_type=BudgetType.FIXED.value)
+    assert "start within" in proposals.build_turnaround(hourly)
+    assert "business days" in proposals.build_turnaround(fixed)
+    assert "Availability:" in proposals.generate(hourly).body
+    assert "Timeline:" in proposals.generate(fixed).body

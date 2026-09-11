@@ -95,14 +95,109 @@ def extract_deliverables(opp: Opportunity) -> list[str]:
 # Experience matching - only truthful claims
 # ---------------------------------------------------------------------------
 
+# Triggers are the words that actually appear in listings, including concrete tool names. An
+# earlier version keyed on abstractions ("pipeline", "etl") and matched only one weak claim on a
+# Senior Data Engineer posting that named dbt, Airflow, Spark and Kafka - the exact work the
+# claim describes. Listings name tools, not categories.
 CLAIM_TRIGGERS: dict[str, list[str]] = {
-    "automated python data pipelines": ["pipeline", "etl", "ingest", "data flow", "consolidat", "normalize"],
-    "scheduled github actions": ["schedul", "cron", "daily", "weekly", "recurring", "unattended", "automatic", "github action"],
-    "api integrations": ["api", "rest", "endpoint", "integration", "webhook", "third-party", "third party"],
-    "generated dashboards": ["dashboard", "visuali", "chart", "report view", "bi "],
-    "model pipelines": ["model", "forecast", "predict", "projection", "burn rate", "trend"],
-    "automated data refresh": ["refresh", "update", "sync", "keep current", "monthly export"],
-    "testing and deployment systems": ["test", "qa", "quality", "verify", "accuracy", "audit", "deploy", "ci"],
+    "automated python data pipelines": [
+        "pipeline",
+        "etl",
+        "elt",
+        "ingest",
+        "data flow",
+        "consolidat",
+        "normalize",
+        "data engineer",
+        "airflow",
+        "dagster",
+        "prefect",
+        "dbt",
+        "spark",
+        "kafka",
+        "warehouse",
+        "snowflake",
+        "bigquery",
+        "redshift",
+        "data platform",
+        "batch",
+        "transform",
+    ],
+    "scheduled github actions": [
+        "schedul",
+        "cron",
+        "daily",
+        "weekly",
+        "nightly",
+        "recurring",
+        "unattended",
+        "automatic",
+        "github action",
+        "ci/cd",
+        "ci&#x2f;cd",
+        "orchestrat",
+        "workflow",
+    ],
+    "api integrations": [
+        "api",
+        "rest",
+        "endpoint",
+        "integration",
+        "webhook",
+        "third-party",
+        "third party",
+        "graphql",
+        "oauth",
+        "sdk",
+        "connector",
+    ],
+    "generated dashboards": [
+        "dashboard",
+        "visuali",
+        "chart",
+        "report view",
+        "bi ",
+        "looker",
+        "tableau",
+        "metabase",
+        "grafana",
+        "streamlit",
+        "reporting",
+    ],
+    "model pipelines": [
+        "model",
+        "forecast",
+        "predict",
+        "projection",
+        "burn rate",
+        "trend",
+        "machine learning",
+        "analytics",
+        "statistic",
+    ],
+    "automated data refresh": [
+        "refresh",
+        "update",
+        "sync",
+        "keep current",
+        "monthly export",
+        "incremental",
+        "backfill",
+    ],
+    "testing and deployment systems": [
+        "test",
+        "qa",
+        "quality",
+        "verify",
+        "accuracy",
+        "audit",
+        "deploy",
+        "production-grade",
+        "reliab",
+        "monitor",
+        "observability",
+        "docker",
+    ],
 }
 
 
@@ -182,8 +277,11 @@ SOLUTION_TEMPLATES: dict[str, str] = {
     ),
 }
 DEFAULT_SOLUTION = (
-    "I would start by confirming exactly what 'done' looks like, build it as a repeatable script "
-    "rather than a one-off, and verify the output against your acceptance criteria before delivery."
+    "I would start by pinning down exactly what 'done' looks like, because most of the cost in "
+    "work like this comes from discovering halfway through that we meant different things. From "
+    "there I build it as something repeatable rather than a one-off, handle the failure cases "
+    "explicitly rather than assuming the happy path, and verify the output against your criteria "
+    "before it reaches you."
 )
 
 QUESTION_TEMPLATES: dict[str, str] = {
@@ -199,6 +297,19 @@ QUESTION_TEMPLATES: dict[str, str] = {
 
 
 def build_turnaround(opp: Opportunity) -> str:
+    """Fixed-scope work gets a delivery estimate. Ongoing hourly work gets availability.
+
+    Quoting "4-5 business days" at a client hiring a contractor for 20-40 hours a week answers a
+    question they did not ask and signals you misread the posting.
+    """
+    from .models import BudgetType
+
+    if opp.budget_type == BudgetType.HOURLY.value:
+        return (
+            "I can start within a week and commit consistent hours; happy to begin with a small "
+            "scoped piece so you can see how I work before committing to more"
+        )
+
     econ = compute(opp)
     hours = econ.estimated_hours
     if hours <= 4:
@@ -250,7 +361,8 @@ def render(opp: Opportunity, d: ProposalDraft, *, include_ai_disclosure: bool = 
         "What you would get:",
     ]
     lines += [f"  - {item}" for item in d.deliverables]
-    lines += ["", f"Timeline: {d.turnaround}.", "", d.experience, ""]
+    label = "Availability" if opp.budget_type == "HOURLY" else "Timeline"
+    lines += ["", f"{label}: {d.turnaround}.", "", d.experience, ""]
     if d.question:
         lines += [f"One question before I start: {d.question}", ""]
     if include_ai_disclosure:

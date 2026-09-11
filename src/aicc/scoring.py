@@ -65,37 +65,120 @@ CATEGORY_KEYWORDS: dict[str, list[str]] = {
 }
 
 
+# Keywords are matched on WORD BOUNDARIES, not as substrings. Plain `in text` matching sent a
+# GPU-container-orchestration role to the PDF-extraction template, because "ocr" appears inside
+# "Sociocracy" and "cli" inside "client". The proposal it produced talked confidently about
+# invoices. A confidently wrong proposal is worse than a generic one.
+_CATEGORY_RE: dict[str, re.Pattern[str]] = {
+    category: re.compile(
+        r"(?<![a-z])(?:" + "|".join(re.escape(k.strip()) for k in keywords) + r")s?(?![a-z])", re.I
+    )  # trailing s? so "charts" matches "chart"
+    for category, keywords in CATEGORY_KEYWORDS.items()
+}
+
+CATEGORY_PRIORITY = [
+    # Most specific and most reliably deliverable first. Used only to break ties.
+    "spreadsheet",
+    "pdf_extraction",
+    "data_cleaning",
+    "financial_model",
+    "dashboard",
+    "data_pipeline",
+    "reporting",
+    "api_integration",
+    "automation",
+    "web_research",
+    "scripting",
+    "documentation",
+    "qa_review",
+]
+
+MIN_CATEGORY_HITS = 2
+"""Below this, no category is confident enough to pick a specialised template.
+
+One keyword is not a classification. Falling back to `generic` costs a slightly blander proposal;
+guessing wrong costs credibility with the client, which is far more expensive.
+"""
+
+
 def classify(opp: Opportunity) -> str:
-    text = f"{opp.title} {opp.description} {' '.join(opp.skills)}".lower()
-    best, best_hits = "generic", 0
-    for category, keywords in CATEGORY_KEYWORDS.items():
-        hits = sum(1 for kw in keywords if kw in text)
-        if hits > best_hits:
-            best, best_hits = category, hits
-    return best
+    text = f"{opp.title} {opp.description} {' '.join(opp.skills)}"
+    scores = {category: len(set(pattern.findall(text))) for category, pattern in _CATEGORY_RE.items()}
+    top = max(scores.values())
+    if top < MIN_CATEGORY_HITS:
+        return "generic"
+    # Ties are broken by CATEGORY_PRIORITY rather than by falling back to generic: an Excel
+    # cleanup job scores equally on `spreadsheet` and `data_cleaning`, and either template serves
+    # it well. Generic is for genuinely unclassifiable work, not for near-neighbours.
+    tied = [c for c, n in scores.items() if n == top]
+    return min(tied, key=lambda c: CATEGORY_PRIORITY.index(c) if c in CATEGORY_PRIORITY else 99)
 
 
 # ---------------------------------------------------------------------------
 # Risk detection
 # ---------------------------------------------------------------------------
 
+# Geography. Andres is US-based, so a listing restricted to residents of somewhere else is a
+# hard filter, not a preference - found live on a Polish outsourcing firm's posting that otherwise
+# scored well. US-inclusive restrictions ("US citizens only", "must have US work authorization")
+# are deliberately NOT matched here: those include him.
+_GEO_EXCLUDING = re.compile(
+    r"\b("
+    r"(?:poland|polish|romania|romanian|india|indian|germany|german|france|french|spain|spanish|"
+    r"portugal|brazil|brazilian|ukraine|ukrainian|philippines|pakistan|nigeria|canada|canadian|"
+    r"australia|australian|uk|united kingdom|eu|european union|emea|latam|apac)"
+    r"\s+(?:residents?|citizens?|nationals?)\s+only"
+    r"|residents?\s+of\s+(?:poland|romania|india|germany|france|spain|brazil|ukraine|the\s+eu|europe)\s+only"
+    r"|must\s+(?:be\s+)?(?:based|located|resident)\s+in\s+(?:poland|romania|india|germany|france|spain|"
+    r"brazil|ukraine|the\s+eu|europe|the\s+uk|australia|canada)"
+    r"|(?:eu|uk|emea|apac|latam)[- ]only"
+    r"|only\s+(?:accepting|hiring)\s+(?:candidates\s+)?(?:from|in)\s+(?:the\s+)?(?:eu|uk|europe|india|poland)"
+    r")\b",
+    re.I,
+)
+
+# A client asking not to receive AI-written APPLICATIONS is not the same as a client prohibiting
+# AI in the WORK. Found live: a defense contractor who reads every application personally and asks
+# for no LLM-generated text, but has no stated objection to AI in the engineering. Rejecting that
+# job outright threw away a legitimate opportunity; the right response is to write the proposal by
+# hand.
+_AI_PROPOSAL_ONLY = re.compile(
+    r"\b("
+    r"(?:don'?t|do not|please don'?t)\s+send\s+(?:over\s+)?(?:walls?\s+of\s+)?(?:llm|ai)[- ]generated"
+    r"|no\s+(?:llm|ai)[- ]generated\s+(?:applications?|cover\s+letters?|emails?|text)"
+    r"|i'?ll?\s+junk\s+anything\s+that\s+smells\s+of\s+ai"
+    r"|(?:rather|prefer)\s+(?:to\s+)?(?:be\s+)?communicat\w*\s+with\s+humans"
+    r"|written\s+by\s+(?:you|a\s+human),?\s+not\s+(?:an?\s+)?(?:ai|llm|chatgpt)"
+    r")\b",
+    re.I,
+)
+
+# The prohibition has to be aimed at the freelancer or the deliverable. A client describing
+# their own process ("I do not use AI to screen applications") is not prohibiting anything.
+_AI_PROHIBITED = re.compile(
+    r"("
+    r"\bno\s+ai\b(?!\s*(?:detection|screen))"
+    r"|\bno\s+(?:chatgpt|llm|gpt)\b"
+    r"|\bno\s+(?:ai|llm|chatgpt)[- ]generated\b"
+    r"|\bmust\s+be\s+(?:100%\s+)?human[- ]written\b"
+    r"|\bhuman[- ]written\s+only\b"
+    r"|\b(?:human|hand)[- ]?(?:written|crafted)\s+content\s+only\b"
+    r"|\b(?:ai|ai[- ]generated)\s+(?:content|work|submissions?|writing)\s+will\s+be\s+rejected\b"
+    r"|\bwe\s+run\s+(?:every\s+\w+\s+through\s+)?ai\s+detection\b"
+    r"|\bai\s+detection\s+(?:is\s+)?(?:used|run|applied)\b"
+    r"|\byou\s+(?:must|may|should)\s+not\s+use\s+(?:ai|llms?|chatgpt)\b"
+    r"|\b(?:do\s+not|don'?t)\s+use\s+(?:ai|llms?|chatgpt)\s+(?:for|on|in|to\s+(?:write|produce|complete))\b"
+    r"|\bwithout\s+(?:the\s+use\s+of\s+)?(?:ai|llms?)\b"
+    r"|\bstrictly\s+no\s+ai\b"
+    r")",
+    re.I,
+)
+
 RISK_PATTERNS: list[tuple[RiskFlag, list[str]]] = [
-    (
-        RiskFlag.AI_PROHIBITED,
-        [
-            "no ai",
-            "no chatgpt",
-            "without ai",
-            "human written only",
-            "human-written only",
-            "ai generated content will be rejected",
-            "no ai-generated",
-            "must be 100% human",
-            "do not use ai",
-            "don't use ai",
-            "ai detection",
-        ],
-    ),
+    # AI_PROHIBITED is handled by a dedicated regex below, not by substring matching. Two live
+    # failures forced that: the bare substring "no ai" matches "no aircraft", and "do not use ai"
+    # matched a client writing "I do not use AI to screen your applications" - the client
+    # describing their OWN process, which is the opposite of a prohibition on us.
     (
         RiskFlag.ACADEMIC_DISHONESTY,
         [
@@ -230,6 +313,7 @@ HARD_REJECT = {
     RiskFlag.EQUITY_ONLY: "No cash compensation.",
     RiskFlag.CREDENTIAL_SHARING_REQUESTED: "Requests credential sharing.",
     RiskFlag.PAYMENT_OFF_PLATFORM: "Requests off-platform payment, which violates marketplace terms.",
+    RiskFlag.GEO_EXCLUDED: "Restricted to residents of a country you are not in.",
 }
 
 # Applied as point deductions rather than rejection.
@@ -239,6 +323,8 @@ PENALTY_POINTS = {
     RiskFlag.UNREALISTIC_DEADLINE: 12.0,
     RiskFlag.POOR_CLIENT_HISTORY: 15.0,
     RiskFlag.SECURITY_SENSITIVE: 12.0,
+    # Not a reject: the job is fine, the AI-written proposal is not. Write this one by hand.
+    RiskFlag.AI_PROPOSAL_DISCOURAGED: 6.0,
 }
 
 DEADLINE_URGENCY = re.compile(r"\b(today|asap|within \d+ hours?|next (?:few )?hours?|by tonight|same day|immediately|urgent)\b", re.I)
@@ -251,8 +337,16 @@ def detect_risks(opp: Opportunity) -> list[RiskFlag]:
         if any(p in text for p in patterns):
             flags.append(flag)
 
-    if opp.ai_allowed is False and RiskFlag.AI_PROHIBITED not in flags:
+    if _AI_PROHIBITED.search(text) or opp.ai_allowed is False:
         flags.append(RiskFlag.AI_PROHIBITED)
+
+    if _GEO_EXCLUDING.search(text):
+        flags.append(RiskFlag.GEO_EXCLUDED)
+
+    # Proposal-only AI objection. If the work itself is AI-prohibited that flag already fired and
+    # takes precedence - this one is specifically the weaker, application-scoped case.
+    if _AI_PROPOSAL_ONLY.search(text) and RiskFlag.AI_PROHIBITED not in flags:
+        flags.append(RiskFlag.AI_PROPOSAL_DISCOURAGED)
 
     if len(opp.description or "") < 180 and not opp.skills:
         flags.append(RiskFlag.UNCLEAR_DELIVERABLES)
@@ -559,6 +653,10 @@ def _penalty_evidence(flag: RiskFlag) -> str:
         RiskFlag.UNREALISTIC_DEADLINE: "Urgency language paired with an estimate over four hours.",
         RiskFlag.POOR_CLIENT_HISTORY: "Client history on the source platform is poor.",
         RiskFlag.SECURITY_SENSITIVE: "Touches production systems or regulated data.",
+        RiskFlag.AI_PROPOSAL_DISCOURAGED: (
+            "Client asked for applications written by a human. The job is fine - write this "
+            "proposal yourself rather than sending a generated one."
+        ),
     }.get(flag, flag.value)
 
 

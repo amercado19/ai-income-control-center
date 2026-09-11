@@ -160,23 +160,97 @@ def strip_html(text: str) -> str:
     return _WS_RE.sub(" ", out).strip()
 
 
-# Rate extraction. The structured salary fields on aggregator APIs are ANNUAL figures for
-# full-time roles; real freelance rates live in free text. This is the only reliable way to get
-# them, and it is deliberately conservative: a number it cannot parse confidently is left None
-# rather than guessed at.
-# Real listings write rates as "$45-70 USD or 180-280 PLN per hour" - the unit sits well after
-# the figure, and a second currency is often quoted alongside. So: capture an optional currency
-# code, allow bounded filler before the unit, and reject anything not quoted in USD rather than
-# silently treating 280 PLN as $280.
-_HOURLY_RANGE = re.compile(
-    r"\$?\s?(\d{1,3})\s?(?:-|–|—|to)\s?\$?\s?(\d{1,3})\s*([A-Za-z]{3})?[^.\n]{0,40}?(?:/|\s|per\s*)(?:hr|hour|h\b)",
+# Rate extraction.
+#
+# The structured salary fields on aggregator APIs are ANNUAL figures for full-time roles; real
+# freelance rates live in free text. This is the only reliable way to get them, and it is
+# deliberately conservative: a figure it cannot parse confidently is left None rather than guessed.
+#
+# Three defects found against real September 2026 listings drove this design:
+#
+#   "270-300 zl/hr"            was read as $270-300/hr. That is Polish zloty - roughly a 4x
+#                              overvaluation, and exactly the kind of error that sends you chasing
+#                              the wrong job. A currency check that only understood three-letter
+#                              codes did not catch a symbol.
+#   "30-40 hours/week"         parsed as a rate of $30-40/hr. It is a duration, not a price.
+#   "45-70 USD or 180-280 PLN" needs the USD figure, not the first or the largest one.
+#
+# So rather than one dense regex, the numbers are matched loosely and the surrounding text is
+# validated in Python, where the rules are legible.
+
+_NON_USD = re.compile(
+    r"(z\u0142|\bzl\b|\bPLN\b|\u20ac|\bEUR\b|\u00a3|\bGBP\b|\u20b9|\bINR\b|\bCAD\b|\bAUD\b|\bNZD\b|"
+    r"R\$|\bBRL\b|\u00a5|\bJPY\b|\bCNY\b|\bRMB\b|\bSEK\b|\bNOK\b|\bDKK\b|\bCHF\b|\bMXN\b|\bZAR\b|"
+    r"\bSGD\b|\bHKD\b|\u20bd|\bRUB\b|\bTRY\b|\bILS\b|\bAED\b)",
     re.I,
 )
-_HOURLY_SINGLE = re.compile(r"\$\s?(\d{1,3})\s*([A-Za-z]{3})?\s*(?:/|\s?per\s?)\s?(?:hr|hour|h\b)", re.I)
-_ACCEPTED_CURRENCIES = {None, "", "usd"}
-_FIXED_RANGE = re.compile(r"\$\s?(\d{1,3}(?:,\d{3})*|\d{3,6})\s?(?:-|–|—|to)\s?\$?\s?(\d{1,3}(?:,\d{3})*|\d{3,6})\b")
+_USD_MARK = re.compile(r"(\$|\bUSD\b)", re.I)
+
+# A duration ("30-40 hours/week"), not a price. The unit word is the same, so only what follows
+# separates them.
+_PER_PERIOD = re.compile(r"^\s*(?:/|\s|per\s+|a\s+)(?:week|wk|month|mo|year|yr|day)\b", re.I)
+
+_HOUR_UNIT = re.compile(r"(?:/|\s|per\s*|an\s+)(hr|hrs|hour|hours)\b", re.I)
+
+_RANGE = re.compile(
+    r"(?P<pre>[$\u20ac\u00a3]|z\u0142|R\$)?\s?(?P<lo>\d{1,3})\s?(?:-|\u2013|\u2014|to)\s?"
+    r"(?P<mid>[$\u20ac\u00a3]|z\u0142)?\s?(?P<hi>\d{1,3})(?=(?P<tail>[^.\n]{0,45}))"
+)
+_SINGLE = re.compile(r"(?P<pre>[$\u20ac\u00a3]|z\u0142)?\s?(?P<amt>\d{1,3})(?=(?P<tail>[^.\n]{0,30}))")
+
+_FIXED_RANGE = re.compile(r"\$\s?(\d{1,3}(?:,\d{3})*|\d{3,6})\s?(?:-|\u2013|\u2014|to)\s?\$?\s?(\d{1,3}(?:,\d{3})*|\d{3,6})\b")
 _FIXED_SINGLE = re.compile(r"\$\s?(\d{1,3}(?:,\d{3})*|\d{3,6})(?:\s?(?:USD|budget|fixed|total))?", re.I)
 _ANNUAL_HINT = re.compile(r"\b(per year|/yr|annually|annual salary|k\s?-\s?\d+k)\b", re.I)
+
+
+def _hourly_from(match: re.Match[str], text: str = "") -> tuple[float, float] | None:
+    """Validate one numeric match as a USD hourly rate, or reject it.
+
+    ``text`` is the full source string, used to look backwards for a currency marker that
+    attaches to this figure without immediately preceding it - "\u20ac60-80 per hour" puts the symbol
+    on the first number, but the second is the one the range parser lands on.
+    """
+    tail = match.group("tail") or ""
+
+    unit = _HOUR_UNIT.search(tail)
+    if not unit:
+        return None
+
+    before_unit = tail[: unit.start()]
+    after_unit = tail[unit.end() :]
+
+    # "30-40 hours/week" is a time commitment, not a price.
+    if _PER_PERIOD.match(after_unit):
+        return None
+
+    # Any non-USD marker attached to this figure disqualifies it. Checked on the prefix symbols
+    # and on everything between the number and the unit.
+    prefix = (match.groupdict().get("pre") or "") + (match.groupdict().get("mid") or "")
+    context = prefix + before_unit
+
+    # Whichever currency marker comes FIRST belongs to this figure. In
+    # "45-70 USD or 180-280 PLN per hour" the USD sits with 45-70 and the PLN with the
+    # alternative quote, so presence alone is the wrong test - position is the right one.
+    # Look back a short way for a currency marker attached to this figure.
+    lookback = text[max(0, match.start() - 14) : match.start()] if text else ""
+    if _NON_USD.search(lookback) and not _USD_MARK.search(lookback):
+        return None
+
+    usd = _USD_MARK.search(context)
+    non_usd = _NON_USD.search(context)
+    if non_usd and (usd is None or non_usd.start() < usd.start()):
+        return None
+
+    # A bare number with no dollar mark near it is too weak to trust unless the unit follows
+    # almost immediately.
+    if usd is None and len(before_unit.strip()) > 6:
+        return None
+
+    lo = float(match.group("lo")) if "lo" in match.groupdict() else float(match.group("amt"))
+    hi = float(match.group("hi")) if "hi" in match.groupdict() else lo
+    if 5 <= lo <= hi <= 500:
+        return lo, hi
+    return None
 
 
 def extract_rate(text: str) -> tuple[float | None, float | None, str]:
@@ -188,32 +262,27 @@ def extract_rate(text: str) -> tuple[float | None, float | None, str]:
     if not text:
         return None, None, "UNKNOWN"
 
-    for m in _HOURLY_RANGE.finditer(text):
-        currency = (m.group(3) or "").lower() or None
-        if currency not in _ACCEPTED_CURRENCIES:
-            continue  # a rate quoted in PLN is not a dollar rate
-        lo, hi = float(m.group(1)), float(m.group(2))
-        if 5 <= lo <= hi <= 500:
-            return lo, hi, "HOURLY"
+    for m in _RANGE.finditer(text):
+        found = _hourly_from(m, text)
+        if found:
+            return found[0], found[1], "HOURLY"
 
-    for m in _HOURLY_SINGLE.finditer(text):
-        currency = (m.group(2) or "").lower() or None
-        if currency not in _ACCEPTED_CURRENCIES:
-            continue
-        rate = float(m.group(1))
-        if 5 <= rate <= 500:
-            return rate, rate, "HOURLY"
+    for m in _SINGLE.finditer(text):
+        found = _hourly_from(m, text)
+        if found:
+            return found[0], found[1], "HOURLY"
 
-    # Only look for fixed amounts when the text is not obviously quoting an annual salary.
+    # Only look for fixed amounts when the text is not obviously quoting an annual salary, and
+    # never when the figure carries a non-USD marker.
     if not _ANNUAL_HINT.search(text):
         fixed_range = _FIXED_RANGE.search(text)
-        if fixed_range:
+        if fixed_range and not _NON_USD.search(text[fixed_range.start() : fixed_range.end() + 12]):
             lo = float(fixed_range.group(1).replace(",", ""))
             hi = float(fixed_range.group(2).replace(",", ""))
             if 50 <= lo <= hi <= 100_000:
                 return lo, hi, "FIXED"
         fixed_single = _FIXED_SINGLE.search(text)
-        if fixed_single:
+        if fixed_single and not _NON_USD.search(text[fixed_single.start() : fixed_single.end() + 12]):
             amount = float(fixed_single.group(1).replace(",", ""))
             if 50 <= amount <= 100_000:
                 return amount, amount, "FIXED"
