@@ -410,26 +410,150 @@ def detect_risks(opp: Opportunity) -> list[RiskFlag]:
 def _skill_fit(opp: Opportunity, bd: ScoreBreakdown, w: dict[str, float]) -> float:
     available = w["skill_fit"]
     text = _scoring_text(opp).lower()
-    matched = sorted({s for s in PROFILE.skill_set() if s in text})
+    matched = {s for s in PROFILE.skill_set() if s in text}
     domain_hits = sorted({d for d in PROFILE.strong_domains if d in text})
 
     if not matched:
         bd.add_factor("Skill Fit", 0.0, available, "No skill from the operator profile appears in this listing.")
         return 0.0
 
-    # Saturating: 6 matched skills is already a strong fit; 20 is not three times better.
+    # Two components, because counting matches alone is what let a payments-and-ledger Senior
+    # Backend Engineer role reach the top of the list on a single keyword.
+    #
+    #   depth    - how much of the profile the listing exercises. Saturating: six matched
+    #              skills is already a strong fit, twenty is not three times better.
+    #   coverage - how much of what the LISTING ASKS FOR the profile actually covers. This is
+    #              the half that was missing. A listing naming twelve technologies of which one
+    #              matches is a weak fit however impressive that one match is, and the old
+    #              formula's 0.55 floor handed it 62% of the weight regardless.
     ratio = min(len(matched) / 6.0, 1.0)
-    awarded = available * (0.55 + 0.45 * ratio)
+    demanded = _demanded_skills(opp)
+    if len(demanded) >= 3:
+        coverage = len(matched & demanded) / len(demanded)
+        strength = 0.45 * ratio + 0.55 * min(coverage * 1.4, 1.0)
+    else:
+        # Too few stated skills to measure coverage against, so fall back to depth alone rather
+        # than inventing a denominator. The floor here is deliberately higher than the coverage
+        # branch's: a listing that names two skills is not thereby a worse fit than one that
+        # names ten, and an earlier version of this change penalised exactly that - it pushed a
+        # genuinely well-matched spreadsheet-consolidation job below the STRONG threshold
+        # because the client had described the work in prose instead of listing technologies.
+        coverage = None
+        strength = 0.45 + 0.55 * ratio
+
+    awarded = available * (0.20 + 0.80 * strength)
     if domain_hits:
         awarded = min(available, awarded + 2.0)
 
-    evidence = f"Matched {len(matched)} profile skills: {', '.join(matched[:8])}"
+    # The signal a human uses reading a job ad: "they want five specific things and I can
+    # evidence one of them." Coverage cannot see this, because a listing that states its
+    # requirements in prose ("must have shipped a double-entry ledger in production") names no
+    # tags to count. That is exactly how a payments-and-ledger role kept reaching rank 2 on a
+    # single keyword match.
+    unmet = _unmet_hard_requirements(opp)
+    if len(unmet) >= 2:
+        # Scaled, not fixed: four unmet requirements is a worse fit than two. Capped at half
+        # the factor, because a requirements list is a wish list and some of it is negotiable.
+        penalty = min(available * 0.5, available * 0.14 * len(unmet))
+        awarded = max(0.0, awarded - penalty)
+        bd.add_penalty(
+            "Unmet stated requirements",
+            round(penalty, 1),
+            f"The listing names {len(unmet)} hard requirement(s) with nothing in the operator profile behind them: "
+            + "; ".join(f'"{u[:70]}"' for u in unmet[:3])
+            + ".",
+        )
+
+    evidence = f"Matched {len(matched)} profile skills: {', '.join(sorted(matched)[:8])}"
     if len(matched) > 8:
         evidence += f" (+{len(matched) - 8} more)"
+    if coverage is not None:
+        evidence += f". Covers {coverage * 100:.0f}% of the {len(demanded)} skills this listing names"
+        missing = sorted(demanded - matched)[:4]
+        if missing:
+            evidence += f" (missing: {', '.join(missing)})"
     if domain_hits:
         evidence += f". Domain overlap: {', '.join(domain_hits)}"
     bd.add_factor("Skill Fit", awarded, available, evidence + ".")
     return awarded
+
+
+def _demanded_skills(opp: Opportunity) -> set[str]:
+    """The technical skills a listing actually asks for, with tag noise removed.
+
+    Two kinds of noise make a raw skill list a bad denominator:
+
+    * **SEO tag variants.** A Himalayas listing for "Financial Systems Expert" carries thirteen
+      tags - financial-systems-consultant, financial-systems-advisor, finance-systems-specialist
+      and ten more - which are one concept repeated for search, not thirteen requirements.
+      Counting them would make every tagged listing look impossible to satisfy.
+    * **Non-skills.** "remote" is a working arrangement, not a competency.
+
+    So only terms in the shared vocabulary count, and near-duplicates collapse to one.
+    """
+    from .connectors.base import SKILL_VOCAB
+
+    vocab = {v.lower() for v in SKILL_VOCAB}
+    out: set[str] = set()
+    seen_stems: set[str] = set()
+    for raw in opp.skills:
+        skill = raw.strip().lower()
+        if skill in _NOT_A_SKILL or skill not in vocab:
+            continue
+        stem = re.sub(r"[^a-z]", "", skill)[:10]
+        if stem in seen_stems:
+            continue
+        seen_stems.add(stem)
+        out.add(skill)
+    return out
+
+
+# Explicit, hard requirements on the candidate - the things a listing says you must ALREADY
+# have. Distinct from a skills list, and far more binding: "nice to have: Rust" is an
+# invitation, "must have shipped a double-entry ledger in production" is a gate.
+_HARD_REQUIREMENT = re.compile(
+    r"(?:must have|have shipped|you have built|you['’]ve built|required experience|"
+    r"we require|you must be|\d+\+?\s*years?(?:\s+of)?)\s*[:\-]?\s*([^.;\n]{12,140})",
+    re.I,
+)
+
+
+def _unmet_hard_requirements(opp: Opportunity) -> list[str]:
+    """Stated requirements with nothing in the operator profile behind them.
+
+    Deliberately conservative in both directions. A requirement counts as MET if any profile
+    skill, strong domain, or demonstrated-capability word appears in it - a generous test,
+    because over-rejecting costs real opportunities. And "nice to have" phrasing is excluded
+    entirely, since an optional extra is not a gate.
+    """
+    body = (getattr(opp, "full_description", None) or opp.description or "").lower()
+    vocabulary = PROFILE.skill_set() | {d.lower() for d in PROFILE.strong_domains}
+    for claim in PROFILE.demonstrated:
+        vocabulary |= {w for w in claim.lower().split() if len(w) > 3}
+
+    unmet: list[str] = []
+    seen: set[str] = set()
+    for m in _HARD_REQUIREMENT.finditer(body):
+        chunk = m.group(1).strip(" ,:-")
+        # A requirements sentence is nearly always a list: "must have shipped X, Y, and Z" is
+        # three gates, not one. Counting the whole sentence as a single requirement was enough
+        # on its own to keep a four-requirement listing below the penalty threshold.
+        for phrase in re.split(r",\s*(?:and\s+)?|\s+and\s+(?=[a-z])", chunk):
+            phrase = phrase.strip(" ,:-")
+            if len(phrase) < 10 or "nice to have" in phrase or "bonus" in phrase:
+                continue
+            key = phrase[:40]
+            if key in seen:
+                continue
+            seen.add(key)
+            if not any(term in phrase for term in vocabulary):
+                unmet.append(phrase)
+    return unmet[:6]
+
+
+# Working arrangements and locations, not competencies. Counting them as demands both inflates
+# the denominator and rewards matching them, neither of which says anything about fit.
+_NOT_A_SKILL = {"remote", "hybrid", "onsite", "on-site", "contract", "full-time", "part-time", "freelance"}
 
 
 def _automation_potential(econ: Economics, bd: ScoreBreakdown, w: dict[str, float]) -> float:

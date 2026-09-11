@@ -477,3 +477,96 @@ def test_win_probability_is_a_range_never_a_point():
     we = o.win_estimate
     assert we["probability_high"] > we["probability_low"], "a point estimate implies precision we lack"
     assert we["band"] in {"High", "Medium", "Low"}
+
+
+# --------------------------------------------------- skill fit: coverage and unmet requirements
+#
+# Both of these come from one live finding: a payments-and-ledger Senior Backend Engineer role
+# reached rank 1 of every opportunity in the system on a single keyword match ("automation"),
+# because skill fit rewarded what matched and never noticed what was required and missing.
+
+
+def test_matching_one_of_many_named_skills_is_not_a_strong_fit() -> None:
+    """The old floor handed a 1-of-10 match 62% of the skill weight regardless."""
+    from aicc.models import ScoreBreakdown
+
+    text = "We need help. " * 40
+    broad = opp(text, skills=["python", "react", "typescript", "kubernetes", "terraform", "go", "rust", "graphql"])
+    narrow = opp(text, skills=["python", "pandas", "sql", "excel", "csv", "etl"])
+
+    bd_broad, bd_narrow = ScoreBreakdown(), ScoreBreakdown()
+    wide = scoring._skill_fit(broad, bd_broad, scoring.WEIGHTS)
+    tight = scoring._skill_fit(narrow, bd_narrow, scoring.WEIGHTS)
+    assert tight > wide, "A listing whose demands the profile mostly covers must beat one it mostly does not."
+
+
+def test_a_listing_that_names_few_skills_is_not_penalised_for_it() -> None:
+    """Guards the regression this change caused once: describing work in prose rather than
+    listing technologies is not evidence of a worse fit, and treating it that way pushed a
+    genuinely well-matched spreadsheet job below the STRONG threshold."""
+    from aicc.models import ScoreBreakdown
+
+    text = "Consolidate fourteen monthly sales spreadsheets into one clean reporting workbook. " * 6
+    sparse = opp(text, skills=["excel", "python"])
+    bd = ScoreBreakdown()
+    awarded = scoring._skill_fit(sparse, bd, scoring.WEIGHTS)
+    assert awarded >= scoring.WEIGHTS["skill_fit"] * 0.6
+
+
+def test_seo_tag_variants_do_not_count_as_separate_demands() -> None:
+    """A real Himalayas listing carried thirteen tags that were one concept repeated for search."""
+    tags = [
+        "financial-systems-consultant",
+        "financial-systems-advisor",
+        "finance-systems-specialist",
+        "financial-systems-engineer",
+        "remote",
+        "excel",
+    ]
+    o = opp("Financial systems work. " * 20, skills=tags)
+    demanded = scoring._demanded_skills(o)
+    assert "remote" not in demanded, "A working arrangement is not a competency."
+    assert len(demanded) <= 2, f"Tag variants inflated the denominator: {demanded}"
+
+
+def test_unmet_hard_requirements_are_found_and_named() -> None:
+    from aicc.connectors.base import make_opportunity
+
+    text = (
+        "We build money infrastructure. Must have shipped: a double-entry ledger or equivalent "
+        "money system in production, a payment integration including webhook idempotency, and "
+        "auth and sessions you built and operated. Nice to have: Rust."
+    )
+    o = make_opportunity(source="hackernews", title="Senior Backend Engineer", description=text, skills=["python"])
+    unmet = scoring._unmet_hard_requirements(o)
+    assert len(unmet) >= 2, f"A comma-separated requirements list is several gates, not one: {unmet}"
+    assert not any("rust" in u for u in unmet), "'Nice to have' is an invitation, not a gate."
+
+
+def test_unmet_requirements_visibly_reduce_the_score() -> None:
+    from aicc.connectors.base import make_opportunity
+
+    base = "Senior backend engineer for a payments platform. Python and SQL. " * 8
+    gates = (
+        "Must have shipped: a double-entry ledger or equivalent money system in production, "
+        "a payment integration including webhook idempotency, and auth and sessions you built and operated. "
+    )
+    without = make_opportunity(source="hackernews", title="Role", description=base, skills=["python", "sql"])
+    with_gates = make_opportunity(source="hackernews", title="Role", description=base + gates, skills=["python", "sql"])
+    scoring.score_opportunity(without)
+    scoring.score_opportunity(with_gates)
+
+    assert with_gates.score < without.score
+    names = [p["name"] for p in with_gates.score_breakdown.get("penalties", [])]
+    assert "Unmet stated requirements" in names
+    penalty = next(p for p in with_gates.score_breakdown["penalties"] if p["name"] == "Unmet stated requirements")
+    assert "ledger" in penalty["evidence"], "The penalty must name what it could not evidence."
+
+
+def test_a_requirement_the_profile_covers_is_not_counted_as_unmet() -> None:
+    """Over-rejecting costs real work, so the met test is deliberately generous."""
+    from aicc.connectors.base import make_opportunity
+
+    text = "Must have built automated python data pipelines in production. " * 4
+    o = make_opportunity(source="hackernews", title="Role", description=text, skills=["python"])
+    assert scoring._unmet_hard_requirements(o) == []
