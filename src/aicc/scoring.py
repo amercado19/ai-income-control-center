@@ -450,7 +450,12 @@ def _skill_fit(opp: Opportunity, bd: ScoreBreakdown, w: dict[str, float]) -> flo
     # requirements in prose ("must have shipped a double-entry ledger in production") names no
     # tags to count. That is exactly how a payments-and-ledger role kept reaching rank 2 on a
     # single keyword match.
-    unmet = _unmet_hard_requirements(opp)
+    # Tidied here as well as in the proposal: the same phrase is read by a human on the
+    # approval card, and "you asked for shipped: a double-entry ledger" reads as sloppiness
+    # wherever it appears.
+    from .proposals import _tidy_requirement
+
+    unmet = [t for t in (_tidy_requirement(u) for u in _unmet_hard_requirements(opp)) if t]
     if len(unmet) >= 2:
         # Scaled, not fixed: four unmet requirements is a worse fit than two. Capped at half
         # the factor, because a requirements list is a wish list and some of it is negotiable.

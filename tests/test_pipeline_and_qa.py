@@ -370,3 +370,63 @@ def test_full_demo_lifecycle_passes():
     from aicc.demo_lifecycle import run_full_lifecycle
 
     assert run_full_lifecycle(verbose=False) == 0
+
+
+# ------------------------------------------------- the approval card must support its decision
+
+
+def test_an_approval_card_says_what_it_is_asking_about() -> None:
+    """Every card previously read "Proposal awaiting your approval" with no indication of WHICH
+    opportunity, no score, and no way to read what would be sent. On a phone that is a one-click
+    approval for something unread - the same fake autonomy this system refuses everywhere else,
+    pointed the other way."""
+    from aicc import storage
+    from aicc.dashboard.build import _attention
+
+    props = [p for p in storage.proposals.all() if p.status == "AWAITING_APPROVAL"]
+    if not props:
+        import pytest as _pytest
+
+        _pytest.skip("no proposals awaiting approval in the current store")
+
+    cards = [c for c in _attention(storage.jobs.all(), storage.proposals.all()) if c.get("body")]
+    assert cards, "No approval card carried the proposal body."
+    for card in cards:
+        assert card["title"] != "Proposal awaiting your approval", "The title must name the opportunity."
+        assert card["body"], "He must be able to read what would be sent before approving it."
+        assert "meta" in card
+
+
+def test_a_partial_fit_is_flagged_on_the_card_where_the_decision_is_made() -> None:
+    from aicc import scoring, storage
+    from aicc.dashboard.build import _attention
+
+    noricum = next((o for o in storage.opportunities.all() if "Noricum" in o.title), None)
+    if noricum is None:
+        import pytest as _pytest
+
+        _pytest.skip("the Noricum listing is not in the current store")
+    scoring.score_opportunity(noricum)
+    cards = _attention(storage.jobs.all(), storage.proposals.all())
+    match = [c for c in cards if "Noricum" in c["title"]]
+    if match:
+        assert match[0]["caveat"], "A known requirements gap must be visible at the point of approval."
+
+
+def test_requirement_phrases_are_tidy_wherever_a_human_reads_them() -> None:
+    """Same defect, two places: the proposal text and the scoring evidence on the card."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.scoring import score_opportunity
+
+    text = (
+        "Senior backend engineer. Python and SQL. "
+        * 8
+        + "Must have shipped: a double-entry ledger or equivalent money system in production, "
+        "and a payment integration including webhook idempotency."
+    )
+    o = make_opportunity(source="hackernews", title="Role", description=text, skills=["python", "sql"])
+    score_opportunity(o)
+    for pen in o.score_breakdown.get("penalties", []):
+        if pen["name"] == "Unmet stated requirements":
+            assert '"shipped:' not in pen["evidence"], f"Mid-clause phrase reached the card: {pen['evidence']}"
+            assert "a double-entry ledger" in pen["evidence"]

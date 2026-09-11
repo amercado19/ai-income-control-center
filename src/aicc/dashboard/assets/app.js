@@ -164,11 +164,15 @@ PAGES.approvals = () => {
     <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start">
       <div style="flex:1;min-width:220px">
         <div style="font-weight:600;margin-bottom:3px">${esc(a.title)}</div>
+        ${a.meta ? `<div class="cell-sub" style="margin-bottom:5px">${esc(a.meta)}${a.url ? ` &middot; <a href="${esc(a.url)}" target="_blank" rel="noopener">the listing</a>` : ""}</div>` : ""}
         <div style="font-size:12.5px;color:var(--ink-2);line-height:1.55">${esc(a.detail)}</div>
+        ${a.caveat ? `<div class="note" style="margin-top:8px">${esc(a.caveat)}</div>` : ""}
         ${a.value ? `<div style="font-size:12px;color:var(--ink-muted);margin-top:6px">Value: ${esc(a.value)}</div>` : ""}
       </div>
       <div class="btn-row">${(a.actions || []).map((x) => `<button class="btn ${x.primary ? "primary" : ""}" data-action="${esc(x.cmd)}">${esc(x.label)}</button>`).join("")}</div>
-    </div></div>`).join("");
+    </div>
+    ${a.body ? `<details class="disclosure"><summary>Read what would be sent, in full</summary><pre class="proposal">${esc(a.body)}</pre></details>` : ""}
+    </div>`).join("");
 
   return `<div class="page-head"><h2>Needs my attention</h2><p>${att.length} item${att.length === 1 ? "" : "s"} waiting on a decision only you can make.</p></div>${cards}`;
 };

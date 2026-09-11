@@ -229,13 +229,38 @@ def _attention(jobs: list[Any], props: list[Any]) -> list[dict[str, Any]]:
     """Spec section 29: the single screen that answers 'what do I have to do?'"""
     items: list[dict[str, Any]] = []
 
+    # An approval card must carry enough to make the decision it is asking for. Every card
+    # previously read "Proposal awaiting your approval" with the raw problem statement under
+    # it - no indication of WHICH opportunity, no score, and no way to read what would actually
+    # be sent. On a phone that is a one-click approval for something unread, which is the same
+    # fake autonomy this system refuses everywhere else, just pointed the other way.
+    from . import build as _self  # noqa: F401  (kept for clarity; storage is imported at module scope)
+
+    opps_by_id = {o.id: o for o in storage.opportunities.all()}
     awaiting = [p for p in props if p.status == "AWAITING_APPROVAL"]
     for p in awaiting:
+        opp = opps_by_id.get(p.opportunity_id)
+        title = opp.title if opp else (p.problem_statement[:70] or "Proposal")
+        meta: list[str] = []
+        if opp:
+            meta.append(f"{opp.score:.0f} {opp.score_band}")
+            meta.append(opp.source)
+            if opp.budget_display():
+                meta.append(opp.budget_display())
+        gaps = [
+            pen["evidence"]
+            for pen in (opp.score_breakdown.get("penalties", []) if opp else [])
+            if pen.get("name") == "Unmet stated requirements"
+        ]
         items.append(
             {
                 "severity": "normal",
-                "title": "Proposal awaiting your approval",
+                "title": title,
                 "detail": p.problem_statement[:200],
+                "meta": " · ".join(meta),
+                "caveat": gaps[0] if gaps else "",
+                "body": p.body,
+                "url": opp.url if opp else "",
                 "value": f"${p.quoted_price:,.0f}" if p.quoted_price else "",
                 "actions": [
                     {"label": "APPROVE", "cmd": f"approve:{p.id}", "primary": True},
