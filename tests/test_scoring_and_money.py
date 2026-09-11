@@ -348,3 +348,132 @@ def test_hourly_roles_get_availability_not_a_delivery_date():
     assert "business days" in proposals.build_turnaround(fixed)
     assert "Availability:" in proposals.generate(hourly).body
     assert "Timeline:" in proposals.generate(fixed).body
+
+
+# --------------------------------------------------- opportunity classes + win probability
+
+
+@pytest.mark.parametrize(
+    "kw,expected",
+    [
+        (dict(budget_min=60.0, budget_max=60.0, budget_type=BudgetType.FIXED.value), "SMALL"),
+        (dict(budget_min=250.0, budget_max=400.0, budget_type=BudgetType.FIXED.value), "MID"),
+        (dict(budget_min=2000.0, budget_max=3000.0, budget_type=BudgetType.FIXED.value), "HIGH_VALUE"),
+        (dict(budget_min=90.0, budget_max=110.0, budget_type=BudgetType.HOURLY.value), "ONGOING"),
+        (dict(), "UNKNOWN"),
+    ],
+)
+def test_opportunity_classification(kw, expected):
+    from aicc.classes import classify_class
+
+    assert classify_class(opp("Some work. " * 30, **kw)).value == expected
+
+
+def test_hourly_is_ongoing_not_a_small_job():
+    """A $90/hour engagement is not a '$90 job'. Treating it as one is how the effort model ends
+    up quoting a four-day turnaround on a twelve-month contract."""
+    from aicc.classes import OpportunityClass, classify_class
+
+    o = opp("Ongoing data engineering. " * 20, budget_min=90.0, budget_max=90.0, budget_type=BudgetType.HOURLY.value)
+    assert classify_class(o) is OpportunityClass.ONGOING
+
+
+def test_ongoing_detected_from_text_even_with_a_fixed_budget():
+    from aicc.classes import OpportunityClass, classify_class
+
+    o = opp("Long-term contract, 30-40 hours per week. " * 12, budget_min=200.0, budget_max=200.0, budget_type=BudgetType.FIXED.value)
+    assert classify_class(o) is OpportunityClass.ONGOING
+
+
+def test_class_weights_renormalise_to_the_same_total():
+    """Scores stay comparable across classes: what changes is what the score is MADE of."""
+    from aicc.classes import CLASS_WEIGHT_PROFILE, weights_for
+
+    for cls_ in CLASS_WEIGHT_PROFILE:
+        w = weights_for(cls_, scoring.WEIGHTS)
+        assert sum(w.values()) == pytest.approx(100.0, abs=0.2), cls_
+
+
+def test_small_jobs_weight_automation_above_profit():
+    """A $60 job that costs an hour of human attention is a loss, whatever the margin says."""
+    from aicc.classes import OpportunityClass, weights_for
+
+    w = weights_for(OpportunityClass.SMALL, scoring.WEIGHTS)
+    assert w["automation_potential"] > w["expected_profitability"]
+
+
+def test_ongoing_work_weights_skill_fit_above_automation():
+    """Long engagements are judged on judgement, not throughput."""
+    from aicc.classes import OpportunityClass, weights_for
+
+    w = weights_for(OpportunityClass.ONGOING, scoring.WEIGHTS)
+    assert w["skill_fit"] > w["automation_potential"] * 2
+
+
+def test_no_factor_can_exceed_its_available_points_under_any_class():
+    """Regression: clarity awarded fixed point values that quietly exceeded the available
+    points once clarity was up-weighted for small jobs."""
+    for budget, btype in [
+        (60.0, BudgetType.FIXED.value),
+        (300.0, BudgetType.FIXED.value),
+        (5000.0, BudgetType.FIXED.value),
+        (95.0, BudgetType.HOURLY.value),
+    ]:
+        o = opp(
+            "Detailed brief with deliverables and acceptance criteria. " * 30,
+            budget_min=budget,
+            budget_max=budget,
+            budget_type=btype,
+            skills=["python", "excel", "sql"],
+        )
+        bd = scoring.score_opportunity(o)
+        for name, f in bd.factors.items():
+            assert f["awarded"] <= f["available"] + 1e-9, f"{name} exceeded its weight at {budget}"
+
+
+def test_win_estimate_is_labelled_uncalibrated():
+    """A number presented as a probability invites you to act on it as one. This model has never
+    seen a won or lost job and says so."""
+    from aicc.classes import CALIBRATION_STATUS
+
+    o = opp("Python data pipeline work. " * 30, budget_min=1000.0, budget_max=1000.0, budget_type=BudgetType.FIXED.value)
+    scoring.score_opportunity(o)
+    assert o.win_estimate["calibration"] == CALIBRATION_STATUS
+    assert "HEURISTIC" in o.win_estimate["calibration"]
+
+
+def test_win_estimate_records_every_adjustment():
+    o = opp(
+        "Senior engineer, 8+ years required, portfolio of similar work essential. " * 8,
+        budget_min=5000.0,
+        budget_max=5000.0,
+        budget_type=BudgetType.FIXED.value,
+    )
+    scoring.score_opportunity(o)
+    factors = o.win_estimate["factors"]
+    assert factors[0]["factor"] == "Source prior"
+    for f in factors:
+        assert f["why"].strip(), "every adjustment must carry its reason"
+    assert any("Senior" in f["factor"] for f in factors)
+
+
+def test_reputation_demand_lowers_win_probability():
+    """This account has no reviews and no Job Success Score. The model should say so."""
+    plain = opp("Build a python script to merge CSV files. " * 20, budget_min=400.0, budget_max=400.0, budget_type=BudgetType.FIXED.value)
+    gated = opp(
+        "Build a python script to merge CSV files. Must be Top Rated with 100+ completed jobs and a proven track record. " * 10,
+        budget_min=400.0,
+        budget_max=400.0,
+        budget_type=BudgetType.FIXED.value,
+    )
+    scoring.score_opportunity(plain)
+    scoring.score_opportunity(gated)
+    assert gated.win_estimate["probability_high"] < plain.win_estimate["probability_high"]
+
+
+def test_win_probability_is_a_range_never_a_point():
+    o = opp("Work. " * 40, budget_min=500.0, budget_max=500.0, budget_type=BudgetType.FIXED.value)
+    scoring.score_opportunity(o)
+    we = o.win_estimate
+    assert we["probability_high"] > we["probability_low"], "a point estimate implies precision we lack"
+    assert we["band"] in {"High", "Medium", "Low"}

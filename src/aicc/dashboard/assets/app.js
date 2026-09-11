@@ -442,6 +442,65 @@ PAGES.settings = () => {
     <div class="card card-pad"><div class="note">Proposals may only claim capabilities listed in the operator profile, each backed by a real artifact. A claim outside that list raises an error rather than shipping.</div></div>`;
 };
 
+/* Fiverr is the one source with no discovery surface at all, so it is the one source where the
+ * work is entirely front-loaded: the gigs are the product. Nothing here publishes anything -
+ * Fiverr has no seller API, and the category locks permanently at publish time, so the review
+ * step is the point rather than a formality. */
+PAGES.fiverr = () => {
+  const k = D.fiverr_kit;
+  if (!k || !k.gigs) return `<div class="page-head"><h2>Fiverr launch center</h2></div>${empty("No gig kit built", "")}`;
+  const slots = `${k.slots_used} of ${k.slots_available} new-seller slots used`;
+  const floorNote = (k.below_floor || []).length
+    ? `<div class="note" style="margin-top:10px"><strong>${k.below_floor.length} gig priced below your $${k.floor_hourly}/h floor, on purpose.</strong> ${esc(k.below_floor.map((b) => b.reason).join(" "))}</div>`
+    : "";
+  return `<div class="page-head"><h2>Fiverr launch center</h2>
+      <p>Four gigs, drafted and validated against Fiverr's limits. ${esc(slots)}. Nothing is published without you.</p></div>
+    <div class="card card-pad">
+      <div class="note">${esc(k.publishing_note)}</div>
+      <div class="note" style="margin-top:10px">${esc(k.ai_disclosure_note)}</div>
+      ${floorNote}
+    </div>
+    ${k.gigs.map((g) => `<div class="card card-pad" style="margin-top:14px">
+      <div class="btn-row" style="justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
+        <div style="min-width:0">
+          <div class="cell-title">${esc(g.title)}</div>
+          <div class="cell-sub">${esc(g.category)} &rsaquo; ${esc(g.subcategory)} &middot; ${g.title_chars}/80 title &middot; ${g.description_chars}/1200 description</div>
+        </div>
+        <div class="btn-row" style="flex-wrap:wrap">
+          ${badge(g.status.replace(/_/g, " "), g.status === "PUBLISHED" ? "GREEN" : "WHITE")}
+          ${badge(g.valid ? "VALID" : "FIX REQUIRED", g.valid ? "GREEN" : "RED")}
+        </div>
+      </div>
+      ${g.validation.length ? `<div class="note" style="margin-top:10px;color:var(--red)">${g.validation.map(esc).join("<br>")}</div>` : ""}
+      <div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Package</th><th>List</th><th>You net</th><th>Your hours</th><th>Implied /h</th><th>Delivery</th><th>Revisions</th></tr></thead>
+      <tbody>${g.packages.map((p) => `<tr>
+        <td class="cell-title">${esc(p.name)}<span class="cell-sub">${p.includes.map(esc).join(" &middot; ")}</span></td>
+        <td>${money(p.price)}</td>
+        <td>${money(p.net_after_commission)}</td>
+        <td><span class="cell-sub">${p.est_human_hours}h you + ${p.est_ai_hours}h AI</span></td>
+        <td>${badge(money(p.implied_hourly) + "/h", p.implied_hourly >= k.target_hourly ? "GREEN" : p.implied_hourly >= k.floor_hourly ? "YELLOW" : "RED")}</td>
+        <td><span class="cell-sub">${p.delivery_days}d</span></td>
+        <td><span class="cell-sub">${p.revisions}</span></td>
+      </tr>`).join("")}</tbody></table></div>
+      <div class="section-title">Description</div>
+      <pre class="proposal">${esc(g.description)}</pre>
+      <div class="section-title">Search tags</div>
+      <div class="btn-row" style="flex-wrap:wrap">${g.tags.map((t) => badge(t, "WHITE")).join(" ")}</div>
+      <div class="section-title">Buyer requirements</div>
+      <ul class="cell-sub" style="margin:0;padding-left:18px">${g.requirements.map((r) => `<li>${esc(r)}</li>`).join("")}</ul>
+      <div class="section-title">FAQ</div>
+      <dl style="margin:0">${g.faqs.map((f) => `<dt class="cell-title" style="margin-top:8px">${esc(f.q)}</dt><dd class="cell-sub" style="margin:2px 0 0">${esc(f.a)}</dd>`).join("")}</dl>
+      <div class="section-title">Gig image concept</div>
+      <div class="note">${esc(g.image_concept)}</div>
+      <div class="section-title">Why this gig earned a slot</div>
+      <div class="note">${esc(g.rationale)}</div>
+      <div class="btn-row" style="margin-top:14px">
+        <button class="btn ghost" data-action="fiverr-edit:${esc(g.key)}">EDIT</button>
+        <button class="btn" data-action="fiverr-ready:${esc(g.key)}" ${g.valid ? "" : "disabled"}>MARK READY TO PUBLISH</button>
+      </div>
+    </div>`).join("")}`;
+};
+
 PAGES.audit = () => {
   const ev = D.audit || [];
   if (!ev.length) return `<div class="page-head"><h2>Audit log</h2></div>${empty("No events recorded", "")}`;
@@ -466,6 +525,7 @@ const NAV = [
   ["clients", "Clients", "○"],
   ["revenue", "Revenue", "$"],
   ["analytics", "Analytics", "≈"],
+  ["fiverr", "Fiverr Launch", "◇"],
   ["automation", "Automation", "↻"],
   ["health", "System Health", "♥"],
   ["settings", "Settings", "⚙"],
@@ -491,6 +551,13 @@ function commandHint(cmd) {
     "emergency-stop": "python -m aicc emergency-stop --reason \"...\"",
     "enable-live": "python -m aicc status  # then acknowledge live mode",
   };
+  if (cmd.startsWith("fiverr-")) {
+    const [verb, key] = [cmd.slice(7).split(":")[0], cmd.split(":")[1]];
+    alertBox(verb === "edit"
+      ? `# Gig copy lives in source, so edits are reviewable and revertible.\n$EDITOR src/aicc/fiverr_kit.py   # gig key: ${key}\npython -m aicc fiverr check`
+      : `python -m aicc fiverr ready ${key}\n\n# Then publish by hand at fiverr.com/manage_gigs - there is no seller API,\n# and the category cannot be changed after you save it.`);
+    return;
+  }
   const base = map[cmd] || (cmd.startsWith("approve:") ? `python -m aicc approve ${cmd.split(":")[1]}` : `python -m aicc ${cmd}`);
   alertBox(base);
 }

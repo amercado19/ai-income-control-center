@@ -1,0 +1,263 @@
+"""Fiverr launch kit: platform limits, pricing arithmetic, and honesty constraints.
+
+These tests exist because Fiverr locks several of these decisions permanently at publish time.
+The category cannot be changed after publishing and the gig URL is fixed from the first saved
+title, so a constraint violation that reaches the platform is not a bug you fix - it is a gig
+slot you burn, out of the four a new seller gets.
+"""
+
+from __future__ import annotations
+
+import pytest
+
+from aicc import fiverr_kit as fk
+from aicc.config import PROFILE
+
+ALL = fk.all_gigs()
+
+
+# ------------------------------------------------------------------ platform limits
+
+
+def test_every_gig_satisfies_every_fiverr_constraint() -> None:
+    problems = fk.validate_all()
+    assert problems == {g.key: [] for g in ALL}, problems
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_title_fits_and_uses_fiverrs_required_opening(gig: fk.Gig) -> None:
+    assert gig.title.startswith("I will")
+    assert len(gig.title) <= fk.MAX_TITLE_CHARS
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_description_fits(gig: fk.Gig) -> None:
+    assert len(gig.description) <= fk.MAX_DESCRIPTION_CHARS
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_tags_within_limit_and_lowercase(gig: fk.Gig) -> None:
+    # Fiverr lowercases tags itself; storing them lowercased keeps the preview honest.
+    assert len(gig.tags) <= fk.MAX_TAGS
+    assert gig.tags == [t.lower() for t in gig.tags]
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_three_packages_each_with_a_revision(gig: fk.Gig) -> None:
+    assert [p.name for p in gig.packages] == ["Basic", "Standard", "Premium"]
+    assert all(p.revisions >= 1 for p in gig.packages)
+
+
+def test_kit_does_not_exceed_the_slots_a_new_seller_has() -> None:
+    # Four, not five. The spec asked for five candidates; Fiverr grants new sellers four slots,
+    # so a fifth candidate could not be published and would only invite a bad substitution.
+    assert len(ALL) <= fk.NEW_SELLER_GIG_SLOTS
+
+
+def test_gig_keys_are_unique() -> None:
+    keys = [g.key for g in ALL]
+    assert len(keys) == len(set(keys))
+
+
+# ------------------------------------------------------------------ pricing arithmetic
+
+
+def test_list_price_grosses_up_for_the_commission() -> None:
+    assert fk.list_price_for_net(100.0) == 125.0
+    assert fk.list_price_for_net(300.0) == 375.0
+
+
+def test_net_is_the_inverse_of_the_gross_up() -> None:
+    for net in (24.0, 60.0, 100.0, 500.0):
+        assert fk.Package("x", fk.list_price_for_net(net), 1, 1).net == pytest.approx(net)
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_packages_are_monotonic_in_price_delivery_and_revisions(gig: fk.Gig) -> None:
+    prices = [p.price for p in gig.packages]
+    days = [p.delivery_days for p in gig.packages]
+    revs = [p.revisions for p in gig.packages]
+    assert prices == sorted(prices) and len(set(prices)) == 3
+    assert days == sorted(days)
+    assert revs == sorted(revs)
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_higher_tiers_deliver_more_than_just_a_bigger_number(gig: fk.Gig) -> None:
+    sizes = [len(p.includes) for p in gig.packages]
+    assert sizes[-1] >= sizes[0], "Premium must include strictly more than Basic, not cost more."
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_every_package_declares_an_effort_estimate(gig: fk.Gig) -> None:
+    """Without one, the hourly return is unknowable and the floor check is theatre."""
+    for pkg in gig.packages:
+        assert pkg.est_human_hours > 0, f"{gig.key}/{pkg.name} declares no operator hours."
+        assert pkg.est_ai_hours >= pkg.est_human_hours, (
+            f"{gig.key}/{pkg.name} claims AI does less work than the human. If that is true the "
+            "gig is mispriced for this business; if it is not true the estimate is wrong."
+        )
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_gig_clears_the_operator_floor_or_says_in_writing_why_not(gig: fk.Gig) -> None:
+    """A gig that cannot clear the floor is a gig that loses money politely.
+
+    Underpricing is allowed - review-gated ranking makes it rational at the start - but only as
+    a declared decision. Silence is the failure mode this catches.
+    """
+    thin = [p.name for p in gig.packages if (p.implied_hourly or 0) < PROFILE.minimum_hourly]
+    if thin:
+        assert gig.below_floor_reason, f"{gig.key} prices {thin} under ${PROFILE.minimum_hourly:.0f}/h with no declared reason."
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_higher_tiers_do_not_pay_worse_per_hour(gig: fk.Gig) -> None:
+    """The scope-creep trap: buyer pays more, seller earns less per hour for the privilege."""
+    hourlies = [p.implied_hourly or 0 for p in gig.packages]
+    assert min(hourlies[1:]) >= hourlies[0] * 0.9, f"{gig.key} hourly returns degrade up the tiers: {hourlies}"
+
+
+def test_exactly_one_gig_is_below_floor_and_it_is_the_review_harvester() -> None:
+    """If this starts failing, the kit has drifted from 'one loss leader' to 'cheap across the board'."""
+    below = [g.key for g in ALL if g.below_floor_reason]
+    assert below == ["spreadsheet_cleanup"], below
+
+
+def test_the_below_floor_exemption_names_its_own_exit() -> None:
+    """An exemption with no retirement condition is just a permanent discount with paperwork."""
+    reason = next(g.below_floor_reason for g in ALL if g.below_floor_reason) or ""
+    assert "Level 1" in reason
+    assert any(w in reason.upper() for w in ("RETIRE", "RAISE"))
+    assert fk.summary()["below_floor"][0]["key"] == "spreadsheet_cleanup"
+
+
+def test_summary_reports_commission_adjusted_totals() -> None:
+    s = fk.summary()
+    assert s["commission"] == fk.COMMISSION
+    assert s["slots_used"] == len(ALL)
+    assert s["all_valid"] is True
+    assert s["total_basic_net"] == pytest.approx(sum(g.packages[0].net for g in ALL))
+
+
+# ------------------------------------------------------------------ honesty + compliance
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_no_gig_starts_published(gig: fk.Gig) -> None:
+    """Spec: 'Do NOT publish gigs without my approval.' DRAFT is the only legal initial state."""
+    assert gig.status == "DRAFT"
+
+
+def test_summary_states_that_publishing_is_manual() -> None:
+    note = fk.summary()["publishing_note"].lower()
+    assert "not published automatically" in note or "no seller api" in note
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_descriptions_make_no_claim_the_operator_cannot_back(gig: fk.Gig) -> None:
+    """Fabricated experience is a hard prohibition, and Fiverr suspends accounts over it.
+
+    Superlatives are the tell. A gig description may say what the work includes; it may not
+    assert a track record that does not exist yet - there are no Fiverr reviews on day one.
+    """
+    banned = [
+        "years of experience",
+        "hundreds of clients",
+        "thousands of",
+        "5-star",
+        "five star",
+        "award-winning",
+        "certified expert",
+        "guaranteed satisfaction",
+        "100% satisfaction",
+        "best on fiverr",
+        "top rated",
+        "trusted by",
+    ]
+    lowered = gig.description.lower()
+    found = [phrase for phrase in banned if phrase in lowered]
+    assert not found, f"{gig.key} claims {found}, which is not demonstrable."
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_every_gig_has_a_requirements_questionnaire(gig: fk.Gig) -> None:
+    # An incomplete questionnaire stops the order clock, which is the single most common way a
+    # new seller's on-time-delivery rate gets destroyed by something that was not their fault.
+    assert len(gig.requirements) >= 3
+
+
+@pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
+def test_every_gig_documents_why_it_earned_a_slot(gig: fk.Gig) -> None:
+    assert len(gig.rationale) > 80
+    assert len(gig.image_concept) > 40
+
+
+def test_ai_disclosure_note_is_present_and_does_not_advise_concealment() -> None:
+    note = fk.summary()["ai_disclosure_note"].lower()
+    assert "disclos" in note
+    for evasive in ("do not mention", "avoid mentioning", "conceal", "hide the"):
+        assert evasive not in note
+
+
+def test_to_dict_round_trips_the_fields_the_dashboard_renders() -> None:
+    d = ALL[0].to_dict()
+    for key in ("key", "title", "packages", "faqs", "requirements", "valid", "title_chars", "status"):
+        assert key in d
+    assert d["packages"][0]["net_after_commission"] == ALL[0].packages[0].net
+
+
+# ------------------------------------------------------------------ validator actually bites
+
+
+def test_validator_catches_an_over_length_title() -> None:
+    bad = fk.Gig(
+        key="t",
+        title="I will " + "x" * fk.MAX_TITLE_CHARS,
+        category="Data",
+        subcategory="x",
+        tags=["a"],
+        description="d",
+        packages=[fk.Package("Basic", 10.0, 1, 1), fk.Package("Standard", 20.0, 2, 1), fk.Package("Premium", 30.0, 3, 1)],
+        faqs=[],
+        requirements=["q"],
+        image_concept="i",
+        rationale="r",
+    )
+    assert any("Title is" in p for p in bad.validate())
+
+
+def test_validator_catches_a_missing_revision_and_a_sub_minimum_price() -> None:
+    bad = fk.Gig(
+        key="t",
+        title="I will do a thing",
+        category="Data",
+        subcategory="x",
+        tags=["a"],
+        description="d",
+        packages=[fk.Package("Basic", 3.0, 1, 0), fk.Package("Standard", 20.0, 2, 1), fk.Package("Premium", 30.0, 3, 1)],
+        faqs=[],
+        requirements=["q"],
+        image_concept="i",
+        rationale="r",
+    )
+    problems = bad.validate()
+    assert any("revisions" in p for p in problems)
+    assert any("minimum" in p for p in problems)
+
+
+def test_validator_catches_characters_fiverr_rejects_in_titles() -> None:
+    bad = fk.Gig(
+        key="t",
+        title="I will clean & consolidate your data",
+        category="Data",
+        subcategory="x",
+        tags=["a"],
+        description="d",
+        packages=[fk.Package("Basic", 10.0, 1, 1), fk.Package("Standard", 20.0, 2, 1), fk.Package("Premium", 30.0, 3, 1)],
+        faqs=[],
+        requirements=["q"],
+        image_concept="i",
+        rationale="r",
+    )
+    assert any("'&'" in p for p in bad.validate())

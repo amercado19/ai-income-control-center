@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import re
 
+from .classes import CLASS_LABEL, classify_class, estimate_win, weights_for
 from .config import PROFILE
 from .models import BudgetType, Opportunity, OpportunityStatus, RiskFlag, ScoreBreakdown
 from .money import Economics, automation_pct, compute
@@ -387,8 +388,8 @@ def detect_risks(opp: Opportunity) -> list[RiskFlag]:
 # ---------------------------------------------------------------------------
 
 
-def _skill_fit(opp: Opportunity, bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["skill_fit"]
+def _skill_fit(opp: Opportunity, bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["skill_fit"]
     text = _scoring_text(opp).lower()
     matched = sorted({s for s in PROFILE.skill_set() if s in text})
     domain_hits = sorted({d for d in PROFILE.strong_domains if d in text})
@@ -412,8 +413,8 @@ def _skill_fit(opp: Opportunity, bd: ScoreBreakdown) -> float:
     return awarded
 
 
-def _automation_potential(econ: Economics, bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["automation_potential"]
+def _automation_potential(econ: Economics, bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["automation_potential"]
     pct = automation_pct(econ)
     awarded = available * (pct / 100.0)
     bd.add_factor(
@@ -425,8 +426,8 @@ def _automation_potential(econ: Economics, bd: ScoreBreakdown) -> float:
     return awarded
 
 
-def _profitability(econ: Economics, bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["expected_profitability"]
+def _profitability(econ: Economics, bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["expected_profitability"]
     if econ.client_price <= 0:
         bd.add_factor("Expected Profitability", 0.0, available, "No budget stated, so profit cannot be estimated.")
         return 0.0
@@ -498,12 +499,17 @@ SOURCE_WIN_PRIOR: dict[str, tuple[float, str]] = {
         "New account with no Job Success Score competes against established freelancers; clients filter on JSS before reading proposals.",
     ),
     "fiverr": (0.30, "Inbound only; ranking depends on gig history this account does not yet have."),
-    "demo": (0.50, "Synthetic."),
+    "demo": (
+        0.75,
+        "Synthetic. The demo listings are written as direct-client scenarios (a named company "
+        "briefing a specific piece of work), not marketplace bids, so they carry a direct-client "
+        "prior rather than a marketplace one.",
+    ),
 }
 
 
-def _likelihood_of_winning(opp: Opportunity, econ: Economics, bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["likelihood_of_winning"]
+def _likelihood_of_winning(opp: Opportunity, econ: Economics, bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["likelihood_of_winning"]
     prior, reason = SOURCE_WIN_PRIOR.get(opp.source, (0.40, "Unknown source; neutral prior."))
     factor = prior
     notes = [reason]
@@ -523,36 +529,41 @@ def _likelihood_of_winning(opp: Opportunity, econ: Economics, bd: ScoreBreakdown
     return awarded
 
 
-def _clarity(opp: Opportunity, bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["clarity_of_requirements"]
-    score, notes = 0.0, []
+def _clarity(opp: Opportunity, bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["clarity_of_requirements"]
     desc = opp.description or ""
+    notes: list[str] = []
 
+    # Components are expressed as FRACTIONS of the available points, not fixed numbers. The
+    # per-class weighting changes `available`, and a hardcoded 4 + 2 + 2 + 2 quietly exceeded it
+    # once clarity was up-weighted for small jobs.
+    earned = 0.0
     if len(desc) >= 800:
-        score += 4
+        earned += 0.40
         notes.append("detailed description (>=800 chars)")
     elif len(desc) >= 300:
-        score += 2.5
+        earned += 0.25
         notes.append("moderate description (>=300 chars)")
     else:
         notes.append("thin description")
 
     if opp.skills:
-        score += 2
+        earned += 0.20
         notes.append(f"{len(opp.skills)} skills specified")
     if opp.budget_min is not None or opp.budget_max is not None:
-        score += 2
+        earned += 0.20
         notes.append("budget stated")
     if re.search(r"\b(deliverable|acceptance|requirement|scope|milestone)s?\b", desc, re.I):
-        score += 2
+        earned += 0.20
         notes.append("deliverables or scope named")
 
-    bd.add_factor("Clarity of Requirements", min(score, available), available, "; ".join(notes).capitalize() + ".")
-    return min(score, available)
+    awarded = min(available, available * earned)
+    bd.add_factor("Clarity of Requirements", awarded, available, "; ".join(notes).capitalize() + ".")
+    return awarded
 
 
-def _risk_factor(flags: list[RiskFlag], bd: ScoreBreakdown) -> float:
-    available = WEIGHTS["risk"]
+def _risk_factor(flags: list[RiskFlag], bd: ScoreBreakdown, w: dict[str, float]) -> float:
+    available = w["risk"]
     soft = [f for f in flags if f in PENALTY_POINTS or f == RiskFlag.AI_PROHIBITED]
     if not soft:
         bd.add_factor("Risk", available, available, "No risk flags detected.")
@@ -624,13 +635,21 @@ def score_opportunity(opp: Opportunity, *, allow_manual_ai_prohibited: bool = Fa
         return bd
 
     # --- factors ------------------------------------------------------------
+    # Per-class weights: a $60 spreadsheet job and a $160/hour senior contract are not the same
+    # business and must not be scored on the same assumptions. See aicc.classes.
+    cls_ = classify_class(opp)
+    opp.opportunity_class = cls_.value
+    w = weights_for(cls_, WEIGHTS)
+    bd.weights_used = dict(w)
+    bd.opportunity_class = CLASS_LABEL[cls_]
+
     total = 0.0
-    total += _skill_fit(opp, bd)
-    total += _automation_potential(econ, bd)
-    total += _profitability(econ, bd)
-    total += _likelihood_of_winning(opp, econ, bd)
-    total += _clarity(opp, bd)
-    total += _risk_factor(flags, bd)
+    total += _skill_fit(opp, bd, w)
+    total += _automation_potential(econ, bd, w)
+    total += _profitability(econ, bd, w)
+    total += _likelihood_of_winning(opp, econ, bd, w)
+    total += _clarity(opp, bd, w)
+    total += _risk_factor(flags, bd, w)
     bd.raw_total = round(total, 1)
 
     # --- penalties ----------------------------------------------------------
@@ -654,10 +673,12 @@ def score_opportunity(opp: Opportunity, *, allow_manual_ai_prohibited: bool = Fa
     bd.final_score = final
 
     opp.score = final
-    opp.match_score = round(bd.factors.get("Skill Fit", {}).get("awarded", 0.0) / WEIGHTS["skill_fit"] * 100, 1)
-    opp.profit_score = round(bd.factors.get("Expected Profitability", {}).get("awarded", 0.0) / WEIGHTS["expected_profitability"] * 100, 1)
+    opp.match_score = round(bd.factors.get("Skill Fit", {}).get("awarded", 0.0) / max(w["skill_fit"], 0.01) * 100, 1)
+    opp.profit_score = round(
+        bd.factors.get("Expected Profitability", {}).get("awarded", 0.0) / max(w["expected_profitability"], 0.01) * 100, 1
+    )
     opp.competition_score = round(
-        bd.factors.get("Likelihood of Winning", {}).get("awarded", 0.0) / WEIGHTS["likelihood_of_winning"] * 100, 1
+        bd.factors.get("Likelihood of Winning", {}).get("awarded", 0.0) / max(w["likelihood_of_winning"], 0.01) * 100, 1
     )
 
     name, _light = band(final)
@@ -672,6 +693,9 @@ def score_opportunity(opp: Opportunity, *, allow_manual_ai_prohibited: bool = Fa
     if RiskFlag.SECURITY_SENSITIVE in flags:
         opp.status = OpportunityStatus.REVIEW.value
         bd.add_penalty("MANUAL_REVIEW_REQUIRED", 0.0, "Security-sensitive work always goes to manual review.")
+
+    prior, _reason = SOURCE_WIN_PRIOR.get(opp.source, (0.40, "Unknown source."))
+    opp.win_estimate = estimate_win(opp, source_prior=prior, class_=cls_).to_dict()
 
     opp.score_breakdown = bd.to_dict()
     return bd

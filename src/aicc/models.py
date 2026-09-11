@@ -135,11 +135,16 @@ class ScoreBreakdown:
     final_score: float = 0.0
     rejected: bool = False
     rejection_reason: str = ""
+    opportunity_class: str = ""
+    weights_used: dict[str, float] = field(default_factory=dict)
 
     def add_factor(self, name: str, awarded: float, available: float, evidence: str) -> None:
+        # Both are rounded to the same precision. Rounding only `awarded` made a factor look like
+        # it had exceeded its weight (8.0 against an available 7.96) purely as a display artifact,
+        # which a test then correctly flagged.
         self.factors[name] = {
-            "awarded": round(awarded, 1),
-            "available": available,
+            "awarded": round(min(awarded, available), 1),
+            "available": round(available, 1),
             "evidence": evidence,
         }
 
@@ -158,6 +163,8 @@ class ScoreBreakdown:
             final_score=d.get("final_score", 0.0),
             rejected=d.get("rejected", False),
             rejection_reason=d.get("rejection_reason", ""),
+            opportunity_class=d.get("opportunity_class", ""),
+            weights_used=d.get("weights_used", {}),
         )
 
 
@@ -209,6 +216,8 @@ class Opportunity:
     score: float = 0.0
     score_band: str = ""
     score_breakdown: dict[str, Any] = field(default_factory=dict)
+    opportunity_class: str = ""
+    win_estimate: dict[str, Any] = field(default_factory=dict)
 
     # lifecycle
     status: str = OpportunityStatus.NEW.value

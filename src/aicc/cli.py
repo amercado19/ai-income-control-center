@@ -11,7 +11,7 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
-from . import audit, health, money, proposals, scoring, state, storage
+from . import audit, fiverr_kit, health, money, proposals, scoring, state, storage
 from .config import BRAND_NAME, MAX_NEW_MONTHLY_CASH_SPEND, RUNS_DIR, ensure_dirs
 from .connectors import LIVE_DISCOVERY_ORDER, get, registry
 from .models import Actor, JobStatus, Opportunity, OpportunityStatus
@@ -326,6 +326,58 @@ def cmd_top(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_fiverr(args: argparse.Namespace) -> int:
+    """Inspect the gig kit and mark a gig ready.
+
+    ``ready`` deliberately stops one step short of publishing. Fiverr has no seller API, so
+    there is nothing to call even if it were permitted - and the category locks permanently the
+    moment a gig is saved, which makes the last step one a human should take with their eyes open.
+    """
+    kit = fiverr_kit.summary()
+    if args.action == "check":
+        for gig in kit["gigs"]:
+            problems = gig["validation"]
+            mark = "OK  " if gig["valid"] else "FAIL"
+            _print(f"{mark} {gig['key']:22s} {gig['title_chars']:>2}/80 title  {gig['description_chars']:>4}/1200 desc  [{gig['status']}]")
+            for p_ in problems:
+                _print(f"       - {p_}")
+            for pkg in gig["packages"]:
+                hourly = pkg["implied_hourly"]
+                _print(
+                    f"       {pkg['name']:9s} ${pkg['price']:>7,.0f} list  ${pkg['net_after_commission']:>7,.0f} net  "
+                    f"{pkg['est_human_hours']:>4.2f}h you  ${hourly:>6,.2f}/h"
+                )
+        for entry in kit["below_floor"]:
+            _print(f"\nBELOW FLOOR (declared): {entry['key']}\n  {entry['reason']}")
+        _print(f"\n{kit['slots_used']} of {kit['slots_available']} new-seller slots used.")
+        _print(kit["publishing_note"])
+        return 0 if kit["all_valid"] else 1
+
+    gig = next((g for g in fiverr_kit.all_gigs() if g.key == args.key), None)
+    if gig is None:
+        _print(f"No gig with key {args.key!r}. Known: {', '.join(g.key for g in fiverr_kit.all_gigs())}")
+        return 2
+    problems = gig.validate()
+    if problems:
+        _print(f"REFUSED: {gig.key} has {len(problems)} unresolved problem(s):")
+        for p_ in problems:
+            _print(f"  - {p_}")
+        return 1
+    audit.record(
+        "fiverr.mark_ready",
+        actor=Actor.ANDRES,
+        object_type="gig",
+        object_id=gig.key,
+        source="fiverr",
+        before={"status": gig.status},
+        after={"status": "READY_TO_PUBLISH", "title": gig.title},
+    )
+    _print(f"{gig.key} marked READY TO PUBLISH and recorded in the audit log.")
+    _print("Publish it yourself at https://www.fiverr.com/manage_gigs - there is no seller API,")
+    _print("and the category cannot be changed after you save.")
+    return 0
+
+
 # ---------------------------------------------------------------------------
 # Parser
 # ---------------------------------------------------------------------------
@@ -395,6 +447,11 @@ def build_parser() -> argparse.ArgumentParser:
     t = sub.add_parser("top", help="Top opportunities with full score reasoning")
     t.add_argument("--limit", type=int, default=10)
     t.set_defaults(func=cmd_top)
+
+    fv = sub.add_parser("fiverr", help="Inspect the Fiverr gig kit; mark a gig ready to publish")
+    fv.add_argument("action", choices=["check", "ready"])
+    fv.add_argument("key", nargs="?", help="Gig key, required for 'ready'")
+    fv.set_defaults(func=cmd_fiverr)
 
     return p
 
