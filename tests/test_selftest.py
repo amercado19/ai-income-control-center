@@ -131,3 +131,57 @@ def test_report_serialises_for_ci() -> None:
     assert d["ok"] is True
     assert d["passed"] == len(selftest.CHECKS)
     assert all({"name", "status", "detail", "invariant"} <= set(c) for c in d["checks"])
+
+
+# ------------------------------------------------------------------ actions budget
+
+
+def _budget_module():
+    import importlib.util
+    import sys
+    from pathlib import Path
+
+    spec = importlib.util.spec_from_file_location(
+        "actions_budget", Path(__file__).resolve().parent.parent / "scripts" / "actions_budget.py"
+    )
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    # Register before executing: @dataclass resolves its module through sys.modules, and a
+    # module missing from there makes every dataclass in the file fail to build.
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+@pytest.mark.parametrize(
+    "expr,expected",
+    [
+        ("0 */6 * * *", 121.8),  # four times a day
+        ("25 11 * * *", 30.4),  # once a day
+        ("0 0 * * 1", 4.3),  # weekly
+        ("0 * * * *", 730.6),  # hourly
+    ],
+)
+def test_cron_estimates_are_in_the_right_order_of_magnitude(expr: str, expected: float) -> None:
+    mod = _budget_module()
+    assert mod.cron_runs_per_month(expr) == pytest.approx(expected, rel=0.02)
+
+
+def test_a_malformed_cron_counts_as_zero_rather_than_guessing() -> None:
+    mod = _budget_module()
+    assert mod.cron_runs_per_month("not a cron") == 0.0
+    assert mod.cron_runs_per_month("0 0 *") == 0.0
+
+
+def test_reusable_workflows_are_not_double_counted() -> None:
+    """A reusable workflow is billed under its caller. Counting it separately doubles every run."""
+    mod = _budget_module()
+    files = {w.file for w in mod.read_workflows()}
+    assert not any(f.startswith("_") for f in files), files
+
+
+def test_the_whole_schedule_fits_the_free_private_allowance() -> None:
+    """It costs nothing while the repo is public. This guards the day it is not."""
+    mod = _budget_module()
+    total = sum(w.minutes_per_month for w in mod.read_workflows())
+    assert total < mod.FREE_PRIVATE_MINUTES, f"{total:.0f} min/mo exceeds the {mod.FREE_PRIVATE_MINUTES} free private minutes."

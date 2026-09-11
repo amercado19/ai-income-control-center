@@ -278,15 +278,19 @@ def test_summary_counts_how_many_gigs_have_an_image() -> None:
 
 
 def test_every_gig_has_an_image_renderer() -> None:
-    """A gig with no renderer would publish without an image, which performs badly on Fiverr."""
-    import importlib.util
+    """A gig with no renderer would publish without an image, which performs badly on Fiverr.
+
+    Reads the registry out of the source rather than importing it. `pytest` runs from its own
+    managed environment, which has no Pillow, so importing the script would make this check
+    SKIP - and a skipped check is not a passing one. The renderer registry is a plain literal,
+    so the text is as reliable here as the object would be, and it works everywhere.
+    """
+    import re
     from pathlib import Path
 
-    spec = importlib.util.spec_from_file_location("gig_images", Path(__file__).resolve().parent.parent / "scripts" / "gig_images.py")
-    assert spec and spec.loader
-    module = importlib.util.module_from_spec(spec)
-    try:
-        spec.loader.exec_module(module)
-    except SystemExit:
-        pytest.skip("Pillow not installed in this environment")
-    assert {g.key for g in ALL} <= set(module.RENDERERS)
+    source = (Path(__file__).resolve().parent.parent / "scripts" / "gig_images.py").read_text(encoding="utf-8")
+    block = re.search(r"^RENDERERS\s*[:=].*?\{(.*?)^\}", source, re.S | re.M)
+    assert block, "RENDERERS registry not found in scripts/gig_images.py"
+    registered = set(re.findall(r'"([a-z_]+)":', block.group(1)))
+    missing = {g.key for g in ALL} - registered
+    assert not missing, f"No image renderer for {sorted(missing)} - those gigs would publish without one."

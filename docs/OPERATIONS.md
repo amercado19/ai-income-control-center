@@ -160,3 +160,33 @@ Test your emergency stop before you rely on it. That is why it is on the checkli
    and should not be trusted until investigated.
 3. Weight changes are never automatic. Edit `scoring.WEIGHTS` in a commit, so the change is visible
    and reversible.
+
+---
+
+## GitHub Actions: the limit that is not minutes
+
+Run `python3 scripts/actions_budget.py` for the current numbers. As of September 2026 the whole
+schedule is roughly **660 minutes/month** across CI, discovery and the health check.
+
+That costs **$0.00**, because a public repository gets unlimited minutes on GitHub-hosted
+standard runners. It matters anyway for one reason: if this repository is ever made private,
+those 660 minutes draw against the 2,000 free minutes/month shared across the **whole account**
+— so it would compete with the NFL and MLB pipelines rather than adding to them. It still fits,
+with about 1,340 minutes of headroom, but the headroom is shared.
+
+**The limit that actually bites is different, and it is silent:**
+
+> A scheduled workflow is disabled automatically after **60 days of repository inactivity**.
+
+A repository that only runs scheduled jobs generates no "activity" of the kind that counts. So a
+quiet project switches its own automation off, and nothing announces it — you find out when you
+notice the dashboard has not moved in weeks.
+
+**Mitigation.** Any commit resets the clock, and the pipeline commits its own data on every run,
+so an actively running system keeps itself alive. A *paused* one does not — which is exactly the
+state in which you would least notice. If you pause the system for more than a month, expect to
+re-enable the schedules by hand when you come back, and check the Actions tab rather than
+assuming.
+
+This is the same class of failure the `freshness-alarm` workflow in `mlb-dashboard` exists to
+catch: not the job that crashes, but the one that quietly stops happening.
