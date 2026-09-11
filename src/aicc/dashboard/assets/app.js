@@ -246,6 +246,27 @@ function renderOpportunities() {
     ${(D.attribution || []).length ? `<div class="attrib">${D.attribution.map((a) => `Data from <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>`).join(" - ")}</div>` : ""}`;
 }
 
+/* The win estimate, with its calibration status attached to it rather than printed somewhere
+ * nearby. A probability displayed on its own acquires authority it has not earned: this one is
+ * a heuristic over source priors, listing age, class and competition, and has never been
+ * checked against a single real outcome because there are no outcomes yet. The step-by-step
+ * trail is shown for the same reason - a reader who can see it was assembled from four
+ * adjustments treats it differently from a reader shown only "81%". */
+function winHtml(o) {
+  const w = o.win_estimate || {};
+  if (!w.display) return "";
+  const steps = (w.factors || []).map((f) => `
+    <div class="factor"><div class="fname">${esc(f.factor)}</div>
+    <div class="fpts">${esc(f.effect)}</div>
+    <div class="fev">${esc(f.why)} <em>(${esc(f.from)} &rarr; ${esc(f.to)})</em></div></div>`).join("");
+  return `<div class="section-title">Estimated chance of winning</div>
+    <div class="note warn"><strong>${esc(w.display)}</strong> &mdash; ${esc(w.calibration || "uncalibrated")}.
+      This is a heuristic, not a measurement. It has never been tested against a real outcome,
+      because there are none yet. Treat it as a way of comparing listings to each other, not as
+      a probability you could bet on.</div>
+    ${steps}`;
+}
+
 function factorHtml(o) {
   if (o.rejected) return `<div class="note stop"><strong>Rejected.</strong> ${esc(o.rejection_reason)}</div>`;
   const factors = Object.entries(o.factors || {}).map(([name, f]) => `
@@ -258,7 +279,7 @@ function factorHtml(o) {
   const penalties = (o.penalties || []).map((p) => `
     <div class="factor penalty"><div class="fname">Penalty: ${esc(p.name)}</div>
     <div class="fpts">-${p.points}</div><div class="fev">${esc(p.evidence)}</div></div>`).join("");
-  return factors + penalties +
+  return factors + penalties + winHtml(o) +
     `<div class="note" style="margin-top:10px"><strong>Economics are an estimate, not an observation.</strong> ${esc(o.econ_method || "")}</div>`;
 }
 

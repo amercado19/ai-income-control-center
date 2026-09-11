@@ -570,3 +570,71 @@ def test_a_requirement_the_profile_covers_is_not_counted_as_unmet() -> None:
     text = "Must have built automated python data pipelines in production. " * 4
     o = make_opportunity(source="hackernews", title="Role", description=text, skills=["python"])
     assert scoring._unmet_hard_requirements(o) == []
+
+
+# --------------------------------------------------- the win estimate must carry its own caveat
+
+
+def test_the_win_estimate_never_appears_without_its_calibration_status() -> None:
+    """A probability shown on its own acquires authority it has not earned.
+
+    This one is a heuristic over source priors, listing age, class and competition, and has
+    never been checked against a single real outcome because there are none yet. Displaying
+    "81%" without saying so is the exact failure mode the whole project is built to avoid.
+    """
+    from aicc.connectors.base import make_opportunity
+
+    o = make_opportunity(
+        source="hackernews",
+        title="Role",
+        description="Python data pipeline work. " * 20,
+        skills=["python"],
+        budget_min=90.0,
+        budget_type="HOURLY",
+    )
+    scoring.score_opportunity(o)
+    est = o.win_estimate or {}
+    assert est.get("display"), "No win estimate was produced."
+    assert "not calibrated" in est.get("calibration", "").lower()
+
+
+def test_the_win_estimate_shows_how_it_got_there() -> None:
+    """A reader who can see it was assembled from four adjustments treats it differently from
+    a reader shown only a number."""
+    from aicc.connectors.base import make_opportunity
+
+    o = make_opportunity(source="hackernews", title="Role", description="Python pipeline work. " * 20, skills=["python"])
+    scoring.score_opportunity(o)
+    factors = (o.win_estimate or {}).get("factors", [])
+    assert len(factors) >= 2
+    for f in factors:
+        assert f["factor"] and f["why"] and f["effect"]
+
+
+def test_the_dashboard_payload_carries_the_estimate_and_the_caveat_together() -> None:
+    """They must travel as one object; a payload that drops the caveat renders a bare number.
+
+    Seeds its own opportunity rather than reading the live store: tests run against an isolated
+    data directory, so depending on real data here would pass locally and silently assert
+    nothing in CI.
+    """
+    from aicc import storage
+    from aicc.connectors.base import make_opportunity
+    from aicc.dashboard.build import _collect
+
+    opp = make_opportunity(
+        source="hackernews",
+        title="Seeded role",
+        description="Build scheduled Python data pipelines for our reporting stack. " * 12,
+        skills=["python", "sql"],
+        budget_min=95.0,
+        budget_type="HOURLY",
+    )
+    scoring.score_opportunity(opp)
+    storage.opportunities.put(opp)
+
+    rows = [r for r in _collect()["opportunities"] if r["id"] == opp.id]
+    assert rows, "The seeded opportunity did not reach the dashboard payload."
+    est = rows[0]["win_estimate"]
+    assert est.get("display"), "The payload carried no win estimate."
+    assert "not calibrated" in est["calibration"].lower()

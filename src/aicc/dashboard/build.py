@@ -105,6 +105,8 @@ def _collect() -> dict[str, Any]:
                 "factors": bd.get("factors", {}),
                 "penalties": bd.get("penalties", []),
                 "econ_method": f"{econ.method} {econ.inputs.get('effort_basis', '')}",
+                "opportunity_class": o.opportunity_class,
+                "win_estimate": o.win_estimate or {},
             }
         )
 
