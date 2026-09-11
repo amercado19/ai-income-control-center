@@ -72,12 +72,34 @@ the terms. See `DECISIONS.md` → Open.
 
 ---
 
-## In progress
+## Live market test — done, and it earned its keep
 
-- **Live market test.** Blocked from this session's sandbox: the egress policy returns 403 for
-  hn.algolia.com, himalayas.app, remoteok.com and weworkremotely.com. **This is a sandbox
-  restriction, not a code defect** — GitHub Actions runners have open egress, so the first scheduled
-  run is the real verification. Parsers are tested against the verified response shapes.
+Nine real contract listings from the September 2026 Hacker News "Who is hiring?" thread were run
+through the live scoring engine. **It found four parser bugs that unit tests on synthetic data
+would never have caught**, all now fixed with regression tests drawn from the real text:
+
+| Bug | Consequence |
+|---|---|
+| `270-300 zł/hr` read as dollars | ~4x overvaluation. The currency guard only understood three-letter codes, not symbols. |
+| `30-40 hours/week` parsed as a rate | A time commitment priced as a wage. |
+| *"I do not use AI to screen your applications"* → AI_PROHIBITED | The client was describing **their own** process. A legitimate job was rejected outright. |
+| `ocr` matched inside "S**ocr**acy", `cli` inside "**cli**ent" | A GPU-container-orchestration role got the PDF-invoice proposal template. |
+
+Two new risk flags came out of it: `GEO_EXCLUDED` (a Polish firm's "Poland or Romanian residents
+only" now rejects rather than scoring 62.9) and `AI_PROPOSAL_DISCOURAGED` (a client asking for
+human-written *applications* now costs 6 points and a note to write it by hand, instead of
+rejecting the job).
+
+Current ranking of the real listings, and 3 proposals awaiting approval, are loaded in the
+dashboard.
+
+### Still unverified from this session
+
+The connectors' live HTTP paths. This sandbox's egress policy returns 403 for hn.algolia.com,
+himalayas.app, remoteok.com and weworkremotely.com, so listings were retrieved through a sanctioned
+fetch tool and fed through the real parsing and scoring code. **This is a sandbox restriction, not
+a code defect** — GitHub Actions runners have open egress. The first scheduled run is the real
+verification of the HTTP layer specifically.
 
 ---
 
