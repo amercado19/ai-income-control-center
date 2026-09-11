@@ -548,3 +548,95 @@ def test_the_body_guard_refuses_rather_than_silently_stripping() -> None:
         "What you would get:\n  - A consolidated workbook\n\nAvailability: soon.",
         ["A consolidated workbook"],
     )
+
+
+# ------------------------------------------------- role applications vs project proposals
+
+
+def _role(description: str, title: str = "Co - Senior Engineer"):
+    from aicc.classes import OpportunityClass
+    from aicc.connectors.base import make_opportunity
+
+    o = make_opportunity(source="hackernews", title=title, description=description, skills=["python"], budget_type="HOURLY")
+    o.opportunity_class = OpportunityClass.ONGOING.value
+    return o
+
+
+ROLE_TEXT = (
+    "Noricum | Senior Backend Engineer | REMOTE | $120-160/hr. We build money infrastructure. "
+    "Must have shipped: a double-entry ledger or equivalent money system in production, and a "
+    "payment integration including webhook idempotency. "
+)
+
+
+def test_an_ongoing_role_gets_an_application_not_a_project_proposal() -> None:
+    """'One question before I start' sent to a company hiring an engineer reads as a misread advert."""
+    from aicc.proposals import generate
+
+    body = generate(_role(ROLE_TEXT)).body
+    assert "One question before I start" not in body
+    assert "What you would get:" not in body
+    assert "Availability:" in body
+
+
+def test_an_application_states_the_gap_rather_than_hiding_it() -> None:
+    from aicc.proposals import generate
+
+    body = generate(_role(ROLE_TEXT)).body
+    assert "starting from less" in body
+    assert "double-entry ledger" in body
+    assert "I have not built that specific thing" in body
+
+
+def test_quoted_requirements_do_not_start_mid_clause() -> None:
+    """ "shipped: a double-entry ledger" reads as carelessness in the one paragraph whose
+    entire purpose is to sound candid."""
+    from aicc.proposals import _tidy_requirement, generate
+
+    assert _tidy_requirement("shipped: a double-entry ledger in production").startswith("a double-entry")
+    assert _tidy_requirement("experience with kubernetes at scale").startswith("kubernetes")
+    assert _tidy_requirement("shipped") == ""
+    assert "for shipped:" not in generate(_role(ROLE_TEXT)).body
+
+
+def test_a_job_ad_header_is_never_quoted_back_as_if_it_were_a_need() -> None:
+    """A job ad's first sentence is 'Company | Role | REMOTE | $rate'. Quoting that under
+    'you wrote' is a mail merge with the seams showing."""
+    from aicc.proposals import generate
+
+    header_only = "Acme | Staff Engineer | REMOTE (EU) | Full-time | $100-140/hr. We are growing fast. " * 3
+    body = generate(_role(header_only, title="Acme - Staff Engineer")).body
+    assert "You wrote:" not in body
+    assert "Here is what I would bring to it" in body
+
+
+def test_a_real_need_statement_is_still_quoted() -> None:
+    from aicc.proposals import generate
+
+    text = "Acme | Engineer | REMOTE. We want someone who can independently debug and validate what they ship. " * 3
+    body = generate(_role(text, title="Acme - Engineer")).body
+    assert "You wrote:" in body
+    assert "independently debug" in body
+
+
+def test_a_gig_keeps_the_project_register() -> None:
+    from aicc.classes import OpportunityClass
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import generate
+
+    text = "We have 14 monthly Excel exports with slightly different column names. Deliverables: one workbook. " * 3
+    o = make_opportunity(
+        source="demo", title="Consolidate spreadsheets", description=text, skills=["excel"], budget_min=400.0, budget_max=600.0
+    )
+    assert o.opportunity_class != OpportunityClass.ONGOING.value
+    body = generate(o).body
+    assert "What you would get:" in body
+
+
+def test_neither_register_ever_drops_the_ai_disclosure() -> None:
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import AI_DISCLOSURE, generate
+
+    gig = make_opportunity(source="demo", title="Gig", description="Clean this data. " * 30, skills=["excel"], budget_min=300.0)
+    assert AI_DISCLOSURE in generate(_role(ROLE_TEXT)).body
+    assert AI_DISCLOSURE in generate(gig).body

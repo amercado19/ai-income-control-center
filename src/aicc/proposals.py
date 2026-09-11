@@ -84,8 +84,15 @@ _CANDIDATE_REQUIREMENT = re.compile(
 )
 
 
-def extract_problem(opp: Opportunity) -> str:
-    """Name the client's actual problem in their own words where possible."""
+def extract_problem(opp: Opportunity, *, quotable_only: bool = False) -> str:
+    """Name the client's actual problem in their own words where possible.
+
+    ``quotable_only`` returns "" rather than falling back to the first sentence. The fallback
+    is fine for a project proposal, where the opening line is usually the brief - but a job
+    ad's first sentence is its pipe-delimited header, and quoting
+    "Company | Role | REMOTE | $120-160/hr" back at the person who wrote it, under the words
+    "you wrote", reads as a mail merge.
+    """
     text = getattr(opp, "full_description", None) or opp.description or ""
     pains = [m.group(1).strip() for m in _PAIN.finditer(text)]
     needs = [m.group(1).strip() for m in _NEED.finditer(text)]
@@ -93,6 +100,8 @@ def extract_problem(opp: Opportunity) -> str:
         return pains[0][:280]
     if needs:
         return needs[0][:280]
+    if quotable_only:
+        return ""
     first = re.split(r"(?<=[.!?])\s+", text.strip())
     return (first[0] if first else opp.title)[:280]
 
@@ -387,6 +396,24 @@ def draft(opp: Opportunity, *, include_ai_disclosure: bool = True) -> ProposalDr
 
 
 def render(opp: Opportunity, d: ProposalDraft, *, include_ai_disclosure: bool = True) -> str:
+    """Two registers, because a role and a gig are not the same document.
+
+    A project proposal says "here is how I would build the thing you described, and one
+    question before I start". Sent to a company hiring an engineer, that reads as someone who
+    has misread the advert - they are not commissioning a deliverable, they are choosing a
+    person, and there is no "before I start" to ask a question ahead of.
+
+    So an ONGOING opportunity gets an application: what of their stated need is already
+    demonstrable, what is not, and an offer to talk. The honesty rule is the same in both, and
+    the ONGOING form adds one of its own - it states plainly where the fit is partial, because
+    a hiring manager will find that out in ten minutes and finding it out from the applicant
+    first is worth more than the sentence costs.
+    """
+    from .classes import OpportunityClass
+
+    if opp.opportunity_class == OpportunityClass.ONGOING.value:
+        return _render_application(opp, d, include_ai_disclosure=include_ai_disclosure)
+
     lines = [
         f"Re: {opp.title}",
         "",
@@ -409,6 +436,58 @@ def render(opp: Opportunity, d: ProposalDraft, *, include_ai_disclosure: bool = 
     body = "\n".join(lines)
     _assert_no_echoed_requirements(body, d.deliverables)
     return body
+
+
+def _render_application(opp: Opportunity, d: ProposalDraft, *, include_ai_disclosure: bool = True) -> str:
+    """An application for an ongoing role, not a proposal for a project."""
+    from .scoring import _unmet_hard_requirements
+
+    quoted = extract_problem(opp, quotable_only=True)
+    lines = [f"Re: {opp.title}", ""]
+    if quoted:
+        lines += [f'You wrote: "{quoted}"', "", "That is the part I can speak to directly.", ""]
+    else:
+        lines += ["Here is what I would bring to it, and where I would not.", ""]
+    lines += [d.experience, ""]
+
+    # Naming the gap. A hiring manager finds it in ten minutes anyway, and hearing it from the
+    # applicant first is worth more than the sentence costs - it is also the only version of
+    # this document that is true.
+    unmet = [t for t in (_tidy_requirement(u) for u in _unmet_hard_requirements(opp)) if t]
+    if unmet:
+        lines += [
+            "Where I would be starting from less: you asked for "
+            + "; ".join(unmet[:2])
+            + ". I have not built that specific thing, and I would rather say so now than have "
+            "you find out in week two. What I would bring is the habit the list above describes - "
+            "failure cases handled first, and work that reconciles.",
+            "",
+        ]
+
+    lines += [
+        f"Availability: {d.turnaround}.",
+        "",
+        "Happy to talk it through whenever suits you.",
+        "",
+    ]
+    if include_ai_disclosure:
+        lines += [AI_DISCLOSURE, ""]
+    lines += [PROFILE.name]
+    body = "\n".join(lines)
+    _assert_no_echoed_requirements(body, d.deliverables)
+    return body
+
+
+# The requirement extractor matches on the lead-in phrase, so what it captures can begin
+# mid-clause: "must have shipped: a double-entry ledger" yields "shipped: a double-entry
+# ledger". Quoting that back reads as carelessness, which is a bad look in the one paragraph
+# whose entire purpose is to sound candid.
+_REQ_LEAD_IN = re.compile(r"^(?:shipped|built|worked|experience|expertise|knowledge|a background)\b[:\s,-]*(?:with|in|on|of)?\s*", re.I)
+
+
+def _tidy_requirement(phrase: str) -> str:
+    cleaned = _REQ_LEAD_IN.sub("", phrase).strip(" ,:;-")
+    return cleaned[:90] if len(cleaned) >= 8 else ""
 
 
 def _assert_no_echoed_requirements(body: str, deliverables: list[str]) -> None:
