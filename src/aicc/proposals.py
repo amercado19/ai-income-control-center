@@ -57,7 +57,31 @@ _PAIN = re.compile(
 )
 _NEED = re.compile(r"([^.!?\n]*\b(?:we need|we want|looking for|need someone to|must be able to)\b[^.!?\n]*)", re.I)
 _DELIVERABLE_LINE = re.compile(r"(?:deliverables?|you will (?:provide|deliver)|output)[:\s]+([^.\n]{10,300})", re.I)
-_REQUIREMENT_LINE = re.compile(r"(?:requirements?|acceptance criteria|must)[:\s]+([^.\n]{10,300})", re.I)
+_ACCEPTANCE_LINE = re.compile(r"(?:acceptance criteria|definition of done|success looks like)[:\s]+([^.\n]{10,300})", re.I)
+
+# Things the CANDIDATE must already have. These are emphatically NOT deliverables, and the
+# distinction is not pedantic - it produced the worst defect this generator has had.
+#
+# A real draft for a Senior Backend Engineer role rendered:
+#
+#     What you would get:
+#       - Have shipped: a double-entry ledger or equivalent money system in production
+#       - A payment integration including webhook idempotency
+#
+# Those are the client's hiring requirements, echoed back as things Andres offers. Read
+# plainly, that is a claim to have shipped a production double-entry ledger. He has not. It
+# would have gone out as fabricated experience - the one thing this system exists to refuse -
+# and the claim verifier never saw it, because it guards the experience section and this text
+# arrived through the deliverables list.
+#
+# So candidate requirements are matched only to be EXCLUDED. Nothing matching this may ever
+# reach a proposal body.
+_CANDIDATE_REQUIREMENT = re.compile(
+    r"\b(?:requirements?|qualifications?|must have|should have|you have|you['’]ll have|"
+    r"have shipped|experience (?:with|in)|\d\+?\s*years?|we require|ideal candidate|"
+    r"you are|nice to have|bonus points|about you)\b",
+    re.I,
+)
 
 
 def extract_problem(opp: Opportunity) -> str:
@@ -74,15 +98,27 @@ def extract_problem(opp: Opportunity) -> str:
 
 
 def extract_deliverables(opp: Opportunity) -> list[str]:
+    """What the CLIENT will receive - never what they are asking the candidate to already be.
+
+    Returns an empty list rather than guessing. The caller falls back to honest generic
+    deliverables, which is always better than echoing the job description back as an offer.
+    """
+    body = getattr(opp, "full_description", None) or opp.description or ""
     out: list[str] = []
-    for pattern in (_DELIVERABLE_LINE, _REQUIREMENT_LINE):
-        body = getattr(opp, "full_description", None) or opp.description or ""
+    for pattern in (_DELIVERABLE_LINE, _ACCEPTANCE_LINE):
         for m in pattern.finditer(body):
             chunk = m.group(1).strip()
+            # The matched line itself may be a requirements heading that happens to contain
+            # the word "output" or "deliver". Drop the whole chunk in that case.
+            if _CANDIDATE_REQUIREMENT.search(chunk):
+                continue
             for part in re.split(r",\s+(?=[a-z])|;\s*", chunk):
                 part = part.strip(" .")
-                if 8 <= len(part) <= 160:
-                    out.append(part[0].upper() + part[1:])
+                if not (8 <= len(part) <= 160):
+                    continue
+                if _CANDIDATE_REQUIREMENT.search(part):
+                    continue
+                out.append(part[0].upper() + part[1:])
     seen, unique = set(), []
     for d in out:
         key = d.lower()[:40]
@@ -370,7 +406,37 @@ def render(opp: Opportunity, d: ProposalDraft, *, include_ai_disclosure: bool = 
     if include_ai_disclosure:
         lines += [AI_DISCLOSURE, ""]
     lines += [PROFILE.name]
-    return "\n".join(lines)
+    body = "\n".join(lines)
+    _assert_no_echoed_requirements(body, d.deliverables)
+    return body
+
+
+def _assert_no_echoed_requirements(body: str, deliverables: list[str]) -> None:
+    """Last line of defence against offering the client their own hiring criteria back.
+
+    The specific failure this exists to stop: a Senior Backend Engineer listing's
+    "must have shipped a double-entry ledger in production" appearing under "What you would
+    get", which reads as a claim to have done it. Filtering at extraction should already
+    prevent it; this checks the finished text, because any future path into the deliverables
+    list would otherwise reintroduce it silently.
+
+    Raises rather than sanitising. A proposal quietly stripped of a sentence is a proposal
+    nobody reviewed, and this is the class of error that gets an account suspended.
+    """
+    for item in deliverables:
+        if _CANDIDATE_REQUIREMENT.search(item):
+            raise UnverifiableClaimError(
+                f"Refusing to send a proposal offering {item!r} as a deliverable: that is the "
+                "client's requirement of the candidate, not something being delivered. Presenting "
+                "it as an offer is a claim to have already done it."
+            )
+    if "What you would get:" in body:
+        offered = body.split("What you would get:", 1)[1].split("\n\n", 1)[0]
+        if _CANDIDATE_REQUIREMENT.search(offered):
+            raise UnverifiableClaimError(
+                "Refusing to send a proposal whose deliverables section restates the job's "
+                f"candidate requirements: {offered.strip()[:160]!r}"
+            )
 
 
 def generate(opp: Opportunity, *, include_ai_disclosure: bool = True) -> Proposal:

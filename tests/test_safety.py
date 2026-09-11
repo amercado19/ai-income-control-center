@@ -464,3 +464,87 @@ def test_part_time_and_contract_are_not_penalised() -> None:
         opp = Opportunity(source="hackernews", title="Co - Data Engineer", description=text, skills=["python"], engagement_type=commitment)
         scoring.score_opportunity(opp)
         assert RiskFlag.FULL_TIME_EMPLOYMENT.value not in opp.risk_flags, commitment
+
+
+# ------------------------------------------------- echoing a job's requirements back as an offer
+#
+# The worst defect this generator has had, found by reading a real drafted proposal rather than
+# by any test. A Senior Backend Engineer listing produced:
+#
+#     What you would get:
+#       - Have shipped: a double-entry ledger or equivalent money system in production
+#       - A payment integration including webhook idempotency
+#
+# Those are the CLIENT'S hiring requirements, echoed back as things on offer. Read plainly it
+# claims a production double-entry ledger he has never built. That is fabricated experience -
+# the single thing this system exists to refuse - and the claim verifier never saw it, because
+# it guards the experience section while this text arrived through the deliverables list.
+
+NORICUM = (
+    "Noricum | Senior Backend Engineer, Payments, Ledger & Provable Fairness | REMOTE | "
+    "Contract to permanent | $120-160/hr. We build money infrastructure. "
+    "Requirements: have shipped a double-entry ledger or equivalent money system in production, "
+    "a payment integration including webhook idempotency, auth and sessions you built and operated, "
+    "and infrastructure you owned end to end. "
+    "You have 5+ years of backend experience. Nice to have: Rust."
+)
+
+
+def test_candidate_requirements_never_become_deliverables() -> None:
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import extract_deliverables
+
+    opp = make_opportunity(source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM, skills=["python"])
+    for item in extract_deliverables(opp):
+        low = item.lower()
+        for phrase in ("have shipped", "double-entry ledger", "years of", "you built and operated", "nice to have"):
+            assert phrase not in low, f"Offered the client their own requirement back: {item!r}"
+
+
+def test_a_listing_with_only_requirements_yields_honest_generic_deliverables() -> None:
+    """Empty beats invented. The caller falls back to what is actually always true."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import extract_deliverables, generate
+
+    opp = make_opportunity(source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM, skills=["python"])
+    assert extract_deliverables(opp) == []
+    body = generate(opp).body
+    assert "double-entry ledger" not in body.lower()
+    assert "The completed work product in the format you specified" in body
+
+
+def test_genuine_deliverables_are_still_extracted() -> None:
+    """The fix must not make the generator generic for listings that do state deliverables."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import extract_deliverables
+
+    text = (
+        "We have 14 monthly sales spreadsheets that do not line up. "
+        "Deliverables: one consolidated workbook, a reconciliation tab, and the script used. "
+        "Budget $400-600."
+    )
+    opp = make_opportunity(source="demo", title="Consolidate spreadsheets", description=text, skills=["excel"])
+    got = " ".join(extract_deliverables(opp)).lower()
+    assert "consolidated workbook" in got
+    assert "reconciliation tab" in got
+
+
+def test_the_body_guard_refuses_rather_than_silently_stripping() -> None:
+    """A proposal quietly stripped of a sentence is a proposal nobody reviewed."""
+    import pytest as _pytest
+
+    from aicc.proposals import ProposalDraft, UnverifiableClaimError, _assert_no_echoed_requirements
+
+    assert ProposalDraft  # the dataclass the guard protects
+    with _pytest.raises(UnverifiableClaimError):
+        _assert_no_echoed_requirements("body", ["Have shipped a production ledger"])
+    with _pytest.raises(UnverifiableClaimError):
+        _assert_no_echoed_requirements(
+            "What you would get:\n  - 5+ years of backend experience\n\nAvailability: soon.",
+            ["something harmless"],
+        )
+    # An honest body passes untouched.
+    _assert_no_echoed_requirements(
+        "What you would get:\n  - A consolidated workbook\n\nAvailability: soon.",
+        ["A consolidated workbook"],
+    )

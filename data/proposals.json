@@ -131,6 +131,39 @@
     "turnaround": "4-5 business days from a confirmed brief",
     "updated_at": "2026-09-11T19:56:31+00:00"
   },
+  "prop_8cf6fdf9b1d0": {
+    "ai_disclosure_included": true,
+    "approved_at": "2026-09-11T20:05:31+00:00",
+    "approved_by": "ANDRES",
+    "body": "Re: [DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook\n\nYou said: \"We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows\"\n\nHere is how I would approach it.\n\nI would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.\n\nWhat you would get:\n  - The completed work product in the format you specified\n  - The script or process used, so you can re-run it yourself\n  - A short note on method and any data-quality issues found\n\nTimeline: 4-5 business days from a confirmed brief.\n\nRelevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- Static dashboards built by CI and published to GitHub Pages, mobile-responsive with offline support.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nOne question before I start: When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "generated dashboards"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?",
+    "created_at": "2026-09-11T20:05:31+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_8cf6fdf9b1d0",
+    "is_demo": true,
+    "opportunity_id": "opp_39501e455687",
+    "problem_statement": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows",
+    "proposed_solution": "I would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.",
+    "quoted_price": 500.0,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- Static dashboards built by CI and published to GitHub Pages, mobile-responsive with offline support.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "demo",
+    "status": "SUBMITTED",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "2026-09-11T20:05:31+00:00",
+    "turnaround": "4-5 business days from a confirmed brief",
+    "updated_at": "2026-09-11T20:05:31+00:00"
+  },
   "prop_9410b4aee7d8": {
     "ai_disclosure_included": true,
     "approved_at": "2026-09-11T19:26:45+00:00",
