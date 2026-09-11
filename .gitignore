@@ -37,6 +37,10 @@ dist/
 # Generated site output (built by CI, pushed to the dashboard repo)
 site/
 
+# Browser-test output. Screenshots are evidence of a run, not source: they are large,
+# they go stale the moment the dashboard changes, and re-running the test regenerates them.
+runs/screens/
+
 # Local scratch
 scratchpad/
 _to_delete/

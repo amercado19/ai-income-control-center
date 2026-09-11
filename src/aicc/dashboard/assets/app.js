@@ -459,6 +459,10 @@ PAGES.fiverr = () => {
       <div class="note">${esc(k.publishing_note)}</div>
       <div class="note" style="margin-top:10px">${esc(k.ai_disclosure_note)}</div>
       ${floorNote}
+      <div class="cell-sub" style="margin-top:10px">Implied /h is what you net divided by your own hours, with AI doing the rest.
+        ${badge("$" + k.target_hourly + "/h+", "GREEN")} meets your target &middot;
+        ${badge("$" + k.floor_hourly + "-" + k.target_hourly, "YELLOW")} clears your floor &middot;
+        ${badge("under $" + k.floor_hourly, "RED")} below it.</div>
     </div>
     ${k.gigs.map((g) => `<div class="card card-pad" style="margin-top:14px">
       <div class="btn-row" style="justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
@@ -472,28 +476,36 @@ PAGES.fiverr = () => {
         </div>
       </div>
       ${g.validation.length ? `<div class="note" style="margin-top:10px;color:var(--red)">${g.validation.map(esc).join("<br>")}</div>` : ""}
-      <div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Package</th><th>List</th><th>You net</th><th>Your hours</th><th>Implied /h</th><th>Delivery</th><th>Revisions</th></tr></thead>
+      <div class="table-wrap" style="margin-top:12px"><table class="fits-narrow"><thead><tr><th>Package</th><th>List</th><th>You net</th><th>Your hours</th><th>Implied /h</th><th class="hide-narrow">Delivery</th><th class="hide-narrow">Revisions</th></tr></thead>
       <tbody>${g.packages.map((p) => `<tr>
-        <td class="cell-title">${esc(p.name)}<span class="cell-sub">${p.includes.map(esc).join(" &middot; ")}</span></td>
+        <td><span class="cell-title">${esc(p.name)}</span><span class="cell-sub">${p.includes.length} item${p.includes.length === 1 ? "" : "s"}</span></td>
         <td>${money(p.price)}</td>
         <td>${money(p.net_after_commission)}</td>
         <td><span class="cell-sub">${p.est_human_hours}h you + ${p.est_ai_hours}h AI</span></td>
         <td>${badge(money(p.implied_hourly) + "/h", p.implied_hourly >= k.target_hourly ? "GREEN" : p.implied_hourly >= k.floor_hourly ? "YELLOW" : "RED")}</td>
-        <td><span class="cell-sub">${p.delivery_days}d</span></td>
-        <td><span class="cell-sub">${p.revisions}</span></td>
+        <td class="hide-narrow"><span class="cell-sub">${p.delivery_days}d</span></td>
+        <td class="hide-narrow"><span class="cell-sub">${p.revisions}</span></td>
       </tr>`).join("")}</tbody></table></div>
-      <div class="section-title">Description</div>
-      <pre class="proposal">${esc(g.description)}</pre>
-      <div class="section-title">Search tags</div>
-      <div class="btn-row" style="flex-wrap:wrap">${g.tags.map((t) => badge(t, "WHITE")).join(" ")}</div>
-      <div class="section-title">Buyer requirements</div>
-      <ul class="cell-sub" style="margin:0;padding-left:18px">${g.requirements.map((r) => `<li>${esc(r)}</li>`).join("")}</ul>
-      <div class="section-title">FAQ</div>
-      <dl style="margin:0">${g.faqs.map((f) => `<dt class="cell-title" style="margin-top:8px">${esc(f.q)}</dt><dd class="cell-sub" style="margin:2px 0 0">${esc(f.a)}</dd>`).join("")}</dl>
-      <div class="section-title">Gig image concept</div>
-      <div class="note">${esc(g.image_concept)}</div>
-      <div class="section-title">Why this gig earned a slot</div>
-      <div class="note">${esc(g.rationale)}</div>
+      <details class="disclosure">
+        <summary>Full listing copy - package contents, description, ${g.tags.length} tags, ${g.requirements.length} requirements, ${g.faqs.length} FAQs</summary>
+        <div class="section-title">What each package includes</div>
+        ${g.packages.map((p) => `<div style="margin-bottom:10px">
+          <span class="cell-title">${esc(p.name)} - ${money(p.price)} &middot; ${p.delivery_days}-day delivery &middot; ${p.revisions} revision${p.revisions === 1 ? "" : "s"}</span>
+          <ul class="cell-sub" style="margin:2px 0 0;padding-left:18px">${p.includes.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>
+        </div>`).join("")}
+        <div class="section-title">Description</div>
+        <pre class="proposal">${esc(g.description)}</pre>
+        <div class="section-title">Search tags</div>
+        <div class="btn-row" style="flex-wrap:wrap">${g.tags.map((t) => badge(t, "WHITE")).join(" ")}</div>
+        <div class="section-title">Buyer requirements</div>
+        <ul class="cell-sub" style="margin:0;padding-left:18px">${g.requirements.map((r) => `<li>${esc(r)}</li>`).join("")}</ul>
+        <div class="section-title">FAQ</div>
+        <dl style="margin:0">${g.faqs.map((f) => `<dt class="cell-title" style="margin-top:8px">${esc(f.q)}</dt><dd class="cell-sub" style="margin:2px 0 0">${esc(f.a)}</dd>`).join("")}</dl>
+        <div class="section-title">Gig image concept</div>
+        <div class="note">${esc(g.image_concept)}</div>
+        <div class="section-title">Why this gig earned a slot</div>
+        <div class="note">${esc(g.rationale)}</div>
+      </details>
       <div class="btn-row" style="margin-top:14px">
         <button class="btn ghost" data-action="fiverr-edit:${esc(g.key)}">EDIT</button>
         <button class="btn" data-action="fiverr-ready:${esc(g.key)}" ${g.valid ? "" : "disabled"}>MARK READY TO PUBLISH</button>

@@ -378,3 +378,34 @@ pre.proposal {
 }
 
 @media print { .nav, .topbar, .btn-row, .mobile-cta { display: none !important; } .page { display: block !important; } }
+
+/* --------------------------------------------------------------- disclosure
+
+   Native <details>, so it works with no JavaScript and stays keyboard- and
+   screen-reader-accessible for free. Used where a card carries reference copy that
+   is essential to review once and noise on every later visit - the Fiverr gig
+   listings run to several thousand words across four gigs, which is a reasonable
+   desktop page and an unreasonable phone one. */
+
+.disclosure { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; }
+.disclosure > summary {
+  cursor: pointer; font-size: 12px; font-weight: 560; color: var(--ink-2);
+  list-style: none; padding: 6px 0; user-select: none;
+}
+.disclosure > summary::-webkit-details-marker { display: none; }
+.disclosure > summary::before { content: "\25B8"; display: inline-block; width: 14px; color: var(--ink-muted); transition: transform .15s ease; }
+.disclosure[open] > summary::before { transform: rotate(90deg); }
+.disclosure > summary:hover { color: var(--ink); }
+.disclosure > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+/* Columns that carry reference detail rather than a decision. Hidden below 560px so the
+   columns that DO drive a decision stay on screen without sideways scrolling; the same values
+   appear in full inside the card's disclosure, so nothing is lost on a phone. */
+@media (max-width: 560px) {
+  .hide-narrow { display: none; }
+  /* Tables opt in to fitting. The global min-width of 640px is right for the wide tables
+     (opportunities, audit) where sideways scrolling beats unreadable columns, but a table that
+     has already dropped to five columns should simply fit the phone. */
+  table.fits-narrow { min-width: 0; font-size: 12px; }
+  table.fits-narrow th, table.fits-narrow td { padding-left: 8px; padding-right: 8px; }
+}

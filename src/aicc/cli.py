@@ -276,9 +276,18 @@ def cmd_costs(_: argparse.Namespace) -> int:
 
 
 def cmd_build(args: argparse.Namespace) -> int:
-    from .dashboard.build import build_site
+    from .dashboard.build import build_fragment, build_site
 
     out = Path(args.out)
+    if args.fragment:
+        # Body-only output for hosts that supply their own document skeleton. Same data, same
+        # assets - the difference is only the wrapper, so a fragment preview and the Pages
+        # deployment can never show different numbers.
+        dest = Path(args.fragment)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(build_fragment(), encoding="utf-8")
+        _print(f"Fragment written to {dest}")
+        return 0
     build_site(out)
     _print(f"Dashboard built at {out}")
     return 0
@@ -434,6 +443,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     b = sub.add_parser("build", help="Build the static dashboard")
     b.add_argument("--out", default="site")
+    b.add_argument("--fragment", default=None, help="Write body-only HTML to this path instead")
     b.set_defaults(func=cmd_build)
 
     vs = sub.add_parser("verify-site", help="Refuse to publish a broken build")
