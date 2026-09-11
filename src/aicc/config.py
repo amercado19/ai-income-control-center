@@ -216,6 +216,22 @@ class OperatorProfile:
     minimum_hourly: float = 50.0
     minimum_job_value: float = 50.0
 
+    # Public Service Loan Forgiveness. Andres must remain at a 501(c)(3) or government employer
+    # for roughly seven more years, and has stated this is a non-negotiable filter on career
+    # decisions rather than a preference to weigh.
+    #
+    # This is the single most consequential constraint in this file, and it is easy to miss
+    # because it is not a skill or a rate. Taking a full-time role at a for-profit company does
+    # not merely compete for his hours - it ends qualifying employment and forfeits seven years
+    # of progress toward forgiveness. No hourly rate on a job board compensates for that, so
+    # full-time for-profit employment is a REJECT rather than something to be scored.
+    #
+    # Contract, part-time and project work do NOT touch PSLF: the qualifying employer is where
+    # you work full-time, and freelance work alongside it is exactly the arrangement this whole
+    # system was built to support.
+    pslf_qualifying_employment_required: bool = True
+    pslf_years_remaining: int = 7
+
     # Hard constraints that reject an opportunity outright.
     will_not_do: list[str] = field(
         default_factory=lambda: [

@@ -2079,61 +2079,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 0.3,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 3.3,
-          "evidence": "Moderate description (>=300 chars); 4 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 15.3,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 0.3,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 30.3,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "postgres",
@@ -2461,61 +2417,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 42.5,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.9,
-          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 5.9,
-          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 15.2,
-          "evidence": "Estimated net $800 on $800 (100% margin). $183 per effective hour vs $85 target (4.4 effective h = 2.5h human + 7.5h AI discounted). Leverage: $320 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 20.2,
-          "evidence": "Matched 3 profile skills: ci/cd, python, sql. Covers 27% of the 11 skills this listing names (missing: airflow, aws, azure, bigquery)."
-        }
-      },
-      "final_score": 42.5,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 72.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -3549,61 +3461,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 20.7,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 4 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 17.5,
-          "evidence": "Matched 2 profile skills: data visualization, sql. Covers 25% of the 4 skills this listing names (missing: postgres, postgresql, typescript)."
-        }
-      },
-      "final_score": 20.7,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 50.7,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "sql",
@@ -3972,61 +3840,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 32.0,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.5,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 4 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 26.9,
-          "evidence": "Matched 2 profile skills: ci/cd, python. Covers 67% of the 3 skills this listing names (missing: api)."
-        }
-      },
-      "final_score": 32.0,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 62.0,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -4622,61 +4446,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 0.3,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 3.3,
-          "evidence": "Moderate description (>=300 chars); 1 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 15.3,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 0.3,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 30.3,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "remote"
@@ -5280,61 +5060,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 3.2,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 4 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 3.2,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 33.2,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "postgres",
@@ -5424,61 +5160,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 24.1,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 10 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 20.8,
-          "evidence": "Matched 3 profile skills: ci/cd, python, sql. Covers 30% of the 10 skills this listing names (missing: api, azure, fastapi, postgres)."
-        }
-      },
-      "final_score": 24.1,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 54.1,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -5827,66 +5519,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 23.9,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.5,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 5.9,
-          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 3.9,
-          "evidence": "Estimated net $230 on $230 (100% margin). $48 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $77 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 13.4,
-          "evidence": "Matched 3 profile skills: automation, python, sql. Covers 43% of the 7 skills this listing names (missing: api, django, react, rest)."
-        }
-      },
-      "final_score": 23.9,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"pm in b2b saas with an actual technical background - eng or qa before \"; \"or a pm who's been getting into the codebase themselves\".",
-          "name": "Unmet stated requirements",
-          "points": 10.3
-        },
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 53.9,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -7175,66 +6818,17 @@
       "FULL_TIME_EMPLOYMENT",
       "UNREALISTIC_DEADLINE"
     ],
-    "score": 4.7,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.9,
-          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 6 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 4.1,
-          "evidence": "2 risk flag(s): FULL_TIME_EMPLOYMENT, UNREALISTIC_DEADLINE."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 14.1,
-          "evidence": "Matched 1 profile skills: python. Covers 20% of the 5 skills this listing names (missing: api, node, react, typescript)."
-        }
-      },
-      "final_score": 4.7,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        },
-        {
-          "evidence": "Urgency language paired with an estimate over four hours.",
-          "name": "UNREALISTIC_DEADLINE",
-          "points": 12.0
-        }
-      ],
-      "raw_total": 46.7,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -7319,61 +6913,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 3.2,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 5 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 3.2,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 33.2,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "aws",
@@ -8552,61 +8102,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 1.4,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 4.6,
-          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 1 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 15.3,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 1.4,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 31.4,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "remote"
@@ -8947,61 +8453,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 31.6,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.5,
-          "evidence": "70% of estimated effort is AI-carryable (4.3h AI / 1.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 5.9,
-          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 7.9,
-          "evidence": "Estimated net $150 on $150 (100% margin). $52 per effective hour vs $85 target (2.9 effective h = 1.8h human + 4.3h AI discounted). Leverage: $82 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 17.2,
-          "evidence": "Matched 1 profile skills: python. Covers 33% of the 3 skills this listing names (missing: api, react)."
-        }
-      },
-      "final_score": 31.6,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 61.6,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "python",
@@ -10283,61 +9745,17 @@
     "risk_flags": [
       "FULL_TIME_EMPLOYMENT"
     ],
-    "score": 18.5,
+    "score": 0.0,
     "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.5,
-          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 4.4,
-          "evidence": "Detailed description (>=800 chars); 7 skills specified."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 0.0,
-          "evidence": "No budget stated, so profit cannot be estimated."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 17.1,
-          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 7.1,
-          "evidence": "1 risk flag(s): FULL_TIME_EMPLOYMENT."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 13.4,
-          "evidence": "Matched 1 profile skills: etl. Covers 17% of the 6 skills this listing names (missing: api, html, postgres, react)."
-        }
-      },
-      "final_score": 18.5,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [
-        {
-          "evidence": "This is a salaried full-time position, not freelance work. Heavily downranked rather than rejected: it may be a good job, but it is a career decision, and it cannot be done in spare hours alongside one.",
-          "name": "FULL_TIME_EMPLOYMENT",
-          "points": 30.0
-        }
-      ],
-      "raw_total": 48.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly seven more years at a 501(c)(3) or government employer, and every full-time role these sources carry is a for-profit company. This is not a rate question - no hourly figure on a job board compensates for forfeiting seven years of loan forgiveness. Contract, part-time and project work do not touch PSLF and are scored normally.",
+      "weights_used": {}
     },
     "skills": [
       "postgres",

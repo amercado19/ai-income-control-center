@@ -427,8 +427,17 @@ def test_hn_header_invents_nothing_when_the_posting_says_nothing() -> None:
     assert "contractor" not in parsed
 
 
-def test_full_time_roles_are_penalised_but_not_hidden() -> None:
-    """Downranked below any real gig, still visible. Rejecting outright is not the system's call."""
+def test_full_time_roles_are_rejected_and_the_reason_is_visible() -> None:
+    """Superseded policy, kept as a record of why it changed.
+
+    This originally asserted that full-time roles were PENALISED (30 points) but NOT rejected,
+    on the reasoning that a good job is a career decision the system should not make for him.
+    That reasoning was sound and the conclusion was still wrong, because it was missing a fact:
+    Andres needs roughly seven more years at a 501(c)(3) or government employer for PSLF, and
+    every full-time role these sources carry is a for-profit company. It is not a career
+    decision with a rate attached - it is the forfeiture of seven years of loan forgiveness.
+    Leaving it visible-but-ranked invited exactly the mistake it could not afford.
+    """
     from aicc import scoring
     from aicc.models import Opportunity, RiskFlag
 
@@ -450,9 +459,9 @@ def test_full_time_roles_are_penalised_but_not_hidden() -> None:
 
     assert RiskFlag.FULL_TIME_EMPLOYMENT.value in full.risk_flags
     assert RiskFlag.FULL_TIME_EMPLOYMENT.value not in gig.risk_flags
-    assert full.score < gig.score - 20, "The penalty must actually move it down the list."
-    assert not full.score_breakdown.get("rejected"), "Penalised, not rejected - he decides."
-    assert full.score_band != "STRONG"
+    assert full.score_breakdown["rejected"] is True
+    assert gig.score > 0 and not gig.score_breakdown.get("rejected")
+    assert "PSLF" in full.score_breakdown["rejection_reason"]
 
 
 def test_part_time_and_contract_are_not_penalised() -> None:
@@ -640,3 +649,79 @@ def test_neither_register_ever_drops_the_ai_disclosure() -> None:
     gig = make_opportunity(source="demo", title="Gig", description="Clean this data. " * 30, skills=["excel"], budget_min=300.0)
     assert AI_DISCLOSURE in generate(_role(ROLE_TEXT)).body
     assert AI_DISCLOSURE in generate(gig).body
+
+
+# ------------------------------------------------- PSLF: full-time employment is disqualifying
+#
+# The most consequential constraint in the profile, and the easiest to miss because it is not a
+# skill or a rate. Andres needs ~7 more years at a 501(c)(3) or government employer for Public
+# Service Loan Forgiveness. Taking a full-time role at a for-profit company does not merely
+# compete for his hours - it ends qualifying employment and forfeits seven years of progress.
+# No hourly figure on a job board compensates for that, so this is a reject, not a score.
+
+
+def test_full_time_employment_is_rejected_not_merely_penalised() -> None:
+    from aicc.connectors.base import make_opportunity
+    from aicc.models import RiskFlag
+    from aicc.scoring import score_opportunity
+
+    text = "Senior Data Engineer. Python, SQL, dbt. Excellent benefits. " * 8
+    o = make_opportunity(
+        source="hackernews",
+        title="Co - Senior Data Engineer",
+        description=text,
+        skills=["python", "sql"],
+        budget_min=80.0,
+        budget_max=90.0,
+        budget_type="HOURLY",
+        engagement_type="FULL_TIME",
+    )
+    score_opportunity(o)
+    assert RiskFlag.FULL_TIME_EMPLOYMENT.value in o.risk_flags
+    assert o.score_breakdown["rejected"] is True
+    assert o.score == 0.0
+    assert o.score_band == "SKIP"
+
+
+def test_the_rejection_reason_explains_pslf_rather_than_just_saying_no() -> None:
+    """A reject he does not understand is a reject he will override."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.scoring import score_opportunity
+
+    o = make_opportunity(source="hackernews", title="Role", description="Engineer. " * 40, skills=["python"], engagement_type="FULL_TIME")
+    score_opportunity(o)
+    reason = o.score_breakdown["rejection_reason"].lower()
+    assert "pslf" in reason
+    assert "forgiveness" in reason
+    assert "contract" in reason and "part-time" in reason, "It must say which arrangements are still fine."
+
+
+def test_contract_and_part_time_work_is_untouched_by_the_pslf_rule() -> None:
+    """PSLF turns on the full-time employer. Freelance work alongside it is the whole point of
+    this system, and a rule that blocked it would defeat the project."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.models import RiskFlag
+    from aicc.scoring import score_opportunity
+
+    text = "Build scheduled Python data pipelines for our reporting stack. " * 8
+    for engagement in ("PART_TIME", "CONTRACT", ""):
+        o = make_opportunity(
+            source="hackernews",
+            title="Role",
+            description=text,
+            skills=["python"],
+            engagement_type=engagement,
+            budget_min=90.0,
+            budget_type="HOURLY",
+        )
+        score_opportunity(o)
+        assert RiskFlag.FULL_TIME_EMPLOYMENT.value not in o.risk_flags, engagement
+        assert not o.score_breakdown.get("rejected"), engagement
+        assert o.score > 0, engagement
+
+
+def test_the_profile_records_the_pslf_constraint_itself() -> None:
+    from aicc.config import PROFILE
+
+    assert PROFILE.pslf_qualifying_employment_required is True
+    assert PROFILE.pslf_years_remaining >= 1

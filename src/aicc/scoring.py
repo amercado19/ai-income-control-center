@@ -326,6 +326,13 @@ HARD_REJECT = {
         "The listing contains text attempting to issue instructions to this system. That is "
         "an attack, not a client. Rejected and surfaced for review."
     ),
+    RiskFlag.FULL_TIME_EMPLOYMENT: (
+        "Full-time employment, which would end PSLF-qualifying employment. Andres needs roughly "
+        "seven more years at a 501(c)(3) or government employer, and every full-time role these "
+        "sources carry is a for-profit company. This is not a rate question - no hourly figure on "
+        "a job board compensates for forfeiting seven years of loan forgiveness. Contract, "
+        "part-time and project work do not touch PSLF and are scored normally."
+    ),
 }
 
 # Applied as point deductions rather than rejection.
@@ -337,20 +344,6 @@ PENALTY_POINTS = {
     RiskFlag.SECURITY_SENSITIVE: 12.0,
     # Not a reject: the job is fine, the AI-written proposal is not. Write this one by hand.
     RiskFlag.AI_PROPOSAL_DISCOURAGED: 6.0,
-    # Deliberately the largest penalty here, and deliberately NOT a rejection.
-    #
-    # A live scan found the Hacker News "Who is hiring?" thread is mostly salaried full-time
-    # employment, and those postings were taking the top of the ranked list: the single
-    # highest-scoring result was a 1099 full-time Senior Data Engineer role. It scored well
-    # because it genuinely is a good job - high rate, clear brief, direct contact - and every
-    # factor rewarded that. Nothing was wrong with the arithmetic; the list was simply answering
-    # a different question than the one being asked.
-    #
-    # This system exists to find work that can be done in spare hours alongside an existing job.
-    # A full-time role is a career decision, not an opportunity to be ranked against a $300
-    # pipeline gig. 30 points pushes it below any real gig while leaving it visible, because
-    # rejecting it outright would be substituting a judgement that is not the system's to make.
-    RiskFlag.FULL_TIME_EMPLOYMENT: 30.0,
 }
 
 DEADLINE_URGENCY = re.compile(r"\b(today|asap|within \d+ hours?|next (?:few )?hours?|by tonight|same day|immediately|urgent)\b", re.I)
