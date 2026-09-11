@@ -32,7 +32,6 @@ is human-gated like everywhere else.
 
 from __future__ import annotations
 
-from datetime import UTC
 from typing import Any
 
 from ..config import PROFILE
@@ -150,7 +149,7 @@ class FreelancerComConnector(Connector):
                     budget_max=float(hi) if hi is not None else None,
                     budget_type=btype,
                     currency=currency,
-                    posted_time=_epoch_to_iso(proj.get("submitdate")),
+                    posted_time=proj.get("submitdate"),  # normalized by make_opportunity
                     skills=extract_skills(f"{proj.get('title', '')} {description}", skills),
                     automation_policy=AutomationPolicy.FULL_AUTO.value,
                     status=OpportunityStatus.NEW.value,
@@ -159,12 +158,3 @@ class FreelancerComConnector(Connector):
             if len(out) >= limit:
                 break
         return out
-
-
-def _epoch_to_iso(epoch: Any) -> str:
-    from datetime import datetime
-
-    try:
-        return datetime.fromtimestamp(int(epoch), tz=UTC).isoformat(timespec="seconds")
-    except (TypeError, ValueError, OSError):
-        return ""

@@ -323,9 +323,23 @@ def estimate_win(opp: Opportunity, *, source_prior: float, class_: OpportunityCl
     return est
 
 
-def _age_days(posted: str) -> float | None:
+def _age_days(posted: object) -> float | None:
+    """Age of a posting in days, or None when the date cannot be read.
+
+    Deliberately typed ``object`` and coerced rather than trusting the declared ``str``.
+    ``connectors.base.normalize_timestamp`` is the boundary that should guarantee a string,
+    but this value originates with a third party, and a scoring run must degrade to "age
+    unknown" rather than crash on a provider that starts returning something new. An unknown
+    age costs a few points of confidence; a crash costs the whole scan.
+    """
     from datetime import datetime
 
+    if posted is None:
+        return None
+    if not isinstance(posted, str):
+        from .connectors.base import normalize_timestamp
+
+        posted = normalize_timestamp(posted)
     if not posted:
         return None
     for parse in (_parse_iso, _parse_rfc822):

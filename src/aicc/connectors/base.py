@@ -17,6 +17,7 @@ import json
 import urllib.error
 import urllib.request
 from dataclasses import asdict, dataclass
+from datetime import UTC
 from typing import Any
 
 from ..models import AutomationPolicy, Opportunity
@@ -366,6 +367,55 @@ def extract_skills(text: str, extra: list[str] | None = None) -> list[str]:
     return found[:20]
 
 
+def normalize_timestamp(value: Any) -> str:
+    """Coerce whatever a provider calls a date into an ISO-8601 string, or "".
+
+    Providers do not agree on this and are under no obligation to. Himalayas returns
+    ``pubDate`` as a Unix epoch **integer**; Python.org and We Work Remotely return RFC-822
+    strings; Hacker News returns ISO-8601. ``Opportunity.posted_time`` is declared ``str``, and
+    an integer arriving there crashed scoring at the point where it tried to compute an age -
+    a long way from the connector that introduced it.
+
+    Normalizing here rather than in each connector means a new connector cannot reintroduce the
+    bug: everything reaches ``Opportunity`` through this one function. Epoch values are accepted
+    in seconds or milliseconds, distinguished by magnitude - 10^11 seconds is the year 5138, so
+    anything larger is milliseconds.
+    """
+    from datetime import datetime
+
+    if value is None:
+        return ""
+    if isinstance(value, datetime):
+        dt = value if value.tzinfo else value.replace(tzinfo=UTC)
+        return dt.isoformat(timespec="seconds")
+    if isinstance(value, bool):  # bool is an int subclass; a bool here is a provider bug
+        return ""
+    if isinstance(value, int | float):
+        return _epoch_to_iso(value)
+    text = str(value).strip()
+    if not text:
+        return ""
+    # A bare numeric string is an epoch too - several providers quote their timestamps.
+    if text.lstrip("-").isdigit():
+        return _epoch_to_iso(int(text))
+    return text[:64]
+
+
+def _epoch_to_iso(epoch: float) -> str:
+    from datetime import datetime
+
+    try:
+        seconds = float(epoch)
+    except (TypeError, ValueError):
+        return ""
+    if abs(seconds) > 1e11:  # milliseconds, not seconds
+        seconds /= 1000.0
+    try:
+        return datetime.fromtimestamp(seconds, tz=UTC).isoformat(timespec="seconds")
+    except (OverflowError, OSError, ValueError):
+        return ""
+
+
 def make_opportunity(**kwargs: Any) -> Opportunity:
     """Build an Opportunity, normalizing and sanitizing third-party text.
 
@@ -381,6 +431,9 @@ def make_opportunity(**kwargs: Any) -> Opportunity:
     full = strip_html(kwargs.get("description", ""))[:8000]
     stored, redactions = sanitize_for_storage(full)
     kwargs["description"] = stored
+    for field_name in ("posted_time", "deadline"):
+        if field_name in kwargs:
+            kwargs[field_name] = normalize_timestamp(kwargs[field_name])
 
     opp = Opportunity(**kwargs)
     # Attribute, not field: scoring reads it, persistence cannot see it.

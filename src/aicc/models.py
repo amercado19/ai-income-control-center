@@ -106,6 +106,7 @@ class RiskFlag(StrEnum):
     GEO_EXCLUDED = "GEO_EXCLUDED"
     AI_PROPOSAL_DISCOURAGED = "AI_PROPOSAL_DISCOURAGED"
     PROMPT_INJECTION_ATTEMPT = "PROMPT_INJECTION_ATTEMPT"
+    FULL_TIME_EMPLOYMENT = "FULL_TIME_EMPLOYMENT"
 
 
 class Actor(StrEnum):
@@ -191,6 +192,13 @@ class Opportunity:
 
     # timing
     posted_time: str = ""
+    engagement_type: str = ""
+    """FULL_TIME | PART_TIME | CONTRACT | INTERNSHIP, when the posting states it; "" otherwise.
+
+    Kept separate from the risk flags because it is a fact about the posting rather than a
+    judgement about it. The judgement - that a full-time salaried role is not what this system
+    is for - belongs in scoring, where it can be seen and overridden.
+    """
     deadline: str = ""
 
     # classification

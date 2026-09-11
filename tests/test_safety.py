@@ -325,3 +325,142 @@ def test_scoring_reads_the_full_text_not_the_excerpt():
     from aicc.scoring import detect_risks
 
     assert RiskFlag.AI_PROHIBITED in detect_risks(opp), "scoring must still see it"
+
+
+# ------------------------------------------------- provider timestamp normalization
+#
+# Found by a live scan, not by a unit test: Himalayas returns `pubDate` as a Unix epoch
+# INTEGER while every other feed returns a string. `Opportunity.posted_time` is declared
+# `str`, so the integer travelled all the way from the connector to the win-probability
+# model before crashing on `.replace()` - a stack trace a long way from its cause, and it
+# took down the whole scan rather than one listing.
+
+
+def test_epoch_integers_from_providers_become_iso_strings() -> None:
+    from aicc.connectors.base import normalize_timestamp
+
+    # Seconds (Himalayas) and milliseconds (several JS-backed APIs) both appear in the wild.
+    assert normalize_timestamp(1757600000).startswith("2025-")
+    assert normalize_timestamp(1757600000000).startswith("2025-")
+    assert normalize_timestamp("1757600000").startswith("2025-")
+
+
+def test_normalize_timestamp_passes_strings_through_and_survives_junk() -> None:
+    from aicc.connectors.base import normalize_timestamp
+
+    assert normalize_timestamp("2026-09-11T12:00:00Z") == "2026-09-11T12:00:00Z"
+    assert normalize_timestamp("Thu, 11 Sep 2026 12:00:00 GMT") == "Thu, 11 Sep 2026 12:00:00 GMT"
+    for junk in (None, "", "   ", True, False, object(), float("nan"), 10**18):
+        assert isinstance(normalize_timestamp(junk), str)
+
+
+def test_make_opportunity_coerces_a_non_string_posted_time() -> None:
+    """The boundary every connector funnels through, so no new connector can reintroduce this."""
+    from aicc.connectors.base import make_opportunity
+
+    opp = make_opportunity(source="himalayas", title="T", description="d", posted_time=1757600000)
+    assert isinstance(opp.posted_time, str)
+    assert opp.posted_time.startswith("2025-")
+
+
+def test_scoring_survives_an_unparseable_posted_time() -> None:
+    """Degrade to 'age unknown'. A scan must not die on one provider's bad date."""
+    from aicc.classes import _age_days
+
+    assert _age_days("not a date at all") is None
+    assert _age_days(None) is None
+    assert _age_days("") is None
+    assert _age_days(1757600000) is not None  # coerced, not crashed
+
+
+# ------------------------------------------------- HN header parsing / employment commitment
+#
+# Every case below is a real header from the September 2026 "Who is hiring?" thread.
+
+
+HN_HEADERS = [
+    # (header, expected commitment, expected contractor flag)
+    (
+        "Virtasant (1099 contractor for a client of ours) | Virtasant.com | Remote (USA)| full-time "
+        "Hey, we are a finops/cloud optimization company looking for a Senior Data Engineer.",
+        "FULL_TIME",
+        True,
+    ),
+    ("Axmed | AI Engineer | REMOTE (preferred Spain, UK, Poland) | Full-time | apply: example", "FULL_TIME", False),
+    ("AREO | Remote (EU) / on-site in Bremen, Germany | Full-Time | Equity | Roles: [Engineering Manager]", "FULL_TIME", False),
+    ("We The Flywheel | AI-Native Engineers & Operators | REMOTE (worldwide) | Contract / Part-time (10-40 hrs/wk)", "PART_TIME", True),
+    ("Duets Network | Founding Engineer | REMOTE (US-Based Only) | Equity + discretionary cash | ~10-15 hrs/wk", "PART_TIME", False),
+    ("Greywatch | Co-Founder & CEO | REMOTE Greywatch is building an AI security and governance platform", "", False),
+]
+
+
+@pytest.mark.parametrize("header,commitment,contractor", HN_HEADERS)
+def test_hn_header_separates_hours_from_tax_status(header: str, commitment: str, contractor: bool) -> None:
+    """The bug this pins: "1099 contractor ... full-time" is BOTH, and it is still full-time.
+
+    Treating "contractor" as evidence against full-time let a 40-hour salaried role through as
+    freelance work, where it then scored higher than every real gig in the list.
+    """
+    from aicc.connectors.hackernews import parse_header
+
+    parsed = parse_header(header)
+    assert parsed.get("commitment", "") == commitment
+    assert (parsed.get("contractor") == "true") is contractor
+
+
+def test_hn_header_extracts_a_usable_role_title() -> None:
+    from aicc.connectors.hackernews import parse_header
+
+    assert parse_header("Axmed | AI Engineer | REMOTE | Full-time").get("role") == "AI Engineer"
+    # Plural role words, and parentheticals stripped out of the middle rather than only the end.
+    assert parse_header("We The Flywheel | AI-Native Engineers & Operators | REMOTE").get("role") == "AI-Native Engineers & Operators"
+    assert "(" not in parse_header("Squoosh.AI | Full-Stack Engineer (full-time, REMOTE) + PhD Researcher (part-time) | url").get(
+        "role", ""
+    )
+
+
+def test_hn_header_invents_nothing_when_the_posting_says_nothing() -> None:
+    from aicc.connectors.hackernews import parse_header
+
+    parsed = parse_header("Greywatch | Co-Founder & CEO | REMOTE building a platform")
+    assert "commitment" not in parsed
+    assert "contractor" not in parsed
+
+
+def test_full_time_roles_are_penalised_but_not_hidden() -> None:
+    """Downranked below any real gig, still visible. Rejecting outright is not the system's call."""
+    from aicc import scoring
+    from aicc.models import Opportunity, RiskFlag
+
+    text = "Senior Data Engineer. Python, SQL and dbt pipelines for a healthcare data company. " * 6
+    common = dict(
+        source="hackernews",
+        title="Co - Senior Data Engineer",
+        description=text,
+        skills=["python", "sql"],
+        budget_min=80.0,
+        budget_max=90.0,
+        budget_type="HOURLY",
+    )
+    gig = Opportunity(**common)
+    full = Opportunity(**common, engagement_type="FULL_TIME")
+
+    scoring.score_opportunity(gig)
+    scoring.score_opportunity(full)
+
+    assert RiskFlag.FULL_TIME_EMPLOYMENT.value in full.risk_flags
+    assert RiskFlag.FULL_TIME_EMPLOYMENT.value not in gig.risk_flags
+    assert full.score < gig.score - 20, "The penalty must actually move it down the list."
+    assert not full.score_breakdown.get("rejected"), "Penalised, not rejected - he decides."
+    assert full.score_band != "STRONG"
+
+
+def test_part_time_and_contract_are_not_penalised() -> None:
+    from aicc import scoring
+    from aicc.models import Opportunity, RiskFlag
+
+    text = "Build and maintain scheduled Python data pipelines for our reporting stack. " * 6
+    for commitment in ("PART_TIME", "CONTRACT", ""):
+        opp = Opportunity(source="hackernews", title="Co - Data Engineer", description=text, skills=["python"], engagement_type=commitment)
+        scoring.score_opportunity(opp)
+        assert RiskFlag.FULL_TIME_EMPLOYMENT.value not in opp.risk_flags, commitment

@@ -68,6 +68,91 @@ def _company_from_comment(text: str) -> str:
     return first[:120].strip()
 
 
+# The "Who is hiring?" header is pipe-delimited and loosely conventional:
+#
+#   Squoosh.AI | Full-Stack Engineer (full-time, REMOTE) + PhD Researcher (part-time) | https://...
+#   Axmed | AI Engineer | REMOTE (preferred Spain, UK...) | Full-time | apply: ...
+#   We The Flywheel | AI-Native Engineers & Operators | REMOTE | Contract / Part-time (10-40 hrs/wk)
+#   Virtasant (1099 contractor for a client of ours) | Virtasant.com | Remote (USA)| full-time
+#
+# Reading it properly matters twice over. It produces a title that says what the job actually is -
+# every listing was previously titled "Company - contract role", which made the list unreadable -
+# and it exposes the commitment, which turned out to matter more than anything else: most of that
+# thread is salaried full-time employment, and those postings were taking the top of the ranked list.
+#
+# The subtlety that first got this wrong, and is worth stating plainly: **commitment and payment
+# relationship are two different axes.** "1099 contractor ... full-time" is both a contractor
+# arrangement AND a full-time job - Virtasant above is exactly that. An earlier version treated
+# "contractor" as evidence it was not full-time and let a 40-hour role through as freelance work.
+# Tax status says nothing about hours. They are parsed separately and only the hours axis
+# drives the penalty.
+
+_COMMITMENT_PATTERNS = [
+    ("FULL_TIME", re.compile(r"\bfull[\s-]?time\b|\bFTE\b", re.I)),
+    ("PART_TIME", re.compile(r"\bpart[\s-]?time\b|\b\d{1,2}\s*[-\u2013]\s*\d{1,2}\s*(?:hrs?|hours?)\s*/?\s*(?:wk|week)\b", re.I)),
+    ("INTERNSHIP", re.compile(r"\bintern(?:ship)?\b", re.I)),
+]
+_ENGAGED_AS_CONTRACTOR = re.compile(
+    r"\b(contract|contractor|freelance|1099|c2c|corp[\s-]?to[\s-]?corp|b2b|consulting|fractional|project[\s-]based)\b",
+    re.I,
+)
+
+# Segments that are plainly not a role name.
+_NOT_A_ROLE = re.compile(
+    r"^(?:https?://|www\.|apply\b|email\b|contact\b|remote\b|onsite\b|on-site\b|hybrid\b|"
+    r"full[\s-]?time\b|part[\s-]?time\b|contract\b|\$|salary\b|comp\b|equity\b)",
+    re.I,
+)
+_ROLE_WORD = re.compile(
+    r"\b(engineers?|developers?|scientists?|analysts?|designers?|managers?|architects?|"
+    r"consultants?|researchers?|specialists?|leads?|directors?|founders?|ctos?|devops|sres?|"
+    r"admins?|programmers?|contractors?|writers?|interns?|operators?)\b",
+    re.I,
+)
+_PARENTHETICAL = re.compile(r"\s*\([^)]*\)")
+
+
+def parse_header(text: str) -> dict[str, str]:
+    """Pull company, role, commitment and contractor status out of an HN hiring header.
+
+    Returns only what it can identify. A missing key means "not stated", which is common and is
+    not an error - inventing a value would be worse than admitting the posting did not say.
+
+    Keys: ``company``, ``role``, ``commitment`` (FULL_TIME | PART_TIME | INTERNSHIP),
+    ``contractor`` ("true" when the posting offers a contractor arrangement).
+    """
+    first = text.strip().split("\n", 1)[0]
+    segments = [seg.strip() for seg in first.split("|") if seg.strip()]
+    out: dict[str, str] = {}
+    if segments:
+        out["company"] = _PARENTHETICAL.sub("", segments[0]).strip()[:120] or segments[0][:120]
+
+    header = first[:400]
+    matched = [name for name, pattern in _COMMITMENT_PATTERNS if pattern.search(header)]
+    if matched:
+        # A post advertising several roles at once ("full-time engineer + part-time researcher")
+        # is reported by its smallest commitment, because that is the one worth pursuing here.
+        # Full-time only wins when nothing smaller is on offer.
+        for preferred in ("INTERNSHIP", "PART_TIME", "FULL_TIME"):
+            if preferred in matched:
+                out["commitment"] = preferred
+                break
+    if _ENGAGED_AS_CONTRACTOR.search(header):
+        out["contractor"] = "true"
+
+    for seg in segments[1:4]:
+        if _NOT_A_ROLE.search(seg) or len(seg) > 90:
+            continue
+        if _ROLE_WORD.search(seg):
+            # Parentheticals in a role segment are location or commitment, not the job title.
+            role = _PARENTHETICAL.sub("", seg).strip(" ,;-+/")
+            role = re.sub(r"\s{2,}", " ", role)
+            if role:
+                out["role"] = role[:90]
+                break
+    return out
+
+
 def _find_threads(query: str, *, author: str | None = None, pages: int = 1) -> list[dict[str, Any]]:
     url = f"{ALGOLIA}/search_by_date?tags=story{',author_' + author if author else ''}&hitsPerPage={pages * 10}"
     if query:
@@ -209,11 +294,24 @@ def _build(
     comment: dict[str, Any], company: str, text: str, lo: float | None, hi: float | None, btype: str, month: str, *, remote: bool
 ) -> Any:
     cid = comment.get("objectID")
-    label = "contract role" if "hiring" in month.lower() else "freelance brief"
+    header = parse_header(text)
+    # parse_header strips the parenthetical aside that posters attach to their own name
+    # ("Virtasant (1099 contractor for a client of ours)"), which is context, not a company.
+    company = header.get("company") or company
+    role = header.get("role")
+    engagement = header.get("commitment", "")
+    if role:
+        title = f"{company} - {role}"
+    else:
+        # No parseable role. Say what the thread is rather than inventing a job title.
+        title = f"{company} - {'contract role' if 'hiring' in month.lower() else 'freelance brief'}"
+    if engagement:
+        title = f"{title} [{engagement.replace('_', '-').lower()}]"
     return make_opportunity(
         source="hackernews",
         external_id=f"hn_{cid}",
-        title=f"{company} - {label}"[:300],
+        title=title[:300],
+        engagement_type=engagement,
         description=text,
         client=company,
         url=f"https://news.ycombinator.com/item?id={cid}",
