@@ -3,7 +3,7 @@
 **Last updated:** 2026-09-11
 **Additional monthly cost:** $0.00
 **Phase:** 1 — zero-cost MVP, DEMO mode
-**Local HEAD:** `88b3c31` (18 commits). **Pushed to GitHub:** through `38b4106` only — 7 commits are waiting, see Blocked #1.
+**Local HEAD:** `99be0bb` (31 commits). **Pushed to GitHub:** through `38b4106` — later commits are waiting, see Blocked #1.
 
 > A new session should read this file first, then `DECISIONS.md`, then
 > `docs/MARKETPLACE_RULES.md`. Those three carry everything needed to continue.
@@ -71,8 +71,7 @@ cd ~/Documents/ai-income-control-center && git push
 ```
 
 The repository is live and the first push has happened. **Seven commits since then are still
-local**, including the fix for the CI failure that first push caused. Both copies are synced at
-`88b3c31`.
+local**, including the fix for the CI failure that first push caused. Both copies are synced at `99be0bb`.
 The script `scripts/push_to_github.sh` tries existing credentials first and only asks for a token
 if that fails — since three other repositories already push from this Mac over HTTPS, the keychain
 almost certainly has one and **no token should be needed**.
@@ -170,6 +169,10 @@ market described at the top of this file, scored honestly.
 | Rule-based worker / reviewer | Fully working |
 | Fiverr gig kit | 4 gigs drafted and validated; **publishing is manual** |
 | Portfolio case studies | Written, with public/private evidence separated |
+| Prompt-injection defence | 51-case regression suite; 0 attacks missed, 0 false positives |
+| Win probability | Computed and shown, always with INITIAL HEURISTIC attached |
+| Fiverr bench candidate | pdf_extraction, complete and imaged, ready to swap in |
+| Workflow shell-injection gate | In CI; closed two live interpolation paths |
 | Fiverr gig images | Rendered at 1280x769, `python3 scripts/gig_images.py` |
 | AI rate-limit degradation | Working, tested. A usage window pauses rather than failing the run |
 | Safety self-test | 9 invariants attempted against the live system, all refused correctly |
