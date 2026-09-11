@@ -130,59 +130,6 @@
       "probability_low": 20.0
     }
   },
-  "opp_04bbf0b5a438": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 4000.0,
-    "budget_min": 2500.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Global Ventures LLC",
-    "competition_score": 0.0,
-    "confidence": 55.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We need someone to help process payments for us. You will receive funds into your account and forward them to our suppliers, keeping 10%. Must be available today. We communicate on Telegram only. Please send a small deposit to verify your account is active and we will begin immediately.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 16.58,
-    "estimated_cost": 0.0,
-    "estimated_hours": 33.16,
-    "estimated_net_revenue": 2925.0,
-    "estimated_non_ai_effort": 16.58,
-    "estimated_platform_fee": 325.0,
-    "external_id": "demo_007",
-    "id": "opp_04bbf0b5a438",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T17:51:31+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "LIKELY_SCAM",
-      "UNREALISTIC_DEADLINE"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Matches known scam patterns.",
-      "weights_used": {}
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Urgent - payment processing assistant needed, start today",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/007",
-    "win_estimate": {}
-  },
   "opp_0cb52e8268f5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -563,98 +510,99 @@
       "probability_low": 0.0
     }
   },
-  "opp_0ff0591a29e4": {
+  "opp_0f9ee067532a": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
-    "budget_max": 15.0,
-    "budget_min": 15.0,
+    "budget_max": 3500.0,
+    "budget_min": 2000.0,
     "budget_type": "FIXED",
-    "category": "scripting",
-    "client": "Anonymous",
-    "competition_score": 74.9,
+    "category": "generic",
+    "client": "Meridian Research Institute",
+    "competition_score": 65.1,
     "confidence": 75.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
+    "created_at": "2026-09-11T21:11:30+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "Need a script to rename files. Simple job. Quick turnaround.",
+    "description": "Non-profit research institute. We track sponsored program spending across about 60 active awards in spreadsheets and it has stopped scaling. We want a dashboard showing burn rate per award, projected end-of-award balance, and a flag for awards trending to underspend or overspend. Data comes from a monthly export from our finance system as CSV. Deliverables: the dashboard, the ingestion script for the monthly export, documentation, and a handover session. Requirements: it must run somewhere we control, must not require a paid subscription, and the calculations must be auditable - our finance director needs to see how each number was derived. Timeline is flexible; we care more about getting the burn-rate logic right than about speed.",
     "discovered_by_run": "",
     "engagement_type": "",
-    "estimated_ai_effort": 1.96,
+    "estimated_ai_effort": 14.74,
     "estimated_cost": 0.0,
-    "estimated_hours": 2.45,
-    "estimated_net_revenue": 13.5,
-    "estimated_non_ai_effort": 0.49,
-    "estimated_platform_fee": 1.5,
-    "external_id": "demo_004",
-    "id": "opp_0ff0591a29e4",
+    "estimated_hours": 29.49,
+    "estimated_net_revenue": 2475.0,
+    "estimated_non_ai_effort": 14.75,
+    "estimated_platform_fee": 275.0,
+    "external_id": "demo_008",
+    "id": "opp_0f9ee067532a",
     "is_demo": true,
-    "match_score": 63.1,
-    "opportunity_class": "SMALL",
-    "posted_time": "2026-09-11T13:51:31+00:00",
-    "profit_score": 0.0,
+    "match_score": 70.7,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-10T05:11:30+00:00",
+    "profit_score": 91.0,
     "risk_flags": [],
-    "score": 64.6,
-    "score_band": "SKIP",
+    "score": 74.5,
+    "score_band": "REVIEW",
     "score_breakdown": {
       "factors": {
         "Automation Potential": {
-          "available": 33.6,
-          "awarded": 26.9,
-          "evidence": "80% of estimated effort is AI-carryable (2.0h AI / 0.5h human)."
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (14.7h AI / 14.8h human)."
         },
         "Clarity of Requirements": {
-          "available": 14.9,
-          "awarded": 6.0,
-          "evidence": "Thin description; 1 skills specified; budget stated."
+          "available": 8.0,
+          "awarded": 6.8,
+          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
         },
         "Expected Profitability": {
-          "available": 9.3,
-          "awarded": 0.0,
-          "evidence": "Estimated value $15 is below the $50 floor."
+          "available": 17.7,
+          "awarded": 16.1,
+          "evidence": "Estimated net $2,475 on $2,750 (90% margin). $134 per effective hour vs $85 target (18.4 effective h = 14.8h human + 14.7h AI discounted). Leverage: $168 per human hour."
         },
         "Likelihood of Winning": {
-          "available": 14.0,
-          "awarded": 10.5,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+          "available": 18.6,
+          "awarded": 12.1,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one. Budget >= $2,000 attracts stronger competition (-10%)."
         },
         "Risk": {
-          "available": 9.3,
-          "awarded": 9.3,
+          "available": 10.6,
+          "awarded": 10.6,
           "evidence": "No risk flags detected."
         },
         "Skill Fit": {
-          "available": 18.7,
-          "awarded": 11.8,
-          "evidence": "Matched 1 profile skills: python."
+          "available": 31.0,
+          "awarded": 21.9,
+          "evidence": "Matched 2 profile skills: csv, dashboard."
         }
       },
-      "final_score": 64.6,
-      "opportunity_class": "A - Small automatable ($25-100)",
+      "final_score": 74.5,
+      "opportunity_class": "C - High-value build ($500+)",
       "penalties": [],
-      "raw_total": 64.6,
+      "raw_total": 74.5,
       "rejected": false,
       "rejection_reason": "",
       "weights_used": {
-        "automation_potential": 33.64,
-        "clarity_of_requirements": 14.95,
-        "expected_profitability": 9.35,
-        "likelihood_of_winning": 14.02,
-        "risk": 9.35,
-        "skill_fit": 18.69
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
       }
     },
     "skills": [
-      "python"
+      "csv",
+      "dashboard"
     ],
     "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Small Python script to rename and sort files",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/004",
+    "status": "REVIEW",
+    "title": "[DEMO] Build an internal dashboard for our grant spending",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/008",
     "win_estimate": {
       "band": "High",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (65-87%)",
+      "display": "High (69-93%)",
       "factors": [
         {
           "effect": "75%",
@@ -664,29 +612,15 @@
           "why": "Structural competitiveness of this channel."
         },
         {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
           "effect": "+6%",
           "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 0 day(s) old; still being read."
-        },
-        {
-          "effect": "+10%",
-          "factor": "Small one-off job",
-          "from": "66%",
-          "to": "76%",
-          "why": "Decided quickly and largely on price and turnaround, where a new account is least disadvantaged."
+          "from": "75%",
+          "to": "81%",
+          "why": "About 2 day(s) old; still being read."
         }
       ],
-      "probability_high": 87.0,
-      "probability_low": 65.0
+      "probability_high": 93.0,
+      "probability_low": 69.0
     }
   },
   "opp_13e3c6503eee": {
@@ -2140,130 +2074,6 @@
       "probability_low": 45.0
     }
   },
-  "opp_2758bddf74d0": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 75.0,
-    "budget_min": 55.0,
-    "budget_type": "HOURLY",
-    "category": "web_research",
-    "client": "Lumen Home Goods",
-    "competition_score": 75.1,
-    "confidence": 80.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Ongoing part-time contract. Each week, check publicly listed prices for about 40 SKUs across six competitor websites and record them in a shared tracker with the date and a source link for each figure. We need the sources cited so we can verify. Roughly 4-6 hours a week. Please only use publicly available information; do not create accounts or bypass anything to get pricing.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 3.6,
-    "estimated_cost": 0.0,
-    "estimated_hours": 4.8,
-    "estimated_net_revenue": 237.6,
-    "estimated_non_ai_effort": 1.2,
-    "estimated_platform_fee": 26.4,
-    "external_id": "demo_003",
-    "id": "opp_2758bddf74d0",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "ONGOING",
-    "posted_time": "2026-09-10T12:51:31+00:00",
-    "profit_score": 63.5,
-    "risk_flags": [],
-    "score": 45.5,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.9,
-          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 3.3,
-          "evidence": "Moderate description (>=300 chars); budget stated."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 11.7,
-          "evidence": "Estimated net $238 on $264 (90% margin). $113 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $198 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 13.5,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 10.1,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 45.5,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [],
-      "raw_total": 45.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Weekly competitor pricing research compiled into a tracker",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/003",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (47-65%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 1 day(s) old; still being read."
-        },
-        {
-          "effect": "-10%",
-          "factor": "Ongoing engagement",
-          "from": "66%",
-          "to": "56%",
-          "why": "Judged over weeks against candidates with a track record."
-        }
-      ],
-      "probability_high": 65.0,
-      "probability_low": 47.0
-    }
-  },
   "opp_278f596037c1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -2484,119 +2294,6 @@
       ],
       "probability_high": 67.0,
       "probability_low": 49.0
-    }
-  },
-  "opp_2bdd5bf4dece": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 3500.0,
-    "budget_min": 2000.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Meridian Research Institute",
-    "competition_score": 65.1,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Non-profit research institute. We track sponsored program spending across about 60 active awards in spreadsheets and it has stopped scaling. We want a dashboard showing burn rate per award, projected end-of-award balance, and a flag for awards trending to underspend or overspend. Data comes from a monthly export from our finance system as CSV. Deliverables: the dashboard, the ingestion script for the monthly export, documentation, and a handover session. Requirements: it must run somewhere we control, must not require a paid subscription, and the calculations must be auditable - our finance director needs to see how each number was derived. Timeline is flexible; we care more about getting the burn-rate logic right than about speed.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 14.74,
-    "estimated_cost": 0.0,
-    "estimated_hours": 29.49,
-    "estimated_net_revenue": 2475.0,
-    "estimated_non_ai_effort": 14.75,
-    "estimated_platform_fee": 275.0,
-    "external_id": "demo_008",
-    "id": "opp_2bdd5bf4dece",
-    "is_demo": true,
-    "match_score": 70.7,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-10T02:51:31+00:00",
-    "profit_score": 91.0,
-    "risk_flags": [],
-    "score": 74.5,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 7.1,
-          "evidence": "50% of estimated effort is AI-carryable (14.7h AI / 14.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 6.8,
-          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 16.1,
-          "evidence": "Estimated net $2,475 on $2,750 (90% margin). $134 per effective hour vs $85 target (18.4 effective h = 14.8h human + 14.7h AI discounted). Leverage: $168 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 12.1,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one. Budget >= $2,000 attracts stronger competition (-10%)."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 21.9,
-          "evidence": "Matched 2 profile skills: csv, dashboard."
-        }
-      },
-      "final_score": 74.5,
-      "opportunity_class": "C - High-value build ($500+)",
-      "penalties": [],
-      "raw_total": 74.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
-    },
-    "skills": [
-      "csv",
-      "dashboard"
-    ],
-    "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Build an internal dashboard for our grant spending",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/008",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 2 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
     }
   },
   "opp_2e011f001aaf": {
@@ -3133,58 +2830,6 @@
       "probability_low": 0.0
     }
   },
-  "opp_33e95f314fea": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 400.0,
-    "budget_min": 400.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Vertex Media",
-    "competition_score": 0.0,
-    "confidence": 55.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Looking for a writer for 10 blog posts about supply chain software. Must be 100% human written - we run every submission through AI detection and will reject anything flagged. No ChatGPT, no AI assistance of any kind. Please confirm you understand before applying.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 3.35,
-    "estimated_cost": 0.0,
-    "estimated_hours": 6.69,
-    "estimated_net_revenue": 360.0,
-    "estimated_non_ai_effort": 3.34,
-    "estimated_platform_fee": 40.0,
-    "external_id": "demo_006",
-    "id": "opp_33e95f314fea",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T06:51:31+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "AI_PROHIBITED"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Client prohibits AI. Automatic reject. Accepting this and using AI anyway would be dishonest; it can be re-opened as manual work if you choose to do it by hand.",
-      "weights_used": {}
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Blog content writing - human written only, no AI",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/006",
-    "win_estimate": {}
-  },
   "opp_3477e01d9d2d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -3314,119 +2959,6 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
-    }
-  },
-  "opp_39501e455687": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 600.0,
-    "budget_min": 400.0,
-    "budget_type": "FIXED",
-    "category": "spreadsheet",
-    "client": "Brightline Retail Group",
-    "competition_score": 74.8,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows. We need them consolidated into a single clean workbook with a normalized schema, plus a summary tab with month-over-month revenue by store and by category. Deliverables: one .xlsx with a Data tab, a Summary tab with pivot-ready structure, and a short README describing the column mapping you used. Requirements: preserve every original row (we will check row counts), flag any rows that failed to map rather than dropping them, and keep currency formatting consistent. We would also like the mapping logic as a Python script so we can re-run it next quarter ourselves. Scope is fixed; timeline is one week. Please tell us how you would handle the duplicate order IDs we know exist in Q3.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 4.84,
-    "estimated_cost": 0.0,
-    "estimated_hours": 5.38,
-    "estimated_net_revenue": 450.0,
-    "estimated_non_ai_effort": 0.54,
-    "estimated_platform_fee": 50.0,
-    "external_id": "demo_000",
-    "id": "opp_39501e455687",
-    "is_demo": true,
-    "match_score": 78.1,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-11T15:51:31+00:00",
-    "profit_score": 76.8,
-    "risk_flags": [],
-    "score": 83.0,
-    "score_band": "STRONG",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 12.7,
-          "evidence": "90% of estimated effort is AI-carryable (4.8h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 8.0,
-          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 13.6,
-          "evidence": "Estimated net $450 on $500 (90% margin). $257 per effective hour vs $85 target (1.8 effective h = 0.5h human + 4.8h AI discounted). Leverage: $833 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 13.9,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 24.2,
-          "evidence": "Matched 3 profile skills: excel, python, reporting."
-        }
-      },
-      "final_score": 83.0,
-      "opportunity_class": "C - High-value build ($500+)",
-      "penalties": [],
-      "raw_total": 83.0,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
-    },
-    "skills": [
-      "python",
-      "excel"
-    ],
-    "source": "demo",
-    "status": "WON",
-    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/000",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 0 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
     }
   },
   "opp_3abd91d4cc67": {
@@ -4292,6 +3824,130 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_4c5ab5b8089c": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 75.0,
+    "budget_min": 55.0,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Lumen Home Goods",
+    "competition_score": 75.1,
+    "confidence": 80.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Ongoing part-time contract. Each week, check publicly listed prices for about 40 SKUs across six competitor websites and record them in a shared tracker with the date and a source link for each figure. We need the sources cited so we can verify. Roughly 4-6 hours a week. Please only use publicly available information; do not create accounts or bypass anything to get pricing.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 237.6,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 26.4,
+    "external_id": "demo_003",
+    "id": "opp_4c5ab5b8089c",
+    "is_demo": true,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-10T15:11:30+00:00",
+    "profit_score": 63.5,
+    "risk_flags": [],
+    "score": 45.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 3.3,
+          "evidence": "Moderate description (>=300 chars); budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.7,
+          "evidence": "Estimated net $238 on $264 (90% margin). $113 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $198 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 13.5,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [],
+    "source": "demo",
+    "status": "SKIP",
+    "title": "[DEMO] Weekly competitor pricing research compiled into a tracker",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/003",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "75%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "75%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
     }
   },
   "opp_4c7146c66ee3": {
@@ -5452,7 +5108,7 @@
       "remote"
     ],
     "source": "hackernews",
-    "status": "REVIEW",
+    "status": "PROPOSAL_DRAFTED",
     "title": "Squoosh.AI - Full-Stack Engineer + PhD Researcher [part-time]",
     "updated_at": "2026-09-11T19:32:39+00:00",
     "url": "https://news.ycombinator.com/item?id=49662536",
@@ -5706,6 +5362,292 @@
       "probability_high": 78.0,
       "probability_low": 58.0
     }
+  },
+  "opp_8949d67725fb": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 600.0,
+    "budget_min": 400.0,
+    "budget_type": "FIXED",
+    "category": "spreadsheet",
+    "client": "Brightline Retail Group",
+    "competition_score": 74.8,
+    "confidence": 100.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows. We need them consolidated into a single clean workbook with a normalized schema, plus a summary tab with month-over-month revenue by store and by category. Deliverables: one .xlsx with a Data tab, a Summary tab with pivot-ready structure, and a short README describing the column mapping you used. Requirements: preserve every original row (we will check row counts), flag any rows that failed to map rather than dropping them, and keep currency formatting consistent. We would also like the mapping logic as a Python script so we can re-run it next quarter ourselves. Scope is fixed; timeline is one week. Please tell us how you would handle the duplicate order IDs we know exist in Q3.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.84,
+    "estimated_cost": 0.0,
+    "estimated_hours": 5.38,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 0.54,
+    "estimated_platform_fee": 50.0,
+    "external_id": "demo_000",
+    "id": "opp_8949d67725fb",
+    "is_demo": true,
+    "match_score": 78.1,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-11T18:11:30+00:00",
+    "profit_score": 76.8,
+    "risk_flags": [],
+    "score": 83.0,
+    "score_band": "STRONG",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 12.7,
+          "evidence": "90% of estimated effort is AI-carryable (4.8h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 8.0,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 13.6,
+          "evidence": "Estimated net $450 on $500 (90% margin). $257 per effective hour vs $85 target (1.8 effective h = 0.5h human + 4.8h AI discounted). Leverage: $833 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 13.9,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 24.2,
+          "evidence": "Matched 3 profile skills: excel, python, reporting."
+        }
+      },
+      "final_score": 83.0,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 83.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "python",
+      "excel"
+    ],
+    "source": "demo",
+    "status": "WON",
+    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/000",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (69-93%)",
+      "factors": [
+        {
+          "effect": "75%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "75%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "75%",
+          "to": "81%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 93.0,
+      "probability_low": 69.0
+    }
+  },
+  "opp_8a63a296720b": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 250.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "pdf_extraction",
+    "client": "Kestrel Manufacturing",
+    "competition_score": 74.8,
+    "confidence": 90.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We have roughly 300 scanned PDF invoices from suppliers. We need supplier name, invoice number, invoice date, each line item with quantity and unit price, and the invoice total, extracted into a CSV. Scans are decent quality but not perfect. Deliverable is the CSV plus a list of any invoices the extraction could not read confidently, so we can key those manually. Accuracy on totals matters more than speed - we will spot check 30 of them against the originals.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.91,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.42,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 0.51,
+    "estimated_platform_fee": 25.0,
+    "external_id": "demo_002",
+    "id": "opp_8a63a296720b",
+    "is_demo": true,
+    "match_score": 63.2,
+    "opportunity_class": "MID",
+    "posted_time": "2026-09-11T01:11:30+00:00",
+    "profit_score": 71.9,
+    "risk_flags": [],
+    "score": 77.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 21.6,
+          "awarded": 18.3,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 9.8,
+          "awarded": 8.3,
+          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.6,
+          "awarded": 14.1,
+          "evidence": "Estimated net $225 on $250 (90% margin). $181 per effective hour vs $85 target (1.2 effective h = 0.5h human + 2.9h AI discounted). Leverage: $441 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 14.7,
+          "awarded": 11.0,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+        },
+        "Risk": {
+          "available": 9.8,
+          "awarded": 9.8,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.5,
+          "awarded": 15.5,
+          "evidence": "Matched 1 profile skills: csv."
+        }
+      },
+      "final_score": 77.1,
+      "opportunity_class": "B - Mid-size project ($100-500)",
+      "penalties": [],
+      "raw_total": 77.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 21.57,
+        "clarity_of_requirements": 9.8,
+        "expected_profitability": 19.61,
+        "likelihood_of_winning": 14.71,
+        "risk": 9.8,
+        "skill_fit": 24.51
+      }
+    },
+    "skills": [
+      "csv",
+      "pdf"
+    ],
+    "source": "demo",
+    "status": "REVIEW",
+    "title": "[DEMO] Extract line items from 300 scanned supplier invoices into CSV",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/002",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "75%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "75%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
+    }
+  },
+  "opp_8be90a7c99c7": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 4000.0,
+    "budget_min": 2500.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Global Ventures LLC",
+    "competition_score": 0.0,
+    "confidence": 55.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We need someone to help process payments for us. You will receive funds into your account and forward them to our suppliers, keeping 10%. Must be available today. We communicate on Telegram only. Please send a small deposit to verify your account is active and we will begin immediately.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 16.58,
+    "estimated_cost": 0.0,
+    "estimated_hours": 33.16,
+    "estimated_net_revenue": 2925.0,
+    "estimated_non_ai_effort": 16.58,
+    "estimated_platform_fee": 325.0,
+    "external_id": "demo_007",
+    "id": "opp_8be90a7c99c7",
+    "is_demo": true,
+    "match_score": 0.0,
+    "opportunity_class": "",
+    "posted_time": "2026-09-11T20:11:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "LIKELY_SCAM",
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 0.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Matches known scam patterns.",
+      "weights_used": {}
+    },
+    "skills": [],
+    "source": "demo",
+    "status": "SKIP",
+    "title": "[DEMO] Urgent - payment processing assistant needed, start today",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/007",
+    "win_estimate": {}
   },
   "opp_8c2e90581938": {
     "ai_allowed": null,
@@ -5964,6 +5906,248 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_8c80c8e4531f": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 2000.0,
+    "budget_min": 1200.0,
+    "budget_type": "FIXED",
+    "category": "api_integration",
+    "client": "Northwind Logistics",
+    "competition_score": 74.8,
+    "confidence": 100.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We need a scheduled job that calls three REST APIs (our TMS, a weather API, and a fuel price feed), normalizes the responses, stores them, and emails a daily operations summary as a PDF. Must run unattended on a schedule - we do not want to babysit it. Requirements: retry on transient failures, alert us when a source is unavailable rather than silently producing an empty report, and keep credentials out of the codebase. Deliverables: the pipeline code with tests, a deployment guide, and the scheduled job configured and demonstrably running. We use GitHub already so GitHub Actions is fine. Acceptance criteria: seven consecutive successful scheduled runs and a correct report on each. Milestone-based payment is fine.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 13.8,
+    "estimated_cost": 0.0,
+    "estimated_hours": 19.71,
+    "estimated_net_revenue": 1440.0,
+    "estimated_non_ai_effort": 5.91,
+    "estimated_platform_fee": 160.0,
+    "external_id": "demo_001",
+    "id": "opp_8c80c8e4531f",
+    "is_demo": true,
+    "match_score": 62.6,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-11T12:11:30+00:00",
+    "profit_score": 81.4,
+    "risk_flags": [],
+    "score": 75.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 9.9,
+          "evidence": "70% of estimated effort is AI-carryable (13.8h AI / 5.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.8,
+          "evidence": "Moderate description (>=300 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 14.4,
+          "evidence": "Estimated net $1,440 on $1,600 (90% margin). $154 per effective hour vs $85 target (9.4 effective h = 5.9h human + 13.8h AI discounted). Leverage: $244 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 13.9,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 19.4,
+          "evidence": "Matched 3 profile skills: github actions, python, rest api. Covers 40% of the 5 skills this listing names (missing: api, pdf, rest)."
+        }
+      },
+      "final_score": 75.0,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 75.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "github actions",
+      "pdf"
+    ],
+    "source": "demo",
+    "status": "REVIEW",
+    "title": "[DEMO] Build a scheduled Python pipeline to pull our API data into a daily report",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/001",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (69-93%)",
+      "factors": [
+        {
+          "effect": "75%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "75%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "75%",
+          "to": "81%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 93.0,
+      "probability_low": 69.0
+    }
+  },
+  "opp_8df53e589d54": {
+    "ai_allowed": null,
+    "automation_policy": "DEMO",
+    "budget_max": 15.0,
+    "budget_min": 15.0,
+    "budget_type": "FIXED",
+    "category": "scripting",
+    "client": "Anonymous",
+    "competition_score": 74.9,
+    "confidence": 75.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Need a script to rename files. Simple job. Quick turnaround.",
+    "discovered_by_run": "",
+    "engagement_type": "",
+    "estimated_ai_effort": 1.96,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.45,
+    "estimated_net_revenue": 13.5,
+    "estimated_non_ai_effort": 0.49,
+    "estimated_platform_fee": 1.5,
+    "external_id": "demo_004",
+    "id": "opp_8df53e589d54",
+    "is_demo": true,
+    "match_score": 63.1,
+    "opportunity_class": "SMALL",
+    "posted_time": "2026-09-11T16:11:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 64.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 33.6,
+          "awarded": 26.9,
+          "evidence": "80% of estimated effort is AI-carryable (2.0h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 14.9,
+          "awarded": 6.0,
+          "evidence": "Thin description; 1 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 9.3,
+          "awarded": 0.0,
+          "evidence": "Estimated value $15 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 14.0,
+          "awarded": 10.5,
+          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
+        },
+        "Risk": {
+          "available": 9.3,
+          "awarded": 9.3,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 18.7,
+          "awarded": 11.8,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 64.6,
+      "opportunity_class": "A - Small automatable ($25-100)",
+      "penalties": [],
+      "raw_total": 64.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 33.64,
+        "clarity_of_requirements": 14.95,
+        "expected_profitability": 9.35,
+        "likelihood_of_winning": 14.02,
+        "risk": 9.35,
+        "skill_fit": 18.69
+      }
+    },
+    "skills": [
+      "python"
+    ],
+    "source": "demo",
+    "status": "SKIP",
+    "title": "[DEMO] Small Python script to rename and sort files",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/004",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "75%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "75%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "+10%",
+          "factor": "Small one-off job",
+          "from": "66%",
+          "to": "76%",
+          "why": "Decided quickly and largely on price and turnaround, where a new account is least disadvantaged."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
     }
   },
   "opp_8fe2edb760d1": {
@@ -7518,60 +7702,6 @@
       "probability_high": 37.0,
       "probability_low": 15.0
     }
-  },
-  "opp_b09357eec46b": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 300.0,
-    "budget_min": 300.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Private Client",
-    "competition_score": 0.0,
-    "confidence": 65.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "I need someone to write my assignment for my graduate finance module. It is 4000 words on capital structure and is due Friday. Must be original and pass the plagiarism checker. This is for my coursework so it needs to be in my voice.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 2.98,
-    "estimated_cost": 0.0,
-    "estimated_hours": 5.96,
-    "estimated_net_revenue": 270.0,
-    "estimated_non_ai_effort": 2.98,
-    "estimated_platform_fee": 30.0,
-    "external_id": "demo_005",
-    "id": "opp_b09357eec46b",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T16:51:31+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "ACADEMIC_DISHONESTY"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Academic dishonesty. Never accepted.",
-      "weights_used": {}
-    },
-    "skills": [
-      "api"
-    ],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Write my graduate finance coursework - 4000 words",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/005",
-    "win_estimate": {}
   },
   "opp_b10d2ac568f9": {
     "ai_allowed": null,
@@ -9329,121 +9459,59 @@
       "probability_low": 60.0
     }
   },
-  "opp_eb47eb37d405": {
+  "opp_e8ca634f3d40": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
-    "budget_max": 2000.0,
-    "budget_min": 1200.0,
+    "budget_max": 300.0,
+    "budget_min": 300.0,
     "budget_type": "FIXED",
-    "category": "api_integration",
-    "client": "Northwind Logistics",
-    "competition_score": 74.8,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
+    "category": "generic",
+    "client": "Private Client",
+    "competition_score": 0.0,
+    "confidence": 65.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "We need a scheduled job that calls three REST APIs (our TMS, a weather API, and a fuel price feed), normalizes the responses, stores them, and emails a daily operations summary as a PDF. Must run unattended on a schedule - we do not want to babysit it. Requirements: retry on transient failures, alert us when a source is unavailable rather than silently producing an empty report, and keep credentials out of the codebase. Deliverables: the pipeline code with tests, a deployment guide, and the scheduled job configured and demonstrably running. We use GitHub already so GitHub Actions is fine. Acceptance criteria: seven consecutive successful scheduled runs and a correct report on each. Milestone-based payment is fine.",
+    "description": "I need someone to write my assignment for my graduate finance module. It is 4000 words on capital structure and is due Friday. Must be original and pass the plagiarism checker. This is for my coursework so it needs to be in my voice.",
     "discovered_by_run": "",
     "engagement_type": "",
-    "estimated_ai_effort": 13.8,
+    "estimated_ai_effort": 2.98,
     "estimated_cost": 0.0,
-    "estimated_hours": 19.71,
-    "estimated_net_revenue": 1440.0,
-    "estimated_non_ai_effort": 5.91,
-    "estimated_platform_fee": 160.0,
-    "external_id": "demo_001",
-    "id": "opp_eb47eb37d405",
+    "estimated_hours": 5.96,
+    "estimated_net_revenue": 270.0,
+    "estimated_non_ai_effort": 2.98,
+    "estimated_platform_fee": 30.0,
+    "external_id": "demo_005",
+    "id": "opp_e8ca634f3d40",
     "is_demo": true,
-    "match_score": 62.6,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-11T09:51:31+00:00",
-    "profit_score": 81.4,
-    "risk_flags": [],
-    "score": 75.0,
-    "score_band": "REVIEW",
+    "match_score": 0.0,
+    "opportunity_class": "",
+    "posted_time": "2026-09-11T19:11:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "ACADEMIC_DISHONESTY"
+    ],
+    "score": 0.0,
+    "score_band": "SKIP",
     "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 9.9,
-          "evidence": "70% of estimated effort is AI-carryable (13.8h AI / 5.9h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 6.8,
-          "evidence": "Moderate description (>=300 chars); 5 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 14.4,
-          "evidence": "Estimated net $1,440 on $1,600 (90% margin). $154 per effective hour vs $85 target (9.4 effective h = 5.9h human + 13.8h AI discounted). Leverage: $244 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 13.9,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 19.4,
-          "evidence": "Matched 3 profile skills: github actions, python, rest api. Covers 40% of the 5 skills this listing names (missing: api, pdf, rest)."
-        }
-      },
-      "final_score": 75.0,
-      "opportunity_class": "C - High-value build ($500+)",
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
       "penalties": [],
-      "raw_total": 75.0,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Academic dishonesty. Never accepted.",
+      "weights_used": {}
     },
     "skills": [
-      "python",
-      "api",
-      "rest",
-      "github actions",
-      "pdf"
+      "api"
     ],
     "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Build a scheduled Python pipeline to pull our API data into a daily report",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/001",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 0 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
-    }
+    "status": "SKIP",
+    "title": "[DEMO] Write my graduate finance coursework - 4000 words",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/005",
+    "win_estimate": {}
   },
   "opp_eb91b55bffd1": {
     "ai_allowed": null,
@@ -10068,125 +10136,57 @@
       "probability_low": 26.0
     }
   },
-  "opp_f4e270f34dfc": {
+  "opp_f68c4a315114": {
     "ai_allowed": null,
     "automation_policy": "DEMO",
-    "budget_max": 250.0,
-    "budget_min": 250.0,
+    "budget_max": 400.0,
+    "budget_min": 400.0,
     "budget_type": "FIXED",
-    "category": "pdf_extraction",
-    "client": "Kestrel Manufacturing",
-    "competition_score": 74.8,
-    "confidence": 90.0,
-    "created_at": "2026-09-11T18:51:31+00:00",
+    "category": "generic",
+    "client": "Vertex Media",
+    "competition_score": 0.0,
+    "confidence": 55.0,
+    "created_at": "2026-09-11T21:11:30+00:00",
     "currency": "USD",
     "deadline": "",
-    "description": "We have roughly 300 scanned PDF invoices from suppliers. We need supplier name, invoice number, invoice date, each line item with quantity and unit price, and the invoice total, extracted into a CSV. Scans are decent quality but not perfect. Deliverable is the CSV plus a list of any invoices the extraction could not read confidently, so we can key those manually. Accuracy on totals matters more than speed - we will spot check 30 of them against the originals.",
+    "description": "Looking for a writer for 10 blog posts about supply chain software. Must be 100% human written - we run every submission through AI detection and will reject anything flagged. No ChatGPT, no AI assistance of any kind. Please confirm you understand before applying.",
     "discovered_by_run": "",
     "engagement_type": "",
-    "estimated_ai_effort": 2.91,
+    "estimated_ai_effort": 3.35,
     "estimated_cost": 0.0,
-    "estimated_hours": 3.42,
-    "estimated_net_revenue": 225.0,
-    "estimated_non_ai_effort": 0.51,
-    "estimated_platform_fee": 25.0,
-    "external_id": "demo_002",
-    "id": "opp_f4e270f34dfc",
+    "estimated_hours": 6.69,
+    "estimated_net_revenue": 360.0,
+    "estimated_non_ai_effort": 3.34,
+    "estimated_platform_fee": 40.0,
+    "external_id": "demo_006",
+    "id": "opp_f68c4a315114",
     "is_demo": true,
-    "match_score": 63.2,
-    "opportunity_class": "MID",
-    "posted_time": "2026-09-10T22:51:31+00:00",
-    "profit_score": 71.9,
-    "risk_flags": [],
-    "score": 77.1,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 21.6,
-          "awarded": 18.3,
-          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 9.8,
-          "awarded": 8.3,
-          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 19.6,
-          "awarded": 14.1,
-          "evidence": "Estimated net $225 on $250 (90% margin). $181 per effective hour vs $85 target (1.2 effective h = 0.5h human + 2.9h AI discounted). Leverage: $441 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 14.7,
-          "awarded": 11.0,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 9.8,
-          "awarded": 9.8,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 24.5,
-          "awarded": 15.5,
-          "evidence": "Matched 1 profile skills: csv."
-        }
-      },
-      "final_score": 77.1,
-      "opportunity_class": "B - Mid-size project ($100-500)",
-      "penalties": [],
-      "raw_total": 77.1,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 21.57,
-        "clarity_of_requirements": 9.8,
-        "expected_profitability": 19.61,
-        "likelihood_of_winning": 14.71,
-        "risk": 9.8,
-        "skill_fit": 24.51
-      }
-    },
-    "skills": [
-      "csv",
-      "pdf"
+    "match_score": 0.0,
+    "opportunity_class": "",
+    "posted_time": "2026-09-11T09:11:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "AI_PROHIBITED"
     ],
+    "score": 0.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {},
+      "final_score": 0.0,
+      "opportunity_class": "",
+      "penalties": [],
+      "raw_total": 0.0,
+      "rejected": true,
+      "rejection_reason": "Client prohibits AI. Automatic reject. Accepting this and using AI anyway would be dishonest; it can be re-opened as manual work if you choose to do it by hand.",
+      "weights_used": {}
+    },
+    "skills": [],
     "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Extract line items from 300 scanned supplier invoices into CSV",
-    "updated_at": "2026-09-11T18:51:31+00:00",
-    "url": "https://example.invalid/demo/002",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (56-76%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 1 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 76.0,
-      "probability_low": 56.0
-    }
+    "status": "SKIP",
+    "title": "[DEMO] Blog content writing - human written only, no AI",
+    "updated_at": "2026-09-11T21:11:30+00:00",
+    "url": "https://example.invalid/demo/006",
+    "win_estimate": {}
   },
   "opp_f7cbd5ce71fd": {
     "ai_allowed": null,
