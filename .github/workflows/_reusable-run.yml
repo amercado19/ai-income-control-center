@@ -32,6 +32,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write   # the rolling 'Needs you' issue is the only free notification channel
 
 concurrency:
   group: aicc-repo-push
@@ -99,6 +100,16 @@ jobs:
         if: ${{ steps.pipeline.outcome == 'failure' }}
         run: |
           python -m aicc ai-status --error "$(tail -c 4000 "$RUNNER_TEMP/step.log" 2>/dev/null)"
+
+      # The only notification channel that is free and reliable: GitHub already emails the
+      # repository owner about issues they are subscribed to. One rolling issue, edited in
+      # place while the list changes and closed when it empties - so the owner hears about
+      # entering and leaving the state of being needed, and nothing in between. A channel
+      # that pings every run is one the owner stops reading.
+      - name: Tell Andres what needs him
+        if: ${{ always() }}
+        continue-on-error: true
+        run: python -m aicc notify --issue
 
       - name: Build and verify the dashboard
         id: build

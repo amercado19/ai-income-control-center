@@ -12,6 +12,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write   # the rolling 'Needs you' issue is the only free notification channel
 
 jobs:
   check:

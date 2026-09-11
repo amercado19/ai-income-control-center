@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -387,6 +388,33 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_notify(args: argparse.Namespace) -> int:
+    """Tell Andres what needs him, through the only channel that is free and reliable.
+
+    Never fails the run. A notifier that can take down the pipeline has inverted its purpose.
+    """
+    from . import notify
+
+    notifications = notify.collect()
+    _print(notify.summary_line(notifications))
+    for n in notifications:
+        _print(f"  {'BLOCKING' if n.urgent else 'waiting '}  {n.title}")
+        if n.body:
+            _print(f"            {n.body[:110]}")
+
+    step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary:
+        with open(step_summary, "a", encoding="utf-8") as fh:
+            fh.write(f"### {notify.summary_line(notifications)}\n\n{notify.render(notifications)}\n")
+
+    if args.issue:
+        try:
+            _print("\n" + notify.sync_issue(notifications))
+        except notify.GitHubUnavailable as exc:
+            _print(f"\nIssue not synced: {exc}")
+    return 0
+
+
 def cmd_selftest(args: argparse.Namespace) -> int:
     """Attempt a safety violation against the live system and confirm it is refused.
 
@@ -522,6 +550,10 @@ def build_parser() -> argparse.ArgumentParser:
     t = sub.add_parser("top", help="Top opportunities with full score reasoning")
     t.add_argument("--limit", type=int, default=10)
     t.set_defaults(func=cmd_top)
+
+    nt = sub.add_parser("notify", help="Report what needs a human; optionally sync the rolling GitHub issue")
+    nt.add_argument("--issue", action="store_true", help="Create, update or close the rolling 'Needs you' issue")
+    nt.set_defaults(func=cmd_notify)
 
     stst = sub.add_parser("selftest", help="Attempt safety violations against the live system and confirm each is refused")
     stst.add_argument("--json", action="store_true")
