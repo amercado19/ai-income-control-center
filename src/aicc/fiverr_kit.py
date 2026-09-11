@@ -170,7 +170,19 @@ class Gig:
         d["valid"] = not d["validation"]
         d["title_chars"] = len(self.title)
         d["description_chars"] = len(self.description)
+        d["image_path"] = self.image_path()
         return d
+
+    def image_path(self) -> str:
+        """Where the rendered gig image lives, if it has been generated.
+
+        Returns "" rather than a broken path when it has not, because a gig published without
+        an image is a real gap the dashboard should show rather than paper over.
+        """
+        from pathlib import Path
+
+        candidate = Path("portfolio/gig_images") / f"{self.key}.png"
+        return str(candidate) if candidate.exists() else ""
 
 
 # ---------------------------------------------------------------------------
@@ -661,6 +673,7 @@ def summary() -> dict[str, Any]:
         "all_valid": all(g["valid"] for g in gigs),
         "commission": COMMISSION,
         "total_basic_net": round(sum(g["packages"][0]["net_after_commission"] for g in gigs), 2),
+        "images_ready": sum(1 for g in GIGS if g.image_path()),
         "floor_hourly": PROFILE.minimum_hourly,
         "target_hourly": PROFILE.target_hourly,
         "below_floor": [{"key": g.key, "reason": g.below_floor_reason} for g in GIGS if g.below_floor_reason],

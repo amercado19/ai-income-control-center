@@ -261,3 +261,32 @@ def test_validator_catches_characters_fiverr_rejects_in_titles() -> None:
         rationale="r",
     )
     assert any("'&'" in p for p in bad.validate())
+
+
+# ------------------------------------------------------------------ gig images
+
+
+def test_image_path_is_empty_rather_than_broken_when_nothing_is_rendered(tmp_path, monkeypatch) -> None:
+    """A missing image is a real gap the dashboard should show, not a 404 it should hide."""
+    monkeypatch.chdir(tmp_path)
+    assert ALL[0].image_path() == ""
+
+
+def test_summary_counts_how_many_gigs_have_an_image() -> None:
+    s = fk.summary()
+    assert 0 <= s["images_ready"] <= s["slots_used"]
+
+
+def test_every_gig_has_an_image_renderer() -> None:
+    """A gig with no renderer would publish without an image, which performs badly on Fiverr."""
+    import importlib.util
+    from pathlib import Path
+
+    spec = importlib.util.spec_from_file_location("gig_images", Path(__file__).resolve().parent.parent / "scripts" / "gig_images.py")
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    try:
+        spec.loader.exec_module(module)
+    except SystemExit:
+        pytest.skip("Pillow not installed in this environment")
+    assert {g.key for g in ALL} <= set(module.RENDERERS)

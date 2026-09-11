@@ -476,6 +476,9 @@ PAGES.fiverr = () => {
         </div>
       </div>
       ${g.validation.length ? `<div class="note" style="margin-top:10px;color:var(--red)">${g.validation.map(esc).join("<br>")}</div>` : ""}
+      ${g.image_path
+        ? `<div class="cell-sub" style="margin-top:10px">Gig image ready: <code>${esc(g.image_path)}</code> (1280&times;769). Upload it when you publish.</div>`
+        : `<div class="note" style="margin-top:10px">No gig image generated yet. Run <code>python3 scripts/gig_images.py</code> - a gig published without one performs badly.</div>`}
       <div class="table-wrap" style="margin-top:12px"><table class="fits-narrow"><thead><tr><th>Package</th><th>List</th><th>You net</th><th>Your hours</th><th>Implied /h</th><th class="hide-narrow">Delivery</th><th class="hide-narrow">Revisions</th></tr></thead>
       <tbody>${g.packages.map((p) => `<tr>
         <td><span class="cell-title">${esc(p.name)}</span><span class="cell-sub">${p.includes.length} item${p.includes.length === 1 ? "" : "s"}</span></td>
