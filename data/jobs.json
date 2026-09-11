@@ -1,0 +1,108 @@
+{
+  "job_58ce3dd19f5a": {
+    "acceptance_criteria": [
+      "Row count in the output matches the total row count across the source files",
+      "A README documents the column mapping",
+      "No source row is silently discarded"
+    ],
+    "agreed_price": 500.0,
+    "ai_usage_units": 0.0,
+    "client": "Brightline Retail Group",
+    "created_at": "2026-09-11T18:02:05+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "deliverables": [
+      "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a/consolidated.csv",
+      "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a/README.md"
+    ],
+    "delivered_at": "2026-09-11T18:02:05+00:00",
+    "human_action_required": "",
+    "human_minutes_spent": 0.0,
+    "id": "job_58ce3dd19f5a",
+    "is_demo": true,
+    "job_type": "spreadsheet",
+    "max_auto_revisions": 2,
+    "opportunity_id": "opp_00911b77f97a",
+    "proposal_id": "prop_e3c83c659f00",
+    "qa_rounds": [
+      {
+        "accuracy": 40.0,
+        "client_instructions": 100.0,
+        "completeness": 0.0,
+        "created_at": "2026-09-11T18:02:05+00:00",
+        "file_integrity": 100.0,
+        "findings": [
+          {
+            "check": "row_count",
+            "detail": "Expected 120 data rows, output has 113 (lost 7 rows). Silent row loss is the most damaging defect in data-cleaning work.",
+            "severity": "critical"
+          },
+          {
+            "check": "summary",
+            "detail": "113 data rows x 6 columns; 0 duplicates; 0 empty cells.",
+            "severity": "info"
+          },
+          {
+            "check": "acceptance_criteria",
+            "detail": "1 acceptance criterion/criteria have no textual trace in the deliverable (keyword check only, not a semantic check): Row count in the output matches the total row count across the source ",
+            "severity": "major"
+          }
+        ],
+        "formatting": 100.0,
+        "id": "qa_72ea912a1584",
+        "job_id": "job_58ce3dd19f5a",
+        "overall_score": 77.8,
+        "professional_quality": 100.0,
+        "requirements_satisfied": 60.0,
+        "reviewer": "rule_based",
+        "round": 1,
+        "security": 100.0,
+        "source_verification": 100.0,
+        "verdict": "AUTO_REVISE"
+      },
+      {
+        "accuracy": 100.0,
+        "client_instructions": 100.0,
+        "completeness": 100.0,
+        "created_at": "2026-09-11T18:02:05+00:00",
+        "file_integrity": 100.0,
+        "findings": [
+          {
+            "check": "summary",
+            "detail": "120 data rows x 7 columns; 0 duplicates; 7 empty cells.",
+            "severity": "info"
+          },
+          {
+            "check": "acceptance_criteria",
+            "detail": "1 acceptance criterion/criteria have no textual trace in the deliverable (keyword check only, not a semantic check): Row count in the output matches the total row count across the source ",
+            "severity": "major"
+          }
+        ],
+        "formatting": 100.0,
+        "id": "qa_2546c3c77afc",
+        "job_id": "job_58ce3dd19f5a",
+        "overall_score": 95.6,
+        "professional_quality": 100.0,
+        "requirements_satisfied": 60.0,
+        "reviewer": "rule_based",
+        "round": 2,
+        "security": 100.0,
+        "source_verification": 100.0,
+        "verdict": "READY"
+      }
+    ],
+    "requirements": [
+      "Consolidate all source files into one workbook",
+      "Normalize the differing column headers to a single schema",
+      "Preserve every source row; flag rows that fail to map rather than dropping them",
+      "Provide a README describing the column mapping"
+    ],
+    "revision_count": 1,
+    "source": "demo",
+    "status": "DELIVERED",
+    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
+    "updated_at": "2026-09-11T18:02:05+00:00",
+    "worker_notes": "Consolidated 3 source file(s) into 120 rows across 7 columns. Incomplete rows flagged, not dropped.",
+    "workspace": "/home/claude/ai-income-control-center/workspaces/job_58ce3dd19f5a"
+  }
+}

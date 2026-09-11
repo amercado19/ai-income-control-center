@@ -367,10 +367,27 @@ def extract_skills(text: str, extra: list[str] | None = None) -> list[str]:
 
 
 def make_opportunity(**kwargs: Any) -> Opportunity:
-    """Build an Opportunity with description/title normalized."""
+    """Build an Opportunity, normalizing and sanitizing third-party text.
+
+    The full posting is scored in memory; only a redacted excerpt is persisted, because the
+    operational store is committed to a public repository. See ``aicc.privacy`` for why.
+
+    ``full_description`` carries the unredacted text for in-process scoring only. It is not a
+    dataclass field, so it can never be written to disk by ``to_dict``.
+    """
+    from ..privacy import sanitize_for_storage
+
     kwargs["title"] = strip_html(kwargs.get("title", ""))[:300]
-    kwargs["description"] = strip_html(kwargs.get("description", ""))[:8000]
-    return Opportunity(**kwargs)
+    full = strip_html(kwargs.get("description", ""))[:8000]
+    stored, redactions = sanitize_for_storage(full)
+    kwargs["description"] = stored
+
+    opp = Opportunity(**kwargs)
+    # Attribute, not field: scoring reads it, persistence cannot see it.
+    object.__setattr__(opp, "full_description", full)
+    if redactions:
+        object.__setattr__(opp, "contact_redactions", redactions)
+    return opp
 
 
 _REGISTRY: dict[str, type[Connector]] = {}

@@ -1,39 +1,5 @@
 {
-  "prop_0ecaecf46a69": {
-    "ai_disclosure_included": true,
-    "approved_at": "",
-    "approved_by": "",
-    "body": "Re: Virtasant (1099 contractor for a client of ours) - contract role\n\nYou said: \"For one of them (a solid healthcare data company) we're looking for a Senior Data Engineer\"\n\nHere is how I would approach it.\n\nI would build this as a scheduled job with the failure modes handled explicitly: retry on transient errors, and an alert when a source is unavailable rather than a silently empty report. Credentials stay in secrets, never in the code. You get the pipeline, tests, and the schedule configured and demonstrably running.\n\nWhat you would get:\n  - The completed work product in the format you specified\n  - The script or process used, so you can re-run it yourself\n  - A short note on method and any data-quality issues found\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nRelevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nOne question before I start: When one upstream source is unavailable, should the job still produce a report with that section marked missing, or hold and alert instead?\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
-    "claims_made": [
-      "automated python data pipelines",
-      "scheduled github actions",
-      "testing and deployment systems"
-    ],
-    "claims_verified": true,
-    "clarifying_question": "When one upstream source is unavailable, should the job still produce a report with that section marked missing, or hold and alert instead?",
-    "created_at": "2026-09-11T17:26:29+00:00",
-    "deliverables": [
-      "The completed work product in the format you specified",
-      "The script or process used, so you can re-run it yourself",
-      "A short note on method and any data-quality issues found"
-    ],
-    "id": "prop_0ecaecf46a69",
-    "is_demo": false,
-    "opportunity_id": "opp_53664d8fb412",
-    "problem_statement": "For one of them (a solid healthcare data company) we're looking for a Senior Data Engineer",
-    "proposed_solution": "I would build this as a scheduled job with the failure modes handled explicitly: retry on transient errors, and an alert when a source is unavailable rather than a silently empty report. Credentials stay in secrets, never in the code. You get the pipeline, tests, and the schedule configured and demonstrably running.",
-    "quoted_price": 800.0,
-    "relevant_experience": "Relevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
-    "source": "hackernews",
-    "status": "AWAITING_APPROVAL",
-    "submit_cost_cash": 0.0,
-    "submit_cost_currency": "",
-    "submit_cost_units": 0,
-    "submitted_at": "",
-    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
-    "updated_at": "2026-09-11T17:26:29+00:00"
-  },
-  "prop_6e40ae3c0758": {
+  "prop_323681f2e0cc": {
     "ai_disclosure_included": true,
     "approved_at": "",
     "approved_by": "",
@@ -44,15 +10,15 @@
     ],
     "claims_verified": true,
     "clarifying_question": "What should happen when the upstream API rate-limits us mid-run - back off and resume, or fail the run loudly?",
-    "created_at": "2026-09-11T17:26:29+00:00",
+    "created_at": "2026-09-11T18:01:33+00:00",
     "deliverables": [
       "The completed work product in the format you specified",
       "The script or process used, so you can re-run it yourself",
       "A short note on method and any data-quality issues found"
     ],
-    "id": "prop_6e40ae3c0758",
+    "id": "prop_323681f2e0cc",
     "is_demo": false,
-    "opportunity_id": "opp_594ff80f1287",
+    "opportunity_id": "opp_b1e5d852121b",
     "problem_statement": "Looking for 3+ years PM in B2B SaaS with an actual technical background",
     "proposed_solution": "I would build the integration with the failure cases handled first - retries, rate limits, and a clear alert when an upstream source is down rather than silent bad data. Credentials stay in environment secrets. Tests cover the parsing so a provider format change is caught.",
     "quoted_price": 230.0,
@@ -64,9 +30,9 @@
     "submit_cost_units": 0,
     "submitted_at": "",
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
-    "updated_at": "2026-09-11T17:26:29+00:00"
+    "updated_at": "2026-09-11T18:01:33+00:00"
   },
-  "prop_a6c8d5a1aba2": {
+  "prop_8bfe4f4715a8": {
     "ai_disclosure_included": true,
     "approved_at": "",
     "approved_by": "",
@@ -78,15 +44,15 @@
     ],
     "claims_verified": true,
     "clarifying_question": "What does 'done' look like to you - what would make you call this a success?",
-    "created_at": "2026-09-11T17:26:29+00:00",
+    "created_at": "2026-09-11T18:01:33+00:00",
     "deliverables": [
       "The completed work product in the format you specified",
       "The script or process used, so you can re-run it yourself",
       "A short note on method and any data-quality issues found"
     ],
-    "id": "prop_a6c8d5a1aba2",
+    "id": "prop_8bfe4f4715a8",
     "is_demo": false,
-    "opportunity_id": "opp_bd9a80f94b49",
+    "opportunity_id": "opp_077b2e485448",
     "problem_statement": "Senior Python Backend Engineer | REMOTE (EMEA/APAC) We're looking for Python backend engineers to work on a trustless supercluster of performance-proofed GPU-enabled sandboxed docker container runners controlled by truly decentralized algorithms (not just PAXOS or RAFT)",
     "proposed_solution": "I would start by pinning down exactly what 'done' looks like, because most of the cost in work like this comes from discovering halfway through that we meant different things. From there I build it as something repeatable rather than a one-off, handle the failure cases explicitly rather than assuming the happy path, and verify the output against your criteria before it reaches you.",
     "quoted_price": 337.5,
@@ -98,6 +64,73 @@
     "submit_cost_units": 0,
     "submitted_at": "",
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
-    "updated_at": "2026-09-11T17:26:29+00:00"
+    "updated_at": "2026-09-11T18:01:33+00:00"
+  },
+  "prop_e3c83c659f00": {
+    "ai_disclosure_included": true,
+    "approved_at": "2026-09-11T18:02:05+00:00",
+    "approved_by": "ANDRES",
+    "body": "Re: [DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook\n\nYou said: \"We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows\"\n\nHere is how I would approach it.\n\nI would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.\n\nWhat you would get:\n  - Preserve every original row (we will check row counts)\n  - Flag any rows that failed to map rather than dropping them\n  - And keep currency formatting consistent\n\nTimeline: 4-5 business days from a confirmed brief.\n\nRelevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- Static dashboards built by CI and published to GitHub Pages, mobile-responsive with offline support.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nOne question before I start: When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "generated dashboards"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?",
+    "created_at": "2026-09-11T18:02:05+00:00",
+    "deliverables": [
+      "Preserve every original row (we will check row counts)",
+      "Flag any rows that failed to map rather than dropping them",
+      "And keep currency formatting consistent"
+    ],
+    "id": "prop_e3c83c659f00",
+    "is_demo": true,
+    "opportunity_id": "opp_00911b77f97a",
+    "problem_statement": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows",
+    "proposed_solution": "I would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.",
+    "quoted_price": 500.0,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- Static dashboards built by CI and published to GitHub Pages, mobile-responsive with offline support.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "demo",
+    "status": "SUBMITTED",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "2026-09-11T18:02:05+00:00",
+    "turnaround": "4-5 business days from a confirmed brief",
+    "updated_at": "2026-09-11T18:02:05+00:00"
+  },
+  "prop_e3eaf50f4a7c": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Virtasant (1099 contractor for a client of ours) - contract role\n\nYou said: \"For one of them (a solid healthcare data company) we're looking for a Senior Data Engineer\"\n\nHere is how I would approach it.\n\nI would build this as a scheduled job with the failure modes handled explicitly: retry on transient errors, and an alert when a source is unavailable rather than a silently empty report. Credentials stay in secrets, never in the code. You get the pipeline, tests, and the schedule configured and demonstrably running.\n\nWhat you would get:\n  - The completed work product in the format you specified\n  - The script or process used, so you can re-run it yourself\n  - A short note on method and any data-quality issues found\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nRelevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nOne question before I start: When one upstream source is unavailable, should the job still produce a report with that section marked missing, or hold and alert instead?\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "scheduled github actions",
+      "testing and deployment systems"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "When one upstream source is unavailable, should the job still produce a report with that section marked missing, or hold and alert instead?",
+    "created_at": "2026-09-11T18:01:33+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_e3eaf50f4a7c",
+    "is_demo": false,
+    "opportunity_id": "opp_bdced9737d13",
+    "problem_statement": "For one of them (a solid healthcare data company) we're looking for a Senior Data Engineer",
+    "proposed_solution": "I would build this as a scheduled job with the failure modes handled explicitly: retry on transient errors, and an alert when a source is unavailable rather than a silently empty report. Credentials stay in secrets, never in the code. You get the pipeline, tests, and the schedule configured and demonstrably running.",
+    "quoted_price": 800.0,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "hackernews",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-11T18:01:33+00:00"
   }
 }

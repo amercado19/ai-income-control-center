@@ -62,7 +62,7 @@ _REQUIREMENT_LINE = re.compile(r"(?:requirements?|acceptance criteria|must)[:\s]
 
 def extract_problem(opp: Opportunity) -> str:
     """Name the client's actual problem in their own words where possible."""
-    text = opp.description or ""
+    text = getattr(opp, "full_description", None) or opp.description or ""
     pains = [m.group(1).strip() for m in _PAIN.finditer(text)]
     needs = [m.group(1).strip() for m in _NEED.finditer(text)]
     if pains:
@@ -76,7 +76,8 @@ def extract_problem(opp: Opportunity) -> str:
 def extract_deliverables(opp: Opportunity) -> list[str]:
     out: list[str] = []
     for pattern in (_DELIVERABLE_LINE, _REQUIREMENT_LINE):
-        for m in pattern.finditer(opp.description or ""):
+        body = getattr(opp, "full_description", None) or opp.description or ""
+        for m in pattern.finditer(body):
             chunk = m.group(1).strip()
             for part in re.split(r",\s+(?=[a-z])|;\s*", chunk):
                 part = part.strip(" .")
@@ -202,7 +203,8 @@ CLAIM_TRIGGERS: dict[str, list[str]] = {
 
 
 def select_claims(opp: Opportunity) -> list[str]:
-    text = f"{opp.title} {opp.description}".lower()
+    body = getattr(opp, "full_description", None) or opp.description
+    text = f"{opp.title} {body}".lower()
     matched = [claim for claim, triggers in CLAIM_TRIGGERS.items() if any(t in text for t in triggers)]
     return matched[:3] or ["automated python data pipelines"]
 

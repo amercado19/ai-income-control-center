@@ -72,6 +72,30 @@ def main() -> int:
                 line = text[: m.start()].count("\n") + 1
                 findings.append(f"{rel}:{line}: {label}")
 
+    # Third-party contact details must never reach the committed store. Redaction happens at
+    # ingest (aicc.privacy); this is the check that proves it held. The repository is public and
+    # git history is permanent, so a harvested email is not recoverable by deleting it later.
+    try:
+        import sys as _sys
+
+        _sys.path.insert(0, str(ROOT / "src"))
+        from aicc.privacy import contains_contact_details
+
+        for path in tracked_files():
+            rel = path.relative_to(ROOT).as_posix()
+            if not rel.startswith("data/") or not path.exists():
+                continue
+            try:
+                body = path.read_text(encoding="utf-8")
+            except (UnicodeDecodeError, OSError):
+                continue
+            # Our own bot address is ours to publish.
+            body = body.replace("actions@users.noreply.github.com", "")
+            if contains_contact_details(body):
+                findings.append(f"{rel}: third-party contact details in the committed store")
+    except ImportError:
+        findings.append("could not import aicc.privacy to check the store for contact details")
+
     # Structural checks: some things must never be tracked at all.
     for path in tracked_files():
         rel = path.relative_to(ROOT).as_posix()

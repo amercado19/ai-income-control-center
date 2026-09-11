@@ -261,3 +261,67 @@ def test_rule_based_worker_never_claims_to_be_claude():
     if not available:
         assert worker is RuleBasedWorker
         assert "rule-based" in note.lower()
+
+
+# ------------------------------------------------------- third-party privacy
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "Email me at michael@example.io with your start date",
+        "Apply: talent+hn@example.co. Short cover note matters.",
+        "Or email me at jason [at] withclad [dot] com",
+        "reach me at garen (at) overture (dot) business",
+        "Call +1 555-123-4567 to discuss",
+        "We coordinate on Telegram: @recruiter99",
+    ],
+)
+def test_third_party_contact_details_are_redacted_before_storage(text):
+    """The store is committed to a public repo and git history is permanent. A hiring manager
+    posted their address on Hacker News, not into our repository."""
+    from aicc.privacy import contains_contact_details, sanitize_for_storage
+
+    clean, redactions = sanitize_for_storage(text)
+    assert redactions >= 1
+    assert not contains_contact_details(clean)
+
+
+def test_redaction_does_not_eat_ordinary_numbers():
+    from aicc.privacy import sanitize_for_storage
+
+    clean, redactions = sanitize_for_storage("Budget is $500, order id 1234567890, posted 2026-09-11")
+    assert redactions == 0
+    assert "$500" in clean and "1234567890" in clean
+
+
+def test_ingest_redacts_and_excerpts():
+    from aicc.connectors.base import make_opportunity
+
+    opp = make_opportunity(
+        source="hackernews",
+        title="Test role",
+        description="Great contract role. Email me at hiring@example.com. " + "detail " * 400,
+    )
+    assert "hiring@example.com" not in opp.description
+    assert "[contact removed]" in opp.description
+    assert len(opp.description) < 2000, "only an excerpt is persisted, not the whole posting"
+    # The unredacted text stays available in-process for scoring, but is not a dataclass field.
+    assert "hiring@example.com" in opp.full_description
+    assert "full_description" not in opp.to_dict()
+
+
+def test_scoring_reads_the_full_text_not_the_excerpt():
+    """Redaction protects the store; it must not blind the analysis."""
+    from aicc.connectors.base import make_opportunity
+
+    opp = make_opportunity(
+        source="hackernews",
+        title="Role",
+        description=("Standard blurb. " * 300) + " We run AI detection on every submission.",
+    )
+    assert "AI detection" not in opp.description, "the tell is past the excerpt boundary"
+    from aicc.models import RiskFlag
+    from aicc.scoring import detect_risks
+
+    assert RiskFlag.AI_PROHIBITED in detect_risks(opp), "scoring must still see it"

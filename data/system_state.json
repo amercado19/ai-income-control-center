@@ -77,82 +77,9 @@
       "last_error": ""
     }
   },
-  "capabilities": {
-    "storage": {
-      "key": "storage",
-      "label": "Storage",
-      "health": "HEALTHY",
-      "detail": "Writable. 30,694 MB free.",
-      "last_success": "",
-      "blocking_reason": "",
-      "light": "GREEN"
-    },
-    "audit_log": {
-      "key": "audit_log",
-      "label": "Audit Log",
-      "health": "HEALTHY",
-      "detail": "7 events recorded.",
-      "last_success": "",
-      "blocking_reason": "",
-      "light": "GREEN"
-    },
-    "opportunity_sources": {
-      "key": "opportunity_sources",
-      "label": "Opportunity Sources",
-      "health": "DOWN",
-      "detail": "No discovery source is reachable.",
-      "last_success": "",
-      "blocking_reason": "hackernews (ConnectorError: hiring thread: Network failure for https://h); himalayas (ConnectorError: Network failure for https://himalayas.app/jo); remoteok (ConnectorError: Network failure for https://remoteok.com/api); weworkremotely (ConnectorError: Network failure for https://weworkremotely.c)",
-      "light": "RED"
-    },
-    "ai_worker": {
-      "key": "ai_worker",
-      "label": "AI Worker",
-      "health": "NOT_CONFIGURED",
-      "detail": "No Claude credential. Rule-based worker and reviewer handle the pipeline; AI drafting and AI review are unavailable.",
-      "last_success": "",
-      "blocking_reason": "Run `claude setup-token` locally and add CLAUDE_CODE_OAUTH_TOKEN as a repository secret.",
-      "light": "WHITE"
-    },
-    "scheduler": {
-      "key": "scheduler",
-      "label": "Scheduler",
-      "health": "NOT_CONFIGURED",
-      "detail": "No scheduled run has been recorded yet.",
-      "last_success": "",
-      "blocking_reason": "Workflow has not run, or has never been enabled.",
-      "light": "WHITE"
-    },
-    "submission": {
-      "key": "submission",
-      "label": "Marketplace Submission",
-      "health": "APPROVAL_REQUIRED",
-      "detail": "Every submission requires explicit approval. Upwork additionally costs Connects and is priced through the cost gate before anything is sent.",
-      "last_success": "",
-      "blocking_reason": "",
-      "light": "YELLOW"
-    },
-    "payments": {
-      "key": "payments",
-      "label": "Payments",
-      "health": "NOT_CONFIGURED",
-      "detail": "No payment processing is configured. Direct-client checkout stays COMING SOON until a business payment setup is deliberately activated.",
-      "last_success": "",
-      "blocking_reason": "Personal PayPal is not used as a commercial checkout.",
-      "light": "WHITE"
-    },
-    "cost_gate": {
-      "key": "cost_gate",
-      "label": "Cost Gate",
-      "health": "HEALTHY",
-      "detail": "Ceiling is $0.00/month. All cash requests fail closed.",
-      "last_success": "",
-      "blocking_reason": "",
-      "light": "GREEN"
-    }
-  },
-  "started_at": "2026-09-11T17:26:29+00:00",
-  "stopped_at": "2026-09-11T17:26:29+00:00",
-  "updated_at": "2026-09-11T17:26:31+00:00",
+  "capabilities": {},
+  "started_at": "2026-09-11T18:02:05+00:00",
+  "stopped_at": "2026-09-11T18:02:05+00:00",
+  "updated_at": "2026-09-11T18:02:05+00:00",
   "has_real_revenue": false
 }

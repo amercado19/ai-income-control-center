@@ -101,8 +101,15 @@ guessing wrong costs credibility with the client, which is far more expensive.
 """
 
 
+def _scoring_text(opp: Opportunity) -> str:
+    """The text to reason over: the unredacted posting when still in memory, else the stored
+    excerpt. Redaction protects the store, not the analysis."""
+    body = getattr(opp, "full_description", None) or opp.description
+    return f"{opp.title} {body} {' '.join(opp.skills)}"
+
+
 def classify(opp: Opportunity) -> str:
-    text = f"{opp.title} {opp.description} {' '.join(opp.skills)}"
+    text = _scoring_text(opp)
     scores = {category: len(set(pattern.findall(text))) for category, pattern in _CATEGORY_RE.items()}
     top = max(scores.values())
     if top < MIN_CATEGORY_HITS:
@@ -331,7 +338,7 @@ DEADLINE_URGENCY = re.compile(r"\b(today|asap|within \d+ hours?|next (?:few )?ho
 
 
 def detect_risks(opp: Opportunity) -> list[RiskFlag]:
-    text = f"{opp.title} {opp.description}".lower()
+    text = _scoring_text(opp).lower()
     flags: list[RiskFlag] = []
     for flag, patterns in RISK_PATTERNS:
         if any(p in text for p in patterns):
@@ -368,7 +375,7 @@ def detect_risks(opp: Opportunity) -> list[RiskFlag]:
 
 def _skill_fit(opp: Opportunity, bd: ScoreBreakdown) -> float:
     available = WEIGHTS["skill_fit"]
-    text = f"{opp.title} {opp.description} {' '.join(opp.skills)}".lower()
+    text = _scoring_text(opp).lower()
     matched = sorted({s for s in PROFILE.skill_set() if s in text})
     domain_hits = sorted({d for d in PROFILE.strong_domains if d in text})
 
