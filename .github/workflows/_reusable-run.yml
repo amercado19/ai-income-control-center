@@ -19,6 +19,11 @@ on:
       commit_message:
         required: true
         type: string
+      sources:
+        description: "Optional space-separated connector names. Reaches the shell via the environment, never via template interpolation."
+        required: false
+        default: ""
+        type: string
       publish:
         description: "Also build and publish the dashboard"
         required: false
@@ -67,6 +72,16 @@ jobs:
       - name: Run pipeline step(s)
         id: pipeline
         continue-on-error: true
+        # Both values reach the shell through the environment rather than being interpolated
+        # into the script body. A ${{ }} expansion is substituted as TEXT before bash parses
+        # the line, so a quote or a $(...) in the value would break out of the string and run.
+        # Nothing untrusted reaches these inputs today - callers are checked-in workflow files -
+        # but that is a property of the callers, not of this file, and the next edit that wires
+        # a workflow_dispatch input into `steps` would silently create a command injection.
+        # Passing through env removes the possibility rather than relying on nobody making it.
+        env:
+          AICC_STEPS: ${{ inputs.steps }}
+          AICC_SOURCES: ${{ inputs.sources }}
         run: |
           # `pipefail` is load-bearing, not decoration: each step is piped into `tee` to capture
           # its output for the classifier below, and without pipefail the pipeline reports tee's
@@ -76,7 +91,7 @@ jobs:
           # Steps go through a file rather than a pipe into `while`. A piped loop runs in a
           # subshell, so an exit code recorded inside it is discarded when the subshell ends -
           # every failure would be reported as success.
-          printf '%s\n' "${{ inputs.steps }}" > "$RUNNER_TEMP/steps.txt"
+          printf '%s\n' "$AICC_STEPS" > "$RUNNER_TEMP/steps.txt"
           rc=0
           while IFS= read -r line; do
             [ -z "$line" ] && continue
@@ -152,12 +167,14 @@ jobs:
 
       - name: Persist operational data
         if: always()
+        env:
+          AICC_COMMIT_MESSAGE: ${{ inputs.commit_message }}
         run: |
           git config user.name "aicc-bot"
           git config user.email "actions@users.noreply.github.com"
           # data/ holds public job listings and system state only. Client material lives in
           # workspaces/, which is gitignored and never reaches this step.
           git add data
-          git diff --cached --quiet || git commit -m "${{ inputs.commit_message }} $(date -u +%F\ %H:%M) UTC"
+          git diff --cached --quiet || git commit -m "$AICC_COMMIT_MESSAGE $(date -u +%F\ %H:%M) UTC"
           git pull --rebase -X theirs origin ${GITHUB_REF_NAME} || true
           git push || (git pull --rebase -X theirs origin ${GITHUB_REF_NAME} && git push)

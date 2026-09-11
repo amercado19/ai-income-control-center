@@ -30,10 +30,16 @@ jobs:
   scan:
     uses: ./.github/workflows/_reusable-run.yml
     with:
+      # `sources` was accepted on the dispatch form and then ignored, which is a control that
+      # lies about what it does. It is wired up now - and deliberately NOT by interpolating it
+      # into the step text, which is eval'd downstream. It is passed as its own input so the
+      # reusable workflow can hand it to the shell through the environment, where a quote or a
+      # $(...) in the value is data rather than syntax.
       steps: |
-        python -m aicc discover --ci --limit 50
+        python -m aicc discover --ci --limit 50 ${AICC_SOURCES:+--sources $AICC_SOURCES}
         python -m aicc draft --min-score 65 --limit 5
         python -m aicc health
+      sources: ${{ inputs.sources }}
       commit_message: "Opportunity scan"
       publish: true
     secrets: inherit

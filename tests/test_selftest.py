@@ -217,3 +217,64 @@ def test_every_other_checklist_item_is_a_real_boolean() -> None:
             )
         else:
             assert isinstance(item["passing"], bool), f"{item['name']} has a non-boolean passing value."
+
+
+# ------------------------------------------------- workflow shell-injection gate
+
+
+def _validator():
+    import importlib.util
+    import sys
+    from pathlib import Path
+
+    spec = importlib.util.spec_from_file_location(
+        "validate_workflows", Path(__file__).resolve().parent.parent / "scripts" / "validate_workflows.py"
+    )
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+UNSAFE_RUN_FORMS = [
+    # Block scalar as the list item.
+    'jobs:\n  x:\n    steps:\n      - run: |\n          echo "${{ inputs.thing }}"\n',
+    # Single-line run - the script is on the same line, with no block at all.
+    'jobs:\n  x:\n    steps:\n      - run: git commit -m "${{ github.event.head_commit.message }}"\n',
+    # Block scalar under a named step.
+    'jobs:\n  x:\n    steps:\n      - name: n\n        run: |\n          echo "${{ github.head_ref }}"\n',
+]
+
+
+@pytest.mark.parametrize("yaml_text", UNSAFE_RUN_FORMS, ids=["list-block", "single-line", "named-block"])
+def test_shell_interpolation_is_caught_in_every_run_spelling(yaml_text: str) -> None:
+    """The first version of this check matched only one of these three and reported CLEAN on a
+    file containing the exact problem it was written to find - worse than having no check."""
+    assert _validator()._interpolation_problems("f.yml", yaml_text), yaml_text
+
+
+SAFE_FORMS = [
+    # The correct pattern: through env, referenced as a shell variable.
+    'jobs:\n  x:\n    steps:\n      - env:\n          THING: ${{ inputs.thing }}\n        run: |\n          echo "$THING"\n',
+    # `with:` is not a shell context; interpolation there is fine.
+    "jobs:\n  x:\n    steps:\n      - uses: actions/checkout@v5\n        with:\n          ref: ${{ inputs.ref }}\n",
+    'jobs:\n  x:\n    steps:\n      - run: echo "nothing interpolated"\n',
+]
+
+
+@pytest.mark.parametrize("yaml_text", SAFE_FORMS, ids=["via-env", "with-block", "no-interpolation"])
+def test_safe_workflow_patterns_are_not_flagged(yaml_text: str) -> None:
+    assert _validator()._interpolation_problems("f.yml", yaml_text) == []
+
+
+def test_this_repository_interpolates_nothing_into_a_shell() -> None:
+    """The live check. Two of these existed before the security review found them."""
+    from pathlib import Path
+
+    mod = _validator()
+    root = Path(__file__).resolve().parent.parent
+    problems = []
+    for wf in sorted((root / ".github" / "workflows").glob("*.yml")):
+        problems += mod._interpolation_problems(wf.name, wf.read_text(encoding="utf-8"))
+    assert not problems, problems

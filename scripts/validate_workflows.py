@@ -44,6 +44,62 @@ def minutes_between_runs(expr: str) -> float:
     return 60.0
 
 
+# The classic GitHub Actions injection. A ${{ }} expansion is substituted as TEXT before bash
+# parses the line, so a quote or a $(...) inside the value escapes the string and executes. The
+# fix is always the same - pass the value through `env:` and reference it as "$VAR", where it is
+# data rather than syntax.
+#
+# Added after a security review found two of these in this repository's own reusable workflow.
+# Neither was exploitable: the only callers are checked-in workflow files. But that was a
+# property of the callers, not of the file, and one workflow already accepted a
+# `workflow_dispatch` input that the obvious next edit would have piped straight into an `eval`.
+# This check removes the possibility instead of relying on nobody making that edit.
+_INTERPOLATED = re.compile(
+    r"\$\{\{\s*(?:github\.event\.[\w.]*(?:title|body|message|name|label|ref|login)"
+    r"|github\.head_ref|inputs\.[\w.]+|env\.[\w.]+)",
+    re.I,
+)
+
+
+# Both spellings matter, and the first version of this check caught neither reliably:
+#   `        run: |`      a block scalar inside a step
+#   `      - run: echo x` a single-line run that IS the list item
+# Missing the `- ` form meant the check reported CLEAN on a file containing the very problem it
+# was written to find, which is worse than not having the check at all.
+_RUN_START = re.compile(r"^(?P<indent>\s*)(?:-\s+)?run:\s*(?P<inline>.*)$")
+
+
+def _interpolation_problems(rel: str, text: str) -> list[str]:
+    """Flag a ${{ }} expansion of a caller- or event-supplied value inside a `run:` script."""
+    out: list[str] = []
+
+    def flag(number: int, line: str) -> None:
+        out.append(
+            f"{rel}:{number}: a caller- or event-supplied value is interpolated into a shell "
+            f'script. Pass it through `env:` and use "$VAR" instead - {line.strip()[:70]}'
+        )
+
+    in_block = False
+    block_indent = 0
+    for number, line in enumerate(text.split("\n"), 1):
+        match = _RUN_START.match(line)
+        if match:
+            inline = match.group("inline").strip()
+            if inline and not inline.startswith(("|", ">")):
+                if _INTERPOLATED.search(inline):
+                    flag(number, line)
+                in_block = False
+            else:
+                in_block, block_indent = True, len(match.group("indent"))
+            continue
+        if in_block:
+            if line.strip() and (len(line) - len(line.lstrip())) <= block_indent:
+                in_block = False
+            elif _INTERPOLATED.search(line):
+                flag(number, line)
+    return out
+
+
 def main() -> int:
     if not WORKFLOWS.exists():
         print(f"No workflows directory at {WORKFLOWS}")
@@ -100,6 +156,8 @@ def main() -> int:
         for m in TIMEOUT.finditer(text):
             if int(m.group(1)) > 60:
                 problems.append(f"{rel}: timeout-minutes {m.group(1)} is too generous for this project")
+
+        problems.extend(_interpolation_problems(rel, text))
 
     if problems:
         print(f"WORKFLOW VALIDATION FAILED - {len(problems)} problem(s):\n")
