@@ -158,6 +158,50 @@ Those are completely different facts and the operator must not confuse them.
 
 ---
 
+## D13 — Outbound discovery of discrete freelance projects is a dead end on free sources
+
+**Decision.** Treat the Fiverr storefront (inbound) and contract-role listings as the real
+channels. Do not build more outbound project-discovery connectors, and do not relax the scoring
+thresholds to make the existing ones produce results.
+
+**Why.** Measured, not assumed. `scripts/market_reality_check.py` samples the live Freelancer.com
+public API across the operator's job categories and applies the funnel in order. On 11 Sep 2026,
+417 active projects:
+
+| Step | Surviving | Share |
+|---|---:|---:|
+| Active projects in-category | 417 | 100% |
+| Priced in USD | 191 | 46% |
+| ...and at most 25 bids | 12 | 2.9% |
+| ...and max budget over $50 | 2 | 0.5% |
+| ...and min budget over $50 | 1 | 0.2% |
+
+Median bids per project: **78**. p90: 238. Maximum: 466. Median USD maximum budget: **$250**.
+
+So the typical listing is 78 people bidding on a $250 job. Winning there costs more in unpaid
+proposal writing than the job pays, and the single survivor of the whole funnel was
+*"Flash TRC20 Token"* - a well-known crypto fraud product, which the risk scoring would reject
+anyway. One measurement on one day, so it is worth re-running before treating it as permanent -
+that is what the script is for - but a market this lopsided does not turn around in a week.
+
+The other sources do not fill the gap, and the reason is categorical rather than incidental:
+
+* **Hacker News "Who is hiring?", Himalayas, RemoteOK, We Work Remotely, Python.org Jobs** are
+  **job boards**. Every one of the top-scoring live results is an ongoing role - Senior Backend
+  Engineer, Financial Systems Expert, Lead Python Backend Engineer - not a discrete project. They
+  are worth watching, but for contract roles, which is a different business from gig work.
+* **Upwork** prohibits automated discovery outright (D4), and caps free applications at 10
+  Connects a month.
+* **Fiverr** has no discovery surface in any form. It is a storefront: buyers find you (D12).
+
+**What this means.** The scanning half of this system is a contract-role watcher, and it should be
+described that way rather than as a freelance-gig finder. The money-making half is the Fiverr
+storefront, which is why the launch kit is the priority and why it is priced to buy the first
+reviews. Zero STRONG matches from 75 live listings is the honest output of a market that does not
+currently contain what is being searched for - it is not a threshold that needs loosening.
+
+---
+
 ## Open — needs a human decision
 
 **Reddit r/forhire.** Content-wise the best freelance demand source available. `robots.txt` is a
