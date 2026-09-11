@@ -387,6 +387,31 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_selftest(args: argparse.Namespace) -> int:
+    """Attempt a safety violation against the live system and confirm it is refused.
+
+    Distinct from the test suite on purpose: pytest proves the code was right when written,
+    against fixtures. This runs against the deployed configuration as it stands right now, and
+    is the thing to run before leaving the system unattended.
+    """
+    from . import selftest
+
+    report = selftest.run_all()
+    if args.json:
+        _print(json.dumps(report.to_dict(), indent=2))
+    else:
+        _print(selftest.format_report(report))
+
+    audit.record(
+        "safety_selftest",
+        actor=Actor.GITHUB_ACTIONS if args.ci else Actor.ANDRES,
+        object_type="system",
+        result="ok" if report.ok else "error",
+        after={"passed": len(report.passed), "failed": [c.name for c in report.failed], "skipped": len(report.skipped)},
+    )
+    return 0 if report.ok else 1
+
+
 def cmd_ai_status(args: argparse.Namespace) -> int:
     """Classify an AI failure and tell the workflow what to do about it.
 
@@ -497,6 +522,11 @@ def build_parser() -> argparse.ArgumentParser:
     t = sub.add_parser("top", help="Top opportunities with full score reasoning")
     t.add_argument("--limit", type=int, default=10)
     t.set_defaults(func=cmd_top)
+
+    stst = sub.add_parser("selftest", help="Attempt safety violations against the live system and confirm each is refused")
+    stst.add_argument("--json", action="store_true")
+    stst.add_argument("--ci", action="store_true")
+    stst.set_defaults(func=cmd_selftest)
 
     ai = sub.add_parser("ai-status", help="Classify an AI failure and decide whether it should fail the run")
     ai.add_argument("--error", default="", help="The failing step's message")

@@ -82,7 +82,7 @@
       "key": "storage",
       "label": "Storage",
       "health": "HEALTHY",
-      "detail": "Writable. 30,690 MB free.",
+      "detail": "Writable. 30,645 MB free.",
       "last_success": "",
       "blocking_reason": "",
       "light": "GREEN"
@@ -91,7 +91,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "24 events recorded.",
+      "detail": "152 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "light": "GREEN"
@@ -117,11 +117,11 @@
     "scheduler": {
       "key": "scheduler",
       "label": "Scheduler",
-      "health": "NOT_CONFIGURED",
-      "detail": "No scheduled run has been recorded yet.",
+      "health": "HEALTHY",
+      "detail": "Last run 0.3 hours ago.",
       "last_success": "",
-      "blocking_reason": "Workflow has not run, or has never been enabled.",
-      "light": "WHITE"
+      "blocking_reason": "",
+      "light": "GREEN"
     },
     "submission": {
       "key": "submission",
@@ -151,8 +151,8 @@
       "light": "GREEN"
     }
   },
-  "started_at": "2026-09-11T19:42:31+00:00",
-  "stopped_at": "2026-09-11T19:42:31+00:00",
-  "updated_at": "2026-09-11T19:42:31+00:00",
+  "started_at": "2026-09-11T19:53:04+00:00",
+  "stopped_at": "2026-09-11T19:53:04+00:00",
+  "updated_at": "2026-09-11T19:53:04+00:00",
   "has_real_revenue": false
 }

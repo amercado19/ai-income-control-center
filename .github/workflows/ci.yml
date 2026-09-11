@@ -50,6 +50,13 @@ jobs:
           print("Cost ceiling: $0.00")
           PY
 
+      # Distinct from the test suite above, and deliberately after it: this attempts real
+      # safety violations against the configured system rather than against fixtures, so it
+      # catches a config change that leaves every unit test green - a raised cost ceiling, a
+      # reviewer signature that started accepting a Job, a redaction pattern that regressed.
+      - name: Safety self-test
+        run: python -m aicc selftest --ci
+
       - name: Demo lifecycle (spec section 52 acceptance test)
         run: PYTHONPATH=src python -m aicc demo
 
