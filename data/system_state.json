@@ -1,0 +1,85 @@
+{
+  "run_state": "ACTIVE",
+  "mode": "DEMO",
+  "live_mode_acknowledged": false,
+  "emergency_stop_reason": "",
+  "automations": {
+    "opportunity_scan": {
+      "key": "opportunity_scan",
+      "label": "Opportunity Scan",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "job_scoring": {
+      "key": "job_scoring",
+      "label": "Job Scoring",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "proposal_drafting": {
+      "key": "proposal_drafting",
+      "label": "Proposal Drafting",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "job_worker": {
+      "key": "job_worker",
+      "label": "Job Worker",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "qa_worker": {
+      "key": "qa_worker",
+      "label": "QA Worker",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "metrics": {
+      "key": "metrics",
+      "label": "Metrics",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "backup": {
+      "key": "backup",
+      "label": "Backup",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    },
+    "health_check": {
+      "key": "health_check",
+      "label": "Health Check",
+      "enabled": false,
+      "last_run": "",
+      "next_run": "",
+      "last_status": "",
+      "last_error": ""
+    }
+  },
+  "capabilities": {},
+  "started_at": "2026-09-11T17:07:33+00:00",
+  "stopped_at": "2026-09-11T17:07:33+00:00",
+  "updated_at": "2026-09-11T17:07:33+00:00",
+  "has_real_revenue": false
+}

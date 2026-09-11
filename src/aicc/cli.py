@@ -1,0 +1,408 @@
+"""Command line interface. Every scheduled workflow calls this, never a script inline.
+
+python -m aicc <command> [options]
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from datetime import UTC, datetime
+from pathlib import Path
+
+from . import audit, health, money, proposals, scoring, state, storage
+from .config import BRAND_NAME, MAX_NEW_MONTHLY_CASH_SPEND, RUNS_DIR, ensure_dirs
+from .connectors import LIVE_DISCOVERY_ORDER, get, registry
+from .models import Actor, JobStatus, Opportunity, OpportunityStatus
+
+
+def _print(msg: str = "") -> None:
+    sys.stdout.write(msg + "\n")
+
+
+# ---------------------------------------------------------------------------
+# Discovery
+# ---------------------------------------------------------------------------
+
+
+def cmd_discover(args: argparse.Namespace) -> int:
+    ensure_dirs()
+    st = state.SystemState.load()
+    if not st.external_actions_allowed() and not args.force:
+        _print(f"REFUSED: {st.why_blocked()}")
+        _print("Use --force only for a manual diagnostic run.")
+        return 2
+
+    sources = args.sources or (["demo"] if st.mode == "DEMO" else LIVE_DISCOVERY_ORDER)
+    run_id = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    record: dict[str, object] = {"run_id": run_id, "sources": {}, "started_at": state.utcnow()}
+
+    all_found: list[Opportunity] = []
+    for name in sources:
+        connector = get(name)
+        if connector is None:
+            record["sources"][name] = {"status": "unknown_connector"}  # type: ignore[index]
+            continue
+        try:
+            found = connector.discover(limit=args.limit)
+            for opp in found:
+                opp.discovered_by_run = run_id
+            all_found.extend(found)
+            record["sources"][name] = {"status": "ok", "found": len(found)}  # type: ignore[index]
+            _print(f"  {name:16s} {len(found):3d} found")
+        except Exception as exc:  # noqa: BLE001
+            record["sources"][name] = {"status": "error", "error": f"{type(exc).__name__}: {exc}"}  # type: ignore[index]
+            _print(f"  {name:16s} FAILED  {type(exc).__name__}: {str(exc)[:90]}")
+
+    new, dupes = storage.upsert_opportunities(all_found)
+    scored = 0
+    archived = 0
+    for opp in storage.opportunities.all():
+        if opp.status in (OpportunityStatus.NEW.value, OpportunityStatus.SCORING.value):
+            scoring.score_opportunity(opp)
+            storage.opportunities.put(opp)
+            scored += 1
+            if opp.score_breakdown.get("rejected") and args.archive_rejected:
+                storage.archive(opp)
+                archived += 1
+
+    record.update(
+        {
+            "finished_at": state.utcnow(),
+            "found": len(all_found),
+            "new": new,
+            "duplicates": dupes,
+            "scored": scored,
+            "archived": archived,
+        }
+    )
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    (RUNS_DIR / f"{run_id}.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
+
+    audit.record(
+        "opportunity_scan",
+        actor=Actor.GITHUB_ACTIONS if args.ci else Actor.SYSTEM,
+        object_type="run",
+        object_id=run_id,
+        after={"found": len(all_found), "new": new, "duplicates": dupes, "archived": archived},
+    )
+    _print(f"\n{len(all_found)} found | {new} new | {dupes} duplicates | {scored} scored | {archived} archived")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# Proposals
+# ---------------------------------------------------------------------------
+
+
+def cmd_draft(args: argparse.Namespace) -> int:
+    candidates = [
+        o
+        for o in storage.opportunities.all()
+        if o.status in (OpportunityStatus.STRONG_MATCH.value, OpportunityStatus.REVIEW.value) and o.score >= args.min_score
+    ]
+    candidates.sort(key=lambda o: o.score, reverse=True)
+    candidates = candidates[: args.limit]
+
+    existing = {p.opportunity_id for p in storage.proposals.all()}
+    drafted = 0
+    for opp in candidates:
+        if opp.id in existing:
+            continue
+        try:
+            prop = proposals.generate(opp)
+        except proposals.UnverifiableClaimError as exc:
+            _print(f"  SKIPPED {opp.title[:50]}: {exc}")
+            continue
+        storage.proposals.put(prop)
+        opp.status = OpportunityStatus.PROPOSAL_DRAFTED.value
+        storage.opportunities.put(opp)
+        audit.record(
+            "proposal_drafted",
+            actor=Actor.CLAUDE,
+            object_type="proposal",
+            object_id=prop.id,
+            after={"opportunity": opp.id, "score": opp.score},
+            source=opp.source,
+        )
+        drafted += 1
+        _print(f"  drafted  [{opp.score:5.1f}] {opp.title[:62]}")
+
+    _print(f"\n{drafted} proposal(s) drafted and awaiting your approval.")
+    return 0
+
+
+def cmd_approve(args: argparse.Namespace) -> int:
+    prop = storage.proposals.get(args.proposal_id)
+    if prop is None:
+        _print(f"No proposal {args.proposal_id}")
+        return 1
+    if prop.source == "upwork":
+        from .connectors.upwork import UpworkConnector
+
+        quote = UpworkConnector.connect_spend_request(args.connects, prop.quoted_price or 0.0, prop.problem_statement[:60])
+        _print(json.dumps(quote, indent=2))
+        if not quote["approved"]:
+            _print("\nCOST APPROVAL REQUIRED - not submitted.")
+            return 3
+
+    prop.status = "APPROVED"
+    prop.approved_by = "ANDRES"
+    prop.approved_at = state.utcnow()
+    storage.proposals.put(prop)
+    audit.record("proposal_approved", actor=Actor.ANDRES, object_type="proposal", object_id=prop.id, source=prop.source)
+    _print(f"APPROVED {prop.id}. Submit it through the source's own interface, then run `python -m aicc mark-submitted {prop.id}`.")
+    return 0
+
+
+def cmd_mark_submitted(args: argparse.Namespace) -> int:
+    prop = storage.proposals.get(args.proposal_id)
+    if prop is None or prop.status != "APPROVED":
+        _print("Refused: proposal must be APPROVED first.")
+        return 1
+    prop.status = "SUBMITTED"
+    prop.submitted_at = state.utcnow()
+    prop.submit_cost_units = args.connects
+    storage.proposals.put(prop)
+    opp = storage.opportunities.get(prop.opportunity_id)
+    if opp:
+        opp.status = OpportunityStatus.SUBMITTED.value
+        storage.opportunities.put(opp)
+    audit.record(
+        "proposal_submitted",
+        actor=Actor.ANDRES,
+        object_type="proposal",
+        object_id=prop.id,
+        source=prop.source,
+        after={"connects": args.connects},
+    )
+    _print(f"Recorded as submitted: {prop.id}")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# System control
+# ---------------------------------------------------------------------------
+
+
+def cmd_start(_: argparse.Namespace) -> int:
+    ok, msg = state.start()
+    _print(msg)
+    if ok:
+        _print("")
+        for cap in state.probe_capabilities():
+            _print(f"  {cap.light:6s} {cap.label:24s} {cap.detail[:70]}")
+    return 0 if ok else 2
+
+
+def cmd_stop(_: argparse.Namespace) -> int:
+    _print(state.stop()[1])
+    return 0
+
+
+def cmd_pause(_: argparse.Namespace) -> int:
+    _print(state.pause()[1])
+    return 0
+
+
+def cmd_resume(_: argparse.Namespace) -> int:
+    _print(state.resume()[1])
+    return 0
+
+
+def cmd_emergency_stop(args: argparse.Namespace) -> int:
+    _print(state.emergency_stop(args.reason)[1])
+    return 0
+
+
+def cmd_health(_: argparse.Namespace) -> int:
+    caps = state.probe_capabilities()
+    status, light = health.overall_status()
+    _print(f"{BRAND_NAME}\nSYSTEM: {light} {status}\n")
+    for cap in caps:
+        _print(f"  {cap.light:6s} {cap.label:26s} {cap.detail[:72]}")
+        if cap.blocking_reason:
+            _print(f"         {'':26s} blocked: {cap.blocking_reason[:72]}")
+    _print(f"\nADDITIONAL MONTHLY COST: ${MAX_NEW_MONTHLY_CASH_SPEND:.2f}")
+    return 0
+
+
+def cmd_status(_: argparse.Namespace) -> int:
+    st = state.SystemState.load()
+    opps = storage.opportunities.all()
+    props = storage.proposals.all()
+    jobs = storage.jobs.all()
+    real = storage.real_revenue_entries()
+    _print(f"{BRAND_NAME}")
+    _print(f"  state          {st.run_state}   mode {st.mode}")
+    _print(f"  opportunities  {len(opps)} ({sum(1 for o in opps if o.score_band in ('EXCELLENT', 'STRONG'))} strong)")
+    _print(f"  proposals      {len(props)} ({sum(1 for p in props if p.status == 'AWAITING_APPROVAL')} awaiting approval)")
+    _print(f"  jobs           {len(jobs)} ({sum(1 for j in jobs if j.status == JobStatus.READY_TO_DELIVER.value)} ready to deliver)")
+    _print(f"  REAL revenue   ${sum(r.net for r in real):,.2f} across {len(real)} entr(y/ies)")
+    _print(f"  added cost     ${MAX_NEW_MONTHLY_CASH_SPEND:.2f}/month")
+    return 0
+
+
+def cmd_connectors(_: argparse.Namespace) -> int:
+    _print(f"{'SOURCE':<16}{'LIGHT':<8}{'DISCOVERY':<11}{'APPLY COST':<52}POLICY")
+    _print("-" * 120)
+    for name, cls in registry().items():
+        c = cls.CAPS
+        _print(f"{name:<16}{c.status_light():<8}{str(c.discovery):<11}{c.cost_to_apply[:50]:<52}{c.automation_policy}")
+    return 0
+
+
+def cmd_audit(args: argparse.Namespace) -> int:
+    for ev in audit.read_all(limit=args.limit):
+        _print(f"{ev.timestamp}  {ev.actor:<15}{ev.action:<28}{ev.object_type}/{ev.object_id}  {ev.result}")
+    return 0
+
+
+def cmd_costs(_: argparse.Namespace) -> int:
+    from .config import COST_REQUESTS
+
+    if not COST_REQUESTS.exists():
+        _print("No cost requests have been made. Additional monthly cost: $0.00")
+        return 0
+    for line in COST_REQUESTS.read_text(encoding="utf-8").splitlines():
+        try:
+            d = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        r = d["request"]
+        _print(f"{'APPROVED' if d['approved'] else 'DECLINED':<10}${r['monthly_estimate']:>8.2f}/mo  {r['service']}: {r['reason'][:60]}")
+    return 0
+
+
+def cmd_build(args: argparse.Namespace) -> int:
+    from .dashboard.build import build_site
+
+    out = Path(args.out)
+    build_site(out)
+    _print(f"Dashboard built at {out}")
+    return 0
+
+
+def cmd_verify_site(args: argparse.Namespace) -> int:
+    from .dashboard.build import verify_site
+
+    ok, report = verify_site(Path(args.site))
+    _print(json.dumps(report, indent=2))
+    return 0 if ok else 1
+
+
+def cmd_demo(args: argparse.Namespace) -> int:
+    from .demo_lifecycle import run_full_lifecycle
+
+    return run_full_lifecycle(verbose=not args.quiet)
+
+
+def cmd_clear_demo(_: argparse.Namespace) -> int:
+    removed = sum(
+        c.clear_demo() for c in (storage.opportunities, storage.opportunities_archive, storage.proposals, storage.jobs, storage.revenue)
+    )
+    audit.record("demo_data_cleared", actor=Actor.ANDRES, after={"removed": removed})
+    _print(f"Removed {removed} demo record(s).")
+    return 0
+
+
+def cmd_top(args: argparse.Namespace) -> int:
+    opps = sorted(
+        [o for o in storage.opportunities.all() if not o.score_breakdown.get("rejected")],
+        key=lambda o: o.score,
+        reverse=True,
+    )[: args.limit]
+    for i, o in enumerate(opps, 1):
+        econ = money.compute(o)
+        _print(f"\n{i}. [{o.score:5.1f} {o.score_band}] {o.title}")
+        _print(
+            f"   source={o.source}  budget={o.budget_display()}  net=${econ.expected_net_profit:,.0f}  "
+            f"human={econ.estimated_human_hours:.1f}h  automation={money.automation_pct(econ)}%"
+        )
+        _print(f"   {o.url}")
+        for name, f in o.score_breakdown.get("factors", {}).items():
+            _print(f"     {name:26s} {f['awarded']:5.1f}/{f['available']:<4.0f} {f['evidence'][:84]}")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# Parser
+# ---------------------------------------------------------------------------
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(prog="aicc", description=BRAND_NAME)
+    sub = p.add_subparsers(dest="command", required=True)
+
+    d = sub.add_parser("discover", help="Scan permitted sources for opportunities")
+    d.add_argument("--sources", nargs="*", default=None)
+    d.add_argument("--limit", type=int, default=50)
+    d.add_argument("--force", action="store_true", help="Run even when the system is not ACTIVE")
+    d.add_argument("--ci", action="store_true")
+    d.add_argument("--archive-rejected", action="store_true", default=True)
+    d.set_defaults(func=cmd_discover)
+
+    dr = sub.add_parser("draft", help="Draft proposals for high-scoring opportunities")
+    dr.add_argument("--min-score", type=float, default=65.0)
+    dr.add_argument("--limit", type=int, default=5)
+    dr.set_defaults(func=cmd_draft)
+
+    ap = sub.add_parser("approve", help="Approve a drafted proposal")
+    ap.add_argument("proposal_id")
+    ap.add_argument("--connects", type=int, default=0)
+    ap.set_defaults(func=cmd_approve)
+
+    ms = sub.add_parser("mark-submitted")
+    ms.add_argument("proposal_id")
+    ms.add_argument("--connects", type=int, default=0)
+    ms.set_defaults(func=cmd_mark_submitted)
+
+    for name, fn, helptext in [
+        ("start", cmd_start, "START BUSINESS"),
+        ("stop", cmd_stop, "Stop the system"),
+        ("pause", cmd_pause, "Pause all automation"),
+        ("resume", cmd_resume, "Resume"),
+        ("health", cmd_health, "Probe every capability"),
+        ("status", cmd_status, "One-screen summary"),
+        ("connectors", cmd_connectors, "Show each connector's real capabilities"),
+        ("costs", cmd_costs, "Every cost request and its decision"),
+        ("clear-demo", cmd_clear_demo, "Remove all demo records"),
+    ]:
+        s = sub.add_parser(name, help=helptext)
+        s.set_defaults(func=fn)
+
+    es = sub.add_parser("emergency-stop", help="Disable all external actions immediately")
+    es.add_argument("--reason", default="")
+    es.set_defaults(func=cmd_emergency_stop)
+
+    au = sub.add_parser("audit")
+    au.add_argument("--limit", type=int, default=40)
+    au.set_defaults(func=cmd_audit)
+
+    b = sub.add_parser("build", help="Build the static dashboard")
+    b.add_argument("--out", default="site")
+    b.set_defaults(func=cmd_build)
+
+    vs = sub.add_parser("verify-site", help="Refuse to publish a broken build")
+    vs.add_argument("--site", default="site")
+    vs.set_defaults(func=cmd_verify_site)
+
+    dm = sub.add_parser("demo", help="Run the full demo lifecycle (spec section 52)")
+    dm.add_argument("--quiet", action="store_true")
+    dm.set_defaults(func=cmd_demo)
+
+    t = sub.add_parser("top", help="Top opportunities with full score reasoning")
+    t.add_argument("--limit", type=int, default=10)
+    t.set_defaults(func=cmd_top)
+
+    return p
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    return int(args.func(args))
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

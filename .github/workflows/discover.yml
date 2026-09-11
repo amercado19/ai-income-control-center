@@ -1,0 +1,38 @@
+# Scheduled opportunity discovery.
+#
+# Every 6 hours. Deliberately conservative: the MLB and NFL pipelines already consume a large
+# share of the monthly Actions allowance, and nothing about freelance listings needs
+# minute-level freshness. Four runs a day at roughly 2 minutes each is about 4 hours of compute
+# per month (free and unmetered while this repository is public - see docs/ZERO_COST_LIMITS.md).
+#
+# Sources scanned are only those with a permitted automated read: Hacker News (Algolia API),
+# Himalayas, RemoteOK and We Work Remotely. Upwork, Contra and Fiverr are NOT scanned, because
+# none of them permits it. See docs/MARKETPLACE_RULES.md.
+name: discover
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Space-separated source names (blank = all permitted sources)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scan:
+    uses: ./.github/workflows/_reusable-run.yml
+    with:
+      steps: |
+        python -m aicc discover --ci --limit 50
+        python -m aicc draft --min-score 65 --limit 5
+        python -m aicc health
+      commit_message: "Opportunity scan"
+      publish: true
+    secrets: inherit

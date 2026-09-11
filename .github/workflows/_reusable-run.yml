@@ -1,0 +1,114 @@
+# Reusable job: checkout, run pipeline step(s), record the run, commit operational data back,
+# and optionally build + publish the dashboard to GitHub Pages.
+#
+# Credentials (all optional; a missing one degrades the run instead of failing it, and the run
+# summary says BLOCKED BY CREDENTIAL rather than reporting success):
+#   CLAUDE_CODE_OAUTH_TOKEN - Claude subscription token from `claude setup-token`. $0.00 cash;
+#                             draws against the Max subscription allowance. Absent -> the
+#                             rule-based worker and reviewer run instead, and the dashboard
+#                             reports the AI worker as NOT CONFIGURED.
+name: _run
+
+on:
+  workflow_call:
+    inputs:
+      steps:
+        description: "Shell commands to run, one per line"
+        required: true
+        type: string
+      commit_message:
+        required: true
+        type: string
+      publish:
+        description: "Also build and publish the dashboard"
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      CLAUDE_CODE_OAUTH_TOKEN:
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: aicc-repo-push
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      HAS_CLAUDE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+      PYTHONPATH: src
+      AICC_RUN_ID: ${{ github.run_id }}
+      AICC_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Credential state
+        run: |
+          if [ "$HAS_CLAUDE" != "true" ]; then
+            echo "::warning title=AI worker not configured::No CLAUDE_CODE_OAUTH_TOKEN secret. The rule-based worker and reviewer will run. See docs/DEPLOYMENT.md."
+            echo "### AI worker: BLOCKED BY CREDENTIAL (CLAUDE_CODE_OAUTH_TOKEN)" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### AI worker: available (Claude subscription, \$0.00 cash)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Run pipeline step(s)
+        id: pipeline
+        run: |
+          set -e
+          printf '%s\n' "${{ inputs.steps }}" | while IFS= read -r line; do
+            [ -z "$line" ] && continue
+            echo "::group::$line"; eval "$line"; echo "::endgroup::"
+          done
+
+      - name: Build and verify the dashboard
+        id: build
+        if: ${{ inputs.publish }}
+        run: |
+          set -e
+          python -m aicc build --out site
+          if ! python -m aicc verify-site --site site; then
+            echo "::error title=Dashboard NOT published::verification failed; the previous build stays live"
+            echo "### Dashboard publish: REFUSED - verification failed" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.publish && steps.build.outcome == 'success' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        if: ${{ inputs.publish && steps.build.outcome == 'success' }}
+        uses: actions/deploy-pages@v4
+
+      - name: Run summary
+        if: always()
+        run: |
+          python -m aicc status >> "$GITHUB_STEP_SUMMARY" || true
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          python -m aicc health >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Persist operational data
+        if: always()
+        run: |
+          git config user.name "aicc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          # data/ holds public job listings and system state only. Client material lives in
+          # workspaces/, which is gitignored and never reaches this step.
+          git add data
+          git diff --cached --quiet || git commit -m "${{ inputs.commit_message }} $(date -u +%F\ %H:%M) UTC"
+          git pull --rebase -X theirs origin ${GITHUB_REF_NAME} || true
+          git push || (git pull --rebase -X theirs origin ${GITHUB_REF_NAME} && git push)

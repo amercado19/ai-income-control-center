@@ -1,0 +1,25 @@
+# Daily health probe. Cheap (about a minute) and the only thing that keeps the System Health
+# page honest: every capability light is derived from a live probe, so a stale page is itself a
+# signal that something has stopped running.
+name: health
+
+on:
+  schedule:
+    - cron: "25 11 * * *"   # 07:25 ET
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  check:
+    uses: ./.github/workflows/_reusable-run.yml
+    with:
+      steps: |
+        python -m aicc health
+        python -m aicc status
+      commit_message: "Health check"
+      publish: true
+    secrets: inherit

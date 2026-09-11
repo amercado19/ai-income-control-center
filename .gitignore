@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------------------
+# SECURITY-CRITICAL. Read SECURITY.md before relaxing anything here.
+# Client work product and any credential must never reach this repository.
+# ---------------------------------------------------------------------------
+
+# Client job workspaces - may contain client-confidential material (spec section 22, 33)
+workspaces/
+jobs_private/
+client_files/
+
+# Secrets and sessions
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+!**/public*.key
+credentials.json
+token.json
+*_token.txt
+cookies.txt
+*.cookies
+.mcp-auth/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Generated site output (built by CI, pushed to the dashboard repo)
+site/
+
+# Local scratch
+scratchpad/
+_to_delete/
+*.tmp
+.DS_Store

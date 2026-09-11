@@ -1,0 +1,59 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dev tooling
+        run: pip install -r requirements-dev.txt
+      # The package itself has zero runtime dependencies, so there is nothing else to install.
+      - name: Format check
+        run: ruff format --check src tests scripts
+      - name: Lint
+        run: ruff check src tests scripts
+      - name: Type check
+        run: mypy src
+      - name: Tests
+        run: PYTHONPATH=src pytest -q
+        env:
+          PYTHONPATH: src
+      - name: Workflow validation
+        run: python scripts/validate_workflows.py
+      - name: Secret scan
+        run: python scripts/secret_scan.py
+      - name: Dependency audit
+        run: pip-audit -r requirements-dev.txt || echo "::warning::pip-audit reported findings"
+
+      # The zero-cost rule is a property of the code, not a promise in a README.
+      - name: Assert the cost ceiling is still zero
+        run: |
+          PYTHONPATH=src python - <<'PY'
+          from aicc.config import MAX_NEW_MONTHLY_CASH_SPEND
+          assert MAX_NEW_MONTHLY_CASH_SPEND == 0.0, (
+              f"MAX_NEW_MONTHLY_CASH_SPEND is {MAX_NEW_MONTHLY_CASH_SPEND}, not 0.00. "
+              "Raising it is a deliberate decision that needs Andres's explicit approval."
+          )
+          print("Cost ceiling: $0.00")
+          PY
+
+      - name: Demo lifecycle (spec section 52 acceptance test)
+        run: PYTHONPATH=src python -m aicc demo
+
+      - name: Build and verify the dashboard
+        run: |
+          PYTHONPATH=src python -m aicc build --out site
+          PYTHONPATH=src python -m aicc verify-site --site site
