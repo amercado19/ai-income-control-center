@@ -38,6 +38,14 @@ on:
 # Minimum privilege: this workflow reads the repository and writes nothing back. The pipeline
 # workflows that do commit operational data ask for `contents: write` separately, in their own
 # file, where that grant is visible next to the thing that needs it.
+#
+# Note what is NOT here: `id-token: write`. Run #1 failed on
+# "Could not fetch an OIDC token", and the error's own suggestion is to add that permission -
+# which would let this job mint identity tokens that can be exchanged for credentials elsewhere.
+# The action only wants OIDC in order to obtain a GitHub token for itself, so handing it the
+# job's built-in token directly (see `github_token` below) satisfies the same need with strictly
+# less authority. Taking an error message's first suggestion is not the same as taking the right
+# one, and permissions are exactly where that distinction is worth the extra minute.
 permissions:
   contents: read
 
@@ -99,6 +107,10 @@ jobs:
         with:
           # Subscription authentication. There is no api-key input on this step by design.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Supplied explicitly so the action does not try to mint one over OIDC. This token is
+          # scoped by the `permissions:` block above - read-only - so handing it over grants
+          # nothing the job did not already have.
+          github_token: ${{ github.token }}
           # `with:` is not a shell context, so interpolation here cannot break out into a command
           # the way it can inside `run:`. scripts/validate_workflows.py enforces that distinction.
           claude_args: "--max-turns 6"
