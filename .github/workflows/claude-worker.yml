@@ -1,0 +1,198 @@
+# The AI worker, and the proof that it is real.
+#
+# Everything else in this repository runs on deterministic Python. This is the one workflow that
+# actually invokes Claude, and its entire job is to answer a question that a green badge cannot:
+# did a model run, in the cloud, paid for by the subscription and not by a card?
+#
+# A green `anthropics/claude-code-action` step proves none of that on its own. An action can
+# succeed having done nothing. So the run manufactures a nonce it has never seen before, asks
+# Claude for something a template could not produce, and then a separate step - which has no
+# knowledge of the prompt beyond the nonce - checks the answer and fails the run if it is wrong.
+# The check is the proof; the badge is only a summary of it.
+#
+# Billing, stated plainly because this is the part that can quietly cost money:
+#   * `claude_code_oauth_token` authenticates against the Claude subscription. $0.00 cash.
+#   * `ANTHROPIC_API_KEY` would authenticate against metered API billing. It is not merely
+#     absent here - the first step FAILS THE RUN if that secret exists at all, so the paid path
+#     cannot be switched on by adding a secret and forgetting.
+#   * Public-repository Actions minutes are free, so the runner itself costs nothing.
+#
+# Two operational traps, both real, both documented in docs/DEPLOYMENT.md:
+#   * The OAuth token does not auto-refresh. `claude setup-token` again when it expires.
+#   * A scheduled run is attributed to whoever last edited the cron line. This workflow is
+#     dispatch-only, which sidesteps that entirely.
+
+name: Claude worker
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "What the worker should do"
+        required: true
+        default: "proof"
+        type: choice
+        options:
+          - proof
+
+# Minimum privilege: this workflow reads the repository and writes nothing back. The pipeline
+# workflows that do commit operational data ask for `contents: write` separately, in their own
+# file, where that grant is visible next to the thing that needs it.
+permissions:
+  contents: read
+
+concurrency:
+  group: claude-worker
+  cancel-in-progress: false
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      # ---------------------------------------------------------------- billing, before anything
+      #
+      # Ordered first deliberately. If the paid path is reachable, the run must stop BEFORE any
+      # model call, not report it afterwards. Secret *existence* is all that is compared; GitHub
+      # renders `secrets.X != ''` as a boolean, so no value reaches the log even in debug mode.
+      - name: Refuse to run if a paid credential exists
+        env:
+          HAS_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+          HAS_API_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        run: |
+          set -euo pipefail
+          if [ "$HAS_API_KEY" = "true" ]; then
+            echo "::error title=Paid credential present::ANTHROPIC_API_KEY is set on this repository. Zero-cost mode forbids metered API billing. Delete the secret, or explicitly lift the zero-cost rule first."
+            exit 1
+          fi
+          if [ "$HAS_OAUTH" != "true" ]; then
+            echo "::error title=No subscription credential::CLAUDE_CODE_OAUTH_TOKEN is not set. Run 'claude setup-token' and add it. The system will not substitute a paid key."
+            exit 1
+          fi
+          {
+            echo "## Billing"
+            echo ""
+            echo "| Credential | Present | Meaning |"
+            echo "|---|---|---|"
+            echo "| \`CLAUDE_CODE_OAUTH_TOKEN\` | yes | Claude subscription. \$0.00 cash. |"
+            echo "| \`ANTHROPIC_API_KEY\` | no | Metered API billing is not reachable from this run. |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # ---------------------------------------------------------------- a question with one answer
+      #
+      # The nonce is generated here, on the runner, moments before the prompt is built. It cannot
+      # have been in any training set, cached response, or committed fixture. Claude is asked to
+      # echo it back alongside two facts about the machine it is running on, which is what turns
+      # "the action returned 0" into "a model executed, here, now".
+      - name: Mint a nonce this run has never seen
+        id: nonce
+        run: |
+          set -euo pipefail
+          echo "value=$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')" >> "$GITHUB_OUTPUT"
+          echo "expected_sum=$(( 7 * 13 + 5 ))" >> "$GITHUB_OUTPUT"
+
+      - name: Run Claude
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          # Subscription authentication. There is no api-key input on this step by design.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # `with:` is not a shell context, so interpolation here cannot break out into a command
+          # the way it can inside `run:`. scripts/validate_workflows.py enforces that distinction.
+          claude_args: "--max-turns 6"
+          prompt: |
+            You are running inside a GitHub Actions runner for the AI Income Control Center.
+            This is a capability proof, not a code change. Do exactly the following and nothing else.
+
+            Write a file at the repository root called `claude-proof.json` containing a single JSON
+            object with exactly these keys:
+
+              "nonce"        - the string ${{ steps.nonce.outputs.value }}, copied exactly
+              "arithmetic"   - the integer result of 7 * 13 + 5
+              "runner_os"    - the value of the RUNNER_OS environment variable on this machine
+              "hostname"     - the output of the `hostname` command on this machine
+              "cwd"          - the absolute path of the current working directory
+              "summary"      - one sentence, in your own words, describing what this repository
+                               does, based on reading README.md. Do not copy a sentence from the
+                               file verbatim; write your own.
+
+            Do not modify any other file. Do not commit. Do not open a pull request.
+
+      # ---------------------------------------------------------------- the actual verification
+      #
+      # Deliberately a separate step in plain Python, not a claim made by the action about itself.
+      # It re-reads the nonce from the step output rather than from the prompt, so a Claude that
+      # echoed a hardcoded string would fail here. `summary` is checked for being present, of a
+      # plausible length, and NOT a substring of README.md - a template cannot satisfy all three.
+      - name: Verify a model actually ran
+        env:
+          EXPECTED_NONCE: ${{ steps.nonce.outputs.value }}
+          EXPECTED_SUM: ${{ steps.nonce.outputs.expected_sum }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os, pathlib, sys
+
+          path = pathlib.Path("claude-proof.json")
+          if not path.exists():
+              sys.exit("FAIL: claude-proof.json was not written. The action reported success but produced nothing.")
+
+          try:
+              proof = json.loads(path.read_text(encoding="utf-8"))
+          except json.JSONDecodeError as exc:
+              sys.exit(f"FAIL: claude-proof.json is not valid JSON: {exc}")
+
+          problems = []
+          if proof.get("nonce") != os.environ["EXPECTED_NONCE"]:
+              problems.append(f"nonce mismatch: got {proof.get('nonce')!r}")
+          if str(proof.get("arithmetic")) != os.environ["EXPECTED_SUM"]:
+              problems.append(f"arithmetic wrong: got {proof.get('arithmetic')!r}, expected {os.environ['EXPECTED_SUM']}")
+          if not proof.get("hostname"):
+              problems.append("no hostname: the model did not execute a command on this machine")
+          if proof.get("runner_os") != os.environ.get("RUNNER_OS", "Linux"):
+              problems.append(f"runner_os wrong: got {proof.get('runner_os')!r}")
+
+          summary = (proof.get("summary") or "").strip()
+          readme = pathlib.Path("README.md").read_text(encoding="utf-8") if pathlib.Path("README.md").exists() else ""
+          if len(summary) < 40:
+              problems.append("summary is too short to be a real sentence")
+          elif summary in readme:
+              problems.append("summary was copied verbatim from README.md, which a script could do")
+
+          lines = [
+              "## Proof that a model ran",
+              "",
+              "| Check | Result |",
+              "|---|---|",
+              f"| Nonce minted this run, echoed back | {'PASS' if proof.get('nonce') == os.environ['EXPECTED_NONCE'] else 'FAIL'} |",
+              f"| Arithmetic | {'PASS' if str(proof.get('arithmetic')) == os.environ['EXPECTED_SUM'] else 'FAIL'} |",
+              f"| Command executed on the runner | `{proof.get('hostname')}` |",
+              f"| Working directory | `{proof.get('cwd')}` |",
+              f"| Runner OS | `{proof.get('runner_os')}` |",
+              f"| Original prose, not copied | {'PASS' if summary and summary not in readme else 'FAIL'} |",
+              "",
+              f"> {summary}",
+              "",
+              "Andres's Mac played no part in this run. The runner is a GitHub-hosted VM; the",
+              "model call was authenticated by the subscription token and cost $0.00 in cash.",
+          ]
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write("\n".join(lines) + "\n")
+
+          if problems:
+              sys.exit("FAIL: " + "; ".join(problems))
+          print("PASS: a model ran in the cloud, on the subscription, and answered a question it could not have precomputed.")
+          PY
+
+      # The proof file is evidence for this run only. Leaving it in the tree would turn a live
+      # check into a stale artifact that later runs could accidentally "pass" against.
+      - name: Publish the proof as a run artifact, not a commit
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-proof
+          path: claude-proof.json
+          if-no-files-found: warn
+          retention-days: 7
