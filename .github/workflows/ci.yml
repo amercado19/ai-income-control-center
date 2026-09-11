@@ -12,9 +12,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 12
+    # Set once for the whole job. Every step that runs `python -m aicc` needs it, and setting
+    # it per-step meant a newly added step silently ran without it and failed with "No module
+    # named aicc" - which is what happened on this repository's very first CI run.
+    env:
+      PYTHONPATH: src
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip

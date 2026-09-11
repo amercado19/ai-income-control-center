@@ -48,8 +48,8 @@ jobs:
       AICC_RUN_ID: ${{ github.run_id }}
       AICC_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -114,7 +114,7 @@ jobs:
 
       - name: Upload Pages artifact
         if: ${{ inputs.publish && steps.build.outcome == 'success' }}
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
