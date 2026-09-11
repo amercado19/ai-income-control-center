@@ -48,10 +48,27 @@ def test_three_packages_each_with_a_revision(gig: fk.Gig) -> None:
     assert all(p.revisions >= 1 for p in gig.packages)
 
 
-def test_kit_does_not_exceed_the_slots_a_new_seller_has() -> None:
-    # Four, not five. The spec asked for five candidates; Fiverr grants new sellers four slots,
-    # so a fifth candidate could not be published and would only invite a bad substitution.
-    assert len(ALL) <= fk.NEW_SELLER_GIG_SLOTS
+def test_live_gigs_fit_the_slots_a_new_seller_has() -> None:
+    """Five candidates, four slots - which is not a contradiction, and treating it as one was
+    the earlier mistake. Four go live; the fifth is written, priced and imaged, waiting to
+    replace whichever gig gets no impressions."""
+    live = [g for g in ALL if not g.bench]
+    assert len(live) == fk.NEW_SELLER_GIG_SLOTS
+    assert len(ALL) > len(live), "A bench candidate should exist so a dud can be swapped quickly."
+
+
+def test_a_bench_gig_is_as_finished_as_a_live_one() -> None:
+    """A bench candidate that still needs work is not a bench candidate, it is a TODO."""
+    for gig in [g for g in ALL if g.bench]:
+        assert gig.validate() == [], gig.validate()
+        assert gig.image_path(), f"{gig.key} has no rendered image, so swapping it in is not one step."
+        assert len(gig.faqs) >= 4 and len(gig.requirements) >= 3
+
+
+def test_the_summary_counts_only_live_gigs_against_the_slot_limit() -> None:
+    s = fk.summary()
+    assert s["slots_used"] == fk.NEW_SELLER_GIG_SLOTS
+    assert s["bench"], "The bench must be visible, or it will be forgotten."
 
 
 def test_gig_keys_are_unique() -> None:
@@ -135,7 +152,6 @@ def test_the_below_floor_exemption_names_its_own_exit() -> None:
 def test_summary_reports_commission_adjusted_totals() -> None:
     s = fk.summary()
     assert s["commission"] == fk.COMMISSION
-    assert s["slots_used"] == len(ALL)
     assert s["all_valid"] is True
     assert s["total_basic_net"] == pytest.approx(sum(g.packages[0].net for g in ALL))
 
@@ -273,8 +289,10 @@ def test_image_path_is_empty_rather_than_broken_when_nothing_is_rendered(tmp_pat
 
 
 def test_summary_counts_how_many_gigs_have_an_image() -> None:
+    """Counted across all candidates, not only the live four - the bench needs its image too,
+    or swapping it in is two jobs instead of one."""
     s = fk.summary()
-    assert 0 <= s["images_ready"] <= s["slots_used"]
+    assert 0 <= s["images_ready"] <= len(ALL)
 
 
 def test_every_gig_has_an_image_renderer() -> None:

@@ -5,11 +5,15 @@ only way it earns anything is as a storefront: publish gigs, and let Fiverr's ma
 bring buyers. This module prepares those gigs. **Nothing here is published without approval.**
 
 Everything below is grounded in market research done September 2026 against Fiverr's own category
-pages, cost guides and help centre. The reasoning that shaped the four gigs:
+pages, cost guides and help centre. The reasoning that shaped the kit:
 
-* **New sellers get exactly 4 gig slots.** So the portfolio has to do two jobs at once: earn the
-  first reviews, and sell the work that is actually worth doing. Three gigs are priced for the
-  work; one is priced to harvest reviews.
+* **Five candidates, four slots.** A new seller gets exactly four gig slots, and the brief asked
+  for five candidates. Those are not in conflict: four go live, the fifth sits on the bench,
+  fully written and priced and imaged. A gig with no impressions after six weeks should be
+  replaced, and having the replacement already researched is the difference between swapping
+  next Tuesday and swapping in two months.
+* **The four live gigs do two jobs at once**: earn the first reviews, and sell the work that is
+  actually worth doing. Three are priced for the work; one is priced to harvest reviews.
 * **Data Engineering is the thinnest technical category on the platform** - roughly 1,500 gigs,
   against 64,000+ in Data Entry - and it carries the highest observed price floors ($50-500, with
   Top Rated sellers at $250). It is also the closest match to two production pipelines with CI/CD.
@@ -103,6 +107,14 @@ class Gig:
     image_concept: str
     rationale: str
     status: str = "DRAFT"  # DRAFT | READY_TO_PUBLISH | PUBLISHED
+    bench: bool = False
+    """Prepared but not in the opening four.
+
+    The brief asked for five candidates; Fiverr gives a new seller four slots. Those are not in
+    conflict, and treating them as one was the earlier mistake: five candidates, four published,
+    one ready to swap in. A gig that gets no impressions in six weeks should be replaced, and
+    the replacement being already written - researched, priced, validated, with its image drawn -
+    is the difference between swapping next Tuesday and swapping in two months."""
     below_floor_reason: str | None = None
     """Why this gig is allowed to price under the operator's own floor.
 
@@ -651,6 +663,129 @@ GIGS: list[Gig] = [
             "clears both floors. Revisit at Level 1 - it should not outlive its purpose."
         ),
     ),
+    Gig(
+        key="pdf_extraction",
+        bench=True,
+        title="I will extract data from your pdf invoices or reports into clean csv",
+        category="Data",
+        subcategory="Data Processing > Data Extraction",
+        tags=["pdf to excel", "data extraction", "invoice processing", "ocr", "document parsing"],
+        description=(
+            "Hundreds of PDFs that somebody is retyping into a spreadsheet, line by line, "
+            "getting slower and less accurate as they go.\n\n"
+            "I extract them properly: a repeatable process that reads your documents, pulls the "
+            "fields you actually need, and hands you one clean CSV or workbook.\n\n"
+            "The part that matters, and the part this category usually gets wrong:\n"
+            "- Every document is accounted for. A page the extraction could not read confidently "
+            "is FLAGGED for you to key by hand - never guessed at, never silently skipped.\n"
+            "- You get a confidence report: how many documents parsed cleanly, how many need a "
+            "human, and exactly which ones.\n"
+            "- Totals are checked against the line items, so a misread decimal shows up as a "
+            "reconciliation failure rather than a wrong number in your accounts.\n\n"
+            "Scanned documents are handled too, with OCR - though scan quality drives accuracy, "
+            "and I will tell you honestly what to expect from a sample before you order.\n\n"
+            "Send me two or three representative PDFs and I will tell you what is realistically "
+            "extractable before you spend anything."
+        ),
+        packages=[
+            Package(
+                "Basic",
+                95.0,
+                3,
+                1,
+                [
+                    "Up to 25 documents, one consistent layout",
+                    "Fields you specify, extracted to CSV or Excel",
+                    "Low-confidence pages flagged, never guessed",
+                    "Confidence report: what parsed, what needs you",
+                ],
+                est_human_hours=1.0,
+                est_ai_hours=2.0,
+            ),
+            Package(
+                "Standard",
+                325.0,
+                6,
+                2,
+                [
+                    "Up to 150 documents, up to three layouts",
+                    "Line-item extraction with totals reconciled against the document",
+                    "OCR for scanned pages",
+                    "The reusable script, so next quarter costs you nothing",
+                    "Exceptions list with page references",
+                ],
+                est_human_hours=3.5,
+                est_ai_hours=7.0,
+            ),
+            Package(
+                "Premium",
+                695.0,
+                12,
+                3,
+                [
+                    "Unlimited documents, mixed and irregular layouts",
+                    "Full validation rules and a data-quality report",
+                    "Scheduled or watched-folder processing",
+                    "Reusable pipeline with tests and documentation",
+                    "Handover session",
+                ],
+                est_human_hours=7.5,
+                est_ai_hours=16.0,
+            ),
+        ],
+        faqs=[
+            {
+                "q": "Can you handle scanned PDFs, not just digital ones?",
+                "a": "Yes, with OCR from the Standard package. Scan quality drives accuracy, so send a sample first and I will tell you honestly what to expect rather than promising a number I cannot hit.",
+            },
+            {
+                "q": "What happens to a document it cannot read?",
+                "a": "It is flagged with the page reference so you can key that one by hand. It is never guessed at and never silently dropped - a plausible wrong number is far more expensive than a blank you know about.",
+            },
+            {
+                "q": "Do my documents stay confidential?",
+                "a": "Yes. I work only with what you send, I do not share it, and I delete it on request once the order is complete. If your documents are sensitive, send redacted samples for the quote.",
+            },
+            {
+                "q": "Will the totals be right?",
+                "a": "Line items are reconciled against the document total, so a misread decimal surfaces as a reconciliation failure rather than as a wrong figure in your accounts. That check is the main reason to use this gig rather than a generic converter.",
+            },
+            {
+                "q": "Can I re-run it on next quarter's documents myself?",
+                "a": "Yes, from the Standard package - you get the script and a short note on running it.",
+            },
+            {
+                "q": "What if my layouts are all different?",
+                "a": "Up to three layouts on Standard, irregular and mixed on Premium. Message me with samples and I will quote it properly rather than have you buy the wrong package.",
+            },
+        ],
+        requirements=[
+            "Two or three representative PDFs (redacted is fine)",
+            "The exact fields you need pulled out, and what to call them",
+            "CSV or Excel, and whether one row per document or one row per line item",
+            "Roughly how many documents, and how often this repeats",
+            "What should happen to a page that cannot be read confidently",
+        ],
+        image_concept=(
+            "Left: a stack of three PDF pages, the top one an invoice with a few line items, one "
+            "of them tinted amber. Arrow right into a clean CSV grid where those rows appear as "
+            "data, with the amber row carried through as a highlighted 'needs review' entry. "
+            "Below the grid, a small green badge: '148 of 150 parsed - 2 flagged for you'. The "
+            "flagged pair is the whole point: this gig advertises the exceptions rather than "
+            "hiding them, which is the opposite of every competitor in the category."
+        ),
+        rationale=(
+            "THE BENCH CANDIDATE - prepared, validated and imaged, but not in the opening four, "
+            "because Fiverr gives a new seller exactly four slots. Swap it in for whichever gig "
+            "has no impressions after six weeks. It is fifth rather than absent because it is "
+            "the strongest of the remaining priorities: it matches document-heavy finance work "
+            "directly, it is the one category where the honest handling of failure (flagging "
+            "unreadable pages instead of guessing) is a visible differentiator buyers have been "
+            "burned on, and at $95 Basic it nets $76 for about an hour. Ahead of a dashboards or "
+            "GitHub-automation gig, which are both thinner markets on Fiverr and harder to scope "
+            "into fixed packages."
+        ),
+    ),
 ]
 
 
@@ -668,8 +803,9 @@ def summary() -> dict[str, Any]:
     gigs = [g.to_dict() for g in GIGS]
     return {
         "gigs": gigs,
-        "slots_used": len(gigs),
+        "slots_used": sum(1 for g in GIGS if not g.bench),
         "slots_available": NEW_SELLER_GIG_SLOTS,
+        "bench": [{"key": g.key, "title": g.title, "rationale": g.rationale} for g in GIGS if g.bench],
         "all_valid": all(g["valid"] for g in gigs),
         "commission": COMMISSION,
         "total_basic_net": round(sum(g["packages"][0]["net_after_commission"] for g in gigs), 2),

@@ -299,11 +299,61 @@ def img_spreadsheet_cleanup(out: Path) -> Path:
     return save(img, out, "spreadsheet_cleanup")
 
 
+def img_pdf_extraction(out: Path) -> Path:
+    """The exceptions, shown rather than hidden - which is the opposite of the category."""
+    img, d = canvas()
+    header(d, "PDFs in. Clean data out. Nothing guessed.", "Unreadable pages are flagged for you, never invented.")
+
+    top = 300
+    # Left: a small stack of documents, the top one an invoice with one bad line.
+    for dx in (16, 8, 0):
+        rounded(d, (80 + dx, top + 16 - dx, 300 + dx, top + 236 - dx), 8, fill=CARD, outline=LINE)
+    d.text((104, top + 34), "invoice_0147.pdf", font=font(17, bold=True, mono=True), fill=INK)
+    d.line((104, top + 62, 288, top + 62), fill=LINE, width=1)
+    # Labels kept short and the amount right-aligned to the card edge: at font 15 the earlier
+    # "Widget A   12" ran straight into "1,280.00" with no gap.
+    rows = [("Widget A", "1,280.00", False), ("Widget B", "940.00", False), ("Sm?dg?d", "??.??", True)]
+    for i, (left, right, flagged) in enumerate(rows):
+        y = top + 78 + i * 30
+        if flagged:
+            rounded(d, (98, y - 5, 292, y + 21), 5, fill=(253, 244, 228))
+        d.text((104, y), left, font=font(15, mono=True), fill=AMBER if flagged else MUTED)
+        d.text((286, y), right, font=font(15, mono=True), fill=AMBER if flagged else MUTED, anchor="ra")
+    d.text((104, top + 186), "total", font=font(15, bold=True, mono=True), fill=INK)
+    d.text((286, top + 186), "2,220.00", font=font(15, bold=True, mono=True), fill=INK, anchor="ra")
+
+    d.line((330, top + 120, 420, top + 120), fill=INK_2, width=3)
+    d.polygon([(420, top + 111), (438, top + 120), (420, top + 129)], fill=INK_2)
+
+    # Right: the extracted grid, with the flagged row carried through rather than dropped.
+    gx, gr = 458, 1200
+    rounded(d, (gx, top, gr, top + 250), 10, fill=CARD, outline=GREEN, width=2)
+    d.text((gx + 24, top + 20), "extracted.csv", font=font(19, bold=True, mono=True), fill=INK)
+    head = "doc         | item      | qty | amount"
+    d.text((gx + 24, top + 56), head, font=fit(d, head, gr - gx - 48, 17, mono=True), fill=INK_2)
+    grid = [
+        ("0147        | Widget A  |  12 | 1280.00", False),
+        ("0147        | Widget B  |   4 |  940.00", False),
+        ("0147        | NEEDS YOU |   ? |       ?", True),
+    ]
+    for i, (row, flagged) in enumerate(grid):
+        y = top + 92 + i * 34
+        if flagged:
+            rounded(d, (gx + 14, y - 7, gr - 14, y + 23), 6, fill=(253, 244, 228), outline=AMBER)
+        d.text((gx + 24, y), row, font=fit(d, row, gr - gx - 48, 17, mono=True), fill=AMBER if flagged else MUTED)
+    d.text((gx + 24, top + 208), "page 3 could not be read confidently", font=font(16), fill=AMBER)
+
+    pill_right(d, gr, top + 268, "148 of 150 parsed - 2 flagged for you", GREEN, GREEN_BG, size=20)
+    footer(d, "A plausible wrong number costs far more than a blank you know about.")
+    return save(img, out, "pdf_extraction")
+
+
 RENDERERS = {
     "data_engineering": img_data_engineering,
     "financial_model": img_financial_model,
     "scheduled_automation": img_scheduled_automation,
     "spreadsheet_cleanup": img_spreadsheet_cleanup,
+    "pdf_extraction": img_pdf_extraction,
 }
 
 

@@ -348,7 +348,8 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
         for gig in kit["gigs"]:
             problems = gig["validation"]
             mark = "OK  " if gig["valid"] else "FAIL"
-            _print(f"{mark} {gig['key']:22s} {gig['title_chars']:>2}/80 title  {gig['description_chars']:>4}/1200 desc  [{gig['status']}]")
+            where = "BENCH" if gig.get("bench") else gig["status"]
+            _print(f"{mark} {gig['key']:22s} {gig['title_chars']:>2}/80 title  {gig['description_chars']:>4}/1200 desc  [{where}]")
             for p_ in problems:
                 _print(f"       - {p_}")
             for pkg in gig["packages"]:
@@ -360,6 +361,8 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
         for entry in kit["below_floor"]:
             _print(f"\nBELOW FLOOR (declared): {entry['key']}\n  {entry['reason']}")
         _print(f"\n{kit['slots_used']} of {kit['slots_available']} new-seller slots used.")
+        for b in kit.get("bench", []):
+            _print(f"BENCH: {b['key']} - ready to swap in for whichever gig gets no impressions in six weeks.")
         _print(kit["publishing_note"])
         return 0 if kit["all_valid"] else 1
 
