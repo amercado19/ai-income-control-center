@@ -111,9 +111,19 @@ jobs:
         continue-on-error: true
         run: python -m aicc notify --issue
 
+      # Deliberately publishes even when the pipeline step failed, and the condition says so
+      # explicitly rather than relying on Actions semantics (an explicit `if:` replaces the
+      # implicit success() check, so this would run after a failure whether or not that was
+      # intended - and a behaviour nobody chose is a behaviour nobody maintains).
+      #
+      # The reasoning: this dashboard's entire job is to report state honestly, and "the last
+      # run failed" is state. Hiding it when something goes wrong is exactly backwards - the
+      # moment the dashboard is most worth looking at is the moment it stops updating. The
+      # publish gate still refuses a build that cannot evidence what it claims, so a broken
+      # build is still never deployed over a working one.
       - name: Build and verify the dashboard
         id: build
-        if: ${{ inputs.publish }}
+        if: ${{ inputs.publish && (success() || failure()) }}
         run: |
           set -e
           python -m aicc build --out site
