@@ -16,7 +16,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from .. import analytics, audit, fiverr_kit, health, money, storage
+from .. import analytics, audit, fiverr_kit, health, money, portfolio, storage
 from ..config import BRAND_NAME, BRAND_SHORT, COST_REQUESTS, MAX_NEW_MONTHLY_CASH_SPEND
 from ..connectors import registry
 from ..models import JobStatus
@@ -221,6 +221,7 @@ def _collect() -> dict[str, Any]:
         "cost": {"ceiling": MAX_NEW_MONTHLY_CASH_SPEND, "declined": declined},
         "attribution": attribution,
         "fiverr_kit": fiverr_kit.summary(),
+        "portfolio": portfolio.summary(),
     }
 
 

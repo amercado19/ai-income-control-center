@@ -513,6 +513,43 @@ PAGES.fiverr = () => {
     </div>`).join("")}`;
 };
 
+/* Proof, split by whether a stranger can check it. The distinction is the page: a claim backed
+ * only by a private repository is something to offer on a call, not something to assert in a
+ * cold proposal, and the proposal generator is held to the public half. */
+PAGES.portfolio = () => {
+  const pf = D.portfolio;
+  if (!pf || !pf.studies) return `<div class="page-head"><h2>Portfolio</h2></div>${empty("No case studies", "")}`;
+  return `<div class="page-head"><h2>Portfolio</h2>
+      <p>${pf.count} case studies from real production work. ${pf.with_public_proof} have proof a client can open right now.</p></div>
+    <div class="card card-pad">
+      <div class="note">${esc(pf.visibility_note)}</div>
+      <div class="note" style="margin-top:10px">${esc(pf.subject_matter_note)}</div>
+    </div>
+    ${pf.studies.map((s) => `<div class="card card-pad" style="margin-top:14px">
+      <div class="cell-title">${esc(s.title)}</div>
+      <div class="cell-sub" style="margin-top:4px">${esc(s.one_line)}</div>
+      <div class="btn-row" style="flex-wrap:wrap;margin-top:10px">
+        ${badge(s.has_public_proof ? "PUBLICLY VERIFIABLE" : "NO PUBLIC PROOF", s.has_public_proof ? "GREEN" : "YELLOW")}
+        ${s.stack.map((t) => badge(t, "WHITE")).join(" ")}
+      </div>
+      <div class="section-title">Evidence a client can check</div>
+      <ul class="cell-sub" style="margin:0;padding-left:18px">${s.public_evidence.map((e) => `<li>${esc(e.claim)}<br><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.where)}</a></li>`).join("")}</ul>
+      ${s.private_evidence.length ? `<div class="section-title">Available on request (private repositories)</div>
+        <ul class="cell-sub" style="margin:0;padding-left:18px">${s.private_evidence.map((e) => `<li>${esc(e.claim)} <em>- ${esc(e.where)}</em></li>`).join("")}</ul>` : ""}
+      <details class="disclosure">
+        <summary>The problem, the approach, and what came of it</summary>
+        <div class="section-title">Problem</div>
+        <div class="note">${esc(s.problem)}</div>
+        <div class="section-title">Approach</div>
+        <ul class="cell-sub" style="margin:0;padding-left:18px">${s.approach.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
+        <div class="section-title">Outcome</div>
+        <ul class="cell-sub" style="margin:0;padding-left:18px">${s.outcome.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>
+        <div class="section-title">Proof for</div>
+        <div class="cell-sub">${s.sells.map(esc).join(" &middot; ")}</div>
+      </details>
+    </div>`).join("")}`;
+};
+
 PAGES.audit = () => {
   const ev = D.audit || [];
   if (!ev.length) return `<div class="page-head"><h2>Audit log</h2></div>${empty("No events recorded", "")}`;
@@ -538,6 +575,7 @@ const NAV = [
   ["revenue", "Revenue", "$"],
   ["analytics", "Analytics", "≈"],
   ["fiverr", "Fiverr Launch", "◇"],
+  ["portfolio", "Portfolio", "⚑"],
   ["automation", "Automation", "↻"],
   ["health", "System Health", "♥"],
   ["settings", "Settings", "⚙"],

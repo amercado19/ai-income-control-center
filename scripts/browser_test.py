@@ -36,6 +36,7 @@ PAGES: list[tuple[str, str]] = [
     ("revenue", ""),
     ("analytics", ""),
     ("fiverr", "Fiverr launch center"),
+    ("portfolio", "Evidence a client can check"),
     ("automation", "Connectors"),
     ("health", ""),
     ("settings", "Operator profile"),
