@@ -202,6 +202,56 @@ currently contain what is being searched for - it is not a threshold that needs 
 
 ---
 
+## D14 — Full-time employment is a reject, on PSLF grounds
+
+**Decision.** `RiskFlag.FULL_TIME_EMPLOYMENT` is a hard reject, not a penalty. Contract,
+part-time and project work are unaffected.
+
+**Why.** Andres needs roughly seven more years at a 501(c)(3) or government employer for Public
+Service Loan Forgiveness, and has stated employer type is a non-negotiable filter rather than a
+factor to weigh. Every full-time role these sources carry is a for-profit company. Taking one
+does not merely compete for his hours — it ends qualifying employment and forfeits seven years
+of progress. No hourly figure on a job board compensates for that.
+
+This was previously a 30-point penalty, left visible so he could judge case by case. That was
+sound reasoning from an incomplete premise: it is not a career decision with a rate attached,
+and leaving it ranked invited exactly the mistake it could not afford. 13 of 75 live listings
+are rejected on these grounds.
+
+The one full-time employment that would NOT break PSLF is federal or 501(c)(3) — which is why
+`docs/MARKETPLACE_RULES.md` records the free USAJobs API without integrating it. That is a
+different project.
+
+---
+
+## D15 — Five Fiverr gigs, four slots, one on the bench
+
+**Decision.** Prepare five complete candidates; publish four; hold `pdf_extraction` in reserve.
+
+**Why.** The brief asked for five candidates and Fiverr gives a new seller four slots, and an
+earlier version of this project treated that as a contradiction and built four. It is not one.
+A gig that draws no impressions in six weeks should be replaced, and the difference between
+swapping next Tuesday and swapping in two months is whether the replacement is already
+researched, priced, validated and imaged. A bench candidate is held to the same bar as a live
+one; one that still needs work is not a bench candidate, it is a TODO.
+
+---
+
+## D16 — A number that has never been tested says so, next to itself
+
+**Decision.** The win estimate is always rendered with `INITIAL HEURISTIC - not calibrated
+against outcomes` attached, plus the step-by-step trail that produced it. A test asserts the
+dashboard payload cannot carry the figure without the caveat.
+
+**Why.** A probability displayed on its own acquires authority it has not earned. This one is a
+heuristic over source priors, listing age, opportunity class and competition, and has never
+been checked against a single real outcome, because there are none yet. It is useful for
+comparing listings to each other and useless as a probability to act on, and the display has to
+make that difference impossible to miss. Showing the four adjustments that assembled it does
+more for that than any wording could.
+
+---
+
 ## Open — needs a human decision
 
 **Reddit r/forhire.** Content-wise the best freelance demand source available. `robots.txt` is a

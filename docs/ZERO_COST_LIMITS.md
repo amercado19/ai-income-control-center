@@ -121,3 +121,32 @@ Nothing here executes automatically. The dashboard surfaces a recommendation onl
 Not "can we build expensive software". Until at least **50 qualified opportunities** have been
 reviewed and there is real proposal-response data, no paid infrastructure is justified — you would
 be buying capacity for a business that has not proven it can sell.
+
+---
+
+## Verified costs — 11 Sep 2026
+
+| Item | Cost | Basis |
+|---|---|---|
+| GitHub Actions | **$0.00** | Public repository: unlimited minutes on standard runners. ~660 min/month measured by `scripts/actions_budget.py`. |
+| Claude worker | **$0.00** | *"If you authenticate with an OAuth token, runs use your Claude subscription instead of API billing."* — <https://code.claude.com/docs/en/github-actions> |
+| GitHub Pages | **$0.00** | Public repository. |
+| Notifications | **$0.00** | A rolling GitHub issue; GitHub's own email does the delivery. No Pushover, Slack tier or Twilio. |
+| All data sources | **$0.00** | Public APIs and feeds, no keys. |
+| Upwork Connects | **$0.00 as configured** | 10 free/month. Every submission prices the spend through the cost gate first; beyond the allowance it declines. |
+| Fiverr | **$0.00 to list** | 20% commission on completed orders only. |
+| **Total additional monthly cost** | **$0.00** | Asserted in CI on every push. |
+
+### What $0.00 actually costs
+
+- **Upwork is capped at roughly 1–2 proposals a month**, because applying costs 4–16 Connects
+  against a free allowance of 10.
+- **The AI worker runs on a subscription, so it has usage windows.** An exhausted window pauses
+  the run rather than failing it (`src/aicc/degradation.py`), and never falls back to paid
+  billing — enforced by a test across every input.
+- **Scheduled workflows switch themselves off after 60 days of repository inactivity.** The
+  cheapest failure mode in this document and the easiest to miss. See `docs/OPERATIONS.md`.
+- **If the repository ever goes private**, that ~660 min/month starts drawing on the 2,000 free
+  minutes shared across the whole account — competing with the NFL and MLB pipelines rather than
+  adding to them. It still fits, with roughly 1,340 minutes of headroom, but the headroom is
+  shared.

@@ -117,3 +117,49 @@ Enforced in code, not policy:
 
 This is a single-operator system. If you find a way past any of the above, the fix is a commit and
 a test that would have caught it.
+
+---
+
+## Pre-live security review — 11 Sep 2026
+
+Run before enabling live mode, as required. Eight checks, two findings, both fixed.
+
+| Check | Result |
+|---|---|
+| Public repo contains no secrets | **PASS** — 91 tracked files, `scripts/secret_scan.py` clean. The only credential-shaped strings are the scanner's own detection regexes. |
+| No contact information improperly retained | **PASS** — zero files in `data/` carry surviving contact details. |
+| External job text sanitised | **PASS** — all 75 stored listings excerpted to ≤1500 chars; `full_description` is an attribute, not a field, and is never persisted. |
+| Prompt-injection defences | **PASS** — 51-case regression suite, zero attacks missed, zero false positives on real listings. |
+| Workflow permissions least privilege | **PASS** — CI holds `contents: read` only. Scheduled workflows hold `contents/pages/id-token/issues: write`, each used. |
+| Unsafe shell interpolation | **TWO FINDINGS, FIXED** — see below. |
+| No customer-sensitive files public | **PASS** — `workspaces/`, `jobs_private/`, `client_files/` gitignored and untracked. |
+| Emergency stop | **PASS** — blocks outbound actions and states a reason. |
+
+### Finding 1 — caller-supplied values interpolated into shell scripts
+
+```yaml
+printf '%s\n' "${{ inputs.steps }}" > steps.txt     # then eval'd line by line
+git commit -m "${{ inputs.commit_message }} ..."
+```
+
+A `${{ }}` expansion is substituted as **text** before bash parses the line, so a quote or a
+`$(...)` inside the value escapes the string and executes.
+
+**Exploitable today?** No. The only callers are checked-in workflow files in this repository, so
+nothing untrusted reaches those inputs. But that is a property of the callers rather than of the
+file being called, and `discover.yml` already accepted a `workflow_dispatch` input that the
+obvious next edit would have piped into that `eval`.
+
+**Fixed** by passing both through `env:` and referencing them as `"$VAR"`, where the value is
+data rather than syntax. The dispatch input is now wired up the same way — it had been accepted
+on the form and silently ignored, which is a control that lies about what it does.
+
+### Finding 2 — the check that found it was itself wrong
+
+The detector was added to `scripts/validate_workflows.py` so this cannot recur. Its first
+version matched only `        run: |` and missed `      - run: |` and single-line `run:`
+entirely — it reported **clean** on a file containing the exact problem it was written to find.
+
+That is worse than having no check, because it converts an unknown into a false assurance. It
+now handles all three spellings and is tested in both directions: three unsafe forms must be
+flagged, three safe ones (`env:`-passed, `with:`-block, no interpolation) must not.
