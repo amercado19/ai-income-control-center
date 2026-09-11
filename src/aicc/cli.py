@@ -387,6 +387,46 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_ai_status(args: argparse.Namespace) -> int:
+    """Classify an AI failure and tell the workflow what to do about it.
+
+    Called from CI with the failing step's output. Exit code carries the decision so the
+    workflow can branch without parsing text:
+
+        0  carry on (paused for capacity, degraded, or retry shortly)
+        1  a person is needed, or the error is unrecognised
+
+    The point of the 0 is that an exhausted usage window must not paint the run red. A red
+    badge is a claim on someone's attention, and spending it on something that fixes itself in
+    five hours teaches the owner to ignore red badges.
+    """
+    import os
+
+    from .degradation import classify, workflow_summary
+
+    decision = classify(
+        args.error or "",
+        status_code=args.status,
+        has_credential=bool(os.environ.get("CLAUDE_CODE_OAUTH_TOKEN")),
+    )
+    summary = workflow_summary(decision)
+    _print(summary)
+
+    step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary:
+        with open(step_summary, "a", encoding="utf-8") as fh:
+            fh.write(summary + "\n")
+
+    audit.record(
+        "ai.degraded",
+        actor=Actor.GITHUB_ACTIONS if os.environ.get("GITHUB_ACTIONS") else Actor.SYSTEM,
+        object_type="ai_worker",
+        result="refused" if decision.should_fail_the_run else "ok",
+        after=decision.to_dict(),
+    )
+    return 1 if decision.should_fail_the_run else 0
+
+
 # ---------------------------------------------------------------------------
 # Parser
 # ---------------------------------------------------------------------------
@@ -457,6 +497,11 @@ def build_parser() -> argparse.ArgumentParser:
     t = sub.add_parser("top", help="Top opportunities with full score reasoning")
     t.add_argument("--limit", type=int, default=10)
     t.set_defaults(func=cmd_top)
+
+    ai = sub.add_parser("ai-status", help="Classify an AI failure and decide whether it should fail the run")
+    ai.add_argument("--error", default="", help="The failing step's message")
+    ai.add_argument("--status", type=int, default=None, help="HTTP status, if known")
+    ai.set_defaults(func=cmd_ai_status)
 
     fv = sub.add_parser("fiverr", help="Inspect the Fiverr gig kit; mark a gig ready to publish")
     fv.add_argument("action", choices=["check", "ready"])

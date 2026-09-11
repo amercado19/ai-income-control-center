@@ -65,12 +65,40 @@ jobs:
 
       - name: Run pipeline step(s)
         id: pipeline
+        continue-on-error: true
         run: |
-          set -e
-          printf '%s\n' "${{ inputs.steps }}" | while IFS= read -r line; do
+          # `pipefail` is load-bearing, not decoration: each step is piped into `tee` to capture
+          # its output for the classifier below, and without pipefail the pipeline reports tee's
+          # exit status. Every failing step would be reported as a success.
+          set -o pipefail
+          : > "$RUNNER_TEMP/step.log"
+          # Steps go through a file rather than a pipe into `while`. A piped loop runs in a
+          # subshell, so an exit code recorded inside it is discarded when the subshell ends -
+          # every failure would be reported as success.
+          printf '%s\n' "${{ inputs.steps }}" > "$RUNNER_TEMP/steps.txt"
+          rc=0
+          while IFS= read -r line; do
             [ -z "$line" ] && continue
-            echo "::group::$line"; eval "$line"; echo "::endgroup::"
-          done
+            echo "::group::$line"
+            if ! eval "$line" 2>&1 | tee -a "$RUNNER_TEMP/step.log"; then
+              rc=1
+              echo "::endgroup::"
+              echo "::warning title=Step failed::$line"
+              break
+            fi
+            echo "::endgroup::"
+          done < "$RUNNER_TEMP/steps.txt"
+          exit $rc
+
+      # An exhausted Claude subscription window is not a broken pipeline. It looks identical to
+      # one in a red badge, and treating them the same teaches the owner to ignore red badges -
+      # so the failure is classified before it is allowed to fail the run. A usage window pauses
+      # and says when to come back; a revoked token still fails, loudly, because only a person
+      # can fix it. Deliberately never falls back to a paid API key: see src/aicc/degradation.py.
+      - name: Classify an AI failure before failing the run
+        if: ${{ steps.pipeline.outcome == 'failure' }}
+        run: |
+          python -m aicc ai-status --error "$(tail -c 4000 "$RUNNER_TEMP/step.log" 2>/dev/null)"
 
       - name: Build and verify the dashboard
         id: build

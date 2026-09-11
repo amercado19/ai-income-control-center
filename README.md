@@ -1,11 +1,28 @@
 # AI Income Control Center
 
-A compliant, zero-cash-cost operations system for an AI-assisted freelance business: it discovers
-opportunities from sources that permit it, scores them transparently, drafts specific proposals,
-runs won work through a worker/reviewer pipeline with real QA, and tells you exactly what needs
-your attention.
+A compliant, zero-cash-cost operations system for an AI-assisted freelance business: it watches
+sources that permit it, scores what it finds transparently, drafts specific proposals, runs won
+work through a worker/reviewer pipeline with real QA, and tells you exactly what needs your
+attention.
 
 **Additional monthly cost: $0.00.**
+
+### What it is honestly for
+
+Two halves, and they are not equally productive:
+
+* **Inbound — the Fiverr storefront.** Fiverr has no discovery surface at all, so the work is
+  front-loaded into four validated gigs and buyers come to you. This is the half that makes money.
+  See `FIVERR LAUNCH CENTER` in the dashboard.
+* **Outbound — a contract-role watcher.** The free, permitted sources are *job boards*, not
+  project marketplaces, and what they contain is ongoing roles rather than discrete gigs.
+
+That second sentence is measured, not assumed. `scripts/market_reality_check.py` sampled 417 live
+Freelancer.com projects in these categories: 78 bidders on the median $250 job, and exactly one
+listing survived the full funnel - a crypto fraud product the risk scoring rejects. See **D13** in
+`DECISIONS.md`. Re-run the script before believing it; that is what it is for.
+
+So a scan returning zero STRONG matches is usually the market, not a broken threshold.
 
 ---
 
@@ -30,6 +47,8 @@ A system that lies about what it can do is worse than no system, because you act
 | **Contra** | Via Contra's MCP, interactive | Drafted | You confirm | You send |
 | **Upwork** | Via Upwork's MCP, interactive | Drafted | **You confirm — costs Connects** | You send |
 | **Fiverr** | **Nothing to scan** | n/a | n/a | You send |
+| **Freelancer.com** | Automatic, filtered hard | Drafted | You send | You send |
+| **Python.org Jobs** | Automatic | Drafted | You send | You send |
 
 Upwork, Contra and Fiverr are not automated because **they do not permit it**, not because the
 code is unfinished. `docs/MARKETPLACE_RULES.md` quotes the governing rule for each.
@@ -58,6 +77,9 @@ python -m aicc build --out site && open site/index.html
 ```bash
 python -m aicc start                     # START BUSINESS
 python -m aicc discover --limit 50       # scan permitted sources
+python -m aicc fiverr check               # validate the gig kit against Fiverr's limits
+python3 scripts/market_reality_check.py   # re-measure whether the open market is winnable
+python3 scripts/browser_test.py           # drive the built dashboard in a real browser
 python -m aicc top --limit 10            # ranked, with full score reasoning
 python -m aicc draft --min-score 65      # draft proposals (nothing is sent)
 python -m aicc approve <proposal_id>     # approve one
