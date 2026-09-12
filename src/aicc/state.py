@@ -142,6 +142,9 @@ class SystemState:
     emergency_stop_reason: str = ""
 
     automations: dict[str, dict[str, Any]] = field(default_factory=dict)
+    automations_disabled_by_stop: list[str] = field(default_factory=list)
+    """Which automations the last emergency stop switched off, so `resume` can restore those and
+    only those. Empty at rest; an emergency stop fills it and a resume clears it."""
     capabilities: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     started_at: str = ""
@@ -251,59 +254,90 @@ class SystemState:
 # ---------------------------------------------------------------------------
 
 
-def start(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
+def start(actor: Actor = Actor.ANDRES, source: str = "") -> tuple[bool, str]:
     st = SystemState.load()
     if st.run_state == RunState.EMERGENCY_STOP.value:
         msg = "Refused: emergency stop is engaged. Resume explicitly first."
-        audit.record("start_refused", actor=actor, object_type="system", result="refused", error=msg)
+        audit.record("start_refused", actor=actor, source=source, object_type="system", result="refused", error=msg)
         return False, msg
     if st.mode == "LIVE" and not st.live_mode_acknowledged:
         msg = "Refused: LIVE mode requires the safety checklist acknowledgement."
-        audit.record("start_refused", actor=actor, object_type="system", result="refused", error=msg)
+        audit.record("start_refused", actor=actor, source=source, object_type="system", result="refused", error=msg)
         return False, msg
     before = st.run_state
     st.run_state = RunState.ACTIVE.value
     st.started_at = utcnow()
     st.save()
-    audit.record("system_started", actor=actor, object_type="system", before=before, after=st.run_state)
+    audit.record("system_started", actor=actor, source=source, object_type="system", before=before, after=st.run_state)
     return True, "SYSTEM ACTIVE"
 
 
-def pause(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
+def pause(actor: Actor = Actor.ANDRES, source: str = "") -> tuple[bool, str]:
     st = SystemState.load()
     if st.run_state == RunState.EMERGENCY_STOP.value:
         return False, "Emergency stop already engaged."
     before = st.run_state
     st.run_state = RunState.PAUSED.value
     st.save()
-    audit.record("system_paused", actor=actor, object_type="system", before=before, after=st.run_state)
+    audit.record("system_paused", actor=actor, source=source, object_type="system", before=before, after=st.run_state)
     return True, "SYSTEM PAUSED"
 
 
-def resume(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
+def resume(actor: Actor = Actor.ANDRES, source: str = "") -> tuple[bool, str]:
+    """Undo a pause or an emergency stop - including what the stop switched off.
+
+    The bug this exists for was found on the live system, by pressing the button and then reading
+    the state file. It reported ACTIVE with all eight automations disabled, and had done for some
+    time: an earlier emergency stop had switched them off, and `resume` set `run_state` back to
+    ACTIVE without touching them. Nothing was scheduled to run. The dashboard said ACTIVE - LIVE.
+
+    A resume that resumes nothing is worse than one that fails, because a failure is visible. So
+    the stop now records which automations it disabled, and the resume restores exactly those -
+    not a blanket "switch everything on", which would silently re-enable something Andres had
+    turned off deliberately months earlier.
+    """
     st = SystemState.load()
     before = st.run_state
+    restored: list[str] = []
     if st.run_state == RunState.EMERGENCY_STOP.value:
         st.emergency_stop_reason = ""
+        for key in st.automations_disabled_by_stop:
+            if key in st.automations:
+                st.automations[key]["enabled"] = True
+                restored.append(key)
+        st.automations_disabled_by_stop = []
     st.run_state = RunState.ACTIVE.value
     st.save()
-    audit.record("system_resumed", actor=actor, object_type="system", before=before, after=st.run_state)
+    audit.record(
+        "system_resumed",
+        actor=actor,
+        source=source,
+        object_type="system",
+        before=before,
+        after={"run_state": st.run_state, "automations_restored": restored},
+    )
+    if restored:
+        return True, f"SYSTEM ACTIVE - {len(restored)} automation(s) re-enabled: {', '.join(restored)}"
     return True, "SYSTEM ACTIVE"
 
 
-def emergency_stop(reason: str = "", actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
+def emergency_stop(reason: str = "", actor: Actor = Actor.ANDRES, source: str = "") -> tuple[bool, str]:
     """Disables every external action immediately. Always succeeds - a stop must never fail."""
     st = SystemState.load()
     before = st.run_state
     st.run_state = RunState.EMERGENCY_STOP.value
     st.emergency_stop_reason = reason or "Engaged manually."
     st.stopped_at = utcnow()
+    # Remembered so `resume` can put back exactly what this switched off, and nothing else. An
+    # automation Andres had already disabled must stay disabled through a stop and a resume.
+    st.automations_disabled_by_stop = [k for k, a in st.automations.items() if a.get("enabled")]
     for key in st.automations:
         st.automations[key]["enabled"] = False
     st.save()
     audit.record(
         "emergency_stop",
         actor=actor,
+        source=source,
         object_type="system",
         before=before,
         after=st.run_state,
@@ -312,13 +346,13 @@ def emergency_stop(reason: str = "", actor: Actor = Actor.ANDRES) -> tuple[bool,
     return True, "EMERGENCY STOP ENGAGED - all external actions disabled"
 
 
-def stop(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
+def stop(actor: Actor = Actor.ANDRES, source: str = "") -> tuple[bool, str]:
     st = SystemState.load()
     before = st.run_state
     st.run_state = RunState.OFF.value
     st.stopped_at = utcnow()
     st.save()
-    audit.record("system_stopped", actor=actor, object_type="system", before=before, after=st.run_state)
+    audit.record("system_stopped", actor=actor, source=source, object_type="system", before=before, after=st.run_state)
     return True, "SYSTEM OFF"
 
 

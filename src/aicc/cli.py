@@ -190,7 +190,7 @@ def cmd_mark_submitted(args: argparse.Namespace) -> int:
 
 
 def cmd_start(_: argparse.Namespace) -> int:
-    ok, msg = state.start()
+    ok, msg = state.start(Actor(_actor()), source=_actor_source())
     _print(msg)
     if ok:
         _print("")
@@ -200,22 +200,47 @@ def cmd_start(_: argparse.Namespace) -> int:
 
 
 def cmd_stop(_: argparse.Namespace) -> int:
-    _print(state.stop()[1])
+    _print(state.stop(Actor(_actor()), source=_actor_source())[1])
     return 0
 
 
 def cmd_pause(_: argparse.Namespace) -> int:
-    _print(state.pause()[1])
+    _print(state.pause(Actor(_actor()), source=_actor_source())[1])
     return 0
 
 
 def cmd_resume(_: argparse.Namespace) -> int:
-    _print(state.resume()[1])
+    _print(state.resume(Actor(_actor()), source=_actor_source())[1])
     return 0
 
 
 def cmd_emergency_stop(args: argparse.Namespace) -> int:
-    _print(state.emergency_stop(args.reason)[1])
+    _print(state.emergency_stop(args.reason, Actor(_actor()), source=_actor_source())[1])
+    return 0
+
+
+def cmd_rearm(_: argparse.Namespace) -> int:
+    """Switch every automation back on.
+
+    `resume` restores what the last emergency stop disabled, which handles the normal case. This
+    is for the state that had no way out at all: the live system was found reporting ACTIVE with
+    all eight automations off, disabled by a stop that predated the record of what it disabled.
+    Nothing could re-enable them - there was no command, and resume had nothing to restore from.
+
+    A control that can only be turned off is half a control, so this is the other half.
+    """
+    actor = Actor(_actor())
+    st = state.SystemState.load()
+    already = [k for k, a in st.automations.items() if a.get("enabled")]
+    turned_on = [k for k in st.automations if k not in already]
+    for key in turned_on:
+        state.set_automation(key, True, actor)
+    if turned_on:
+        _print(f"Re-armed {len(turned_on)} automation(s): {', '.join(turned_on)}")
+    if already:
+        _print(f"Already on: {', '.join(already)}")
+    status, light = health.overall_status()
+    _print(f"\nSYSTEM: {light} {status}")
     return 0
 
 
@@ -326,10 +351,11 @@ def _actor() -> str:
     also not CI, and every selftest it ran went on being signed with his name. The fallback was
     the bug, not the CI branch.
 
-    So ANDRES now requires positive evidence, and there are only two kinds: something declared it
-    (`AICC_ACTOR`), or the command is attached to an interactive terminal, which a person typing
-    has and no headless caller does. Everything else is SYSTEM - an honest "some automation",
-    which is recoverable, where a wrong name is not.
+    So ANDRES now requires positive evidence, and there are three kinds: something declared it
+    (`AICC_ACTOR`), the command is attached to an interactive terminal, which a person typing has
+    and no headless caller does, or GitHub itself authenticated the repository owner dispatching a
+    workflow. Everything else is SYSTEM - an honest "some automation", which is recoverable, where
+    a wrong name is not.
     """
     import os
     import sys
@@ -339,6 +365,13 @@ def _actor() -> str:
         try:
             return Actor(declared).value
         except ValueError:
+            # A GitHub handle is not an Actor name, but GitHub authenticated it. When the handle
+            # is the repository owner's, a person with the owner's credentials pressed the button,
+            # and that is the strongest evidence of Andres this system can obtain remotely.
+            # `_actor_source` records how, so the log never implies a terminal that did not exist.
+            owner = (os.environ.get("GITHUB_REPOSITORY_OWNER") or "").strip().lower()
+            if owner and declared.lower() == owner:
+                return Actor.ANDRES.value
             return Actor.SYSTEM.value
     if os.environ.get("GITHUB_ACTIONS") == "true":
         return Actor.GITHUB_ACTIONS.value
@@ -347,6 +380,31 @@ def _actor() -> str:
     except (AttributeError, ValueError):  # a closed or replaced stream is not a keyboard
         at_a_keyboard = False
     return Actor.ANDRES.value if at_a_keyboard else Actor.SYSTEM.value
+
+
+def _actor_source() -> str:
+    """How the actor above was established, for the audit log's ``source`` field.
+
+    "ANDRES" alone reads as a person at a keyboard. A workflow dispatch authenticated by his
+    GitHub account is also genuinely him authorising the action - but it is a different fact, and
+    the difference matters when reading the log back months later. So the log records both: who,
+    and on what evidence.
+    """
+    import os
+    import sys
+
+    declared = (os.environ.get("AICC_ACTOR") or "").strip()
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        run = os.environ.get("GITHUB_RUN_ID") or "?"
+        return f"github dispatch by {declared or 'unknown'} (run {run})"
+    if declared:
+        return f"declared AICC_ACTOR={declared}"
+    try:
+        if sys.stdin.isatty() and sys.stdout.isatty():
+            return "interactive terminal"
+    except (AttributeError, ValueError):
+        pass
+    return "headless caller, no declaration"
 
 
 def cmd_clear_demo(_: argparse.Namespace) -> int:
@@ -702,6 +760,9 @@ def build_parser() -> argparse.ArgumentParser:
     es = sub.add_parser("emergency-stop", help="Disable all external actions immediately")
     es.add_argument("--reason", default="")
     es.set_defaults(func=cmd_emergency_stop)
+
+    rearm = sub.add_parser("re-arm", help="Switch every automation back on after a stop left them off")
+    rearm.set_defaults(func=cmd_rearm)
 
     au = sub.add_parser("audit")
     au.add_argument("--limit", type=int, default=40)

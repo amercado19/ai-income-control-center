@@ -330,6 +330,18 @@ def overall_status() -> tuple[str, str]:
     if st.run_state in (RunState.OFF.value, RunState.PAUSED.value):
         return "STOPPED" if st.run_state == RunState.OFF.value else "LIMITED", ("RED" if st.run_state == RunState.OFF.value else "YELLOW")
 
+    # ACTIVE with nothing switched on is not running, whatever the run_state says.
+    #
+    # Found on the live system: it reported ACTIVE - LIVE with all eight automations disabled,
+    # because an earlier emergency stop had switched them off and `resume` never put them back.
+    # Nothing was scheduled, nothing would ever run, and the status bar was green about it.
+    #
+    # `resume` now restores them, which fixes that path. This check is the structural guarantee
+    # underneath: however the automations came to be off - a stop, a manual toggle, a future bug -
+    # the status must not claim the system is running when nothing can.
+    if st.automations and not any(a.get("enabled") for a in st.automations.values()):
+        return "IDLE - NOTHING ENABLED", "YELLOW"
+
     caps = [Capability(**{k: v for k, v in c.items() if k != "light"}) for c in st.capabilities.values()]
     if any(c.health == Health.DOWN.value for c in caps):
         return "LIMITED", "YELLOW"
