@@ -278,3 +278,23 @@ def test_this_repository_interpolates_nothing_into_a_shell() -> None:
     for wf in sorted((root / ".github" / "workflows").glob("*.yml")):
         problems += mod._interpolation_problems(wf.name, wf.read_text(encoding="utf-8"))
     assert not problems, problems
+
+
+def test_a_dispatch_only_workflow_is_not_counted_as_push_triggered() -> None:
+    """It runs when a person presses a button and never otherwise. Counting it as 40 pushes a
+    month overstates the budget - safe - but also prints 'on push / PR' next to a workflow with
+    no push trigger, and a report that is wrong about WHY a number is what it is teaches the
+    reader to distrust the numbers too."""
+    mod = _budget_module()
+    dispatch_only = "name: X\non:\n  workflow_dispatch:\n    inputs:\n      task:\n        required: true\njobs:\n  a:\n    steps: []\n"
+    assert mod._dispatch_only(dispatch_only)
+
+    pushes = "name: X\non:\n  push:\n    branches: [main]\n  workflow_dispatch: {}\njobs:\n  a:\n    steps: []\n"
+    assert not mod._dispatch_only(pushes)
+
+
+def test_the_claude_worker_costs_nothing_until_someone_runs_it() -> None:
+    mod = _budget_module()
+    claude = next((w for w in mod.read_workflows() if "claude" in w.name.lower()), None)
+    assert claude is not None, "The Claude worker workflow is missing from the budget."
+    assert claude.runs_per_month == 0.0, "A dispatch-only workflow has no scheduled runs."

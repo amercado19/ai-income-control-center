@@ -13,7 +13,7 @@ import pytest
 from aicc import fiverr_kit as fk
 from aicc.config import PROFILE
 
-ALL = fk.all_gigs()
+ALL = list(fk.GIGS)  # source definitions, before any persisted status overlay
 
 
 # ------------------------------------------------------------------ platform limits
@@ -161,7 +161,13 @@ def test_summary_reports_commission_adjusted_totals() -> None:
 
 @pytest.mark.parametrize("gig", ALL, ids=lambda g: g.key)
 def test_no_gig_starts_published(gig: fk.Gig) -> None:
-    """Spec: 'Do NOT publish gigs without my approval.' DRAFT is the only legal initial state."""
+    """Spec: 'Do NOT publish gigs without my approval.'
+
+    DRAFT is the only legal state in SOURCE. READY_TO_PUBLISH is legitimate operational state
+    that `aicc fiverr ready` sets after validation - it means "checked and queued for Andres",
+    not "live". PUBLISHED is the one value nothing in this system may ever write, because only
+    a person sitting at fiverr.com can make that true.
+    """
     assert gig.status == "DRAFT"
 
 
@@ -312,3 +318,100 @@ def test_every_gig_has_an_image_renderer() -> None:
     registered = set(re.findall(r'"([a-z_]+)":', block.group(1)))
     missing = {g.key for g in ALL} - registered
     assert not missing, f"No image renderer for {sorted(missing)} - those gigs would publish without one."
+
+
+def test_nothing_in_this_system_can_mark_a_gig_published() -> None:
+    """The state that would be a lie if the system set it. Only fiverr.com makes a gig live."""
+    import inspect
+
+    source = inspect.getsource(fk)
+    assert '"PUBLISHED"' not in source.replace("# DRAFT | READY_TO_PUBLISH | PUBLISHED", ""), (
+        "Something in fiverr_kit assigns PUBLISHED. Only a person at fiverr.com can make that true."
+    )
+    for gig in fk.all_gigs():
+        assert gig.status != "PUBLISHED"
+
+
+# ------------------------------------------------- the launch wizard (amendment: priority 16)
+
+
+def test_every_irreversible_field_is_flagged_before_it_locks() -> None:
+    """Category and the title-derived URL lock permanently on save. A gig in the wrong category
+    is invisible, and the only remedy costs one of four new-seller slots. Surfacing those fields
+    late is the same as not surfacing them."""
+    from aicc import fiverr_wizard
+
+    plan = fiverr_wizard.plan()
+    assert plan["irreversible_count"] >= 8, plan["irreversible_count"]
+    for gig in plan["gigs"]:
+        labels = {f["label"] for f in gig["locked_fields"]}
+        assert any("Category" in lbl for lbl in labels), gig["key"]
+        assert any("title" in lbl.lower() for lbl in labels), gig["key"]
+        # The first step a person sees must be the one carrying the locks.
+        assert gig["steps"][0]["irreversible"], gig["key"]
+
+
+def test_the_wizard_covers_exactly_the_four_slots_and_never_the_bench() -> None:
+    from aicc import fiverr_kit, fiverr_wizard
+
+    plan = fiverr_wizard.plan()
+    assert len(plan["gigs"]) == fiverr_kit.NEW_SELLER_GIG_SLOTS
+    bench_keys = {g.key for g in fiverr_kit.all_gigs() if g.bench}
+    assert not ({g["key"] for g in plan["gigs"]} & bench_keys)
+    assert plan["bench"], "The fifth candidate should still be described as bench."
+
+
+def test_the_publish_order_is_justified_not_arbitrary() -> None:
+    from aicc import fiverr_wizard
+
+    for gig in fiverr_wizard.plan()["gigs"]:
+        assert gig["why_this_order"], gig["key"]
+        assert len(gig["why_this_order"]) > 40, gig["why_this_order"]
+
+
+def test_the_wizard_says_plainly_that_publishing_is_a_human_step() -> None:
+    from aicc import fiverr_wizard
+
+    plan = fiverr_wizard.plan()
+    assert plan["human_required"] is True
+    assert "no seller API" in plan["human_required_reason"]
+
+
+def test_every_step_carries_an_instruction_or_at_least_one_field() -> None:
+    from aicc import fiverr_wizard
+
+    for gig in fiverr_wizard.plan()["gigs"]:
+        for step in gig["steps"]:
+            assert step["fields"] or step["instruction"], (gig["key"], step["title"])
+
+
+# ------------------------------------------------- status is persisted, not only audited
+
+
+def test_marking_a_gig_ready_survives_into_what_the_dashboard_reads() -> None:
+    """An earlier version wrote an audit event and nothing else, so the dashboard went on
+    reporting DRAFT for a gig that had been marked ready. The log knew; the screen did not."""
+    from aicc import fiverr_kit
+
+    ok, msg = fiverr_kit.mark_ready("data_engineering", actor="CLAUDE")
+    assert ok, msg
+    gig = next(g for g in fiverr_kit.all_gigs() if g.key == "data_engineering")
+    assert gig.status == "READY_TO_PUBLISH"
+    assert fiverr_kit.summary()["ready_to_publish"] >= 1
+
+
+def test_marking_ready_records_who_actually_did_it() -> None:
+    from aicc import audit, fiverr_kit
+
+    fiverr_kit.mark_ready("financial_model", actor="CLAUDE")
+    events = [e for e in audit.read_all(50) if e.action == "fiverr.mark_ready"]
+    assert events
+    assert events[0].actor == "CLAUDE"
+
+
+def test_an_invalid_gig_cannot_be_marked_ready() -> None:
+    from aicc import fiverr_kit
+
+    ok, msg = fiverr_kit.mark_ready("no_such_gig", actor="CLAUDE")
+    assert not ok
+    assert "No gig with key" in msg

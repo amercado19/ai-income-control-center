@@ -380,14 +380,32 @@ def test_an_approval_card_says_what_it_is_asking_about() -> None:
     opportunity, no score, and no way to read what would be sent. On a phone that is a one-click
     approval for something unread - the same fake autonomy this system refuses everywhere else,
     pointed the other way."""
+    from aicc import proposals as proposals_mod
     from aicc import storage
+    from aicc.connectors.base import make_opportunity
     from aicc.dashboard.build import _attention
+    from aicc.scoring import score_opportunity
 
-    props = [p for p in storage.proposals.all() if p.status == "AWAITING_APPROVAL"]
-    if not props:
-        import pytest as _pytest
-
-        _pytest.skip("no proposals awaiting approval in the current store")
+    # Seeded rather than read from the live store. An earlier version of this test skipped
+    # whenever the store happened to hold no pending proposal, which meant the assertion it
+    # exists to make - that an approval card is readable before it is approved - silently
+    # stopped running exactly when the store was empty. A skipped check is not a passing check.
+    opp = make_opportunity(
+        source="hackernews",
+        title="Acme Analytics - consolidate 40 monthly CSV exports into one reporting workbook",
+        description=(
+            "Freelance project. We have roughly forty monthly CSV exports with inconsistent "
+            "headers and date formats. We need them consolidated into a single Excel workbook "
+            "with a summary sheet. Python preferred. Fixed price, one-time project."
+        ),
+        skills=["python", "pandas", "excel"],
+        budget_min=600,
+        budget_max=900,
+    )
+    score_opportunity(opp)
+    storage.opportunities.put(opp)
+    proposal = proposals_mod.generate(opp)
+    storage.proposals.put(proposal)
 
     cards = [c for c in _attention(storage.jobs.all(), storage.proposals.all()) if c.get("body")]
     assert cards, "No approval card carried the proposal body."
@@ -398,19 +416,37 @@ def test_an_approval_card_says_what_it_is_asking_about() -> None:
 
 
 def test_a_partial_fit_is_flagged_on_the_card_where_the_decision_is_made() -> None:
+    """A listing Andres only partly fits must say so on the card, not only in the score.
+
+    Seeded, for the same reason as the test above: this previously keyed on one specific live
+    listing by name, so it stopped running the moment that listing aged out of the store - which
+    is precisely when a silent regression would have gone unnoticed.
+    """
+    from aicc import proposals as proposals_mod
     from aicc import scoring, storage
+    from aicc.connectors.base import make_opportunity
     from aicc.dashboard.build import _attention
 
-    noricum = next((o for o in storage.opportunities.all() if "Noricum" in o.title), None)
-    if noricum is None:
-        import pytest as _pytest
+    opp = make_opportunity(
+        source="hackernews",
+        title="Noricum Data - contract engineer for a payments ledger",
+        description=(
+            "Contract, project-based. Python and SQL. Must have shipped: a double-entry ledger "
+            "or equivalent money system in production, and a payment integration including "
+            "webhook idempotency. Kubernetes experience required."
+        ),
+        skills=["python", "sql"],
+        budget_min=4000,
+        budget_max=6000,
+    )
+    scoring.score_opportunity(opp)
+    storage.opportunities.put(opp)
+    storage.proposals.put(proposals_mod.generate(opp))
 
-        _pytest.skip("the Noricum listing is not in the current store")
-    scoring.score_opportunity(noricum)
     cards = _attention(storage.jobs.all(), storage.proposals.all())
     match = [c for c in cards if "Noricum" in c["title"]]
-    if match:
-        assert match[0]["caveat"], "A known requirements gap must be visible at the point of approval."
+    assert match, "The seeded proposal did not produce an approval card."
+    assert match[0]["caveat"], "A known requirements gap must be visible at the point of approval."
 
 
 def test_requirement_phrases_are_tidy_wherever_a_human_reads_them() -> None:

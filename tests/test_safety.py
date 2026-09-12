@@ -725,3 +725,227 @@ def test_the_profile_records_the_pslf_constraint_itself() -> None:
 
     assert PROFILE.pslf_qualifying_employment_required is True
     assert PROFILE.pslf_years_remaining >= 1
+
+
+# ------------------------------------------------- emergency stop scope (amendment 14)
+
+
+def test_emergency_stop_halts_every_kind_of_new_work() -> None:
+    from dataclasses import replace
+
+    from aicc.state import HALTED_BY_EMERGENCY_STOP, RunState, SystemState
+
+    stopped = replace(SystemState.load(), run_state=RunState.EMERGENCY_STOP.value, emergency_stop_reason="probe")
+    for activity in sorted(HALTED_BY_EMERGENCY_STOP):
+        allowed, why = stopped.activity_allowed(activity)
+        assert not allowed, f"{activity} still ran under emergency stop."
+        assert "EMERGENCY STOP" in why
+
+
+def test_emergency_stop_never_disables_its_own_oversight() -> None:
+    """A stop that silenced the audit log would destroy the record of why it was pressed."""
+    from dataclasses import replace
+
+    from aicc.state import NEVER_HALTED, RunState, SystemState
+
+    stopped = replace(SystemState.load(), run_state=RunState.EMERGENCY_STOP.value, emergency_stop_reason="probe")
+    for control in sorted(NEVER_HALTED):
+        allowed, _ = stopped.activity_allowed(control)
+        assert allowed, f"{control} was disabled by the stop button. Safety controls are not work."
+
+
+def test_the_two_lists_do_not_overlap() -> None:
+    from aicc.state import HALTED_BY_EMERGENCY_STOP, NEVER_HALTED
+
+    assert not (HALTED_BY_EMERGENCY_STOP & NEVER_HALTED)
+
+
+def test_an_unclassified_activity_is_treated_as_work_not_as_oversight() -> None:
+    from dataclasses import replace
+
+    from aicc.state import RunState, SystemState
+
+    stopped = replace(SystemState.load(), run_state=RunState.EMERGENCY_STOP.value)
+    allowed, _ = stopped.activity_allowed("something_nobody_classified")
+    assert not allowed, "An unknown activity must fail safe, not run."
+
+
+def test_emergency_stop_deletes_nothing_and_says_so() -> None:
+    from dataclasses import replace
+
+    from aicc.state import RunState, SystemState
+
+    stopped = replace(SystemState.load(), run_state=RunState.EMERGENCY_STOP.value, emergency_stop_reason="probe")
+    scope = stopped.emergency_stop_scope()
+    assert scope["engaged"] is True
+    assert scope["deletes_nothing"] is True
+    assert scope["halts"] and scope["never_halts"]
+    assert "audit_log" in scope["never_halts"]
+
+
+def test_a_paused_system_still_runs_its_safety_controls() -> None:
+    from dataclasses import replace
+
+    from aicc.state import RunState, SystemState
+
+    paused = replace(SystemState.load(), run_state=RunState.PAUSED.value)
+    assert paused.activity_allowed("audit_log")[0]
+    assert not paused.activity_allowed("opportunity_scan")[0]
+
+
+# ------------------------------------------------- the live gate reads three states, not two
+
+
+def test_an_unverifiable_checklist_item_does_not_block_live_mode(monkeypatch) -> None:
+    """The original filter was `if not c["passing"]`, which treats None as False - so live mode
+    was permanently blocked on a question the system can never answer (who last edited a cron
+    schedule on GitHub). A gate that can never open is not a safety feature."""
+    from aicc import health, state
+    from aicc.models import Actor
+
+    monkeypatch.setattr(
+        health,
+        "live_mode_checklist",
+        lambda: [
+            {"name": "a real check", "passing": True, "detail": "ok"},
+            {"name": "cannot be verified from here", "passing": None, "detail": "not verifiable"},
+        ],
+    )
+    ok, msg = state.acknowledge_live_mode(actor=Actor.CLAUDE)
+    assert ok, msg
+    assert "cannot be verified from here" in msg, "The unverifiable item must still be surfaced."
+
+
+def test_a_genuinely_failing_item_still_blocks_live_mode(monkeypatch) -> None:
+    from aicc import health, state
+    from aicc.models import Actor
+
+    monkeypatch.setattr(
+        health,
+        "live_mode_checklist",
+        lambda: [{"name": "demo data cleared", "passing": False, "detail": "synthetic rows present"}],
+    )
+    ok, msg = state.acknowledge_live_mode(actor=Actor.CLAUDE)
+    assert not ok
+    assert "demo data cleared" in msg
+
+
+def test_live_mode_records_who_actually_enabled_it(monkeypatch) -> None:
+    """An AI action recorded under Andres's name is a false statement about who did what, and
+    the audit log is where that would be least recoverable."""
+    from aicc import audit, health, state
+    from aicc.models import Actor
+
+    monkeypatch.setattr(health, "live_mode_checklist", lambda: [{"name": "ok", "passing": True, "detail": ""}])
+    state.acknowledge_live_mode(actor=Actor.CLAUDE)
+    events = [e for e in audit.read_all(50) if e.action == "live_mode_enabled"]
+    assert events, "No audit event was written."
+    assert events[0].actor == Actor.CLAUDE.value
+
+
+def test_the_cli_records_who_actually_ran_it(monkeypatch) -> None:
+    """The CLI used to assume ANDRES whenever it was not CI. That stopped being true the moment
+    the system started driving its own CLI, and every run the system made was then written into
+    the audit log under his name."""
+    from aicc.cli import _actor
+    from aicc.models import Actor
+
+    monkeypatch.delenv("AICC_ACTOR", raising=False)
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    assert _actor() == Actor.ANDRES.value, "A person at a terminal is still the default."
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    assert _actor() == Actor.GITHUB_ACTIONS.value
+
+    monkeypatch.setenv("AICC_ACTOR", "CLAUDE")
+    assert _actor() == Actor.CLAUDE.value, "A declared actor wins over the environment guess."
+
+    monkeypatch.setenv("AICC_ACTOR", "not-a-real-actor")
+    assert _actor() == Actor.SYSTEM.value, "An unrecognised actor must not silently become ANDRES."
+
+
+# ------------------------------------------------- the AI worker light must mean something
+
+
+def test_a_token_alone_does_not_turn_the_ai_worker_light_green(monkeypatch) -> None:
+    """The bug this exists for: the probe reported HEALTHY whenever the token was set, while
+    `execute` raised in every environment and the pipeline silently fell back to the rule-based
+    worker. The dashboard showed a green AI Worker light over a pipeline where no AI had ever
+    run, and would have gone on showing it forever."""
+    from aicc import health
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: None))
+
+    cap = health.probe_ai_worker()
+    assert cap.health != Health.HEALTHY.value, "Green with no executor is a config flag, not a probe."
+    assert cap.health == Health.DEGRADED.value
+    assert "not operational" in cap.blocking_reason
+
+
+def test_the_light_is_green_only_when_something_can_actually_run(monkeypatch) -> None:
+    from aicc import health
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    assert health.probe_ai_worker().health == Health.HEALTHY.value
+
+
+def test_the_selected_worker_is_one_that_can_actually_execute(monkeypatch) -> None:
+    """`select_worker` must not hand back a worker that will immediately hand off again."""
+    from aicc.fulfillment.worker import ClaudeWorker, RuleBasedWorker, select_worker
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(ClaudeWorker, "_executor", classmethod(lambda cls: None))
+    chosen, why = select_worker()
+    assert chosen is RuleBasedWorker
+    assert "not on PATH" in why
+
+
+def test_a_paid_key_alone_never_makes_the_ai_worker_available(monkeypatch) -> None:
+    from aicc.fulfillment.worker import ClaudeWorker
+
+    monkeypatch.delenv("CLAUDE_CODE_OAUTH_TOKEN", raising=False)
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-not-real")
+    ok, why = ClaudeWorker.available()
+    assert not ok
+    assert "zero-cost" in why
+
+
+def test_the_ai_worker_never_reports_success_having_produced_nothing(monkeypatch, tmp_path) -> None:
+    """Reporting success with no files is the fake autonomy this system exists to avoid."""
+    import subprocess
+
+    from aicc.fulfillment.worker import ClaudeWorker
+    from aicc.models import Job
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    monkeypatch.setattr(subprocess, "run", lambda *a, **k: subprocess.CompletedProcess(a, 0, "did nothing", ""))
+    job = Job(title="x", requirements=["y"], acceptance_criteria=["z"])
+    try:
+        ClaudeWorker.execute(job)
+    except RuntimeError as exc:
+        assert "wrote no files" in str(exc)
+    else:
+        raise AssertionError("Producing nothing was reported as success.")
+
+
+def test_the_brief_is_written_where_it_can_be_reviewed_next_to_the_output(monkeypatch) -> None:
+    from aicc.fulfillment.worker import ClaudeWorker, workspace_for
+    from aicc.models import Job
+
+    job = Job(title="Consolidate CSVs", requirements=["Preserve every row"], acceptance_criteria=["Row counts match"])
+    ws = workspace_for(job)
+    brief = ClaudeWorker.brief(job, ws, 1)
+    text = brief.read_text(encoding="utf-8")
+    assert brief.parent == ws
+    assert "Preserve every row" in text
+    assert "Row counts match" in text
+    assert "Do not invent facts" in text
+    assert "NEEDS_ANDRES.md" in text
