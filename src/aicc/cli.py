@@ -600,6 +600,41 @@ def cmd_compliance(args: argparse.Namespace) -> int:
     return 1
 
 
+def cmd_worker_proof(args: argparse.Namespace) -> int:
+    """Prove the Claude worker runs, through the path real client work uses.
+
+    Exits non-zero on failure so a workflow fails loudly rather than printing a sad paragraph
+    and going green.
+    """
+    from . import worker_proof
+
+    report = worker_proof.run_all(include_pipeline=not args.worker_only)
+    if args.json:
+        _print(json.dumps(report, indent=2))
+    else:
+        _print(worker_proof.format_report(report))
+    if args.out:
+        from pathlib import Path
+
+        worker_proof.write_report(report, Path(args.out))
+        _print(f"\nReport written to {args.out}")
+    if args.summary and os.environ.get("GITHUB_STEP_SUMMARY"):
+        env = report["environment"]
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+            fh.write(f"## Claude worker proof: {report['worker_test_status']}\n\n")
+            fh.write("| Field | Value |\n|---|---|\n")
+            fh.write(f"| Worker test status | **{report['worker_test_status']}** |\n")
+            fh.write(f"| Workflow run id | {env['workflow_run_id'] or 'n/a'} |\n")
+            fh.write(f"| Execution environment | {env['execution_environment']} |\n")
+            fh.write(f"| Subscription auth | {env['subscription_auth']} |\n")
+            fh.write(f"| ANTHROPIC_API_KEY | {env['anthropic_api_key']} |\n")
+            fh.write("| Paid fallback | DISABLED |\n")
+            fh.write(f"| Mac required for job execution | {env['mac_required_for_job_execution']} |\n\n")
+            for r in report["results"]:
+                fh.write(f"- {'PASS' if r['passed'] else 'FAIL'} **{r['name']}** - {r['detail']}\n")
+    return 0 if report["ok"] else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="aicc", description=BRAND_NAME)
     sub = p.add_subparsers(dest="command", required=True)
@@ -691,6 +726,13 @@ def build_parser() -> argparse.ArgumentParser:
     cm = sub.add_parser("compliance", help="Probe the nine safety indicators against the live system")
     cm.add_argument("--json", action="store_true")
     cm.set_defaults(func=cmd_compliance)
+
+    wp = sub.add_parser("worker-proof", help="Prove the Claude worker runs, through the production code path")
+    wp.add_argument("--json", action="store_true")
+    wp.add_argument("--out", default="", help="Write the JSON report to this path")
+    wp.add_argument("--summary", action="store_true", help="Append a table to GITHUB_STEP_SUMMARY")
+    wp.add_argument("--worker-only", action="store_true", help="Skip the reviewer pipeline leg")
+    wp.set_defaults(func=cmd_worker_proof)
 
     fv = sub.add_parser("fiverr", help="Inspect the Fiverr gig kit; mark a gig ready to publish")
     fv.add_argument("action", choices=["check", "ready", "wizard"])
