@@ -60,13 +60,22 @@ jobs:
           python-version: "3.11"
           cache: pip
 
+      # Reports what this step actually checked, which is whether a secret exists - and nothing
+      # more. The previous wording said "AI worker: available" on secret presence alone, and it
+      # was the first line of every job summary, directly above a health panel reporting the
+      # worker as YELLOW and not operational. Both lines came from the same run. The secret can
+      # be present while the CLI is absent from this runner, or present while the credential
+      # returns 401, which is exactly what happened; the worker's real state comes from the
+      # probe, and the probe reads a recorded end-to-end proof rather than a configuration flag.
       - name: Credential state
         run: |
           if [ "$HAS_CLAUDE" != "true" ]; then
             echo "::warning title=AI worker not configured::No CLAUDE_CODE_OAUTH_TOKEN secret. The rule-based worker and reviewer will run. See docs/DEPLOYMENT.md."
-            echo "### AI worker: BLOCKED BY CREDENTIAL (CLAUDE_CODE_OAUTH_TOKEN)" >> "$GITHUB_STEP_SUMMARY"
+            echo "### AI worker credential: ABSENT (CLAUDE_CODE_OAUTH_TOKEN not set)" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "### AI worker: available (Claude subscription, \$0.00 cash)" >> "$GITHUB_STEP_SUMMARY"
+            echo "### AI worker credential: PRESENT (subscription, \$0.00 cash)" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "A credential is not a working worker. Whether it executes is reported by the AI Worker capability below, which reads the last end-to-end proof run." >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Run pipeline step(s)
