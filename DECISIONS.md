@@ -252,6 +252,124 @@ more for that than any wording could.
 
 ---
 
+## D17 — Scheduling is a knapsack, not a ranking
+
+**Decision.** `scheduler.py` solves an exact 0/1 knapsack over Claude capacity, maximising total
+expected profit, rather than sorting candidates by any single metric.
+
+**Why.** Every single-metric ranking has a failure it cannot see from inside itself. Sort by
+total price and four five-minute jobs never get done. Sort by profit-per-minute and a $500
+project loses to $60 of small work that scored a fraction higher. Both look reasonable while
+they are happening. The brief's own worked example — one $500 job at ~60 min of AI work plus four
+$15 jobs at 5 min each — has one right answer, $560, and it is a test.
+
+The properties that follow from optimising the right thing rather than adding rules:
+
+* Protecting the large job needed **no special rule**. It falls out of maximising total profit.
+* Committed work is **subtracted before optimisation**, not entered into it, which is what makes
+  "a paid deadline is not endangered by twenty small opportunities" structurally true instead of
+  a policy someone has to remember.
+* Opportunity cost is **computed** — the planner re-solves without each selected item — so
+  "displaces $202 of other work" is a number, not a claim.
+
+The problem is tiny (dozens of items against a few dozen five-minute buckets), so there is no
+reason to accept a greedy approximation that fails in precisely the way the brief says not to.
+
+---
+
+## D18 — Claude capacity is a rate, not a budget
+
+**Decision.** A job's feasibility is judged against every subscription window arriving before its
+deadline, discounted to 50% utilisation — not against the window open right now.
+
+**Why.** This one was a bug first and a decision second, which is why it is worth recording. The
+first version of `capacity.pre_job_check` compared a job's whole demand against one five-hour
+window. An ordinary freelance contract — roughly fourteen hours of AI work, due in a week — came
+out as "exceeds available capacity", and **every real listing in the store was deferred**. The
+queue was a wall of WAIT FOR RESET and nothing was ever schedulable.
+
+That reads as caution and is actually a broken model. Capacity refills; more windows keep
+arriving. The 50% discount exists because Andres sleeps and has a day job, so not every window
+can be spent — planning against capacity that never materialises is how a deadline gets missed,
+and the failure directions are not symmetric.
+
+The distinction the module now draws: **this window** decides whether work can begin now; **the
+horizon** decides whether the job is feasible at all. A job that clears the horizon but not this
+window is WAIT FOR RESET, which is a schedule. A job that cannot clear the horizon genuinely
+cannot be delivered on time, and saying so before accepting the work is the whole point.
+
+---
+
+## D19 — Every capacity figure carries its confidence
+
+**Decision.** No number in `capacity.py` is rendered without ESTIMATED or MEASURED attached, and
+`snapshot()` states plainly that Anthropic exposes no exact remaining-subscription telemetry to a
+GitHub Actions runner.
+
+**Why.** "62.4% capacity remaining" would be more comfortable to read and completely invented.
+A made-up number is worse than an honest range precisely because people act on numbers that look
+precise. MEASURED appears only after five recorded runs — the same threshold, and the same
+reasoning, as the win-rate gate.
+
+---
+
+## D20 — The twelve invariants are joined to their checks by key
+
+**Decision.** `policy.INVARIANTS` and the live checks in `selftest.py` are joined by key at
+import, and the import **raises** if a named invariant has no check.
+
+**Why.** An invariant nothing attempts to violate is a comment, not a guarantee. The failure
+mode this prevents is quiet: someone adds a thirteenth rule to the list, the documentation now
+says thirteen things are enforced, and twelve are.
+
+Several of those checks test **both directions**, which turned out to matter more than the
+forward case. An over-firing PSLF gate that rejected every freelance contract would leave the
+system looking perfectly safe while finding no work at all — and a safety report that cannot
+tell those two states apart is not reporting on safety.
+
+---
+
+## D21 — Emergency stop is scoped in both directions
+
+**Decision.** `HALTED_BY_EMERGENCY_STOP` names every kind of new work including scheduled scans;
+`NEVER_HALTED` names the audit log, the self-test, redaction, the cost gate and the dashboard
+build. An unclassified activity is treated as work, so it stops.
+
+**Why.** A stop that also silenced the audit log would destroy the record of why it was pressed,
+at exactly the moment that record matters most. A control that can switch off its own oversight
+is not a safety control. And nothing is deleted: records, drafts and queued jobs survive
+untouched, because pressing the button should be cheap enough to press when unsure.
+
+Scheduled scans are in the halt list deliberately. A stop that leaves acquisition running is the
+system continuing to take on obligations while its owner believes it has stopped.
+
+---
+
+## D22 — An unverifiable condition is not a failing one, and the consumer has to agree
+
+**Decision.** `acknowledge_live_mode` filters on `passing is False`, not on `not passing`.
+
+**Why.** `live_mode_checklist` returns three states: True, False, and None for something that
+genuinely cannot be probed from inside the system — today, who last edited a cron schedule on
+GitHub. A test already guarded the checklist against rendering that as a failure. Nothing guarded
+the **consumer**, which used `if not c["passing"]` and therefore treated None as False, so live
+mode was permanently blocked on a question the system can never answer. A gate that can never
+open is not a safety feature. The unverifiable items are surfaced in the return message instead,
+where a person can act on them.
+
+---
+
+## D23 — An AI action is never recorded under Andres's name
+
+**Decision.** `acknowledge_live_mode` and `fiverr_kit.mark_ready` take a required or explicit
+`actor`, and the system passes `Actor.CLAUDE` when it is the one acting.
+
+**Why.** The audit log exists to answer "who did what". An AI action written down as ANDRES is a
+false answer in the one place where a false answer is least recoverable — and it is the exact
+failure the identity rule is about, pointed inward at the record rather than outward at a client.
+
+---
+
 ## Open — needs a human decision
 
 **Reddit r/forhire.** Content-wise the best freelance demand source available. `robots.txt` is a
