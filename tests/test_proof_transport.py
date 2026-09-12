@@ -455,6 +455,95 @@ def test_no_proof_at_all_is_not_yet_verified() -> None:
     assert not result["accepted"]
 
 
+# ------------------------------------------------- who owns the file the dashboard reads
+
+
+def _local_report(**over):
+    """The shape `run_all` returns, as a locally-run proof would produce it."""
+    report = {
+        "generated_at": NOW.isoformat(timespec="seconds"),
+        "environment": {
+            "execution_environment": "local (Linux, x86_64)",
+            "workflow_run_id": "",
+            "workflow_run_url": "",
+            "run_attempt": "",
+            "workflow_name": "",
+            "repository": "",
+            "commit_sha": "",
+            "branch": "",
+            "subscription_auth": "ABSENT",
+            "anthropic_api_key": "ABSENT",
+            "mac_required_for_job_execution": "UNKNOWN - not running in Actions",
+        },
+        "results": [
+            {"name": "No paid fallback", "passed": True, "detail": "ok", "evidence": {}},
+            {"name": "Claude worker executes", "passed": True, "detail": "ok", "evidence": {}},
+        ],
+        "worker_test_status": "VERIFIED",
+    }
+    report.update(over)
+    return report
+
+
+def test_the_local_diagnostic_writes_its_own_file_not_the_validated_slot() -> None:
+    """`aicc worker-proof` is a diagnostic anyone can run on any machine. The file the dashboard
+    reads belongs to the border guard."""
+    from aicc import worker_proof
+
+    written = worker_proof.record_result(_local_report())
+
+    assert written == worker_proof.LOCAL_PROOF_FILE
+    assert worker_proof.LOCAL_PROOF_FILE.exists()
+    assert not worker_proof.PROOF_FILE.exists(), "A local run must not create the validated state."
+
+
+def test_a_local_proof_run_cannot_erase_a_validated_verdict() -> None:
+    """The regression. A validated `AUTH FAILED` verdict was committed, carrying the URL of the
+    run that produced it; a local `aicc worker-proof` overwrote it with a laptop's self-report.
+    No green light was at risk - the guard re-validates a raw attestation on read - so the only
+    visible symptom was a verdict that had quietly lost its evidence."""
+    from aicc import worker_proof
+
+    accepted, state, record = worker_proof.ingest_attestation(
+        attestation(execution_succeeded=False, result_state="FAILED", failures=["401 OAuth access token is invalid"]),
+        now=NOW,
+    )
+    assert not accepted
+    assert state == str(pt.WorkerState.AUTH_FAILED)
+    assert record["run_url"], "the verdict is only useful if it points at the run"
+
+    worker_proof.record_result(_local_report())
+
+    after = worker_proof.last_result()
+    assert after["state"] == str(pt.WorkerState.AUTH_FAILED)
+    assert after["run_url"] == record["run_url"]
+    assert after["validated_at"] == record["validated_at"]
+
+
+def test_a_local_run_claiming_success_still_leaves_the_dashboard_unverified() -> None:
+    """Belt and braces: even if the local file did reach the slot, the guard would refuse it.
+    Asserted so the two defences stay independent - the ownership rule above is not load-bearing
+    for the security property, and the security property is not an excuse to drop the rule."""
+    from aicc import worker_proof
+
+    worker_proof.record_result(_local_report())
+    worker_proof.PROOF_FILE.write_text(worker_proof.LOCAL_PROOF_FILE.read_text(), encoding="utf-8")
+
+    result = worker_proof.last_result()
+    assert result["state"] != str(pt.WorkerState.HEALTHY)
+    assert not result["accepted"]
+
+
+def test_the_local_diagnostic_file_is_gitignored() -> None:
+    """The second lock. A diagnostic self-report becoming a committed repository state is the
+    failure this whole split exists to prevent, so the VCS refuses it too."""
+    from pathlib import Path
+
+    ignore = (Path(__file__).resolve().parents[1] / ".gitignore").read_text(encoding="utf-8")
+    lines = [ln.strip() for ln in ignore.splitlines() if ln.strip() and not ln.strip().startswith("#")]
+    assert "data/worker_proof_local.json" in lines
+
+
 # ---------------------------------------------------------------- the split, asserted
 
 

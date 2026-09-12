@@ -50,6 +50,7 @@ def isolated_data(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     from aicc import worker_proof as worker_proof_mod
 
     monkeypatch.setattr(worker_proof_mod, "PROOF_FILE", data / "worker_proof.json")
+    monkeypatch.setattr(worker_proof_mod, "LOCAL_PROOF_FILE", data / "worker_proof_local.json")
 
     monkeypatch.setattr(storage, "OPPORTUNITIES_FILE", data / "opportunities.json")
     monkeypatch.setattr(storage, "OPPORTUNITIES_ARCHIVE", data / "opportunities_archive.json")
