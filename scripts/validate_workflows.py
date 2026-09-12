@@ -85,7 +85,24 @@ def _interpolation_problems(rel: str, text: str) -> list[str]:
         match = _RUN_START.match(line)
         if match:
             inline = match.group("inline").strip()
-            if inline and not inline.startswith(("|", ">")):
+            # A bare `run:` with nothing after it is a mapping KEY, not a shell script - and in
+            # this repository it is the name of the reusable workflow's only job:
+            #
+            #     jobs:
+            #       run:            <- this
+            #         steps:
+            #           - run: |    <- and this, which is a script
+            #
+            # The first version could not tell them apart, so it treated that job's entire body
+            # as one enormous shell block. It went unnoticed only because no `${{ inputs.* }}`
+            # had yet appeared in the job's `env:` - where it is correct and safe. A checker that
+            # flags correct code is a checker people learn to bypass, which costs more than the
+            # bug it was guarding against.
+            #
+            # A real script always has either inline content or a block indicator.
+            if not inline:
+                continue
+            if not inline.startswith(("|", ">")):
                 if _INTERPOLATED.search(inline):
                     flag(number, line)
                 in_block = False
