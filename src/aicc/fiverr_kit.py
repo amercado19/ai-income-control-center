@@ -457,8 +457,12 @@ GIGS: list[Gig] = [
             "- Alerts when a number crosses a threshold\n\n"
             "Built to fail loudly, not silently. If a source is unavailable you get told, rather "
             "than receiving an empty report that looks fine. Credentials stay in secrets.\n\n"
-            "I run scheduled jobs of my own that have executed unattended for months, with health "
-            "checks and alerting. Same approach here.\n\n"
+            # "for months" was a duration claim, and the verified profile records what the jobs
+            # do, never how long they have run. The claim verifier could not back it, so it came
+            # out rather than being defended: an unverifiable number in a public gig is the same
+            # defect as an unverifiable number on the dashboard.
+            "I run automated jobs of my own unattended on a schedule, with health checks and "
+            "alerting. Same approach here.\n\n"
             "Tell me what you rebuild by hand and how often, and I will tell you what it takes to "
             "stop doing that."
         ),

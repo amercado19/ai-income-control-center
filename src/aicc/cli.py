@@ -190,6 +190,46 @@ def cmd_approve(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_reject(args: argparse.Namespace) -> int:
+    """Retire a proposal so it stops presenting itself as actionable.
+
+    This existed as a button before it existed as a command. The dashboard renders "Discard" on a
+    policy-blocked proposal and "Skip" on an ordinary one, both emitting `reject:<id>`, and the
+    command hint fell through to a generic branch that printed `python -m aicc reject:prop_xxx` -
+    not a command. So the one screen that answers "what do I have to do?" was handing out an
+    instruction that could not be run.
+
+    A reason is required. The queue's value is that everything in it is worth Andres's attention;
+    an item removed without a recorded reason is indistinguishable later from one that was lost.
+    """
+    prop = storage.proposals.get(args.proposal_id)
+    if prop is None:
+        _print(f"No proposal {args.proposal_id}")
+        return 1
+    if prop.status in ("APPROVED", "SUBMITTED"):
+        _print(f"REFUSED: {prop.id} is {prop.status}. Retiring something already acted on would hide it.")
+        return 2
+    if not args.reason.strip():
+        _print("REFUSED: --reason is required. An item removed without a reason is indistinguishable from one lost.")
+        return 2
+
+    before = prop.status
+    prop.status = "REJECTED"
+    storage.proposals.put(prop)
+    audit.record(
+        "proposal_rejected",
+        actor=_actor(),
+        object_type="proposal",
+        object_id=prop.id,
+        before=before,
+        after="REJECTED",
+        source=prop.source,
+        error=args.reason.strip(),
+    )
+    _print(f"REJECTED {prop.id} - {args.reason.strip()}")
+    return 0
+
+
 def cmd_mark_submitted(args: argparse.Namespace) -> int:
     prop = storage.proposals.get(args.proposal_id)
     if prop is None or prop.status != "APPROVED":
@@ -468,6 +508,166 @@ def cmd_top(args: argparse.Namespace) -> int:
         for name, f in o.score_breakdown.get("factors", {}).items():
             _print(f"     {name:26s} {f['awarded']:5.1f}/{f['available']:<4.0f} {f['evidence'][:84]}")
     return 0
+
+
+def cmd_replies(args: argparse.Namespace) -> int:
+    """Buyer reply drafts. Prints them; never sends anything."""
+    from . import buyer_replies
+
+    if args.key:
+        r = buyer_replies.get(args.key)
+        if r is None:
+            _print(f"No reply {args.key!r}. Known: {', '.join(x.key for x in buyer_replies.REPLIES)}")
+            return 1
+        _print(buyer_replies.format_one(r))
+        return 0
+    _print(buyer_replies.format_all())
+    return 0
+
+
+def cmd_order(args: argparse.Namespace) -> int:
+    """The order chain: intake, work, delivery, revenue.
+
+    This command is the front door the verified pipeline did not have. `import_order`,
+    `pipeline.run` and `pipeline.deliver` all existed and were all proved to work; nothing called
+    them outside the demo. A buyer ordering tonight would have left Andres doing the work by hand
+    beside a fulfillment system he could not put the order into.
+    """
+    from . import order_intake
+    from .fulfillment import pipeline
+
+    if args.action == "show":
+        _print(order_intake.format_jobs())
+        return 0
+
+    if args.action == "import":
+        missing = [n for n, v in (("--order-id", args.order_id), ("--buyer", args.buyer), ("--gig", args.gig)) if not v]
+        if missing or args.price is None or args.worker_minutes is None:
+            _print(f"REFUSED: need {' '.join(missing) or ''} --price --worker-minutes".strip())
+            _print("  --worker-minutes comes from the tier the buyer bought; it is never guessed.")
+            return 2
+        verdict = order_intake.intake(
+            order_id=args.order_id,
+            buyer=args.buyer,
+            gig_title=args.gig,
+            price=args.price,
+            requirements=args.requirement or [],
+            worker_minutes=args.worker_minutes,
+            deadline=args.deadline,
+            job_type=args.job_type,
+            actor=_actor(),
+        )
+        _print(order_intake.format_intake(verdict))
+        return 0 if verdict.decision == "ACCEPTED" else 3
+
+    job = storage.jobs.get(args.job_id or "")
+    if job is None:
+        _print(f"No job {args.job_id!r}. See `python -m aicc order show`.")
+        return 1
+
+    if args.action == "run":
+        if job.status != JobStatus.RECEIVED.value:
+            _print(f"REFUSED: {job.id} is {job.status}, not RECEIVED. Re-running a job mid-flight would duplicate work.")
+            return 2
+        # Which worker actually ran, said out loud before the work starts.
+        #
+        # `pipeline.run` selects the worker, and ClaudeWorker.available() needs BOTH the CLI on
+        # PATH and CLAUDE_CODE_OAUTH_TOKEN in the environment. On a laptop with the CLI but no
+        # exported token it falls back to the rule-based worker - correct runtime behaviour, and
+        # a silent downgrade on paid client work. The fallback is legitimate; not knowing about
+        # it is not.
+        from .fulfillment.worker import select_worker
+
+        chosen, why = select_worker()
+        _print(f"WORKER: {chosen.name}")
+        _print(f"  {why}")
+        if chosen.name != "claude":
+            _print("  This deliverable will NOT be AI-assisted. Export CLAUDE_CODE_OAUTH_TOKEN")
+            _print("  and re-run if you wanted the AI worker on a paid job.")
+        _print("")
+
+        job = pipeline.run(job)
+        _print(f"{job.status}  after {len(job.qa_rounds)} QA round(s)")
+        if job.qa_rounds:
+            last = job.qa_rounds[-1]
+            _print(f"  final verdict {last.get('verdict')} at {last.get('overall_score')}/100")
+        if job.worker_notes:
+            _print(f"  {job.worker_notes[:160]}")
+        if job.human_action_required:
+            _print(f"  NEEDS ANDRES: {job.human_action_required}")
+        if job.status == JobStatus.READY_TO_DELIVER.value:
+            _print("")
+            _print(f"  Review the files, then:  python -m aicc order deliver {job.id} --minutes <your minutes>")
+        return 0
+
+    if args.action == "deliver":
+        # Delivery requires a human actor. `pipeline.deliver` enforces it and a safety test proves
+        # it; this only passes through whoever ran the command.
+        ok, msg = pipeline.deliver(job, actor=Actor(_actor()), approved_by=_actor())
+        _print(msg)
+        if not ok:
+            return 2
+        entry = order_intake.record_revenue(job, actor=_actor(), gross=args.gross, human_minutes=args.minutes or 0.0)
+        _print(f"REVENUE RECORDED  gross ${entry.gross:,.2f}  fee ${entry.platform_fee:,.2f}  net ${entry.net:,.2f}")
+        _print("")
+        from . import storefront
+
+        s = storefront.summary()
+        _print(
+            f"  storefront net to date ${s['net_revenue']:,.2f}   first $100 net: {'REACHED' if s['first_100_net_reached'] else 'NOT YET'}"
+        )
+        _print("")
+        _print("  Deliver the files to the buyer in Fiverr's own interface - there is no seller API.")
+        return 0
+
+    return 2
+
+
+def cmd_storefront(args: argparse.Namespace) -> int:
+    """The storefront ledger. Records what happened; never makes it happen.
+
+    `mark-live` exists because the moment a gig is published there is a fact worth keeping - the
+    URL and the timestamp - and nowhere was keeping it. It is called after Andres says a gig is
+    live, which is why it records `_actor()` rather than assuming ANDRES.
+    """
+    from . import storefront
+
+    if args.action == "show":
+        _print(storefront.format_report())
+        return 0
+
+    if args.action == "seed":
+        rows = storefront.seed_from_kit(actor=_actor())
+        _print(f"Seeded {len(rows)} listing(s) from the gig kit. Nothing is LIVE until recorded.")
+        _print("")
+        _print(storefront.format_report())
+        return 0
+
+    if not args.key:
+        _print(f"REFUSED: `storefront {args.action}` needs a gig key.")
+        return 2
+
+    if args.action == "mark-live":
+        ok, msg = storefront.mark_live(args.key, live_url=args.url, actor=_actor(), launched_at=args.at, platform=args.platform)
+    elif args.action == "hold":
+        ok, msg = storefront.hold(args.key, reason=args.reason, actor=_actor(), platform=args.platform)
+    else:
+        ok, msg = storefront.observe(
+            args.key,
+            actor=_actor(),
+            platform=args.platform,
+            impressions=args.impressions,
+            clicks=args.clicks,
+            inquiries=args.inquiries,
+            orders=args.orders,
+            gross_revenue=args.gross,
+            net_revenue=args.net,
+            claude_actual_minutes=getattr(args, "claude_actual_minutes", None),
+            andres_active_minutes=getattr(args, "andres_minutes", None),
+        )
+
+    _print(msg)
+    return 0 if ok else 2
 
 
 def cmd_fiverr(args: argparse.Namespace) -> int:
@@ -947,6 +1147,46 @@ def build_parser() -> argparse.ArgumentParser:
     fv.add_argument("action", choices=["check", "ready", "wizard"])
     fv.add_argument("key", nargs="?", help="Gig key. Omit with 'ready' to mark all four; omit with 'wizard' for the full sequence.")
     fv.set_defaults(func=cmd_fiverr)
+
+    # The storefront ledger: what is live, and what it produced. `mark-live` and `observe` record
+    # facts a person read off the platform, so both require --actor and neither performs a
+    # platform action.
+    rj = sub.add_parser("reject", help="Retire a proposal so it stops presenting itself as actionable")
+    rj.add_argument("proposal_id")
+    rj.add_argument("--reason", default="", help="Required. Recorded in the audit log.")
+    rj.set_defaults(func=cmd_reject)
+
+    rp = sub.add_parser("replies", help="Buyer reply drafts for the first-customer conversation")
+    rp.add_argument("key", nargs="?", help="One reply key; omit for all")
+    rp.set_defaults(func=cmd_replies)
+
+    od = sub.add_parser("order", help="A real order: intake, work, delivery, revenue recording")
+    od.add_argument("action", choices=["import", "run", "deliver", "show"])
+    od.add_argument("job_id", nargs="?")
+    od.add_argument("--order-id", default="")
+    od.add_argument("--buyer", default="")
+    od.add_argument("--gig", default="", help="The gig title exactly as published")
+    od.add_argument("--price", type=float, default=None)
+    od.add_argument("--worker-minutes", type=float, default=None, help="From the tier bought. Never guessed.")
+    od.add_argument("--requirement", action="append", help="Repeat once per buyer answer")
+    od.add_argument("--deadline", default="")
+    od.add_argument("--job-type", default="generic")
+    od.add_argument("--minutes", type=float, default=None, help="Your active minutes, for deliver")
+    od.add_argument("--gross", type=float, default=None, help="Override gross, for deliver")
+    od.set_defaults(func=cmd_order)
+
+    sf = sub.add_parser("storefront", help="The storefront ledger: live listings and their observed funnel")
+    sf.add_argument("action", choices=["show", "seed", "mark-live", "hold", "observe"])
+    sf.add_argument("key", nargs="?", help="Gig key, for mark-live / hold / observe")
+    sf.add_argument("--url", default="", help="The live listing URL, required by mark-live")
+    sf.add_argument("--reason", default="", help="Why a listing is held, required by hold")
+    sf.add_argument("--at", default="", help="ISO launch timestamp; defaults to now")
+    sf.add_argument("--platform", default="fiverr")
+    for metric in ("impressions", "clicks", "inquiries", "orders", "claude-actual-minutes", "andres-minutes"):
+        sf.add_argument(f"--{metric}", type=int, default=None)
+    sf.add_argument("--gross", type=float, default=None, help="Gross revenue observed")
+    sf.add_argument("--net", type=float, default=None, help="Net revenue observed")
+    sf.set_defaults(func=cmd_storefront)
 
     return p
 
