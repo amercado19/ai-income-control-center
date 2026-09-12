@@ -31,6 +31,7 @@ on:
           - start
           - pause
           - resume
+          - re-arm
           - emergency-stop
       reason:
         description: "Why (recorded in the audit log; required for emergency-stop)"
@@ -84,6 +85,11 @@ jobs:
               ;;
             resume)
               python -m aicc resume
+              ;;
+            re-arm)
+              # For the state resume cannot fix: automations left off by a stop that predates the
+              # record of what it disabled. A control that can only be turned off is half a control.
+              python -m aicc re-arm
               ;;
             emergency-stop)
               if [ -z "$AICC_REASON" ]; then
