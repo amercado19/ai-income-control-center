@@ -93,7 +93,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "613 events recorded.",
+      "detail": "615 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "state": "",
@@ -112,12 +112,12 @@
     "ai_worker": {
       "key": "ai_worker",
       "label": "AI Worker",
-      "health": "NOT_CONFIGURED",
-      "detail": "NOT YET VERIFIED. The proof artifact is malformed, so no claim in it is usable. A proof that cannot be checked is not weak evidence; it is no evidence. Rejected because: malformed: missing 'schema_version'; malformed: missing 'workflow_run_id'; malformed: missing 'workflow_name'",
+      "health": "DOWN",
+      "detail": "AUTH FAILED. The Claude credential was rejected. This does not recover on its own - it needs a new token from `claude setup-token`. Evidence: https://github.com/amercado19/ai-income-control-center/actions/runs/34695682501",
       "last_success": "",
-      "blocking_reason": "A credential merely existing is not evidence. The Claude worker workflow must land a validated proof from a runner before this can read HEALTHY.",
-      "state": "NOT YET VERIFIED",
-      "light": "WHITE"
+      "blocking_reason": "Andres must run `claude setup-token` and update the CLAUDE_CODE_OAUTH_TOKEN repository secret. Nothing else unblocks this, and it does not recover on its own.",
+      "state": "AUTH FAILED",
+      "light": "RED"
     },
     "scheduler": {
       "key": "scheduler",
@@ -162,6 +162,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-12T13:13:39+00:00",
+  "updated_at": "2026-09-12T13:18:54+00:00",
   "has_real_revenue": false
 }
