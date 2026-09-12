@@ -45,6 +45,34 @@ account staying in good standing outranks the convenience of automating a form.
 
 ---
 
+## Ready for a first customer?
+
+**The machine is ready to fulfil. The shop is not open.** Those are different claims and
+collapsing them would be the fake-autonomy failure this project exists to avoid.
+
+What is now proven by a real run rather than asserted:
+
+* A real model call succeeds through `ClaudeWorker.execute -> claude -p`, the exact path a paid
+  job takes, on cloud infrastructure with no Mac involved.
+* Worker → independent reviewer → QA → revision → final QA works end to end. Two rounds, 93.9/100.
+* Delivery still stops at READY_TO_DELIVER and waits for a human. By design, and tested.
+* $0.00 cash. No `ANTHROPIC_API_KEY`; the workflow fails outright if one ever appears.
+
+What stands between that and a paying customer:
+
+| | |
+|---|---|
+| **No storefront is live** | Four gigs are READY TO PUBLISH, not published. No buyer can find or order anything. This is the binding constraint and it is twelve minutes per gig of Andres's typing. |
+| **Zero real jobs, ever** | The pipeline has processed internal proof jobs only. Win rate reads *Insufficient Data* and will until five decided outcomes. |
+| **The proof was a fixture** | 93.9/100 on "describe what a data pipeline does" is evidence the machinery runs. It is not evidence a buyer will accept a spreadsheet cleanup. |
+| **Payments not configured** | Fine for Fiverr, which handles its own checkout. Direct-client checkout does not exist and stays COMING SOON. |
+| **6 proposals awaiting approval** | One is a contract-to-permanent role the policy gate blocks. Nothing is sent without an explicit approval. |
+
+So: **READY TO FULFIL, NOT OPEN FOR BUSINESS.** The next thing that moves revenue is publishing
+the gigs, not building anything.
+
+---
+
 ## What is actually working
 
 | Capability | Status |
@@ -56,7 +84,7 @@ account staying in good standing outranks the convenience of automating a form.
 | Safety & compliance panel (9 live probes) | Fully working |
 | Proposal drafting | Fully working; every claim verified against real artifacts |
 | Rule-based worker / reviewer / QA / revision | **Fully working end to end** — see the demo lifecycle |
-| AI worker in GitHub Actions | Workflow written; see "Open" below |
+| AI worker in GitHub Actions | **Verified end to end** — run #10, real model call, reviewer 2 rounds, 93.9/100 |
 | AI degradation on rate limits | Fully working, tested |
 | Fiverr gig kit | 4 gigs READY TO PUBLISH + 1 on the bench; **publishing is manual** |
 | Fiverr launch wizard | Complete — 6 steps per gig, 20 locked fields flagged |
@@ -103,21 +131,51 @@ to a runner, so capacity numbers say ESTIMATED and `capacity.snapshot()` says wh
 
 ## Open
 
-### 1. The Claude worker — BLOCKED on a credential only Andres can create
+### 1. The Claude worker — VERIFIED
 
-**Root cause found and confirmed.** The stored `CLAUDE_CODE_OAUTH_TOKEN` repository secret is
-rejected:
+**Worker run #10 (`7d0e012`) passed all three legs on a GitHub-hosted runner**, and `health.yml`
+validated the artifact in a credential-free job and committed `HEALTHY`. The live dashboard reads
+`AI Worker / HEALTHY`, and the system banner moved from `YELLOW LIMITED` to `GREEN RUNNING` on its
+own — nobody set a flag; the probe started reporting a proof that exists.
 
 ```
-Failed to authenticate. API Error: 401 OAuth access token is invalid.
+PASS  No paid fallback           - no ANTHROPIC_API_KEY, ceiling $0.00, exhausted window = RETRY_LATER
+PASS  Claude worker executes     - nonce minted 15:51:28Z returned exactly through ClaudeWorker.execute
+PASS  Worker to reviewer, e2e    - reviewer ran 2 QA rounds, READY at 93.9/100, READY_TO_DELIVER
 ```
 
-**Andres must run `claude setup-token` and update the secret.** Nothing else unblocks this.
+Two QA rounds is the part worth noticing: the first pass was rejected, the worker revised, the
+second passed. The revision loop is not decoration.
 
-This is not mis-wiring, and that was checked rather than assumed: with a deliberately bogus token
-the CLI hangs on authentication, and with no token at all it works. So the CLI does consume that
-variable and the stored value is genuinely invalid or expired. Tokens last about a year and do
-not auto-refresh.
+#### Getting there took six failed runs, and the reasons are worth keeping
+
+The 401 was real, and it was three different faults wearing one error message.
+
+1. **The secret was never updated.** Runs #5–#7 used a value GitHub's own record showed was 15
+   hours old. Checking "Last updated" on the secrets page took ten seconds and would have saved
+   a run.
+2. **Then the secret was truncated.** A diagnostic that reports facts *about* the token without
+   printing it — length, a shape match, whitespace booleans, and a truncated SHA-256 so a person
+   can compare from their own machine — showed length 80 against a real token's 109.
+3. **Then the credential was fine and the proof's own fixture was broken.** `prove_worker_reviewer`
+   built its job with `agreed_price=0.0`, and `pipeline.validate` refuses a job with no agreed
+   price — correctly, since its whole purpose is to reject an unworkable brief before effort is
+   spent. So `pipeline.run` went VALIDATE → PROBLEM and returned before any QA, and the proof
+   reported "the pipeline produced no QA round at all, so the reviewer never ran." True, and it
+   read like a reviewer defect.
+
+That third one is the one to carry: **the leg had never executed in the project's history.**
+`run_all` only reaches it when `prove_worker` passes, and `prove_worker` returned 401 on every run
+from #3 to #8. A check gated behind another check is untested code wearing a test's clothes, and
+the first time it ran it failed for a reason that had nothing to do with what it measures. It is
+now validated by a unit test that needs no credential at all.
+
+`.github/workflows/credential-check.yml` is the instrument from step 2, kept because the next
+token expiry should cost 21 seconds rather than six runs. It holds the credential, has
+`contents: read`, cannot commit, and never prints the token. One of its own labels asserted that
+whitespace "alone causes a 401"; two runs later a whitespace-bearing token authenticated fine.
+The label was corrected — a guess wearing a finding's clothes is the failure mode this whole
+repository is about.
 
 The workflow no longer uses `anthropics/claude-code-action@v1`. A green action step proves an
 action ran; it does not prove `ClaudeWorker.execute` — the path a paid client job actually takes —
@@ -132,14 +190,19 @@ a runtime-minted nonce back, character for character. A missing file is a failur
 | #3, #4 | — | Failed: `401 OAuth access token is invalid`. Run #3 reported only "the credential was rejected"; a redacted excerpt of the underlying error was added, and run #4 then named the 401. |
 | #5 | `e3ad577` | Failed: same 401. Confirmed the cause is not anything this work changed. |
 | #6 | `49a599d` | Failed: same 401, and produced the first full attestation artifact. |
+| #7 | `d06063c` | Failed: same 401. The secret was 15 hours old and had not been replaced. |
+| #8 | `5847f26` | Failed: same 401. Secret replaced but truncated — 80 bytes against 109. |
+| #9 | `af39a08` | **Worker PASSED**, reviewer failed: the proof's own fixture could not pass `pipeline.validate`. |
+| #10 | `7d0e012` | **VERIFIED.** All three legs. Reviewer 2 rounds, READY 93.9/100. |
 
 Verified in every run: **`ANTHROPIC_API_KEY` absent, paid fallback DISABLED.** The workflow fails
 the run outright if that key ever exists, so the paid path cannot be switched on by adding a
 secret and forgetting.
 
 **The AI Worker light is honest about all of this.** It reads a validated proof, not the presence
-of a token and a binary, and it currently reads `DOWN / AUTH FAILED` with a link to the run that
-proves it. The seven states and the transport that carries the proof are below.
+of a token and a binary. It read `DOWN / AUTH FAILED` through all six failures and reads `HEALTHY`
+now, with a link to run #10 either way. It expires in 48 hours without a fresh proof. The seven
+states and the transport that carries the proof are below.
 
 #### The proof transport: credential execution separated from repository write
 
