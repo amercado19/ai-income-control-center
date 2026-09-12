@@ -1,16 +1,14 @@
 {
-  "accepted": false,
-  "age_hours": 0.1,
-  "commit_sha": "",
-  "generated_at": "2026-09-12T14:32:13+00:00",
-  "mac_required_for_job_execution": "",
-  "reason": "The Claude credential was rejected. This does not recover on its own - it needs a new token from `claude setup-token`.",
-  "rejections": [
-    "execution failed: AUTH FAILED"
-  ],
-  "reviewer_path_proved": false,
-  "run_url": "https://github.com/amercado19/ai-income-control-center/actions/runs/34699557722",
-  "state": "AUTH FAILED",
+  "accepted": true,
+  "age_hours": 0.0,
+  "commit_sha": "7d0e01236570d48b4f89589f69ecf062255853bf",
+  "generated_at": "2026-09-12T15:52:12+00:00",
+  "mac_required_for_job_execution": "NO",
+  "reason": "A real `ClaudeWorker.execute -> claude -p` call succeeded 0h ago on a GitHub Actions runner, at commit 7d0e0123 on main, authenticated by CLAUDE_CODE_OAUTH_TOKEN with no paid API key present.",
+  "rejections": [],
+  "reviewer_path_proved": true,
+  "run_url": "https://github.com/amercado19/ai-income-control-center/actions/runs/34703455456",
+  "state": "HEALTHY",
   "ttl_hours": 48.0,
-  "validated_at": "2026-09-12T14:36:10+00:00"
+  "validated_at": "2026-09-12T15:54:19+00:00"
 }
