@@ -81,6 +81,11 @@ PLANNING_HORIZON_HOURS = 168.0
 #: against capacity that never materialises is how a deadline gets missed.
 REALISTIC_WINDOW_UTILIZATION = 0.5
 
+#: The least capacity in the current window that counts as being able to begin. Below this, a
+#: job is queued for the next window rather than started - five minutes of progress on a
+#: two-hour job is not a start, it is a context switch.
+MIN_MEANINGFUL_START_MINUTES = 30.0
+
 CAPACITY_FILE = DATA_DIR / "capacity.json"
 
 
@@ -549,33 +554,46 @@ def pre_job_check(
             needs_human=True,
         )
 
-    if demand <= available * 0.70:
+    # SAFE / TIGHT is judged against the HORIZON, not against this window alone.
+    #
+    # An earlier version compared demand to the current window, so an ordinary $500 job - sixty
+    # minutes of worker time, 120 with QA and a revision - came back TIGHT on a completely fresh
+    # window, because 120 is 74% of one 162-minute window. That reads as caution and is the same
+    # mistake as judging feasibility against one window: capacity is a rate, and a job
+    # comfortably inside a week's capacity is not "tight" because it will not finish by 5pm.
+    # What this window decides is whether work can BEGIN, not whether the job is comfortable.
+    comfortable = demand <= horizon * 0.70
+    can_begin_now = available >= min(demand, MIN_MEANINGFUL_START_MINUTES)
+
+    if not can_begin_now:
         return CapacityVerdict(
-            CapacityStatus.SAFE_TO_START.value,
-            f"Estimated demand {demand:.0f} min against {available:.0f} min of safe capacity in "
-            f"this window, leaving room for QA, one revision and a deadline-critical fix.",
+            CapacityStatus.WAIT_FOR_RESET.value,
+            f"Demand {demand:.0f} min fits inside the {horizon:.0f} min available before the "
+            f"deadline, but only {available:.0f} min is left in this window - not enough to make "
+            f"a meaningful start. Queued to begin after the {reset:%H:%M} UTC reset: a scheduled "
+            f"job, not a rejected one.",
             demand,
-            available,
+            horizon,
+            wait_until=est.next_reset,
         )
 
-    if demand <= available:
+    if comfortable:
         return CapacityVerdict(
-            CapacityStatus.TIGHT.value,
-            f"Estimated demand {demand:.0f} min against {available:.0f} min available in this "
-            f"window. It fits, but with little slack. Worth starting only if the value or the "
-            f"deadline justifies spending most of the window on it.",
+            CapacityStatus.SAFE_TO_START.value,
+            f"Estimated demand {demand:.0f} min against {horizon:.0f} min available before the "
+            f"deadline, with {available:.0f} min free in this window to begin. Room for QA, one "
+            f"revision and a deadline-critical fix.",
             demand,
             available,
         )
 
     return CapacityVerdict(
-        CapacityStatus.WAIT_FOR_RESET.value,
-        f"Demand {demand:.0f} min exceeds the {available:.0f} min left in this window, but fits "
-        f"inside the {horizon:.0f} min available before the deadline. Scheduled to continue "
-        f"after the {reset:%H:%M} UTC reset - a multi-window job, not a rejected one.",
+        CapacityStatus.TIGHT.value,
+        f"Estimated demand {demand:.0f} min against {horizon:.0f} min realistically available "
+        f"before the deadline. It fits, but with little slack - worth starting only if the value "
+        f"or the deadline justifies committing most of the remaining capacity to it.",
         demand,
         horizon,
-        wait_until=est.next_reset,
     )
 
 
