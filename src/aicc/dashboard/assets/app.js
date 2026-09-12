@@ -240,6 +240,8 @@ function renderOpportunities() {
         <td style="min-width:260px">
           <span class="cell-title">${esc(o.title)}</span>
           <span class="cell-sub">${esc(o.client || "Client not stated")}${o.category ? " - " + esc(o.category) : ""}</span>
+          ${o.policy_allowed === false ? `<div style="margin-top:6px">${badge(o.policy_gate, "RED")}
+            <div class="cell-sub">${esc(o.policy_reason)}</div></div>` : ""}
           <details class="detail"><summary>Why this score</summary><div>${factorHtml(o)}</div></details>
         </td>
         <td class="num">${esc(o.budget_display)}</td>
