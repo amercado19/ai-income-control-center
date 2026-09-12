@@ -737,7 +737,25 @@ PAGES.queue = () => {
       <th class="hide-narrow">Capacity</th><th class="hide-narrow">Deadline</th>
       <th class="hide-narrow">Displaces</th><th class="hide-narrow">Why</th>
     </tr></thead><tbody>${rows}</tbody></table></div>`
-      : empty("Nothing queued", "No profitable, compliant work is currently available. That is usually the market, not a bug.")}`;
+      : empty("Nothing queued", "No profitable, compliant work is currently available. That is usually the market, not a bug.")}
+
+    ${(D.policy_blocked || []).length ? `
+    <div class="section-title">Declined by the standing rules</div>
+    <div class="card card-pad">
+      <div class="note" style="margin-bottom:10px">These ${(D.policy_blocked || []).length} listing(s), worth
+        ${money((D.policy_blocked || []).reduce((s, b) => s + (b.gross || 0), 0))} gross if every one were won, were
+        removed from the queue before ranking. They are shown rather than dropped: work that quietly disappears
+        teaches nothing, and a screen that gets one wrong should be visible enough to argue with.</div>
+      <div class="table-wrap"><table class="fits-narrow"><thead><tr>
+        <th>Listing</th><th>Value</th><th>Gate</th><th class="hide-narrow">Why</th>
+      </tr></thead><tbody>${(D.policy_blocked || []).map((b) => `<tr>
+        <td class="cell-title">${esc(b.title)}<div class="cell-sub">${esc(b.source)}</div>
+          <div class="cell-sub show-narrow" style="margin-top:4px">${esc(b.reason)}</div></td>
+        <td>${money(b.gross)}</td>
+        <td>${badge(b.gate, "RED")}</td>
+        <td class="hide-narrow"><span class="cell-sub">${esc(b.reason)}</span></td>
+      </tr>`).join("")}</tbody></table></div>
+    </div>` : ""}`;
 };
 
 /* ----------------------------------------------------- safety and compliance */
