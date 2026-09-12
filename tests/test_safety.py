@@ -489,6 +489,11 @@ def test_part_time_and_contract_are_not_penalised() -> None:
 # the single thing this system exists to refuse - and the claim verifier never saw it, because
 # it guards the experience section while this text arrived through the deliverables list.
 
+# The real listing, kept verbatim because it is what these behaviours were written against.
+# It is ALSO a PSLF conflict - "Contract to permanent" - which `test_policy.py` covers. The tests
+# below are about prose, not policy, so they use the project-shaped variant underneath: putting a
+# blocked listing through `generate` now raises before any prose is written, which would make
+# these tests fail for a reason that has nothing to do with what they check.
 NORICUM = (
     "Noricum | Senior Backend Engineer, Payments, Ledger & Provable Fairness | REMOTE | "
     "Contract to permanent | $120-160/hr. We build money infrastructure. "
@@ -497,6 +502,8 @@ NORICUM = (
     "and infrastructure you owned end to end. "
     "You have 5+ years of backend experience. Nice to have: Rust."
 )
+
+NORICUM_AS_A_PROJECT = NORICUM.replace("Contract to permanent | ", "Fixed-price project | ")
 
 
 def test_candidate_requirements_never_become_deliverables() -> None:
@@ -515,7 +522,9 @@ def test_a_listing_with_only_requirements_yields_honest_generic_deliverables() -
     from aicc.connectors.base import make_opportunity
     from aicc.proposals import extract_deliverables, generate
 
-    opp = make_opportunity(source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM, skills=["python"])
+    opp = make_opportunity(
+        source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM_AS_A_PROJECT, skills=["python"]
+    )
     assert extract_deliverables(opp) == []
     body = generate(opp).body
     assert "double-entry ledger" not in body.lower()
@@ -613,7 +622,7 @@ def test_a_job_ad_header_is_never_quoted_back_as_if_it_were_a_need() -> None:
     'you wrote' is a mail merge with the seams showing."""
     from aicc.proposals import generate
 
-    header_only = "Acme | Staff Engineer | REMOTE (EU) | Full-time | $100-140/hr. We are growing fast. " * 3
+    header_only = "Acme | Staff Engineer | REMOTE (EU) | Fixed-price project | $100-140/hr. We are growing fast. " * 3
     body = generate(_role(header_only, title="Acme - Staff Engineer")).body
     assert "You wrote:" not in body
     assert "Here is what I would bring to it" in body
@@ -1283,3 +1292,74 @@ def test_active_with_nothing_enabled_never_reports_running(active_system) -> Non
     status, light = health.overall_status()
     assert light != "GREEN", "Green over a system where nothing can run."
     assert "NOTHING ENABLED" in status
+
+
+# ---------------------------------- no proposal is ever drafted, or approvable, for blocked work
+
+
+def test_no_proposal_is_drafted_for_work_the_rules_forbid() -> None:
+    """The consequence that made the disconnected policy layer concrete.
+
+    A proposal for "Contract to permanent | $120-160/hr" was found sitting in NEEDS ME, awaiting
+    approval, one tap from being sent. Approving it would have opened a conversation about a job
+    that costs seven years of PSLF-qualifying payments.
+
+    "Approval is a separate human step" is only a safeguard when what reaches the human is worth
+    approving. A drafted proposal is a trap with Andres's own approval button on it.
+    """
+    from aicc.connectors.base import make_opportunity
+    from aicc.proposals import PolicyBlockedError, generate
+
+    opp = make_opportunity(
+        source="hackernews",
+        title="Noricum - Senior Backend Engineer",
+        description=NORICUM,
+        skills=["python"],
+    )
+    with pytest.raises(PolicyBlockedError) as exc:
+        generate(opp)
+    assert "PSLF" in str(exc.value)
+
+
+def test_an_already_drafted_proposal_for_blocked_work_cannot_be_approved(active_system, monkeypatch, capsys) -> None:
+    """A gate on the front door leaves whatever is already inside.
+
+    Drafting now refuses blocked work, but proposals drafted before that gate existed are already
+    in the approval queue - one of them for a contract-to-permanent role. The rules have to hold
+    for those too, so approval re-checks rather than trusting that drafting did.
+    """
+    import argparse
+
+    from aicc.cli import cmd_approve
+    from aicc.connectors.base import make_opportunity
+    from aicc.models import Proposal
+
+    opp = make_opportunity(source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM, skills=["python"])
+    storage.opportunities.put(opp)
+    prop = Proposal(opportunity_id=opp.id, source=opp.source, status="AWAITING_APPROVAL", problem_statement="x", body="y")
+    storage.proposals.put(prop)
+
+    code = cmd_approve(argparse.Namespace(proposal_id=prop.id, connects=0))
+    out = capsys.readouterr().out
+
+    assert code != 0, "A blocked proposal was approved."
+    assert "REFUSED" in out
+    assert "PSLF" in out
+    assert storage.proposals.get(prop.id).status == "AWAITING_APPROVAL", "Status must not advance."
+
+
+def test_a_blocked_proposal_card_offers_no_approve_button() -> None:
+    """The card is the single screen that answers 'what do I have to do?'. A button wired to fail
+    is still a button someone presses, and the card said nothing about why they should not."""
+    from aicc.connectors.base import make_opportunity
+    from aicc.dashboard.build import _attention
+    from aicc.models import Proposal
+
+    opp = make_opportunity(source="hackernews", title="Noricum - Senior Backend Engineer", description=NORICUM, skills=["python"])
+    storage.opportunities.put(opp)
+    prop = Proposal(opportunity_id=opp.id, source=opp.source, status="AWAITING_APPROVAL", problem_statement="x", body="y")
+
+    card = next(c for c in _attention([], [prop]) if c["title"] == opp.title)
+    assert card["policy_gate"], "The card does not say the listing is blocked."
+    assert card["severity"] == "stop"
+    assert not any(a["label"] == "APPROVE" for a in card["actions"])
