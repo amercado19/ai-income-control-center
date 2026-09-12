@@ -640,3 +640,75 @@ def test_the_validating_workflow_holds_only_the_permissions_it_needs() -> None:
     code = _workflow_code("health.yml")
     assert "contents: write" in code, "It has to commit the derived state."
     assert "actions: read" in code, "It has to download the worker's artifact."
+
+
+# ------------------------------------------------- the proof's own fixtures must be valid
+
+
+def test_the_reviewer_proofs_job_passes_the_pipelines_own_validation() -> None:
+    """The check that would have caught this without a working credential.
+
+    `prove_worker_reviewer` built its job with `agreed_price=0.0`, and `pipeline.validate`
+    refuses a job with no agreed price - correctly, since its purpose is to reject an unworkable
+    brief before any effort is spent. So `pipeline.run` went VALIDATE -> PROBLEM and returned
+    before any QA, and the proof reported "the pipeline produced no QA round at all, so the
+    reviewer never ran". True, and it read like a reviewer defect rather than an invalid fixture.
+
+    It survived because the leg had never executed: `run_all` only reaches it when `prove_worker`
+    passes, and that returned 401 on every run from #3 to #8. A check gated behind another check
+    is untested code wearing a test's clothes.
+
+    So the fixture is validated here, where no credential is needed. The job is built by calling
+    the real function's own source rather than being retyped, so a future edit to the fixture is
+    what this test sees.
+    """
+    import inspect
+    import re
+
+    from aicc import worker_proof
+    from aicc.fulfillment import pipeline
+    from aicc.models import Job
+
+    src = inspect.getsource(worker_proof.prove_worker_reviewer)
+    match = re.search(r"agreed_price=([0-9.]+)", src)
+    assert match, "the reviewer proof no longer sets agreed_price; this test is looking at the wrong thing"
+
+    job = Job(
+        title="Reviewer proof - two-column summary",
+        client="internal",
+        job_type="research",
+        agreed_price=float(match.group(1)),
+        requirements=["Write `summary.md` with a heading and three sentences."],
+        acceptance_criteria=["summary.md exists."],
+    )
+
+    ok, problems = pipeline.validate(job)
+    assert ok, f"the reviewer proof's own job cannot survive pipeline.validate: {problems}"
+
+
+def test_the_reviewer_proof_reaches_qa_on_the_rule_based_path(active_system) -> None:
+    """One step further: not just that the fixture validates, but that `pipeline.run` actually
+    produces a QA round for it. Run with the rule-based worker so the assertion holds with no
+    credential at all - the AI path is what the workflow proves, and this is what proves the
+    plumbing around it.
+
+    Takes `active_system` because `pipeline.run` refuses to act while the system is not started,
+    which is correct and is a different guard from the one that broke."""
+    from aicc.fulfillment import pipeline
+    from aicc.fulfillment.worker import RuleBasedWorker
+    from aicc.models import Job, JobStatus
+
+    job = pipeline.run(
+        Job(
+            title="Reviewer proof - two-column summary",
+            client="internal",
+            job_type="research",
+            agreed_price=1.00,
+            requirements=["Write `summary.md` with a level-1 heading and three sentences."],
+            acceptance_criteria=["summary.md exists.", "It begins with a level-1 markdown heading."],
+        ),
+        worker_cls=RuleBasedWorker,
+    )
+
+    assert job.qa_rounds, "the reviewer never ran, which is the failure this test exists for"
+    assert job.status in (JobStatus.READY_TO_DELIVER.value, JobStatus.PROBLEM.value)
