@@ -1,0 +1,146 @@
+# START BUSINESS / PAUSE / RESUME / EMERGENCY STOP, from anywhere, without a laptop.
+#
+# The dashboard is a static page on GitHub Pages. It reports state honestly and cannot change
+# it, which is the right trade for a $0.00 business: a page that could change state would need a
+# server, and a server costs money every month whether or not anyone presses anything.
+#
+# But "read-only dashboard" should not mean "the stop button is a terminal command you can only
+# run from one Mac". The moment EMERGENCY STOP is worth pressing is exactly the moment Andres is
+# most likely to be away from that Mac, and a control that is unavailable when it matters is not
+# a control. So the four state transitions live here instead: GitHub's own Run-workflow button
+# works from a phone browser, is authenticated by his GitHub session, costs nothing on a public
+# repository, and every press lands in the audit log with the actor recorded.
+#
+# The dashboard's buttons deep-link here rather than pretending to act.
+#
+# Deliberately NOT here: anything that spends money, sends a proposal, publishes a gig, or
+# communicates with a client. Those stay behind their own approval gates. This workflow moves
+# the system between OFF, ACTIVE, PAUSED and EMERGENCY_STOP, and does nothing else.
+
+name: Control
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        required: true
+        type: choice
+        options:
+          - status
+          - start
+          - pause
+          - resume
+          - emergency-stop
+      reason:
+        description: "Why (recorded in the audit log; required for emergency-stop)"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write   # the state change is committed, so the dashboard reflects it on next build
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: aicc-repo-push
+  cancel-in-progress: false
+
+jobs:
+  control:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Apply the state change
+        # Both inputs reach the shell through the environment, never interpolated into the
+        # script body. `action` is a closed choice list, but `reason` is free text a person
+        # types - and a `$(...)` in a free-text field interpolated into a shell is a command
+        # injection with a GITHUB_TOKEN attached. scripts/validate_workflows.py enforces this.
+        env:
+          AICC_ACTION: ${{ inputs.action }}
+          AICC_REASON: ${{ inputs.reason }}
+          AICC_ACTOR: ${{ github.actor }}
+        run: |
+          set -euo pipefail
+          case "$AICC_ACTION" in
+            status)
+              python -m aicc status
+              ;;
+            start)
+              python -m aicc start
+              ;;
+            pause)
+              python -m aicc pause
+              ;;
+            resume)
+              python -m aicc resume
+              ;;
+            emergency-stop)
+              if [ -z "$AICC_REASON" ]; then
+                echo "::error title=Reason required::EMERGENCY STOP needs a reason. It goes in the audit log, and a stop with no recorded reason is one nobody can safely undo later."
+                exit 1
+              fi
+              python -m aicc emergency-stop --reason "$AICC_REASON"
+              ;;
+            *)
+              echo "::error title=Unknown action::$AICC_ACTION"
+              exit 1
+              ;;
+          esac
+
+      - name: Report the resulting state
+        if: ${{ always() }}
+        run: |
+          {
+            echo "## System state after \`$AICC_ACTION\`"
+            echo ""
+            echo '```'
+            python -m aicc status || true
+            echo '```'
+            echo ""
+            echo "### What the current state permits"
+            echo ""
+            python -m aicc compliance || true
+          } >> "$GITHUB_STEP_SUMMARY"
+        env:
+          AICC_ACTION: ${{ inputs.action }}
+
+      - name: Rebuild the dashboard so it reflects the change
+        if: ${{ inputs.action != 'status' }}
+        run: |
+          set -e
+          python -m aicc build --out site
+          python -m aicc verify-site --site site
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.action != 'status' }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        if: ${{ inputs.action != 'status' }}
+        uses: actions/deploy-pages@v4
+
+      - name: Commit the state change
+        if: ${{ always() && inputs.action != 'status' }}
+        env:
+          AICC_ACTION: ${{ inputs.action }}
+          AICC_ACTOR: ${{ github.actor }}
+        run: |
+          git config user.name "aicc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Control: $AICC_ACTION (by $AICC_ACTOR) $(date -u +%F\ %H:%M) UTC"
+          git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || true
+          git push || (git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push)
