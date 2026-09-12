@@ -101,16 +101,25 @@ PAGES.overview = () => {
     <button class="btn" data-nav="health">SYSTEM</button>
   </div>`;
 
+  const rs = sys.run_state || "OFF";
+  const stopped = rs === "EMERGENCY_STOP";
   const master = `<div class="master">
     <div class="state"><span class="lamp ${esc(sys.light || "WHITE")}"></span>${esc(sys.status_text || "UNKNOWN")}</div>
     <div style="flex:1;min-width:120px">
       <div style="font-size:12px;color:var(--ink-muted)">${esc(sys.mode || "DEMO")} MODE${sys.blocked_reason ? " - " + esc(sys.blocked_reason) : ""}</div>
     </div>
     <div class="btn-row">
-      <button class="btn primary lg" data-cmd="start">START BUSINESS</button>
-      <button class="btn" data-cmd="pause">PAUSE ALL</button>
-      <button class="btn danger" data-cmd="emergency-stop">EMERGENCY STOP</button>
+      ${rs === "PAUSED"
+        ? '<button class="btn primary lg" data-cmd="resume">RESUME</button>'
+        : `<button class="btn primary lg" data-cmd="start" ${rs === "ACTIVE" ? "disabled" : ""}>START BUSINESS</button>`}
+      <button class="btn" data-cmd="pause" ${rs === "ACTIVE" ? "" : "disabled"}>PAUSE ALL</button>
+      <button class="btn danger" data-cmd="emergency-stop" ${stopped ? "disabled" : ""}>${stopped ? "STOPPED" : "EMERGENCY STOP"}</button>
     </div>
+    ${stopped ? `<div class="note stop" style="margin-top:10px;flex-basis:100%">
+      EMERGENCY STOP is engaged. New work of every kind is halted - AI calls, marketplace actions,
+      proposals, client communication, scheduled scans, job execution. Nothing has been deleted,
+      and the audit log, safety self-test, redaction and cost gate are all still running.
+      Clearing it is an explicit RESUME.</div>` : ""}
   </div>`;
 
   const realRevenueNote = m.includes_demo
@@ -126,7 +135,9 @@ PAGES.overview = () => {
     stat("Active Jobs", num(m.active_jobs)),
     stat("Jobs Completed", num(m.jobs_completed)),
     stat("Pending Approvals", num(att.length), att.length ? "Needs you" : "Nothing waiting", { tone: att.length ? "warn" : "" }),
-    stat("New Opportunities", num(m.opportunities_discovered), `${num(m.opportunities_qualified)} qualified`),
+    stat("Opportunities seen", num(m.opportunities_discovered),
+      `${num(m.opportunities_active)} still live, ${num(m.opportunities_archived)} archived, ${num(m.opportunities_qualified)} ever qualified`,
+      { provenance: { formula: "active + archived, demo rows excluded", source: "data/opportunities.json + data/opportunities_archive.json", note: "Cumulative since the first scan, not a count of today's listings. 'Qualified' means it reached the STRONG or EXCELLENT band at some point." } }),
     stat("Proposal Win Rate", pct(m.win_rate), m.win_rate === null ? `Needs ${D.min_observations || 5} decided outcomes` : "", { provenance: p.win_rate }),
     stat("Average Job Value", money(m.avg_order_value, 2)),
     stat("AI Cash Cost", money(m.ai_cash_cost_total, 2), `${num(m.ai_usage_units_total)} usage units drawn`, { tone: "accent", provenance: p.ai_cash_cost_total }),
@@ -323,7 +334,12 @@ PAGES.jobs = () => {
 
 PAGES.deliverables = () => {
   const jobs = (D.jobs || []).filter((j) => (j.deliverables || []).length);
-  if (!jobs.length) return `<div class="page-head"><h2>Deliverables</h2></div>${empty("No deliverables yet", "")}`;
+  if (!jobs.length) return `<div class="page-head"><h2>Deliverables</h2></div>${empty(
+    "No deliverables yet",
+    "A deliverable appears here once a job has been worked and reviewed. Client files live in " +
+    "workspaces/, which is gitignored - they are never committed to this public repository, and " +
+    "only their filenames and QA scores are shown."
+  )}`;
   return `<div class="page-head"><h2>Deliverables</h2><p>Client files live outside this repository and are never committed.</p></div>
     ${jobs.map((j) => `<div class="card card-pad" style="margin-bottom:10px">
       <div style="font-weight:600;margin-bottom:6px">${esc(j.title)}</div>
@@ -336,7 +352,12 @@ PAGES.deliverables = () => {
 
 PAGES.clients = () => {
   const clients = D.clients || [];
-  if (!clients.length) return `<div class="page-head"><h2>Clients</h2></div>${empty("No clients yet", "")}`;
+  if (!clients.length) return `<div class="page-head"><h2>Clients</h2></div>${empty(
+    "No clients yet",
+    "A client appears here after a won job. The route to the first one is the Fiverr storefront - " +
+    "four gigs are written, priced and ready to publish - rather than the outbound scanner, which " +
+    "watches for contract roles."
+  )}`;
   return `<div class="page-head"><h2>Clients</h2></div><div class="table-wrap"><table>
     <thead><tr><th>Client</th><th>Source</th><th class="num">Jobs</th><th class="num">Revenue</th></tr></thead>
     <tbody>${clients.map((c) => `<tr><td class="cell-title">${esc(c.name)}</td><td>${esc(c.source)}</td>
@@ -549,7 +570,8 @@ PAGES.fiverr = () => {
         <button class="btn ghost" data-action="fiverr-edit:${esc(g.key)}">EDIT</button>
         <button class="btn" data-action="fiverr-ready:${esc(g.key)}" ${g.valid ? "" : "disabled"}>MARK READY TO PUBLISH</button>
       </div>
-    </div>`).join("")}`;
+    </div>`).join("")}
+    ${fiverrWizard()}`;
 };
 
 /* Proof, split by whether a stranger can check it. The distinction is the page: a claim backed
@@ -601,11 +623,170 @@ PAGES.audit = () => {
     </tbody></table></div>`;
 };
 
+
+/* ----------------------------------------------------- fiverr launch wizard */
+
+function fiverrWizard() {
+  const w = D.fiverr_wizard || {};
+  const gigs = w.gigs || [];
+  if (!gigs.length) return "";
+
+  const gigBlock = (g) => `
+    <details class="card card-pad" style="margin-bottom:10px" ${g.position === 1 ? "open" : ""}>
+      <summary style="cursor:pointer;font-weight:650">
+        ${g.position}. ${esc(g.title)} ${badge(g.ready ? "READY" : "BLOCKED", g.ready ? "GREEN" : "RED")}
+      </summary>
+      <div class="note" style="margin-top:10px">${esc(g.why_this_order)}</div>
+      ${g.below_floor_reason ? `<div class="note stop" style="margin-top:8px"><strong>Priced below the floor, deliberately.</strong> ${esc(g.below_floor_reason)}</div>` : ""}
+      ${(g.blocking || []).length ? `<div class="note stop" style="margin-top:8px">${g.blocking.map(esc).join("<br>")}</div>` : ""}
+      ${!g.image_ready ? `<div class="note stop" style="margin-top:8px">Gig image not rendered. Run <code>python3 scripts/gig_images.py</code>.</div>` : ""}
+      ${(g.steps || []).map((s) => `
+        <div class="section-title" style="margin-top:14px">Step ${s.number}: ${esc(s.title)}${s.irreversible ? ' <span style="color:var(--red)">— IRREVERSIBLE</span>' : ""}</div>
+        ${s.instruction ? `<div class="note">${esc(s.instruction)}</div>` : ""}
+        ${(s.fields || []).map((f) => `
+          <div class="factor">
+            <div class="fname">${esc(f.label)}${f.locked_after_save ? ' <span style="color:var(--red)">LOCKS ON SAVE</span>' : ""}</div>
+            <div class="fev"><pre class="proposal" style="white-space:pre-wrap;margin:4px 0">${esc(f.value)}</pre>${f.note ? `<span class="cell-sub">${esc(f.note)}</span>` : ""}</div>
+          </div>`).join("")}
+      `).join("")}
+    </details>`;
+
+  return `
+    <div class="section-title">Launch wizard</div>
+    <div class="card card-pad" style="margin-bottom:12px">
+      <div class="note stop"><strong>${num(w.irreversible_count)} fields lock permanently on save.</strong> ${esc(w.warning || "")}</div>
+      <div class="note" style="margin-top:8px">${esc(w.what_claude_did || "")}</div>
+      <div class="note" style="margin-top:6px">${esc(w.human_required_reason || "")}</div>
+      <div class="grid kpi" style="margin-top:12px">
+        ${stat("Ready to publish", `${num(w.ready_count)} of ${num(w.total_slots)}`, "Validated against every platform limit")}
+        ${stat("Your time", `~${num(w.estimated_total_minutes)} min`, "All four gigs, start to finish")}
+        ${stat("Locked fields", num(w.irreversible_count), "Category and URL, per gig")}
+      </div>
+    </div>
+    ${gigs.map(gigBlock).join("")}`;
+}
+
+/* ----------------------------------------------------- profit queue + capacity */
+
+PAGES.queue = () => {
+  const q = D.profit_queue || [];
+  const pf = D.profit || {};
+  const cap = D.capacity || {};
+  const notes = D.plan_notes || [];
+
+  const capTone = { "SAFE TO START": "GREEN", "TIGHT": "YELLOW", "RISKY": "RED", "WAIT FOR RESET": "YELLOW", "UNKNOWN — HUMAN REVIEW": "WHITE" };
+  const posTone = (p) => (p === "NOW" || p === "HIGH PRIORITY" ? "GREEN" : p === "NEXT" ? "YELLOW" : p === "AFTER RESET" ? "YELLOW" : "WHITE");
+
+  // `why` is the entire point of this page, so on a phone - where the last three columns are
+  // dropped rather than pushed off-screen behind a horizontal scroll - it reappears under the
+  // title. A queue that says what but not why is a queue nobody can correct, and that is just
+  // as true at 390px as at 1440px.
+  const rows = q.map((r) => `<tr>
+      <td>${badge(r.position, posTone(r.position))}</td>
+      <td class="cell-title">${esc(r.title)}<div class="cell-sub">${esc(r.lane)}</div>
+        <div class="cell-sub show-narrow" style="margin-top:4px">${esc(r.why)}</div>
+        <div class="cell-sub show-narrow">${num(Math.round(r.claude_minutes))} min AI · ${num(Math.round(r.andres_minutes))} min yours${r.opportunity_cost ? " · displaces " + money(r.opportunity_cost) : ""}</div>
+        <div class="cell-sub show-narrow">${badge(r.capacity_status || "-", capTone[r.capacity_status] || "WHITE")}</div></td>
+      <td>${money(r.gross)}<div class="cell-sub">EV ${money(r.expected_value)}</div></td>
+      <td class="hide-narrow">${num(Math.round(r.claude_minutes))} min<div class="cell-sub">${num(Math.round(r.andres_minutes))} min yours</div></td>
+      <td class="hide-narrow">${badge(r.capacity_status || "-", capTone[r.capacity_status] || "WHITE")}</td>
+      <td class="hide-narrow">${r.deadline_slack_hours === null || r.deadline_slack_hours === undefined ? '<span class="cell-sub">none stated</span>' : num(Math.round(r.deadline_slack_hours)) + "h"}</td>
+      <td class="hide-narrow">${r.opportunity_cost ? money(r.opportunity_cost) : '<span class="cell-sub">-</span>'}</td>
+      <td class="hide-narrow"><span class="cell-sub">${esc(r.why)}</span></td>
+    </tr>`).join("");
+
+  return `<div class="page-head"><h2>Profit queue</h2>
+      <p>What the system believes should happen next, and why. Ordering changes with deadlines,
+      capacity, expected value and client commitments - it is a plan, not a sorted list.</p></div>
+
+    <div class="grid kpi">
+      ${stat("Expected captured profit", money(pf.expected_captured_profit), "Scheduled work, at expected value")}
+      ${stat("Expected missed profit", money(pf.expected_missed_profit), "Deferred for capacity or deadline", { tone: pf.expected_missed_profit > 0 ? "warn" : "" })}
+      ${stat("Total available profit", money(pf.total_available_profit), "Every profitable listing, if all were won")}
+      ${stat("Capacity utilisation", pct(pf.capacity_utilization_pct), "Of the planning horizon")}
+    </div>
+
+    <div class="grid kpi">
+      ${stat("Quick-win revenue", money(pf.quick_win_revenue), "Jobs under 15 min of AI time")}
+      ${stat("High-value revenue", money(pf.high_value_revenue), "$200+ listings")}
+      ${stat("Effective hourly", pf.total_andres_minutes ? money((pf.total_available_profit / (pf.total_andres_minutes / 60))) + "/h" : "Insufficient Data", "Per hour of Andres's own time")}
+      ${stat("Median time to cash", pf.median_time_to_cash_days ? num(pf.median_time_to_cash_days) + " days" : "Insufficient Data", "Delivery plus platform clearing")}
+    </div>
+
+    ${notes.length ? `<div class="card card-pad" style="margin-bottom:12px">${notes.map((n) => `<div class="note">${esc(n)}</div>`).join("")}</div>` : ""}
+
+    <div class="section-title">Claude capacity <span class="cell-sub">(${esc(cap.confidence || "ESTIMATED")})</span></div>
+    <div class="card card-pad" style="margin-bottom:12px">
+      <div class="state" style="display:flex;align-items:center;gap:10px;font-size:17px;font-weight:650">
+        <span class="lamp ${capTone[cap.status] || "WHITE"}"></span>${esc(cap.status || "UNKNOWN")}</div>
+      <div class="grid kpi" style="margin-top:12px">
+        ${stat("Estimated remaining", esc(cap.remaining_display || "UNKNOWN"), "This five-hour window")}
+        ${stat("Reserved for paid work", num(Math.round(cap.reserved_minutes || 0)) + " min", (cap.reserved_job_count || 0) + " accepted job(s)")}
+        ${stat("Safe for new work", esc(cap.safe_new_work_display || "UNKNOWN"), "After the emergency margin")}
+        ${stat("Next reset", cap.next_reset ? esc(String(cap.next_reset).slice(11, 16)) + " UTC" : "-", "Rolling window")}
+      </div>
+      <div class="note" style="margin-top:10px">${esc(cap.telemetry_note || "")}</div>
+      <div class="note" style="margin-top:6px">${esc(cap.basis || "")}</div>
+      ${(cap.shed || []).length ? `<div class="note stop" style="margin-top:10px"><strong>Paused to protect paid work:</strong><br>${cap.shed.map(esc).join("<br>")}</div>` : ""}
+      <div class="note" style="margin-top:10px">Paid API fallback: <strong>${esc(cap.paid_api_fallback || "DISABLED")}</strong>. An exhausted window slows the system down; it never switches billing.</div>
+    </div>
+
+    <div class="section-title">The queue</div>
+    ${q.length ? `<div class="table-wrap"><table class="fits-narrow"><thead><tr>
+      <th>When</th><th>Work</th><th>Value</th><th class="hide-narrow">Effort</th>
+      <th class="hide-narrow">Capacity</th><th class="hide-narrow">Deadline</th>
+      <th class="hide-narrow">Displaces</th><th class="hide-narrow">Why</th>
+    </tr></thead><tbody>${rows}</tbody></table></div>`
+      : empty("Nothing queued", "No profitable, compliant work is currently available. That is usually the market, not a bug.")}`;
+};
+
+/* ----------------------------------------------------- safety and compliance */
+
+PAGES.compliance = () => {
+  const panel = D.compliance || {};
+  const items = panel.indicators || [];
+  const scope = D.emergency_scope || {};
+
+  const rows = items.map((i) => `<tr>
+      <td class="cell-title">${esc(i.label)}</td>
+      <td>${badge(i.value, i.ok ? "GREEN" : "RED")}</td>
+      <td><span class="cell-sub">${i.desired ? esc(i.desired) : "reports what is true"}</span></td>
+      <td><span class="cell-sub">${esc(i.detail)}</span></td>
+    </tr>`).join("");
+
+  return `<div class="page-head"><h2>Safety &amp; compliance</h2>
+      <p>Every value below is probed live: each one is the result of attempting the thing it
+      forbids and being refused. None of them is a constant in the source.</p></div>
+
+    ${panel.all_ok
+      ? `<div class="card card-pad" style="margin-bottom:12px"><div class="note">All nine indicators are in their desired state.</div></div>`
+      : `<div class="card card-pad" style="margin-bottom:12px"><div class="note stop"><strong>Drifted:</strong> ${(panel.drifted || []).map(esc).join(", ") || "see below"}. Do not leave the system running unattended until this is resolved.</div></div>`}
+
+    <div class="table-wrap"><table><thead><tr><th>Control</th><th>State</th><th>Desired</th><th>Evidence</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>
+
+    <div class="section-title">Emergency stop</div>
+    <div class="card card-pad">
+      <div class="state" style="display:flex;align-items:center;gap:10px;font-weight:650">
+        <span class="lamp ${scope.engaged ? "RED" : "GREEN"}"></span>${scope.engaged ? "ENGAGED" : "Not engaged"}</div>
+      ${scope.reason ? `<div class="note stop" style="margin-top:8px">${esc(scope.reason)}</div>` : ""}
+      <div class="note" style="margin-top:10px">${esc(scope.note || "")}</div>
+      <div class="factor" style="margin-top:10px"><div class="fname">Halts</div><div class="fev">${(scope.halts || []).map((h) => esc(h.replace(/_/g, " "))).join(", ")}</div></div>
+      <div class="factor"><div class="fname">Never halts</div><div class="fev">${(scope.never_halts || []).map((h) => esc(h.replace(/_/g, " "))).join(", ")}</div></div>
+    </div>
+
+    <div class="section-title">Safety self-test</div>
+    <div class="card card-pad"><div class="note">Twenty-one invariants are attempted against the live system by
+      <code>python -m aicc selftest</code>. Each passes only if the system refuses the violation.
+      A check that cannot run reports SKIPPED - it is never counted as a pass.</div></div>`;
+};
+
 /* ------------------------------------------------------------------ shell */
 
 const NAV = [
   ["overview", "Overview", "■"],
   ["approvals", "Needs Me", "●"],
+  ["queue", "Profit Queue", "⇅"],
   ["opportunities", "Opportunities", "◆"],
   ["proposals", "Proposals", "✎"],
   ["jobs", "Active Jobs", "▶"],
@@ -617,6 +798,7 @@ const NAV = [
   ["portfolio", "Portfolio", "⚑"],
   ["automation", "Automation", "↻"],
   ["health", "System Health", "♥"],
+  ["compliance", "Safety & Compliance", "⛨"],
   ["settings", "Settings", "⚙"],
   ["audit", "Audit Log", "≡"],
 ];
@@ -633,11 +815,35 @@ function go(page) {
   try { history.replaceState(null, "", "#" + target); } catch (_) { /* file:// */ }
 }
 
+/* The four state transitions run as a GitHub Actions workflow rather than only as terminal
+ * commands. This page is static and cannot change state - a page that could would need a server,
+ * and a server costs money every month whether or not anyone presses anything. But the moment
+ * EMERGENCY STOP is worth pressing is exactly the moment Andres is most likely to be away from
+ * the one Mac that has a terminal, and a control that is unavailable when it matters is not a
+ * control. GitHub's own Run-workflow button works from a phone. */
+const CONTROL_ACTIONS = { start: 1, pause: 1, resume: 1, "emergency-stop": 1 };
+
+function controlLink(cmd) {
+  const repo = D.repo_url || "";
+  return repo ? `${repo}/actions/workflows/control.yml` : "";
+}
+
 function commandHint(cmd) {
+  if (CONTROL_ACTIONS[cmd]) {
+    const url = controlLink(cmd);
+    const label = cmd.replace("-", " ").toUpperCase();
+    alertBox(
+      url
+        ? `# ${label} runs in the cloud - no laptop needed, works from a phone.\n` +
+          `# Open, press "Run workflow", choose: ${cmd}\n` +
+          `${url}\n\n` +
+          `# Or, from a terminal on any machine with the repo:\n` +
+          `python -m aicc ${cmd}${cmd === "emergency-stop" ? ' --reason "..."' : ""}`
+        : `python -m aicc ${cmd}${cmd === "emergency-stop" ? ' --reason "..."' : ""}`
+    );
+    return;
+  }
   const map = {
-    "start": "python -m aicc start",
-    "pause": "python -m aicc pause",
-    "emergency-stop": "python -m aicc emergency-stop --reason \"...\"",
     "enable-live": "python -m aicc status  # then acknowledge live mode",
   };
   if (cmd.startsWith("fiverr-")) {

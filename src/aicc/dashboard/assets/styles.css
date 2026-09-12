@@ -401,8 +401,13 @@ pre.proposal {
 /* Columns that carry reference detail rather than a decision. Hidden below 560px so the
    columns that DO drive a decision stay on screen without sideways scrolling; the same values
    appear in full inside the card's disclosure, so nothing is lost on a phone. */
+/* The mirror of `hide-narrow`: content that belongs only on a phone, where a column has
+   been dropped and its substance has to reappear somewhere the reader can actually see it. */
+.show-narrow { display: none; }
+
 @media (max-width: 560px) {
   .hide-narrow { display: none; }
+  .show-narrow { display: block; }
   /* Tables opt in to fitting. The global min-width of 640px is right for the wide tables
      (opportunities, audit) where sideways scrolling beats unreadable columns, but a table that
      has already dropped to five columns should simply fit the phone. */
