@@ -77,12 +77,23 @@ def _collect() -> dict[str, Any]:
     jobs = storage.jobs.all()
     rev = storage.revenue.all()
 
+    from .. import policy as _policy
+
     opp_rows = []
     for o in opps:
         econ = money.compute(o)
         bd = o.score_breakdown or {}
+        # The gate is shown on the listing itself, not only in the queue it was removed from.
+        # Without this the two pages contradicted each other: the Profit Queue declined the
+        # contract-to-permanent role, while the Opportunities page went on presenting it as a
+        # REVIEW candidate at score 69 with an Open button.
+        _verdict = _policy.evaluate(o)
+        _gate = _verdict.gates[0] if _verdict.gates else None
         opp_rows.append(
             {
+                "policy_allowed": _verdict.allowed,
+                "policy_gate": _gate["gate"] if _gate else "",
+                "policy_reason": _gate["detail"] if _gate else "",
                 "id": o.id,
                 "source": o.source,
                 "title": o.title,
@@ -380,20 +391,39 @@ def _attention(jobs: list[Any], props: list[Any]) -> list[dict[str, Any]]:
             for pen in (opp.score_breakdown.get("penalties", []) if opp else [])
             if pen.get("name") == "Unmet stated requirements"
         ]
+
+        # A blocked proposal must not present an APPROVE button. This card is the single screen
+        # that answers "what do I have to do?", and one of these was a contract-to-permanent role
+        # sitting one tap from approval with nothing on the card to say so. Drafting now refuses
+        # such work and `approve` refuses it again, but a card that still offers the button is a
+        # trap even when the button is wired to fail.
+        from .. import policy as _policy
+
+        _blocked = None
+        if opp is not None:
+            _v = _policy.evaluate(opp)
+            if not _v.allowed and _v.gates:
+                _blocked = _v.gates[0]
+
         items.append(
             {
-                "severity": "normal",
+                "severity": "stop" if _blocked else "normal",
                 "title": title,
                 "detail": p.problem_statement[:200],
                 "meta": " · ".join(meta),
-                "caveat": gaps[0] if gaps else "",
+                "caveat": (f"{_blocked['gate']} - {_blocked['detail']}" if _blocked else (gaps[0] if gaps else "")),
                 "body": p.body,
                 "url": opp.url if opp else "",
                 "value": f"${p.quoted_price:,.0f}" if p.quoted_price else "",
-                "actions": [
-                    {"label": "APPROVE", "cmd": f"approve:{p.id}", "primary": True},
-                    {"label": "Skip", "cmd": f"reject:{p.id}"},
-                ],
+                "policy_gate": _blocked["gate"] if _blocked else "",
+                "actions": (
+                    [{"label": "Discard", "cmd": f"reject:{p.id}"}]
+                    if _blocked
+                    else [
+                        {"label": "APPROVE", "cmd": f"approve:{p.id}", "primary": True},
+                        {"label": "Skip", "cmd": f"reject:{p.id}"},
+                    ]
+                ),
             }
         )
 
