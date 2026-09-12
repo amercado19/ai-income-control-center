@@ -163,3 +163,66 @@ entirely — it reported **clean** on a file containing the exact problem it was
 That is worse than having no check, because it converts an unknown into a false assurance. It
 now handles all three spellings and is tested in both directions: three unsafe forms must be
 flagged, three safe ones (`env:`-passed, `with:`-block, no interpolation) must not.
+
+---
+
+## The twelve standing invariants
+
+These are named in `src/aicc/policy.py` as `INVARIANTS`, and every one has a live check in
+`src/aicc/selftest.py` that attempts the violation and passes only on a refusal. The two lists
+are joined by key at import time and **the import raises if a named invariant has no check** — an
+invariant nothing tries to break is a comment, not a guarantee.
+
+Run them against the deployed system with `python -m aicc selftest` (21 checks including the
+nine older ones), or probe the nine dashboard indicators with `python -m aicc compliance`.
+
+| # | Invariant | What would be true if it failed |
+|---|---|---|
+| 1 | No application is generated for for-profit full-time employment | Andres could be put in front of a job that ends roughly seven years of PSLF-qualifying payments |
+| 2 | No claim about Andres is generated that is not already verified in this repository | A client would receive a false statement about his experience, under his name |
+| 3 | No personal-identifying field is ever filled or submitted automatically | Identity documents or banking details could be sent somewhere he never saw |
+| 4 | No CAPTCHA, 2FA, identity check or signature control is solved or routed around | Accounts would be banned, and the system would be defeating consent controls by design |
+| 5 | No contract, NDA, terms agreement or employment offer is accepted without Andres | He would be legally bound to something he never read |
+| 6 | No source is automated beyond what that platform's current rules permit | Accounts would be suspended, and the business built on a terms violation |
+| 7 | No work is accepted or performed where the client prohibits AI for that work | He would be delivering work under a false representation of how it was made |
+| 8 | An exhausted subscription window pauses AI work; it never falls back to metered billing | A usage spike would arrive as a bill instead of as a delay |
+| 9 | `ANTHROPIC_API_KEY` is not used, and its presence stops the run | Every model call would be billed to a card while the business is pre-revenue |
+| 10 | Client material, credentials and personal information never reach the public repository | A client's confidential file would be world-readable and permanent in git history |
+| 11 | No proposal, message or publication leaves the system without the approval gate | Clients would receive machine-sent proposals he never approved |
+| 12 | No new cash spend occurs; the ceiling is $0.00 with no override parameter | The business would start costing money before it earns any |
+
+### Several are tested in both directions, on purpose
+
+An over-firing PSLF gate that rejected every freelance contract would leave the system looking
+perfectly safe while quietly finding no work at all. A safety report that cannot tell those two
+states apart is not reporting on safety. So the PSLF, personal-information and AI-use checks each
+assert that the gate fires on what it exists to catch **and** stays quiet on what it would be
+embarrassing to block.
+
+## The gates, and their exact wording
+
+The dashboard and CLI match on these strings, so they are load-bearing:
+
+* `NEEDS ANDRES` — a fact required for a proposal is not verified anywhere in the project. The
+  system does not guess it.
+* `NEEDS ANDRES — PERSONAL INFORMATION` — an identity, banking, tax or verification field. Never
+  invented, inferred, retrieved or submitted.
+* `NEEDS ANDRES — SECURITY CONTROL` — a CAPTCHA, 2FA prompt, passkey, liveness check or
+  signature. The legitimate screen goes to Andres; the control is never bypassed.
+* `NEEDS ANDRES — COMMITMENT` — anything that binds him to a client, employer, platform or sum of
+  money. **Fails closed**: an action nobody has classified is treated as a commitment, because
+  the cost of a false stop is a message and the cost of a false start is a signed agreement.
+* `HARD REJECT — PSLF CONFLICT` — for-profit full-time employment. Not a penalty, a rejection.
+
+## Emergency stop
+
+Scoped explicitly in both directions (`state.HALTED_BY_EMERGENCY_STOP` / `state.NEVER_HALTED`):
+
+* **Halts** all new work — AI calls, marketplace actions, proposal drafting and submission,
+  client communication, scheduled acquisition, job execution and delivery, payments.
+* **Never halts** the audit log, the safety self-test, redaction, the cost gate, the health check,
+  the injection scanner or policy evaluation. A control that can switch off its own oversight is
+  not a safety control.
+* **Deletes nothing.** Records, drafts and queued jobs survive untouched.
+
+An unclassified activity is treated as work and therefore stops. It fails safe.

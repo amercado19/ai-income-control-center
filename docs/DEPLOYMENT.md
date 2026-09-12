@@ -83,15 +83,61 @@ health probe results.
 
 | Workflow | Trigger | Approx. minutes/month |
 |---|---|---|
-| `ci.yml` | push, PR | ~3 per push |
-| `discover.yml` | every 6 hours | ~240 |
-| `health.yml` | daily 07:25 ET | ~30 |
-| `_reusable-run.yml` | called by the above | — |
+| `ci.yml` | push, PR | ~160 |
+| `discover.yml` | every 6 hours | ~402 |
+| `health.yml` | daily 07:25 ET | ~100 |
+| `claude-worker.yml` | manual dispatch only | 0 until pressed |
+| `control.yml` | manual dispatch only | 0 until pressed |
+| `_reusable-run.yml` | called by the above | — (billed to its caller) |
 
-Total ≈ **270 minutes/month**, which is free and unmetered on a public repository.
+Total ≈ **662 minutes/month**, free and unmetered on a public repository. Run
+`python3 scripts/actions_budget.py` for the current figure and its derivation; it reads the
+crons out of the workflow files rather than repeating a number written here by hand.
 
 Crons are deliberately conservative. `scripts/validate_workflows.py` fails CI on anything more
 aggressive than hourly, and on a scheduled workflow with no timeout.
+
+### `control.yml` — the state transitions, from anywhere
+
+START, PAUSE, RESUME and EMERGENCY STOP run here rather than only as terminal commands.
+
+The dashboard is a static page: it reports state honestly and cannot change it, which is the
+right trade for a $0.00 business, because a page that could change state needs a server and a
+server costs money every month whether or not anyone presses anything. But the moment EMERGENCY
+STOP is worth pressing is exactly the moment Andres is most likely to be away from the one Mac
+with a terminal and a checkout, and a control that is unavailable when it matters is not a
+control. GitHub's Run-workflow button is free on a public repository, authenticated by his
+existing session, and works from a phone browser.
+
+Open `/actions/workflows/control.yml`, press **Run workflow**, choose the action. EMERGENCY STOP
+requires a reason, which goes into the audit log — a stop with no recorded reason is one nobody
+can safely undo later. The dashboard's buttons deep-link here.
+
+Deliberately not in this workflow: anything that spends money, sends a proposal, publishes a gig
+or contacts a client. Those keep their own approval gates.
+
+### `claude-worker.yml` — the AI worker, and the proof it ran
+
+Dispatch-only, so it costs nothing until someone presses it. Three things happen in order:
+
+1. **The billing gate runs first.** The run FAILS if `ANTHROPIC_API_KEY` exists on the
+   repository at all, so the paid path cannot be switched on by adding a secret and forgetting.
+   It also fails if `CLAUDE_CODE_OAUTH_TOKEN` is missing rather than substituting anything.
+2. A nonce is minted on the runner, moments before the prompt is built.
+3. Claude is asked to echo the nonce, do arithmetic, report the machine's hostname and working
+   directory, and summarise the README in its own words. A **separate step in plain Python**
+   then checks all five, including that the summary is not a substring of the README — a
+   template cannot satisfy that. The check is the proof; the green badge is only a summary of it.
+
+A green `anthropics/claude-code-action` step on its own proves nothing: an action can succeed
+having done nothing at all.
+
+**Why `contents: read` and an explicit `github_token`.** Run #1 failed with "Could not fetch an
+OIDC token", and the error's own suggestion is to add `id-token: write` — which would let the job
+mint identity tokens exchangeable for credentials elsewhere. The action only wants OIDC to obtain
+a GitHub token for itself, so handing it the job's own read-only token satisfies the same need
+with strictly less authority. Taking an error message's first suggestion is not the same as
+taking the right one.
 
 ---
 
