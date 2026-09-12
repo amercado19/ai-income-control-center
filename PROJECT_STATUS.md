@@ -130,39 +130,69 @@ a runtime-minted nonce back, character for character. A missing file is a failur
 | #1 | — | Failed: missing OIDC token. Fixed by handing the job its own read-only token rather than granting `id-token: write` — the error's own suggestion would have let the job mint identity tokens it does not need. |
 | #2 | `8181cf6` | Failed. |
 | #3, #4 | — | Failed: `401 OAuth access token is invalid`. Run #3 reported only "the credential was rejected"; a redacted excerpt of the underlying error was added, and run #4 then named the 401. |
-| #5 | `e3ad577` | Dispatched to record a runner-sourced proof on current HEAD. |
+| #5 | `e3ad577` | Failed: same 401. Confirmed the cause is not anything this work changed. |
+| #6 | `49a599d` | Failed: same 401, and produced the first full attestation artifact. |
 
 Verified in every run: **`ANTHROPIC_API_KEY` absent, paid fallback DISABLED.** The workflow fails
 the run outright if that key ever exists, so the paid path cannot be switched on by adding a
 secret and forgetting.
 
-**The AI Worker light is honest about all of this.** It reads the recorded proof, not the presence
-of a token and a binary — PASSED under 72h is HEALTHY, FAILED is DOWN, STALE is DEGRADED, never
-run is NOT_CONFIGURED, and a pass recorded off-runner is `PASSED_ELSEWHERE`/DEGRADED, because a
-credential proved on a laptop says nothing about the repository secret Actions uses.
+**The AI Worker light is honest about all of this.** It reads a validated proof, not the presence
+of a token and a binary, and it currently reads `DOWN / AUTH FAILED` with a link to the run that
+proves it. The seven states and the transport that carries the proof are below.
 
-#### A second blocker sits behind the token, and it is circular
+#### The proof transport: credential execution separated from repository write
 
-`claude-worker.yml` holds `permissions: contents: read`. It therefore **uploads the proof as an
-artifact and cannot commit it** to `data/worker_proof.json`, which is the file the dashboard
-reads. So the only proofs that reach the dashboard are written outside a runner — exactly the
-proofs the code now correctly refuses to go green on. **As wired today, the light can never
-legitimately reach HEALTHY, even with a valid token.**
+**Built and verified end to end.** The blocker was that `claude-worker.yml` is `contents: read`,
+so it could not commit the proof the dashboard reads - and the read-only permission is correct,
+because that workflow holds the credential and runs `claude -p` against a job brief, and briefs
+originate in marketplace listings. Widening it would have put credential handling, untrusted-text
+execution and repository write authority in one job.
 
-The read-only permission is deliberate and should not simply be widened. That workflow is the one
-holding the OAuth token, and it runs `claude -p` against a job brief — and job briefs originate in
-marketplace listings, which the project treats as untrusted external input throughout. A workflow
-that can both be steered by untrusted text and write to the repository is a different risk class
-from one that can only read.
+So the halves stay apart and the proof crosses between them as data:
 
-Two clean options, both needing a human decision rather than a quiet edit:
+```
+claude-worker.yml   contents: read    token, claude -p, uploads an artifact, commits nothing
+        |
+        |  artifact: a JSON attestation. No secrets, no model output.
+        v
+health.yml          contents: write   no token, no model. Validates, then commits the verdict.
+                    actions: read
+```
 
-1. **Have `health.yml` consume the artifact.** It already has `contents: write`, already commits,
-   and is not the workflow holding the credential. The proof crosses as data, not as a permission.
-2. **A separate minimal job** in `claude-worker.yml` that needs `contents: write` and runs *after*
-   the credential step, with no access to the brief.
+Neither half can be talked into doing the other's job, because it lacks the permission. Both
+directions are asserted in tests, and `health.yml`'s ingest job asserts its own credential-free
+state at runtime - a later edit adding `secrets: inherit` fails the run rather than quietly
+becoming the thing this prevents.
 
-Option 1 is the better separation and does not touch the credential-handling job at all.
+`proof_transport.validate` distrusts its input. Every field in the artifact is a claim, so where
+GitHub can be asked directly its answer wins and a disagreement is itself a rejection. Rejects:
+malformed, wrong repository, unexpected workflow, unaccepted branch, not from a runner, stale,
+execution failed, paid API configuration present, production path not exercised, never attempted.
+
+**Seven states, not GREEN/RED**, because a lamp cannot say what to do:
+
+| State | Lamp | What it asks of a person |
+|---|---|---|
+| HEALTHY | green | nothing - a real `claude -p` call succeeded on a runner, recently |
+| AUTH FAILED | red | a person at a browser; does not recover on its own |
+| CAPACITY LIMITED | yellow | nothing at all, just time; never a bill |
+| STALE PROOF | yellow | check whether the daily worker run is still happening |
+| DEGRADED | yellow | read the linked run |
+| CONFIGURED BUT NOT OPERATIONAL | yellow | the pieces are here and it does not work |
+| NOT YET VERIFIED | white | no valid proof has ever arrived |
+
+Exactly one may be green, asserted at import.
+
+**Proof TTL: 48 hours**, and the number is now answerable. The worker was dispatch-only, so a
+freshness window measured nothing but whether someone remembered to press a button. It runs
+daily at 11:00 UTC, 25 minutes ahead of `health.yml`, leaving exactly one missed run of margin.
+Daily rather than weekly because a token expiring quietly is the likeliest way this breaks, and a
+week would hold the light green over a dead worker. Free on a public repository.
+
+Verified by running it: worker run #6 produced the artifact, `health.yml` validated it in a job
+holding no credential, and committed `Worker proof: AUTH FAILED`. The live dashboard shows
+`DOWN / AUTH FAILED` with a link to the run. The 401 is not masked anywhere.
 
 ### 2. GitHub Pages — LIVE
 
