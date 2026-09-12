@@ -47,6 +47,10 @@ def isolated_data(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     monkeypatch.setattr(capacity_mod, "CAPACITY_FILE", data / "capacity.json")
     monkeypatch.setattr(fiverr_mod, "STATUS_FILE", data / "fiverr_status.json")
 
+    from aicc import worker_proof as worker_proof_mod
+
+    monkeypatch.setattr(worker_proof_mod, "PROOF_FILE", data / "worker_proof.json")
+
     monkeypatch.setattr(storage, "OPPORTUNITIES_FILE", data / "opportunities.json")
     monkeypatch.setattr(storage, "OPPORTUNITIES_ARCHIVE", data / "opportunities_archive.json")
     monkeypatch.setattr(storage, "PROPOSALS_FILE", data / "proposals.json")

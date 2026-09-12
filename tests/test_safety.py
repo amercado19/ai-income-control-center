@@ -843,16 +843,34 @@ def test_live_mode_records_who_actually_enabled_it(monkeypatch) -> None:
     assert events[0].actor == Actor.CLAUDE.value
 
 
+def _pretend_a_person_is_typing(monkeypatch, *, yes: bool) -> None:
+    """A terminal is the one thing a person at a keyboard has and a headless caller does not."""
+    import sys
+
+    for stream in ("stdin", "stdout"):
+        monkeypatch.setattr(getattr(sys, stream), "isatty", lambda: yes, raising=False)
+
+
 def test_the_cli_records_who_actually_ran_it(monkeypatch) -> None:
     """The CLI used to assume ANDRES whenever it was not CI. That stopped being true the moment
     the system started driving its own CLI, and every run the system made was then written into
-    the audit log under his name."""
+    the audit log under his name.
+
+    The first fix removed the CI case and kept ANDRES as the fallback. That was still wrong, and
+    the audit log proved it: selftest runs made by the agent from a container went on being signed
+    ANDRES, because a container is not CI either. The fallback itself was the bug.
+    """
     from aicc.cli import _actor
     from aicc.models import Actor
 
     monkeypatch.delenv("AICC_ACTOR", raising=False)
     monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
-    assert _actor() == Actor.ANDRES.value, "A person at a terminal is still the default."
+
+    _pretend_a_person_is_typing(monkeypatch, yes=False)
+    assert _actor() == Actor.SYSTEM.value, "A headless caller with no declaration is SYSTEM, not Andres."
+
+    _pretend_a_person_is_typing(monkeypatch, yes=True)
+    assert _actor() == Actor.ANDRES.value, "A person at a terminal is genuinely Andres."
 
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     assert _actor() == Actor.GITHUB_ACTIONS.value
@@ -886,14 +904,12 @@ def test_a_token_alone_does_not_turn_the_ai_worker_light_green(monkeypatch) -> N
     assert "not operational" in cap.blocking_reason
 
 
-def test_the_light_is_green_only_when_something_can_actually_run(monkeypatch) -> None:
-    from aicc import health
-    from aicc.fulfillment import worker as worker_mod
-    from aicc.state import Health
-
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    assert health.probe_ai_worker().health == Health.HEALTHY.value
+# The green half of this pair used to live here, asserting that a token plus an executable was
+# enough. That is precisely the condition the 401 exposed: in GitHub Actions both were present and
+# every call still failed, so the probe would have shown GREEN over a worker that had never run.
+# What turns the light green is now a recorded passing proof, tested under "a green light has to
+# be earned" below - `test_a_token_and_a_binary_are_not_evidence_the_worker_works` and
+# `test_a_passing_proof_is_what_turns_the_light_green`.
 
 
 def test_the_selected_worker_is_one_that_can_actually_execute(monkeypatch) -> None:
@@ -983,7 +999,8 @@ def test_redaction_keeps_the_error_readable() -> None:
 @pytest.mark.parametrize(
     "env,expected",
     [
-        ({}, "ANDRES"),
+        # No declaration and no terminal: some automation, and the log should say exactly that.
+        ({}, "SYSTEM"),
         ({"GITHUB_ACTIONS": "true"}, "GITHUB_ACTIONS"),
         ({"AICC_ACTOR": "CLAUDE"}, "CLAUDE"),
         ({"AICC_ACTOR": "claude"}, "CLAUDE"),
@@ -994,7 +1011,7 @@ def test_redaction_keeps_the_error_readable() -> None:
         ({"GITHUB_ACTIONS": "true", "AICC_ACTOR": "CLAUDE"}, "CLAUDE"),
         # Unknown automation becomes SYSTEM. Never, under any circumstance, ANDRES.
         ({"AICC_ACTOR": "some-new-runner"}, "SYSTEM"),
-        ({"AICC_ACTOR": "   "}, "ANDRES"),  # blank is not a declaration
+        ({"AICC_ACTOR": "   "}, "SYSTEM"),  # blank is not a declaration, and blank is not a person
     ],
 )
 def test_every_actor_is_attributed_correctly(monkeypatch, env: dict, expected: str) -> None:
@@ -1002,6 +1019,7 @@ def test_every_actor_is_attributed_correctly(monkeypatch, env: dict, expected: s
 
     monkeypatch.delenv("AICC_ACTOR", raising=False)
     monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    _pretend_a_person_is_typing(monkeypatch, yes=False)
     for k, v in env.items():
         monkeypatch.setenv(k, v)
     assert _actor() == expected, f"{env} should attribute to {expected}"
@@ -1013,9 +1031,30 @@ def test_unknown_automation_is_never_silently_attributed_to_andres(monkeypatch) 
     from aicc.cli import _actor
 
     monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    _pretend_a_person_is_typing(monkeypatch, yes=False)
     for unknown in ("robot", "cron", "scheduler-v2", "AGENT", "bot[]", "123"):
         monkeypatch.setenv("AICC_ACTOR", unknown)
         assert _actor() == "SYSTEM", f"{unknown!r} became {_actor()}"
+
+
+def test_an_agent_driving_the_cli_is_not_recorded_as_andres(monkeypatch) -> None:
+    """The regression that made this rule concrete.
+
+    Every `selftest` run from the agent's container landed in the audit log as ANDRES, because a
+    container is not CI and the fallback said "therefore a person". This is that exact situation:
+    no declaration, not CI, no terminal.
+    """
+    from aicc import audit
+    from aicc.cli import _actor
+
+    monkeypatch.delenv("AICC_ACTOR", raising=False)
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    _pretend_a_person_is_typing(monkeypatch, yes=False)
+
+    audit.record("safety_selftest", actor=_actor(), object_type="system", object_id="")
+    entry = next(e for e in audit.read_all(10) if e.action == "safety_selftest")
+    assert entry.actor == "SYSTEM"
+    assert entry.actor != "ANDRES", "An automated selftest was signed with a person's name."
 
 
 def test_an_actor_reaches_the_audit_log_unchanged(monkeypatch) -> None:
@@ -1029,3 +1068,94 @@ def test_an_actor_reaches_the_audit_log_unchanged(monkeypatch) -> None:
         audit.record("attribution_probe", actor=_actor(), object_type="system", object_id=declared)
     events = [e for e in audit.read_all(50) if e.action == "attribution_probe"]
     assert {e.object_id: e.actor for e in events} == {"CLAUDE": "CLAUDE", "SYSTEM": "SYSTEM", "ANDRES": "ANDRES"}
+
+
+def test_a_token_and_a_binary_are_not_evidence_the_worker_works(monkeypatch) -> None:
+    """The gap a real CI run found: credential present, CLI present, and the API answered
+    `401 OAuth access token is invalid`. Presence is a config flag; only a model call is a probe."""
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+
+    # Never proved.
+    assert not worker_proof.PROOF_FILE.exists()
+    cap = health.probe_ai_worker()
+    assert cap.health != Health.HEALTHY.value, "Green with no proof is a config flag, not a probe."
+    assert "not evidence" in cap.blocking_reason
+
+
+def test_a_failed_proof_turns_the_light_red_not_merely_white(monkeypatch) -> None:
+    """RED means broken. WHITE means unconfigured. Credential present plus a failing call is
+    broken, and the two need different responses from a person."""
+    from datetime import UTC, datetime
+
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    worker_proof.record_result(
+        {
+            "ok": False,
+            "worker_test_status": "FAILED",
+            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+            "environment": {"workflow_run_url": "https://example.invalid/run/1", "execution_environment": "runner"},
+            "results": [{"name": "Claude worker executes", "passed": False, "detail": "401 OAuth access token is invalid."}],
+        }
+    )
+    cap = health.probe_ai_worker()
+    assert cap.health == Health.DOWN.value
+    assert "401" in cap.detail
+
+
+def test_a_passing_proof_is_what_turns_the_light_green(monkeypatch) -> None:
+    from datetime import UTC, datetime
+
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    worker_proof.record_result(
+        {
+            "ok": True,
+            "worker_test_status": "VERIFIED",
+            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+            "environment": {"workflow_run_url": "https://example.invalid/run/2", "execution_environment": "GitHub Actions runner"},
+            "results": [],
+        }
+    )
+    cap = health.probe_ai_worker()
+    assert cap.health == Health.HEALTHY.value
+    assert cap.last_success
+
+
+def test_a_stale_proof_is_not_a_pass(monkeypatch) -> None:
+    """A credential that worked last week is not evidence that it works now. Tokens expire,
+    get revoked and get rotated."""
+    from datetime import UTC, datetime, timedelta
+
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    old = datetime.now(UTC) - timedelta(hours=worker_proof.PROOF_VALID_HOURS + 5)
+    worker_proof.record_result(
+        {
+            "ok": True,
+            "worker_test_status": "VERIFIED",
+            "generated_at": old.isoformat(timespec="seconds"),
+            "environment": {"workflow_run_url": "", "execution_environment": "runner"},
+            "results": [],
+        }
+    )
+    cap = health.probe_ai_worker()
+    assert cap.health == Health.DEGRADED.value
+    assert "not evidence that it works now" in cap.detail
