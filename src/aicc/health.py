@@ -15,10 +15,19 @@ from typing import Any
 
 from . import storage
 from .config import AUDIT_LOG, DATA_DIR, MAX_NEW_MONTHLY_CASH_SPEND
+from .proof_transport import WorkerState
 from .state import Capability, Health, RunState, SystemState
 
 
-def _cap(key: str, label: str, health: Health, detail: str, blocking: str = "", last_success: str = "") -> Capability:
+def _cap(
+    key: str,
+    label: str,
+    health: Health,
+    detail: str,
+    blocking: str = "",
+    last_success: str = "",
+    state: str = "",
+) -> Capability:
     return Capability(
         key=key,
         label=label,
@@ -26,6 +35,7 @@ def _cap(key: str, label: str, health: Health, detail: str, blocking: str = "", 
         detail=detail,
         blocking_reason=blocking,
         last_success=last_success,
+        state=state,
     )
 
 
@@ -90,103 +100,135 @@ def probe_opportunity_sources() -> Capability:
 
 
 def probe_ai_worker() -> Capability:
-    """Is an unattended AI worker actually available *here*, and has it actually worked?
+    """Has the AI worker actually executed, on the machine where client work runs?
 
-    GREEN requires three independent things, and each was added because the previous version
-    could show green over nothing:
+    **The recorded proof is the authority here, not this process's environment.** That ordering
+    is the correction of a real mistake: the earlier version asked `ClaudeWorker.available()`
+    first, which inspects whichever machine happens to be rendering the dashboard. That is the
+    wrong machine. Client jobs run on a GitHub Actions runner; the dashboard is built in a
+    different job which - by design now - holds no Claude credential at all. Asking the local
+    environment produced a confident answer to a question nobody asked.
 
-    1. A subscription credential - never a paid API key, which is outside the zero-cost rule.
-    2. An executor: the ``claude`` CLI on PATH. An earlier version reported HEALTHY on the
-       credential alone, while ``ClaudeWorker.execute`` raised in every environment and the
-       pipeline silently fell back to the rule-based worker.
-    3. **A passing worker proof.** Credential plus executor still is not evidence: a CI run with
-       both present failed with `401 OAuth access token is invalid`. Presence is a config flag.
-       ``state.py``'s own contract is that a capability is "derived from a live probe, never from
-       a config flag, because a config flag records an intention and a probe records reality" -
-       so the light now depends on a recorded model call that returned an exact nonce.
+    So the order is: what did the last validated proof from a runner establish? Only when no
+    proof has ever arrived does the local environment get a word, and then only to say which
+    piece is missing *here* - which is diagnostic, never a green light.
 
-    The states below say which of the three is missing, because "not configured", "cannot run
-    here" and "the credential is rejected" need three different responses from a person.
+    Three things had to be fixed to get here, each because the previous version could show green
+    over nothing:
+
+    1. A credential is not a working worker. An earlier version reported HEALTHY on the token
+       alone while ``ClaudeWorker.execute`` raised in every environment.
+    2. A credential plus an executor is not a working worker either. A CI run with both present
+       failed with `401 OAuth access token is invalid`.
+    3. A proof from the wrong machine is not a working worker. A pass on a laptop attests to that
+       laptop's credential, not to the repository secret Actions uses.
+
+    ``state.py``'s own contract is that a capability is "derived from a live probe, never from a
+    config flag, because a config flag records an intention and a probe records reality". A
+    validated attestation of a real `claude -p` call is that probe.
     """
     from . import worker_proof
     from .fulfillment.worker import ClaudeWorker
 
-    available, why = ClaudeWorker.available()
     proof = worker_proof.last_result()
+    state = proof.get("state", str(WorkerState.NOT_YET_VERIFIED))
+    reason = proof.get("reason", "")
+    run_url = proof.get("run_url", "")
+    where = f" Evidence: {run_url}" if run_url else ""
 
-    if not available:
-        if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
-            return _cap(
-                "ai_worker",
-                "AI Worker",
-                Health.DEGRADED,
-                why,
-                "Configured but not operational in this environment. The rule-based worker is "
-                "carrying the pipeline here; AI work runs on a GitHub Actions runner where the "
-                "CLI is installed.",
-            )
-        if os.environ.get("ANTHROPIC_API_KEY"):
-            return _cap(
-                "ai_worker",
-                "AI Worker",
-                Health.DEGRADED,
-                "API key present. This bills per token and is outside the Phase 1 zero-cost rule.",
-                "Paid API billing is not approved. Prefer CLAUDE_CODE_OAUTH_TOKEN.",
-            )
-        return _cap(
-            "ai_worker",
-            "AI Worker",
-            Health.NOT_CONFIGURED,
-            "No Claude credential. Rule-based worker and reviewer handle the pipeline; AI drafting and AI review are unavailable.",
-            "Run `claude setup-token` locally and add CLAUDE_CODE_OAUTH_TOKEN as a repository secret.",
-        )
-
-    if proof["state"] == "PASSED":
+    # The seven states, each mapped to the lamp it earns and the action it calls for.
+    #
+    # GREEN/RED cannot express what a person needs to do next. "Broken" and "never tried" call
+    # for different actions, and so do "the credential was rejected" and "the window is spent" -
+    # one needs a person at a browser, the other needs an hour of patience. Exactly one state may
+    # be green, and `proof_transport.GREEN_STATES` asserts that at import.
+    if state == WorkerState.HEALTHY:
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.HEALTHY,
-            f"{why} Verified: {proof['detail']}",
-            last_success=proof.get("at", ""),
+            f"Verified. {reason}",
+            last_success=proof.get("generated_at", ""),
+            state=str(WorkerState.HEALTHY),
         )
 
-    if proof["state"] == "FAILED":
+    if state == WorkerState.AUTH_FAILED:
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.DOWN,
-            f"The last worker proof FAILED: {proof['detail']}",
-            "Credential and executor are both present, so this is not a configuration gap - "
-            "something in the AI path is broken. Run `python -m aicc worker-proof`, or dispatch "
-            "the Claude worker workflow, and read the underlying error.",
+            f"AUTH FAILED. {reason}{where}",
+            "Andres must run `claude setup-token` and update the CLAUDE_CODE_OAUTH_TOKEN "
+            "repository secret. Nothing else unblocks this, and it does not recover on its own.",
+            state=str(WorkerState.AUTH_FAILED),
         )
 
-    if proof["state"] == "STALE":
+    if state == WorkerState.CAPACITY_LIMITED:
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.DEGRADED,
-            f"Credential and executor present, but the evidence is old. {proof['detail']}",
-            "Re-run the Claude worker proof to confirm the credential still works.",
+            f"CAPACITY LIMITED. {reason}{where}",
+            "Nothing to do. The window resets on its own and the consequence is waiting, never a "
+            "bill. The rule-based worker carries the pipeline meanwhile.",
+            state=str(WorkerState.CAPACITY_LIMITED),
         )
 
-    # A pass on the wrong machine. Real evidence about a real credential, but not about the
-    # environment client jobs run in, so it is worth showing and not worth going green over.
-    if proof["state"] == "PASSED_ELSEWHERE":
+    if state == WorkerState.STALE_PROOF:
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.DEGRADED,
-            f"Proved off-runner. {proof['detail']}",
-            "Dispatch the Claude worker workflow so the proof comes from where client work executes.",
+            f"STALE PROOF. {reason}{where}",
+            "The daily Claude worker run has not landed a fresh proof. Check whether the scheduled workflow is still running.",
+            state=str(WorkerState.STALE_PROOF),
         )
 
+    if state == WorkerState.DEGRADED:
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DEGRADED,
+            f"DEGRADED. {reason}{where}",
+            "The worker ran and failed for a reason that is neither auth nor capacity. Read the run linked above.",
+            state=str(WorkerState.DEGRADED),
+        )
+
+    # No valid proof has ever arrived. Only now does the local environment get a word, and only
+    # to say which piece is missing HERE - which is a different claim from "the worker is broken".
+    available, why = ClaudeWorker.available()
+    if not available and os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DEGRADED,
+            f"CONFIGURED BUT NOT OPERATIONAL. {why}",
+            "A credential is present here and nothing can run it. AI work executes on a GitHub "
+            "Actions runner where the CLI is installed; this environment is not that runner.",
+            state=str(WorkerState.CONFIGURED_NOT_OPERATIONAL),
+        )
+    if not available and os.environ.get("ANTHROPIC_API_KEY"):
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DEGRADED,
+            "CONFIGURED BUT NOT OPERATIONAL. A paid API key is present. That bills per token and is outside the zero-cost rule.",
+            "Paid API billing is not approved. Use CLAUDE_CODE_OAUTH_TOKEN instead.",
+            state=str(WorkerState.CONFIGURED_NOT_OPERATIONAL),
+        )
+
+    rejections = proof.get("rejections") or []
+    detail = f"NOT YET VERIFIED. {reason}"
+    if rejections:
+        detail += " Rejected because: " + "; ".join(str(r) for r in rejections[:3])
     return _cap(
         "ai_worker",
         "AI Worker",
         Health.NOT_CONFIGURED,
-        f"{why} But no worker proof has ever been recorded, so nothing has demonstrated that a model call actually succeeds from here.",
-        "Dispatch the Claude worker workflow. A token and a binary are not evidence.",
+        detail + where,
+        "A credential merely existing is not evidence. The Claude worker workflow must land a "
+        "validated proof from a runner before this can read HEALTHY.",
+        state=str(WorkerState.NOT_YET_VERIFIED),
     )
 
 

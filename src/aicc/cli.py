@@ -709,6 +709,70 @@ def cmd_compliance(args: argparse.Namespace) -> int:
     return 1
 
 
+def cmd_worker_proof_ingest(args: argparse.Namespace) -> int:
+    """Validate a worker-proof attestation and record what it establishes.
+
+    The privileged half of the proof transport, called by `health.yml` - which holds no Claude
+    credential and never runs a model. It reads the artifact the Claude worker uploaded, puts it
+    through `proof_transport.validate`, and writes the derived state to `data/worker_proof.json`
+    for the dashboard.
+
+    **Exit code 0 even when the proof is rejected.** A rejection is a successful validation with
+    a negative answer, and the health run must go on to commit that answer - failing the step
+    would abandon the very state the dashboard needs to show. Only an unreadable file or a
+    missing argument is an error here. The verdict is in the recorded state, never in the exit
+    code, precisely so that "the proof was refused" cannot be mistaken for "the check did not
+    run".
+    """
+    from . import proof_transport as pt
+    from . import worker_proof
+
+    payload = pt.load(args.attestation)
+    accepted, state, record = worker_proof.ingest_attestation(payload)
+
+    _print("WORKER PROOF INGEST")
+    _print("")
+    _print(f"  ARTIFACT      {args.attestation}")
+    _print(f"  VERDICT       {'ACCEPTED' if accepted else 'REJECTED'}")
+    _print(f"  WORKER STATE  {state}")
+    _print(f"  TTL           {record['ttl_hours']:.0f}h")
+    if record.get("age_hours") is not None:
+        _print(f"  PROOF AGE     {record['age_hours']:.1f}h")
+    if record.get("run_url"):
+        _print(f"  EVIDENCE      {record['run_url']}")
+    _print("")
+    _print(f"  {record['reason']}")
+    for r in record.get("rejections", []):
+        _print(f"    - {r}")
+
+    audit.record(
+        "worker_proof_ingested",
+        actor=_actor(),
+        source=_actor_source(),
+        object_type="system",
+        result="ok" if accepted else "refused",
+        after={"state": state, "accepted": accepted, "rejections": record.get("rejections", [])},
+    )
+
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+            fh.write(f"### Worker proof: {'ACCEPTED' if accepted else 'REJECTED'} - {state}\n\n")
+            fh.write("| Field | Value |\n|---|---|\n")
+            fh.write(f"| Worker state | {state} |\n")
+            fh.write(f"| Proof TTL | {record['ttl_hours']:.0f}h |\n")
+            if record.get("age_hours") is not None:
+                fh.write(f"| Proof age | {record['age_hours']:.1f}h |\n")
+            fh.write(f"| Evidence | {record.get('run_url') or 'none'} |\n\n")
+            fh.write(f"{record['reason']}\n\n")
+            for r in record.get("rejections", []):
+                fh.write(f"- {r}\n")
+            fh.write(
+                "\nThis workflow holds no Claude credential and never runs a model. It validates "
+                "the artifact the Claude worker uploaded and commits the derived state.\n"
+            )
+    return 0
+
+
 def cmd_worker_proof(args: argparse.Namespace) -> int:
     """Prove the Claude worker runs, through the path real client work uses.
 
@@ -725,6 +789,18 @@ def cmd_worker_proof(args: argparse.Namespace) -> int:
     # Recorded unconditionally: a FAILED proof is exactly as important to the dashboard as a
     # passing one, and only writing the good ones is how a light gets stuck on green.
     worker_proof.record_result(report)
+
+    # The attestation is what crosses the trust boundary. Written separately from --out (the
+    # human-readable report) because this one is parsed by another workflow, and because it
+    # carries only non-secret provenance: no evidence dict, no model output, no credential.
+    if args.attestation:
+        from pathlib import Path
+
+        path = Path(args.attestation)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(worker_proof.attestation(report), indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        _print(f"\nAttestation written to {args.attestation}")
+
     if args.out:
         from pathlib import Path
 
@@ -847,7 +923,19 @@ def build_parser() -> argparse.ArgumentParser:
     wp.add_argument("--out", default="", help="Write the JSON report to this path")
     wp.add_argument("--summary", action="store_true", help="Append a table to GITHUB_STEP_SUMMARY")
     wp.add_argument("--worker-only", action="store_true", help="Skip the reviewer pipeline leg")
+    wp.add_argument(
+        "--attestation",
+        default="",
+        help="Write the non-secret attestation here, for upload as an artifact",
+    )
     wp.set_defaults(func=cmd_worker_proof)
+
+    wpi = sub.add_parser(
+        "worker-proof-ingest",
+        help="Validate a worker-proof attestation artifact and record the derived health state",
+    )
+    wpi.add_argument("attestation", help="Path to the downloaded attestation JSON")
+    wpi.set_defaults(func=cmd_worker_proof_ingest)
 
     fv = sub.add_parser("fiverr", help="Inspect the Fiverr gig kit; mark a gig ready to publish")
     fv.add_argument("action", choices=["check", "ready", "wizard"])

@@ -31,6 +31,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from . import proof_transport
 from .config import DATA_DIR
 from .fulfillment.worker import ClaudeWorker, workspace_for
 from .models import Job
@@ -39,10 +40,10 @@ from .models import Job
 #: actual model call rather than by the presence of a token and a binary.
 PROOF_FILE = DATA_DIR / "worker_proof.json"
 
-#: How long a passing proof stays good for. A credential that worked last week is not evidence
-#: that it works now - OAuth tokens expire, get revoked, and get rotated - so a stale proof
-#: reports as stale rather than as a pass.
-PROOF_VALID_HOURS = 72.0
+#: Freshness lives in `proof_transport.PROOF_TTL_HOURS`, next to the validator that enforces it
+#: and to the worker's cron that justifies the number. Re-exported so existing callers and tests
+#: keep working, and so there is exactly one value rather than two that can drift apart.
+PROOF_VALID_HOURS = proof_transport.PROOF_TTL_HOURS
 
 
 @dataclass
@@ -87,6 +88,60 @@ def environment_facts() -> dict[str, Any]:
         "anthropic_api_key": "PRESENT" if os.environ.get("ANTHROPIC_API_KEY") else "ABSENT",
         "claude_cli": shutil.which("claude") or "NOT ON PATH",
         "mac_required_for_job_execution": "NO" if on_actions else "UNKNOWN - not running in Actions",
+        "workflow_name": os.environ.get("GITHUB_WORKFLOW", ""),
+        "repository": os.environ.get("GITHUB_REPOSITORY", ""),
+        "commit_sha": os.environ.get("GITHUB_SHA", ""),
+        "branch": os.environ.get("GITHUB_REF_NAME", ""),
+        "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT", ""),
+    }
+
+
+def attestation(report: dict[str, Any]) -> dict[str, Any]:
+    """The proof as it crosses the trust boundary: the claim, its provenance, and nothing else.
+
+    This is what `claude-worker.yml` uploads as an artifact and `health.yml` validates. It is
+    deliberately not the full report - the evidence dict can contain model output, and model
+    output came from a prompt built partly from a marketplace listing. Only booleans, identifiers
+    GitHub already publishes, and short failure strings cross over.
+
+    **No secret appears here, and none can.** `subscription_auth_path` is the NAME of the
+    environment variable used, never its value; the other credential fields are booleans about
+    presence. `environment_facts` has the same property by construction, which is why this is
+    assembled from it rather than from `os.environ` directly.
+    """
+    env = report["environment"]
+    from . import proof_transport as pt
+
+    worker_result = next((r for r in report["results"] if r["name"] == "Claude worker executes"), None)
+    attempted = worker_result is not None
+    succeeded = bool(worker_result and worker_result["passed"])
+    failures = [r["detail"] for r in report["results"] if not r["passed"]]
+
+    return {
+        "schema_version": pt.SCHEMA_VERSION,
+        # Provenance. Every one of these is cross-checked against GitHub by the validator.
+        "workflow_run_id": env.get("workflow_run_id", ""),
+        "workflow_run_url": env.get("workflow_run_url", ""),
+        "workflow_run_attempt": env.get("run_attempt", ""),
+        "workflow_name": env.get("workflow_name", ""),
+        "repository": env.get("repository", ""),
+        "commit_sha": env.get("commit_sha", ""),
+        "branch": env.get("branch", ""),
+        "runner_environment": env.get("execution_environment", ""),
+        "generated_at": report["generated_at"],
+        # What was actually attempted, and whether it worked.
+        "execution_attempted": attempted,
+        "execution_succeeded": succeeded,
+        "production_path": pt.PRODUCTION_PATH,
+        # Money. Booleans, checked before the verdict is believed.
+        "subscription_auth_path": "CLAUDE_CODE_OAUTH_TOKEN" if env.get("subscription_auth") == "PRESENT" else "NONE",
+        "anthropic_api_key_absent": env.get("anthropic_api_key") == "ABSENT",
+        "paid_fallback_disabled": True,
+        "mac_required_for_job_execution": env.get("mac_required_for_job_execution", ""),
+        # The verdict, and why if it failed.
+        "result_state": report["worker_test_status"],
+        "failures": failures,
+        "reviewer_path_proved": any(r["name"] == "Worker to reviewer, end to end" and r["passed"] for r in report["results"]),
     }
 
 
@@ -296,100 +351,97 @@ def write_report(report: dict[str, Any], path: Path) -> Path:
 
 
 def record_result(report: dict[str, Any]) -> Path:
-    """Persist the verdict where `health.probe_ai_worker` can find it.
+    """Persist a locally-run proof so `python -m aicc worker-proof` is not silently a no-op.
 
-    Only the verdict and its provenance, never the evidence dict - the proof runs on a public
-    repository and this file is committed.
+    Kept for the local path only. It writes the same attestation shape the artifact carries, so
+    `last_result` validates it through exactly the same border guard - and the guard rejects it
+    for `runner_environment`, which is correct: a laptop proves that laptop's credential, not the
+    repository secret Actions uses. The value is diagnostic, not a green light.
+
+    Never the evidence dict. The proof runs on a public repository and this file is committed.
     """
-    payload = {
-        "ok": report["ok"],
-        "worker_test_status": report["worker_test_status"],
-        "generated_at": report["generated_at"],
-        "workflow_run_url": report["environment"].get("workflow_run_url", ""),
-        "execution_environment": report["environment"].get("execution_environment", ""),
-        "failures": [r["detail"] for r in report["results"] if not r["passed"]],
-    }
     PROOF_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PROOF_FILE.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    PROOF_FILE.write_text(json.dumps(attestation(report), indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return PROOF_FILE
 
 
-def last_result() -> dict[str, Any]:
-    """The last recorded proof, with staleness resolved.
+def ingest_attestation(payload: Any, *, now: Any = None) -> tuple[bool, str, dict[str, Any]]:
+    """Validate an uploaded proof and, only if it survives, make it the recorded state.
 
-    Returns ``{"state": ...}`` where state is one of PASSED, PASSED_ELSEWHERE, FAILED, STALE or
-    NEVER_RUN. Each distinction earns its place by demanding a different response:
+    This is the privileged half of the transport, called by `health.yml` - which holds no Claude
+    credential and never runs a model. It writes `data/worker_proof.json` and returns what to
+    say about it.
 
-    * STALE vs NEVER_RUN - "this worked and should be rechecked" vs "nothing has ever shown it
-      works at all".
-    * PASSED vs PASSED_ELSEWHERE - a pass on a GitHub Actions runner is evidence about the
-      environment client jobs execute in. A pass on a laptop is evidence about that laptop, and
-      going green on it would let a good local credential mask an expired repository secret.
+    The rejected case still writes, and that is deliberate: "a proof arrived and was refused
+    because it came from the wrong workflow" is information a person needs, and dropping it would
+    leave the dashboard showing the previous, better-looking state. What a rejection can never do
+    is produce a green light.
     """
-    if not PROOF_FILE.exists():
-        return {"state": "NEVER_RUN", "detail": "No worker proof has ever been recorded."}
-    try:
-        payload = json.loads(PROOF_FILE.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError) as exc:
-        return {"state": "NEVER_RUN", "detail": f"The proof record is unreadable: {exc}"}
+    from . import proof_transport as pt
 
-    try:
-        at = datetime.fromisoformat(payload.get("generated_at", ""))
-    except ValueError:
-        return {"state": "NEVER_RUN", "detail": "The proof record has no usable timestamp."}
-    if at.tzinfo is None:
-        at = at.replace(tzinfo=UTC)
-    age_hours = (datetime.now(UTC) - at).total_seconds() / 3600.0
+    verdict = pt.validate(payload, now=now, authoritative=pt.authoritative_from_env())
 
-    if not payload.get("ok"):
-        return {
-            "state": "FAILED",
-            "detail": "; ".join(payload.get("failures") or ["The last proof failed."]),
-            "at": payload.get("generated_at", ""),
-            "run_url": payload.get("workflow_run_url", ""),
-            "age_hours": round(age_hours, 1),
-        }
-    if age_hours > PROOF_VALID_HOURS:
-        return {
-            "state": "STALE",
-            "detail": (
-                f"The last proof passed {age_hours:.0f}h ago, beyond the {PROOF_VALID_HOURS:.0f}h "
-                f"window. A credential that worked last week is not evidence that it works now."
-            ),
-            "at": payload.get("generated_at", ""),
-            "run_url": payload.get("workflow_run_url", ""),
-            "age_hours": round(age_hours, 1),
-        }
-    # A proof is only evidence about the environment it ran in.
-    #
-    # Client jobs execute on a GitHub Actions runner. A pass recorded on a laptop says the
-    # credential on THAT machine works, which is a different claim and a misleading one here:
-    # Andres could run `claude setup-token`, prove it locally, and turn the light green while the
-    # repository secret Actions uses is still the expired one that returns 401. The light would
-    # then be reporting a machine that never runs a client job.
-    #
-    # So an off-runner pass is recorded and reported, but it does not turn the light green. It is
-    # a useful signal - the token itself is good - and it is named as the partial evidence it is.
-    environment = str(payload.get("execution_environment", "") or "an unknown machine")
-    proved_where_work_runs = bool(payload.get("workflow_run_url"))
-    if not proved_where_work_runs:
-        return {
-            "state": "PASSED_ELSEWHERE",
-            "detail": (
-                f"A real model call succeeded {age_hours:.0f}h ago, but on {environment} rather "
-                f"than on a GitHub Actions runner, which is where client jobs execute. That "
-                f"proves the credential on that machine, not the repository secret Actions uses. "
-                f"Run the `Claude worker` workflow to prove the path real work takes."
-            ),
-            "at": payload.get("generated_at", ""),
-            "run_url": "",
-            "age_hours": round(age_hours, 1),
-        }
-
-    return {
-        "state": "PASSED",
-        "detail": (f"A real model call through ClaudeWorker.execute returned an exact nonce {age_hours:.0f}h ago on {environment}."),
-        "at": payload.get("generated_at", ""),
-        "run_url": payload.get("workflow_run_url", ""),
-        "age_hours": round(age_hours, 1),
+    record = {
+        "state": str(verdict.state),
+        "accepted": verdict.accepted,
+        "reason": verdict.reason,
+        "rejections": verdict.rejections,
+        "run_url": verdict.run_url,
+        "generated_at": verdict.generated_at,
+        "age_hours": verdict.age_hours,
+        "validated_at": (now or datetime.now(UTC)).isoformat(timespec="seconds"),
+        "ttl_hours": pt.PROOF_TTL_HOURS,
+        # Carried through for the dashboard, and only when the proof was believed. An unvalidated
+        # artifact must not get to put its own claims on the page.
+        "commit_sha": str(payload.get("commit_sha", "")) if verdict.accepted and isinstance(payload, dict) else "",
+        "reviewer_path_proved": bool(payload.get("reviewer_path_proved")) if verdict.accepted and isinstance(payload, dict) else False,
+        "mac_required_for_job_execution": (
+            str(payload.get("mac_required_for_job_execution", "")) if verdict.accepted and isinstance(payload, dict) else ""
+        ),
     }
+    PROOF_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PROOF_FILE.write_text(json.dumps(record, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return verdict.accepted, str(verdict.state), record
+
+
+def last_result() -> dict[str, Any]:
+    """The recorded worker state, as one of `proof_transport.WorkerState`.
+
+    Two shapes can be on disk. A record written by `ingest_attestation` is already a validated
+    verdict and is returned as-is. A raw attestation - what the local `worker-proof` command
+    writes - is put through the same validator now, so an unvalidated file can never reach the
+    dashboard as though it had been checked.
+    """
+    from . import proof_transport as pt
+
+    if not PROOF_FILE.exists():
+        return {
+            "state": str(pt.WorkerState.NOT_YET_VERIFIED),
+            "accepted": False,
+            "reason": "No worker proof has ever been recorded, so nothing has demonstrated that a real model call succeeds.",
+            "rejections": [],
+            "run_url": "",
+            "generated_at": "",
+            "age_hours": None,
+        }
+
+    payload = pt.load(PROOF_FILE)
+
+    if isinstance(payload, dict) and "__unreadable__" in payload:
+        return {
+            "state": str(pt.WorkerState.NOT_YET_VERIFIED),
+            "accepted": False,
+            "reason": f"The recorded proof is unreadable: {payload['__unreadable__']}",
+            "rejections": ["malformed: unreadable file"],
+            "run_url": "",
+            "generated_at": "",
+            "age_hours": None,
+        }
+
+    # Already a validated verdict.
+    if isinstance(payload, dict) and "state" in payload and "accepted" in payload:
+        return payload
+
+    # A raw attestation. Validate it now rather than trusting it.
+    verdict = pt.validate(payload)
+    return verdict.to_dict() | {"state": str(verdict.state)}

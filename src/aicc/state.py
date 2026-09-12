@@ -58,6 +58,14 @@ class Capability:
     detail: str = ""
     last_success: str = ""
     blocking_reason: str = ""
+    state: str = ""
+    """A finer-grained state name, where the four lamps are not enough to say what to do.
+
+    The AI Worker needs seven (`proof_transport.WorkerState`): a rejected credential needs a
+    person at a browser, a spent usage window needs nobody at all, and "never verified" is not
+    the same as "broken". All three would otherwise share one lamp, and a reader would have to
+    parse prose to tell them apart. Empty for capabilities whose lamp already says everything.
+    """
 
     @property
     def light(self) -> str:
