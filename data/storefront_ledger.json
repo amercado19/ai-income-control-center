@@ -1,0 +1,170 @@
+{
+  "listings": [
+    {
+      "andres_active_minutes": 0,
+      "claude_actual_minutes": null,
+      "claude_estimate_minutes": 1530,
+      "clicks": null,
+      "delivery_days": {
+        "Basic": 5,
+        "Premium": 18,
+        "Standard": 10
+      },
+      "derived": {
+        "click_through_rate_pct": null,
+        "conversion_rate_pct": null,
+        "net_per_claude_hour": null,
+        "note": "A rate needs at least 5 observations in its denominator. Below that it is null and renders INSUFFICIENT DATA; null is not zero."
+      },
+      "gig_key": "data_engineering",
+      "gross_revenue": 0.0,
+      "hold_reason": "",
+      "impressions": null,
+      "inquiries": null,
+      "launched_at": "",
+      "live_url": "",
+      "net_revenue": 0.0,
+      "notes": "",
+      "orders": 0,
+      "package_prices": {
+        "Basic": 125.0,
+        "Premium": 875.0,
+        "Standard": 375.0
+      },
+      "platform": "fiverr",
+      "revisions": {
+        "Basic": 1,
+        "Premium": 3,
+        "Standard": 2
+      },
+      "service": "I will build a python data pipeline with tests and scheduling",
+      "state": "READY_TO_PUBLISH",
+      "updated_at": "2026-09-12T16:49:07+00:00"
+    },
+    {
+      "andres_active_minutes": 0,
+      "claude_actual_minutes": null,
+      "claude_estimate_minutes": 840,
+      "clicks": null,
+      "delivery_days": {
+        "Basic": 5,
+        "Premium": 16,
+        "Standard": 9
+      },
+      "derived": {
+        "click_through_rate_pct": null,
+        "conversion_rate_pct": null,
+        "net_per_claude_hour": null,
+        "note": "A rate needs at least 5 observations in its denominator. Below that it is null and renders INSUFFICIENT DATA; null is not zero."
+      },
+      "gig_key": "financial_model",
+      "gross_revenue": 0.0,
+      "hold_reason": "Outside-activity review: whether publicly offering paid financial-model services conflicts with the employer's outside-activity, consulting, conflict-of-interest or IP policies. Not a Fiverr rule and not a sensitive-data leak - the gig names no employer. Unresolved until the actual policy is read. PSLF-qualifying employment depends on that standing.",
+      "impressions": null,
+      "inquiries": null,
+      "launched_at": "",
+      "live_url": "",
+      "net_revenue": 0.0,
+      "notes": "",
+      "orders": 0,
+      "package_prices": {
+        "Basic": 95.0,
+        "Premium": 625.0,
+        "Standard": 250.0
+      },
+      "platform": "fiverr",
+      "revisions": {
+        "Basic": 1,
+        "Premium": 3,
+        "Standard": 2
+      },
+      "service": "I will build an auditable financial model in excel",
+      "state": "HOLD",
+      "updated_at": "2026-09-12T16:49:30+00:00"
+    },
+    {
+      "andres_active_minutes": 0,
+      "claude_actual_minutes": null,
+      "claude_estimate_minutes": 870,
+      "clicks": null,
+      "delivery_days": {
+        "Basic": 4,
+        "Premium": 14,
+        "Standard": 7
+      },
+      "derived": {
+        "click_through_rate_pct": null,
+        "conversion_rate_pct": null,
+        "net_per_claude_hour": null,
+        "note": "A rate needs at least 5 observations in its denominator. Below that it is null and renders INSUFFICIENT DATA; null is not zero."
+      },
+      "gig_key": "scheduled_automation",
+      "gross_revenue": 0.0,
+      "hold_reason": "",
+      "impressions": null,
+      "inquiries": null,
+      "launched_at": "",
+      "live_url": "",
+      "net_revenue": 0.0,
+      "notes": "",
+      "orders": 0,
+      "package_prices": {
+        "Basic": 75.0,
+        "Premium": 440.0,
+        "Standard": 190.0
+      },
+      "platform": "fiverr",
+      "revisions": {
+        "Basic": 1,
+        "Premium": 3,
+        "Standard": 2
+      },
+      "service": "I will automate your recurring report to run on a schedule",
+      "state": "READY_TO_PUBLISH",
+      "updated_at": "2026-09-12T16:49:07+00:00"
+    },
+    {
+      "andres_active_minutes": 0,
+      "claude_actual_minutes": null,
+      "claude_estimate_minutes": 405,
+      "clicks": null,
+      "delivery_days": {
+        "Basic": 2,
+        "Premium": 5,
+        "Standard": 3
+      },
+      "derived": {
+        "click_through_rate_pct": null,
+        "conversion_rate_pct": null,
+        "net_per_claude_hour": null,
+        "note": "A rate needs at least 5 observations in its denominator. Below that it is null and renders INSUFFICIENT DATA; null is not zero."
+      },
+      "gig_key": "spreadsheet_cleanup",
+      "gross_revenue": 0.0,
+      "hold_reason": "",
+      "impressions": null,
+      "inquiries": null,
+      "launched_at": "",
+      "live_url": "",
+      "net_revenue": 0.0,
+      "notes": "",
+      "orders": 0,
+      "package_prices": {
+        "Basic": 30.0,
+        "Premium": 150.0,
+        "Standard": 75.0
+      },
+      "platform": "fiverr",
+      "revisions": {
+        "Basic": 1,
+        "Premium": 3,
+        "Standard": 2
+      },
+      "service": "I will clean and consolidate your messy excel or csv data",
+      "state": "READY_TO_PUBLISH",
+      "updated_at": "2026-09-12T16:49:07+00:00"
+    }
+  ],
+  "min_observations_for_rate": 5,
+  "updated_at": "2026-09-12T16:49:30+00:00"
+}
