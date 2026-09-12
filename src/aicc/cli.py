@@ -225,7 +225,7 @@ def cmd_start(_: argparse.Namespace) -> int:
     _print(msg)
     if ok:
         _print("")
-        for cap in state.probe_capabilities():
+        for cap in state.probe_capabilities(persist=state.probe_results_are_the_systems()):
             _print(f"  {cap.light:6s} {cap.label:24s} {cap.detail[:70]}")
     return 0 if ok else 2
 
@@ -276,7 +276,11 @@ def cmd_rearm(_: argparse.Namespace) -> int:
 
 
 def cmd_health(_: argparse.Namespace) -> int:
-    caps = state.probe_capabilities()
+    # Probed, printed, and NOT written unless this is the runner: see
+    # state.probe_results_are_the_systems. A local `aicc health` used to persist this
+    # container's free disk as the system's, and the dashboard build reads the persisted
+    # value rather than re-probing.
+    caps = state.probe_capabilities(persist=state.probe_results_are_the_systems())
     status, light = health.overall_status()
     _print(f"{BRAND_NAME}\nSYSTEM: {light} {status}\n")
     for cap in caps:

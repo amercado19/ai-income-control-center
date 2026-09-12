@@ -14,6 +14,7 @@ Two rules govern this module.
 from __future__ import annotations
 
 import json
+import os
 from collections.abc import Callable
 from dataclasses import asdict, dataclass, field
 from enum import StrEnum
@@ -432,11 +433,37 @@ def acknowledge_live_mode(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
 # ---------------------------------------------------------------------------
 
 
-def probe_capabilities(probes: dict[str, Callable[[], Capability]] | None = None) -> list[Capability]:
-    """Run every capability probe and persist the results.
+def probe_results_are_the_systems() -> bool:
+    """Whether a probe result describes the system or just the machine that ran it.
+
+    Probe output is machine-specific - free disk space, whether a binary is on PATH, how long ago
+    the scheduler ran here. On a runner that is the system's state. On a laptop or an agent's
+    container it is a fact about that box, and persisting it puts it on a published dashboard as
+    though it were production: a local `aicc health` was writing "Writable. 30,420 MB free." over
+    the runner's 88,015 MB, and the dashboard build reads the persisted value rather than
+    re-probing.
+
+    Same rule as `worker_proof.PROOF_FILE`, for the same reason, found the same way - a diagnostic
+    that mutates shared state. Third instance in this codebase; hence a named predicate rather
+    than an inline environment check repeated at each call site.
+    """
+    return os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+def probe_capabilities(
+    probes: dict[str, Callable[[], Capability]] | None = None,
+    *,
+    persist: bool = True,
+) -> list[Capability]:
+    """Run every capability probe and, by default, persist the results.
 
     Each probe returns a Capability reflecting what it actually observed. A probe that raises is
     recorded as DOWN with the exception text - never silently green.
+
+    `persist=False` runs the probes and returns them without writing, for callers that are asking
+    about the machine in front of them rather than recording the system's state. Callers decide
+    with `probe_results_are_the_systems()`; the default stays True so the pipeline and the tests
+    keep their existing behaviour, and only the diagnostics opt out.
     """
     from .health import DEFAULT_PROBES
 
@@ -455,7 +482,8 @@ def probe_capabilities(probes: dict[str, Callable[[], Capability]] | None = None
             )
         results.append(cap)
 
-    st = SystemState.load()
-    st.capabilities = {c.key: c.to_dict() for c in results}
-    st.save()
+    if persist:
+        st = SystemState.load()
+        st.capabilities = {c.key: c.to_dict() for c in results}
+        st.save()
     return results
