@@ -93,7 +93,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "617 events recorded.",
+      "detail": "618 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "state": "",
@@ -113,7 +113,7 @@
       "key": "ai_worker",
       "label": "AI Worker",
       "health": "DOWN",
-      "detail": "AUTH FAILED. The Claude credential was rejected. This does not recover on its own - it needs a new token from `claude setup-token`. Evidence: https://github.com/amercado19/ai-income-control-center/actions/runs/34695682501",
+      "detail": "AUTH FAILED. The Claude credential was rejected. This does not recover on its own - it needs a new token from `claude setup-token`. Evidence: https://github.com/amercado19/ai-income-control-center/actions/runs/34699557722",
       "last_success": "",
       "blocking_reason": "Andres must run `claude setup-token` and update the CLAUDE_CODE_OAUTH_TOKEN repository secret. Nothing else unblocks this, and it does not recover on its own.",
       "state": "AUTH FAILED",
@@ -162,6 +162,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-12T14:13:59+00:00",
+  "updated_at": "2026-09-12T14:36:39+00:00",
   "has_real_revenue": false
 }
