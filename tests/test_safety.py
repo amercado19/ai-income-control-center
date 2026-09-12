@@ -1527,3 +1527,59 @@ def test_verify_does_not_mutate_the_repositorys_data() -> None:
     assert "cp -R data" in body, "the temp store is not a copy of the real one"
     for destructive in ("git checkout data", "git restore", "git reset"):
         assert destructive not in body, f"verify.sh must never run `{destructive}` on a person's work"
+
+
+def test_a_local_health_run_does_not_write_the_systems_state(monkeypatch, capsys) -> None:
+    """Third instance of one pattern: a diagnostic mutating shared state.
+
+    Probe output is machine-specific - free disk, whether a binary is on PATH, how long ago the
+    scheduler ran *here*. The dashboard build reads the PERSISTED capabilities rather than
+    re-probing, so a local `aicc health` was writing this container's free disk over the runner's
+    and would have published it. On a runner the same probe result IS the system's state, so the
+    rule is about where it ran, not about which command asked.
+    """
+    import argparse
+
+    from aicc import state as state_mod
+    from aicc.cli import cmd_health
+
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+
+    state_mod.probe_capabilities()  # seed a persisted set, as a runner would
+    before = state_mod.SystemState.load().capabilities
+    assert before, "nothing was persisted, so the test proves nothing"
+
+    sentinel = {"key": "storage", "label": "Storage", "health": "HEALTHY", "detail": "FROM THE RUNNER"}
+    st = state_mod.SystemState.load()
+    st.capabilities = dict(st.capabilities) | {"storage": sentinel}
+    st.save()
+
+    assert cmd_health(argparse.Namespace()) == 0
+    capsys.readouterr()
+
+    after = state_mod.SystemState.load().capabilities
+    assert after["storage"]["detail"] == "FROM THE RUNNER", (
+        "a local health run overwrote the persisted capability with this machine's reading"
+    )
+
+
+def test_on_a_runner_the_probe_result_is_the_systems_state(monkeypatch, capsys) -> None:
+    """The other half. Refusing to persist everywhere would leave the dashboard reading a stale
+    capability set forever, which is the same dishonesty wearing different clothes."""
+    import argparse
+
+    from aicc import state as state_mod
+    from aicc.cli import cmd_health
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    assert state_mod.probe_results_are_the_systems()
+
+    st = state_mod.SystemState.load()
+    st.capabilities = {"storage": {"key": "storage", "label": "Storage", "health": "HEALTHY", "detail": "STALE"}}
+    st.save()
+
+    assert cmd_health(argparse.Namespace()) == 0
+    capsys.readouterr()
+
+    after = state_mod.SystemState.load().capabilities
+    assert after["storage"]["detail"] != "STALE", "a runner's probe must replace the recorded state"
