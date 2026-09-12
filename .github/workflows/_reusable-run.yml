@@ -64,7 +64,20 @@ jobs:
       AICC_RUN_ID: ${{ github.run_id }}
       AICC_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
+      # Branch tip, not the SHA the run was dispatched at.
+      #
+      # The default checks out `github.sha`, frozen when the run started. That broke the moment a
+      # workflow gained an earlier job that commits: `health.yml` now validates the worker proof
+      # in an `ingest` job and commits the derived state, and this job - running after it - read
+      # the pre-ingest file and reported the worker as unverified with a malformed proof. The
+      # ordering was right and the checkout was stale, which is a confusing way to be wrong.
+      #
+      # Resolving the ref at clone time picks up whatever earlier jobs committed. It also suits a
+      # pipeline that commits its own data: operating on the tip is what every one of these runs
+      # actually means to do.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
