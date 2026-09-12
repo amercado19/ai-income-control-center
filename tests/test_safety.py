@@ -1441,3 +1441,89 @@ def test_a_blocked_proposal_card_offers_no_approve_button() -> None:
     assert card["policy_gate"], "The card does not say the listing is blocked."
     assert card["severity"] == "stop"
     assert not any(a["label"] == "APPROVE" for a in card["actions"])
+
+
+# --------------------------------------------------------------- one list of checks, not two
+
+
+def _ci_test_job_steps() -> list[str]:
+    """The named steps of ci.yml's `test` job, in order.
+
+    Parsed rather than hardcoded, so this cannot pass by agreeing with a stale copy of CI.
+    """
+    import re
+    from pathlib import Path
+
+    ci = (Path(__file__).resolve().parents[1] / ".github/workflows/ci.yml").read_text(encoding="utf-8")
+    return re.findall(r"^      - name: (.+)$", ci, flags=re.MULTILINE)
+
+
+def test_ci_and_verify_run_the_same_checks() -> None:
+    """Nine consecutive red CI runs, and not one of them was a bug in the code.
+
+    The local checks were assembled by hand - pytest, ruff, mypy, the self-test - and the secret
+    scan was never in the hand-assembled list. So the suite was green locally and red remotely
+    for nine commits, over a test fixture shaped like a credential. The lesson is not "remember
+    the secret scan": it is that two lists of checks drift, silently, and the drift shows up as
+    a red badge nobody trusts.
+
+    `scripts/verify.sh` is the one local entrypoint. This test is what keeps it honest: add a
+    step to CI without adding it there and the suite fails here, naming the step.
+    """
+    from pathlib import Path
+
+    verify = (Path(__file__).resolve().parents[1] / "scripts/verify.sh").read_text(encoding="utf-8")
+
+    # Installing dependencies is CI provisioning a fresh runner; a local shell already has them.
+    provisioning = {"Install dev tooling"}
+
+    missing = [s for s in _ci_test_job_steps() if s not in provisioning and s not in verify]
+    assert not missing, (
+        "ci.yml runs checks that scripts/verify.sh does not, so a local run can be green while "
+        f"CI is red: {missing}. Add them to scripts/verify.sh."
+    )
+
+
+def test_verify_is_runnable_and_fails_loudly() -> None:
+    """A verify script that exits 0 on a failed check is worse than no verify script: it converts
+    "I did not check" into "I checked and it was fine".
+
+    Runnability is asserted as "has a shebang", not as "has the executable bit". This repository
+    is pushed through GitHub's web upload form, which does not carry file modes, so the bit
+    cannot survive the transport - and a test asserting a property the transport cannot deliver
+    is a permanently red check, which is the exact failure this section of the file exists to
+    stop. `bash scripts/verify.sh` works either way.
+    """
+    from pathlib import Path
+
+    path = Path(__file__).resolve().parents[1] / "scripts/verify.sh"
+    body = path.read_text(encoding="utf-8")
+    assert body.startswith("#!"), "scripts/verify.sh has no shebang"
+    assert "exit 1" in body, "the script never fails"
+    # `set -e` would abandon the run at the first failure and report only that one. Collecting
+    # failures is deliberate: the point of a pre-push check is to learn everything that is wrong.
+    assert "set -e\n" not in body and "set -eu" not in body, "aborting early hides later failures"
+    assert "failed+=" in body, "failures are not collected"
+
+
+def test_verify_does_not_mutate_the_repositorys_data() -> None:
+    """The script's own comment claims this, so the claim is checked.
+
+    `selftest` and `demo` both write operational state, and CI commits that state deliberately.
+    A local pre-push run must not: it would leave the working tree dirty with events that did
+    not happen in production, and the next commit would carry them. Asserted structurally
+    because the alternative - restoring data/ afterwards - would destroy real local changes.
+    """
+    from pathlib import Path
+
+    body = (Path(__file__).resolve().parents[1] / "scripts/verify.sh").read_text(encoding="utf-8")
+
+    assert "AICC_DATA_DIR" in body, "the script does not redirect the data directory"
+    assert "AICC_WORKSPACE_ROOT" in body, "the script does not redirect client workspaces"
+    assert "mktemp -d" in body, "the redirect does not point somewhere disposable"
+    assert "trap " in body and "rm -rf" in body, "the temp directory is never cleaned up"
+    # The steps must see real data, not an empty store: a dashboard built from nothing verifies
+    # nothing, and that failure mode is invisible because the build still succeeds.
+    assert "cp -R data" in body, "the temp store is not a copy of the real one"
+    for destructive in ("git checkout data", "git restore", "git reset"):
+        assert destructive not in body, f"verify.sh must never run `{destructive}` on a person's work"

@@ -316,7 +316,20 @@ def test_load_turns_an_unreadable_file_into_data_rather_than_an_exception(tmp_pa
 # ---------------------------------------------------------------- the token never crosses
 
 
-FAKE_TOKEN = "sk-ant-oat01-THIS-IS-THE-SECRET-VALUE-abcdefghijklmnop"
+#: Deliberately NOT shaped like a real credential.
+#:
+#: The first version of this was `sk-ant-oat01-...`, and the secret scanner flagged it on every
+#: CI run for nine commits - correctly. A scanner that can tell a decoy from a credential is a
+#: scanner that can be fooled by a decoy, so the right move is not to teach it the difference,
+#: and not to allowlist the file either: a whole-file exemption would mean a real token pasted
+#: in here while debugging goes unnoticed forever.
+#:
+#: Nothing is lost. The property under test is that the VALUE of the environment variable never
+#: reaches the attestation, and `attestation` never reads that value at all - it writes the
+#: variable's name. No code in the path inspects the shape of a credential or redacts by
+#: pattern, so a value that cannot be mistaken for a credential proves exactly the same thing,
+#: and says more plainly what is being asserted.
+SENTINEL_TOKEN_VALUE = "TOKEN-VALUE-THAT-MUST-NEVER-REACH-A-PROOF-9c1f4e"
 
 
 def test_the_oauth_token_never_appears_in_the_attestation(monkeypatch) -> None:
@@ -329,7 +342,7 @@ def test_the_oauth_token_never_appears_in_the_attestation(monkeypatch) -> None:
     """
     from aicc import worker_proof
 
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", FAKE_TOKEN)
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", SENTINEL_TOKEN_VALUE)
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     monkeypatch.setenv("GITHUB_RUN_ID", "123")
     monkeypatch.setenv("GITHUB_WORKFLOW", pt.EXPECTED_WORKFLOW)
@@ -346,10 +359,20 @@ def test_the_oauth_token_never_appears_in_the_attestation(monkeypatch) -> None:
     }
     blob = __import__("json").dumps(worker_proof.attestation(report))
 
-    assert FAKE_TOKEN not in blob, "The OAuth token value reached the attestation."
+    assert SENTINEL_TOKEN_VALUE not in blob, "The OAuth token value reached the attestation."
     assert "sk-ant" not in blob, "Something token-shaped reached the attestation."
     # The NAME is expected and carries no secret.
     assert "CLAUDE_CODE_OAUTH_TOKEN" in blob
+
+    # Wider than the one variable: no value of any credential-ish environment variable may
+    # appear, so a field added later that happens to carry one fails here rather than in public.
+    import os
+
+    for name, value in os.environ.items():
+        if not value or len(value) < 8:
+            continue
+        if any(mark in name.upper() for mark in ("TOKEN", "KEY", "SECRET", "PASSWORD", "CREDENTIAL")):
+            assert value not in blob, f"the value of {name} reached the attestation"
 
 
 def test_the_attestation_carries_no_model_output(monkeypatch) -> None:
@@ -383,7 +406,7 @@ def test_every_attestation_field_is_a_boolean_or_a_public_identifier(monkeypatch
     except the failure strings, which are the point of a failed proof."""
     from aicc import worker_proof
 
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", FAKE_TOKEN)
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", SENTINEL_TOKEN_VALUE)
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     report = {
         "generated_at": NOW.isoformat(timespec="seconds"),
@@ -397,7 +420,7 @@ def test_every_attestation_field_is_a_boolean_or_a_public_identifier(monkeypatch
             continue
         assert isinstance(value, bool | int | str), f"{key} is {type(value).__name__}"
         if isinstance(value, str):
-            assert FAKE_TOKEN not in value
+            assert SENTINEL_TOKEN_VALUE not in value
 
 
 # ---------------------------------------------------------------- the ingest side
