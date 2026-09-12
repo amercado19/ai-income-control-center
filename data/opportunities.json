@@ -6254,6 +6254,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_6ed4a489bd40": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80,
+    "budget_min": 40,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T15:10:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T08:14:40+00:00",
+    "description": "Role Title: Aerospace CAD Expert Role Type: Contractor Location: Remote micro1 is engaging Aerospace CAD Experts to contribute to a dynamic customer project centered on high-fidelity, multi-part aerospace assemblies. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. If you have a background in mechanical engineering, aerospace, or industrial design and thrive on technical precision, this is an exciting chance to impact the future of engineering design support tools. Scope of Work Author objective, multi-part questions about aerospace assemblies, focusing on non-guessable queries that require exact, technical answers. Review native FreeCAD files to analyze and understand complex mechanical assemblies. Develop several high-quality questions per assembly, ensuring coverage of key features, functions, and relationships between parts. Deliver clear, well-researched answers to each question with reference to the assembly data. Collaborate via writing and occasional verbal communication to clarify requirements and ensure technical accuracy. Maintain a standards-driven approach, ensuring questions and answers are comprehensive, relevant, and program-agnostic. Contribute to documentation and feedback processes to improve future question sets and project workflows. Preferred \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T151037Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 300.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/aerospace-cad-expert",
+    "id": "opp_6ed4a489bd40",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T08:14:40+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 40.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $300 on $300 (100% margin). $64 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $80 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "cad-specialist",
+      "aerospace-engineering-consultant",
+      "aerospace-subject-matter-expert",
+      "aerospace-consultant",
+      "aerospace-engineer",
+      "technical-cad-specialist",
+      "aircraft-design-engineer",
+      "cad-designer",
+      "aerospace-design"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Aerospace CAD Expert",
+    "updated_at": "2026-09-12T15:10:39+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/aerospace-cad-expert",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area the NFL/MLB pipelines genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_7c9a918f4364": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6623,6 +6765,142 @@
           "from": "30%",
           "to": "36%",
           "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_8fc2b1f42bd7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80,
+    "budget_min": 40,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T15:10:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T10:53:52+00:00",
+    "description": "Role Title: Mechanical CAD Expert Role Type: Contractor Location: Remote micro1 is engaging Mechanical CAD Experts to contribute to a customer project focused on advanced engineering assemblies. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. Scope of Work Analyze multi-part mechanical assemblies provided in native FreeCAD files, ensuring full understanding of component relationships and assembly design intent. Develop objective, non-guessable, and precise question-and-answer sets for each assigned assembly, focusing on technical accuracy and clarity. Create several detailed technical questions per assembly, covering mechanical functions, design rationale, and dimensional considerations. Format each question and corresponding answer to be unambiguous and aligned with real-world engineering standards. Submit high-quality deliverables within agreed-upon project parameters, maintaining clear and prompt communication with project coordinators. Leverage written and verbal communication skills to clarify ambiguities and collaborate effectively within a distributed team environment. Preferred Qualifications Proven background in mechanical engineering, aerospace, or industrial design, with strong foundational and applied CAD knowledge. Expertise in interpreting and analyzing complex mechanical assemblies and engineering drawings. Familiarity with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T151037Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 300.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/mechanical-cad-expert",
+    "id": "opp_8fc2b1f42bd7",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T10:53:52+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 64.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $300 on $300 (100% margin). $64 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $80 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 64.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "mechanical-cad-designer",
+      "technical-cad-specialist",
+      "cad-specialist",
+      "mechanical-cad-support",
+      "autocad-specialist",
+      "cad-engineer",
+      "mechanical-drafter",
+      "mechanical-designer",
+      "cad-mechanical-design-writer",
+      "cad-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Mechanical CAD Expert",
+    "updated_at": "2026-09-12T15:10:39+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/mechanical-cad-expert",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
         },
         {
           "effect": "-10%",
@@ -10537,6 +10815,136 @@
       "probability_low": 45.0
     }
   },
+  "opp_cdaeb0589376": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 40,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T15:10:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T13:26:15+00:00",
+    "description": "Role Title: Cantonese Language Evaluator Role Type: Contractor Location: Remote micro1 is engaging Cantonese Language Evaluators to contribute to a language-focused project supporting a valued customer. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. As a native Cantonese speaker, you will participate in internal evaluation tasks using micro1 's proprietary system, directly impacting the quality and accuracy of language technologies. Scope of Work Assess Cantonese text and speech data for linguistic accuracy, fluency, and contextual appropriateness using internal tools. Provide detailed feedback on model outputs to identify errors, ambiguities, and improvement opportunities. Participate in data annotation, labeling, and categorization assignments tailored to natural language processing development. Collaborate with project leads to refine tasks, clarify evaluation criteria, and escalate complex language cases as needed. Follow established project guidelines and maintain consistency and quality across all deliverables. Document insights and recommendations to support continuous improvement of evaluation processes and system outputs. Support ad hoc linguistic quality reviews based on evolving project needs and priorities. Preferred Qualifications Native proficiency \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T151037Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/cantonese-language-evaluator",
+    "id": "opp_cdaeb0589376",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T13:26:15+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "cantonese-language-specialist",
+      "linguistic-evaluator",
+      "language-evaluator",
+      "language-evaluation-specialist",
+      "language-content-evaluator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cantonese Language Evaluator",
+    "updated_at": "2026-09-12T15:10:39+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/cantonese-language-evaluator",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d58eb2beae65": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10670,6 +11078,137 @@
       ],
       "probability_high": 45.0,
       "probability_low": 25.0
+    }
+  },
+  "opp_d8f90ed65252": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 140,
+    "budget_min": 90,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T15:10:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T09:50:58+00:00",
+    "description": "Role Title: Product Manager / Product Owner Role Type: Contractor Location: Remote micro1 is engaging Product Managers and Product Owners as expert contributors to an advanced customer project focused on AI system development. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This is strictly an evaluation and analysis opportunity. It does not involve roadmap ownership, delivery management, sprint facilitation, stakeholder leadership, or programme governance. Contributors with backgrounds in project management, programme management, delivery, or scrum leadership should not apply \u2014 this engagement requires deep product management and product ownership skills in content and specification evaluation. Scope of Work Assess and compare AI-generated responses to a variety of writing prompts, including specifications, release notes, user-facing copy, and stakeholder updates. Score each response based on clarity, tone, adherence to instructions, and usefulness for the intended audience. Write detailed rationales explaining the reasoning behind each score, focusing on whether the content meets prompt requirements and audience needs. Identify and document cases where fluent writing fails to answer the question, or complete responses are unsuitable for users. Spot factual \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T151037Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 675.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/product-manager-product-owner",
+    "id": "opp_d8f90ed65252",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T09:50:58+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 45.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $675 on $675 (100% margin). $144 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $180 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "product-manager",
+      "product-owner",
+      "product-management",
+      "software-product-owner",
+      "product-product-management",
+      "product"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Product Manager/Product Owner",
+    "updated_at": "2026-09-12T15:10:39+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/product-manager-product-owner",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_d944c459b1f5": {
