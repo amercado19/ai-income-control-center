@@ -11,7 +11,11 @@
 # asserts that every command in ci.yml's `test` job appears here - so adding a step to CI without
 # adding it here fails the suite, which is the only thing that keeps two lists in step.
 #
-# Usage: ./scripts/verify.sh
+# Usage: bash scripts/verify.sh
+#
+# Invoked through `bash` rather than `./` because this repository is pushed through GitHub's web
+# upload form, which does not carry file modes - so the executable bit does not survive the trip
+# and cannot be relied on in a fresh clone.
 #
 # Deliberately NOT what CI does in one respect: nothing here writes to the repository's data/.
 # The self-test and the demo lifecycle both mutate operational state, and CI commits that state
