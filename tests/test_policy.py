@@ -293,3 +293,85 @@ def test_the_verdict_carries_the_capability_matrix_for_that_source() -> None:
     v = policy.evaluate(_opp("Role", "Build a dashboard.", source="upwork"))
     assert v.discovery_capability == Capability.ASSISTED.value
     assert v.submission_capability == Capability.HUMAN_REQUIRED.value
+
+
+# ------------------------------------- the shape that slipped through both filters at once
+
+
+def test_a_contract_that_converts_to_permanent_is_a_pslf_conflict() -> None:
+    """The listing that was live on the dashboard when this was written.
+
+    "Senior Backend Engineer, Payments | REMOTE | Contract to permanent | $120-160/hr" passed the
+    screen with no gate at all and was ranked NOW - first out of eighty-five listings, the single
+    most attractive thing on the board. It matched no employment word, because "contract to
+    permanent" contains neither "permanent position" nor "permanent role", so the check returned
+    clear on its first line and nothing downstream had another chance to catch it.
+
+    A contract-to-permanent posting is an employment offer with a probation period on the front.
+    Seven years of qualifying payments do not survive taking one by default.
+    """
+    from aicc.models import Opportunity
+
+    opp = Opportunity(
+        title="Senior Backend Engineer, Payments, Ledger & Provable Fairness",
+        description=(
+            "Noricum | Senior Backend Engineer, Payments, Ledger & Provable Fairness | "
+            "REMOTE (2h overlap with US Pacific) | Contract to permanent | $120-160/hr | "
+            "Start by 14 Sep. I'm the founder of Noricum where we build the money infrastructure, "
+            "ledger, engine and payment rails behind a product."
+        ),
+    )
+    verdict = policy.evaluate(opp)
+    assert not verdict.allowed
+    assert verdict.gates[0]["gate"] == policy.Gate.PSLF.value
+    assert "contract to permanent" in verdict.gates[0]["matches"]
+
+
+@pytest.mark.parametrize(
+    "description",
+    [
+        "Backend engineer. Contract-to-hire, 6 month contract then permanent.",
+        "Data analyst, temp to perm after 90 days.",
+        "Start as a contractor with a clear path to full-time for the right person.",
+        "Senior engineer, C2H, remote.",
+        "6 month engagement with a view to permanent.",
+        "Contractor role that converts to full-time after the trial period.",
+    ],
+)
+def test_every_route_into_employment_is_caught_however_it_is_worded(description: str) -> None:
+    from aicc.models import Opportunity
+
+    verdict = policy.evaluate(Opportunity(title="Engineer", description=description))
+    assert not verdict.allowed, f"{description!r} passed the PSLF screen"
+    assert verdict.gates[0]["gate"] == policy.Gate.PSLF.value
+
+
+@pytest.mark.parametrize(
+    "description",
+    [
+        "Contract Python developer needed for a fixed-price data cleanup contract. 20 hours.",
+        "Seeking an independent contractor on a project basis. Contract signed per project.",
+        "Hourly contract, freelance, roughly 10 hours of work total.",
+        "Short-term contract to build one dashboard. One-time project.",
+        "Consulting engagement, contract attached, two weeks of work.",
+    ],
+)
+def test_ordinary_contract_work_is_not_rejected_for_using_the_word(description: str) -> None:
+    """The amendment is explicit: 'Do not reject legitimate side projects merely because the
+    listing uses the word contract.' A filter that fired on 'contract' would reject most of the
+    freelance market, which is the entire business."""
+    from aicc.models import Opportunity
+
+    verdict = policy.evaluate(Opportunity(title="Developer", description=description))
+    assert verdict.allowed, f"{description!r} was rejected for saying 'contract'"
+
+
+def test_a_conversion_role_at_a_qualifying_employer_is_not_a_conflict() -> None:
+    """PSLF is about who the employer is, not about the shape of the contract. Converting to
+    permanent at a 501(c)(3) keeps the clock running."""
+    from aicc.models import Opportunity
+
+    verdict = policy.evaluate(
+        Opportunity(title="Engineer", description="Contract to permanent role at our nonprofit, a 501c3 organization.")
+    )
+    assert verdict.allowed

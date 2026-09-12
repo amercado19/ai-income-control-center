@@ -172,3 +172,87 @@ def test_portfolio_totals_say_available_not_earned() -> None:
     totals = profit.totals([profit.build(_opp()), profit.build(_opp(budget_min=50, budget_max=50))])
     assert "Available, not captured" in totals["note"]
     assert totals["total_available_profit"] > 0
+
+
+# ------------------------------------ the rules have to be wired to something, not just tested
+
+
+def test_work_the_standing_rules_forbid_is_never_profitable() -> None:
+    """The defect this exists for, and the most serious one found in this project.
+
+    ``policy.py`` held every standing rule - the PSLF hard reject, the personal-information gate,
+    the commitment gate - and was imported by exactly two modules: ``selftest`` and
+    ``compliance``. It proved itself against synthetic cases and lit nine green indicators, and
+    the scheduler never asked it anything.
+
+    So a for-profit "Contract to permanent" engineering role sat at position NOW on the live
+    dashboard, ranked first out of eighty-five listings, while the compliance page two clicks
+    away showed PSLF PROTECTION green. Both screens were accurate about what they measured. The
+    governance layer was a self-test, not a filter.
+    """
+    from aicc import profit
+    from aicc.models import Opportunity
+
+    opp = Opportunity(
+        title="Senior Backend Engineer, Payments",
+        description=(
+            "REMOTE | Contract to permanent | $120-160/hr. We build the ledger and payment rails "
+            "behind a production product. Start by 14 Sep."
+        ),
+        budget_min=1200.0,
+        budget_max=1600.0,
+    )
+    prof = profit.build(opp)
+
+    assert not prof.policy_allowed
+    assert prof.policy_gate == "HARD REJECT — PSLF CONFLICT"
+    assert not prof.is_profitable, "A blocked listing must not be schedulable, however valuable."
+    assert prof.expected_gross_revenue > 0, "It should still carry its value, so the decline is visible."
+
+
+def test_a_blocked_listing_never_reaches_the_queue() -> None:
+    """End to end through the real scheduler, not the flag in isolation."""
+    from aicc import profit, scheduler
+    from aicc.models import Opportunity
+
+    blocked = profit.build(
+        Opportunity(
+            title="Staff Engineer",
+            description="Contract-to-hire, converts to a permanent salaried role after six months. $150/hr.",
+            budget_min=2000.0,
+            budget_max=2000.0,
+        )
+    )
+    fine = profit.build(
+        Opportunity(
+            title="Consolidate twelve monthly CSV exports into one workbook",
+            description=(
+                "Fixed-price project. Twelve monthly exports with different column names, consolidated into "
+                "one clean workbook with a summary tab and a Python script we can re-run. One week."
+            ),
+            budget_min=500.0,
+            budget_max=500.0,
+        )
+    )
+
+    candidates = [scheduler.Candidate(p) for p in (blocked, fine) if p.is_profitable]
+    titles = {c.profile.title for c in candidates}
+    assert "Staff Engineer" not in titles
+    assert "Consolidate twelve monthly CSV exports into one workbook" in titles
+
+
+def test_ordinary_project_work_still_passes_the_gate() -> None:
+    """The gate must not become a filter that rejects the business it exists to protect."""
+    from aicc import profit
+    from aicc.models import Opportunity
+
+    prof = profit.build(
+        Opportunity(
+            title="Clean up a messy sales spreadsheet",
+            description="Freelance, fixed-price contract. One xlsx, normalise the columns, about a week.",
+            budget_min=400.0,
+            budget_max=600.0,
+        )
+    )
+    assert prof.policy_allowed
+    assert prof.policy_gate == ""

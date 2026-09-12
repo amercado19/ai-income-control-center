@@ -415,3 +415,60 @@ def test_an_invalid_gig_cannot_be_marked_ready() -> None:
     ok, msg = fiverr_kit.mark_ready("no_such_gig", actor="CLAUDE")
     assert not ok
     assert "No gig with key" in msg
+
+
+# ------------------------------------------- what each tier costs in Claude, not just in hours
+
+
+def test_every_published_tier_can_be_delivered_within_its_own_promise() -> None:
+    """The gap this closes.
+
+    The kit priced every tier against Andres's hours and said nothing about the resource the rest
+    of the system treats as scarce. A gig could therefore promise a five-day turnaround on work
+    whose AI demand does not fit five days of windows, and nothing would have said so until a real
+    buyer was already waiting - which is the one moment when the answer cannot be changed.
+    """
+    from aicc import fiverr_kit
+
+    for gig in fiverr_kit.all_gigs():
+        for row in fiverr_kit.capacity_outlook(gig):
+            assert row["fits_delivery_window"], (
+                f"{gig.key} {row['package']} promises {row['delivery_days']} days but needs "
+                f"{row['total_demand_minutes']:.0f} min of Claude: {row['reason']}"
+            )
+
+
+def test_the_capacity_outlook_reports_real_claude_minutes_not_a_placeholder() -> None:
+    from aicc import fiverr_kit
+
+    for gig in fiverr_kit.all_gigs():
+        rows = fiverr_kit.capacity_outlook(gig)
+        assert len(rows) == len(gig.packages)
+        for row, pkg in zip(rows, gig.packages, strict=True):
+            assert row["claude_minutes"] == pytest.approx(pkg.est_ai_hours * 60.0)
+            # Demand is never the bare worker pass: QA, one revision and a margin are included.
+            assert row["total_demand_minutes"] > row["claude_minutes"]
+
+
+def test_a_tier_that_cannot_be_delivered_on_time_is_caught_before_publishing() -> None:
+    """A gate that cannot fail is not a gate. Forty hours of AI work promised in one day is the
+    shape of the mistake this exists to catch - and it must read as unfit, not merely tight."""
+    from dataclasses import replace
+
+    from aicc import fiverr_kit
+
+    gig = fiverr_kit.all_gigs()[0]
+    impossible = replace(gig, packages=[replace(gig.packages[0], name="Impossible", est_ai_hours=40.0, delivery_days=1)])
+    row = fiverr_kit.capacity_outlook(impossible)[0]
+
+    assert not row["fits_delivery_window"]
+    assert row["status"] == "RISKY"
+    assert "exceeds" in row["reason"]
+
+
+def test_the_summary_carries_the_outlook_so_the_dashboard_can_show_it() -> None:
+    from aicc import fiverr_kit
+
+    for gig in fiverr_kit.summary()["gigs"]:
+        assert gig["capacity_outlook"], f"{gig['key']} has no capacity outlook"
+        assert {r["package"] for r in gig["capacity_outlook"]} == {p["name"] for p in gig["packages"]}
