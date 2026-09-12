@@ -901,6 +901,7 @@ def test_a_token_alone_does_not_turn_the_ai_worker_light_green(monkeypatch) -> N
     run, and would have gone on showing it forever."""
     from aicc import health
     from aicc.fulfillment import worker as worker_mod
+    from aicc.proof_transport import WorkerState
     from aicc.state import Health
 
     monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
@@ -910,7 +911,9 @@ def test_a_token_alone_does_not_turn_the_ai_worker_light_green(monkeypatch) -> N
     cap = health.probe_ai_worker()
     assert cap.health != Health.HEALTHY.value, "Green with no executor is a config flag, not a probe."
     assert cap.health == Health.DEGRADED.value
-    assert "not operational" in cap.blocking_reason
+    # The state names the situation exactly: the pieces are here and the thing does not work.
+    assert str(WorkerState.CONFIGURED_NOT_OPERATIONAL) in cap.detail
+    assert "runner" in cap.blocking_reason
 
 
 # The green half of this pair used to live here, asserting that a token plus an executable was
@@ -1079,6 +1082,36 @@ def test_an_actor_reaches_the_audit_log_unchanged(monkeypatch) -> None:
     assert {e.object_id: e.actor for e in events} == {"CLAUDE": "CLAUDE", "SYSTEM": "SYSTEM", "ANDRES": "ANDRES"}
 
 
+def _runner_attestation(**over):
+    """An attestation as `claude-worker.yml` would upload it, so these tests exercise the real
+    transport rather than a shape that only exists in a test."""
+    from datetime import UTC, datetime
+
+    from aicc import proof_transport as pt
+
+    payload = {
+        "schema_version": pt.SCHEMA_VERSION,
+        "workflow_run_id": "34672397024",
+        "workflow_run_url": "https://github.com/amercado19/ai-income-control-center/actions/runs/34672397024",
+        "workflow_name": pt.EXPECTED_WORKFLOW,
+        "repository": pt.EXPECTED_REPOSITORY,
+        "commit_sha": "e3ad577c932a1f5d8a08326afa7f554bc26e88ef",
+        "branch": "main",
+        "runner_environment": "GitHub Actions runner (Linux, x86_64)",
+        "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+        "execution_attempted": True,
+        "execution_succeeded": True,
+        "subscription_auth_path": "CLAUDE_CODE_OAUTH_TOKEN",
+        "anthropic_api_key_absent": True,
+        "paid_fallback_disabled": True,
+        "production_path": pt.PRODUCTION_PATH,
+        "result_state": "VERIFIED",
+        "failures": [],
+    }
+    payload.update(over)
+    return payload
+
+
 def test_a_token_and_a_binary_are_not_evidence_the_worker_works(monkeypatch) -> None:
     """The gap a real CI run found: credential present, CLI present, and the API answered
     `401 OAuth access token is invalid`. Presence is a config flag; only a model call is a probe."""
@@ -1093,81 +1126,126 @@ def test_a_token_and_a_binary_are_not_evidence_the_worker_works(monkeypatch) -> 
     assert not worker_proof.PROOF_FILE.exists()
     cap = health.probe_ai_worker()
     assert cap.health != Health.HEALTHY.value, "Green with no proof is a config flag, not a probe."
+    assert "NOT YET VERIFIED" in cap.detail
     assert "not evidence" in cap.blocking_reason
 
 
-def test_a_failed_proof_turns_the_light_red_not_merely_white(monkeypatch) -> None:
-    """RED means broken. WHITE means unconfigured. Credential present plus a failing call is
-    broken, and the two need different responses from a person."""
-    from datetime import UTC, datetime
+def test_a_401_proof_reads_auth_failed_and_says_only_a_person_can_fix_it(monkeypatch) -> None:
+    """RED means broken, WHITE means unconfigured, and AUTH FAILED says which kind of broken.
 
+    The three failures need three different responses: a rejected credential needs a person at a
+    browser, a spent window needs nobody at all, and anything else is a real defect. Collapsing
+    them into one red throws away the only part of the signal that says what to do.
+    """
     from aicc import health, worker_proof
-    from aicc.fulfillment import worker as worker_mod
+    from aicc.proof_transport import WorkerState
     from aicc.state import Health
 
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    worker_proof.record_result(
-        {
-            "ok": False,
-            "worker_test_status": "FAILED",
-            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
-            "environment": {"workflow_run_url": "https://example.invalid/run/1", "execution_environment": "runner"},
-            "results": [{"name": "Claude worker executes", "passed": False, "detail": "401 OAuth access token is invalid."}],
-        }
+    worker_proof.ingest_attestation(
+        _runner_attestation(
+            execution_succeeded=False,
+            result_state="FAILED",
+            failures=["Failed to authenticate. API Error: 401 OAuth access token is invalid."],
+        )
     )
     cap = health.probe_ai_worker()
     assert cap.health == Health.DOWN.value
-    assert "401" in cap.detail
+    assert str(WorkerState.AUTH_FAILED) in cap.detail
+    assert "setup-token" in cap.blocking_reason
 
 
-def test_a_passing_proof_is_what_turns_the_light_green(monkeypatch) -> None:
-    from datetime import UTC, datetime
-
+def test_a_spent_window_reads_capacity_limited_and_asks_nobody_for_anything(monkeypatch) -> None:
+    """The consequence of the usage limit is waiting, never a bill - so this must not look like
+    the same emergency as a rejected credential."""
     from aicc import health, worker_proof
-    from aicc.fulfillment import worker as worker_mod
+    from aicc.proof_transport import WorkerState
     from aicc.state import Health
 
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    worker_proof.record_result(
-        {
-            "ok": True,
-            "worker_test_status": "VERIFIED",
-            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
-            "environment": {"workflow_run_url": "https://example.invalid/run/2", "execution_environment": "GitHub Actions runner"},
-            "results": [],
-        }
+    worker_proof.ingest_attestation(
+        _runner_attestation(
+            execution_succeeded=False,
+            result_state="FAILED",
+            failures=["429 rate_limit_error: usage limit reached"],
+        )
     )
+    cap = health.probe_ai_worker()
+    assert cap.health == Health.DEGRADED.value
+    assert str(WorkerState.CAPACITY_LIMITED) in cap.detail
+    assert "never a bill" in cap.blocking_reason
+
+
+def test_a_validated_runner_proof_is_what_turns_the_light_green() -> None:
+    from aicc import health, worker_proof
+    from aicc.state import Health
+
+    accepted, state, _ = worker_proof.ingest_attestation(_runner_attestation())
+    assert accepted and state == "HEALTHY"
+
     cap = health.probe_ai_worker()
     assert cap.health == Health.HEALTHY.value
     assert cap.last_success
 
 
-def test_a_stale_proof_is_not_a_pass(monkeypatch) -> None:
-    """A credential that worked last week is not evidence that it works now. Tokens expire,
+def test_a_stale_proof_is_not_a_pass() -> None:
+    """A credential that worked two days ago is not evidence that it works now. Tokens expire,
     get revoked and get rotated."""
     from datetime import UTC, datetime, timedelta
 
     from aicc import health, worker_proof
+    from aicc.proof_transport import PROOF_TTL_HOURS, WorkerState
+    from aicc.state import Health
+
+    old = datetime.now(UTC) - timedelta(hours=PROOF_TTL_HOURS + 5)
+    worker_proof.ingest_attestation(_runner_attestation(generated_at=old.isoformat(timespec="seconds")))
+
+    cap = health.probe_ai_worker()
+    assert cap.health == Health.DEGRADED.value
+    assert str(WorkerState.STALE_PROOF) in cap.detail
+
+
+def test_the_dashboard_reports_the_worker_without_holding_a_credential(monkeypatch) -> None:
+    """The point of the whole transport.
+
+    `health.yml` is deliberately credential-free, so the machine that renders the dashboard has
+    no token and no CLI. It must still report the worker correctly, because the proof came from
+    the runner that did have both. An earlier version asked `ClaudeWorker.available()` first and
+    so answered a question about the wrong machine.
+    """
+    from aicc import health, worker_proof
     from aicc.fulfillment import worker as worker_mod
     from aicc.state import Health
 
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    old = datetime.now(UTC) - timedelta(hours=worker_proof.PROOF_VALID_HOURS + 5)
-    worker_proof.record_result(
-        {
-            "ok": True,
-            "worker_test_status": "VERIFIED",
-            "generated_at": old.isoformat(timespec="seconds"),
-            "environment": {"workflow_run_url": "", "execution_environment": "runner"},
-            "results": [],
-        }
-    )
+    monkeypatch.delenv("CLAUDE_CODE_OAUTH_TOKEN", raising=False)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: None))
+
+    worker_proof.ingest_attestation(_runner_attestation())
     cap = health.probe_ai_worker()
-    assert cap.health == Health.DEGRADED.value
-    assert "not evidence that it works now" in cap.detail
+    assert cap.health == Health.HEALTHY.value, "A credential-free validator must still report a proven worker."
+
+    worker_proof.ingest_attestation(
+        _runner_attestation(
+            execution_succeeded=False,
+            failures=["Failed to authenticate. API Error: 401 OAuth access token is invalid."],
+        )
+    )
+    assert health.probe_ai_worker().health == Health.DOWN.value
+
+
+def test_a_pass_on_the_wrong_machine_does_not_turn_the_light_green(monkeypatch) -> None:
+    """A proof is evidence about the environment it ran in, and only that one.
+
+    Client jobs execute on a GitHub Actions runner. A pass recorded on a laptop says the
+    credential on THAT machine works - a different claim, and a misleading one: Andres could run
+    `claude setup-token`, prove it locally, and turn the light green while the repository secret
+    Actions uses is still the expired one returning 401.
+    """
+    from aicc import health, worker_proof
+    from aicc.state import Health
+
+    accepted, _, _ = worker_proof.ingest_attestation(_runner_attestation(runner_environment="local (Darwin, arm64)"))
+    assert not accepted
+    assert health.probe_ai_worker().health != Health.HEALTHY.value, "Green over a machine that never runs a client job."
 
 
 def test_a_workflow_dispatch_by_the_repository_owner_is_andres_and_says_how(monkeypatch) -> None:
@@ -1363,65 +1441,3 @@ def test_a_blocked_proposal_card_offers_no_approve_button() -> None:
     assert card["policy_gate"], "The card does not say the listing is blocked."
     assert card["severity"] == "stop"
     assert not any(a["label"] == "APPROVE" for a in card["actions"])
-
-
-def test_a_pass_on_the_wrong_machine_does_not_turn_the_light_green(monkeypatch) -> None:
-    """A proof is evidence about the environment it ran in, and only that one.
-
-    Client jobs execute on a GitHub Actions runner. A pass recorded on a laptop says the
-    credential on THAT machine works - a different claim, and a misleading one here: Andres could
-    run `claude setup-token`, prove it locally, and turn the light green while the repository
-    secret Actions uses is still the expired one returning 401. The light would be reporting a
-    machine that never runs a client job.
-    """
-    from datetime import UTC, datetime
-
-    from aicc import health, worker_proof
-    from aicc.fulfillment import worker as worker_mod
-    from aicc.state import Health
-
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    worker_proof.record_result(
-        {
-            "ok": True,
-            "worker_test_status": "VERIFIED",
-            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
-            # The tell: a real environment, but no workflow run, so not a runner.
-            "environment": {"execution_environment": "local (Darwin, arm64)", "workflow_run_url": ""},
-            "results": [],
-        }
-    )
-
-    assert worker_proof.last_result()["state"] == "PASSED_ELSEWHERE"
-    cap = health.probe_ai_worker()
-    assert cap.health != Health.HEALTHY.value, "Green over a machine that never runs a client job."
-    assert cap.health == Health.DEGRADED.value
-    assert "Actions" in cap.detail
-
-
-def test_a_pass_on_the_runner_is_what_goes_green(monkeypatch) -> None:
-    """The same proof, recorded where the work actually happens, is the real thing."""
-    from datetime import UTC, datetime
-
-    from aicc import health, worker_proof
-    from aicc.fulfillment import worker as worker_mod
-    from aicc.state import Health
-
-    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
-    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
-    worker_proof.record_result(
-        {
-            "ok": True,
-            "worker_test_status": "VERIFIED",
-            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
-            "environment": {
-                "execution_environment": "GitHub Actions runner (Linux, x86_64)",
-                "workflow_run_url": "https://github.com/x/y/actions/runs/123",
-            },
-            "results": [],
-        }
-    )
-
-    assert worker_proof.last_result()["state"] == "PASSED"
-    assert health.probe_ai_worker().health == Health.HEALTHY.value

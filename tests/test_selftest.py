@@ -293,8 +293,55 @@ def test_a_dispatch_only_workflow_is_not_counted_as_push_triggered() -> None:
     assert not mod._dispatch_only(pushes)
 
 
-def test_the_claude_worker_costs_nothing_until_someone_runs_it() -> None:
+def test_the_claude_worker_runs_daily_and_still_costs_nothing() -> None:
+    """The worker was dispatch-only, which made the proof TTL unanswerable: a freshness window
+    means nothing if the only thing that refreshes the proof is someone remembering to press a
+    button. It is now scheduled daily so the TTL has something real to measure against.
+
+    Daily rather than weekly because the likeliest quiet failure is a token expiring, and a
+    weekly cadence would leave the light green for days over a dead worker. The cost of that
+    choice is checked here rather than assumed: minutes are free on a public repository, and the
+    whole account's schedule still fits the private-repo allowance if it ever changes.
+    """
+    from aicc import proof_transport as pt
+
     mod = _budget_module()
-    claude = next((w for w in mod.read_workflows() if "claude" in w.name.lower()), None)
+    workflows = mod.read_workflows()
+    claude = next((w for w in workflows if "claude" in w.name.lower()), None)
     assert claude is not None, "The Claude worker workflow is missing from the budget."
-    assert claude.runs_per_month == 0.0, "A dispatch-only workflow has no scheduled runs."
+
+    assert claude.scheduled, "The worker must be scheduled, or the proof TTL measures nothing."
+    assert claude.crons == [pt.WORKER_SCHEDULE_CRON], (
+        f"The worker's cron is {claude.crons} but proof_transport says {pt.WORKER_SCHEDULE_CRON}. "
+        f"The TTL is justified by the schedule, so the two must not drift apart."
+    )
+    assert 28.0 <= claude.runs_per_month <= 32.0, "Daily, not hourly and not weekly."
+
+    # Free on a public repository, and the estimate is a timeout-derived upper bound rather than
+    # a measurement - erring high, which is the safe direction for a budget.
+    total = sum(w.minutes_per_month for w in workflows)
+    assert total < 2000, f"{total:.0f} min/mo would not fit the private-repo free allowance."
+
+
+def test_the_worker_runs_before_health_so_every_health_run_has_a_fresh_proof() -> None:
+    """Ordering, not coincidence. `health.yml` validates whatever the worker last produced, so
+    the worker has to have produced it first - otherwise the daily health run ingests a proof
+    that is a day old and the TTL margin is spent before anyone looks."""
+    import re
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1] / ".github" / "workflows"
+
+    def minute_of(name: str) -> tuple[int, int]:
+        crons = re.findall(r'cron:\s*"([^"]+)"', (root / name).read_text(encoding="utf-8"))
+        assert crons, f"{name} has no cron"
+        minute, hour = crons[0].split()[0], crons[0].split()[1]
+        return int(hour), int(minute)
+
+    worker_hour, worker_minute = minute_of("claude-worker.yml")
+    health_hour, health_minute = minute_of("health.yml")
+
+    assert (worker_hour, worker_minute) < (health_hour, health_minute), (
+        f"The worker runs at {worker_hour:02d}:{worker_minute:02d} and health at "
+        f"{health_hour:02d}:{health_minute:02d}. Health must come second."
+    )
