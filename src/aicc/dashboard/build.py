@@ -180,9 +180,9 @@ def _collect() -> dict[str, Any]:
     if st.capabilities:
         caps = list(st.capabilities.values())
     else:
-        from ..state import probe_capabilities
+        from ..state import probe_capabilities, probe_results_are_the_systems
 
-        caps = [c.to_dict() for c in probe_capabilities()]
+        caps = [c.to_dict() for c in probe_capabilities(persist=probe_results_are_the_systems())]
 
     connectors = []
     for _name, cls in registry().items():
