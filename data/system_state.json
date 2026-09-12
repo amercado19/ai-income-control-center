@@ -86,6 +86,7 @@
       "detail": "Writable. 88,016 MB free.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "GREEN"
     },
     "audit_log": {
@@ -95,6 +96,7 @@
       "detail": "613 events recorded.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "GREEN"
     },
     "opportunity_sources": {
@@ -104,16 +106,18 @@
       "detail": "All 6 sources reachable: hackernews, freelancer_com, python_jobs, himalayas, remoteok, weworkremotely.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "GREEN"
     },
     "ai_worker": {
       "key": "ai_worker",
       "label": "AI Worker",
-      "health": "DEGRADED",
-      "detail": "Subscription token present, but the Claude Code CLI is not on PATH in this environment, so nothing here can run an AI pass. The rule-based worker carries the pipeline. AI work runs on a GitHub Actions runner, where the CLI is installed.",
+      "health": "NOT_CONFIGURED",
+      "detail": "NOT YET VERIFIED. The proof artifact is malformed, so no claim in it is usable. A proof that cannot be checked is not weak evidence; it is no evidence. Rejected because: malformed: missing 'schema_version'; malformed: missing 'workflow_run_id'; malformed: missing 'workflow_name'",
       "last_success": "",
-      "blocking_reason": "Configured but not operational in this environment. The rule-based worker is carrying the pipeline here; AI work runs on a GitHub Actions runner where the CLI is installed.",
-      "light": "YELLOW"
+      "blocking_reason": "A credential merely existing is not evidence. The Claude worker workflow must land a validated proof from a runner before this can read HEALTHY.",
+      "state": "NOT YET VERIFIED",
+      "light": "WHITE"
     },
     "scheduler": {
       "key": "scheduler",
@@ -122,6 +126,7 @@
       "detail": "Last run 0.0 hours ago.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "GREEN"
     },
     "submission": {
@@ -131,6 +136,7 @@
       "detail": "Every submission requires explicit approval. Upwork additionally costs Connects and is priced through the cost gate before anything is sent.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "YELLOW"
     },
     "payments": {
@@ -140,6 +146,7 @@
       "detail": "No payment processing is configured. Direct-client checkout stays COMING SOON until a business payment setup is deliberately activated.",
       "last_success": "",
       "blocking_reason": "Personal PayPal is not used as a commercial checkout.",
+      "state": "",
       "light": "WHITE"
     },
     "cost_gate": {
@@ -149,11 +156,12 @@
       "detail": "Ceiling is $0.00/month. All cash requests fail closed.",
       "last_success": "",
       "blocking_reason": "",
+      "state": "",
       "light": "GREEN"
     }
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-12T10:16:15+00:00",
+  "updated_at": "2026-09-12T13:13:39+00:00",
   "has_real_revenue": false
 }
