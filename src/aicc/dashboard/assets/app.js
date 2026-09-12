@@ -207,7 +207,22 @@ PAGES.opportunities = () => {
   if (!opps.length) return `<div class="page-head"><h2>Opportunities</h2></div>${filters}
     ${empty("No opportunities yet", "Run a discovery scan. In DEMO mode the demo connector seeds synthetic listings.")}`;
 
-  return `<div class="page-head"><h2>Opportunities</h2><p>Every score shows the factors behind it. Expand a row to see the reasoning.</p></div>
+  // Three true numbers, one word. The sidebar badge counts what is still in play, the Overview
+  // card counts everything ever seen, and the table lists everything live - so the screen showed
+  // 78, 121 and 91 all labelled "opportunities" and left the reader to guess which was real.
+  // They are all correct; what was missing was saying which is which, in the one place the
+  // smallest of them appears without explanation.
+  const live = opps.length;
+  const blocked = opps.filter((o) => o.policy_allowed === false).length;
+  const rejected = opps.filter((o) => o.rejected).length;
+  const inPlay = opps.filter((o) => !o.rejected && o.policy_allowed !== false).length;
+
+  return `<div class="page-head"><h2>Opportunities</h2>
+      <p>Every score shows the factors behind it. Expand a row to see the reasoning.</p>
+      <p class="note"><strong>${num(live)}</strong> live listings on this page &middot;
+        <strong>${num(inPlay)}</strong> still in play, which is the number on the sidebar badge &middot;
+        ${num(rejected)} rejected by scoring${blocked ? " &middot; " + num(blocked) + " blocked by the standing rules" : ""}.
+        The Overview's "opportunities seen" is larger again because it counts archived listings too.</p></div>
     ${filters}<div id="opp-list"></div>`;
 };
 
@@ -886,7 +901,10 @@ function alertBox(cmd) {
 function boot() {
   $("#nav-items").innerHTML = NAV.map(([id, label, glyph]) => {
     const count = id === "approvals" ? (D.attention || []).length
-      : id === "opportunities" ? (D.opportunities || []).filter((o) => !o.rejected).length
+      // "Still in play": not rejected by scoring, and not blocked by the standing rules. The
+      // Opportunities page states this breakdown in words so the badge is never a bare number
+      // disagreeing with the two larger ones on the Overview.
+      : id === "opportunities" ? (D.opportunities || []).filter((o) => !o.rejected && o.policy_allowed !== false).length
       : id === "proposals" ? (D.proposals || []).filter((p) => p.status === "AWAITING_APPROVAL").length
       : 0;
     return `<button class="nav-item" data-nav="${id}"><span class="glyph">${glyph}</span>${esc(label)}
