@@ -49,6 +49,21 @@ def _safe_path(workspace: Path, filename: str) -> Path:
     return target
 
 
+#: Anything token-shaped in a subprocess's own output. A CLI that echoes part of a credential in
+#: its error message is not unusual, and this error text goes into CI logs, a JSON artifact and a
+#: GitHub step summary - three public places on a public repository. The excerpt is worth having;
+#: the credential inside it is not.
+_SECRET_SHAPED = re.compile(
+    r"(sk-[A-Za-z0-9_\-]{8,}|sk_ant[A-Za-z0-9_\-]*|oat[_\-][A-Za-z0-9_\-]{8,}|"
+    r"Bearer\s+[A-Za-z0-9._\-]{8,}|eyJ[A-Za-z0-9._\-]{16,}|[A-Za-z0-9_\-]{40,})"
+)
+
+
+def redact_secrets(text: str) -> str:
+    """Replace anything that looks like a credential with a marker, keeping the rest readable."""
+    return _SECRET_SHAPED.sub("[REDACTED]", text or "")
+
+
 class Worker:
     name = "base"
 
@@ -363,10 +378,20 @@ class ClaudeWorker(Worker):
             # Classified rather than raised raw: an exhausted subscription window is a pause,
             # a revoked token is a failure, and treating them alike teaches the owner to ignore
             # red badges. Never falls back to paid billing - see degradation.py.
+            #
+            # The REDACTED EXCERPT is here because the first version reported only the
+            # classification. A run failed in CI with "The Claude credential was rejected" and
+            # nothing else, which is a correct classification and a useless diagnosis: expired,
+            # malformed, wrong scope and wrong CLI flag all land in that same sentence. A
+            # classifier that hides the evidence it classified turns a five-minute fix into a
+            # guessing game.
             from .. import degradation
 
-            decision = degradation.classify(result.stderr or result.stdout or "unknown failure")
-            raise RuntimeError(f"AI worker failed ({decision.action}): {decision.reason}")
+            raw = (result.stderr or result.stdout or "unknown failure").strip()
+            decision = degradation.classify(raw)
+            raise RuntimeError(
+                f"AI worker failed ({decision.action}): {decision.reason} Underlying error (redacted): {redact_secrets(raw)[:600]}"
+            )
 
         produced = sorted(p for p in ws.rglob("*") if p.is_file() and p not in before and p != brief)
         if not produced:
