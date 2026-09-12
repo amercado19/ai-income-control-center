@@ -38,7 +38,30 @@ from .models import Job
 
 #: Where the last proof result lives, so the dashboard's AI Worker light can be backed by an
 #: actual model call rather than by the presence of a token and a binary.
+#:
+#: **Written by `ingest_attestation` and by nothing else.** It holds a verdict that the border
+#: guard reached with GitHub's authoritative metadata in hand, and that context cannot be
+#: reconstructed later: the run URL, the validation timestamp, and the list of rejections exist
+#: only in the environment that did the validating. Anything else that writes here does not
+#: add a claim to the file, it deletes the evidence.
 PROOF_FILE = DATA_DIR / "worker_proof.json"
+
+#: Where a locally-run `python -m aicc worker-proof` records itself.
+#:
+#: Separate from `PROOF_FILE` because the two files answer different questions. This one answers
+#: "what happened when I ran the proof on this machine" - a diagnostic, self-reported, with no
+#: provenance anyone checked. `PROOF_FILE` answers "what did the border guard accept" - the
+#: repository's state.
+#:
+#: They shared a path until a local run of the diagnostic overwrote a committed `AUTH FAILED`
+#: verdict, discarding its link to the run that produced it. No green light was at risk (the
+#: guard re-validates a raw attestation on read and rejects a laptop's for `runner_environment`),
+#: which is exactly why it went unnoticed: the clobber type-checked and the colour barely moved.
+#: Anything that writes `data/` in CI would then have committed a laptop's self-report as the
+#: repository's validated state.
+#:
+#: Gitignored as well, so both the code and the VCS have to fail for a diagnostic to become state.
+LOCAL_PROOF_FILE = DATA_DIR / "worker_proof_local.json"
 
 #: Freshness lives in `proof_transport.PROOF_TTL_HOURS`, next to the validator that enforces it
 #: and to the worker's cron that justifies the number. Re-exported so existing callers and tests
@@ -353,24 +376,28 @@ def write_report(report: dict[str, Any], path: Path) -> Path:
 def record_result(report: dict[str, Any]) -> Path:
     """Persist a locally-run proof so `python -m aicc worker-proof` is not silently a no-op.
 
-    Kept for the local path only. It writes the same attestation shape the artifact carries, so
-    `last_result` validates it through exactly the same border guard - and the guard rejects it
-    for `runner_environment`, which is correct: a laptop proves that laptop's credential, not the
-    repository secret Actions uses. The value is diagnostic, not a green light.
+    Writes `LOCAL_PROOF_FILE`, never `PROOF_FILE`. A diagnostic that runs on demand must not be
+    able to overwrite a verdict the border guard reached - not because the diagnostic could forge
+    a green light (it cannot; see `LOCAL_PROOF_FILE`) but because it would erase the run URL and
+    validation timestamp that only the validating environment could supply.
 
-    Never the evidence dict. The proof runs on a public repository and this file is committed.
+    Records the outcome whatever it is. A FAILED proof matters to whoever ran it exactly as much
+    as a passing one, and writing only the good ones is how a light gets stuck on green.
+
+    Never the evidence dict: the attestation shape carries no model output and no credential, and
+    is used here too so the local file is readable by the same tooling.
     """
-    PROOF_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PROOF_FILE.write_text(json.dumps(attestation(report), indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    return PROOF_FILE
+    LOCAL_PROOF_FILE.parent.mkdir(parents=True, exist_ok=True)
+    LOCAL_PROOF_FILE.write_text(json.dumps(attestation(report), indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return LOCAL_PROOF_FILE
 
 
 def ingest_attestation(payload: Any, *, now: Any = None) -> tuple[bool, str, dict[str, Any]]:
     """Validate an uploaded proof and, only if it survives, make it the recorded state.
 
     This is the privileged half of the transport, called by `health.yml` - which holds no Claude
-    credential and never runs a model. It writes `data/worker_proof.json` and returns what to
-    say about it.
+    credential and never runs a model. It is the sole writer of `data/worker_proof.json` and
+    returns what to say about it.
 
     The rejected case still writes, and that is deliberate: "a proof arrived and was refused
     because it came from the wrong workflow" is information a person needs, and dropping it would
@@ -408,9 +435,14 @@ def last_result() -> dict[str, Any]:
     """The recorded worker state, as one of `proof_transport.WorkerState`.
 
     Two shapes can be on disk. A record written by `ingest_attestation` is already a validated
-    verdict and is returned as-is. A raw attestation - what the local `worker-proof` command
-    writes - is put through the same validator now, so an unvalidated file can never reach the
-    dashboard as though it had been checked.
+    verdict and is returned as-is. A raw attestation is put through the same validator now, so an
+    unvalidated file can never reach the dashboard as though it had been checked.
+
+    Nothing in this repository writes a raw attestation here any more - `record_result` uses
+    `LOCAL_PROOF_FILE`. The branch stays because the guarantee worth having is "whatever is in
+    this file, an unvalidated claim cannot be believed", and that has to hold for a file a person
+    edited, a bad merge, or a future caller that forgets the rule. A check that is only correct
+    while every caller behaves is a property of the callers, not of this function.
     """
     from . import proof_transport as pt
 

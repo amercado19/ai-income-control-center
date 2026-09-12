@@ -786,8 +786,10 @@ def cmd_worker_proof(args: argparse.Namespace) -> int:
         _print(json.dumps(report, indent=2))
     else:
         _print(worker_proof.format_report(report))
-    # Recorded unconditionally: a FAILED proof is exactly as important to the dashboard as a
-    # passing one, and only writing the good ones is how a light gets stuck on green.
+    # Recorded unconditionally, and recorded to the LOCAL file. A failed proof matters as much as
+    # a passing one, so the outcome is never filtered - but this command is a diagnostic anyone
+    # can run, and the dashboard's state slot belongs to the border guard in `health.yml`. Writing
+    # there from here erased a validated verdict's run URL once; see worker_proof.LOCAL_PROOF_FILE.
     worker_proof.record_result(report)
 
     # The attestation is what crosses the trust boundary. Written separately from --out (the
