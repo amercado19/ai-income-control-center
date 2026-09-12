@@ -2035,6 +2035,137 @@
       "probability_low": 0.0
     }
   },
+  "opp_1fffc9210006": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-12T20:17:51+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-09T00:56:03+00:00",
+    "description": "Role Title: CRM Operations Specialist Role Type: Contractor Location: Remote micro1 is engaging CRM Operations Specialists to support a customer project focused on optimizing sales and customer relationship management processes. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. For this engagement, domain expertise is essential, but prior paid experience with human data work for AI models \u2014 including data labeling, annotation, RLHF, AI response evaluation, model evaluation, or rubric-based grading \u2014 is also required. Please note that simply using AI tools like ChatGPT in your day-to-day work does not fulfill this requirement. Scope of Work Evaluate AI-generated output on CRM workflows, sales processes, and automation logic for accuracy and alignment with real-world business practices. Review, analyze, and annotate CRM data, records, and user interactions to advance AI training objectives. Apply written guidelines and rubrics consistently when rating or ranking model responses, and flag cases beyond current guidelines. Contribute representative examples, scenarios, and feedback grounded in best practices for CRM operations and sales enablement. Document current sales operations practices, noting pain points and opportunities for meaningful process improvement. Deliver \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T201750Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 216.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/crm-operations-specialist-7864702332",
+    "id": "opp_1fffc9210006",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T15:50:12+00:00",
+    "profit_score": 44.5,
+    "risk_flags": [],
+    "score": 66.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.2,
+          "evidence": "Estimated net $216 on $216 (100% margin). $75 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $150 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 66.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "crm-operations-specialist",
+      "crm-operations-coordinator",
+      "crm-operations",
+      "crm-specialist",
+      "operations-specialist"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "CRM Operations Specialist",
+    "updated_at": "2026-09-12T20:17:51+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/crm-operations-specialist-7864702332",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_20dc891fd50a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6254,6 +6385,147 @@
       "probability_low": 15.0
     }
   },
+  "opp_6e4445b79548": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-12T20:17:51+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-29T07:50:50+00:00",
+    "description": "Role Title: PhD & Academic Expert Role Type: Contractor Location: Remote About the Role micro1 is partnering with a leading AI lab to hire PhDs for projects that demand deep subject-matter expertise. Whether your field is technical (STEM) or humanities (English, literature, journalism), you'll apply research-grade rigor to evaluating and improving AI model reasoning. Scope of Work Evaluate AI model responses in your field for accuracy, depth, and reasoning quality Create expert-level prompts, reference answers, and detailed critiques Apply academic rigor to identify subtle errors and shallow reasoning Help define expert-level performance standards for AI systems Preferred Qualifications PhD from a reputable university in a technical field, English, literature, or journalism Undergraduate degree from a well-known university 1+ year of professional work experience, including experience within the past 7 years Based in an English-speaking country Excellent written English and the ability to explain complex ideas clearly Originally posted on Himalayas",
+    "discovered_by_run": "20260912T201750Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/phd-academic-expert",
+    "id": "opp_6e4445b79548",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-12T15:50:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "academic-expert",
+      "phd-specialist-consultant",
+      "academic-consultant",
+      "academic-subject-matter-expert",
+      "academic-professional",
+      "ml-research-phd-expert",
+      "phd-researcher",
+      "education-expert"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "PhD & Academic Expert",
+    "updated_at": "2026-09-12T20:17:51+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/phd-academic-expert",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_6ed4a489bd40": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6390,6 +6662,156 @@
           "from": "41%",
           "to": "31%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
+  "opp_7c742b0125fa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-12T20:17:51+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-29T05:26:56+00:00",
+    "description": "Role Title: Data Scientist Role Type: Contractor Location: Remote About the Role micro1 is partnering with a leading AI lab to hire data scientists and quantitative professionals from top companies. You'll bring rigor to how AI models handle statistics, machine learning, experimentation, and quantitative reasoning. Scope of Work Evaluate AI model outputs on data science, statistics, ML, and quantitative problems Create expert-level prompts, datasets, and reference solutions Identify flawed methodology, statistical errors, and weak quantitative reasoning Provide structured feedback that improves model capability Preferred Qualifications 1+ year as a data scientist or quant at a top company (tech, finance, or research), with at least part of this experience within the past 7 years Undergraduate degree from a well-known university in an English-speaking country Based in an English-speaking country Clear written communication of technical and statistical concepts Originally posted on Himalayas",
+    "discovered_by_run": "20260912T201750Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/data-scientist-7470374102",
+    "id": "opp_7c742b0125fa",
+    "is_demo": false,
+    "match_score": 18.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-12T15:50:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 42.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 4.5,
+          "evidence": "Matched 1 profile skills: statistics. Covers 33% of the 3 skills this listing names (missing: data science, machine learning)."
+        }
+      },
+      "final_score": 42.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"or research)\"; \"with at least part of this experience within the past 7 years un\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 42.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "machine learning",
+      "data science",
+      "statistics",
+      "data-scientist",
+      "search-data-scientist",
+      "ai-data-scientist",
+      "data-science",
+      "data-science-specialist",
+      "ml-data-scientist",
+      "statistical-data-scientist",
+      "research-data-scientist",
+      "data-scientist-analytics"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Scientist",
+    "updated_at": "2026-09-12T20:17:51+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/data-scientist-7470374102",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area the NFL/MLB pipelines genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 41.0,
@@ -11767,6 +12189,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_e4d5265e3375": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T20:17:51+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T18:25:45+00:00",
+    "description": "Role Title: AI Agent Power User Role Type: Contractor Location: Remote (US, CA, UK, IE, AU, NZ) micro1 is engaging AI Agent Power Users to contribute to an enterprise AI training project with a leading customer. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Run complex, multi-step business scenarios using AI assistants such as ChatGPT and Claude, reflecting genuine professional workflows. Document each step, highlighting where AI performance aligns with or diverges from realistic business needs. Evaluate and score AI-generated outputs using specified rubrics and criteria, focusing on quality, completeness, and relevance. Draft clear, constructive, and actionable feedback based on rubric findings to inform AI research and product teams. Identify recurring patterns in AI behavior\u2014strengths, weaknesses, and opportunities for process improvement. Connect AI tools to frequently used workplace platforms (e.g., Google Drive, Gmail, Slack, Notion) to mirror authentic use cases. Maintain meticulous written records and communicate findings in professional English, ensuring transparency and reproducibility. Preferred Qualifications 5+ years of professional experience in any business function, utilizing technology to solve operational challenges. Completed \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T201750Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/ai-agent-power-user-558497885",
+    "id": "opp_e4d5265e3375",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T18:25:46+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"professional experience in any business function\"; \"utilizing technology to solve operational challenges\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "ai-agent-specialist",
+      "ai-agents-specialist",
+      "ai-agent-operator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Agent Power User",
+    "updated_at": "2026-09-12T20:17:51+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/ai-agent-power-user-558497885",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_e6836c26eb1d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12906,6 +13470,140 @@
       ],
       "probability_high": 32.0,
       "probability_low": 8.0
+    }
+  },
+  "opp_f93cab8fc2cb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T20:17:51+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-11T16:56:49+00:00",
+    "description": "Role Title: AI Evaluation Specialist Role Type: Contractor Location: Remote (US, CA, UK, IE, AU, NZ) micro1 is engaging AI Evaluation Specialists to assess and elevate the quality of AI assistant outputs for an enterprise AI training initiative. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Evaluate AI-generated outputs against detailed rubrics and defined quality standards, focusing on accuracy, relevance, and adherence to guidelines. Apply consistent, impartial judgment across a high volume of examples, ensuring a fair and reliable assessment process. Identify reasoning gaps, tool-use failures, or logic errors in AI assistant responses, providing actionable feedback for iterative improvement. Produce clear, concise written feedback on both strengths and areas for improvement, directly influencing model refinement and AI adoption practices. Participate in discussions regarding rubric interpretation and evolving quality standards, contributing to process optimization and best practices. Maintain meticulous documentation of evaluations and recommendations, ensuring transparency and traceability in assessment workflows. Preferred Qualifications Experience in grading, quality assurance, editorial review, assessment, annotation, or similar fields \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T201750Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/ai-evaluation-specialist-4940324978",
+    "id": "opp_f93cab8fc2cb",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-12T16:56:50+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "ai-evaluation-specialist",
+      "ai-evaluation-analyst",
+      "ai-ml-evaluation-specialist",
+      "ai-model-evaluation-specialist",
+      "ai-evaluation-engineer",
+      "ai-evaluator",
+      "ai-response-evaluation-specialist",
+      "ai-assessment-specialist",
+      "ai-systems-evaluator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Evaluation Specialist",
+    "updated_at": "2026-09-12T20:17:51+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/ai-evaluation-specialist-4940324978",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f954cbff09e0": {
