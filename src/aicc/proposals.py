@@ -34,6 +34,18 @@ class UnverifiableClaimError(RuntimeError):
     """A proposal tried to claim experience that is not backed by real work."""
 
 
+class PolicyBlockedError(RuntimeError):
+    """A proposal was requested for work the standing rules forbid pursuing.
+
+    The consequence that made this necessary was already on the dashboard: a proposal for a
+    "Contract to permanent" engineering role sat in NEEDS ME, awaiting approval, one tap from
+    being sent. Approving it would have started a conversation about a job that costs seven
+    years of PSLF-qualifying payments.
+
+    Drafting is where this has to stop. A proposal that exists is a proposal someone can approve.
+    """
+
+
 @dataclass
 class ProposalDraft:
     problem: str
@@ -519,7 +531,19 @@ def _assert_no_echoed_requirements(body: str, deliverables: list[str]) -> None:
 
 
 def generate(opp: Opportunity, *, include_ai_disclosure: bool = True) -> Proposal:
-    """Produce a Proposal in DRAFT. Nothing is sent; approval is a separate, human step."""
+    """Produce a Proposal in DRAFT. Nothing is sent; approval is a separate, human step.
+
+    The standing rules are checked first, before any text is written. "Approval is a separate
+    human step" is only a safeguard if what reaches the human is worth approving - a drafted
+    proposal for work the rules forbid is a trap with Andres's own approval button on it.
+    """
+    from . import policy
+
+    verdict = policy.evaluate(opp)
+    if not verdict.allowed:
+        gate = verdict.gates[0]
+        raise PolicyBlockedError(f"{gate['gate']}: {gate['detail']}")
+
     d = draft(opp)
     econ = compute(opp)
     body = render(opp, d, include_ai_disclosure=include_ai_disclosure)

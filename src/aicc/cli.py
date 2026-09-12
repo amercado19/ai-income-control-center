@@ -113,6 +113,10 @@ def cmd_draft(args: argparse.Namespace) -> int:
             continue
         try:
             prop = proposals.generate(opp)
+        except proposals.PolicyBlockedError as exc:
+            _print(f"  BLOCKED {opp.title[:50]}")
+            _print(f"          {str(exc)[:110]}")
+            continue
         except proposals.UnverifiableClaimError as exc:
             _print(f"  SKIPPED {opp.title[:50]}: {exc}")
             continue
@@ -139,6 +143,33 @@ def cmd_approve(args: argparse.Namespace) -> int:
     if prop is None:
         _print(f"No proposal {args.proposal_id}")
         return 1
+
+    # Re-checked at approval, not only at drafting. Drafting now refuses blocked work, but
+    # proposals drafted BEFORE that gate existed are already sitting in the approval queue - one
+    # of them for a contract-to-permanent role - and the rules have to hold for those too. A gate
+    # that only guards the front door leaves whatever is already inside.
+    from . import policy
+
+    opp = storage.opportunities.get(prop.opportunity_id)
+    if opp is not None:
+        verdict = policy.evaluate(opp)
+        if not verdict.allowed:
+            gate = verdict.gates[0]
+            _print(f"REFUSED: {gate['gate']}")
+            _print(f"  {gate['detail']}")
+            _print(f"\n  Listing: {opp.title}")
+            _print("\nThis proposal was drafted before the standing rules were applied at drafting time.")
+            audit.record(
+                "proposal_approval_refused",
+                actor=_actor(),
+                object_type="proposal",
+                object_id=prop.id,
+                source=prop.source,
+                result="refused",
+                error=gate["gate"],
+            )
+            return 4
+
     if prop.source == "upwork":
         from .connectors.upwork import UpworkConnector
 
