@@ -103,29 +103,74 @@ to a runner, so capacity numbers say ESTIMATED and `capacity.snapshot()` says wh
 
 ## Open
 
-### 1. The Claude worker in GitHub Actions
+### 1. The Claude worker — BLOCKED on a credential only Andres can create
 
-`.github/workflows/claude-worker.yml` is on `main` and runs `anthropics/claude-code-action@v1`
-with `claude_code_oauth_token`. Run #1 failed on a missing OIDC token; the fix was to hand the
-action the job's own read-only token rather than granting `id-token: write`, because the error's
-first suggestion would have let the job mint identity tokens it does not need. Run #2 was
-dispatched at commit `8181cf6`. **Its result has not yet been read** — confirm at
-`/actions/workflows/claude-worker.yml` and record the outcome here.
+**Root cause found and confirmed.** The stored `CLAUDE_CODE_OAUTH_TOKEN` repository secret is
+rejected:
 
-What run #1 did already prove, from its own job summary:
+```
+Failed to authenticate. API Error: 401 OAuth access token is invalid.
+```
 
-| Credential | Present | Meaning |
+**Andres must run `claude setup-token` and update the secret.** Nothing else unblocks this.
+
+This is not mis-wiring, and that was checked rather than assumed: with a deliberately bogus token
+the CLI hangs on authentication, and with no token at all it works. So the CLI does consume that
+variable and the stored value is genuinely invalid or expired. Tokens last about a year and do
+not auto-refresh.
+
+The workflow no longer uses `anthropics/claude-code-action@v1`. A green action step proves an
+action ran; it does not prove `ClaudeWorker.execute` — the path a paid client job actually takes —
+can invoke a model and get an answer back. It now installs the CLI and runs
+`python -m aicc worker-proof`, which puts a real `Job` through `ClaudeWorker.execute` and requires
+a runtime-minted nonce back, character for character. A missing file is a failure, never a pass.
+
+| Run | Commit | Result |
 |---|---|---|
-| `CLAUDE_CODE_OAUTH_TOKEN` | yes | Claude subscription. $0.00 cash. |
-| `ANTHROPIC_API_KEY` | no | Metered API billing is not reachable from this run. |
+| #1 | — | Failed: missing OIDC token. Fixed by handing the job its own read-only token rather than granting `id-token: write` — the error's own suggestion would have let the job mint identity tokens it does not need. |
+| #2 | `8181cf6` | Failed. |
+| #3, #4 | — | Failed: `401 OAuth access token is invalid`. Run #3 reported only "the credential was rejected"; a redacted excerpt of the underlying error was added, and run #4 then named the 401. |
+| #5 | `e3ad577` | Dispatched to record a runner-sourced proof on current HEAD. |
 
-The workflow **fails the run** if `ANTHROPIC_API_KEY` ever exists, so the paid path cannot be
-switched on by adding a secret and forgetting.
+Verified in every run: **`ANTHROPIC_API_KEY` absent, paid fallback DISABLED.** The workflow fails
+the run outright if that key ever exists, so the paid path cannot be switched on by adding a
+secret and forgetting.
 
-### 2. GitHub Pages
+**The AI Worker light is honest about all of this.** It reads the recorded proof, not the presence
+of a token and a binary — PASSED under 72h is HEALTHY, FAILED is DOWN, STALE is DEGRADED, never
+run is NOT_CONFIGURED, and a pass recorded off-runner is `PASSED_ELSEWHERE`/DEGRADED, because a
+credential proved on a laptop says nothing about the repository secret Actions uses.
 
-Pages is configured (Source: GitHub Actions). The deploy runs from `_reusable-run.yml` on the
-next pipeline run with `publish: true`. The live URL goes in `docs/DEPLOYMENT.md` once confirmed.
+#### A second blocker sits behind the token, and it is circular
+
+`claude-worker.yml` holds `permissions: contents: read`. It therefore **uploads the proof as an
+artifact and cannot commit it** to `data/worker_proof.json`, which is the file the dashboard
+reads. So the only proofs that reach the dashboard are written outside a runner — exactly the
+proofs the code now correctly refuses to go green on. **As wired today, the light can never
+legitimately reach HEALTHY, even with a valid token.**
+
+The read-only permission is deliberate and should not simply be widened. That workflow is the one
+holding the OAuth token, and it runs `claude -p` against a job brief — and job briefs originate in
+marketplace listings, which the project treats as untrusted external input throughout. A workflow
+that can both be steered by untrusted text and write to the repository is a different risk class
+from one that can only read.
+
+Two clean options, both needing a human decision rather than a quiet edit:
+
+1. **Have `health.yml` consume the artifact.** It already has `contents: write`, already commits,
+   and is not the workflow holding the credential. The proof crosses as data, not as a permission.
+2. **A separate minimal job** in `claude-worker.yml` that needs `contents: write` and runs *after*
+   the credential step, with no access to the brief.
+
+Option 1 is the better separation and does not touch the credential-handling job at all.
+
+### 2. GitHub Pages — LIVE
+
+**https://amercado19.github.io/ai-income-control-center/**
+
+Deployed from `_reusable-run.yml` (`publish: true`) and browser-tested at 1440px and 400px across
+Overview, Profit Queue, Opportunities, Needs Me, System Health and Safety & Compliance. Five
+contradictions were found and fixed in the process; see `DECISIONS.md`.
 
 ### 3. Reddit r/forhire terms (a judgment call, not a task)
 
