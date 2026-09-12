@@ -88,6 +88,19 @@ def cron_runs_per_month(expr: str) -> float:
     return per_day * days
 
 
+def _dispatch_only(text: str) -> bool:
+    """True when `workflow_dispatch` is the only trigger in the file.
+
+    Parsed from the `on:` block rather than by searching the whole file, because `push` appears
+    in comments and in `git push` inside run scripts.
+    """
+    block = re.search(r"^on:\s*$\n((?:[ \t]+.*\n|\n)*)", text, re.M)
+    if not block:
+        return False
+    triggers = set(re.findall(r"^\s{2}([a-z_]+):", block.group(1), re.M))
+    return bool(triggers) and triggers <= {"workflow_dispatch", "workflow_call"}
+
+
 def read_workflows() -> list[WorkflowEstimate]:
     out: list[WorkflowEstimate] = []
     for path in sorted(WORKFLOWS.glob("*.yml")):
@@ -106,9 +119,14 @@ def read_workflows() -> list[WorkflowEstimate]:
         # a third of the ceiling is a deliberately conservative working estimate.
         minutes_per_run = round((max(timeouts) if timeouts else 10) / 3.0, 1)
         runs = sum(cron_runs_per_month(c) for c in crons)
+        dispatch_only = not crons and _dispatch_only(text)
         if not crons:
-            # push/PR triggered. Assume an active month of development.
-            runs = 40.0
+            # A workflow with only `workflow_dispatch` runs when a person presses the button and
+            # never otherwise. Counting it as 40 push-triggered runs a month overstates the
+            # budget, which is the safe direction - but it also prints "on push / PR" next to a
+            # workflow that has no push trigger, and a report that is wrong about WHY a number is
+            # what it is teaches the reader to stop trusting the numbers too.
+            runs = 0.0 if dispatch_only else 40.0
         out.append(
             WorkflowEstimate(
                 name=name,
@@ -158,7 +176,7 @@ def main() -> int:
     print("GITHUB ACTIONS BUDGET\n")
     print(f"  {'Workflow':22s} {'Runs/mo':>8s} {'Min/run':>8s} {'Min/mo':>8s}  Schedule")
     for r in rows:
-        sched = ", ".join(r.crons) if r.crons else "on push / PR"
+        sched = ", ".join(r.crons) if r.crons else ("manual dispatch only" if r.runs_per_month == 0 else "on push / PR")
         print(f"  {r.name[:22]:22s} {r.runs_per_month:8.1f} {r.minutes_per_run:8.1f} {r.minutes_per_month:8.1f}  {sched}")
     print(f"\n  {'TOTAL':22s} {'':8s} {'':8s} {total:8.1f} minutes/month")
 

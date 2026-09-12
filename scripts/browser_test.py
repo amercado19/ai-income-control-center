@@ -28,6 +28,7 @@ PHONE = {"width": 390, "height": 844}  # iPhone 14 logical size
 PAGES: list[tuple[str, str]] = [
     ("overview", "REVENUE TODAY"),
     ("approvals", ""),
+    ("queue", "Claude capacity"),
     ("opportunities", ""),
     ("proposals", ""),
     ("jobs", ""),
@@ -38,6 +39,7 @@ PAGES: list[tuple[str, str]] = [
     ("fiverr", "Fiverr launch center"),
     ("portfolio", "Evidence a client can check"),
     ("automation", "Connectors"),
+    ("compliance", "PAID API FALLBACK"),
     ("health", ""),
     ("settings", "Operator profile"),
     ("audit", ""),
