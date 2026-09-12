@@ -336,6 +336,20 @@ def _profit_section(opps: list[Any], jobs: list[Any]) -> dict[str, Any]:
         },
         "profit_queue": scheduler.profit_queue(p, limit=15),
         "plan_notes": p.notes,
+        # Blocked work is shown, not silently dropped. A listing that vanishes teaches nothing;
+        # "$1,200 declined because it converts to permanent employment" is a statement Andres can
+        # check, and can overrule with his eyes open if the screen ever gets one wrong.
+        "policy_blocked": [
+            {
+                "title": pr.title,
+                "source": pr.source,
+                "gross": pr.expected_gross_revenue,
+                "gate": pr.policy_gate,
+                "reason": pr.policy_reason,
+            }
+            for pr in sorted(profiles, key=lambda x: -x.expected_gross_revenue)
+            if not pr.policy_allowed
+        ],
     }
 
 
