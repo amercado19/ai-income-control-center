@@ -483,7 +483,12 @@ PAGES.health = () => {
     <div class="table-wrap"><table><thead><tr><th>Capability</th><th>Status</th><th>Detail</th><th>Blocked by</th></tr></thead>
     <tbody>${caps.map((c) => `<tr>
       <td class="cell-title">${esc(c.label)}</td>
-      <td>${badge(c.health.replace(/_/g, " "), c.light)}</td>
+      <td>${badge(c.health.replace(/_/g, " "), c.light)}
+        ${/* Four lamps cannot say what to do. The AI Worker has seven states, because a
+              rejected credential needs a person at a browser, a spent usage window needs
+              nobody at all, and "never verified" is not the same as "broken" - and all three
+              would otherwise share one lamp. Shown when a capability declares one. */ ""}
+        ${c.state && c.state !== c.health.replace(/_/g, " ") ? `<div class="cell-sub" style="margin-top:4px">${esc(c.state)}</div>` : ""}</td>
       <td><span class="cell-sub">${esc(c.detail)}</span></td>
       <td><span class="cell-sub">${esc(c.blocking_reason || "-")}</span></td>
     </tr>`).join("")}</tbody></table></div>
