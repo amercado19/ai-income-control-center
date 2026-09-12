@@ -90,55 +90,92 @@ def probe_opportunity_sources() -> Capability:
 
 
 def probe_ai_worker() -> Capability:
-    """Is an unattended AI worker actually available *here*?
+    """Is an unattended AI worker actually available *here*, and has it actually worked?
 
-    GREEN requires two independent things, and the reason is a bug this probe used to have.
+    GREEN requires three independent things, and each was added because the previous version
+    could show green over nothing:
 
-    It reported HEALTHY whenever ``CLAUDE_CODE_OAUTH_TOKEN`` was set. But ``ClaudeWorker.execute``
-    raised in every environment, the pipeline fell back to the rule-based worker every time, and
-    the dashboard showed a green AI Worker light over a pipeline where no AI had ever run. A
-    token's presence is a config flag. This module's own contract - stated in ``state.py`` - is
-    that a capability is "derived from a live probe, never from a config flag, because a config
-    flag records an intention and a probe records reality". This was testing the intention.
+    1. A subscription credential - never a paid API key, which is outside the zero-cost rule.
+    2. An executor: the ``claude`` CLI on PATH. An earlier version reported HEALTHY on the
+       credential alone, while ``ClaudeWorker.execute`` raised in every environment and the
+       pipeline silently fell back to the rule-based worker.
+    3. **A passing worker proof.** Credential plus executor still is not evidence: a CI run with
+       both present failed with `401 OAuth access token is invalid`. Presence is a config flag.
+       ``state.py``'s own contract is that a capability is "derived from a live probe, never from
+       a config flag, because a config flag records an intention and a probe records reality" -
+       so the light now depends on a recorded model call that returned an exact nonce.
 
-    So it now asks ``ClaudeWorker.available()``, which requires a subscription credential AND the
-    ``claude`` CLI on PATH to actually run it. Credential but no executor is YELLOW, not green:
-    the capability is configured and not operational in this environment, which is a different
-    and more useful thing to be told.
+    The states below say which of the three is missing, because "not configured", "cannot run
+    here" and "the credential is rejected" need three different responses from a person.
     """
+    from . import worker_proof
     from .fulfillment.worker import ClaudeWorker
 
-    ok, why = ClaudeWorker.available()
-    if ok:
+    available, why = ClaudeWorker.available()
+    proof = worker_proof.last_result()
+
+    if not available:
+        if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+            return _cap(
+                "ai_worker",
+                "AI Worker",
+                Health.DEGRADED,
+                why,
+                "Configured but not operational in this environment. The rule-based worker is "
+                "carrying the pipeline here; AI work runs on a GitHub Actions runner where the "
+                "CLI is installed.",
+            )
+        if os.environ.get("ANTHROPIC_API_KEY"):
+            return _cap(
+                "ai_worker",
+                "AI Worker",
+                Health.DEGRADED,
+                "API key present. This bills per token and is outside the Phase 1 zero-cost rule.",
+                "Paid API billing is not approved. Prefer CLAUDE_CODE_OAUTH_TOKEN.",
+            )
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.NOT_CONFIGURED,
+            "No Claude credential. Rule-based worker and reviewer handle the pipeline; AI drafting and AI review are unavailable.",
+            "Run `claude setup-token` locally and add CLAUDE_CODE_OAUTH_TOKEN as a repository secret.",
+        )
+
+    if proof["state"] == "PASSED":
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.HEALTHY,
-            f"{why} Unattended runs cost $0.00 cash and draw against the subscription allowance.",
+            f"{why} Verified: {proof['detail']}",
+            last_success=proof.get("at", ""),
         )
-    if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+
+    if proof["state"] == "FAILED":
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DOWN,
+            f"The last worker proof FAILED: {proof['detail']}",
+            "Credential and executor are both present, so this is not a configuration gap - "
+            "something in the AI path is broken. Run `python -m aicc worker-proof`, or dispatch "
+            "the Claude worker workflow, and read the underlying error.",
+        )
+
+    if proof["state"] == "STALE":
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.DEGRADED,
-            why,
-            "Configured but not operational in this environment. The rule-based worker is carrying "
-            "the pipeline here; AI work runs on a GitHub Actions runner where the CLI is installed.",
+            f"Credential and executor present, but the evidence is old. {proof['detail']}",
+            "Re-run the Claude worker proof to confirm the credential still works.",
         )
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        return _cap(
-            "ai_worker",
-            "AI Worker",
-            Health.DEGRADED,
-            "API key present. This bills per token and is outside the Phase 1 zero-cost rule.",
-            "Paid API billing is not approved. Prefer CLAUDE_CODE_OAUTH_TOKEN.",
-        )
+
     return _cap(
         "ai_worker",
         "AI Worker",
         Health.NOT_CONFIGURED,
-        "No Claude credential. Rule-based worker and reviewer handle the pipeline; AI drafting and AI review are unavailable.",
-        "Run `claude setup-token` locally and add CLAUDE_CODE_OAUTH_TOKEN as a repository secret.",
+        f"{why} But no worker proof has ever been recorded, so nothing has demonstrated that a model call actually succeeds from here.",
+        "Dispatch the Claude worker workflow. A token and a binary are not evidence.",
     )
 
 

@@ -31,8 +31,18 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from .config import DATA_DIR
 from .fulfillment.worker import ClaudeWorker, workspace_for
 from .models import Job
+
+#: Where the last proof result lives, so the dashboard's AI Worker light can be backed by an
+#: actual model call rather than by the presence of a token and a binary.
+PROOF_FILE = DATA_DIR / "worker_proof.json"
+
+#: How long a passing proof stays good for. A credential that worked last week is not evidence
+#: that it works now - OAuth tokens expire, get revoked, and get rotated - so a stale proof
+#: reports as stale rather than as a pass.
+PROOF_VALID_HOURS = 72.0
 
 
 @dataclass
@@ -283,3 +293,75 @@ def write_report(report: dict[str, Any], path: Path) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return path
+
+
+def record_result(report: dict[str, Any]) -> Path:
+    """Persist the verdict where `health.probe_ai_worker` can find it.
+
+    Only the verdict and its provenance, never the evidence dict - the proof runs on a public
+    repository and this file is committed.
+    """
+    payload = {
+        "ok": report["ok"],
+        "worker_test_status": report["worker_test_status"],
+        "generated_at": report["generated_at"],
+        "workflow_run_url": report["environment"].get("workflow_run_url", ""),
+        "execution_environment": report["environment"].get("execution_environment", ""),
+        "failures": [r["detail"] for r in report["results"] if not r["passed"]],
+    }
+    PROOF_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PROOF_FILE.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return PROOF_FILE
+
+
+def last_result() -> dict[str, Any]:
+    """The last recorded proof, with staleness resolved.
+
+    Returns ``{"state": ...}`` where state is one of PASSED, FAILED, STALE or NEVER_RUN. The
+    distinction between STALE and NEVER_RUN matters: one says "this worked and we should check
+    again", the other says "nothing has ever demonstrated this works".
+    """
+    if not PROOF_FILE.exists():
+        return {"state": "NEVER_RUN", "detail": "No worker proof has ever been recorded."}
+    try:
+        payload = json.loads(PROOF_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        return {"state": "NEVER_RUN", "detail": f"The proof record is unreadable: {exc}"}
+
+    try:
+        at = datetime.fromisoformat(payload.get("generated_at", ""))
+    except ValueError:
+        return {"state": "NEVER_RUN", "detail": "The proof record has no usable timestamp."}
+    if at.tzinfo is None:
+        at = at.replace(tzinfo=UTC)
+    age_hours = (datetime.now(UTC) - at).total_seconds() / 3600.0
+
+    if not payload.get("ok"):
+        return {
+            "state": "FAILED",
+            "detail": "; ".join(payload.get("failures") or ["The last proof failed."]),
+            "at": payload.get("generated_at", ""),
+            "run_url": payload.get("workflow_run_url", ""),
+            "age_hours": round(age_hours, 1),
+        }
+    if age_hours > PROOF_VALID_HOURS:
+        return {
+            "state": "STALE",
+            "detail": (
+                f"The last proof passed {age_hours:.0f}h ago, beyond the {PROOF_VALID_HOURS:.0f}h "
+                f"window. A credential that worked last week is not evidence that it works now."
+            ),
+            "at": payload.get("generated_at", ""),
+            "run_url": payload.get("workflow_run_url", ""),
+            "age_hours": round(age_hours, 1),
+        }
+    return {
+        "state": "PASSED",
+        "detail": (
+            f"A real model call through ClaudeWorker.execute returned an exact nonce "
+            f"{age_hours:.0f}h ago on {payload.get('execution_environment', 'an unknown machine')}."
+        ),
+        "at": payload.get("generated_at", ""),
+        "run_url": payload.get("workflow_run_url", ""),
+        "age_hours": round(age_hours, 1),
+    }

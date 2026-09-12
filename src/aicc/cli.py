@@ -319,10 +319,20 @@ def _actor() -> str:
     was written into the audit log under his name.
 
     The audit log exists to answer "who did what". A false answer there is the least recoverable
-    kind, so the actor is now read rather than assumed: `AICC_ACTOR` when something sets it,
-    GITHUB_ACTIONS inside a workflow, and ANDRES only as the genuine default of a person typing.
+    kind, so the actor is read rather than assumed.
+
+    The first fix kept ANDRES as the fallback for "not CI", on the reasoning that the remaining
+    case was a person at a terminal. It wasn't: the agent driving this CLI from a container is
+    also not CI, and every selftest it ran went on being signed with his name. The fallback was
+    the bug, not the CI branch.
+
+    So ANDRES now requires positive evidence, and there are only two kinds: something declared it
+    (`AICC_ACTOR`), or the command is attached to an interactive terminal, which a person typing
+    has and no headless caller does. Everything else is SYSTEM - an honest "some automation",
+    which is recoverable, where a wrong name is not.
     """
     import os
+    import sys
 
     declared = (os.environ.get("AICC_ACTOR") or "").strip().upper()
     if declared:
@@ -332,7 +342,11 @@ def _actor() -> str:
             return Actor.SYSTEM.value
     if os.environ.get("GITHUB_ACTIONS") == "true":
         return Actor.GITHUB_ACTIONS.value
-    return Actor.ANDRES.value
+    try:
+        at_a_keyboard = sys.stdin.isatty() and sys.stdout.isatty()
+    except (AttributeError, ValueError):  # a closed or replaced stream is not a keyboard
+        at_a_keyboard = False
+    return Actor.ANDRES.value if at_a_keyboard else Actor.SYSTEM.value
 
 
 def cmd_clear_demo(_: argparse.Namespace) -> int:
@@ -613,6 +627,9 @@ def cmd_worker_proof(args: argparse.Namespace) -> int:
         _print(json.dumps(report, indent=2))
     else:
         _print(worker_proof.format_report(report))
+    # Recorded unconditionally: a FAILED proof is exactly as important to the dashboard as a
+    # passing one, and only writing the good ones is how a light gets stuck on green.
+    worker_proof.record_result(report)
     if args.out:
         from pathlib import Path
 
