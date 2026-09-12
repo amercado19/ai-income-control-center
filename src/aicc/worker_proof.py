@@ -278,7 +278,24 @@ def prove_worker_reviewer() -> ProofResult:
         title="Reviewer proof - two-column summary",
         client="internal",
         job_type="research",
-        agreed_price=0.0,
+        # Nonzero deliberately, and it took a real run to find out why.
+        #
+        # This was 0.0, and `pipeline.validate` refuses a job with no agreed price - correctly,
+        # since its whole job is to check a brief is workable "before spending any effort on it".
+        # So `pipeline.run` went VALIDATE -> PROBLEM and returned before any work or QA, and the
+        # proof reported "the pipeline produced no QA round at all, so the reviewer never ran" -
+        # which was true, and read like a reviewer defect rather than an invalid fixture.
+        #
+        # It went unnoticed because this leg had never once executed. `run_all` only reaches it
+        # when `prove_worker` passed, and `prove_worker` returned 401 on every run from #3 to #8.
+        # A check that cannot run until a prior check passes is untested code wearing a test's
+        # clothes, and the first time it ran it failed for a reason that had nothing to do with
+        # what it measures.
+        #
+        # A fixture price, not revenue: real earnings come from the ledger
+        # (`storage.real_revenue_entries`), never from a job's agreed_price, and the worker
+        # workflow holds `contents: read` so the job this persists is discarded with the runner.
+        agreed_price=1.00,
         requirements=[
             "Write `summary.md` containing a level-1 markdown heading and at least three sentences describing what a data pipeline does.",
             "Cite no sources - this is a description, not research.",
