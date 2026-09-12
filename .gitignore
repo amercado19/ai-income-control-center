@@ -41,6 +41,12 @@ site/
 # they go stale the moment the dashboard changes, and re-running the test regenerates them.
 runs/screens/
 
+# A locally-run `aicc worker-proof` records itself here. It is a self-report from one machine
+# with no provenance anyone checked - a diagnostic, not the repository's state. The validated
+# verdict lives in data/worker_proof.json and is written only by the border guard in health.yml.
+# Keeping this one out of git is the second lock; src/aicc/worker_proof.py is the first.
+data/worker_proof_local.json
+
 # Local scratch
 scratchpad/
 _to_delete/
