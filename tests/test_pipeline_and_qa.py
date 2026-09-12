@@ -466,3 +466,125 @@ def test_requirement_phrases_are_tidy_wherever_a_human_reads_them() -> None:
         if pen["name"] == "Unmet stated requirements":
             assert '"shipped:' not in pen["evidence"], f"Mid-clause phrase reached the card: {pen['evidence']}"
             assert "a double-entry ledger" in pen["evidence"]
+
+
+# ------------------------------------------------- the real-order chain, end to end
+
+
+def test_a_real_order_travels_the_whole_chain(active_system):
+    """Intake to revenue, on the path a real Fiverr order takes.
+
+    `FiverrConnector.import_order` was documented as THE path from an order notification into the
+    pipeline and had no callers. `pipeline.run` and `pipeline.deliver` had none either outside the
+    demo. Every piece was verified and the front door did not exist - a buyer ordering would have
+    left Andres working by hand next to a fulfillment system he could not put the order into.
+
+    Runs the rule-based worker so the test costs no subscription capacity. What it proves is the
+    chain and its gates, not the AI pass, which `worker-proof` proves on a runner.
+    """
+    from aicc import order_intake, storage
+    from aicc.fulfillment import pipeline
+    from aicc.fulfillment.worker import RuleBasedWorker
+    from aicc.models import Actor, JobStatus
+
+    # ORDER RECEIVED -> REQUIREMENTS CHECK -> CAPACITY CHECK -> ACCEPT
+    verdict = order_intake.intake(
+        order_id="FO123456",
+        buyer="a_real_buyer",
+        gig_title="I will clean and consolidate your messy excel or csv data",
+        price=75.0,
+        requirements=[
+            "Three CSV exports, attached",
+            "One clean output with a consistent date format",
+            "Never drop a row - flag anything that fails",
+        ],
+        worker_minutes=120.0,
+        job_type="spreadsheet",
+        actor="SYSTEM",
+    )
+    assert verdict.decision == "ACCEPTED", f"{verdict.capacity_status}: {verdict.capacity_reason}"
+    assert verdict.requirements_ok
+    job = verdict.job
+    assert job is not None
+    assert job.status == JobStatus.RECEIVED.value
+    assert storage.jobs.get(job.id) is not None, "an accepted order must be in the store"
+
+    # WORKER -> REVIEWER -> REVISION -> FINAL QA -> READY_TO_DELIVER
+    job = pipeline.run(job, worker_cls=RuleBasedWorker)
+    assert job.qa_rounds, "the reviewer never ran"
+    assert job.status in (JobStatus.READY_TO_DELIVER.value, JobStatus.PROBLEM.value)
+
+    if job.status == JobStatus.PROBLEM.value:
+        return  # a rule-based deliverable may legitimately need a human; the chain still held
+
+    # NEEDS ANDRES: delivery refuses a non-human actor.
+    refused, msg = pipeline.deliver(job, actor=Actor.CLAUDE)
+    assert not refused and "human" in msg.lower()
+    assert job.status == JobStatus.READY_TO_DELIVER.value
+
+    # DELIVERY -> REVENUE RECORDING
+    ok, _ = pipeline.deliver(job, actor=Actor.ANDRES, approved_by="ANDRES")
+    assert ok
+    entry = order_intake.record_revenue(job, actor="ANDRES", human_minutes=20.0)
+    assert entry.gross == 75.0
+    assert entry.net == 60.0, "Fiverr takes 20%"
+    assert entry.ai_cash_cost == 0.0
+    assert not entry.is_demo, "a real payment must count toward REAL REVENUE"
+    assert entry.id in {r.id for r in storage.real_revenue_entries()}
+
+
+def test_a_thin_brief_escalates_instead_of_starting_work(active_system):
+    """The order clock runs from acceptance, so a brief nobody can satisfy has to stop at intake.
+    Asking the buyer is free; guessing produces a revision at best."""
+    from aicc import order_intake
+    from aicc.models import JobStatus
+
+    verdict = order_intake.intake(
+        order_id="FO999",
+        buyer="terse_buyer",
+        gig_title="I will clean and consolidate your messy excel or csv data",
+        price=30.0,
+        requirements=["fix my sheet"],
+        worker_minutes=45.0,
+        actor="SYSTEM",
+    )
+    assert verdict.decision == "ESCALATE"
+    assert not verdict.requirements_ok
+    assert verdict.job is not None
+    assert verdict.job.status == JobStatus.RECEIVED.value
+    assert verdict.job.human_action_required, "escalation must say what a person has to do"
+
+
+def test_intake_never_guesses_a_workload(active_system):
+    """capacity.pre_job_check returns UNKNOWN for a zero estimate rather than inventing one, and
+    intake must escalate on that rather than accepting work it cannot size."""
+    from aicc import order_intake
+
+    verdict = order_intake.intake(
+        order_id="FO777",
+        buyer="buyer",
+        gig_title="I will clean and consolidate your messy excel or csv data",
+        price=75.0,
+        requirements=["a", "b", "c"],
+        worker_minutes=0.0,
+        actor="SYSTEM",
+    )
+    assert verdict.decision == "ESCALATE"
+    assert verdict.capacity_status.startswith("UNKNOWN")
+
+
+def test_an_escalated_order_does_not_reserve_capacity(active_system):
+    """Reserving against work that may never start would hold capacity away from work that will."""
+    from aicc import capacity, order_intake
+
+    before = len(capacity.active_reservations())
+    order_intake.intake(
+        order_id="FO888",
+        buyer="buyer",
+        gig_title="I will clean and consolidate your messy excel or csv data",
+        price=30.0,
+        requirements=["too thin"],
+        worker_minutes=45.0,
+        actor="SYSTEM",
+    )
+    assert len(capacity.active_reservations()) == before

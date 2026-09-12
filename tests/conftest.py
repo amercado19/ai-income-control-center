@@ -52,6 +52,15 @@ def isolated_data(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     monkeypatch.setattr(worker_proof_mod, "PROOF_FILE", data / "worker_proof.json")
     monkeypatch.setattr(worker_proof_mod, "LOCAL_PROOF_FILE", data / "worker_proof_local.json")
 
+    # Bound at import from DATA_DIR, so patching storage.DATA_DIR does not reach it. Without
+    # this, ledger tests write the repository's real data/storefront_ledger.json and leak state
+    # into each other - which is how the first_100 milestone test saw $100 of revenue a previous
+    # test had recorded. Same class as worker_proof and system_state: a diagnostic writing
+    # shared state.
+    from aicc import storefront as storefront_mod
+
+    monkeypatch.setattr(storefront_mod, "LEDGER_FILE", data / "storefront_ledger.json")
+
     monkeypatch.setattr(storage, "OPPORTUNITIES_FILE", data / "opportunities.json")
     monkeypatch.setattr(storage, "OPPORTUNITIES_ARCHIVE", data / "opportunities_archive.json")
     monkeypatch.setattr(storage, "PROPOSALS_FILE", data / "proposals.json")

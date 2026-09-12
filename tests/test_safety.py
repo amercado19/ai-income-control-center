@@ -1583,3 +1583,284 @@ def test_on_a_runner_the_probe_result_is_the_systems_state(monkeypatch, capsys) 
 
     after = state_mod.SystemState.load().capabilities
     assert after["storage"]["detail"] != "STALE", "a runner's probe must replace the recorded state"
+
+
+# ------------------------------------------------- the storefront ledger tells the truth
+
+
+def test_zero_orders_is_not_a_zero_conversion_rate() -> None:
+    """The rule the ledger exists to enforce.
+
+    A gig with clicks and no orders has an unknown conversion rate, not a 0% one, until enough
+    clicks accumulate to make the ratio mean anything. Reporting 0% to Andres would invite him to
+    rewrite a gig that has simply not been seen yet.
+    """
+    from aicc.analytics import MIN_OBSERVATIONS_FOR_RATE
+    from aicc.storefront import Listing
+
+    row = Listing(platform="fiverr", gig_key="k", service="s", clicks=None, orders=0)
+    assert row.conversion_rate() is None, "no clicks observed must not read as 0%"
+
+    row.clicks = MIN_OBSERVATIONS_FOR_RATE - 1
+    assert row.conversion_rate() is None, "too few clicks must not produce a rate"
+
+    row.clicks = MIN_OBSERVATIONS_FOR_RATE
+    assert row.conversion_rate() == 0.0, "enough clicks and no orders IS a real 0%"
+
+    row.orders = 1
+    assert row.conversion_rate() == round(100 / MIN_OBSERVATIONS_FOR_RATE, 1)
+
+
+def test_net_per_claude_hour_never_divides_by_an_estimate() -> None:
+    """An efficiency figure computed from an estimate looks measured and is not."""
+    from aicc.storefront import Listing
+
+    row = Listing(platform="fiverr", gig_key="k", service="s", net_revenue=100.0, claude_estimate_minutes=600)
+    assert row.net_per_claude_hour() is None, "an estimate must not be used as a denominator"
+
+    row.claude_actual_minutes = 120
+    assert row.net_per_claude_hour() == 50.0
+
+
+def test_a_live_listing_must_carry_its_url() -> None:
+    """LIVE with no address is a claim nobody can check - the class of green light this project
+    exists to prevent."""
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    ok, msg = storefront.mark_live("data_engineering", live_url="   ", actor="SYSTEM")
+    assert not ok
+    assert "URL" in msg
+    assert storefront.get("data_engineering").state == "READY_TO_PUBLISH"
+
+    ok, msg = storefront.mark_live("data_engineering", live_url="https://www.fiverr.com/x/y", actor="SYSTEM")
+    assert ok
+    row = storefront.get("data_engineering")
+    assert row.state == "LIVE"
+    assert row.launched_at, "a launch with no timestamp is not a record of a launch"
+
+
+def test_a_hold_must_say_why() -> None:
+    """An unexplained hold is indistinguishable later from an oversight, and the likeliest thing
+    to happen to it is being quietly published."""
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    ok, _ = storefront.hold("financial_model", reason="", actor="SYSTEM")
+    assert not ok
+
+    ok, _ = storefront.hold("financial_model", reason="Outside-activity policy unread.", actor="SYSTEM")
+    assert ok
+    assert "Outside-activity" in storefront.get("financial_model").hold_reason
+
+
+def test_recording_one_metric_never_zeroes_another() -> None:
+    """Fiverr reports impressions and clicks on a delay, so partial updates are the normal case.
+    An update that blanked the order count would destroy revenue history."""
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    storefront.observe("spreadsheet_cleanup", actor="SYSTEM", orders=2, gross_revenue=150.0, net_revenue=120.0)
+    storefront.observe("spreadsheet_cleanup", actor="SYSTEM", impressions=400)
+
+    row = storefront.get("spreadsheet_cleanup")
+    assert row.orders == 2
+    assert row.net_revenue == 120.0
+    assert row.impressions == 400
+
+
+def test_seeding_twice_does_not_erase_what_the_platform_reported() -> None:
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    storefront.mark_live("data_engineering", live_url="https://www.fiverr.com/x/y", actor="SYSTEM")
+    storefront.observe("data_engineering", actor="SYSTEM", orders=1, net_revenue=100.0)
+
+    storefront.seed_from_kit(actor="SYSTEM")
+
+    row = storefront.get("data_engineering")
+    assert row.state == "LIVE"
+    assert row.live_url == "https://www.fiverr.com/x/y"
+    assert row.orders == 1
+    assert row.net_revenue == 100.0
+
+
+def test_the_first_100_net_milestone_reads_from_real_revenue_only() -> None:
+    """The stated business objective. It must not be satisfiable by a listed price."""
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    assert storefront.summary()["first_100_net_reached"] is False, "prices alone are not revenue"
+
+    storefront.mark_live("data_engineering", live_url="https://www.fiverr.com/x/y", actor="SYSTEM")
+    storefront.observe("data_engineering", actor="SYSTEM", orders=1, net_revenue=100.0)
+    assert storefront.summary()["first_100_net_reached"] is True
+
+
+def test_no_gig_claims_a_duration_the_profile_cannot_back() -> None:
+    """The automation gig said its jobs had 'executed unattended for months'. The verified profile
+    records what the jobs do, never how long they have run, so the claim verifier could not back
+    it and it was removed. This keeps any duration claim out of every gig."""
+    import re
+
+    from aicc import fiverr_kit
+
+    for gig in fiverr_kit.GIGS:
+        blob = " ".join([gig.title, gig.description] + [f["q"] + " " + f["a"] for f in gig.faqs])
+        found = re.findall(r"\bfor (?:months|years|weeks)\b|\b\d+\+? (?:months|years) of\b", blob, re.I)
+        assert not found, f"{gig.key} claims a duration the profile cannot verify: {found}"
+
+
+def test_the_discard_button_names_a_command_that_exists() -> None:
+    """It did not. The dashboard renders Discard/Skip on proposal cards, both emitting
+    `reject:<id>`, and the hint fell through to a generic branch printing
+    `python -m aicc reject:prop_xxx` - not a runnable command. The one screen that answers
+    "what do I have to do?" was handing out an instruction that fails."""
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    js = (root / "src/aicc/dashboard/assets/app.js").read_text(encoding="utf-8")
+    assert 'data-action="reject:' in js, "the button is gone; this test is looking at the wrong thing"
+    assert "aicc reject ${id}" in js, "the hint does not name the real command"
+
+    cli = (root / "src/aicc/cli.py").read_text(encoding="utf-8")
+    assert 'add_parser("reject"' in cli, "the command the hint names does not exist"
+
+
+def test_retiring_a_proposal_requires_a_reason_and_refuses_acted_on_work() -> None:
+    import argparse
+
+    from aicc import storage
+    from aicc.cli import cmd_reject
+    from aicc.connectors.base import make_opportunity
+    from aicc.models import Proposal
+
+    opp = make_opportunity(source="hackernews", title="Consolidate CSV exports", description="x" * 200, skills=["python"])
+    storage.opportunities.put(opp)
+    prop = Proposal(opportunity_id=opp.id, source=opp.source, status="AWAITING_APPROVAL", problem_statement="x", body="y")
+    storage.proposals.put(prop)
+
+    assert cmd_reject(argparse.Namespace(proposal_id=prop.id, reason="   ")) == 2
+    assert storage.proposals.get(prop.id).status == "AWAITING_APPROVAL"
+
+    assert cmd_reject(argparse.Namespace(proposal_id=prop.id, reason="Role is out of scope.")) == 0
+    assert storage.proposals.get(prop.id).status == "REJECTED"
+
+    approved = Proposal(opportunity_id=opp.id, source=opp.source, status="APPROVED", problem_statement="x", body="y")
+    storage.proposals.put(approved)
+    assert cmd_reject(argparse.Namespace(proposal_id=approved.id, reason="changed my mind")) == 2, (
+        "retiring something already approved would hide it"
+    )
+
+
+def test_retiring_a_gig_does_not_erase_the_revenue_it_earned() -> None:
+    """The defect this would have caused, at the worst possible moment.
+
+    `spreadsheet_cleanup` is priced below the floor deliberately and the written plan is to RETIRE
+    it at Level 1. Revenue totals were summed over LIVE listings only - so the first orders would
+    have arrived on that gig, and taking it down would have erased its revenue and flipped
+    FIRST $100 NET from REACHED back to NOT YET. Money earned does not un-earn.
+    """
+    from aicc import storefront
+
+    storefront.seed_from_kit(actor="SYSTEM")
+    storefront.mark_live("spreadsheet_cleanup", live_url="https://www.fiverr.com/x/y", actor="SYSTEM")
+    storefront.observe("spreadsheet_cleanup", actor="SYSTEM", orders=2, gross_revenue=150.0, net_revenue=120.0)
+
+    assert storefront.summary()["first_100_net_reached"] is True
+
+    row = storefront.get("spreadsheet_cleanup")
+    row.state = "RETIRED"
+    storefront.upsert(row, actor="SYSTEM")
+
+    s = storefront.summary()
+    assert s["net_revenue"] == 120.0, "retiring a listing must not erase what it earned"
+    assert s["orders"] == 2
+    assert s["first_100_net_reached"] is True, "a banked milestone cannot un-happen"
+
+
+def test_the_order_run_command_names_the_worker_it_will_use() -> None:
+    """ClaudeWorker.available() needs the CLI AND an exported token. On a laptop with the CLI but
+    no token it falls back to the rule-based worker - legitimate runtime behaviour, and a silent
+    downgrade on paid client work. The fallback is fine; not knowing about it is not."""
+    from pathlib import Path
+
+    cli = (Path(__file__).resolve().parents[1] / "src/aicc/cli.py").read_text(encoding="utf-8")
+    assert "select_worker()" in cli, "order run does not ask which worker will run"
+    assert "WORKER: {chosen.name}" in cli, "order run does not say which worker it picked"
+    assert "will NOT be AI-assisted" in cli, "a silent downgrade on paid work is not warned about"
+
+
+def test_no_buyer_reply_can_get_the_account_banned() -> None:
+    """These are messages to paying clients, so the constraints are enforced not trusted.
+
+    Off-platform contact is the one that actually costs an account: Fiverr's terms prohibit moving
+    a buyer to email or WhatsApp, and the account is the revenue path. A guarantee is
+    unverifiable and flagged. A fabricated claim is the thing this whole system exists not to do.
+    """
+    import re
+
+    from aicc import buyer_replies
+
+    banned = {
+        "off-platform contact": r"\b(whatsapp|telegram|skype|my email|email me at|gmail\.com|call me at|venmo|cash app|paypal\.me)\b",
+        "unverifiable guarantee": r"\b(guarantee\w*|100%|risk[- ]free|money[- ]back|best in the|#1)\b",
+        "named employer": r"\b(columbia|cuimc|weill|cornell|cold spring harbor|st\.? john'?s)\b",
+        "credential request": r"\b(your password|account password|send me your login|share your credentials)\b",
+        "unverifiable duration": r"\bfor (?:months|years)\b",
+    }
+    assert buyer_replies.REPLIES, "no replies defined"
+    for r in buyer_replies.REPLIES:
+        blob = f"{r.situation} {r.when} {r.body} {r.note}"
+        for label, pattern in banned.items():
+            hit = re.search(pattern, blob, re.I)
+            assert not hit, f"{r.key} contains {label}: {hit.group(0)!r}"
+
+
+def test_the_scope_replies_state_what_is_not_included() -> None:
+    """A yes that omits the boundary is where scope creep starts, and the revision the buyer then
+    expects is free work."""
+    from aicc import buyer_replies
+
+    for key in ("scope_clarification", "scope_creep", "revision_request"):
+        r = buyer_replies.get(key)
+        assert r is not None, key
+        body = r.body.lower()
+        assert any(phrase in body for phrase in ("does not cover", "beyond what we agreed", "different job", "rather than a revision")), (
+            f"{key} does not draw a boundary"
+        )
+
+
+def test_every_listed_first_customer_situation_has_a_draft() -> None:
+    """The thirteen situations a first buyer can create. A missing one means composing it under
+    time pressure, which is how a seller promises a date they cannot keep."""
+    from aicc import buyer_replies
+
+    required = {
+        "first_inquiry",
+        "scope_clarification",
+        "requirements_collection",
+        "insufficient_requirements",
+        "polite_decline",
+        "pricing_mismatch",
+        "delivery_date",
+        "revision_request",
+        "scope_creep",
+        "ai_disclosure",
+        "client_files",
+        "prohibited_request",
+        "injection_attempt",
+    }
+    assert required <= {r.key for r in buyer_replies.REPLIES}, required - {r.key for r in buyer_replies.REPLIES}
+
+
+def test_the_ai_disclosure_draft_honours_a_no_ai_request() -> None:
+    """Fiverr requires an explicit no-AI request to be honoured. A draft that dodged it would be
+    the system lying on Andres's behalf, which is worse than any other defect here."""
+    from aicc import buyer_replies
+
+    r = buyer_replies.get("ai_disclosure")
+    assert r is not None
+    body = r.body.lower()
+    assert "i use ai" in body, "the disclosure does not disclose"
+    assert "not say no and then use it anyway" in body
