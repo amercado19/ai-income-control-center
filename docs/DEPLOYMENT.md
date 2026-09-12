@@ -56,14 +56,18 @@ pipeline, and the dashboard honestly reports the AI worker as NOT CONFIGURED.
 
 ## 3. Enable GitHub Pages
 
-Repository → Settings → Pages → **Source: GitHub Actions**.
+Repository → Settings → Pages → **Source: GitHub Actions**. Already configured.
 
-The dashboard deploys from the `_reusable-run.yml` workflow after passing verification. It will
-appear at:
+The dashboard deploys from the `_reusable-run.yml` workflow after passing verification, and is
+**live**:
 
 ```
 https://amercado19.github.io/ai-income-control-center/
 ```
+
+Verified on desktop (1440px) and phone (400px). The publish step is deliberately gated: a build
+that cannot evidence what it claims is refused and the previous version stays up, so a broken
+build never replaces a working page.
 
 ---
 
