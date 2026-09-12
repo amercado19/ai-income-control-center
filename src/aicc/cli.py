@@ -393,11 +393,17 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
             _print(f"{mark} {gig['key']:22s} {gig['title_chars']:>2}/80 title  {gig['description_chars']:>4}/1200 desc  [{where}]")
             for p_ in problems:
                 _print(f"       - {p_}")
+            outlook = {row["package"]: row for row in gig.get("capacity_outlook", [])}
             for pkg in gig["packages"]:
                 hourly = pkg["implied_hourly"]
+                cap_row = outlook.get(pkg["name"])
+                cap_note = ""
+                if cap_row:
+                    fits = "" if cap_row["fits_delivery_window"] else "  <-- WILL NOT FIT THE PROMISED WINDOW"
+                    cap_note = f"  {cap_row['claude_minutes']:>4.0f}m claude  [{cap_row['status']}]{fits}"
                 _print(
                     f"       {pkg['name']:9s} ${pkg['price']:>7,.0f} list  ${pkg['net_after_commission']:>7,.0f} net  "
-                    f"{pkg['est_human_hours']:>4.2f}h you  ${hourly:>6,.2f}/h"
+                    f"{pkg['est_human_hours']:>4.2f}h you  ${hourly:>6,.2f}/h{cap_note}"
                 )
         for entry in kit["below_floor"]:
             _print(f"\nBELOW FLOOR (declared): {entry['key']}\n  {entry['reason']}")

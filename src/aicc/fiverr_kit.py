@@ -860,10 +860,62 @@ def validate_all() -> dict[str, list[str]]:
     return {g.key: g.validate() for g in all_gigs()}
 
 
+def capacity_outlook(gig: Gig, *, now: Any = None) -> list[dict[str, Any]]:
+    """What each package would demand of Claude, judged against its own delivery promise.
+
+    The gap this closes. The kit priced every tier against Andres's hours and said nothing about
+    the resource the rest of the system treats as scarce, so a gig could be published promising a
+    five-day turnaround on work whose AI demand does not fit five days of windows - and nothing
+    would have said so until a real buyer was waiting.
+
+    The delivery window is the deadline, because that is the promise the listing makes. The check
+    is the same ``pre_job_check`` a real job goes through, so a tier that reads SAFE here reads
+    SAFE when it arrives; anything else is a promise to reconsider before the category locks.
+    """
+    from datetime import UTC, datetime, timedelta
+
+    from . import capacity
+
+    now = now or datetime.now(UTC)
+    est = capacity.estimate(now)
+    rows: list[dict[str, Any]] = []
+    for pkg in gig.packages:
+        worker_minutes = pkg.est_ai_hours * 60.0
+        verdict = capacity.pre_job_check(
+            worker_minutes=worker_minutes,
+            deadline=now + timedelta(days=pkg.delivery_days),
+            est=est,
+            now=now,
+        )
+        rows.append(
+            {
+                "package": pkg.name,
+                "claude_minutes": round(worker_minutes, 1),
+                "total_demand_minutes": round(verdict.demand_minutes, 1),
+                "delivery_days": pkg.delivery_days,
+                "status": verdict.status,
+                "reason": verdict.reason,
+                "fits_delivery_window": verdict.status in _DELIVERABLE_STATUSES,
+            }
+        )
+    return rows
+
+
+_DELIVERABLE_STATUSES = frozenset({"SAFE TO START", "TIGHT", "WAIT FOR RESET"})
+"""Statuses that still deliver inside the promised window.
+
+WAIT FOR RESET belongs here: it means the work cannot BEGIN in this window, not that it misses
+the deadline - and a listing is a standing offer, not a job starting this minute. Only RISKY and
+UNKNOWN are reasons to reconsider a tier before publishing it.
+"""
+
+
 def summary() -> dict[str, Any]:
     """What the dashboard's FIVERR LAUNCH CENTER renders."""
     live = all_gigs()
     gigs = [g.to_dict() for g in live]
+    for g, d in zip(live, gigs, strict=True):
+        d["capacity_outlook"] = capacity_outlook(g)
     return {
         "gigs": gigs,
         "slots_used": sum(1 for g in live if not g.bench),

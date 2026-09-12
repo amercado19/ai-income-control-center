@@ -166,11 +166,38 @@ class ProfitProfile:
     value_reasons: list[str] = field(default_factory=list)
     estimate_confidence: str = "ESTIMATED"
 
+    # governance
+    policy_allowed: bool = True
+    """Whether the standing rules permit pursuing this at all.
+
+    Set by ``build`` from ``policy.evaluate``, and it gates ``is_profitable`` below.
+
+    The bug this field exists for. ``policy.py`` held every rule - the PSLF hard reject, the
+    personal-information gate, the commitment gate - and was imported by exactly two modules:
+    the self-test and the compliance panel. It proved itself against synthetic cases, reported
+    nine green indicators, and filtered nothing. The scheduler never asked it anything.
+
+    The result was on the live dashboard: a for-profit "Contract to permanent" engineering role
+    sitting at position NOW, ranked first out of eighty-five listings, with the compliance page
+    two clicks away showing PSLF PROTECTION green. Both were accurate about what they measured.
+    Neither was connected to the other.
+    """
+    policy_gate: str = ""
+    policy_reason: str = ""
+
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
     @property
     def is_profitable(self) -> bool:
+        """Profitable *and* permitted. Work the rules forbid is not an opportunity at any price.
+
+        Folded into this one property on purpose. Every consumer - the scheduler, the queue, the
+        totals - already asks this question, so gating here means a new consumer cannot forget to
+        ask the other one.
+        """
+        if not self.policy_allowed:
+            return False
         return self.expected_net_profit > 0 and self.value_class != ValueClass.UNPROFITABLE.value
 
     def headline(self) -> str:
@@ -265,6 +292,21 @@ def build(opp: Opportunity, *, win_probability: float | None = None) -> ProfitPr
     prof.profit_per_andres_minute = round(profit / andres_minutes, 3) if andres_minutes > 0 else 0.0
 
     prof.value_class, prof.value_reasons = classify_value(prof, opp)
+
+    # The standing rules are applied here, at the one place every consumer passes through, rather
+    # than trusted to each caller. Screening after the economics are computed is deliberate: the
+    # queue can then show a blocked listing WITH its value, so "we declined $1,200 of work
+    # because it converts to permanent employment" is a visible, checkable statement rather than
+    # a row that quietly disappeared.
+    from . import policy
+
+    verdict = policy.evaluate(opp)
+    prof.policy_allowed = verdict.allowed
+    if not verdict.allowed and verdict.gates:
+        prof.policy_gate = verdict.gates[0]["gate"]
+        prof.policy_reason = verdict.gates[0]["detail"]
+        prof.value_reasons = [f"{prof.policy_gate}: {prof.policy_reason}", *prof.value_reasons]
+
     return prof
 
 

@@ -210,6 +210,50 @@ _PROJECT_SHAPED = _phrases(
     "consulting engagement",
 )
 
+#: Postings that are a route INTO employment, whatever they call the first few months.
+#:
+#: A separate axis from ``_EMPLOYMENT``, and separate on purpose. The employment words are
+#: ambiguous enough that project language is allowed to clear them; these are not, and project
+#: language must never clear them - a contract-to-hire posting is by definition full of contract
+#: language, which is what makes it the one shape that would otherwise slip through both filters.
+#:
+#: The gap this closes was live on the dashboard: "Senior Backend Engineer, Payments | Contract to
+#: permanent | $120-160/hr" passed the screen with no gate at all and was ranked NOW, first out of
+#: eighty-five listings. It matched no employment word - "contract to permanent" contains neither
+#: "permanent position" nor "permanent role" - so the check returned clear on its first line.
+#:
+#: Every phrase here names a conversion. Plain "contract", "contractor" and "contract work" are
+#: deliberately absent: the amendment is explicit that a legitimate side project must not be
+#: rejected merely for using the word.
+_EMPLOYMENT_CONVERSION = _phrases(
+    "contract to permanent",
+    "contract-to-permanent",
+    "contract to perm",
+    "contract-to-perm",
+    "contract to hire",
+    "contract-to-hire",
+    "temp to perm",
+    "temp-to-perm",
+    "temp to hire",
+    "contract to full-time",
+    "contract to full time",
+    "c2h",
+    "with a view to permanent",
+    "view to permanent",
+    "leading to a permanent role",
+    "leading to a permanent position",
+    "path to full-time",
+    "path to full time",
+    "convert to full-time",
+    "convert to full time",
+    "converts to full-time",
+    "conversion to full-time",
+    "with intent to hire",
+    "intent to hire",
+    "trial to hire",
+    "right to hire",
+)
+
 #: Employers whose full-time roles would still qualify for PSLF, so the hard reject does not apply.
 _QUALIFYING_EMPLOYER = _phrases(
     "501(c)(3)",
@@ -238,13 +282,30 @@ def full_time_employment_check(opp: Opportunity) -> GateResult:
     1. Does the posting describe employment hours or employment benefits?
     2. Does it describe discrete project work?
     3. Is the employer one whose full-time roles would still qualify for PSLF?
+
+    Plus a fourth that overrides the second: does the posting describe a conversion INTO
+    employment? "Contract to permanent" is an employment offer with a probation period on the
+    front, and it is written almost entirely in contract vocabulary - so project language, which
+    legitimately clears an ambiguous "full-time", must not be allowed to clear this.
     """
     text = f"{opp.title} {opp.description} {opp.engagement_type}"
     employment = sorted({m.group(0).lower() for m in _EMPLOYMENT.finditer(text)})
     project = sorted({m.group(0).lower() for m in _PROJECT_SHAPED.finditer(text)})
     qualifying = sorted({m.group(0).lower() for m in _QUALIFYING_EMPLOYER.finditer(text)})
+    conversion = sorted({m.group(0).lower() for m in _EMPLOYMENT_CONVERSION.finditer(text)})
 
     declared_full_time = opp.engagement_type.upper().replace("-", "_") == "FULL_TIME"
+
+    if conversion and not qualifying:
+        return GateResult(
+            True,
+            Gate.PSLF.value,
+            conversion,
+            "The posting is a route into permanent employment, whatever the first few months are "
+            "called. Accepting it would put the remaining PSLF years at a qualifying employer at "
+            "risk, which is a decision only Andres can make - and not one to make by taking a "
+            "contract that converts by default. " + PSLF_REASON,
+        )
 
     if not (employment or declared_full_time):
         return _CLEAR

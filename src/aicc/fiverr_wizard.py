@@ -61,7 +61,10 @@ class Step:
 #: identical to the form's matters more than it sounds: a checklist in a different order than
 #: the screen is a checklist people stop following halfway down.
 def steps_for(gig: Gig) -> list[Step]:
+    from .fiverr_kit import capacity_outlook
+
     pkgs = gig.packages
+    _cap = {row["package"]: row for row in capacity_outlook(gig)}
     return [
         Step(
             1,
@@ -103,7 +106,9 @@ def steps_for(gig: Gig) -> list[Step]:
                 "Prices are list prices. Fiverr takes 20%, so the net column is what actually "
                 "arrives. Delivery days are calendar days the buyer sees, not hours of work - "
                 "they are deliberately longer than the effort estimate so a bad week does not "
-                "become a late delivery."
+                "become a late delivery. Each tier also carries its Claude demand, checked "
+                "against its own delivery promise: a tier that does not fit is a promise to "
+                "reconsider before the category locks, not after a buyer is waiting."
             ),
             fields=[
                 Field(
@@ -114,6 +119,22 @@ def steps_for(gig: Gig) -> list[Step]:
                     note="Includes: " + "; ".join(p.includes),
                 )
                 for p in pkgs
+            ]
+            + [
+                Field(
+                    f"{p.name} - Claude workload",
+                    f"~{_cap[p.name]['claude_minutes']:.0f} min of Claude, "
+                    f"{_cap[p.name]['total_demand_minutes']:.0f} min with QA and one revision, "
+                    f"against {p.delivery_days} days: {_cap[p.name]['status']}"
+                    + ("" if _cap[p.name]["fits_delivery_window"] else "  <-- DOES NOT FIT THIS DELIVERY WINDOW"),
+                    note=(
+                        "Checked by the same pre-job capacity check a real order goes through."
+                        if _cap[p.name]["fits_delivery_window"]
+                        else "Reconsider this tier's delivery window or its scope BEFORE publishing - after a buyer orders is too late."
+                    ),
+                )
+                for p in pkgs
+                if p.name in _cap
             ],
         ),
         Step(
