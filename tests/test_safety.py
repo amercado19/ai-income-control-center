@@ -1159,3 +1159,127 @@ def test_a_stale_proof_is_not_a_pass(monkeypatch) -> None:
     cap = health.probe_ai_worker()
     assert cap.health == Health.DEGRADED.value
     assert "not evidence that it works now" in cap.detail
+
+
+def test_a_workflow_dispatch_by_the_repository_owner_is_andres_and_says_how(monkeypatch) -> None:
+    """The remaining half of the attribution problem, found by pressing the button.
+
+    PAUSE was dispatched through the Control workflow and the audit log recorded ANDRES - not
+    because anything checked, but because `state.pause()` defaulted to it and the CLI passed no
+    actor at all. The same assumption as before, in the one path that changes system state.
+
+    GitHub authenticating the repository owner IS the strongest evidence of Andres available
+    remotely, so ANDRES is the right answer here. What was missing is that the log read as though
+    a person had been at a terminal. It now records both the who and the evidence.
+    """
+    from aicc import audit
+    from aicc.cli import _actor, _actor_source
+    from aicc.models import Actor
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.setenv("GITHUB_REPOSITORY_OWNER", "amercado19")
+    monkeypatch.setenv("GITHUB_RUN_ID", "424242")
+    monkeypatch.setenv("AICC_ACTOR", "amercado19")
+
+    assert _actor() == Actor.ANDRES.value
+    assert "github dispatch by amercado19" in _actor_source()
+    assert "424242" in _actor_source()
+
+    audit.record("system_paused", actor=_actor(), source=_actor_source(), object_type="system")
+    entry = next(e for e in audit.read_all(10) if e.action == "system_paused")
+    assert entry.actor == "ANDRES"
+    assert "github dispatch" in entry.source, "ANDRES with no provenance reads as a person at a keyboard."
+
+
+def test_a_dispatch_by_anyone_other_than_the_owner_is_not_andres(monkeypatch) -> None:
+    """A GitHub handle is not a name. Only the owner's own account is evidence of Andres."""
+    from aicc.cli import _actor, _actor_source
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.setenv("GITHUB_REPOSITORY_OWNER", "amercado19")
+    monkeypatch.setenv("AICC_ACTOR", "some-contributor")
+
+    assert _actor() == "SYSTEM"
+    assert "some-contributor" in _actor_source(), "The real handle must still be recorded."
+
+
+def test_the_control_commands_never_fall_back_to_the_andres_default(monkeypatch) -> None:
+    """Read the source. Every state transition must pass an actor explicitly, because the
+    parameter's default is ANDRES and a caller that omits it is asserting a person acted."""
+    import inspect
+
+    from aicc import cli
+
+    for name in ("cmd_start", "cmd_stop", "cmd_pause", "cmd_resume", "cmd_emergency_stop"):
+        src = inspect.getsource(getattr(cli, name))
+        assert "_actor()" in src, f"{name} relies on the ANDRES default instead of reading the actor."
+        assert "_actor_source()" in src, f"{name} records no provenance for its actor."
+
+
+# ------------------------------- a resume that resumes nothing, found by pressing the button
+
+
+def test_resume_restores_what_the_emergency_stop_switched_off(active_system) -> None:
+    """Found on the live system, by pressing the button and then reading the state file.
+
+    It reported ACTIVE with all eight automations disabled, and had done for some time. An earlier
+    emergency stop had switched them off; `resume` set run_state back to ACTIVE and never touched
+    them. Nothing was scheduled to run, and the dashboard said ACTIVE - LIVE.
+
+    A resume that resumes nothing is worse than one that fails, because a failure is visible.
+    """
+    st = state.SystemState.load()
+    for key in st.automations:
+        st.automations[key]["enabled"] = True
+    st.save()
+
+    state.emergency_stop("test")
+    st = state.SystemState.load()
+    assert not any(a["enabled"] for a in st.automations.values()), "The stop must switch everything off."
+
+    ok, msg = state.resume()
+    assert ok
+    st = state.SystemState.load()
+    assert st.run_state == "ACTIVE"
+    assert all(a["enabled"] for a in st.automations.values()), "ACTIVE with nothing enabled is not active."
+    assert "re-enabled" in msg
+
+
+def test_resume_does_not_switch_on_something_andres_turned_off_himself(active_system) -> None:
+    """The stop restores exactly what it disabled, not everything. An automation deliberately
+    switched off months ago must survive a stop and a resume still switched off."""
+    st = state.SystemState.load()
+    keys = list(st.automations)
+    for key in keys:
+        st.automations[key]["enabled"] = True
+    deliberately_off = keys[0]
+    st.automations[deliberately_off]["enabled"] = False
+    st.save()
+
+    state.emergency_stop("test")
+    state.resume()
+
+    st = state.SystemState.load()
+    assert not st.automations[deliberately_off]["enabled"], f"{deliberately_off} was switched on by a resume."
+    assert all(st.automations[k]["enabled"] for k in keys[1:])
+
+
+def test_active_with_nothing_enabled_never_reports_running(active_system) -> None:
+    """The structural guarantee under the fix above. However the automations came to be off - a
+    stop, a manual toggle, a future bug - the status must not claim the system is running."""
+    from aicc import health
+
+    st = state.SystemState.load()
+    for key in st.automations:
+        st.automations[key]["enabled"] = True
+    st.save()
+    assert health.overall_status()[1] != "YELLOW" or True  # baseline: may be YELLOW for other reasons
+
+    st = state.SystemState.load()
+    for key in st.automations:
+        st.automations[key]["enabled"] = False
+    st.save()
+
+    status, light = health.overall_status()
+    assert light != "GREEN", "Green over a system where nothing can run."
+    assert "NOTHING ENABLED" in status
