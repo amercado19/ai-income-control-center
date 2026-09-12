@@ -152,7 +152,9 @@ def cmd_approve(args: argparse.Namespace) -> int:
     prop.approved_by = "ANDRES"
     prop.approved_at = state.utcnow()
     storage.proposals.put(prop)
-    audit.record("proposal_approved", actor=Actor.ANDRES, object_type="proposal", object_id=prop.id, source=prop.source)
+    # Recorded as whoever ran it. If the system ever approved a proposal, an audit row saying
+    # CLAUDE is the honest record of a rule being broken - writing ANDRES would hide it.
+    audit.record("proposal_approved", actor=_actor(), object_type="proposal", object_id=prop.id, source=prop.source)
     _print(f"APPROVED {prop.id}. Submit it through the source's own interface, then run `python -m aicc mark-submitted {prop.id}`.")
     return 0
 
@@ -172,7 +174,7 @@ def cmd_mark_submitted(args: argparse.Namespace) -> int:
         storage.opportunities.put(opp)
     audit.record(
         "proposal_submitted",
-        actor=Actor.ANDRES,
+        actor=_actor(),
         object_type="proposal",
         object_id=prop.id,
         source=prop.source,
@@ -308,11 +310,36 @@ def cmd_demo(args: argparse.Namespace) -> int:
     return run_full_lifecycle(verbose=not args.quiet)
 
 
+def _actor() -> str:
+    """Who is actually running this command.
+
+    The CLI used to assume ANDRES whenever it was not CI. That was true when a person at a
+    terminal was the only caller, and stopped being true the moment the system started driving
+    its own CLI - at which point every `selftest`, `clear-demo` and `discover` the system ran
+    was written into the audit log under his name.
+
+    The audit log exists to answer "who did what". A false answer there is the least recoverable
+    kind, so the actor is now read rather than assumed: `AICC_ACTOR` when something sets it,
+    GITHUB_ACTIONS inside a workflow, and ANDRES only as the genuine default of a person typing.
+    """
+    import os
+
+    declared = (os.environ.get("AICC_ACTOR") or "").strip().upper()
+    if declared:
+        try:
+            return Actor(declared).value
+        except ValueError:
+            return Actor.SYSTEM.value
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        return Actor.GITHUB_ACTIONS.value
+    return Actor.ANDRES.value
+
+
 def cmd_clear_demo(_: argparse.Namespace) -> int:
     removed = sum(
         c.clear_demo() for c in (storage.opportunities, storage.opportunities_archive, storage.proposals, storage.jobs, storage.revenue)
     )
-    audit.record("demo_data_cleared", actor=Actor.ANDRES, after={"removed": removed})
+    audit.record("demo_data_cleared", actor=_actor(), after={"removed": removed})
     _print(f"Removed {removed} demo record(s).")
     return 0
 
@@ -366,26 +393,30 @@ def cmd_fiverr(args: argparse.Namespace) -> int:
         _print(kit["publishing_note"])
         return 0 if kit["all_valid"] else 1
 
-    gig = next((g for g in fiverr_kit.all_gigs() if g.key == args.key), None)
-    if gig is None:
-        _print(f"No gig with key {args.key!r}. Known: {', '.join(g.key for g in fiverr_kit.all_gigs())}")
-        return 2
-    problems = gig.validate()
-    if problems:
-        _print(f"REFUSED: {gig.key} has {len(problems)} unresolved problem(s):")
-        for p_ in problems:
-            _print(f"  - {p_}")
+    if args.action == "wizard":
+        from . import fiverr_wizard
+
+        _print(fiverr_wizard.render(args.key))
+        return 0
+
+    if args.action == "ready" and args.key in (None, "", "all"):
+        # Marking every validated gig ready is preparation, not publishing, so the system may do
+        # it - and the audit records CLAUDE, because writing it down as ANDRES would be a false
+        # statement about who did what in the one log that exists to answer that question.
+        failures = 0
+        for g in fiverr_kit.all_gigs():
+            if g.bench:
+                continue
+            ok, msg = fiverr_kit.mark_ready(g.key, actor=Actor.CLAUDE.value)
+            _print(("  " if ok else "  ") + msg)
+            failures += 0 if ok else 1
+        _print("\nRun 'python -m aicc fiverr wizard' for the publishing sequence.")
+        return 1 if failures else 0
+
+    ok, msg = fiverr_kit.mark_ready(args.key, actor=Actor.CLAUDE.value)
+    _print(msg)
+    if not ok:
         return 1
-    audit.record(
-        "fiverr.mark_ready",
-        actor=Actor.ANDRES,
-        object_type="gig",
-        object_id=gig.key,
-        source="fiverr",
-        before={"status": gig.status},
-        after={"status": "READY_TO_PUBLISH", "title": gig.title},
-    )
-    _print(f"{gig.key} marked READY TO PUBLISH and recorded in the audit log.")
     _print("Publish it yourself at https://www.fiverr.com/manage_gigs - there is no seller API,")
     _print("and the category cannot be changed after you save.")
     return 0
@@ -435,7 +466,7 @@ def cmd_selftest(args: argparse.Namespace) -> int:
 
     audit.record(
         "safety_selftest",
-        actor=Actor.GITHUB_ACTIONS if args.ci else Actor.ANDRES,
+        actor=Actor.GITHUB_ACTIONS.value if args.ci else _actor(),
         object_type="system",
         result="ok" if report.ok else "error",
         after={"passed": len(report.passed), "failed": [c.name for c in report.failed], "skipped": len(report.skipped)},
@@ -486,6 +517,87 @@ def cmd_ai_status(args: argparse.Namespace) -> int:
 # ---------------------------------------------------------------------------
 # Parser
 # ---------------------------------------------------------------------------
+
+
+def cmd_queue(args: argparse.Namespace) -> int:
+    """The profit queue: what the system believes should happen next, and why.
+
+    The same data the dashboard renders, in the terminal, so a decision can be checked without
+    a browser. Deliberately prints the reason for every row - a queue that says what but not
+    why is a queue nobody can correct.
+    """
+    from .dashboard.build import _collect
+
+    d = _collect()
+    pf = d.get("profit", {})
+    cap_ = d.get("capacity", {})
+
+    print("PROFIT QUEUE")
+    print(f"  Expected captured   ${pf.get('expected_captured_profit', 0):,.0f}")
+    print(f"  Expected missed     ${pf.get('expected_missed_profit', 0):,.0f}")
+    print(f"  Total available     ${pf.get('total_available_profit', 0):,.0f} across {pf.get('profitable_count', 0)} profitable listings")
+    print(f"  Capacity            {cap_.get('status', 'UNKNOWN')} - {cap_.get('safe_new_work_display', 'UNKNOWN')} safe for new work")
+    print(f"  Utilisation         {pf.get('capacity_utilization_pct', 0):.0f}% of the planning horizon")
+    print()
+    rows = d.get("profit_queue", [])
+    if not rows:
+        print("  Nothing queued. Usually the market or the capacity window, not a bug.")
+        return 0
+    for r in rows[: args.limit]:
+        print(f"  [{r['position']:<14}] ${r['gross']:>8,.0f}  {int(r['claude_minutes']):>5} min AI  {r['title'][:56]}")
+        print(f"                    {r['lane']} · {r['capacity_status']}")
+        print(f"                    {r['why']}")
+        print()
+    for note in d.get("plan_notes", []):
+        print(f"  NOTE: {note}")
+    return 0
+
+
+def cmd_capacity(args: argparse.Namespace) -> int:
+    """Claude subscription capacity, with its confidence attached to every figure."""
+    from . import capacity as capmod
+
+    snap = capmod.snapshot()
+    if args.json:
+        print(json.dumps(snap, indent=2))
+        return 0
+    print(f"CLAUDE CAPACITY: {snap['status']}  [{snap['confidence']}]")
+    print(f"  Window            {snap['window_minutes']:.0f} min, resets {snap['next_reset']}")
+    print(f"  Used this window  {snap['used_minutes']:.0f} min")
+    print(f"  Reserved          {snap['reserved_minutes']:.0f} min across {snap['reserved_job_count']} accepted job(s)")
+    print(f"  Safe for new work {snap['safe_new_work_display']}")
+    print(f"  Utilisation       {snap['utilization_pct']:.0f}%")
+    print(f"  Paid API fallback {snap['paid_api_fallback']}")
+    if snap.get("exhausted_until"):
+        print(f"  EXHAUSTED until   {snap['exhausted_until']} - AI work is queued, never billed elsewhere.")
+    for line in snap.get("shed", []):
+        print(f"  PAUSED: {line}")
+    print()
+    print(f"  {snap['basis']}")
+    print(f"  {snap['telemetry_note']}")
+    return 0
+
+
+def cmd_compliance(args: argparse.Namespace) -> int:
+    """The nine safety indicators, each probed live rather than read from a constant."""
+    from . import compliance as compmod
+
+    panel = compmod.panel()
+    if args.json:
+        print(json.dumps(panel, indent=2))
+        return 0
+    print("SAFETY & COMPLIANCE")
+    for i in panel["indicators"]:
+        mark = "ok " if i["ok"] else "BAD"
+        want = f"(want {i['desired']})" if i["desired"] else ""
+        print(f"  {mark} {i['label']:<26} {i['value']:<26} {want}")
+        print(f"      {i['detail']}")
+    print()
+    if panel["all_ok"]:
+        print("  All nine indicators are in their desired state.")
+        return 0
+    print(f"  DRIFTED: {', '.join(panel['drifted'])}. Do not leave the system running unattended.")
+    return 1
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -568,9 +680,21 @@ def build_parser() -> argparse.ArgumentParser:
     ai.add_argument("--status", type=int, default=None, help="HTTP status, if known")
     ai.set_defaults(func=cmd_ai_status)
 
+    q = sub.add_parser("queue", help="The profit queue: what to work on next, and why")
+    q.add_argument("--limit", type=int, default=10)
+    q.set_defaults(func=cmd_queue)
+
+    cp = sub.add_parser("capacity", help="Claude subscription capacity, with its confidence attached")
+    cp.add_argument("--json", action="store_true")
+    cp.set_defaults(func=cmd_capacity)
+
+    cm = sub.add_parser("compliance", help="Probe the nine safety indicators against the live system")
+    cm.add_argument("--json", action="store_true")
+    cm.set_defaults(func=cmd_compliance)
+
     fv = sub.add_parser("fiverr", help="Inspect the Fiverr gig kit; mark a gig ready to publish")
-    fv.add_argument("action", choices=["check", "ready"])
-    fv.add_argument("key", nargs="?", help="Gig key, required for 'ready'")
+    fv.add_argument("action", choices=["check", "ready", "wizard"])
+    fv.add_argument("key", nargs="?", help="Gig key. Omit with 'ready' to mark all four; omit with 'wizard' for the full sequence.")
     fv.set_defaults(func=cmd_fiverr)
 
     return p

@@ -38,10 +38,11 @@ and the gig URL is locked from the first title saved.
 
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass, field
+import json
+from dataclasses import asdict, dataclass, field, replace
 from typing import Any
 
-from .config import PROFILE
+from .config import DATA_DIR, PROFILE
 
 # Platform constraints, verified from Fiverr's help centre.
 MAX_TITLE_CHARS = 80
@@ -789,30 +790,93 @@ GIGS: list[Gig] = [
 ]
 
 
+STATUS_FILE = DATA_DIR / "fiverr_status.json"
+
+
+def _statuses() -> dict[str, str]:
+    """Persisted gig statuses, overlaid on the source definitions.
+
+    Gig copy lives in source so it is reviewable and revertible; status is operational state and
+    belongs in the store. Keeping them in the same place would mean either editing source to
+    record a click, or losing the record on the next deploy - and an earlier version did the
+    latter: `fiverr ready` wrote an audit event and nothing else, so the dashboard went on
+    reporting DRAFT for a gig that had been marked ready. The audit log knew; the screen did not.
+    """
+    if not STATUS_FILE.exists():
+        return {}
+    try:
+        data = json.loads(STATUS_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {k: str(v) for k, v in data.items()} if isinstance(data, dict) else {}
+
+
+def mark_ready(key: str, *, actor: str) -> tuple[bool, str]:
+    """Mark one gig READY TO PUBLISH. Stops deliberately one step short of publishing.
+
+    ``actor`` is required rather than defaulted, because this is recorded in the audit log and a
+    preparation step performed by the system must not be written down as something Andres did.
+    """
+    from . import audit
+
+    gig = next((g for g in GIGS if g.key == key), None)
+    if gig is None:
+        return False, f"No gig with key {key!r}. Known: {', '.join(g.key for g in GIGS)}"
+    problems = gig.validate()
+    if problems:
+        return False, f"REFUSED: {key} has {len(problems)} unresolved problem(s): " + "; ".join(problems)
+
+    before = _statuses().get(key, gig.status)
+    statuses = _statuses()
+    statuses[key] = "READY_TO_PUBLISH"
+    STATUS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATUS_FILE.write_text(json.dumps(statuses, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    audit.record(
+        "fiverr.mark_ready",
+        actor=actor,
+        object_type="gig",
+        object_id=key,
+        source="fiverr",
+        before={"status": before},
+        after={"status": "READY_TO_PUBLISH", "title": gig.title},
+    )
+    return True, f"{key} marked READY TO PUBLISH."
+
+
 def all_gigs() -> list[Gig]:
-    return list(GIGS)
+    """The gigs, with persisted status overlaid on the source definitions."""
+    statuses = _statuses()
+    out = []
+    for g in GIGS:
+        if statuses.get(g.key):
+            g = replace(g, status=statuses[g.key])
+        out.append(g)
+    return out
 
 
 def validate_all() -> dict[str, list[str]]:
     """Every constraint violation across the kit, keyed by gig."""
-    return {g.key: g.validate() for g in GIGS}
+    return {g.key: g.validate() for g in all_gigs()}
 
 
 def summary() -> dict[str, Any]:
     """What the dashboard's FIVERR LAUNCH CENTER renders."""
-    gigs = [g.to_dict() for g in GIGS]
+    live = all_gigs()
+    gigs = [g.to_dict() for g in live]
     return {
         "gigs": gigs,
-        "slots_used": sum(1 for g in GIGS if not g.bench),
+        "slots_used": sum(1 for g in live if not g.bench),
         "slots_available": NEW_SELLER_GIG_SLOTS,
-        "bench": [{"key": g.key, "title": g.title, "rationale": g.rationale} for g in GIGS if g.bench],
+        "bench": [{"key": g.key, "title": g.title, "rationale": g.rationale} for g in live if g.bench],
         "all_valid": all(g["valid"] for g in gigs),
         "commission": COMMISSION,
         "total_basic_net": round(sum(g["packages"][0]["net_after_commission"] for g in gigs), 2),
-        "images_ready": sum(1 for g in GIGS if g.image_path()),
+        "images_ready": sum(1 for g in live if g.image_path()),
         "floor_hourly": PROFILE.minimum_hourly,
         "target_hourly": PROFILE.target_hourly,
-        "below_floor": [{"key": g.key, "reason": g.below_floor_reason} for g in GIGS if g.below_floor_reason],
+        "below_floor": [{"key": g.key, "reason": g.below_floor_reason} for g in live if g.below_floor_reason],
+        "ready_to_publish": sum(1 for g in live if g.status == "READY_TO_PUBLISH"),
         "publishing_note": (
             "Nothing here is published automatically. Fiverr has no seller API, so publishing is "
             "manual by necessity as well as by policy - and the category cannot be changed after "

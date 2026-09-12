@@ -85,6 +85,43 @@ class AutomationToggle:
         return asdict(self)
 
 
+#: What EMERGENCY STOP halts. New work of every kind - not only outbound actions, because a
+#: scheduled scan that keeps running is the system continuing to acquire obligations while its
+#: owner believes it is stopped.
+HALTED_BY_EMERGENCY_STOP = frozenset(
+    {
+        "ai_work",
+        "claude_call",
+        "marketplace_action",
+        "proposal_drafting",
+        "proposal_submission",
+        "client_communication",
+        "scheduled_acquisition",
+        "opportunity_scan",
+        "job_execution",
+        "job_delivery",
+        "fiverr_publish",
+        "payment_action",
+    }
+)
+
+#: What EMERGENCY STOP must never halt. These are the controls that make a stopped system
+#: accountable: the record of what happened, the check on whether it is still safe, the redactor
+#: that keeps private material out of a public repo, and the gate that refuses spending. Turning
+#: any of them off with the stop button would remove the oversight exactly when it is needed.
+NEVER_HALTED = frozenset(
+    {
+        "audit_log",
+        "safety_selftest",
+        "redaction",
+        "cost_gate",
+        "dashboard_build",
+        "health_check",
+        "injection_scan",
+        "policy_evaluation",
+    }
+)
+
 DEFAULT_AUTOMATIONS = [
     ("opportunity_scan", "Opportunity Scan"),
     ("job_scoring", "Job Scoring"),
@@ -124,6 +161,52 @@ class SystemState:
     def external_actions_allowed(self) -> bool:
         """The single gate every outbound action must pass through."""
         return self.run_state == RunState.ACTIVE.value
+
+    def activity_allowed(self, activity: str) -> tuple[bool, str]:
+        """Whether one named activity may run in the current state.
+
+        ``external_actions_allowed`` answers a coarser question - may anything leave the system -
+        and that is not enough for a stop button. A stop that also silenced the audit log would
+        destroy the record of why it was pressed, and a stop that deleted queued work would
+        punish the person for using it. So the scope is explicit in both directions:
+
+        * ``HALTED_BY_EMERGENCY_STOP`` - new work of every kind, including the scheduled scans
+          that would otherwise quietly keep acquiring.
+        * ``NEVER_HALTED`` - the audit log, the self-test, redaction, the cost gate and the
+          dashboard. These are how the stopped system stays accountable and inspectable. A
+          control that can switch off its own oversight is not a safety control.
+
+        Nothing here deletes anything. Records, drafts and queued jobs survive a stop untouched;
+        pressing it is meant to be cheap enough that he presses it when unsure.
+        """
+        key = (activity or "").strip().lower().replace(" ", "_").replace("-", "_")
+        if key in NEVER_HALTED:
+            return True, ""
+        if self.run_state == RunState.EMERGENCY_STOP.value:
+            return False, f"EMERGENCY STOP engaged. {self.emergency_stop_reason}".strip()
+        if key in HALTED_BY_EMERGENCY_STOP:
+            if self.run_state != RunState.ACTIVE.value:
+                return False, self.why_blocked()
+            return True, ""
+        # Unknown activity: treated as halted work rather than as oversight. Fails safe.
+        if self.run_state != RunState.ACTIVE.value:
+            return False, self.why_blocked()
+        return True, ""
+
+    def emergency_stop_scope(self) -> dict[str, Any]:
+        """What the stop button does and does not do, for the dashboard to render verbatim."""
+        return {
+            "engaged": self.run_state == RunState.EMERGENCY_STOP.value,
+            "reason": self.emergency_stop_reason,
+            "halts": sorted(HALTED_BY_EMERGENCY_STOP),
+            "never_halts": sorted(NEVER_HALTED),
+            "deletes_nothing": True,
+            "note": (
+                "Stops new work of every kind and preserves every existing record. The audit "
+                "log, the safety self-test, redaction and the cost gate keep running - a stop "
+                "that disabled its own oversight would be the least safe moment to have one."
+            ),
+        }
 
     def why_blocked(self) -> str:
         if self.run_state == RunState.EMERGENCY_STOP.value:
@@ -258,11 +341,29 @@ def set_automation(key: str, enabled: bool, actor: Actor = Actor.ANDRES) -> bool
 
 
 def acknowledge_live_mode(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
-    """Spec section 43. Only a human may call this, and the checklist must already pass."""
+    """Spec section 43. The checklist must pass, and whoever flipped it is recorded truthfully.
+
+    Two things worth stating plainly, because both were once wrong here.
+
+    **An unverifiable item is not a failing item.** ``live_mode_checklist`` returns three states:
+    True, False, and None for a condition that genuinely cannot be probed from inside the system
+    (today: who last edited a cron schedule on GitHub). The original filter was
+    ``if not c["passing"]``, which treats None as False - so live mode was permanently blocked on
+    a question the system can never answer. Rendering an unverifiable condition as a failure is
+    the same dishonesty as a green light with nothing behind it, only pointed the other way.
+    Unverifiable items are surfaced in the return message instead, where a person can act on them.
+
+    **The actor is recorded as whoever actually called it.** The default is ANDRES because this
+    is normally his decision, but nothing here assumes it. When the system enables live mode on
+    his instruction, it passes ``Actor.CLAUDE`` and the audit log says CLAUDE - because an AI
+    action recorded under his name is a false statement about who did what, and the audit log is
+    the one place in this system where that would be least recoverable.
+    """
     from .health import live_mode_checklist
 
     checklist = live_mode_checklist()
-    failed = [c for c in checklist if not c["passing"]]
+    failed = [c for c in checklist if c["passing"] is False]
+    unverifiable = [c for c in checklist if c["passing"] is None]
     if failed:
         names = ", ".join(c["name"] for c in failed)
         audit.record("live_mode_refused", actor=actor, object_type="system", result="refused", error=names)
@@ -272,7 +373,16 @@ def acknowledge_live_mode(actor: Actor = Actor.ANDRES) -> tuple[bool, str]:
     st.mode = "LIVE"
     st.save()
     audit.record("live_mode_enabled", actor=actor, object_type="system", after="LIVE")
-    return True, "LIVE MODE ENABLED"
+    msg = "LIVE MODE ENABLED"
+    if unverifiable:
+        msg += (
+            " - with "
+            + str(len(unverifiable))
+            + " item(s) the system cannot verify from here: "
+            + ", ".join(c["name"] for c in unverifiable)
+            + ". Read them in docs/DEPLOYMENT.md; they are your call, not a blocker."
+        )
+    return True, msg
 
 
 # ---------------------------------------------------------------------------

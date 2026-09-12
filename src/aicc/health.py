@@ -90,19 +90,40 @@ def probe_opportunity_sources() -> Capability:
 
 
 def probe_ai_worker() -> Capability:
-    """Is an unattended AI worker actually available?
+    """Is an unattended AI worker actually available *here*?
 
-    GREEN requires a credential that would let Claude run unattended. The presence of
-    CLAUDE_CODE_OAUTH_TOKEN (subscription auth, $0 cash) or ANTHROPIC_API_KEY (paid, not
-    Phase 1) is the only evidence accepted. Without one, the worker is NOT_CONFIGURED and the
-    rule-based fallback carries the work - which is a real, if smaller, capability.
+    GREEN requires two independent things, and the reason is a bug this probe used to have.
+
+    It reported HEALTHY whenever ``CLAUDE_CODE_OAUTH_TOKEN`` was set. But ``ClaudeWorker.execute``
+    raised in every environment, the pipeline fell back to the rule-based worker every time, and
+    the dashboard showed a green AI Worker light over a pipeline where no AI had ever run. A
+    token's presence is a config flag. This module's own contract - stated in ``state.py`` - is
+    that a capability is "derived from a live probe, never from a config flag, because a config
+    flag records an intention and a probe records reality". This was testing the intention.
+
+    So it now asks ``ClaudeWorker.available()``, which requires a subscription credential AND the
+    ``claude`` CLI on PATH to actually run it. Credential but no executor is YELLOW, not green:
+    the capability is configured and not operational in this environment, which is a different
+    and more useful thing to be told.
     """
-    if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+    from .fulfillment.worker import ClaudeWorker
+
+    ok, why = ClaudeWorker.available()
+    if ok:
         return _cap(
             "ai_worker",
             "AI Worker",
             Health.HEALTHY,
-            "Claude subscription OAuth token present. Unattended runs cost $0.00 cash and draw against the Max subscription allowance.",
+            f"{why} Unattended runs cost $0.00 cash and draw against the subscription allowance.",
+        )
+    if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DEGRADED,
+            why,
+            "Configured but not operational in this environment. The rule-based worker is carrying "
+            "the pipeline here; AI work runs on a GitHub Actions runner where the CLI is installed.",
         )
     if os.environ.get("ANTHROPIC_API_KEY"):
         return _cap(

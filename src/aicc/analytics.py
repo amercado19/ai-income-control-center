@@ -74,7 +74,15 @@ def compute_metrics(*, include_demo: bool = False) -> dict[str, Any]:
 
     return {
         # volume
+        #
+        # `discovered` is CUMULATIVE - active plus archived, everything ever seen. `active` is
+        # what is in the store right now. The two differ by the archive, and an overview that
+        # showed 115 next to a sidebar badge of 72 and a CLI count of 85, all labelled
+        # "opportunities" and none explained, is how a dashboard loses the reader's trust in
+        # every other number on it.
         "opportunities_discovered": len(opps),
+        "opportunities_active": len([o for o in storage.opportunities.all() if include_demo or not o.is_demo]),
+        "opportunities_archived": len([o for o in storage.opportunities_archive.all() if include_demo or not o.is_demo]),
         "opportunities_qualified": sum(1 for o in opps if o.score_band in ("EXCELLENT", "STRONG")),
         "opportunities_rejected": sum(1 for o in opps if o.score_breakdown.get("rejected")),
         "proposals_drafted": len(props),
