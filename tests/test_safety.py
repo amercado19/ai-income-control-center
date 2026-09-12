@@ -1363,3 +1363,65 @@ def test_a_blocked_proposal_card_offers_no_approve_button() -> None:
     assert card["policy_gate"], "The card does not say the listing is blocked."
     assert card["severity"] == "stop"
     assert not any(a["label"] == "APPROVE" for a in card["actions"])
+
+
+def test_a_pass_on_the_wrong_machine_does_not_turn_the_light_green(monkeypatch) -> None:
+    """A proof is evidence about the environment it ran in, and only that one.
+
+    Client jobs execute on a GitHub Actions runner. A pass recorded on a laptop says the
+    credential on THAT machine works - a different claim, and a misleading one here: Andres could
+    run `claude setup-token`, prove it locally, and turn the light green while the repository
+    secret Actions uses is still the expired one returning 401. The light would be reporting a
+    machine that never runs a client job.
+    """
+    from datetime import UTC, datetime
+
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    worker_proof.record_result(
+        {
+            "ok": True,
+            "worker_test_status": "VERIFIED",
+            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+            # The tell: a real environment, but no workflow run, so not a runner.
+            "environment": {"execution_environment": "local (Darwin, arm64)", "workflow_run_url": ""},
+            "results": [],
+        }
+    )
+
+    assert worker_proof.last_result()["state"] == "PASSED_ELSEWHERE"
+    cap = health.probe_ai_worker()
+    assert cap.health != Health.HEALTHY.value, "Green over a machine that never runs a client job."
+    assert cap.health == Health.DEGRADED.value
+    assert "Actions" in cap.detail
+
+
+def test_a_pass_on_the_runner_is_what_goes_green(monkeypatch) -> None:
+    """The same proof, recorded where the work actually happens, is the real thing."""
+    from datetime import UTC, datetime
+
+    from aicc import health, worker_proof
+    from aicc.fulfillment import worker as worker_mod
+    from aicc.state import Health
+
+    monkeypatch.setenv("CLAUDE_CODE_OAUTH_TOKEN", "not-a-real-token")
+    monkeypatch.setattr(worker_mod.ClaudeWorker, "_executor", classmethod(lambda cls: "/usr/bin/claude"))
+    worker_proof.record_result(
+        {
+            "ok": True,
+            "worker_test_status": "VERIFIED",
+            "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+            "environment": {
+                "execution_environment": "GitHub Actions runner (Linux, x86_64)",
+                "workflow_run_url": "https://github.com/x/y/actions/runs/123",
+            },
+            "results": [],
+        }
+    )
+
+    assert worker_proof.last_result()["state"] == "PASSED"
+    assert health.probe_ai_worker().health == Health.HEALTHY.value
