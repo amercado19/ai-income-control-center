@@ -29,6 +29,15 @@ on:
         required: false
         type: boolean
         default: false
+      expects_claude_credential:
+        description: >
+          Whether this caller is supposed to hold CLAUDE_CODE_OAUTH_TOKEN. False for callers that
+          are deliberately credential-free, so an absent token is reported as the intended design
+          rather than warned about as a misconfiguration. An inaccurate warning trains people to
+          ignore warnings.
+        required: false
+        type: boolean
+        default: true
     secrets:
       CLAUDE_CODE_OAUTH_TOKEN:
         required: false
@@ -50,6 +59,7 @@ jobs:
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       HAS_CLAUDE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+      EXPECTS_CLAUDE: ${{ inputs.expects_claude_credential }}
       PYTHONPATH: src
       AICC_RUN_ID: ${{ github.run_id }}
       AICC_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
@@ -69,7 +79,11 @@ jobs:
       # probe, and the probe reads a recorded end-to-end proof rather than a configuration flag.
       - name: Credential state
         run: |
-          if [ "$HAS_CLAUDE" != "true" ]; then
+          if [ "$EXPECTS_CLAUDE" != "true" ]; then
+            echo "### AI worker credential: NOT SUPPLIED TO THIS WORKFLOW, BY DESIGN" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "This workflow validates and publishes; it does not execute AI work, so it is not given the credential. The worker's state comes from a validated proof produced by \`claude-worker.yml\`, which holds the credential and cannot write to the repository." >> "$GITHUB_STEP_SUMMARY"
+          elif [ "$HAS_CLAUDE" != "true" ]; then
             echo "::warning title=AI worker not configured::No CLAUDE_CODE_OAUTH_TOKEN secret. The rule-based worker and reviewer will run. See docs/DEPLOYMENT.md."
             echo "### AI worker credential: ABSENT (CLAUDE_CODE_OAUTH_TOKEN not set)" >> "$GITHUB_STEP_SUMMARY"
           else

@@ -31,6 +31,16 @@
 name: Claude worker
 
 on:
+  # Daily, twenty-five minutes ahead of `health.yml` at 11:25 UTC, so every health run has a
+  # proof minted the same morning to validate. The proof TTL is 48h
+  # (`proof_transport.PROOF_TTL_HOURS`), which leaves exactly one missed run of margin before the
+  # dashboard stops claiming the worker works.
+  #
+  # Daily rather than weekly on purpose: the likeliest way this system breaks quietly is a token
+  # expiring, and a weekly cadence would leave the light green for days over a dead worker.
+  # About 25 seconds a day, free on a public repository.
+  schedule:
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       scope:
@@ -112,18 +122,34 @@ jobs:
           set -euo pipefail
           # Through the environment, never interpolated into the script body. `scope` is a closed
           # choice list today, but the habit is what keeps the next free-text input safe.
+          # A scheduled run supplies no inputs, so AICC_SCOPE is empty and falls to the full
+          # proof - which is what a daily unattended run should be doing.
           if [ "$AICC_SCOPE" = "worker-only" ]; then
-            python -m aicc worker-proof --summary --out proof-report.json --worker-only
+            python -m aicc worker-proof --summary --out proof-report.json --attestation worker-proof-attestation.json --worker-only
           else
-            python -m aicc worker-proof --summary --out proof-report.json
+            python -m aicc worker-proof --summary --out proof-report.json --attestation worker-proof-attestation.json
           fi
 
-      - name: Publish the report as an artifact, not a commit
+      # The proof leaves this job as an ARTIFACT and never as a commit.
+      #
+      # This is the whole security argument. This job holds CLAUDE_CODE_OAUTH_TOKEN and runs
+      # `claude -p` against a job brief - and briefs originate in marketplace listings, which this
+      # project treats as untrusted external input everywhere else. Granting it `contents: write`
+      # so it could commit its own verdict would put credential handling, untrusted-text
+      # execution and repository write authority in one job, and a prompt that talked the worker
+      # into writing a file would become a prompt that writes to the repository.
+      #
+      # So `health.yml` - which holds no Claude credential and never runs a model - downloads this
+      # artifact, validates it against GitHub's own account of which run produced it, and commits
+      # the derived state. See src/aicc/proof_transport.py.
+      - name: Publish the proof as an artifact, never as a commit
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: claude-worker-proof
-          path: proof-report.json
+          path: |
+            proof-report.json
+            worker-proof-attestation.json
           if-no-files-found: warn
           retention-days: 14
 

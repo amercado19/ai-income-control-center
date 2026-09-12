@@ -1,21 +1,116 @@
-# Daily health probe. Cheap (about a minute) and the only thing that keeps the System Health
-# page honest: every capability light is derived from a live probe, so a stale page is itself a
-# signal that something has stopped running.
+# Daily health probe, and the privileged half of the worker-proof transport.
+#
+# Two jobs, and the split between them is the security design rather than tidiness:
+#
+#   ingest  - holds NO Claude credential and never runs a model. Downloads the artifact the
+#             Claude worker uploaded, validates it, commits the derived state.
+#   check   - the existing health probe and dashboard publish. Also holds no Claude credential.
+#
+# `claude-worker.yml` is the mirror image: it holds CLAUDE_CODE_OAUTH_TOKEN and runs `claude -p`
+# against a job brief, and it has `contents: read`. It can execute and cannot write. This
+# workflow can write and cannot execute. Neither half can be talked into doing the other's job,
+# because it does not have the permission to - which matters because job briefs originate in
+# marketplace listings, treated as untrusted external input everywhere else in this project.
+#
+# Note what is ABSENT: no `secrets: inherit` anywhere below, and no CLAUDE_CODE_OAUTH_TOKEN in
+# either job. That absence is load-bearing, not an oversight, and the ingest job asserts it.
 name: health
 
 on:
   schedule:
-    - cron: "25 11 * * *"   # 07:25 ET
+    - cron: "25 11 * * *" # 07:25 ET, 25 minutes after the Claude worker at 11:00 UTC
   workflow_dispatch: {}
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-  issues: write   # the rolling 'Needs you' issue is the only free notification channel
-
 jobs:
+  # -------------------------------------------------------------------- ingest
+  ingest:
+    name: Validate the Claude worker proof
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # to commit data/worker_proof.json - the only write this job needs
+      actions: read # to list the worker's runs and download its artifact
+    env:
+      PYTHONPATH: src
+      AICC_ACTOR: GITHUB_ACTIONS
+      GH_TOKEN: ${{ github.token }}
+      # Deliberately no CLAUDE_CODE_OAUTH_TOKEN. This job decides whether to believe a proof, so
+      # it must not be able to produce one - that would be attesting to its own work.
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Confirm this job holds no Claude credential
+        # Asserted, not assumed. If a later edit adds `secrets: inherit` here the separation is
+        # gone, and the run should fail loudly rather than quietly become the thing this design
+        # exists to prevent.
+        run: |
+          set -euo pipefail
+          if [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] || [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "::error title=Separation broken::A Claude credential reached the validating job. It must not."
+            exit 1
+          fi
+          echo "No Claude credential in this job, as intended."
+
+      - name: Download the most recent Claude worker proof
+        id: fetch
+        run: |
+          set -euo pipefail
+          mkdir -p proof-in
+          # Newest first, and a FAILED proof is used rather than skipped: a failure is exactly the
+          # state the dashboard most needs to show, and silently falling back to an older passing
+          # proof is how a light gets stuck on green.
+          FOUND=""
+          for id in $(gh run list --workflow claude-worker.yml --branch main --limit 10 \
+                        --json databaseId --jq '.[].databaseId'); do
+            rm -rf proof-in; mkdir -p proof-in
+            if gh run download "$id" --name claude-worker-proof --dir proof-in 2>/dev/null \
+               && [ -f proof-in/worker-proof-attestation.json ]; then
+              FOUND="$id"
+              echo "Using the attestation from claude-worker run $id."
+              break
+            fi
+          done
+          if [ -z "$FOUND" ]; then
+            echo "::warning title=No worker proof::No claude-worker run in the last 10 produced an attestation artifact."
+            mkdir -p proof-in
+            printf '{}' > proof-in/worker-proof-attestation.json
+          fi
+
+      - name: Validate it and record the derived state
+        # Runs in both cases. With no artifact the ingest records NOT YET VERIFIED, which is the
+        # honest state and better than leaving an unexamined earlier verdict in place.
+        run: python -m aicc worker-proof-ingest proof-in/worker-proof-attestation.json
+
+      - name: Commit the derived state
+        run: |
+          set -euo pipefail
+          STATE=$(python -c "import json,pathlib;print(json.loads(pathlib.Path('data/worker_proof.json').read_text())['state'])")
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/worker_proof.json data/audit_log.jsonl
+          if git diff --cached --quiet; then
+            echo "Worker state unchanged ($STATE); nothing to commit."
+            exit 0
+          fi
+          git commit -m "Worker proof: $STATE"
+          # The check job pushes too. Rebase rather than fail on the race.
+          git pull --rebase --autostash origin main
+          git push
+
+  # -------------------------------------------------------------------- check
   check:
+    needs: ingest
+    # Runs even when ingest failed. A broken proof transport must not also take down the health
+    # page, which is the thing that would report the breakage.
+    if: ${{ always() }}
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      issues: write # the rolling 'Needs you' issue is the only free notification channel
     uses: ./.github/workflows/_reusable-run.yml
     with:
       steps: |
@@ -23,4 +118,8 @@ jobs:
         python -m aicc status
       commit_message: "Health check"
       publish: true
-    secrets: inherit
+      expects_claude_credential: false
+    # No `secrets:` block at all. The dashboard no longer needs the credential to report the
+    # worker's state: `probe_ai_worker` reads the validated proof, which came from the runner
+    # that did hold it. Asking this machine about a credential was always answering a question
+    # about the wrong machine.
