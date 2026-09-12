@@ -16,7 +16,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from .. import analytics, audit, fiverr_kit, health, money, portfolio, storage
+from .. import analytics, audit, capacity, compliance, fiverr_kit, fiverr_wizard, health, money, portfolio, profit, scheduler, storage
 from ..config import BRAND_NAME, BRAND_SHORT, COST_REQUESTS, MAX_NEW_MONTHLY_CASH_SPEND
 from ..connectors import registry
 from ..models import JobStatus
@@ -223,7 +223,119 @@ def _collect() -> dict[str, Any]:
         "cost": {"ceiling": MAX_NEW_MONTHLY_CASH_SPEND, "declined": declined},
         "attribution": attribution,
         "fiverr_kit": fiverr_kit.summary(),
+        "fiverr_wizard": fiverr_wizard.plan(),
         "portfolio": portfolio.summary(),
+        "repo_url": _repo_url(),
+        "compliance": compliance.panel(),
+        "capacity": capacity.snapshot(),
+        "emergency_scope": st.emergency_stop_scope(),
+        **_profit_section(opps, jobs),
+    }
+
+
+def _repo_url() -> str:
+    """The repository this dashboard was built from, for deep-linking the control workflow.
+
+    Read from the Actions environment when running there, and from the git remote otherwise.
+    Returns "" rather than a guess if neither is available - a control button that links to the
+    wrong repository is worse than one that explains it cannot link anywhere.
+    """
+    import os
+    import subprocess
+
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if repo:
+        return f"{server}/{repo}"
+    try:
+        remote = subprocess.run(
+            ["git", "remote", "get-url", "origin"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+            check=False,
+        ).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        return ""
+    if remote.startswith("git@github.com:"):
+        remote = "https://github.com/" + remote.split(":", 1)[1]
+    return remote.removesuffix(".git")
+
+
+def _profit_section(opps: list[Any], jobs: list[Any]) -> dict[str, Any]:
+    """The Profit Queue and Profit panels.
+
+    Scored, live opportunities only. A rejected listing has no place in a plan, and a demo row
+    in a profit projection is how a synthetic number ends up being believed.
+
+    Accepted jobs enter as committed candidates so their capacity is subtracted before anything
+    speculative is considered - which is the mechanism, not a nicety: it is what makes "a paid
+    deadline is not endangered by twenty small opportunities" true rather than intended.
+    """
+    from ..models import JobStatus as _JobStatus
+
+    candidates: list[scheduler.Candidate] = []
+
+    # Every pipeline state before delivery. A job in any of these is an obligation whose
+    # capacity is already spoken for; DELIVERED and PROBLEM are not drawing on the window.
+    open_jobs = {
+        _JobStatus.RECEIVED.value,
+        _JobStatus.VALIDATE.value,
+        _JobStatus.PLAN.value,
+        _JobStatus.WORK.value,
+        _JobStatus.VERIFY.value,
+        _JobStatus.QA.value,
+        _JobStatus.FIX.value,
+        _JobStatus.FINAL_QA.value,
+        _JobStatus.READY_TO_DELIVER.value,
+    }
+    for j in jobs:
+        if getattr(j, "is_demo", False) or j.status not in open_jobs:
+            continue
+        ai_minutes = max(30.0, float(getattr(j, "estimated_hours", 0.0) or 1.0) * 60.0 * 0.8)
+        prof = profit.ProfitProfile(
+            opportunity_id=j.id,
+            title=j.title,
+            category=getattr(j, "job_type", "") or "generic",
+            expected_gross_revenue=float(getattr(j, "agreed_price", 0.0) or 0.0),
+            expected_net_revenue=float(getattr(j, "agreed_price", 0.0) or 0.0),
+            expected_net_profit=float(getattr(j, "agreed_price", 0.0) or 0.0),
+            win_probability=1.0,
+            win_probability_basis="Accepted. This is an obligation, not a bid.",
+            expected_value=float(getattr(j, "agreed_price", 0.0) or 0.0),
+            estimated_claude_minutes=ai_minutes,
+            total_claude_minutes=round(ai_minutes * 1.85, 1),
+            andres_active_minutes=20.0,
+            estimated_completion_hours=float(getattr(j, "estimated_hours", 0.0) or 1.0),
+            delivery_confidence=0.9,
+        )
+        candidates.append(scheduler.Candidate(prof, committed=True))
+
+    profiles: list[profit.ProfitProfile] = []
+    for o in opps:
+        if o.is_demo or (o.score_breakdown or {}).get("rejected"):
+            continue
+        if o.status in {"REJECTED", "ARCHIVED", "LOST"}:
+            continue
+        prof = profit.build(o)
+        profiles.append(prof)
+        if prof.is_profitable:
+            candidates.append(scheduler.Candidate(prof))
+
+    est = capacity.estimate()
+    p = scheduler.plan(candidates, est=est)
+    return {
+        "profit": {
+            **profit.totals(profiles),
+            "expected_captured_profit": p.expected_captured_profit,
+            "expected_missed_profit": p.expected_missed_profit,
+            "capacity_utilization_pct": p.to_dict()["capacity_utilization_pct"],
+            "lanes": p.lane_summary(),
+            "committed_minutes": p.committed_minutes,
+            "available_minutes": p.available_minutes,
+        },
+        "profit_queue": scheduler.profit_queue(p, limit=15),
+        "plan_notes": p.notes,
     }
 
 
