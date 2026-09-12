@@ -906,7 +906,16 @@ function commandHint(cmd) {
       : `python -m aicc fiverr ready ${key}\n\n# Then publish by hand at fiverr.com/manage_gigs - there is no seller API,\n# and the category cannot be changed after you save it.`);
     return;
   }
-  const base = map[cmd] || (cmd.startsWith("approve:") ? `python -m aicc approve ${cmd.split(":")[1]}` : `python -m aicc ${cmd}`);
+  // `reject:` used to fall through to the generic branch and print `python -m aicc reject:prop_x`,
+  // which is not a command. A hint that cannot be run is worse than no button.
+  const id = cmd.split(":")[1];
+  const base =
+    map[cmd] ||
+    (cmd.startsWith("approve:")
+      ? `python -m aicc approve ${id}`
+      : cmd.startsWith("reject:")
+        ? `python -m aicc reject ${id} --reason "..."`
+        : `python -m aicc ${cmd}`);
   alertBox(base);
 }
 
