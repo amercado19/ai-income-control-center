@@ -22,6 +22,19 @@ const num = (n) => (n === null || n === undefined ? "Insufficient Data" : Number
 
 const ago = (iso) => {
   if (!iso) return "-";
+  // Some feeds give an epoch rather than an ISO string - Himalayas returns `pubDate` as an
+  // integer while every other source returns text. The connector boundary normalises new
+  // records, but rows stored before that still carry the number, and `Date.parse(1789095670)`
+  // is NaN, so the table printed a bare "1789095670" where a date belongs. A timestamp a reader
+  // cannot read is not a timestamp.
+  const n = typeof iso === "number" ? iso : /^\d{9,14}$/.test(String(iso).trim()) ? Number(iso) : NaN;
+  if (!Number.isNaN(n)) {
+    // Ten digits is seconds, thirteen is milliseconds. Anything else is not a time we recognise.
+    const ms = n < 1e11 ? n * 1000 : n;
+    const d = new Date(ms);
+    if (!Number.isNaN(d.getTime()) && d.getFullYear() > 1990 && d.getFullYear() < 2100) return ago(d.toISOString());
+    return "-";
+  }
   const t = Date.parse(iso);
   if (Number.isNaN(t)) return esc(iso);
   const m = Math.round((Date.now() - t) / 60000);
