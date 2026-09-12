@@ -194,9 +194,10 @@ Verified by running it: worker run #6 produced the artifact, `health.yml` valida
 holding no credential, and committed `Worker proof: AUTH FAILED`. The live dashboard shows
 `DOWN / AUTH FAILED` with a link to the run. The 401 is not masked anywhere.
 
-#### Two defects found while verifying the above
+#### Three defects found while verifying the above
 
-Neither was in the design. Both were in the habits around it.
+None was in the design. All three were in the habits around it, and two are the same defect:
+**a diagnostic quietly writing state that something else owns.**
 
 **The diagnostic was overwriting the verdict.** `python -m aicc worker-proof` wrote
 `data/worker_proof.json` — the file the border guard owns. Running it locally replaced a
@@ -223,6 +224,18 @@ added to CI without being added there fails the suite and names it. **CI is gree
 
 A red badge that stays red stops being read. That is the same failure as a green light nobody
 earned, pointing the other way.
+
+**A probe result is a fact about the machine that ran it.** Found by noticing the working tree was
+dirty after the other two fixes: `python -m aicc health` persisted its probe results into
+`data/system_state.json`, and those results are machine-specific — free disk, whether a binary is
+on PATH, how long ago the scheduler ran *here*. A local run wrote `Writable. 30,420 MB free.` over
+the runner's 88,015 MB. Not cosmetic: the dashboard build reads the **persisted** capability set
+rather than re-probing, and runs before the step that re-probes, so a local reading that reached a
+commit would be published as the system's storage. On a runner the same result *is* the system's
+state, so the rule is about where it ran rather than which command asked —
+`state.probe_results_are_the_systems()`, with `persist=False` at the diagnostic call sites. Both
+halves are asserted, because refusing to persist everywhere would freeze the dashboard on a stale
+capability set: the same dishonesty in different clothes.
 
 ### 2. GitHub Pages — LIVE
 
