@@ -93,7 +93,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "619 events recorded.",
+      "detail": "620 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "state": "",
@@ -112,12 +112,12 @@
     "ai_worker": {
       "key": "ai_worker",
       "label": "AI Worker",
-      "health": "DOWN",
-      "detail": "AUTH FAILED. The Claude credential was rejected. This does not recover on its own - it needs a new token from `claude setup-token`. Evidence: https://github.com/amercado19/ai-income-control-center/actions/runs/34699557722",
-      "last_success": "",
-      "blocking_reason": "Andres must run `claude setup-token` and update the CLAUDE_CODE_OAUTH_TOKEN repository secret. Nothing else unblocks this, and it does not recover on its own.",
-      "state": "AUTH FAILED",
-      "light": "RED"
+      "health": "HEALTHY",
+      "detail": "Verified. A real `ClaudeWorker.execute -> claude -p` call succeeded 0h ago on a GitHub Actions runner, at commit 7d0e0123 on main, authenticated by CLAUDE_CODE_OAUTH_TOKEN with no paid API key present.",
+      "last_success": "2026-09-12T15:52:12+00:00",
+      "blocking_reason": "",
+      "state": "HEALTHY",
+      "light": "GREEN"
     },
     "scheduler": {
       "key": "scheduler",
@@ -162,6 +162,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-12T15:10:52+00:00",
+  "updated_at": "2026-09-12T15:54:48+00:00",
   "has_real_revenue": false
 }
