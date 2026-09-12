@@ -317,9 +317,14 @@ def record_result(report: dict[str, Any]) -> Path:
 def last_result() -> dict[str, Any]:
     """The last recorded proof, with staleness resolved.
 
-    Returns ``{"state": ...}`` where state is one of PASSED, FAILED, STALE or NEVER_RUN. The
-    distinction between STALE and NEVER_RUN matters: one says "this worked and we should check
-    again", the other says "nothing has ever demonstrated this works".
+    Returns ``{"state": ...}`` where state is one of PASSED, PASSED_ELSEWHERE, FAILED, STALE or
+    NEVER_RUN. Each distinction earns its place by demanding a different response:
+
+    * STALE vs NEVER_RUN - "this worked and should be rechecked" vs "nothing has ever shown it
+      works at all".
+    * PASSED vs PASSED_ELSEWHERE - a pass on a GitHub Actions runner is evidence about the
+      environment client jobs execute in. A pass on a laptop is evidence about that laptop, and
+      going green on it would let a good local credential mask an expired repository secret.
     """
     if not PROOF_FILE.exists():
         return {"state": "NEVER_RUN", "detail": "No worker proof has ever been recorded."}
@@ -355,12 +360,35 @@ def last_result() -> dict[str, Any]:
             "run_url": payload.get("workflow_run_url", ""),
             "age_hours": round(age_hours, 1),
         }
+    # A proof is only evidence about the environment it ran in.
+    #
+    # Client jobs execute on a GitHub Actions runner. A pass recorded on a laptop says the
+    # credential on THAT machine works, which is a different claim and a misleading one here:
+    # Andres could run `claude setup-token`, prove it locally, and turn the light green while the
+    # repository secret Actions uses is still the expired one that returns 401. The light would
+    # then be reporting a machine that never runs a client job.
+    #
+    # So an off-runner pass is recorded and reported, but it does not turn the light green. It is
+    # a useful signal - the token itself is good - and it is named as the partial evidence it is.
+    environment = str(payload.get("execution_environment", "") or "an unknown machine")
+    proved_where_work_runs = bool(payload.get("workflow_run_url"))
+    if not proved_where_work_runs:
+        return {
+            "state": "PASSED_ELSEWHERE",
+            "detail": (
+                f"A real model call succeeded {age_hours:.0f}h ago, but on {environment} rather "
+                f"than on a GitHub Actions runner, which is where client jobs execute. That "
+                f"proves the credential on that machine, not the repository secret Actions uses. "
+                f"Run the `Claude worker` workflow to prove the path real work takes."
+            ),
+            "at": payload.get("generated_at", ""),
+            "run_url": "",
+            "age_hours": round(age_hours, 1),
+        }
+
     return {
         "state": "PASSED",
-        "detail": (
-            f"A real model call through ClaudeWorker.execute returned an exact nonce "
-            f"{age_hours:.0f}h ago on {payload.get('execution_environment', 'an unknown machine')}."
-        ),
+        "detail": (f"A real model call through ClaudeWorker.execute returned an exact nonce {age_hours:.0f}h ago on {environment}."),
         "at": payload.get("generated_at", ""),
         "run_url": payload.get("workflow_run_url", ""),
         "age_hours": round(age_hours, 1),

@@ -170,6 +170,17 @@ def probe_ai_worker() -> Capability:
             "Re-run the Claude worker proof to confirm the credential still works.",
         )
 
+    # A pass on the wrong machine. Real evidence about a real credential, but not about the
+    # environment client jobs run in, so it is worth showing and not worth going green over.
+    if proof["state"] == "PASSED_ELSEWHERE":
+        return _cap(
+            "ai_worker",
+            "AI Worker",
+            Health.DEGRADED,
+            f"Proved off-runner. {proof['detail']}",
+            "Dispatch the Claude worker workflow so the proof comes from where client work executes.",
+        )
+
     return _cap(
         "ai_worker",
         "AI Worker",
