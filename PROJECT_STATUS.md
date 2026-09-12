@@ -194,6 +194,36 @@ Verified by running it: worker run #6 produced the artifact, `health.yml` valida
 holding no credential, and committed `Worker proof: AUTH FAILED`. The live dashboard shows
 `DOWN / AUTH FAILED` with a link to the run. The 401 is not masked anywhere.
 
+#### Two defects found while verifying the above
+
+Neither was in the design. Both were in the habits around it.
+
+**The diagnostic was overwriting the verdict.** `python -m aicc worker-proof` wrote
+`data/worker_proof.json` — the file the border guard owns. Running it locally replaced a
+committed `AUTH FAILED` verdict with a laptop's self-report, discarding the URL of the run that
+produced it and the timestamp of the validation; anything that stages `data/` in CI would then
+have committed that as the repository's state. No green light was ever reachable this way (the
+guard re-validates a raw attestation on read and refuses a laptop's five different ways), which
+is precisely why it went unnoticed — the clobber type-checked and the colour barely moved. The
+two files now have two paths: `worker_proof.json` is what the guard accepted,
+`worker_proof_local.json` is what happened on one machine, gitignored.
+
+**CI had been red for nine commits, and not once because of a bug in the code.** The secret
+scanner was flagging a test fixture shaped like a real token — `sk-ant-oat01-…` — written to
+prove the OAuth token never reaches the attestation. It was right to flag it: a scanner that can
+tell a decoy from a credential is a scanner a decoy can fool. The fixture is now a sentinel that
+looks nothing like a credential, which proves the same property, because `attestation` never
+reads the variable's value at all.
+
+The nine runs are the part worth recording. Local checks were being assembled by hand each time
+— tests, lint, types, self-test — and the one check never in the hand-assembled list was the one
+that failed. `bash scripts/verify.sh` is now the single local entrypoint, running exactly what
+`ci.yml` runs in its order, and a test parses `ci.yml` to assert the two lists agree, so a step
+added to CI without being added there fails the suite and names it. **CI is green as of #57.**
+
+A red badge that stays red stops being read. That is the same failure as a green light nobody
+earned, pointing the other way.
+
 ### 2. GitHub Pages — LIVE
 
 **https://amercado19.github.io/ai-income-control-center/**
@@ -244,8 +274,14 @@ described at the top of this file, scored honestly.
 ## Next actions, in order
 
 1. **Publish the four Fiverr gigs.** `python -m aicc fiverr wizard`. This is the revenue path.
-2. Read the Claude worker run result and record it in "Open" above.
-3. Confirm the Pages deploy and record the live URL in `docs/DEPLOYMENT.md`.
-4. Review the contract roles: `python -m aicc top --limit 10`, and the plan: `python -m aicc queue`.
-5. Record outcomes as they land — win rate stays *Insufficient Data* until 5 decided outcomes,
+2. **Refresh the Claude token** — `claude setup-token`, then update the `CLAUDE_CODE_OAUTH_TOKEN`
+   repository secret. The only step here that needs a person. Everything downstream of it is
+   built, tested and waiting: the next worker run mints a proof, `health.yml` validates it, and
+   the dashboard moves off `AUTH FAILED` on its own.
+3. Review the contract roles: `python -m aicc top --limit 10`, and the plan: `python -m aicc queue`.
+4. Record outcomes as they land — win rate stays *Insufficient Data* until 5 decided outcomes,
    and that is deliberate.
+
+Before pushing anything: `bash scripts/verify.sh`. It runs what CI runs, so a clean run means a
+green badge. It also does not write to `data/` — a local check that mutates shared state is the
+defect recorded above.
