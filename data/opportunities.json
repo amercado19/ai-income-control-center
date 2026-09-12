@@ -510,119 +510,6 @@
       "probability_low": 0.0
     }
   },
-  "opp_0f9ee067532a": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 3500.0,
-    "budget_min": 2000.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Meridian Research Institute",
-    "competition_score": 65.1,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Non-profit research institute. We track sponsored program spending across about 60 active awards in spreadsheets and it has stopped scaling. We want a dashboard showing burn rate per award, projected end-of-award balance, and a flag for awards trending to underspend or overspend. Data comes from a monthly export from our finance system as CSV. Deliverables: the dashboard, the ingestion script for the monthly export, documentation, and a handover session. Requirements: it must run somewhere we control, must not require a paid subscription, and the calculations must be auditable - our finance director needs to see how each number was derived. Timeline is flexible; we care more about getting the burn-rate logic right than about speed.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 14.74,
-    "estimated_cost": 0.0,
-    "estimated_hours": 29.49,
-    "estimated_net_revenue": 2475.0,
-    "estimated_non_ai_effort": 14.75,
-    "estimated_platform_fee": 275.0,
-    "external_id": "demo_008",
-    "id": "opp_0f9ee067532a",
-    "is_demo": true,
-    "match_score": 70.7,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-10T05:11:30+00:00",
-    "profit_score": 91.0,
-    "risk_flags": [],
-    "score": 74.5,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 7.1,
-          "evidence": "50% of estimated effort is AI-carryable (14.7h AI / 14.8h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 6.8,
-          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 16.1,
-          "evidence": "Estimated net $2,475 on $2,750 (90% margin). $134 per effective hour vs $85 target (18.4 effective h = 14.8h human + 14.7h AI discounted). Leverage: $168 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 12.1,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one. Budget >= $2,000 attracts stronger competition (-10%)."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 21.9,
-          "evidence": "Matched 2 profile skills: csv, dashboard."
-        }
-      },
-      "final_score": 74.5,
-      "opportunity_class": "C - High-value build ($500+)",
-      "penalties": [],
-      "raw_total": 74.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
-    },
-    "skills": [
-      "csv",
-      "dashboard"
-    ],
-    "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Build an internal dashboard for our grant spending",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/008",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 2 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
-    }
-  },
   "opp_13e3c6503eee": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -3542,6 +3429,158 @@
       "probability_low": 12.0
     }
   },
+  "opp_4261d47a3f10": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "SnappyCX",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T00:57:35+00:00",
+    "description": "Administrative Assistant \u2013 Leadership Team Support Full-Time | Remote | U.S. Business Hours Work Schedule Full-time: 40 hours per week Schedule will provide coverage across U.S. Eastern through U.S. Pacific business hours Exact working hours will be confirmed with the selected candidate Job Overview One of our clients is looking to hire a highly organized, proactive, and reliable Administrative Assistant \u2013 Leadership Team Support to support a four-person leadership team . This role is focused on ensuring that important decisions, action items, deadlines, and follow-ups do not get lost or forgotten. You will attend meetings, document key decisions and responsibilities, maintain leadership tasks, coordinate schedules, and proactively follow up with team members until outstanding items are completed or appropriately closed. This is not a Project Manager role . You will not be responsible for owning company strategy or driving major initiatives. Instead, you will be responsible for creating visibility, accountability, and follow-through across the leadership team's day-to-day activities. Key Responsibilities Attend leadership and team meetings and accurately capture decisions, action items, owners, and deadlines . Prepare and circulate clear written meeting summaries on the same day. Follow up proactively on outstanding action items until they are completed, reassigned, or intentionally closed . Communicate directly with employees and senior leadership to obtain updates and keep \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/snappycx/jobs/administrative-assistant-leadership-team-support",
+    "id": "opp_4261d47a3f10",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 37.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 37.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 49.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "administrative-assistant",
+      "executive-assistant",
+      "leadership-support",
+      "virtual-assistant",
+      "office-administration",
+      "administrative-team-assistant",
+      "executive-assistant-to-leadership",
+      "executive-administrative-support",
+      "administrative-and-operations-assistant",
+      "admin-support-specialist",
+      "ceo-administrative-assistant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Administrative Assistant \u2013 Leadership Team Support",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/snappycx/jobs/administrative-assistant-leadership-team-support",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_439ae6730823": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -3824,130 +3863,6 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
-    }
-  },
-  "opp_4c5ab5b8089c": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 75.0,
-    "budget_min": 55.0,
-    "budget_type": "HOURLY",
-    "category": "web_research",
-    "client": "Lumen Home Goods",
-    "competition_score": 75.1,
-    "confidence": 80.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Ongoing part-time contract. Each week, check publicly listed prices for about 40 SKUs across six competitor websites and record them in a shared tracker with the date and a source link for each figure. We need the sources cited so we can verify. Roughly 4-6 hours a week. Please only use publicly available information; do not create accounts or bypass anything to get pricing.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 3.6,
-    "estimated_cost": 0.0,
-    "estimated_hours": 4.8,
-    "estimated_net_revenue": 237.6,
-    "estimated_non_ai_effort": 1.2,
-    "estimated_platform_fee": 26.4,
-    "external_id": "demo_003",
-    "id": "opp_4c5ab5b8089c",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "ONGOING",
-    "posted_time": "2026-09-10T15:11:30+00:00",
-    "profit_score": 63.5,
-    "risk_flags": [],
-    "score": 45.5,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 9.2,
-          "awarded": 6.9,
-          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 7.4,
-          "awarded": 3.3,
-          "evidence": "Moderate description (>=300 chars); budget stated."
-        },
-        "Expected Profitability": {
-          "available": 18.4,
-          "awarded": 11.7,
-          "evidence": "Estimated net $238 on $264 (90% margin). $113 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $198 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.0,
-          "awarded": 13.5,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.1,
-          "awarded": 10.1,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 36.9,
-          "awarded": 0.0,
-          "evidence": "No skill from the operator profile appears in this listing."
-        }
-      },
-      "final_score": 45.5,
-      "opportunity_class": "D - Ongoing / hourly contract",
-      "penalties": [],
-      "raw_total": 45.5,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 9.22,
-        "clarity_of_requirements": 7.37,
-        "expected_profitability": 18.43,
-        "likelihood_of_winning": 17.97,
-        "risk": 10.14,
-        "skill_fit": 36.87
-      }
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Weekly competitor pricing research compiled into a tracker",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/003",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (47-65%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 1 day(s) old; still being read."
-        },
-        {
-          "effect": "-10%",
-          "factor": "Ongoing engagement",
-          "from": "66%",
-          "to": "56%",
-          "why": "Judged over weeks against candidates with a track record."
-        }
-      ],
-      "probability_high": 65.0,
-      "probability_low": 47.0
     }
   },
   "opp_4c7146c66ee3": {
@@ -5240,6 +5155,136 @@
       "probability_low": 60.0
     }
   },
+  "opp_6d72dad74324": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-10T22:03:14+00:00",
+    "description": "Puzzle Solver (Coding) Pay: $50\u2013$80/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you choose the hours and days you work, including weekends if desired We are looking for highly skilled coding puzzle solvers to contribute to an AI training project involving algorithmic reasoning, debugging, constrained technical problems, and reproducible software solutions. The work involves solving self-contained coding and technical challenges designed to test the capabilities of advanced AI models. A representative task may require exploring an unfamiliar codebase or terminal environment, understanding a precise objective, implementing a solution, testing it against hidden or explicit constraints, and producing a reproducible final result. What You\u2019ll Work On Solve self-contained coding, logic, debugging, and technical reasoning challenges. Analyze unfamiliar problems and translate their requirements into implementable solutions. Select appropriate algorithms, data structures, and problem-solving strategies. Work inside terminal-based development environments and existing codebases. Implement correct and efficient solutions using an appropriate programming language. Identify ambiguous requirements, edge cases, hidden assumptions, and failure conditions. Debug incorrect behavior across code, tests, dependencies, and environment configuration. Develop tests and verification methods that distinguish genuinely correct solutions from \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding",
+    "id": "opp_6d72dad74324",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T22:03:14+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 58.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: python. Covers 33% of the 3 skills this listing names (missing: javascript, typescript)."
+        }
+      },
+      "final_score": 58.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "puzzle-logic",
+      "coding-problem-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Puzzle Solver (Coding)",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_7c9a918f4364": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5362,292 +5407,6 @@
       "probability_high": 78.0,
       "probability_low": 58.0
     }
-  },
-  "opp_8949d67725fb": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 600.0,
-    "budget_min": 400.0,
-    "budget_type": "FIXED",
-    "category": "spreadsheet",
-    "client": "Brightline Retail Group",
-    "competition_score": 74.8,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We have 14 monthly Excel exports from our POS system, one per month, each with slightly different column names and some merged header rows. We need them consolidated into a single clean workbook with a normalized schema, plus a summary tab with month-over-month revenue by store and by category. Deliverables: one .xlsx with a Data tab, a Summary tab with pivot-ready structure, and a short README describing the column mapping you used. Requirements: preserve every original row (we will check row counts), flag any rows that failed to map rather than dropping them, and keep currency formatting consistent. We would also like the mapping logic as a Python script so we can re-run it next quarter ourselves. Scope is fixed; timeline is one week. Please tell us how you would handle the duplicate order IDs we know exist in Q3.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 4.84,
-    "estimated_cost": 0.0,
-    "estimated_hours": 5.38,
-    "estimated_net_revenue": 450.0,
-    "estimated_non_ai_effort": 0.54,
-    "estimated_platform_fee": 50.0,
-    "external_id": "demo_000",
-    "id": "opp_8949d67725fb",
-    "is_demo": true,
-    "match_score": 78.1,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-11T18:11:30+00:00",
-    "profit_score": 76.8,
-    "risk_flags": [],
-    "score": 83.0,
-    "score_band": "STRONG",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 12.7,
-          "evidence": "90% of estimated effort is AI-carryable (4.8h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 8.0,
-          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 13.6,
-          "evidence": "Estimated net $450 on $500 (90% margin). $257 per effective hour vs $85 target (1.8 effective h = 0.5h human + 4.8h AI discounted). Leverage: $833 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 13.9,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 24.2,
-          "evidence": "Matched 3 profile skills: excel, python, reporting."
-        }
-      },
-      "final_score": 83.0,
-      "opportunity_class": "C - High-value build ($500+)",
-      "penalties": [],
-      "raw_total": 83.0,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
-    },
-    "skills": [
-      "python",
-      "excel"
-    ],
-    "source": "demo",
-    "status": "WON",
-    "title": "[DEMO] Clean and consolidate 14 monthly sales spreadsheets into one reporting workbook",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/000",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 0 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
-    }
-  },
-  "opp_8a63a296720b": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 250.0,
-    "budget_min": 250.0,
-    "budget_type": "FIXED",
-    "category": "pdf_extraction",
-    "client": "Kestrel Manufacturing",
-    "competition_score": 74.8,
-    "confidence": 90.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We have roughly 300 scanned PDF invoices from suppliers. We need supplier name, invoice number, invoice date, each line item with quantity and unit price, and the invoice total, extracted into a CSV. Scans are decent quality but not perfect. Deliverable is the CSV plus a list of any invoices the extraction could not read confidently, so we can key those manually. Accuracy on totals matters more than speed - we will spot check 30 of them against the originals.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 2.91,
-    "estimated_cost": 0.0,
-    "estimated_hours": 3.42,
-    "estimated_net_revenue": 225.0,
-    "estimated_non_ai_effort": 0.51,
-    "estimated_platform_fee": 25.0,
-    "external_id": "demo_002",
-    "id": "opp_8a63a296720b",
-    "is_demo": true,
-    "match_score": 63.2,
-    "opportunity_class": "MID",
-    "posted_time": "2026-09-11T01:11:30+00:00",
-    "profit_score": 71.9,
-    "risk_flags": [],
-    "score": 77.1,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 21.6,
-          "awarded": 18.3,
-          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 9.8,
-          "awarded": 8.3,
-          "evidence": "Moderate description (>=300 chars); 2 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 19.6,
-          "awarded": 14.1,
-          "evidence": "Estimated net $225 on $250 (90% margin). $181 per effective hour vs $85 target (1.2 effective h = 0.5h human + 2.9h AI discounted). Leverage: $441 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 14.7,
-          "awarded": 11.0,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 9.8,
-          "awarded": 9.8,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 24.5,
-          "awarded": 15.5,
-          "evidence": "Matched 1 profile skills: csv."
-        }
-      },
-      "final_score": 77.1,
-      "opportunity_class": "B - Mid-size project ($100-500)",
-      "penalties": [],
-      "raw_total": 77.1,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 21.57,
-        "clarity_of_requirements": 9.8,
-        "expected_profitability": 19.61,
-        "likelihood_of_winning": 14.71,
-        "risk": 9.8,
-        "skill_fit": 24.51
-      }
-    },
-    "skills": [
-      "csv",
-      "pdf"
-    ],
-    "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Extract line items from 300 scanned supplier invoices into CSV",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/002",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (56-76%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 1 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 76.0,
-      "probability_low": 56.0
-    }
-  },
-  "opp_8be90a7c99c7": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 4000.0,
-    "budget_min": 2500.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Global Ventures LLC",
-    "competition_score": 0.0,
-    "confidence": 55.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We need someone to help process payments for us. You will receive funds into your account and forward them to our suppliers, keeping 10%. Must be available today. We communicate on Telegram only. Please send a small deposit to verify your account is active and we will begin immediately.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 16.58,
-    "estimated_cost": 0.0,
-    "estimated_hours": 33.16,
-    "estimated_net_revenue": 2925.0,
-    "estimated_non_ai_effort": 16.58,
-    "estimated_platform_fee": 325.0,
-    "external_id": "demo_007",
-    "id": "opp_8be90a7c99c7",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T20:11:30+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "LIKELY_SCAM",
-      "UNREALISTIC_DEADLINE"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Matches known scam patterns.",
-      "weights_used": {}
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Urgent - payment processing assistant needed, start today",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/007",
-    "win_estimate": {}
   },
   "opp_8c2e90581938": {
     "ai_allowed": null,
@@ -5908,248 +5667,6 @@
       "probability_low": 15.0
     }
   },
-  "opp_8c80c8e4531f": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 2000.0,
-    "budget_min": 1200.0,
-    "budget_type": "FIXED",
-    "category": "api_integration",
-    "client": "Northwind Logistics",
-    "competition_score": 74.8,
-    "confidence": 100.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "We need a scheduled job that calls three REST APIs (our TMS, a weather API, and a fuel price feed), normalizes the responses, stores them, and emails a daily operations summary as a PDF. Must run unattended on a schedule - we do not want to babysit it. Requirements: retry on transient failures, alert us when a source is unavailable rather than silently producing an empty report, and keep credentials out of the codebase. Deliverables: the pipeline code with tests, a deployment guide, and the scheduled job configured and demonstrably running. We use GitHub already so GitHub Actions is fine. Acceptance criteria: seven consecutive successful scheduled runs and a correct report on each. Milestone-based payment is fine.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 13.8,
-    "estimated_cost": 0.0,
-    "estimated_hours": 19.71,
-    "estimated_net_revenue": 1440.0,
-    "estimated_non_ai_effort": 5.91,
-    "estimated_platform_fee": 160.0,
-    "external_id": "demo_001",
-    "id": "opp_8c80c8e4531f",
-    "is_demo": true,
-    "match_score": 62.6,
-    "opportunity_class": "HIGH_VALUE",
-    "posted_time": "2026-09-11T12:11:30+00:00",
-    "profit_score": 81.4,
-    "risk_flags": [],
-    "score": 75.0,
-    "score_band": "REVIEW",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 14.2,
-          "awarded": 9.9,
-          "evidence": "70% of estimated effort is AI-carryable (13.8h AI / 5.9h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 8.0,
-          "awarded": 6.8,
-          "evidence": "Moderate description (>=300 chars); 5 skills specified; budget stated; deliverables or scope named."
-        },
-        "Expected Profitability": {
-          "available": 17.7,
-          "awarded": 14.4,
-          "evidence": "Estimated net $1,440 on $1,600 (90% margin). $154 per effective hour vs $85 target (9.4 effective h = 5.9h human + 13.8h AI discounted). Leverage: $244 per human hour."
-        },
-        "Likelihood of Winning": {
-          "available": 18.6,
-          "awarded": 13.9,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 10.6,
-          "awarded": 10.6,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 31.0,
-          "awarded": 19.4,
-          "evidence": "Matched 3 profile skills: github actions, python, rest api. Covers 40% of the 5 skills this listing names (missing: api, pdf, rest)."
-        }
-      },
-      "final_score": 75.0,
-      "opportunity_class": "C - High-value build ($500+)",
-      "penalties": [],
-      "raw_total": 75.0,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 14.16,
-        "clarity_of_requirements": 7.96,
-        "expected_profitability": 17.7,
-        "likelihood_of_winning": 18.58,
-        "risk": 10.62,
-        "skill_fit": 30.97
-      }
-    },
-    "skills": [
-      "python",
-      "api",
-      "rest",
-      "github actions",
-      "pdf"
-    ],
-    "source": "demo",
-    "status": "REVIEW",
-    "title": "[DEMO] Build a scheduled Python pipeline to pull our API data into a daily report",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/001",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (69-93%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "75%",
-          "to": "81%",
-          "why": "About 0 day(s) old; still being read."
-        }
-      ],
-      "probability_high": 93.0,
-      "probability_low": 69.0
-    }
-  },
-  "opp_8df53e589d54": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 15.0,
-    "budget_min": 15.0,
-    "budget_type": "FIXED",
-    "category": "scripting",
-    "client": "Anonymous",
-    "competition_score": 74.9,
-    "confidence": 75.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Need a script to rename files. Simple job. Quick turnaround.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 1.96,
-    "estimated_cost": 0.0,
-    "estimated_hours": 2.45,
-    "estimated_net_revenue": 13.5,
-    "estimated_non_ai_effort": 0.49,
-    "estimated_platform_fee": 1.5,
-    "external_id": "demo_004",
-    "id": "opp_8df53e589d54",
-    "is_demo": true,
-    "match_score": 63.1,
-    "opportunity_class": "SMALL",
-    "posted_time": "2026-09-11T16:11:30+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [],
-    "score": 64.6,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {
-        "Automation Potential": {
-          "available": 33.6,
-          "awarded": 26.9,
-          "evidence": "80% of estimated effort is AI-carryable (2.0h AI / 0.5h human)."
-        },
-        "Clarity of Requirements": {
-          "available": 14.9,
-          "awarded": 6.0,
-          "evidence": "Thin description; 1 skills specified; budget stated."
-        },
-        "Expected Profitability": {
-          "available": 9.3,
-          "awarded": 0.0,
-          "evidence": "Estimated value $15 is below the $50 floor."
-        },
-        "Likelihood of Winning": {
-          "available": 14.0,
-          "awarded": 10.5,
-          "evidence": "Synthetic. The demo listings are written as direct-client scenarios (a named company briefing a specific piece of work), not marketplace bids, so they carry a direct-client prior rather than a marketplace one."
-        },
-        "Risk": {
-          "available": 9.3,
-          "awarded": 9.3,
-          "evidence": "No risk flags detected."
-        },
-        "Skill Fit": {
-          "available": 18.7,
-          "awarded": 11.8,
-          "evidence": "Matched 1 profile skills: python."
-        }
-      },
-      "final_score": 64.6,
-      "opportunity_class": "A - Small automatable ($25-100)",
-      "penalties": [],
-      "raw_total": 64.6,
-      "rejected": false,
-      "rejection_reason": "",
-      "weights_used": {
-        "automation_potential": 33.64,
-        "clarity_of_requirements": 14.95,
-        "expected_profitability": 9.35,
-        "likelihood_of_winning": 14.02,
-        "risk": 9.35,
-        "skill_fit": 18.69
-      }
-    },
-    "skills": [
-      "python"
-    ],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Small Python script to rename and sort files",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/004",
-    "win_estimate": {
-      "band": "High",
-      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
-      "display": "High (65-87%)",
-      "factors": [
-        {
-          "effect": "75%",
-          "factor": "Source prior",
-          "from": "-",
-          "to": "75%",
-          "why": "Structural competitiveness of this channel."
-        },
-        {
-          "effect": "-15%",
-          "factor": "Weak skill alignment",
-          "from": "75%",
-          "to": "60%",
-          "why": "Almost nothing in this listing matches the profile."
-        },
-        {
-          "effect": "+6%",
-          "factor": "Posted recently",
-          "from": "60%",
-          "to": "66%",
-          "why": "About 0 day(s) old; still being read."
-        },
-        {
-          "effect": "+10%",
-          "factor": "Small one-off job",
-          "from": "66%",
-          "to": "76%",
-          "why": "Decided quickly and largely on price and turnaround, where a new account is least disadvantaged."
-        }
-      ],
-      "probability_high": 87.0,
-      "probability_low": 65.0
-    }
-  },
   "opp_8fe2edb760d1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6281,6 +5798,288 @@
       ],
       "probability_high": 52.0,
       "probability_low": 34.0
+    }
+  },
+  "opp_966d2d73b4d7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 38.46,
+    "budget_min": 33.65,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "TestGorilla",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-12T01:08:34+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "\u00e2\u009a\u00a1 This one's going to move fast. We're expecting a lot of interest, so we're running this as a focused hiring sprint. Applications and assessments close September 20, with interviews happening over the two weeks after that.\u00c2 \u00f0\u009f\u0093\u008d Where do we hire from? Almost everywhere. Check that your country appears on this page . For this role, you'll have at least 4 hours daily overlap with your UK-based manager. Hi there, I'm Olive Turon, Head of People & Culture at TestGorilla. I'm excited to share more about the Senior People & Talent Operations Partner role and our team. About TestGorilla At TestGorilla, we're on a mission to place 1 billion people in their dream jobs. To democratize opportunity, we're building the world's leading skills-based talent discovery platform - one that replaces reliance on resumes with scientific validation of what people can truly do. Founded as a 100% remote company in 2020, our global team is united by high standards, a lot of heart, and a relentless drive to conquer new technological frontiers. We're all AI-fluent builders who care deeply about replacing bias with fairness. After empowering thousands of companies to hire smarter and faster, we're now unlocking the next phase of our scale-up journey - where you'll play an instrumental role in creating a world where skills matter most! About the role As our Senior People & Talent Operations Partner, you'll own People Ops as a product: the systems, compliance, and self-serve workflows that let most of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 242.28,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137378",
+    "id": "opp_966d2d73b4d7",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-10T21:13:22+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 61.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $242 on $242 (100% margin). $84 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $168 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 33% of the 6 skills this listing names (missing: api, ocr, rest, zapier)."
+        }
+      },
+      "final_score": 61.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "automation",
+      "zapier",
+      "ocr",
+      "hr",
+      "non tech"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Senior People & Talent Operations Partner",
+    "updated_at": "2026-09-12T01:08:34+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "20%",
+          "to": "12%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "12%",
+          "to": "18%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "18%",
+          "to": "8%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
+    }
+  },
+  "opp_9690f550f28c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "The Suddath Companies",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:49:09+00:00",
+    "description": "Why Choose Suddath to \u201cMove\u201d your Career to the Next Level? At Suddath, you can be part of something special and inclusive! Join a team that has a 100+ year reputation for excellence as an innovative, growing and financially stable company that is dedicated to promoting a culture that thrives on inclusion and diversity. From numerous awards to being recognized as one of the best places to work, Suddath offers a caring, family environment while providing relocation and logistics services to people and companies all around the world. What We Offer! A competitive wage with a comprehensive benefits package, including a 401(k) plan with company matching Weekly pay for hourly-paid employees. Biweekly pay for salaried employees. Paid Time Off (PTO) and paid company holidays A tuition reimbursement plan where employees are encouraged to continue their education and development For more information on our benefit offerings, please visit and scroll down to view our employee benefits. SUMMARY The PMO Manager will play a critical role in establishing and maintaining the Project Management Office (PMO) framework, ensuring consistent processes, governance, and execution across Contract Logistics projects. This role combines hands-on project leadership with direct management of PMO resources. The PMO Manager will partner closely with Sales, Operations, Solutions, and cross-functional teams (Legal, EHS, Finance, HR, IT) to define project requirements, structure workflows, and lead \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-suddath-companies/jobs/pmo-manager",
+    "id": "opp_9690f550f28c",
+    "is_demo": false,
+    "match_score": 72.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-11T20:34:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.7,
+          "evidence": "Matched 2 profile skills: dashboard, excel. Covers 67% of the 3 skills this listing names (missing: aws)."
+        }
+      },
+      "final_score": 55.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "dashboard",
+      "pmo-manager",
+      "project-management",
+      "logistics-project-manager",
+      "supply-chain-project-manager",
+      "pmo-management",
+      "senior-pmo-manager",
+      "pmo-and-project-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "PMO Manager",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/the-suddath-companies/jobs/pmo-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_99b3e1401107": {
@@ -6969,6 +6768,148 @@
       "probability_low": 0.0
     }
   },
+  "opp_9d17f2ccb9fb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:46:43+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-mi",
+    "id": "opp_9d17f2ccb9fb",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:28+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "insurance-sales",
+      "sales",
+      "insurance-agent",
+      "financial-services",
+      "licensed-sales-professional",
+      "licensed-sales-representative",
+      "licensed-insurance-sales-agent",
+      "licensed-insurance-sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - MI",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-mi",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_9e83d539f12b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -7415,6 +7356,150 @@
       "probability_low": 14.0
     }
   },
+  "opp_aa02c931a2b5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:45:59+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-in",
+    "id": "opp_aa02c931a2b5",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:28+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "sales",
+      "insurance-sales",
+      "insurance-agent",
+      "remote-sales",
+      "sales-professional",
+      "licensed-sales-professional",
+      "remote-sales-representative",
+      "remote-sales-agent",
+      "remote-sales-specialist",
+      "remote-sales-associate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - Remote - IN",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-in",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_ad9fd8788ed9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -7823,6 +7908,147 @@
       "probability_low": 60.0
     }
   },
+  "opp_b76808eed9ec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:46:45+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-oh",
+    "id": "opp_b76808eed9ec",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:28+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "sales",
+      "insurance-sales-agent",
+      "insurance-agent",
+      "remote-sales",
+      "sales-professional",
+      "licensed-sales-professional",
+      "remote-entry-level-sales-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - Remote - OH",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-oh",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_c05d2790fdec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -8198,6 +8424,149 @@
       ],
       "probability_high": 86.0,
       "probability_low": 64.0
+    }
+  },
+  "opp_c466343dc2ea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:46:39+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-va",
+    "id": "opp_c466343dc2ea",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:28+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "insurance-sales",
+      "insurance-agent",
+      "remote-sales",
+      "sales-professional",
+      "virtual-sales-specialist",
+      "sales",
+      "remote-sales-agent",
+      "remote-sales-specialist",
+      "remote-sales-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - Remote - VA",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-va",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_c5c09a4ced9f": {
@@ -8934,6 +9303,150 @@
       "probability_low": 25.0
     }
   },
+  "opp_d944c459b1f5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:45:10+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-mo",
+    "id": "opp_d944c459b1f5",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:28+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "insurance-sales",
+      "insurance-agent",
+      "remote-sales",
+      "licensed-insurance-professional",
+      "licensed-sales-professional",
+      "remote-sales-representative",
+      "remote-sales-specialist",
+      "remote-sales-agent",
+      "sales-professional",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - Remote - MO",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-mo",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_da29151dfb0e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -9458,60 +9971,6 @@
       "probability_high": 80.0,
       "probability_low": 60.0
     }
-  },
-  "opp_e8ca634f3d40": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 300.0,
-    "budget_min": 300.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Private Client",
-    "competition_score": 0.0,
-    "confidence": 65.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "I need someone to write my assignment for my graduate finance module. It is 4000 words on capital structure and is due Friday. Must be original and pass the plagiarism checker. This is for my coursework so it needs to be in my voice.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 2.98,
-    "estimated_cost": 0.0,
-    "estimated_hours": 5.96,
-    "estimated_net_revenue": 270.0,
-    "estimated_non_ai_effort": 2.98,
-    "estimated_platform_fee": 30.0,
-    "external_id": "demo_005",
-    "id": "opp_e8ca634f3d40",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T19:11:30+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "ACADEMIC_DISHONESTY"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Academic dishonesty. Never accepted.",
-      "weights_used": {}
-    },
-    "skills": [
-      "api"
-    ],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Write my graduate finance coursework - 4000 words",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/005",
-    "win_estimate": {}
   },
   "opp_eb91b55bffd1": {
     "ai_allowed": null,
@@ -10136,58 +10595,6 @@
       "probability_low": 26.0
     }
   },
-  "opp_f68c4a315114": {
-    "ai_allowed": null,
-    "automation_policy": "DEMO",
-    "budget_max": 400.0,
-    "budget_min": 400.0,
-    "budget_type": "FIXED",
-    "category": "generic",
-    "client": "Vertex Media",
-    "competition_score": 0.0,
-    "confidence": 55.0,
-    "created_at": "2026-09-11T21:11:30+00:00",
-    "currency": "USD",
-    "deadline": "",
-    "description": "Looking for a writer for 10 blog posts about supply chain software. Must be 100% human written - we run every submission through AI detection and will reject anything flagged. No ChatGPT, no AI assistance of any kind. Please confirm you understand before applying.",
-    "discovered_by_run": "",
-    "engagement_type": "",
-    "estimated_ai_effort": 3.35,
-    "estimated_cost": 0.0,
-    "estimated_hours": 6.69,
-    "estimated_net_revenue": 360.0,
-    "estimated_non_ai_effort": 3.34,
-    "estimated_platform_fee": 40.0,
-    "external_id": "demo_006",
-    "id": "opp_f68c4a315114",
-    "is_demo": true,
-    "match_score": 0.0,
-    "opportunity_class": "",
-    "posted_time": "2026-09-11T09:11:30+00:00",
-    "profit_score": 0.0,
-    "risk_flags": [
-      "AI_PROHIBITED"
-    ],
-    "score": 0.0,
-    "score_band": "SKIP",
-    "score_breakdown": {
-      "factors": {},
-      "final_score": 0.0,
-      "opportunity_class": "",
-      "penalties": [],
-      "raw_total": 0.0,
-      "rejected": true,
-      "rejection_reason": "Client prohibits AI. Automatic reject. Accepting this and using AI anyway would be dishonest; it can be re-opened as manual work if you choose to do it by hand.",
-      "weights_used": {}
-    },
-    "skills": [],
-    "source": "demo",
-    "status": "SKIP",
-    "title": "[DEMO] Blog content writing - human written only, no AI",
-    "updated_at": "2026-09-11T21:11:30+00:00",
-    "url": "https://example.invalid/demo/006",
-    "win_estimate": {}
-  },
   "opp_f7cbd5ce71fd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10307,6 +10714,147 @@
       ],
       "probability_high": 32.0,
       "probability_low": 8.0
+    }
+  },
+  "opp_f9935ff47c10": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 17.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Allstate",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-12T01:08:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-11T11:47:14+00:00",
+    "description": "Job Description Jumpstart Your Sales Career with a Trusted Brand Looking for a meaningful career with local impact and national brand power? As an Insurance Sales Professional, you\u2019ll grow a local Allstate agency by building relationships, protecting what matters most, and becoming a trusted advisor in your community. Sales Professional \u2013 Allstate Exclusive Agency Staff Are you ready to build a career where you can grow professionally, earn uncapped income, and make a real difference in your community? Join a team that\u2019s passionate about helping people protect what matters most. What\u2019s In It for You? Get Paid to Learn \u2013 Comprehensive training provided, no insurance experience required Earn What You Deserve \u2013 Base + uncapped commission + bonus opportunities Grow with Us \u2013 Continuous learning through Allstate University Make an Impact \u2013 Help customers protect their families and futures Work-Life Balance \u2013 Positive, supportive work environment Career Advancement \u2013 Opportunities to grow within the agency What You\u2019ll Do Achieve sales goals by generating new business and cross-selling to existing customers Identify and qualify leads from various sources Educate customers on Allstate products that meet their needs Serve your local community by helping them prepare for life\u2019s uncertainties Deliver a positive and professional customer experience What We\u2019re Looking For Strong interest in a sales career (sales experience is a plus!) No insurance experience required\u2014we\u2019ll help you get \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260912T010831Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.82,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-il",
+    "id": "opp_f9935ff47c10",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-11T20:34:29+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $130 on $130 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $35 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "insurance-sales",
+      "insurance-agent",
+      "remote-sales",
+      "licensed-sales-agent",
+      "licensed-sales-professional",
+      "remote-entry-level-sales-representative",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Licensed Sales Professional (LSP) - Remote - IL",
+    "updated_at": "2026-09-12T01:08:33+00:00",
+    "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-il",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   }
 }
