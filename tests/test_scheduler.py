@@ -171,13 +171,29 @@ def test_an_urgent_job_leads_the_queue_even_when_something_pays_more() -> None:
 # ---------------------------------------------------------------------- capacity
 
 
-def test_a_profitable_job_that_does_not_fit_waits_for_reset_rather_than_being_rejected() -> None:
-    """'Do NOT reject an excellent profitable job simply because current capacity is low.'"""
+def test_a_profitable_job_that_cannot_begin_yet_waits_for_reset_rather_than_being_rejected() -> None:
+    """'Do NOT reject an excellent profitable job simply because current capacity is low.'
+
+    The window here is nearly spent - five usable minutes - so the job genuinely cannot begin.
+    It is still perfectly deliverable before a ten-day deadline, so the right answer is a
+    queue position, not a rejection.
+    """
     big = Candidate(_profile("Too big for right now", 800.0, 400.0, deadline_slack=240.0, completion_hours=20.0))
-    p = scheduler.plan([big], horizon_hours=0, est=_estimate(30.0), now=NOW)
+    p = scheduler.plan([big], horizon_hours=0, est=_estimate(5.0), now=NOW)
     assert big in p.deferred, big.decision
     assert big.decision == "WAIT FOR RESET"
     assert big not in p.blocked
+
+
+def test_a_job_the_plan_cannot_fit_is_deferred_not_rejected() -> None:
+    """Deferred is the weaker statement: the capacity went somewhere better this round. The job
+    keeps its place and its reason, and nothing about it is marked bad."""
+    big = Candidate(_profile("Outbid for capacity", 800.0, 400.0, deadline_slack=240.0, completion_hours=20.0))
+    small = Candidate(_profile("Fits", 60.0, 25.0, completion_hours=1.0))
+    p = scheduler.plan([big, small], horizon_hours=0, est=_estimate(30.0), now=NOW)
+    assert big not in p.blocked
+    assert big in p.deferred
+    assert big.reason, "A deferred job must still say why."
 
 
 def test_a_job_that_cannot_fit_and_cannot_wait_goes_to_andres() -> None:

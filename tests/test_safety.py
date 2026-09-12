@@ -949,3 +949,83 @@ def test_the_brief_is_written_where_it_can_be_reviewed_next_to_the_output(monkey
     assert "Row counts match" in text
     assert "Do not invent facts" in text
     assert "NEEDS_ANDRES.md" in text
+
+
+def test_a_worker_failure_never_leaks_a_credential_into_the_logs() -> None:
+    """The worker's error text lands in CI logs, a JSON artifact and a step summary - three
+    public places on a public repository. The excerpt is worth having; the token in it is not."""
+    from aicc.fulfillment.worker import redact_secrets
+
+    samples = [
+        "Invalid API key provided: sk-ant-api03-abcdefghijklmnopqrstuvwxyz012345",
+        "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.abcdefghijklmnop",
+        "oauth token oat_01ABCDEFGHIJKLMNOPQRSTUVWXYZ rejected",
+        "credential AAAAAAAAAABBBBBBBBBBCCCCCCCCCCDDDDDDDDDDEEEE was refused",
+    ]
+    for s in samples:
+        out = redact_secrets(s)
+        assert "[REDACTED]" in out, s
+        for token_ish in ("sk-ant-api03-abcdefghijklmnopqrstuvwxyz012345", "oat_01ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
+            assert token_ish not in out
+
+
+def test_redaction_keeps_the_error_readable() -> None:
+    """A redactor that eats the whole message defeats the point of including it."""
+    from aicc.fulfillment.worker import redact_secrets
+
+    msg = "Error: the credential was rejected (401). Run `claude setup-token` again."
+    assert redact_secrets(msg) == msg
+
+
+# ------------------------------------------------- audit attribution across all four actors
+
+
+@pytest.mark.parametrize(
+    "env,expected",
+    [
+        ({}, "ANDRES"),
+        ({"GITHUB_ACTIONS": "true"}, "GITHUB_ACTIONS"),
+        ({"AICC_ACTOR": "CLAUDE"}, "CLAUDE"),
+        ({"AICC_ACTOR": "claude"}, "CLAUDE"),
+        ({"AICC_ACTOR": "SYSTEM"}, "SYSTEM"),
+        ({"AICC_ACTOR": "ANDRES"}, "ANDRES"),
+        # A declared actor wins over the environment guess: a scheduled run that knows it is the
+        # system should not be recorded as CI merely because it happens to be running in CI.
+        ({"GITHUB_ACTIONS": "true", "AICC_ACTOR": "CLAUDE"}, "CLAUDE"),
+        # Unknown automation becomes SYSTEM. Never, under any circumstance, ANDRES.
+        ({"AICC_ACTOR": "some-new-runner"}, "SYSTEM"),
+        ({"AICC_ACTOR": "   "}, "ANDRES"),  # blank is not a declaration
+    ],
+)
+def test_every_actor_is_attributed_correctly(monkeypatch, env: dict, expected: str) -> None:
+    from aicc.cli import _actor
+
+    monkeypatch.delenv("AICC_ACTOR", raising=False)
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    for k, v in env.items():
+        monkeypatch.setenv(k, v)
+    assert _actor() == expected, f"{env} should attribute to {expected}"
+
+
+def test_unknown_automation_is_never_silently_attributed_to_andres(monkeypatch) -> None:
+    """The rule with teeth. A misattributed automated action is a false statement about who did
+    what, in the one record that exists to answer that question."""
+    from aicc.cli import _actor
+
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    for unknown in ("robot", "cron", "scheduler-v2", "AGENT", "bot[]", "123"):
+        monkeypatch.setenv("AICC_ACTOR", unknown)
+        assert _actor() == "SYSTEM", f"{unknown!r} became {_actor()}"
+
+
+def test_an_actor_reaches_the_audit_log_unchanged(monkeypatch) -> None:
+    """End to end: the value _actor() returns is the value written to the log."""
+    from aicc import audit
+    from aicc.cli import _actor
+
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    for declared in ("CLAUDE", "SYSTEM", "ANDRES"):
+        monkeypatch.setenv("AICC_ACTOR", declared)
+        audit.record("attribution_probe", actor=_actor(), object_type="system", object_id=declared)
+    events = [e for e in audit.read_all(50) if e.action == "attribution_probe"]
+    assert {e.object_id: e.actor for e in events} == {"CLAUDE": "CLAUDE", "SYSTEM": "SYSTEM", "ANDRES": "ANDRES"}
