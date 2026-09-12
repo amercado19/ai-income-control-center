@@ -5,9 +5,11 @@ Two implementations, and the system is honest about which one is running:
 * ``RuleBasedWorker`` - deterministic, always available, no AI credential needed. It genuinely
   does spreadsheet consolidation and data cleaning, which is the highest-volume job category
   this business targets.
-* ``ClaudeWorker`` - available only when a Claude credential is present. When it is absent, the
-  System Health page reports the AI worker as NOT CONFIGURED rather than showing a green light
-  over a rule-based fallback.
+* ``ClaudeWorker`` - available only when a credential AND an executor that can run it are both
+  present. "A token exists" is not availability: the System Health page reports the AI worker as
+  NOT CONFIGURED with neither, YELLOW with a credential but no executor, and GREEN only when
+  something here can actually perform an AI pass. See ``ClaudeWorker`` for why that distinction
+  cost a green light over a pipeline no AI had ever touched.
 
 Client work happens under ``WORKSPACE_ROOT``, which is gitignored. ``_safe_path`` refuses any
 path that escapes it, so a malicious or malformed filename in a client brief cannot write
@@ -212,32 +214,172 @@ class RuleBasedWorker(Worker):
         return [out], f"Generic scaffold produced (revision {round_number})."
 
 
+#: How long one AI worker pass may take. Generous, because real work on a real brief is not
+#: fast, but bounded, because a hung subprocess in a scheduled run is an invisible failure.
+CLAUDE_TIMEOUT_SECONDS = 900
+
+
 class ClaudeWorker(Worker):
-    """AI-backed worker. Only reports available when a credential actually exists."""
+    """AI-backed worker.
+
+    Availability means **"can execute here"**, not "a token exists somewhere". That distinction
+    is the whole point of this class, and getting it wrong produced the exact failure this system
+    is built to avoid.
+
+    The earlier version returned available=True whenever ``CLAUDE_CODE_OAUTH_TOKEN`` was set. But
+    ``execute`` raised ``NotImplementedError`` in every environment, the pipeline caught it and
+    fell back to the rule-based worker, and ``health.probe_ai_worker`` reported the AI Worker as
+    **GREEN**. So the dashboard showed a green light for AI work over a pipeline where no AI had
+    ever run, and would have gone on showing it forever. A token's presence is a config flag, and
+    ``state.py`` says in its own docstring that a capability must be derived from a live probe
+    rather than a flag, "because a config flag records an intention and a probe records reality".
+    This one was testing the intention.
+
+    So availability now requires two independent things:
+
+    1. A subscription credential — never a paid API key, which is outside the zero-cost rule.
+    2. An executor that can actually run: the ``claude`` CLI on PATH. That is what the Claude
+       Code GitHub Action installs on the runner, and what a developer has locally.
+
+    With both, ``execute`` really runs the work. With a credential but no executor, the worker is
+    honestly unavailable and the rule-based worker carries the pipeline - which is a real, if
+    smaller, capability, and the dashboard says so.
+    """
 
     name = "claude"
 
     @classmethod
+    def _executor(cls) -> str | None:
+        """Path to the Claude Code CLI, or None. The thing that makes this worker real."""
+        import shutil
+
+        return shutil.which("claude")
+
+    @classmethod
     def available(cls) -> tuple[bool, str]:
-        if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
-            return True, "Claude subscription OAuth token present ($0.00 cash)."
-        if os.environ.get("ANTHROPIC_API_KEY"):
+        has_token = bool(os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"))
+        executor = cls._executor()
+
+        if not has_token and os.environ.get("ANTHROPIC_API_KEY"):
             return False, "Only a paid API key is present, which is outside the Phase 1 zero-cost rule."
-        return False, "No Claude credential. Run `claude setup-token` and set CLAUDE_CODE_OAUTH_TOKEN."
+        if not has_token:
+            return False, "No Claude credential. Run `claude setup-token` and set CLAUDE_CODE_OAUTH_TOKEN."
+        if not executor:
+            return False, (
+                "Subscription token present, but the Claude Code CLI is not on PATH in this "
+                "environment, so nothing here can run an AI pass. The rule-based worker carries "
+                "the pipeline. AI work runs on a GitHub Actions runner, where the CLI is installed."
+            )
+        return True, f"Claude subscription token and CLI at {executor} ($0.00 cash; draws on the subscription)."
+
+    @classmethod
+    def brief(cls, job: Job, ws: Path, round_number: int) -> Path:
+        """Write the job brief the agent works from.
+
+        Kept as a file in the workspace rather than passed as an argument so that what the AI was
+        asked to do is inspectable afterwards, next to what it produced. A deliverable whose
+        instructions cannot be recovered cannot be reviewed.
+        """
+        prior = ""
+        if round_number > 1 and job.qa_rounds:
+            findings = job.qa_rounds[-1].get("findings", [])
+            prior = "\n".join(f"- [{f.get('severity')}] {f.get('check')}: {f.get('detail')}" for f in findings)
+            prior = f"\n## What the reviewer rejected last round\n\n{prior or '- (no findings recorded)'}\n"
+
+        text = f"""# Job brief - round {round_number}
+
+## What the client asked for
+
+{job.title}
+
+## Requirements
+
+{chr(10).join(f"- {r}" for r in job.requirements) or "- (none recorded)"}
+
+## Acceptance criteria - the reviewer checks these independently
+
+{chr(10).join(f"- {c}" for c in job.acceptance_criteria) or "- (none recorded)"}
+{prior}
+## Rules
+
+- Work only inside this directory. Do not read or write anything outside it.
+- Produce the deliverable the client asked for. Do not produce a plan, a summary of what you
+  would do, or a scaffold - those are not the deliverable.
+- If a requirement is ambiguous or you lack information to satisfy it, write what you CAN and
+  record the gap in `NEEDS_ANDRES.md`. Do not invent facts, figures, sources or credentials to
+  fill it. A confident wrong answer is worse than a recorded gap.
+- Do not state anything about the operator's experience, employers, education or clients.
+"""
+        path = _safe_path(ws, f"BRIEF_round_{round_number}.md")
+        path.write_text(text, encoding="utf-8")
+        return path
 
     @classmethod
     def execute(cls, job: Job, *, round_number: int = 1, **kwargs: Any) -> tuple[list[Path], str]:
+        import subprocess
+
         ok, why = cls.available()
         if not ok:
-            raise RuntimeError(f"Claude worker unavailable: {why}")
-        # Intentionally not implemented as a fake. When this runs inside a Claude Code GitHub
-        # Action, the agent itself performs the work in the workspace and this method is the
-        # handoff point. Returning fabricated output here would be exactly the "fake autonomy"
-        # spec section 48 forbids.
-        raise NotImplementedError(
-            "The Claude worker executes inside a Claude Code GitHub Action, not from this process. "
-            "See docs/OPERATIONS.md 'AI worker handoff'."
-        )
+            # NotImplementedError rather than RuntimeError: the pipeline treats it as a handoff
+            # and falls back to the rule-based worker, which is the correct behaviour when there
+            # is simply no executor here. A RuntimeError would fail the job instead.
+            raise NotImplementedError(f"Claude worker cannot execute here: {why}")
+
+        executor = cls._executor()
+        assert executor  # available() just confirmed it
+        ws = workspace_for(job)
+        brief = cls.brief(job, ws, round_number)
+        before = {p for p in ws.rglob("*") if p.is_file()}
+
+        # `claude -p` is the documented non-interactive mode. The token reaches it through the
+        # environment it already inherits; it is never passed as an argument, where it would
+        # appear in the process list and in any log that captures a command line.
+        cmd = [
+            executor,
+            "-p",
+            f"Read {brief.name} in this directory and produce the deliverable it describes.",
+            "--permission-mode",
+            "acceptEdits",
+            "--add-dir",
+            str(ws),
+        ]
+        try:
+            result = subprocess.run(  # noqa: S603
+                cmd,
+                cwd=str(ws),
+                capture_output=True,
+                text=True,
+                timeout=CLAUDE_TIMEOUT_SECONDS,
+                check=False,
+            )
+        except subprocess.TimeoutExpired as exc:
+            raise RuntimeError(
+                f"The AI worker exceeded {CLAUDE_TIMEOUT_SECONDS}s on round {round_number}. "
+                f"The job is left for a human rather than retried automatically - a timeout on "
+                f"paid client work is a deadline question, not a retry question."
+            ) from exc
+
+        if result.returncode != 0:
+            # Classified rather than raised raw: an exhausted subscription window is a pause,
+            # a revoked token is a failure, and treating them alike teaches the owner to ignore
+            # red badges. Never falls back to paid billing - see degradation.py.
+            from .. import degradation
+
+            decision = degradation.classify(result.stderr or result.stdout or "unknown failure")
+            raise RuntimeError(f"AI worker failed ({decision.action}): {decision.reason}")
+
+        produced = sorted(p for p in ws.rglob("*") if p.is_file() and p not in before and p != brief)
+        if not produced:
+            raise RuntimeError(
+                "The AI worker exited cleanly but wrote no files. Reporting success with nothing "
+                "to show would be the fake autonomy this system exists to avoid."
+            )
+
+        gaps = [p for p in produced if p.name == "NEEDS_ANDRES.md"]
+        note = f"AI worker produced {len(produced)} file(s) on round {round_number}."
+        if gaps:
+            note += " It recorded gaps in NEEDS_ANDRES.md rather than inventing content."
+        return produced, note
 
 
 def select_worker() -> tuple[type[Worker], str]:
