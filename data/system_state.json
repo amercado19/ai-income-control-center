@@ -82,7 +82,7 @@
       "key": "storage",
       "label": "Storage",
       "health": "HEALTHY",
-      "detail": "Writable. 88,017 MB free.",
+      "detail": "Writable. 30,645 MB free.",
       "last_success": "",
       "blocking_reason": "",
       "light": "GREEN"
@@ -91,7 +91,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "588 events recorded.",
+      "detail": "152 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "light": "GREEN"
@@ -108,17 +108,17 @@
     "ai_worker": {
       "key": "ai_worker",
       "label": "AI Worker",
-      "health": "DEGRADED",
-      "detail": "Subscription token present, but the Claude Code CLI is not on PATH in this environment, so nothing here can run an AI pass. The rule-based worker carries the pipeline. AI work runs on a GitHub Actions runner, where the CLI is installed.",
+      "health": "NOT_CONFIGURED",
+      "detail": "No Claude credential. Rule-based worker and reviewer handle the pipeline; AI drafting and AI review are unavailable.",
       "last_success": "",
-      "blocking_reason": "Configured but not operational in this environment. The rule-based worker is carrying the pipeline here; AI work runs on a GitHub Actions runner where the CLI is installed.",
-      "light": "YELLOW"
+      "blocking_reason": "Run `claude setup-token` locally and add CLAUDE_CODE_OAUTH_TOKEN as a repository secret.",
+      "light": "WHITE"
     },
     "scheduler": {
       "key": "scheduler",
       "label": "Scheduler",
       "health": "HEALTHY",
-      "detail": "Last run 0.0 hours ago.",
+      "detail": "Last run 0.3 hours ago.",
       "last_success": "",
       "blocking_reason": "",
       "light": "GREEN"
@@ -153,6 +153,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-12T03:04:42+00:00",
+  "updated_at": "2026-09-12T01:08:29+00:00",
   "has_real_revenue": false
 }
