@@ -141,6 +141,146 @@
       "probability_low": 6.0
     }
   },
+  "opp_01c1dc3dcc46": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bankers without Boundaries",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:31:18+00:00",
+    "description": "The candidate must be located in Ireland, applications of those residing outside of Ireland will not be considered. BwB is seeking a Non-Executive Director to join the company's board. This role will offer an independent perspective on company activities to provide insight on possibilities for enhanced decision-making. This role will advise Senior Management on how to enable further development of the company in Ireland, which will require a constructive working relationship with Senior Management. The current time commitment for this role is approximately 2 hours per quarter. Minimum 10 years' experience in financial services, investment banking, or a closely related field Strong knowledge of financial products and services; prior ESG or sustainability experience is essential Demonstrable understanding of board governance, fiduciary duties and leadership at senior level Familiarity with Ireland's financial, regulatory or business environment is an advantage Skills Required Exercises independent judgement and is willing to constructively challenge executive decisions Excellent interpersonal skills, with the ability to build trusted relationships at board and senior management level Strong communication skills \u2014 both written and verbal \u2014 with the ability to articulate complex issues clearly and diplomatically Discreet, with a strong sense of integrity and personal accountability Collaborative by nature while equally capable of working autonomously Committed to BwB's mission \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bankers-without-boundaries/jobs/non-executive-director-ireland",
+    "id": "opp_01c1dc3dcc46",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-13T15:31:19+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 40.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 5.2,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 40.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"' experience in financial services\"; \"investment banking\"; \"or a closely related field strong knowledge of financial products\".",
+          "name": "Unmet stated requirements",
+          "points": 10.2
+        }
+      ],
+      "raw_total": 40.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "non-executive-director",
+      "financial-services",
+      "board-governance",
+      "esg-advisory",
+      "consulting",
+      "independent-director",
+      "non-profit-executive-board-member",
+      "consulting-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Non-Executive Director (Ireland)",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/bankers-without-boundaries/jobs/non-executive-director-ireland",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_024a38a64a7b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -402,6 +542,154 @@
       ],
       "probability_high": 40.0,
       "probability_low": 20.0
+    }
+  },
+  "opp_06bfe83fcd5b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 86.54,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:32:47+00:00",
+    "description": "Data Platform Architect \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Data Platform Architect Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $140,000\u2013$180,000 Annually Experience Required: 15+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking a Data Platform Architect to define and lead the architecture of our enterprise data platform, spanning ingestion, storage, processing, governance, and consumption layers. The role drives the strategic direction of data infrastructure, sets standards for data modeling and lifecycle management, and partners with data engineering, analytics, ML, and business stakeholders to deliver a coherent, scalable data foundation. The ideal candidate combines deep technical mastery of modern data platforms with strong architectural judgment, and has led data-platform programs of meaningful scope and complexity. Required Qualifications Bachelor\u2019s or Master\u2019s degree in Computer Science, Information Systems, or a related field. Eight or more years of experience in data engineering, with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-architect-4487016853",
+    "id": "opp_06bfe83fcd5b",
+    "is_demo": false,
+    "match_score": 33.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:32:47+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 57.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 12.4,
+          "evidence": "Matched 1 profile skills: excel. Covers 12% of the 8 skills this listing names (missing: analytics, aws, azure, bigquery)."
+        }
+      },
+      "final_score": 57.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "snowflake",
+      "bigquery",
+      "dbt",
+      "excel",
+      "aws",
+      "gcp",
+      "azure",
+      "analytics",
+      "data-platform-architect",
+      "data-architecture",
+      "data-engineering",
+      "cloud-data-platforms",
+      "enterprise-data-platform",
+      "data-infrastructure-architect",
+      "data-architect",
+      "platform-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Platform Architect",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-architect-4487016853",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_0cb52e8268f5": {
@@ -2640,6 +2928,145 @@
       "probability_low": 12.0
     }
   },
+  "opp_28e2bafeb5cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Nationwide IT Services",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:32:05+00:00",
+    "description": "Software Developer Security and Certification Requirements: IT-II - Sensitive; Secret clearance; IAT II. The candidate must hold the applicable DoD 8140.01-M baseline certification. Computing environment certification: Microsoft Certified Azure Administrator Associate. Position Summary The Software Developer ensures the stable operation, modernization, and security of customized enterprise software applications. The developer designs and delivers new programs and software solutions aligned with evolving business needs while planning, developing, testing, maintaining, supporting, and optimizing hard-coded applications built with ColdFusion 2023/2025 and .NET Framework 4.8 across Windows and Linux server environments. The role applies advanced knowledge of secure coding and cross-platform architecture to sustain operational systems, modernize legacy capabilities, resolve complex defects, and maintain strict security compliance. This opportunity is fully remote. Key Responsibilities Design, develop, test, deploy, maintain, support, and optimize customized enterprise applications using ColdFusion 2023/2025 and .NET Framework 4.8. Develop new programs, application features, and software solutions in direct alignment with documented business and operational requirements. Provide continuous maintenance support for operational systems, including corrective maintenance, legacy-system upgrades, performance optimization, and new-feature development. Analyze and resolve complex software \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 432.67,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nationwide-it-services/jobs/software-developer",
+    "id": "opp_28e2bafeb5cf",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:32:06+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 61.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, azure)."
+        }
+      },
+      "final_score": 61.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "azure",
+      "software-development",
+      "software-engineer",
+      "coldfusion-development",
+      ".net-development",
+      "enterprise-application-development",
+      "software-developer",
+      "software-engineer-developer",
+      "software-application-developer",
+      "software-applications-developer",
+      "software-development-specialist",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Software Developer",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/nationwide-it-services/jobs/software-developer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_2b10d951f951": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -3143,6 +3570,151 @@
       "probability_low": 26.0
     }
   },
+  "opp_314c155c125b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Verisma",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:30:47+00:00",
+    "description": "Lead Healthcare Integration Engineer We are seeking an experienced Lead Data Engineer to join our healthcare technology team with a primary focus on healthcare interoperability. This role will be instrumental in designing, building, and maintaining our Azure-based data infrastructure, including databases, data pipelines, analytics platforms, and business intelligence solutions \u2014 with an emphasis on integrating with Electronic Health Record (EHR) systems and healthcare data exchange standards (FHIR, C-CDA, HL7). The ideal candidate will have deep expertise in the Microsoft data stack, strong architectural thinking, and experience with healthcare data compliance requirements. This senior-level position will also provide technical leadership, mentorship to the broader engineering team and reports to the Director of Data Engineering. Duties & Responsibilities: Design and implement scalable, secure data architectures on Azure to support business intelligence, analytics, and operational systems Build and maintain data pipelines using Azure Data Factory, Azure Synapse and related services Contribute to database designs across multiple platforms (Azure SQL Database, SQL Managed Instance, PostgreSQL, CosmosDB) Optimize data storage strategies across Azure Blob Storage, Data Lake, and structured databases Design data models and structures that enable efficient analytics and reporting Design, develop, and maintain complex stored procedures, functions, triggers, and views Implement \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 673.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/verisma/jobs/lead-healthcare-integration-engineer-9864867769",
+    "id": "opp_314c155c125b",
+    "is_demo": false,
+    "match_score": 77.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:30:48+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 75.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $673 on $673 (100% margin). $142 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $224 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.6,
+          "evidence": "Matched 9 profile skills: automation, ci/cd, dashboard, data pipeline, etl, excel, python, reporting (+1 more). Covers 35% of the 20 skills this listing names (missing: analytics, api, azure, fastapi)."
+        }
+      },
+      "final_score": 75.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 75.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "etl",
+      "excel",
+      "api",
+      "rest",
+      "fastapi",
+      "flask",
+      "azure",
+      "terraform",
+      "ci/cd",
+      "automation",
+      "dashboard",
+      "power bi",
+      "html",
+      "machine learning",
+      "analytics",
+      "pdf"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Lead Healthcare Integration Engineer",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/verisma/jobs/lead-healthcare-integration-engineer-9864867769",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_33083aae1eb1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -3404,6 +3976,154 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_35f1b7e43b6e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 101.01,
+    "budget_min": 45.91,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "CACI International Inc",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:32:17+00:00",
+    "description": "Job Title: Senior Principal Consultant - HCM Change Management & TrainingJob Category: CommunicationsTime Type: Full timeMinimum Clearance Required to Start: Public TrustEmployee Type: RegularPercentage of Travel Required: Up to 10%Type of Travel: Continental US* * * The Opportunity: CACI is seeking a Senior Principal Consultant (HCM Change Management & Training) to lead organizational change management and user adoption efforts for a large-scale federal HCM modernization program. Deploying Oracle Fusion Cloud HCM across multiple federal agencies serving federal civilian employees is not just a technology challenge \u2014 it is a people challenge. Every agency has its own culture, its own HR workflows, and its own stakeholders who must understand, accept, and ultimately champion the new system. You will apply structured change management methodologies such as Prosci ADKAR to develop and execute agency-specific change strategies, stakeholder engagement plans, communications campaigns, training programs, and readiness assessments. From initial awareness through full adoption and sustainment, you will be the driving force that ensures this modernization is not just implemented but truly embraced. This role is perfect for change management professionals who want to work at unprecedented federal scale and make a visible impact on how government employees experience HR technology. This position is staffed at the Senior Principal Consultant labor category on the contract. The role \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 344.32,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/caci-international-inc/jobs/senior-principal-consultant-hcm-change-management-training",
+    "id": "opp_35f1b7e43b6e",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:32:18+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 62.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $344 on $344 (100% margin). $73 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $92 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "change-management",
+      "learning-and-development",
+      "hcm-consulting",
+      "organizational-change-management",
+      "federal-it-consulting",
+      "senior-hcm-consultant",
+      "hcm-senior-consultant",
+      "change-management-senior-consultant",
+      "senior-change-management-consultant",
+      "senior-workday-hcm-principal-consultant",
+      "oracle-hcm-principal-consultant",
+      "senior-sap-change-management-consultant",
+      "senior-workday-hcm-consultant",
+      "principal-workday-hcm-consultant",
+      "lead-change-management-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Principal Consultant - HCM Change Management & Training",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/caci-international-inc/jobs/senior-principal-consultant-hcm-change-management-training",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_3abd91d4cc67": {
@@ -5323,6 +6043,157 @@
       "probability_low": 26.0
     }
   },
+  "opp_555518b78f7a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 54.33,
+    "budget_min": 33.65,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Competency & Credentialing Institute",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:30:39+00:00",
+    "description": "About Us: The Competency & Credentialing Institute (CCI) has been the leader in perioperative certification for more than 45 years, certifying over 40,000 nurses internationally. An industry leader in nursing competency assessment, CCI is the credentialing body for the Certified Perioperative Nurse (CNOR), Certified Surgical Services Manager (CSSM), Certified Perioperative CNS (CNS-CP), Certified Ambulatory Surgery Nurse (CNAMB), Certified Foundational Perioperative Nurse (CFPN), and Nursing Professional Development Advanced \u2013 Board Certified (NPDA-BC) credentials. Job Summary: The Technology Systems Analyst plays a critical role in supporting and advancing CCI\u2019s technology infrastructure and vendor ecosystem. They serve as CCI\u2019s central hub for system integrations, vendor coordination, and technology risk oversight. This role bridges business needs, internal systems, external vendors, and internal employees ensuring platforms work together effectively without requiring in-house development. The analyst proactively monitors system performance, integration health, and security posture, identifying risks and driving mitigation strategies across CCI\u2019s technology ecosystem. The analyst will also assist with internal audits and quality assurance processes, while proactively researching and recommending emerging technologies that align with CCI\u2019s strategic goals. The role requires strong systems thinking, with the ability to anticipate downstream impacts of changes, identify \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 336.5,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/competency-credentialing-institute/jobs/technology-systems-analyst-2150618944",
+    "id": "opp_555518b78f7a",
+    "is_demo": false,
+    "match_score": 18.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:30:40+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 48.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $336 on $336 (100% margin). $71 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $112 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 6.8,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: aws, css)."
+        }
+      },
+      "final_score": 48.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"certifying over 40\"; \"000 nurses internationally\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 48.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "automation",
+      "css",
+      "it-systems-analyst",
+      "systems-administrator",
+      "it-vendor-management",
+      "systems-integrations",
+      "it-operations",
+      "systems-analyst",
+      "computer-systems-analyst",
+      "technology-solutions-analyst",
+      "information-systems-analyst",
+      "technology-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Technology Systems Analyst",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/competency-credentialing-institute/jobs/technology-systems-analyst-2150618944",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_559fee144ee2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6662,6 +7533,153 @@
           "from": "10%",
           "to": "16%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_6e82c260ddad": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 62.5,
+    "budget_min": 45.67,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:32:05+00:00",
+    "description": "Coupa Integration Engineer \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Coupa Integration Engineer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $95,000\u2013$130,000 Annually Experience Required: 8+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are looking for a Coupa Integration Engineer to design, develop, and maintain integrations between Coupa BSM (Business Spend Management) and the broader enterprise application landscape. The role focuses on Coupa Integration Cloud, API-based integrations, supplier onboarding flows, and data synchronization between Coupa and ERP, finance, HR, and payment systems. The ideal candidate has shipped meaningful Coupa integrations in production, understands the source-to-pay process end-to-end, and applies disciplined integration engineering practices. In this role you will work closely with cross-functional partners \u2014 product, design, engineering, operations, and business stakeholders \u2014 to translate ambiguous requirements into well-engineered solutions, and will be expected to raise the bar \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 456.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/coupa-integration-engineer-4821710881",
+    "id": "opp_6e82c260ddad",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:32:06+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 67.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $457 on $457 (100% margin). $96 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $152 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: excel, sql. Covers 40% of the 5 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 67.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "coupa-integration-engineer",
+      "integration-engineer",
+      "ipaas-developer",
+      "enterprise-integration-engineer",
+      "coupa-developer",
+      "coupa-integration-developer",
+      "coupa-integration",
+      "coupa-api-developer",
+      "coupa-technical-specialist",
+      "coupa-middleware-developer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Coupa Integration Engineer",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/coupa-integration-engineer-4821710881",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 28.0,
@@ -8042,6 +9060,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_8ca700fd991b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 76.92,
+    "budget_type": "HOURLY",
+    "category": "reporting",
+    "client": "Isos Technology",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:30:17+00:00",
+    "description": "We are seeking a hands-on, strategic Controller to lead our core accounting function and strengthen our financial infrastructure and our team as we continue to grow. This is a senior finance leadership role responsible for ensuring accurate, timely financial reporting in compliance with U.S. GAAP while maintaining a robust system of accounting policies, controls, and processes. The ideal candidate thrives in a collaborative, fast-paced environment and can balance strategic oversight with active involvement in day-to-day accounting operations with a strong bent toward people leadership. The Controller will partner closely with cross-functional leaders, support business scalability, and oversee critical functions including month-end close, payroll, indirect taxes, and statutory compliance. Responsibilities Financial Reporting Oversee the preparation of accurate and timely periodic financial statements in accordance with U.S. GAAP Lead and manage the month-end and year-end close processes Enhance and optimize accounting and financial reporting systems Serve as NetSuite System Administrator (strongly preferred) Support revenue recognition and customer invoicing processes, ideally within a professional services or consulting environment Technical Accounting & Controls Establish and maintain well-documented accounting policies and procedures Research and provide guidance on technical accounting matters related to contracts and business agreements Design, implement, and monitor \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.7,
+    "estimated_net_revenue": 361.52,
+    "estimated_non_ai_effort": 0.94,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/isos-technology/jobs/controller-3727153475",
+    "id": "opp_8ca700fd991b",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:30:18+00:00",
+    "profit_score": 75.4,
+    "risk_flags": [],
+    "score": 73.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.8h AI / 0.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.9,
+          "evidence": "Estimated net $362 on $362 (100% margin). $192 per effective hour vs $85 target (1.9 effective h = 0.9h human + 3.8h AI discounted). Leverage: $385 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 73.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "controller",
+      "financial-reporting",
+      "senior-accounting",
+      "accounting-management",
+      "finance-leadership",
+      "controller-services",
+      "virtual-controller",
+      "us-controller",
+      "vp-controller",
+      "emea-controller",
+      "rotating-controller"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Controller",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/isos-technology/jobs/controller-3727153475",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_8fc2b1f42bd7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -8591,6 +9753,153 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_9708061e9e6c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 24.04,
+    "budget_min": 19.23,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Session Media",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "GBP",
+    "deadline": "2026-11-12T15:29:47+00:00",
+    "description": "About Session Media Session Media is an award-winning B2B marketing agency that partners with some of the fastest-growing B2B SaaS & Tech brands. We\u2019re on the lookout for a Paid Media Manager to join our team, focusing on platforms like Google Ads and LinkedIn Ads. We\u2019re searching for someone who\u2019s passionate about performance marketing, with strong analytical skills and a knack for coming up with creative ad concepts. Most importantly, this person should be great at explaining strategies and results to clients in a clear, engaging way. Day-to-day Responsibilities \u2022 Plan and execute medium to large-scale, Google & LinkedIn Ad campaigns \u2022 Monitor and evaluate the performance of paid campaigns against KPIs, implementing new strategies and tests across channels. \u2022 Ensure the most effective channels are utilised to maximise client performance and achieve the best ROI/ROAS. \u2022 Create monthly reports for clients, showcasing key insights and performance data using Google Analytics, CRM systems and internal dashboards. \u2022 Identify growth opportunities. \u2022 Manage client communications and liaise with both internal and external teams. \u2022 Identify inefficiencies in accounts and implement optimisation strategies. \u2022 Implement platform specific tracking (primarily through Tag Manager) \u2022 Work closely with the Head of Paid Media on overarching paid media strategy. \u2022 Collaborate with the copy & design team to develop creative assets and compelling ad copy. Benefits \u00a340,000 to \u00a350,000 PA Salary \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 54.04,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/session-media/jobs/paid-media-manager-b2b-8005111748",
+    "id": "opp_9708061e9e6c",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:29:47+00:00",
+    "profit_score": 39.1,
+    "risk_flags": [],
+    "score": 64.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.2,
+          "evidence": "Estimated net $54 on $54 (100% margin). $59 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $193 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: dashboard, excel. Covers 50% of the 4 skills this listing names (missing: analytics, google sheets)."
+        }
+      },
+      "final_score": 64.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "dashboard",
+      "analytics",
+      "paid-media",
+      "digital-marketing",
+      "performance-marketing",
+      "ppc-management",
+      "b2b-marketing",
+      "paid-media-manager",
+      "paid-advertising-manager",
+      "account-manager-paid-media",
+      "paid-advertising-account-manager",
+      "paid-ads-manager",
+      "paid-media-buyer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Paid Media Manager (B2B)",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/session-media/jobs/paid-media-manager-b2b-8005111748",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_99b3e1401107": {
@@ -15152,6 +16461,148 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_f35686a7b281": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120,
+    "budget_min": 80,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T15:46:23+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T15:30:27+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Program management / implementation planning Evaluator Type: Contract Compensation: $80\u2013$120/hour Location: Remote Role Responsibilities Evaluate AI-generated artifacts against domain-specific quality rubrics. Identify factual, aesthetic, and presentation errors in documents, spreadsheets, and slide decks. Provide clear, structured written feedback to improve AI-generated work products. Apply deep subject-matter expertise to grade outputs for accuracy and rigor. Work independently and asynchronously to ensure high-quality evaluations. Qualifications Must-Have 5+ years of relevant professional experience in Program management / implementation planning. Native or professional fluency in English . Highly proficient in Microsoft Office and Google Workspace , especially Slides . Preferred Advanced degree (Master's or higher) from a reputable institution. Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & Support For details about the interview process and platform information, please check: For any help or support, reach out to: PS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T154621Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 600.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/implementation-planner-fully-remote-upto-120-hr",
+    "id": "opp_f35686a7b281",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T15:30:28+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [],
+    "score": 43.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $600 on $600 (100% margin). $128 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "implementation-planning",
+      "quality-assurance",
+      "evaluation-specialist",
+      "project-coordinator",
+      "implementation-project-manager",
+      "implementation-manager",
+      "implementation-program-manager",
+      "implementation-project-specialist",
+      "implementation-operations-manager",
+      "implementation-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Implementation Planner - Fully Remote | Upto $120/hr",
+    "updated_at": "2026-09-13T15:46:23+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/implementation-planner-fully-remote-upto-120-hr",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_f41cef3af6dc": {
