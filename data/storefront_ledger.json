@@ -7,7 +7,7 @@
       "clicks": null,
       "delivery_days": {
         "Basic": 5,
-        "Premium": 18,
+        "Premium": 21,
         "Standard": 10
       },
       "derived": {
@@ -24,7 +24,7 @@
       "launched_at": "",
       "live_url": "",
       "net_revenue": 0.0,
-      "notes": "",
+      "notes": "Premium delivery is 21 days, not 18: Fiverr offers no 18-day option, so the next longer value was chosen. Never promise faster than planned.",
       "orders": 0,
       "package_prices": {
         "Basic": 125.0,
@@ -39,7 +39,7 @@
       },
       "service": "I will build a python data pipeline with tests and scheduling",
       "state": "READY_TO_PUBLISH",
-      "updated_at": "2026-09-12T16:49:07+00:00"
+      "updated_at": "2026-09-13T01:23:12+00:00"
     },
     {
       "andres_active_minutes": 0,
@@ -147,7 +147,7 @@
       "launched_at": "",
       "live_url": "",
       "net_revenue": 0.0,
-      "notes": "",
+      "notes": "Fiverr's Data Cleaning service type locks the Basic 'Items Cleaned' metadata to 100 and caps every tier at 10,000; the Basic package copy therefore states no row number (the FAQ handles sizing), and Premium says 10,000 rows rather than 'unlimited'. NEEDS ANDRES: confirm the Basic scope you will honour, since the platform field understates it.",
       "orders": 0,
       "package_prices": {
         "Basic": 30.0,
@@ -162,7 +162,7 @@
       },
       "service": "I will clean and consolidate your messy excel or csv data",
       "state": "READY_TO_PUBLISH",
-      "updated_at": "2026-09-12T16:49:07+00:00"
+      "updated_at": "2026-09-13T01:23:20+00:00"
     }
   ],
   "min_observations_for_rate": 5,
