@@ -213,7 +213,7 @@ GIGS: list[Gig] = [
             "Your data arrives in files, APIs and exports that do not agree with each other, and "
             "somebody is stitching it together by hand every month.\n\n"
             "I build that as a pipeline instead: a repeatable job that ingests your sources, "
-            "normalises them to one schema, and produces the output you actually need - on a "
+            "normalizes them to one schema, and produces the output you actually need - on a "
             "schedule, without anyone babysitting it.\n\n"
             "How I work:\n"
             "- Every source row is accounted for. Rows that fail to map are FLAGGED, never "
@@ -261,7 +261,7 @@ GIGS: list[Gig] = [
             Package(
                 "Premium",
                 875.0,
-                18,
+                21,
                 3,
                 [
                     "Up to six sources, including REST APIs",
@@ -565,7 +565,7 @@ GIGS: list[Gig] = [
             "somebody added in 2023. I turn that into one clean dataset you can actually use.\n\n"
             "What I do:\n"
             "- Consolidate multiple files into one, mapping the column names that do not agree\n"
-            "- Remove genuine duplicates, standardise dates, numbers and text\n"
+            "- Remove genuine duplicates, standardize dates, numbers and text\n"
             "- Flag rows that look wrong instead of deleting them\n\n"
             "The part that matters: I reconcile row counts before and after and show you the "
             "difference. If anything was removed, you see exactly what and why. Silent row loss is "
@@ -583,7 +583,7 @@ GIGS: list[Gig] = [
                 1,
                 [
                     "Up to 1,000 rows, one file",
-                    "Deduplication and standardised formatting",
+                    "Deduplication and standardized formatting",
                     "Before and after row-count reconciliation",
                 ],
                 est_human_hours=0.5,
