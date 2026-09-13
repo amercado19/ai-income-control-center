@@ -1,4 +1,36 @@
 {
+  "prop_187f5fd8d31b": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Principal Product Marketing Manager, Agentic AI\n\nYou wrote: \"As enterprises race to deploy agentic AI, the defining question is no longer whether AI can handle customer interactions, it\u2019s whether those interactions can be trusted\"\n\nThat is the part I can speak to directly.\n\nRelevant work I have actually built and run:\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "testing and deployment systems"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "What should happen when the upstream API rate-limits us mid-run - back off and resume, or fail the run loudly?",
+    "created_at": "2026-09-13T20:27:57+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_187f5fd8d31b",
+    "is_demo": false,
+    "opportunity_id": "opp_70e08d02eac8",
+    "problem_statement": "As enterprises race to deploy agentic AI, the defining question is no longer whether AI can handle customer interactions, it\u2019s whether those interactions can be trusted",
+    "proposed_solution": "I would build the integration with the failure cases handled first - retries, rate limits, and a clear alert when an upstream source is down rather than silent bad data. Credentials stay in environment secrets. Tests cover the parsing so a provider format change is caught.",
+    "quoted_price": 961.5,
+    "relevant_experience": "Relevant work I have actually built and run:\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-13T20:27:57+00:00"
+  },
   "prop_2b3c53c89406": {
     "ai_disclosure_included": true,
     "approved_at": "",
@@ -299,6 +331,38 @@
     "submitted_at": "",
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-11T21:11:53+00:00"
+  },
+  "prop_d6d980c07c41": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Implementation Consultant, Large Deployments\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "testing and deployment systems"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?",
+    "created_at": "2026-09-13T20:27:57+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_d6d980c07c41",
+    "is_demo": false,
+    "opportunity_id": "opp_67b494357db0",
+    "problem_statement": "About AlphaSense : The world\u2019s most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making.",
+    "proposed_solution": "I would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.",
+    "quoted_price": 135.1,
+    "relevant_experience": "Relevant work I have actually built and run:\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-13T20:27:57+00:00"
   },
   "prop_de37cb89c6dd": {
     "ai_disclosure_included": true,
