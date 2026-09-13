@@ -6668,6 +6668,149 @@
       "probability_low": 21.0
     }
   },
+  "opp_796a244c1c2b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 81.73,
+    "budget_min": 62.5,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Cardiosense",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T03:44:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T01:58:01+00:00",
+    "description": "Cardiosense is a rapidly growing, venture-backed medical AI company that is redefining how we detect, monitor, and manage heart disease. We're developing novel wearable sensors and advanced machine learning algorithms that translate raw physiological signals into clinically actionable, digital biomarkers used to detect early signs of cardiac worsening, guide personalized therapy, and improve patient outcomes. Our team brings together experts in data science, biosignal analysis, and medicine united by a common mission to identify and combat preventable cardiac disease. Cardiosense 's solutions are built on over a decade of clinical research and we continue to collaborate with the world's leading academic institutions to introduce the next generation of cardiac monitoring and disease management. About the role: The Head Technical Operations and Clinical Engineering role is essential in developing innovative solutions that provide clinically relevant insights from non-invasive sensors for Cardiosense . Your work will directly impact the advancement of healthcare technologies and improve patient outcomes, making a significant difference in the medical field. Responsibilities: Deployment and Customer Integration Own end-to-end deployment of Cardiosense deployment for new customers, from technical scoping through go-live and steady-state support Serve as the primary point of contact to hospital IT, biomed/clinical engineering, and information security teams. Define and maintain \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T034400Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 625.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cardiosense/jobs/head-of-technical-operations-and-clinical-engineering",
+    "id": "opp_796a244c1c2b",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T01:58:02+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 60.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $625 on $625 (100% margin). $132 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $208 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: dashboard. Covers 25% of the 4 skills this listing names (missing: api, data science, machine learning)."
+        }
+      },
+      "final_score": 60.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "dashboard",
+      "machine learning",
+      "data science",
+      "technical-operations",
+      "clinical-engineering",
+      "healthcare-technology",
+      "medical-device-operation",
+      "technical-operations-director",
+      "clinical-technology-director",
+      "management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Head of Technical Operations and Clinical Engineering",
+    "updated_at": "2026-09-13T03:44:02+00:00",
+    "url": "https://himalayas.app/companies/cardiosense/jobs/head-of-technical-operations-and-clinical-engineering",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_7c742b0125fa": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -9169,6 +9312,145 @@
       "probability_low": 4.0
     }
   },
+  "opp_ac3e0b40a0d0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Clera",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-13T03:44:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T01:49:15+00:00",
+    "description": "About the Role This is a senior product leadership role at a fintech startup building trust and identity infrastructure for businesses globally. You will own the product roadmap end to end, working closely with a remote-first engineering team to translate vision and real-world constraints into a coherent, evolving plan that ships with confidence. What You'll Do Structure and evolve the product roadmap, turning strategy and constraints into clear execution plans. Break down complex problems into well-scoped initiatives and features the team can deliver with confidence. Define product goals, success metrics, and trade-offs in close collaboration with engineering, design, and commercial teams. Balance short-term delivery with long-term product architecture, making deliberate choices about what to build and when. Craft clear narratives around features, articulating why they exist, how they fit together, and what customer problem they solve. What We're Looking For 6+ years of substantive product management or product leadership experience, ideally on complex B2B or platform products. Systems thinking: a clear ability to understand how individual features interact within a larger product ecosystem and reason about second-order effects. Comfort working closely with engineering on technical trade-offs, architecture decisions, and long-term scalability. Experience defining product goals, success metrics, and managing trade-offs across multiple stakeholder groups. Strong written \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T034400Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/clera/jobs/senior-product-manager-2109153456",
+    "id": "opp_ac3e0b40a0d0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T01:49:16+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "senior-product-management",
+      "senior-staff-product-manager",
+      "senior-principal-product-manager",
+      "senior-staff-product-management",
+      "senior-product-manager-ux-ui",
+      "senior-product-lead",
+      "senior-product-development-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Product Manager",
+    "updated_at": "2026-09-13T03:44:02+00:00",
+    "url": "https://himalayas.app/companies/clera/jobs/senior-product-manager-2109153456",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_ad9fd8788ed9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10735,6 +11017,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_c8255f4f6c48": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 150,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Terac",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T03:44:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T02:30:10+00:00",
+    "description": "What We're Researching We're running a paid study on modern fleet operations and the software systems used to track vehicles. The goal is to evaluate current tooling options and understand where operational bottlenecks occur. Your feedback directly informs how we think about the next generation of fleet management solutions. How It Works You will participate in a remote conversational interview with our research team. We will ask you to walk through your daily routine, highlighting how you manage vehicle dispatch and maintenance schedules. You will also review a few common scenarios and explain the decisions you make to keep operations running smoothly. The session is entirely discussion-based, with no screen sharing required. Who This Is For We are hiring active fleet managers, dispatch supervisors, and logistics coordinators who oversee vehicle operations. You should have hands-on experience using commercial fleet management software in a professional setting. We welcome professionals from various industries, including commercial delivery, construction, and public transportation. What You'll Do Walk us through your typical daily fleet management operations. Explain the tools and software you use for vehicle tracking and dispatch. Discuss common challenges related to maintenance scheduling and driver coordination. Share insights on how current operational workflows could be improved. Who Should Apply Active role in fleet management, dispatch, or logistics coordination \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T034400Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1125.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/terac/jobs/fleet-managers-interview-on-operations-and-vehicle-management",
+    "id": "opp_c8255f4f6c48",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T02:30:11+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 46.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $240 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 46.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "fleet-operations-management",
+      "fleet-operations-manager",
+      "vehicle-fleet-operations",
+      "fleet-management",
+      "fleet-manager",
+      "fleet-management-specialist",
+      "car-fleet-operations",
+      "fleet-maintenance-manager",
+      "fleet-maintenance-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Fleet Managers: Interview On Operations And Vehicle Management",
+    "updated_at": "2026-09-13T03:44:02+00:00",
+    "url": "https://himalayas.app/companies/terac/jobs/fleet-managers-interview-on-operations-and-vehicle-management",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c910a33eb8b5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10987,6 +11403,143 @@
       ],
       "probability_high": 67.0,
       "probability_low": 49.0
+    }
+  },
+  "opp_ccce28665c30": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.44,
+    "budget_min": 0.96,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Foxelli Group ",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-13T03:44:02+00:00",
+    "currency": "EUR",
+    "deadline": "2026-11-12T02:31:44+00:00",
+    "description": "At Foxelli, we\u2019re building more than e-commerce brands - we\u2019re building a tribe of thoughtful humans: AI enthusiasts, curious builders, and ambitious minds who care about doing meaningful work together. Ten years in, our D2C brands reach millions and generate over $20M annually. Our focus stays simple: create products customers love and a team that actually enjoys building them. If you love to learn, experiment, think boldly, make decisions, and build things that matter - you\u2019ll feel at home with us. WHY JOIN FOXELLI? We are a fast-moving e-commerce company that builds our own proprietary AI infrastructure. We develop internal AI-driven systems to automate complex creative and analytical workflows, which we later scale into B2B SaaS products. We are not looking for a traditional developer. We are looking for an AI-Native Builder who can turn an idea into a functional prototype in days using the latest AI-assisted development tools. THE ROLE As a Founding AI Engineer, you will work directly with the founder to design, build, and iterate on various AI systems. The projects will vary - from computer vision and image manipulation to automated video generation and agentic data analysis. You will be responsible for the full pipeline: from R&D of the best AI models to deploying scalable web applications. Who You Are: Modern Developer: You have abandoned \"manual-only\" coding. You are a power user of tools like GPT Codex , Claude code, and Replit, allowing you to build at a 10x pace. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T034400Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 9.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/foxelli-group/jobs/ai-engineer-technical-product-owner",
+    "id": "opp_ccce28665c30",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T02:31:45+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $10 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: python. Covers 25% of the 4 skills this listing names (missing: api, fastapi, rest)."
+        }
+      },
+      "final_score": 47.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "fastapi",
+      "lead-ai-product-engineer",
+      "principal-ai-product-engineer",
+      "senior-ai-product-owner",
+      "ai-product-owner",
+      "ai-engineer",
+      "ai-product-manager",
+      "product-owner",
+      "product"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Engineer (Technical Product Owner)",
+    "updated_at": "2026-09-13T03:44:02+00:00",
+    "url": "https://himalayas.app/companies/foxelli-group/jobs/ai-engineer-technical-product-owner",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_cd681f620f93": {
@@ -14017,6 +14570,151 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_fe7af700270f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 175,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-13T03:44:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-12T02:19:39+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: RTL Design Engineers Type: Contract Compensation: $100\u2013$175/hour Location: Remote Duration: 3+ months Commitment: 40 hours/week Role Responsibilities Evaluate digital chip design workflows to enhance AI model training and evaluation . Design and verify RTL components using Verilog/SystemVerilog . Collaborate with architecture, verification, and implementation teams to improve model outputs . Develop reusable verification components and testbench infrastructure . Leverage LLM-based tools to accelerate chip design and verification processes. Work independently and asynchronously to meet project deadlines. Qualifications Must-Have 3\u201310 years of experience in digital RTL design or design verification. Strong proficiency in Verilog/SystemVerilog and UVM . Solid understanding of digital design fundamentals: FSMs , datapaths, pipelines, FIFOs, arbiters, clock/reset domains, bus protocols. Experience with ASIC design flows and common EDA tools . Ability to write clear design documentation and communicate technical tradeoffs. Preferred Knowledge of AMBA protocols (AXI, AHB, APB). Background in CPU , GPU/ML accelerator , networking, memory subsystem, PCIe/high-speed IO , SoC interconnect, low-power design. Exposure to formal \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260913T034400Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 750.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/design-verification-engineer-fully-remote-upto-175-hr",
+    "id": "opp_fe7af700270f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-13T02:19:40+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 44.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $750 on $750 (100% margin). $160 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rtl-design-engineer",
+      "digital-design-engineer",
+      "asic-design-engineer",
+      "design-verification-engineer",
+      "hardware-engineering",
+      "verification-engineer",
+      "design-validation-engineer",
+      "hardware-verification-engineer",
+      "verification-and-validation-engineer",
+      "ic-verification-engineer",
+      "senior-verification-engineer",
+      "qa-and-verification-engineer",
+      "design-verification-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Design Verification Engineer - Fully Remote | Upto $175/hr",
+    "updated_at": "2026-09-13T03:44:02+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/design-verification-engineer-fully-remote-upto-175-hr",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   }
 }
