@@ -157,15 +157,17 @@ goals, any challenges that came up", and step 2 is "Link to catalog". Filling in
 date and a dollar amount for a project with no client and no fee would publish three untrue claims
 on a public profile.
 
-### The decision, which is Andres's
+### DEFERRED — waiting for the first eligible real delivered project
 
-1. **Wait for the first delivered order** and build the first portfolio entry from it — real
-   price, real dates, offered by Fiverr from the order itself. Costs nothing, fabricates nothing,
-   helps nothing before the first sale.
-2. **Andres supplies the three facts** for the underlying personal projects. His profile, his
-   call. The cost field still has no true answer for unpaid work.
-3. **Skip the portfolio.** Each gig already carries three original gallery images doing the same
-   visual-proof job. The portfolio is additive, not required.
+**Andres decided this on 2026-09-14.** Do not fabricate or assign hypothetical values for project
+cost, duration or start date. These entries stay saved here for future use and are **not** published
+through Fiverr while Fiverr requires factual fields that do not truthfully exist for unpaid personal
+or demo work.
 
-Everything else is done and stays ready: the copy below, and the diagrams in
-`portfolio/fiverr_case_images/`. Resuming is one form per entry.
+**Do not spend more time trying to work around the form.** After a real order is delivered,
+evaluate whether that project suits the portfolio and whether Fiverr and client permissions allow
+showcasing it — using only actual price, dates, duration, deliverables and permitted information.
+
+Profile strength is not worth delaying revenue for. The three gig gallery images per listing are
+the visual proof for launch. Everything below stays ready: the copy, and the diagrams in
+`portfolio/fiverr_case_images/`.
