@@ -9,9 +9,10 @@ revenue, usage volume, years of operation, uptime, or performance results. The o
 quantitative claim is the ~50% reconciliation-time reduction from the resume, with the employer
 unnamed.
 
-**Form fields deliberately left blank:** Project duration, Project cost, Project started on.
-These are personal projects with no client and no fee; entering a cost would fabricate a paid
-engagement, and the dates are not known to me. Leave them empty.
+**Form fields that cannot be left blank — see the bottom of this file.** The plan was to leave
+Project duration, Project cost and Project started on empty, because these are personal projects
+with no client and no fee. Fiverr requires all three, and rejects `0` as a cost. That is an open
+decision for Andres, not something to work around.
 
 **Industry:** Data Analytics (all three).
 
@@ -135,10 +136,36 @@ without it.
 
 ## Why these are not live yet
 
-The entries were built but could not be submitted. Chrome's window on the linked machine reports
-a 0×0 viewport, so the page does not render. Plain text inputs can still be set programmatically
-(the name and description went in), but the Industry selector is a React component that only
-registers a real click in a rendered window, and Fiverr will not accept the form without it.
+Not a rendering problem any more — the browser works, and entry 1 was filled in completely on
+2026-09-14: name, Industry "Data Analytics", the full 1,138-character description, and
+`case1_pipeline.png` attached and previewing correctly. Continue then failed validation on three
+fields that were supposed to stay empty:
 
-Nothing here is lost. With the window visible, each entry is: paste name, pick Industry
-"Data Analytics", paste description, attach the image, Continue.
+```
+Project duration    Add a project duration.     (required; 1-7 days / 7-30 days / 1-3 months / 3-6 months / 6+ months)
+Project cost        Add a project cost.         (required; $0 is rejected, a positive number clears it)
+Project started on  You must select a month.    (required, MM + YY)
+                    You must select a year.
+```
+
+Tested directly against the live form. Nothing was submitted, and the cost field was cleared again
+afterwards, so no false figure was left sitting in a draft.
+
+This is structural, not a quirk. Fiverr's portfolio is designed for delivered client work: the
+name placeholder is a client campaign, the description prompt asks about "your client, their
+goals, any challenges that came up", and step 2 is "Link to catalog". Filling in a duration, a
+date and a dollar amount for a project with no client and no fee would publish three untrue claims
+on a public profile.
+
+### The decision, which is Andres's
+
+1. **Wait for the first delivered order** and build the first portfolio entry from it — real
+   price, real dates, offered by Fiverr from the order itself. Costs nothing, fabricates nothing,
+   helps nothing before the first sale.
+2. **Andres supplies the three facts** for the underlying personal projects. His profile, his
+   call. The cost field still has no true answer for unpaid work.
+3. **Skip the portfolio.** Each gig already carries three original gallery images doing the same
+   visual-proof job. The portfolio is additive, not required.
+
+Everything else is done and stays ready: the copy below, and the diagrams in
+`portfolio/fiverr_case_images/`. Resuming is one form per entry.
