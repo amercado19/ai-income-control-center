@@ -62,11 +62,26 @@ TRUSTED_SENDER_DOMAINS = ("e.fiverr.com", "fiverr.com")
 #: Marketing and announcement mail. Real Fiverr, but never an order, so never intake.
 IGNORED_SENDER_DOMAINS = ("announce.fiverr.com",)
 
-#: The Gmail search this path uses. Deliberately narrow: sender-scoped first, then subject-scoped,
-#: so the query cannot match unrelated personal mail even by accident.
+#: The Gmail search for the import path. Deliberately narrow: sender-scoped first, then
+#: subject-scoped, so the query cannot match unrelated personal mail even by accident.
 GMAIL_QUERY = (
     'from:(noreply@e.fiverr.com OR no-reply@fiverr.com) subject:(order OR purchased OR "new order" OR "order started") newer_than:30d'
 )
+
+#: The Gmail search for the *watch*, which is a different job from the import.
+#:
+#: ``GMAIL_QUERY`` above answers "is there an order to import", and is narrow on purpose. But a
+#: buyer inquiry, a brief Fiverr routed to us, a cancellation, a review request and a dispute are
+#: all revenue events too, and none of them say "order" in the subject. Anything matching only the
+#: narrow query would leave those invisible - and on Fiverr an unanswered first message is the
+#: first order lost, because response time is ranked.
+#:
+#: So the watch is sender-scoped only. It cannot match personal mail (the sender list is Fiverr's
+#: transactional addresses), it parses nothing, and it imports nothing. Its whole output is a
+#: three-way split: a known account notice is dropped, an order goes to the strict parser, and
+#: **anything else is surfaced for a human to read**. Fail closed for the machine, fail open for
+#: Andres - the opposite default from the importer, for the opposite reason.
+WATCH_QUERY = "from:(noreply@e.fiverr.com OR no-reply@fiverr.com OR notifications@fiverr.com) newer_than:7d"
 
 #: Subjects that indicate an order rather than an account notice. PROVISIONAL - see module docstring.
 ORDER_SUBJECT_PATTERNS = (
@@ -85,6 +100,18 @@ NON_ORDER_SUBJECT_PATTERNS = (
     re.compile(r"\bverif(?:y|ication)\b", re.I),
     re.compile(r"\bnewsletter\b", re.I),
 )
+
+#: Account notices seen in this mailbox that are known to carry no revenue event. Matching one is
+#: the ONLY way mail from a trusted Fiverr sender gets dropped without a human seeing it, so this
+#: list stays short and every entry is a subject actually observed, not a guess. Everything else a
+#: trusted sender sends is surfaced.
+KNOWN_NOTICE_PATTERNS = NON_ORDER_SUBJECT_PATTERNS + (
+    re.compile(r"\byou look like you mean business\b", re.I),
+    re.compile(r"\bcompliant with W-9\b", re.I),
+    re.compile(r"\bneeds a W-9 form\b", re.I),
+    re.compile(r"\blet'?s get started\b", re.I),
+)
+
 
 # ---------------------------------------------------------------------------
 # Field extraction. PROVISIONAL - see module docstring.
@@ -240,7 +267,9 @@ def extract(
     # The body is external input. Scan before reading, and carry the findings forward so a human
     # sees them even when extraction otherwise succeeds.
     scan = untrusted.scan_for_injection(body or "")
-    res.injection_findings = [getattr(f, "label", str(f)) for f in getattr(scan, "findings", [])]
+    # Category and severity, not the whole dataclass repr. This line is read by a person deciding
+    # in a hurry whether an order email is hostile; a wall of repr is the same as no finding.
+    res.injection_findings = [f"{getattr(f, 'category', 'finding')} ({getattr(f, 'severity', '?')})" for f in getattr(scan, "findings", [])]
     clean = untrusted.strip_invisible(body or "")
 
     m = ORDER_ID_RE.search(clean) or ORDER_ID_RE.search(subject or "")
@@ -294,3 +323,76 @@ def extract(
     res.ok = True
     res.reason = "READY: all required fields read from a verified Fiverr sender"
     return res
+
+
+# ---------------------------------------------------------------------------
+# The watch. A different job from the import, with the opposite default.
+# ---------------------------------------------------------------------------
+
+#: What the watch decided about one message.
+#:   DROP    - a trusted sender, but a subject on the known-notice list. No revenue event.
+#:   ORDER   - looks like an order. Hand it to `extract` and then to order intake.
+#:   SURFACE - anything else from a trusted sender. A human reads this one.
+#:   REJECT  - the sender is not Fiverr transactional mail. Not evidence of anything.
+WATCH_DROP, WATCH_ORDER, WATCH_SURFACE, WATCH_REJECT = "DROP", "ORDER", "SURFACE", "REJECT"
+
+
+def classify(sender: str, subject: str) -> tuple[str, str]:
+    """Route one message, on sender and subject alone. The body is not read here.
+
+    The asymmetry is the point. ``extract`` fails closed because importing a wrong order is worse
+    than importing none. This fails *open*: an unrecognised subject from a real Fiverr address is
+    surfaced rather than dropped, because the cost of missing a buyer inquiry is a lost first order
+    and the cost of showing Andres one extra email is a glance.
+    """
+    trusted, why = sender_is_trusted(sender)
+    if not trusted:
+        return WATCH_REJECT, why
+
+    s = subject or ""
+    for pat in KNOWN_NOTICE_PATTERNS:
+        if pat.search(s):
+            return WATCH_DROP, "known account notice, carries no revenue event"
+    for pat in ORDER_SUBJECT_PATTERNS:
+        if pat.search(s):
+            return WATCH_ORDER, "subject matches an order notification"
+    return WATCH_SURFACE, "from Fiverr, not a known notice - a human should read this"
+
+
+# ---------------------------------------------------------------------------
+# Tier resolution. Which package was bought, read off the live listing.
+# ---------------------------------------------------------------------------
+
+
+def resolve_tier(gig_title: str, price: float) -> tuple[str, str]:
+    """Which package that price corresponds to, from the published prices.
+
+    Returns ``(tier, detail)``; tier is "" when it cannot be determined. This exists so that
+    ``--worker-minutes`` is *looked up* rather than invented: `order import` already refuses to
+    guess it, and the operator needs to know which tier was actually bought to supply it.
+
+    Prices come from ``data/storefront_ledger.json`` - what the listing publicly shows - not from
+    the kit, so a price the buyer could not have seen resolves to nothing rather than to the tier
+    it would have matched before a change.
+    """
+    from .storefront import LEDGER_FILE
+
+    try:
+        ledger = json.loads(LEDGER_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return "", f"could not read the storefront ledger: {type(exc).__name__}"
+
+    listings = ledger.get("listings")
+    rows = list(listings.values()) if isinstance(listings, dict) else list(listings or [])
+    wanted = (gig_title or "").strip().lower()
+
+    for row in rows:
+        if str(row.get("service", "")).strip().lower() != wanted:
+            continue
+        prices = row.get("package_prices") or {}
+        for tier, listed in prices.items():
+            if listed is not None and abs(float(listed) - float(price)) < 0.01:
+                return tier, f"{tier} on {row.get('gig_key', '?')} at ${float(listed):.2f}"
+        shown = ", ".join(f"{k} ${float(v):.0f}" for k, v in sorted(prices.items()) if v is not None)
+        return "", f"gig found, but ${price:.2f} matches no published price ({shown})"
+    return "", f"no live listing titled {gig_title!r}"

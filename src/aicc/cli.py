@@ -891,6 +891,87 @@ def cmd_capacity(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_inbox(args: argparse.Namespace) -> int:
+    """The Gmail watch: what to search for, and what one message means.
+
+    The module `gmail_intake` had every safety check and no caller - the same shape of defect as
+    the fulfillment pipeline before `aicc order` existed. A session reading the mailbox could
+    eyeball an email and run `order import` by hand, skipping sender validation, the injection
+    scan and the dedupe entirely. This is the front door for that path.
+
+    It reads no mail itself. There is no Gmail credential in this repository and there should not
+    be one: the mailbox is reached by whichever session is connected to it, and this command is
+    what that session must put the message through before believing any of it.
+    """
+    from . import gmail_intake as gi
+
+    if args.action == "query":
+        _print("WATCH  - every Fiverr transactional mail, last 7 days. Classify each with `inbox classify`:")
+        _print(f"  {gi.WATCH_QUERY}")
+        _print()
+        _print("IMPORT - narrow, order subjects only. Use when you already know an order exists:")
+        _print(f"  {gi.GMAIL_QUERY}")
+        return 0
+
+    if args.action == "classify":
+        if not args.sender or not args.subject:
+            _print("REFUSED: need --sender and --subject.")
+            return 2
+        verdict, why = gi.classify(args.sender, args.subject)
+        _print(f"{verdict}: {why}")
+        if verdict in (gi.WATCH_REJECT, gi.WATCH_DROP):
+            return 0
+        if verdict == gi.WATCH_SURFACE:
+            _print("  Not an order and not a known notice. Read it, and tell Andres if it needs him.")
+            return 0
+
+        # ORDER. Now the strict parser runs, and only now is the body read.
+        body = ""
+        if args.body_file:
+            try:
+                body = Path(args.body_file).read_text(encoding="utf-8")
+            except OSError as exc:
+                _print(f"REFUSED: could not read {args.body_file}: {exc}")
+                return 2
+        res = gi.extract(
+            sender=args.sender,
+            subject=args.subject,
+            body=body,
+            message_id=args.message_id,
+            known_gig_titles=tuple(g.title for g in fiverr_kit.GIGS),
+        )
+        _print(res.reason)
+        if res.injection_findings:
+            _print(f"  INJECTION FINDINGS: {', '.join(res.injection_findings)}")
+        if not res.ok:
+            return 3
+        if gi.already_imported(res.order_id, res.message_id):
+            _print(f"  ALREADY IMPORTED: {res.order_id}. Nothing to do.")
+            return 0
+
+        tier, detail = gi.resolve_tier(res.gig_title, res.price or 0.0)
+        _print(f"  order   {res.order_id}")
+        _print(f"  gig     {res.gig_title}")
+        _print(f"  price   ${res.price:,.2f}")
+        _print(f"  buyer   {res.buyer or 'UNKNOWN'}")
+        _print(f"  due     {res.deadline or 'UNKNOWN'}")
+        _print(f"  tier    {tier or 'UNRESOLVED'} - {detail}")
+        _print()
+        if not tier:
+            _print("STOP: the tier could not be resolved, so --worker-minutes cannot be looked up.")
+            _print("      Do not guess it. A wrong effort estimate reserves the wrong capacity.")
+            return 3
+        _print("Next, with the worker-minutes for that tier - never a guess:")
+        _print(
+            f"  python -m aicc order import --order-id {res.order_id} --buyer {res.buyer or '<buyer>'} "
+            f'--gig "{res.gig_title}" --price {res.price} --worker-minutes <minutes for {tier}>'
+        )
+        return 0
+
+    _print(f"Unknown action {args.action!r}.")
+    return 2
+
+
 def cmd_compliance(args: argparse.Namespace) -> int:
     """The nine safety indicators, each probed live rather than read from a constant."""
     from . import compliance as compmod
@@ -1119,6 +1200,14 @@ def build_parser() -> argparse.ArgumentParser:
     cp = sub.add_parser("capacity", help="Claude subscription capacity, with its confidence attached")
     cp.add_argument("--json", action="store_true")
     cp.set_defaults(func=cmd_capacity)
+
+    ib = sub.add_parser("inbox", help="The Gmail watch: what to search for, and what one message means")
+    ib.add_argument("action", choices=["query", "classify"])
+    ib.add_argument("--sender", default="", help="The RFC-5322 From header, exactly as received")
+    ib.add_argument("--subject", default="")
+    ib.add_argument("--body-file", default="", help="Path to the message body; read only after the sender passes")
+    ib.add_argument("--message-id", default="")
+    ib.set_defaults(func=cmd_inbox)
 
     cm = sub.add_parser("compliance", help="Probe the nine safety indicators against the live system")
     cm.add_argument("--json", action="store_true")
