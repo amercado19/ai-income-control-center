@@ -35,13 +35,15 @@ def test_every_piece_of_evidence_says_where_to_check_it(study: portfolio.CaseStu
 
 
 @pytest.mark.parametrize("study", ALL, ids=lambda s: s.key)
-def test_public_evidence_carries_a_url_and_private_evidence_does_not(study: portfolio.CaseStudy) -> None:
-    """The split is the whole point. Public means a stranger can open it right now."""
-    for ev in study.public_evidence:
-        assert ev.is_public(), f"{study.key}: public evidence {ev.claim[:40]!r} has no URL"
-        assert ev.url.startswith("https://"), f"{study.key}: {ev.url!r} is not a resolvable link"
-    for ev in study.private_evidence:
-        assert not ev.is_public(), f"{study.key}: private evidence carries a URL - is it actually private?"
+def test_no_evidence_links_anywhere(study: portfolio.CaseStudy) -> None:
+    """Rule reversed on 2026-09-14, deliberately.
+
+    This used to require that public evidence carry a resolvable URL. Those URLs pointed at the
+    repositories the private internal projects publish, which is precisely what must never reach a
+    buyer - and the module is read by the public dashboard. Nothing here links anywhere now.
+    """
+    for ev in list(study.public_evidence) + list(study.private_evidence):
+        assert not ev.url, f"{study.key}: evidence still carries a link ({ev.url!r})"
 
 
 @pytest.mark.parametrize("study", ALL, ids=lambda s: s.key)
@@ -95,21 +97,33 @@ def test_studies_claim_nothing_outside_the_operator_profile(study: portfolio.Cas
         )
 
 
-def test_subject_matter_is_framed_as_engineering_not_betting_advice() -> None:
-    s = portfolio.summary()
-    note = s["subject_matter_note"].lower()
-    assert "betting, investment or financial advice" in note
-    assert "nothing in them is" in note, "The disclaimer must deny advice, not merely mention it."
+def test_no_private_project_is_named_or_described_anywhere() -> None:
+    """The invariant that replaced the disclaimer.
+
+    A disclaimer explaining what the private projects are about was itself the disclosure. The
+    rule now is that they are not named, linked or described by subject at all.
+    """
+    import json
+    import re
+
+    blob = json.dumps(portfolio.summary()) + json.dumps([portfolio.to_markdown(s) for s in ALL])
+    banned = re.compile(r"(?i)\b(nfl|mlb|betting|sportsbook|wager|parlay|picks)\b|github\.com/amercado19|amercado19\.github\.io")
+    hits = [m.group(0) for m in banned.finditer(blob)]
+    assert not hits, f"portfolio output still exposes private projects: {sorted(set(hits))}"
+
+
+def test_case_studies_do_not_tout() -> None:
     for study in ALL:
         blob = " ".join([study.one_line, study.problem] + study.approach + study.outcome).lower()
         for touting in ("guaranteed", "risk-free", "sure thing", "free money", "you should bet", "profitable picks"):
             assert touting not in blob, f"{study.key} contains {touting!r}"
 
 
-def test_visibility_note_states_which_repositories_are_private() -> None:
-    note = portfolio.summary()["visibility_note"]
-    assert "nfl-pipeline" in note and "private" in note
-    assert "public" in note
+def test_visibility_note_names_no_repository() -> None:
+    note = portfolio.summary()["visibility_note"].lower()
+    assert "private" in note, "the note must still say the evidence is private"
+    for name in ("nfl", "mlb", "github.com", "amercado19"):
+        assert name not in note, f"visibility note still names {name!r}"
 
 
 def test_for_category_routes_to_relevant_proof() -> None:
