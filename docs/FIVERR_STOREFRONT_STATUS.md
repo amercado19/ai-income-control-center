@@ -1,36 +1,37 @@
-# Fiverr storefront — build status
+# Fiverr storefront — live
 
-**Updated:** 2026-09-13 · **Additional monthly cost: $0.00** · Seller: `amercado19`
+**Updated:** 2026-09-14 · **Additional monthly cost: $0.00** · Seller: `amercado19`
 
 ## Where it stands
 
-Three gigs are built through all six Fiverr wizard steps and sit in **DRAFT** on the live
-platform. The ACTIVE tab is empty — nothing is published, and no draft becomes live on its own.
-Fiverr states the blocker on every one of them, verbatim:
+Three gigs are **LIVE**. Fiverr approved the W-9 at 14:35:27 UTC on 2026-09-14 — the email says the
+form was "reviewed and approved by the US tax authorities. No further action is required on your
+side." That was verified against the mail itself before anything was published, not taken on report.
 
-> You aren't visible to clients yet, verify your identity and submit your Form W-9 on your
-> dashboard to publish your service.
+Publication ran on Andres's `APPROVE LAUNCH`, in the order he gave:
 
-**Both steps are done.** ID verification cleared, and Andres submitted the W-9 on 2026-09-13 at
-02:04 UTC. Fiverr's own confirmation email says the form "is being reviewed. This might take a few
-days." So the checklist item is not showing "not done" — it is showing "not yet approved", and the
-remaining gate is Fiverr's review queue, not Andres.
-
-A scheduled task checks the gate every six hours. When Fiverr moves the W-9 from pending to
-approved it notifies Andres and stops - it does not publish. Publication waits on his
-`APPROVE LAUNCH`, which he can send from a phone. Only then does it publish Gig 1, Gig 2 and
-Gig 4 in that order and run the verification chain below.
-
-| # | Gig | Category → Service type | Prices | Delivery | State |
-|---|-----|------------------------|--------|----------|-------|
-| 1 | I will build a python data pipeline with tests and scheduling | Data → Data Engineering → Data ETLs | $125 / $375 / $875 | 5 / 10 / 21d | DRAFT, ready |
-| 2 | I will automate your recurring report to run on a schedule | Data → Data Processing → Automations | $75 / $190 / $440 | 4 / 7 / 14d | DRAFT, ready |
-| 4 | I will clean and consolidate your messy excel or csv data | Data → Data Cleaning | $30 / $75 / $150 | 2 / 3 / 5d | DRAFT, ready |
+| # | Gig | Category → Service type | Prices | Delivery | Live since (UTC) |
+|---|-----|------------------------|--------|----------|------------------|
+| 1 | [build a python data pipeline with tests and scheduling](https://www.fiverr.com/amercado19/build-a-python-data-pipeline-with-tests-and-scheduling) | Data → Data Engineering → Data ETLs | $125 / $375 / $875 | 5 / 10 / 21d | 16:10:24 |
+| 2 | [automate your recurring report to run on a schedule](https://www.fiverr.com/amercado19/automate-your-recurring-report-to-run-on-a-schedule) | Data → Data Processing → Automations | $75 / $190 / $440 | 4 / 7 / 14d | 16:11:35 |
+| 4 | [clean and consolidate your messy excel or csv data](https://www.fiverr.com/amercado19/clean-and-consolidate-your-messy-excel-or-csv-data) | Data → Data Cleaning | $30 / $75 / $150 | 2 / 3 / 5d | 16:12:18 |
 | 3 | I will build an auditable financial model in excel | — | — | — | **HOLD — outside-activity review** |
 
-Each of the three carries: 5 search tags, a full description, 5–6 FAQs, 4–5 buyer requirements
-(one of them an attachment request), and 3 original 1280×769 gallery images generated for this
-purpose. No gig extras are enabled on any of them.
+Nothing was redesigned, rewritten or repriced at publish. Each listing went out as staged.
+
+## Verified public, not merely saved
+
+Fiverr answering "Your Gig is open for business!" is a save confirmation, not evidence a buyer can
+see the page. Each URL was fetched **unauthenticated** afterwards and read back:
+
+- The public profile renders all three, with the titles and Basic prices above.
+- Gig 1: Data › Data Engineering › Data ETLs, Basic $125 / 5 days / 1 revision, 3 gallery images,
+  order button reachable.
+- Gig 2: Data › Data Processing › Automations, Basic $75 / 4 days.
+- Gig 4: Data › Data Cleaning, Basic $30 / 2 days, "100 Items Cleaned", Continue and Contact me
+  both reachable.
+- Packages, delivery times, revisions, buyer requirements and gallery match the staged versions.
+- The seller Gigs tab moved all three DRAFT → ACTIVE.
 
 ## Taxonomy decisions that are permanent
 
@@ -60,8 +61,37 @@ cannot be changed; every tier caps at **10,000**. The kit's copy said 1,000 rows
 - Premium now says 10,000 rows rather than "unlimited" — an unbounded promise at $150 is a bad
   order waiting to happen.
 
-**Confirm the Basic scope you will actually honour.** The platform field understates it, and a
+**Confirm the Basic scope you will actually honor.** The platform field understates it, and a
 buyer reading "100 items" for $30 may simply not order.
+
+## The portfolio is blocked, and the reason is structural — NEEDS ANDRES
+
+Three case studies were written and three original diagrams drawn for
+`fiverr.com/users/amercado19/portfolio/new`. They cannot be submitted as planned.
+
+The plan was to leave **Project duration**, **Project cost** and **Project started on** blank,
+because these are personal projects with no client and no fee. **All three fields are mandatory**,
+and the cost field rejects `0` — it holds the error "Add a project cost." until a positive number
+is entered. Verified directly against the live form on 2026-09-14; nothing was submitted.
+
+That is not a form quirk. Fiverr's portfolio is built for *delivered client work*: the name
+placeholder is a client campaign, the description prompt asks about "your client, their goals",
+and step 2 is "Link to catalog". Entering a duration, a date and a dollar figure for a project
+that had no client and no fee would state three things that are not true, on a public profile,
+which is exactly what the standing no-fabrication rule forbids.
+
+Three ways out, none of them chosen yet:
+
+1. **Wait for the first delivered order** and build the portfolio entry from it. Real duration,
+   real price, real date, and Fiverr offers this path from the order itself. Costs nothing and
+   fabricates nothing; it just does not help before the first sale.
+2. **Andres supplies the three facts himself** for the underlying personal projects. His call,
+   his profile — but the cost field still has no true answer for unpaid work.
+3. **Skip the portfolio.** Each gig already carries three original gallery images doing the same
+   visual-proof job. The portfolio is additive, not required.
+
+The written entries and the diagrams are committed and ready either way:
+`portfolio/fiverr_portfolio_entries.md`, `portfolio/fiverr_case_images/`.
 
 ## Order intake — Gmail
 
@@ -73,44 +103,41 @@ system — the path `docs/MARKETPLACE_RULES.md` already identified as the only c
 against real mail (`noreply@e.fiverr.com` trusted, `announce.fiverr.com` marketing refused,
 lookalike domains refused). Bodies are scanned for injection before any field is read, and a body
 carrying a high-severity finding is never auto-imported even when its fields parse cleanly. It
-fails closed on an unrecognised gig title, an unparseable price, or a missing order id.
+fails closed on an unrecognized gig title, an unparseable price, or a missing order id.
 Deduplication keys on the Fiverr order id, so a resend is still a duplicate. Only order id, gig
 title, price, deadline and buyer handle are stored.
 
-**Body extraction is unproven.** Nothing is published, so no real order notification exists yet.
-The patterns are marked PROVISIONAL; the first genuine order email is the specification.
+**Body extraction is still unproven.** The gigs are live but no order has arrived, so no real
+order notification exists yet. The patterns are marked PROVISIONAL; the first genuine order email
+is the specification. It will either import cleanly or escalate — it will not guess.
 
-## Fulfilment readiness — checked, not assumed
+## Fulfillment readiness — checked, not assumed
 
 - `aicc order` reachable; `order show` reports no real jobs, which is correct.
+- The full chain was exercised in an isolated data directory: import → ACCEPTED (capacity
+  reserved) → run → READY_TO_DELIVER 100/100 → stop at the human gate.
 - Delivery is human-gated in code: `pipeline.deliver` refuses any actor other than ANDRES and
-  writes a `delivery_refused` audit event.
-- Storefront ledger operational: 4 listings, 0 live, $0.00 gross/net, conversion INSUFFICIENT DATA.
+  writes a `delivery_refused` audit event. SYSTEM, CLAUDE and GITHUB_ACTIONS all refused.
+- Storefront ledger: 4 listings, 3 live, $0.00 gross/net, conversion INSUFFICIENT DATA.
 - All nine compliance indicators green, including **PAID API FALLBACK: DISABLED** — no
   `ANTHROPIC_API_KEY` anywhere in the environment. An exhausted subscription window yields
   RETRY_LATER, never a bill.
-- Health: GREEN RUNNING. AI Worker verified against a real `claude -p` call. Additional monthly
-  cost $0.00.
-- Capacity: 162 min safe to start (ESTIMATED), 0 reserved, window resets 2026-09-13T05:00 UTC.
-- Full test suite passes.
+- Health: GREEN RUNNING. Capacity 162 min safe to start (ESTIMATED), 0 reserved.
+- Full test suite passes; CI green on `main` through the launch commits.
 
-## Corrections made this session
+## An inbound message, unread on purpose — NEEDS ANDRES
 
-- **Gig 1 Premium delivery was 18 days in the kit and the ledger; Fiverr has no 18-day option.**
-  The live listing is 21 days. Both records were corrected to 21 — the system must not track a
-  deadline the buyer was never shown.
-- American spelling in three buyer-visible strings (`normalises`, `standardise`, `standardised`),
-  matching what was actually typed into the live listings.
-- Removed the unverified `airflow` tag from Gig 1 before saving.
+A Fiverr message from **`@wolf_jackson359`** ("Hello") appeared in the seller UI within minutes of
+Gig 1 going live. It has not been opened: `/inbox/` is off-limits under the marketplace rules, and
+no notification for it reached Gmail. Andres reads it himself.
 
-## What happens the moment verification clears
+A "Hello" arriving before anyone could plausibly have read a listing is the shape new-seller spam
+takes. If it moves toward WhatsApp, Telegram, payment outside Fiverr, or a "test" transaction,
+that is a scam and belongs in a report, not a reply.
 
-1. Publish Gigs 1, 2 and 4.
-2. Capture each real public URL and the exact launch timestamp.
-3. Verify each loads logged out.
-4. `aicc storefront mark-live <key> --url <url>` for each.
-5. Verify pricing, package display, title/category rendering, buyer requirements and that the
-   order path is reachable.
+## What changed at launch
 
-Gig 3 stays HOLD until the employer's outside-activity policy is actually read. PSLF-qualifying
-employment depends on that standing.
+- `storefront mark-live` recorded each key with its real public URL and launch timestamp.
+- The scheduled W-9 review check was deleted. Its gate is open; it had nothing left to watch.
+- Gig 3 stays HOLD until the employer's outside-activity policy is actually read. PSLF-qualifying
+  employment depends on that standing.
