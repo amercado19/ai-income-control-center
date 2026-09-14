@@ -588,3 +588,84 @@ def test_an_escalated_order_does_not_reserve_capacity(active_system):
         actor="SYSTEM",
     )
     assert len(capacity.active_reservations()) == before
+
+
+class TestTheReviewerCannotPassNothing:
+    """Found by running a real Gig 4 order end to end, not by reading the code.
+
+    Twice the pipeline reported READY_TO_DELIVER and invited a human to send the result to a
+    paying buyer. The first time the deliverable was a 622-byte markdown file restating the
+    buyer's own requirements back at them - scored 100.0/100. The second time it was a 14-byte
+    `consolidated.csv`: one header, zero rows, "consolidated 0 source file(s)" - scored 95.6/100.
+
+    Both passed because nothing had an opinion. The generic branch runs no type-specific QA, and
+    the spreadsheet branch only compares row counts when an expectation is supplied. A QA gate
+    that cannot tell zero rows from finished work manufactures confidence in nothing, which is
+    worse than having no gate.
+    """
+
+    def test_a_csv_with_no_data_rows_is_never_acceptable(self, tmp_path):
+        from aicc.fulfillment import reviewer
+
+        out = tmp_path / "consolidated.csv"
+        out.write_text("_source_file\n", encoding="utf-8")  # exactly what the worker produced
+        scores, findings = reviewer.qa_spreadsheet(out)  # no source, no expected count
+        assert scores["completeness"] == 0.0
+        assert scores["accuracy"] == 0.0
+        assert any(f["check"] == "not_empty" and f["severity"] == "critical" for f in findings)
+
+    def test_a_deliverable_that_admits_it_is_a_scaffold_is_refused(self, tmp_path):
+        from aicc.fulfillment import reviewer
+
+        art = tmp_path / "deliverable.md"
+        art.write_text(
+            "# Job\n\n## Notes\n\nProduced by the rule-based worker. No AI credential was "
+            "available for this run, so this is a structured scaffold rather than completed "
+            "analytical work.\n",
+            encoding="utf-8",
+        )
+        report = reviewer.review(
+            job_id="j1",
+            job_type="spreadsheet",
+            requirements=["Clean the file"],
+            acceptance_criteria=["Clean the file"],
+            artifacts=[art],
+        )
+        assert report.verdict != "READY", f"a self-declared scaffold scored {report.overall_score}"
+        assert any(f["check"] == "not_a_scaffold" for f in report.findings)
+
+    def test_restating_the_brief_is_not_doing_the_work(self, tmp_path):
+        from aicc.fulfillment import reviewer
+
+        reqs = [
+            "Consolidate and clean the attached CSV file into one output",
+            "Two rows are the same record when customer name and email match",
+        ]
+        art = tmp_path / "deliverable.md"
+        art.write_text(
+            "# Job\n\n## Requirements addressed\n\n- " + "\n- ".join(reqs) + "\n\n## Acceptance criteria\n\n- " + "\n- ".join(reqs) + "\n",
+            encoding="utf-8",
+        )
+        report = reviewer.review(
+            job_id="j2",
+            job_type="unknown_type",
+            requirements=reqs,
+            acceptance_criteria=reqs,
+            artifacts=[art],
+        )
+        assert report.verdict != "READY", f"an echo of the brief scored {report.overall_score}"
+
+    def test_real_work_still_passes(self, tmp_path):
+        """The gate must not fire on a genuine deliverable, or it is just an outage."""
+        from aicc.fulfillment import reviewer
+
+        out = tmp_path / "invoices_clean.csv"
+        out.write_text(
+            "customer_name,email,amount_due,invoice_date\n"
+            "Jose Kim,jose.kim@example.com,8923.00,2025-08-11\n"
+            "Sara Silva,sara.silva@example.com,-301.00,2023-01-11\n",
+            encoding="utf-8",
+        )
+        scores, findings = reviewer.qa_spreadsheet(out)
+        assert scores["completeness"] == 100.0
+        assert not any(f["check"] == "not_empty" for f in findings)
