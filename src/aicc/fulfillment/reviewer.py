@@ -88,6 +88,28 @@ def qa_spreadsheet(
         findings.append({"severity": "critical", "check": "header", "detail": "No header row."})
         scores["file_integrity"] = 0.0
 
+    # An empty output is never acceptable, and this check runs BEFORE the row-count comparison
+    # because it must not depend on knowing an expectation. A real order produced a
+    # `consolidated.csv` of 14 bytes - one header, zero rows, "consolidated 0 source files" - and
+    # every score stayed at 100.0 because no `source_path` or `expected_row_count` was supplied,
+    # so nothing had an opinion about it. The pipeline then reported READY_TO_DELIVER at 95.6/100
+    # and invited a human to send an empty file to a paying buyer.
+    #
+    # A QA gate that cannot tell zero rows from finished work does not merely fail to help; it
+    # manufactures confidence in nothing, which is worse than having no gate at all.
+    if not rows:
+        findings.append(
+            {
+                "severity": "critical",
+                "check": "not_empty",
+                "detail": f"{output_path.name} contains a header and no data rows. "
+                "Nothing was produced, whatever the rest of the checks say.",
+            }
+        )
+        scores["completeness"] = 0.0
+        scores["accuracy"] = 0.0
+        scores["requirements_satisfied"] = 0.0
+
     # Row-count preservation is the single most valuable spreadsheet check: silent row loss is
     # the most common and most damaging defect in data-cleaning work.
     expected: int | None = expected_row_count
@@ -370,6 +392,72 @@ def qa_research(document: str, min_sources: int = 3) -> tuple[dict[str, float], 
 # ---------------------------------------------------------------------------
 
 
+#: Phrases a worker uses when it is telling you, in the deliverable itself, that it did not do the
+#: work. The rule-based generic worker writes the first of these verbatim. Taking a worker at its
+#: word costs nothing and catches the exact failure that shipped a 622-byte scaffold at 100.0/100.
+_SCAFFOLD_ADMISSIONS = (
+    "structured scaffold rather than completed",
+    "no ai credential was available",
+    "scaffold rather than completed analytical work",
+    "placeholder deliverable",
+    "to be completed",
+)
+
+
+def _check_not_a_scaffold(
+    artifacts: list[Path],
+    document_text: str,
+    requirements: list[str],
+    scores: dict[str, float],
+    findings: list[dict[str, Any]],
+) -> None:
+    """A deliverable that only restates the brief is not a deliverable.
+
+    This runs for every job type, including the ones with no type-specific QA, because that is
+    exactly where the hole was: an unrecognised job_type ran only the requirements check, which a
+    scaffold passes trivially - it is *made of* the requirements. The pipeline then reported
+    READY_TO_DELIVER at 100.0/100 on a file that restated the buyer's own words back at them.
+    """
+    text = (document_text or _read_text(artifacts) or "").strip()
+    if not text:
+        return
+
+    low = text.lower()
+    for admission in _SCAFFOLD_ADMISSIONS:
+        if admission in low:
+            findings.append(
+                {
+                    "severity": "critical",
+                    "check": "not_a_scaffold",
+                    "detail": f"The deliverable says of itself that the work was not done ({admission!r}). Believe it.",
+                }
+            )
+            for c in ("requirements_satisfied", "completeness", "accuracy"):
+                scores[c] = 0.0
+            return
+
+    # Substance: how much of the deliverable is anything other than the brief echoed back?
+    # Occurrences, not unique requirements - the generic worker prints the whole brief twice,
+    # once under "Requirements addressed" and again under "Acceptance criteria", and counting it
+    # once put a real scaffold four characters under the threshold.
+    echoed = 0
+    for req in requirements:
+        r = (req or "").strip()
+        if len(r) > 12:
+            echoed += low.count(r.lower()) * len(r)
+    if requirements and len(text) < 2000 and echoed > len(text) * 0.4:
+        findings.append(
+            {
+                "severity": "critical",
+                "check": "not_a_scaffold",
+                "detail": f"{echoed} of {len(text)} characters are the requirements repeated back. "
+                "Restating the brief is not doing the work.",
+            }
+        )
+        for c in ("requirements_satisfied", "completeness", "accuracy"):
+            scores[c] = 0.0
+
+
 def review(
     *,
     job_id: str,
@@ -414,7 +502,10 @@ def review(
             _merge(scores, s)
             findings += f
 
-        # Universal checks, whatever the job type.
+        # Universal checks, whatever the job type. The scaffold check runs FIRST and for every
+        # type - an unrecognised job_type otherwise reaches only the requirements check, which a
+        # scaffold passes by construction.
+        _check_not_a_scaffold(artifacts, document_text, requirements, scores, findings)
         _check_requirements_mentioned(requirements, acceptance_criteria, artifacts, document_text, scores, findings)
         _check_file_hygiene(artifacts, scores, findings)
 
