@@ -11,7 +11,15 @@ Fiverr states the blocker on every one of them, verbatim:
 > You aren't visible to clients yet, verify your identity and submit your Form W-9 on your
 > dashboard to publish your service.
 
-That is the entire remaining gate. Both steps are human-only: ID verification and Form W-9.
+**Both steps are done.** ID verification cleared, and Andres submitted the W-9 on 2026-09-13 at
+02:04 UTC. Fiverr's own confirmation email says the form "is being reviewed. This might take a few
+days." So the checklist item is not showing "not done" — it is showing "not yet approved", and the
+remaining gate is Fiverr's review queue, not Andres.
+
+A scheduled task checks the gate every six hours. When Fiverr moves the W-9 from pending to
+approved it notifies Andres and stops - it does not publish. Publication waits on his
+`APPROVE LAUNCH`, which he can send from a phone. Only then does it publish Gig 1, Gig 2 and
+Gig 4 in that order and run the verification chain below.
 
 | # | Gig | Category → Service type | Prices | Delivery | State |
 |---|-----|------------------------|--------|----------|-------|
@@ -54,6 +62,23 @@ cannot be changed; every tier caps at **10,000**. The kit's copy said 1,000 rows
 
 **Confirm the Basic scope you will actually honour.** The platform field understates it, and a
 buyer reading "100 items" for $30 may simply not order.
+
+## Order intake — Gmail
+
+Fiverr has no seller API and prohibits scraping `/inbox/` and `/orders/`, so the system cannot ask
+Fiverr whether an order exists. It reads Andres's own mailbox instead, which touches no Fiverr
+system — the path `docs/MARKETPLACE_RULES.md` already identified as the only compliant one.
+
+`src/aicc/gmail_intake.py` is that parser and only that parser. Sender validation is proven
+against real mail (`noreply@e.fiverr.com` trusted, `announce.fiverr.com` marketing refused,
+lookalike domains refused). Bodies are scanned for injection before any field is read, and a body
+carrying a high-severity finding is never auto-imported even when its fields parse cleanly. It
+fails closed on an unrecognised gig title, an unparseable price, or a missing order id.
+Deduplication keys on the Fiverr order id, so a resend is still a duplicate. Only order id, gig
+title, price, deadline and buyer handle are stored.
+
+**Body extraction is unproven.** Nothing is published, so no real order notification exists yet.
+The patterns are marked PROVISIONAL; the first genuine order email is the specification.
 
 ## Fulfilment readiness — checked, not assumed
 
