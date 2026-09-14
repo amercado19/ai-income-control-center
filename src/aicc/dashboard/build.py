@@ -4,7 +4,7 @@ Produces a single self-contained HTML file: CSS and JS are inlined, there are no
 requests, and no CDN is required. That makes it deployable to GitHub Pages for free, viewable
 offline, and publishable as an Artifact without a content-security-policy fight.
 
-``verify_site`` is the publish gate, modelled on the NFL pipeline's verify-before-publish step:
+``verify_site`` is the publish gate, modelled on an existing pipeline's verify-before-publish step:
 a build that fails verification is refused rather than deployed, so a broken dashboard never
 replaces a working one.
 """
@@ -511,7 +511,7 @@ REQUIRED_MARKERS = ["window.DATA=", 'id="nav-items"', 'id="pages"', "AI Income C
 
 
 def verify_site(site: Path) -> tuple[bool, dict[str, Any]]:
-    """Refuse to publish a broken build. Mirrors the NFL pipeline's verify_site step."""
+    """Refuse to publish a broken build. Mirrors an existing pipeline's verify_site step."""
     report: dict[str, Any] = {"checks": [], "ok": True}
 
     def check(name: str, passed: bool, detail: str = "") -> None:
