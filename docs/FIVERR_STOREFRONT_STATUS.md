@@ -50,21 +50,37 @@ repository and the resume actually support, not against what would rank best.
   off — the resume says SQL (basic), and the field asks what you are expert in.
 - **Gig 4 · Data Cleaning** has no service-type or metadata step at all.
 
-## One platform constraint worth a decision — NEEDS ANDRES
+## Gig 4 Basic sizing — DECIDED, closed
 
 Fiverr's Data Cleaning packages carry an **"Items Cleaned"** field. Basic is **locked to 100** and
 cannot be changed; every tier caps at **10,000**. The kit's copy said 1,000 rows on Basic and
 "unlimited" on Premium, so both were rewritten to avoid stating a number the platform contradicts:
 
-- Basic now states no row count. The FAQ handles sizing ("Message me before ordering and I will
+- Basic states no row count. The FAQ handles sizing ("Message me before ordering and I will
   quote it properly rather than have you buy the wrong package.")
-- Premium now says 10,000 rows rather than "unlimited" — an unbounded promise at $150 is a bad
+- Premium says 10,000 rows rather than "unlimited" — an unbounded promise at $150 is a bad
   order waiting to happen.
 
-**Confirm the Basic scope you will actually honor.** The platform field understates it, and a
-buyer reading "100 items" for $30 may simply not order.
+**Andres finalized this for launch on 2026-09-14:** Basic stays $30 with Fiverr's 100 Items
+Cleaned as the platform-defined scope. No invented larger limit, no price change before real
+marketplace data. A materially larger or more complex dataset gets scoped through a higher package
+or a permitted custom offer — never promised as unlimited work under Basic.
 
-## The portfolio is blocked, and the reason is structural — NEEDS ANDRES
+**Do not reopen this** unless real buyer behaviour exposes a problem, Fiverr changes the available
+fields, or there is enough impression/click/inquiry/order data to justify optimization.
+
+## Portfolio — DEFERRED, waiting for the first eligible real delivered project
+
+**Andres's decision, 2026-09-14.** Do not fabricate or assign hypothetical values for project cost,
+duration or start date. The three prepared case studies and diagrams stay saved internally for
+future use and are **not** published through Fiverr while Fiverr requires factual fields that do
+not truthfully exist for unpaid personal or demo work. **Do not spend more time working around the
+form.** After a real order is delivered, evaluate whether that project is appropriate for the
+portfolio and whether Fiverr and client permissions allow showcasing it — using only actual price,
+dates, duration, deliverables and permitted information. Profile strength is not worth delaying
+revenue for. The three gig gallery images per listing are the visual proof for launch.
+
+The finding that produced that decision, recorded so no future session retries it:
 
 Three case studies were written and three original diagrams drawn for
 `fiverr.com/users/amercado19/portfolio/new`. They cannot be submitted as planned.
@@ -80,18 +96,12 @@ and step 2 is "Link to catalog". Entering a duration, a date and a dollar figure
 that had no client and no fee would state three things that are not true, on a public profile,
 which is exactly what the standing no-fabrication rule forbids.
 
-Three ways out, none of them chosen yet:
+The written entries and the diagrams stay committed and ready for the day there is a real project
+to attach them to: `portfolio/fiverr_portfolio_entries.md`, `portfolio/fiverr_case_images/`.
 
-1. **Wait for the first delivered order** and build the portfolio entry from it. Real duration,
-   real price, real date, and Fiverr offers this path from the order itself. Costs nothing and
-   fabricates nothing; it just does not help before the first sale.
-2. **Andres supplies the three facts himself** for the underlying personal projects. His call,
-   his profile — but the cost field still has no true answer for unpaid work.
-3. **Skip the portfolio.** Each gig already carries three original gallery images doing the same
-   visual-proof job. The portfolio is additive, not required.
-
-The written entries and the diagrams are committed and ready either way:
-`portfolio/fiverr_portfolio_entries.md`, `portfolio/fiverr_case_images/`.
+The next milestone is not profile completion. It is
+**FIRST IMPRESSION → FIRST CLICK → FIRST INQUIRY → FIRST REAL ORDER → SUCCESSFUL DELIVERY →
+FIRST $100 NET.**
 
 ## Order intake — Gmail
 
