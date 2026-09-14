@@ -2,8 +2,8 @@
 
 Three case studies for the Fiverr portfolio (`fiverr.com/users/amercado19/portfolio/new`).
 
-**Rules these were written under** (Andres, 2026-09-13): no repo URLs, no project names, no betting
-content or P&L, no employer names, no AICC internals, no pricing floors or capacity limits, no
+**Rules these were written under** (Andres, 2026-09-13): no repo URLs, no project names, no private-project
+content, no employer names, no AICC internals, no pricing floors or capacity limits, no
 order/revenue statistics. Nothing may imply paid client work. No invented clients, companies,
 revenue, usage volume, years of operation, uptime, or performance results. The one permitted
 quantitative claim is the ~50% reconciliation-time reduction from the resume, with the employer
