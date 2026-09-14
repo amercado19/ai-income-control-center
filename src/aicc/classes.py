@@ -250,7 +250,7 @@ def estimate_win(opp: Opportunity, *, source_prior: float, class_: OpportunityCl
             adjust(
                 +0.05,
                 "Portfolio requested, and ours is relevant",
-                "Asks for prior work in an area the NFL/MLB pipelines genuinely demonstrate.",
+                "Asks for prior work in an area private internal projects genuinely demonstrate.",
             )
         else:
             adjust(-0.10, "Portfolio requested in an unrelated area", "Asks for prior work we cannot show for this kind of job.")

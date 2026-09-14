@@ -6,22 +6,20 @@ projects is one of the hard prohibitions this system is built around.
 
 The constraint that shapes this module is **visibility**, and it is not a formality:
 
-* ``nfl-pipeline`` and ``mlb-pipeline`` are **private**.
-* ``nfl-dashboard`` and ``mlb-dashboard`` are **public**, and are what those pipelines produce.
+* Capability evidence comes from private internal projects.
 
 A case study a prospective client cannot open is an assertion, not evidence. So each study
 carries its evidence explicitly, split into what a stranger can verify for themselves
 (``public_evidence``) and what they can only take on trust until shown privately
 (``private_evidence``). ``citable_claims()`` returns only claims backed by something public,
-and that is the set the proposal generator is allowed to draw on. The private material is here
-so it can be offered deliberately - "I can walk you through the code on a call" - rather than
-asserted to someone with no way to check it.
+and that is the set the proposal generator is allowed to draw on.
 
-One further constraint, applied throughout: these pipelines happen to model sports betting
-markets. The transferable, sellable engineering is the scheduling, reconciliation, calibration
-and failure handling - not the subject matter. The case studies below are written about the
-engineering. Nothing here is betting, investment or financial advice, and the source projects
-carry their own disclaimers to the same effect.
+One constraint applies throughout, and it is absolute: **the private internal projects are never
+named, linked, described by subject, or offered for inspection.** They are not client work, not
+portfolio material, and not proof a buyer may ask to see. What is sellable is the transferable
+engineering - scheduling, reconciliation, calibration and failure handling - and the case studies
+below describe that generically. If code proof is ever needed for a sale, it comes from a
+purpose-built demonstration on non-sensitive data, never from these.
 """
 
 from __future__ import annotations
@@ -75,9 +73,9 @@ class CaseStudy:
         return d
 
 
-NFL_DASHBOARD = "https://amercado19.github.io/nfl-dashboard/"
-MLB_DASHBOARD = "https://github.com/amercado19/mlb-dashboard"
-NFL_DASH_REPO = "https://github.com/amercado19/nfl-dashboard"
+NFL_DASHBOARD = ""
+MLB_DASHBOARD = ""
+NFL_DASH_REPO = ""
 
 
 STUDIES: list[CaseStudy] = [
@@ -109,23 +107,23 @@ STUDIES: list[CaseStudy] = [
         public_evidence=[
             Evidence(
                 "A live dashboard, published automatically by a scheduled pipeline, showing its own refresh age and data status.",
-                "nfl-dashboard, GitHub Pages",
+                "private internal project",
                 NFL_DASHBOARD,
             ),
             Evidence(
                 "The generated dashboard repository, updated by the pipeline rather than by hand.",
-                "nfl-dashboard repository",
+                "private internal project",
                 NFL_DASH_REPO,
             ),
         ],
         private_evidence=[
             Evidence(
                 "28 GitHub Actions workflow definitions covering refresh, retrain, backtest, health check and deploy.",
-                "nfl-pipeline (private)",
+                "private internal project",
             ),
             Evidence(
                 "A cron schedule whose comments record why each slot exists, including the extra runs added after a real missed deadline.",
-                "mlb-pipeline (private)",
+                "private internal project",
             ),
         ],
         sells=["data_pipeline", "automation", "api_integration", "data_engineering", "scheduled_automation"],
@@ -156,7 +154,7 @@ STUDIES: list[CaseStudy] = [
         public_evidence=[
             Evidence(
                 "A staleness monitor running in a public repository, with its reasoning and its limitations written into the file.",
-                "mlb-dashboard/.github/workflows/freshness-alarm.yml",
+                "private internal project",
                 MLB_DASHBOARD,
             ),
         ],
@@ -189,14 +187,14 @@ STUDIES: list[CaseStudy] = [
         public_evidence=[
             Evidence(
                 "A public dashboard that labels every projection as model output and disclaims guarantees in its own repository description.",
-                "nfl-dashboard",
+                "private internal project",
                 NFL_DASHBOARD,
             ),
         ],
         private_evidence=[
             Evidence(
                 "MODEL_CARD.md, docs/CALIBRATION_REPORT.md and KNOWN_LIMITATIONS.md, each regenerable from a CLI command.",
-                "nfl-pipeline (private)",
+                "private internal project",
             ),
         ],
         sells=["data_analysis", "model_pipeline", "reporting", "financial_model"],
@@ -224,12 +222,13 @@ STUDIES: list[CaseStudy] = [
             Evidence(
                 "This repository: the same gate structure, fully public and inspectable, including the publish gate that refuses a bad build.",
                 "ai-income-control-center",
-                "https://github.com/amercado19/ai-income-control-center",
+                "",
             ),
         ],
         private_evidence=[
             Evidence(
-                "206 test-related files across the NFL project, with CI running the full suite on each change.", "nfl-pipeline (private)"
+                "Extensive test coverage across a private internal project, with CI running the full suite on each change.",
+                "private internal project",
             ),
         ],
         sells=["testing", "ci_cd", "data_pipeline", "data_engineering", "automation"],
@@ -263,14 +262,12 @@ def summary() -> dict[str, Any]:
         "count": len(studies),
         "with_public_proof": sum(1 for s in studies if s["has_public_proof"]),
         "visibility_note": (
-            "nfl-pipeline and mlb-pipeline are private repositories; nfl-dashboard and "
-            "mlb-dashboard are public and are what those pipelines produce. Proposals cite only "
-            "the public evidence. The private material is for a call, where it can be shown."
+            "Capability evidence comes from private internal projects that are not approved for "
+            "client disclosure. Proposals state capabilities generically and cite no private material."
         ),
         "subject_matter_note": (
-            "These pipelines model sports betting markets. What is being sold is the "
-            "engineering - scheduling, reconciliation, calibration, failure handling - not the "
-            "subject. Nothing in them is betting, investment or financial advice."
+            "What is offered is the engineering - scheduling, reconciliation, calibration and "
+            "failure handling - described generically, with no private project disclosed."
         ),
     }
 

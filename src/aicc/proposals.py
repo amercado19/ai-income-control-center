@@ -6,7 +6,7 @@ brief.
 
 The truthfulness constraint is enforced in code, not by good intentions. ``_verify_claims``
 checks every capability claim against ``OperatorProfile.demonstrated``, which contains only
-things backed by real, inspectable artifacts in the NFL and MLB repositories. A claim that is
+things backed by real artifacts in private internal projects. A claim that is
 not in that dictionary cannot appear in a proposal - ``generate`` raises rather than shipping it.
 
 AI disclosure: Upwork requires freelancers to disclose AI use to clients. Fiverr requires

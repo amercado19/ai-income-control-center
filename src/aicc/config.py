@@ -177,7 +177,7 @@ cost_gate = CostGate()
 class OperatorProfile:
     """What Andres can truthfully claim. The proposal generator may only draw on this.
 
-    Everything here is verifiable from the NFL/MLB repositories. Nothing aspirational goes in
+    Everything here is verifiable from private internal projects. Nothing aspirational goes in
     this file: if it is not in here, the proposal generator cannot say it (spec section 20).
     """
 
@@ -223,7 +223,6 @@ class OperatorProfile:
             "grants",
             "sponsored programs",
             "budgeting",
-            "sports analytics",
             "predictive modeling",
         ]
     )
@@ -232,9 +231,9 @@ class OperatorProfile:
     # proposal generator is allowed to make, with the artifact that backs it.
     demonstrated: dict[str, str] = field(
         default_factory=lambda: {
-            "automated python data pipelines": "Two production pipelines (NFL, MLB) ingesting multiple third-party data sources on a schedule.",
+            "automated python data pipelines": "Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.",
             "scheduled github actions": "A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.",
-            "api integrations": "Odds, schedule, roster, injury, weather and news providers, each with credential-state degradation.",
+            "api integrations": "Several third-party REST providers, each with credential-state degradation.",
             "generated dashboards": "Static dashboards built by CI and published to GitHub Pages, mobile-responsive with offline support.",
             "model pipelines": "Model training, calibration reporting and backtesting with committed metric summaries.",
             "automated data refresh": "Idempotent refresh steps with caching and rebuild-on-empty guards.",
