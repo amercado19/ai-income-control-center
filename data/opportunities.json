@@ -2421,6 +2421,161 @@
       "probability_low": 0.0
     }
   },
+  "opp_1c912078f401": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 144.23,
+    "budget_min": 84.13,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Career Consulting Partners",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:27:14+00:00",
+    "description": "Employment Attorney (4-7 years) - Partnership Track Career Consulting Partners has partnered with a boutique employment law firm in Pasadena, CA. We are seeking a mid-level attorney (4\u20137 years of experience) who is ready for more than just another associate role. Many talented litigators reach a point where they realize partnership at their current firm may be years away or not realistically attainable. This opportunity is designed for attorneys who are ready to step into leadership and build toward partnership in a collaborative, quality-over-quantity caseload environment. You will work closely with the firm owner on complex employment litigation, while also having the opportunity to help shape case strategy, mentor junior attorneys, and participate in the growth of the firm. Ideal For An Attorney Who: Has 4\u20137 years of employment litigation experience (plaintiff-side strongly preferred) Has handled depositions, motion practice, and case strategy Is comfortable managing cases with increasing autonomy Is interested in developing toward a partner-level role Wants a clear path to partnership for the right individual Wants direct access to firm leadership and meaningful involvement in firm growth Wants an opportunity to work on impactful employment cases Wants a collaborative boutique environment where your contributions are visible Requirements: Juris Doctor (J.D.) degree from an accredited law school An active member of the California State Bar in good standing 4\u20137 years of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 630.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/career-consulting-partners/jobs/employment-attorney-4-7-years-partnership-track-9685746329",
+    "id": "opp_1c912078f401",
+    "is_demo": false,
+    "match_score": 13.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:27:15+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 50.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $631 on $631 (100% margin). $135 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $168 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 4.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 6 hard requirement(s) with nothing in the operator profile behind them: \") - partnership track career consulting partners has partnered with a \"; \") who is ready for more than just another associate role\"; \"employment litigation experience (plaintiff-side strongly preferred) h\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 50.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "employment-law",
+      "employment-litigation",
+      "attorney",
+      "legal-counsel",
+      "litigation",
+      "employment-law-partner",
+      "team-2-senior-employment-law-attorney",
+      "employment-attorney",
+      "employment-law-counsel",
+      "employment-lawyer",
+      "senior-employment-counsel",
+      "employment-law-attorney",
+      "employment-legal-counsel",
+      "partner-level-attorney",
+      "employment-counsel"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Employment Attorney (4-7 years) - Partnership Track",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/career-consulting-partners/jobs/employment-attorney-4-7-years-partnership-track-9685746329",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_1d51eae94168": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -4522,6 +4677,136 @@
       "probability_low": 0.0
     }
   },
+  "opp_355e721c8caf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Huzzle",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-14T12:05:26+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Mexico About Huzzle At Huzzle, we connect high-performing B2B sales professionals with global companies across the UK, US, Canada, Europe, and Australia. Our clients include startups, digital agencies, and tech platforms in industries like SaaS, MarTech, FinTech, and EdTech. We match top sales talent to full-time remote roles where they\u2019re hired directly into client teams and provided ongoing support by Huzzle. Role Type: Full-time Engagement: Independent Contractor Job Summary We are seeking a Remote AI Backend / Full-Stack Engineer with strong Python and modern web development experience to help build and scale an AI-powered travel planning platform. You will work closely with the product and engineering teams to develop backend services, build APIs, and contribute to frontend features. This role requires a developer who can write clean, scalable code, collaborate through GitHub pull requests, and contribute to sprint planning in an agile environment . The ideal candidate is comfortable working in a startup environment , takes ownership of deliverables, and is passionate about building high-quality AI-driven applications. Key Responsibilities Develop and maintain backend services using Python and FastAPI Build and optimize APIs that power AI-driven travel planning features Collaborate with engineers through high-quality GitHub pull requests and code reviews Contribute to sprint planning and agile development cycles Work on frontend components using React \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai",
+    "id": "opp_355e721c8caf",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "Tue, 18 Aug 2026 20:34:05 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: python. Covers 20% of the 5 skills this listing names (missing: api, aws, fastapi, react)."
+        }
+      },
+      "final_score": 46.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "fastapi",
+      "aws",
+      "react"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Huzzle: Full-Stack Developer (Python, React, AI)",
+    "updated_at": "2026-09-14T12:05:26+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "30%",
+          "to": "15%",
+          "why": "About 27 days old; likely filled or abandoned."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "15%",
+          "to": "5%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 18.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_35f1b7e43b6e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -4668,6 +4953,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_36d76249e5b5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "OnMed",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:29:09+00:00",
+    "description": "Who We Are and Why Join Us At OnMed our purpose is simple but powerful...to improve the quality of life and sense of well-being in our communities by bringing access to healthcare to everyone, everywhere. Our path to everywhere has already begun, with our innovative CareStation, a small but mighty, Clinic-in-a-Box, bringing #healthcareaccess anywhere with an outlet to plug it in. Poised to become a key component in America\u2019s public health infrastructure, the OnMed CareStation is the only tech-enabled, human-led, hybrid care solution that combines the comprehensive experience, trust and outcomes of a clinic, with the rapid scalability of virtual care. At OnMed , every role, every day, is directly impacting the communities we serve. You\u2019ll join a high-performing purpose-driven team, innovating to break down the barriers that keep people from the care they need. This is not just a job...it's a movement to bring access to healthcare where and when people need it most. It\u2019s healthcare that shows up. Who You Are You are a results-driven professional with a keen eye for identifying opportunities and driving strategic growth initiatives. You possess a strong entrepreneurial spirit, constantly seeking ways to drive revenue and expand market share. You thrive in high-pressure situations and are adept at managing competing priorities, making you an ideal candidate to contribute to the Company\u2019s ambitious growth goals. The Company is at an important inflection point in its growth \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 865.4,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/onmed/jobs/vice-president-of-business-development",
+    "id": "opp_36d76249e5b5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:29:10+00:00",
+    "profit_score": 83.6,
+    "risk_flags": [],
+    "score": 47.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.4,
+          "evidence": "Estimated net $865 on $865 (100% margin). $182 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $288 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 47.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "business-development",
+      "sales-leadership",
+      "healthcare-sales",
+      "enterprise-sales",
+      "strategic-partnerships",
+      "vice-president-of-business-development",
+      "vice-president-business-development",
+      "vp-of-business-development",
+      "vp-business-development",
+      "business-development-vp"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Vice President of Business Development",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/onmed/jobs/vice-president-of-business-development",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_3abd91d4cc67": {
@@ -6097,6 +6519,151 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_4ae2a3164550": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Tiger Analytics",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:31:45+00:00",
+    "description": "Tiger Analytics is an advanced analytics consulting firm. We are the trusted analytics partner for several Fortune 100 companies, enabling them to generate business value from data. Our consultants bring deep expertise in Data Science, Machine Learning, and AI. Our business value and leadership have been recognized by various market research firms, including Forrester and Gartner. We are looking for an AI Engagement Lead / AI Engineering Pod Lead who can combine strong client and project leadership with hands-on expertise in AI/ML and Generative AI engineering. The role will involve approximately 50% engagement/project management and coordination and 50% hands-on technical leadership and AI engineering. Responsibilities: Lead AI/GenAI engagements from discovery and solution definition through development, deployment, and production. Serve as the primary technical and delivery interface for clients and senior stakeholders. Understand business objectives and translate them into AI/ML solution requirements and actionable engineering plans. Own project planning, prioritization, timelines, milestones, risks, dependencies, and overall delivery. Coordinate across AI Engineers, Data Scientists, Data Engineers, Product Managers, and client teams. Conduct regular client discussions, status reviews, technical walkthroughs, and solutioning sessions. Proactively identify delivery risks, technical challenges, resource constraints, and dependencies and drive them toward resolution. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tiger-analytics/jobs/ai-engagement-lead",
+    "id": "opp_4ae2a3164550",
+    "is_demo": false,
+    "match_score": 41.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-14T11:31:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.1,
+          "evidence": "Matched 2 profile skills: ci/cd, python. Covers 15% of the 13 skills this listing names (missing: analytics, api, aws, azure)."
+        }
+      },
+      "final_score": 51.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "fastapi",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes",
+      "ci/cd",
+      "machine learning",
+      "data science",
+      "analytics",
+      "ai-engineering",
+      "generative-ai",
+      "ai-leadership",
+      "technical-project-management",
+      "ai-consulting",
+      "ai-engagement-leadership",
+      "ai-engagement-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Engagement Lead",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/tiger-analytics/jobs/ai-engagement-lead",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4ba6d24ae87f": {
@@ -7735,6 +8302,130 @@
       "probability_low": 52.0
     }
   },
+  "opp_66f961501257": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Reddit",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-14T12:05:26+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote - United States Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit www.redditinc.com . This is a remote-friendly role. Reddit has a flexible first workforce. The Identity and Access Management team develops and maintains a set of mission critical, highly performant, and highly scalable systems that manage user identity, authentication, and authorization for all of our millions of daily users and backend services. Some of our present and future challenges include: Building systems around consumer IAM to meet the needs of Reddit\u2019s engineering organization and millions of daily users. Design, build and ship backend services powering experiences for one of the most visited sites in the world. Work with product management, security, client engineering, and backend teams to define and implement Reddit\u2019s IAM vision and roadmap. In your day-to-day, you will: Steer: Work with the team to select, scope, and execute on high leverage projects that align with Reddit\u2019s goals. Build: Execute on a strategy and create a more performant, more scalable, higher quality architecture around IAM. XFN \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/reddit-backend-engineer-iam",
+    "id": "opp_66f961501257",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 14 Sep 2026 07:31:07 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: ci/cd, excel. Covers 33% of the 6 skills this listing names (missing: aws, gcp, kubernetes, rest)."
+        }
+      },
+      "final_score": 50.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "gcp",
+      "kubernetes",
+      "ci/cd"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Reddit: Backend Engineer, IAM",
+    "updated_at": "2026-09-14T12:05:26+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/reddit-backend-engineer-iam",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_67b494357db0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -8001,6 +8692,149 @@
           "from": "45%",
           "to": "35%",
           "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_6981a55c9deb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.0,
+    "budget_min": 37.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Abbott",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:23:57+00:00",
+    "description": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic medicines. Our 122,000 colleagues serve people in more than 160 countries. JOB DESCRIPTION: Working at Abbott At Abbott , you can do work that matters, grow, and learn, care for yourself and your family, be your true self, and live a full life. You\u2019ll also have access to: Career development with an international company where you can grow the career you dream of. Employees can qualify for free medical coverage in our Health Investment Plan (HIP) PPO medical plan in the next calendar year. An excellent retirement savings plan with a high employer contribution. Tuition reimbursement, the Freedom 2 Save student debt program, and FreeU education benefit - an affordable and convenient path to getting a bachelor\u2019s degree. A company recognized as a great place to work in dozens of countries worldwide and named one of the most admired companies in the world by Fortune. A company that is recognized as one of the best big companies to work for as well as the best place to work for diversity, working mothers, female executives, and scientists. The Opportunity The Distribution Sales Executive owns the execution of new Core Lab business in Hospitals, Reference Labs, Physician Office Labs, and Government facilities \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 281.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/abbott/jobs/distribution-sales-executive-diagnostics-northeast",
+    "id": "opp_6981a55c9deb",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:23:58+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 62.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $281 on $281 (100% margin). $60 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $75 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "diagnostics-sales",
+      "distribution-sales",
+      "capital-sales",
+      "medical-device-sales",
+      "laboratory-sales",
+      "diagnostics-sales-executive",
+      "distributor-sales-executive",
+      "healthcare-diagnostics-sales",
+      "medical-diagnostics-sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Distribution Sales Executive, Diagnostics - Northeast",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/abbott/jobs/distribution-sales-executive-diagnostics-northeast",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
         },
         {
           "effect": "-15%",
@@ -12982,6 +13816,139 @@
       "probability_low": 14.0
     }
   },
+  "opp_a543d9a57b32": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 6,
+    "budget_min": 6,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Toloka AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:31:56+00:00",
+    "description": "Gana dinero grabando actividades de tu vida diaria Buscamos personas para grabar actividades cotidianas desde una perspectiva en primera persona utilizando una aplicaci\u00f3n m\u00f3vil. Puedes grabar tareas que ya realizas normalmente, como: Cocinar \u2022 Limpiar \u2022 Doblar ropa Ordenar espacios \u2022 Hacer jardiner\u00eda \u2022 Pasear al perro Los videos ayudan a entrenar sistemas de IA y rob\u00f3tica para comprender c\u00f3mo las personas interact\u00faan con el mundo real. Lo que ofrecemos: Horarios flexibles \u2022 Trabajo remoto por proyecto USD $6 por hora de contenido aprobado \u2022 Bono adicional por la primera hora aprobada Requisitos: iPhone 12 o superior, Google Pixel 6+ o Samsung Galaxy S21+ o superior \u2022 Acceso a internet Nivel b\u00e1sico de ingl\u00e9s para registrarte y utilizar la plataforma No se requiere experiencia previa. Originally posted on Himalayas",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 45.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/toloka-ai/jobs/freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-5991680486",
+    "id": "opp_a543d9a57b32",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:31:57+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $45 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data-collection",
+      "ai-training-data",
+      "video-annotator",
+      "freelance-work",
+      "content-creation",
+      "ai-data-collection",
+      "data-annotation",
+      "field-data-collection"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance: grabaci\u00f3n de tareas cotidianas para proyecto de IA",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/toloka-ai/jobs/freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-5991680486",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_aa02c931a2b5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -13958,6 +14925,154 @@
       "probability_low": 15.0
     }
   },
+  "opp_b17370b3d537": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:30:58+00:00",
+    "description": "AI Data Engineer \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: AI Data Engineer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $80,000\u2013$100,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking an AI Data Engineer to build and operate the large-scale data systems that power modern AI training and evaluation pipelines. The role combines deep data engineering expertise with a strong understanding of AI workloads, focusing on ingestion, transformation, quality assurance, lineage, and high-throughput delivery of data to training jobs across diverse modalities. The ideal candidate has experience operating petabyte-scale data systems, strong software engineering fundamentals, and clear understanding of how data infrastructure choices propagate into model quality and training efficiency. Required Qualifications Bachelor\u2019s or Master\u2019s degree in Computer Science or a related field. Six or more years of data engineering experience, with significant work supporting ML or AI workloads. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 288.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-data-engineer",
+    "id": "opp_b17370b3d537",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:30:59+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 69.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $288 on $288 (100% margin). $62 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $77 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: ci/cd, excel, python. Covers 75% of the 4 skills this listing names (missing: aws)."
+        }
+      },
+      "final_score": 69.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "aws",
+      "ci/cd",
+      "ai-data-engineer",
+      "data-engineering",
+      "machine-learning-infrastructure",
+      "ai-ml-engineer",
+      "data-systems-engineering",
+      "ai-ml-data-engineer",
+      "data-and-ai-engineer",
+      "data-+-ai-engineer",
+      "senior-ai-data-engineer",
+      "ai-data-platform-engineer",
+      "ai-data-infrastructure-engineer",
+      "data-ai-engineering"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "AI Data Engineer",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-data-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_b76808eed9ec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -14097,6 +15212,147 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_bd542fb6d369": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Team Carney",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-14T12:05:22+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-13T11:33:30+00:00",
+    "description": "At Team Carney , we believe that true performance acceleration happens at the intersection of innovative learning and deep strategic expertise. Since 1994, our mission has been to provide top-tier training, learning, and human capital solutions that empower Federal Government agencies to meet their critical mandates. We are seeking a high-performing Instructional Systems Designer (ISD) to support the Federal Deposit Insurance Corporation (FDIC) Corporate University (CU) Course Maintenance Program. This position is contingent on contract award. Work Schedule and Location Employment Status: Full-Time Location: Remote within the U.S., with anticipated travel to the FDIC Dallas Regional Office (Dallas, TX) approximately once per quarter Who You Are & What You\u2019ll Do As an Instructional Systems Designer (ISD) supporting the FDIC Corporate University Course Maintenance Program, you will serve in a Key Personnel capacity responsible for maintaining, revising, and modernizing a comprehensive catalog of professional courses and training collateral. You will work in close collaboration with FDIC Corporate University personnel, Subject Matter Experts (SMEs), and technical monitors to update existing courseware across all instructional delivery formats. In this role, you will analyze source documentation, review Course Change Sheets, and update learning products across Instructor-Led Training (ILT), Virtual Instructor-Led Training (VILT), Web-Based Training (WBT), Instructional Video, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260914T120520Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/team-carney/jobs/instructional-systems-designer",
+    "id": "opp_bd542fb6d369",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-14T11:33:31+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, data entry, pdf)."
+        }
+      },
+      "final_score": 44.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "pdf",
+      "data entry",
+      "instructional-systems-designer",
+      "instructional-design",
+      "learning-and-development",
+      "elearning-developer",
+      "instructional-systems-design",
+      "instructional-designer",
+      "remote-instructional-systems-designer",
+      "instructional-experience-designer",
+      "instructional-design-specialist",
+      "instructional-developer",
+      "senior-instructional-designer",
+      "instructional-design-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Instructional Systems Designer",
+    "updated_at": "2026-09-14T12:05:22+00:00",
+    "url": "https://himalayas.app/companies/team-carney/jobs/instructional-systems-designer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_c05d2790fdec": {
