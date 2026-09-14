@@ -102,7 +102,7 @@ def _check_cost_gate_fails_closed() -> tuple[bool, str]:
     if MAX_NEW_MONTHLY_CASH_SPEND != 0.00:
         return False, f"The ceiling is ${MAX_NEW_MONTHLY_CASH_SPEND:.2f}/mo, not $0.00."
     gate = CostGate()
-    decision = gate.request(
+    decision = gate.probe(
         CostRequest(
             service="selftest probe",
             reason="Attempt a $0.01 charge to prove the ceiling holds.",
@@ -401,7 +401,7 @@ def _check_no_spending_without_approval() -> tuple[bool, str]:
     from .config import MAX_NEW_MONTHLY_CASH_SPEND, CostGate, CostRequest
 
     gate = CostGate()
-    decision = gate.request(
+    decision = gate.probe(
         CostRequest(
             service="a subscription nobody approved",
             reason="self-test probe",

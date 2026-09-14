@@ -217,7 +217,11 @@ def _personal_data_protection() -> Indicator:
 def _spending_lock() -> Indicator:
     from .config import MAX_NEW_MONTHLY_CASH_SPEND, CostGate, CostRequest
 
-    decision = CostGate().request(
+    # A real charge is attempted, against the real gate, and must come back refused - that is what
+    # makes this indicator evidence rather than a constant. `probe` is the same decision as
+    # `request`, minus the probe's own footprint: reading the safety panel should not append a
+    # fourth copy of the same declined $9.99 request. An approval would still be written.
+    decision = CostGate().probe(
         CostRequest(
             service="compliance probe",
             reason="Attempt a charge to prove the ceiling holds.",

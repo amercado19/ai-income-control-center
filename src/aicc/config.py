@@ -94,12 +94,46 @@ class CostDecision:
 
 
 class CostGate:
-    """Fails closed. Every refusal is logged so the dashboard can show what the $0 rule cost us."""
+    """Fails closed. Every refusal is logged so the dashboard can show what the $0 rule cost us.
+
+    One exception to "every refusal", and it is narrow. The read-only diagnostics - ``compliance``
+    and ``selftest`` - prove the ceiling holds by *attempting a charge and being refused*. That is
+    the right way to test a gate, but it meant that merely reading the safety panel appended a
+    record identical to the last three, so ``git status`` came back dirty after a command that only
+    looked at things. A diagnostic that mutates the state it reports on makes the working tree
+    useless as a signal for whether real work is outstanding.
+
+    ``probe()`` is the read-only entrance for exactly that. It is a separate method rather than a
+    flag on ``request`` on purpose: ``test_cost_gate_has_no_override`` pins ``request``'s signature
+    to ``(self, req)`` so that nobody can add a parameter to it, and that test is right. Both
+    methods call the same ``_decide``, so the probe cannot drift into testing a copy of the gate
+    instead of the gate. And ``probe`` cannot hide spending - an **approved** request is written
+    whichever entrance it came through, because an approval is money leaving and the ledger is the
+    only place that shows it.
+    """
 
     def __init__(self, ceiling: float = MAX_NEW_MONTHLY_CASH_SPEND) -> None:
         self.ceiling = ceiling
 
     def request(self, req: CostRequest) -> CostDecision:
+        """The real path. Decides, records whatever it decided, returns."""
+        decision = self._decide(req)
+        self._log(decision)
+        return decision
+
+    def probe(self, req: CostRequest) -> CostDecision:
+        """The same decision, for a diagnostic that is only asking.
+
+        Identical verdict to ``request`` - same ``_decide``, no second implementation to drift.
+        The only difference is that a refusal is not written, so reading the safety panel twice
+        does not append the same declined request twice. An approval is still recorded.
+        """
+        decision = self._decide(req)
+        if decision.approved:
+            self._log(decision)
+        return decision
+
+    def _decide(self, req: CostRequest) -> CostDecision:
         if req.monthly_estimate <= 0:
             decision = CostDecision(True, "No cash cost.", req, requires_human=False)
         elif req.monthly_estimate > self.ceiling:
@@ -118,7 +152,6 @@ class CostGate:
                 req,
                 requires_human=True,
             )
-        self._log(decision)
         return decision
 
     @staticmethod
