@@ -339,7 +339,7 @@ PAGES.proposals = () => {
       </div>
       ${p.submit_cost_note ? `<div class="note warn" style="margin-bottom:10px"><strong>Costs money to submit.</strong> ${esc(p.submit_cost_note)}</div>` : ""}
       <pre class="proposal">${esc(p.body)}</pre>
-      <div class="note" style="margin-top:10px"><strong>Claims verified:</strong> ${esc((p.claims_made || []).join("; ") || "none")}. Each is backed by a real artifact in the NFL/MLB repositories.${p.ai_disclosure_included ? " AI use is disclosed to the client." : ""}</div>
+      <div class="note" style="margin-top:10px"><strong>Claims verified:</strong> ${esc((p.claims_made || []).join("; ") || "none")}. Each is backed by a real artifact in a private internal project.${p.ai_disclosure_included ? " AI use is disclosed to the client." : ""}</div>
     </div>`).join("")}`;
 };
 
