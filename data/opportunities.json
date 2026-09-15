@@ -1246,6 +1246,149 @@
       "probability_low": 4.0
     }
   },
+  "opp_07ee6edad814": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 68.19,
+    "budget_min": 32.73,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "NTT DATA",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:22:20+00:00",
+    "description": "Req ID: 371404 NTT DATA Services strives to hire exceptional, innovative, and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. NTT DATA Services is committed to hiring exceptional, innovative, and passionate professionals who thrive in a collaborative and forward\u2011thinking environment. If you\u2019re looking to grow your career with an inclusive organization that values both people and purpose, we invite you to apply. We are currently seeking a Business Systems Analysis Specialist to join our Clinical Service Desk team. This is a fully remote position, with the opportunity to work from home anywhere in North America. This role is part of our Provider Clinical Service Desk and serves as a senior agent with primary responsibility for handling inbound customer calls and working Self Service tickets to resolution. It operates within a 24x7x365 call center environment supporting our customers. Schedule flexibility is required, and work hours may change based on business and coverage needs. Role Responsibilities Respond to client incidents and service requests related to the clinical components of the Epic EHR suite, including (but not limited to) workflow issues, application errors, and user access concerns Proactively manage both assigned and unassigned incidents and requests to ensure timely resolution Drive issue resolution in alignment with established Service Level Agreements (SLAs) \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 235.66,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nttdata/jobs/epic-certified-business-systems-analysis-specialist-clinical-service-desk-remote",
+    "id": "opp_07ee6edad814",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:22:21+00:00",
+    "profit_score": 45.0,
+    "risk_flags": [],
+    "score": 68.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.3,
+          "evidence": "Estimated net $236 on $236 (100% margin). $82 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $164 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 67% of the 3 skills this listing names (missing: analytics)."
+        }
+      },
+      "final_score": 68.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "analytics",
+      "business-systems-analysis",
+      "healthcare-it-support",
+      "epic-ehr-support",
+      "clinical-service-desk",
+      "it-helpdesk",
+      "epic-clinical-service-desk-specialist",
+      "clinical-service-desk-analyst",
+      "epic-ehr-application-analyst"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Epic Certified Business Systems Analysis Specialist-Clinical Service Desk-remote",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/nttdata/jobs/epic-certified-business-systems-analysis-specialist-clinical-service-desk-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0b6285274c4d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -4295,6 +4438,137 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2c7e756925ad": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Outsourced Staff",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:22:18+00:00",
+    "description": "About the Company Our client is a growing Australian organisation committed to delivering high-quality services and maintaining strong compliance, operational excellence, and employee support. As the business continues to expand, they are seeking a detail-oriented HR Administrator to support onboarding, compliance, employee records management, and HR operations. Job Overview The HR Administrator will play a critical role in supporting the employee lifecycle, ensuring all onboarding, compliance, payroll administration, and HR documentation processes are completed accurately and on time. This role requires exceptional attention to detail, strong follow-up skills, and the ability to manage multiple systems and processes simultaneously. The ideal candidate is highly organised, proactive, and comfortable working within structured HR and compliance frameworks. Key Responsibilities Employee Onboarding & Offboarding Coordinate end-to-end onboarding and offboarding processes. Prepare and distribute employment contracts, policies, handbooks, and onboarding documentation. Set up employee profiles across HR, payroll, and operational systems. Ensure all onboarding requirements are completed prior to employee commencement. Manage employee exits, system deactivations, and record retention processes. HR Compliance Management Collect, verify, and maintain employee compliance documentation. Monitor compliance expiry dates and proactively follow up on renewals. Maintain compliance trackers and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/outsourced-staff/jobs/hr-administrator-8432452600",
+    "id": "opp_2c7e756925ad",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-15T19:22:19+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "hr-administration",
+      "human-resources",
+      "hr-coordinator",
+      "office-administration",
+      "admin",
+      "hr-administrator",
+      "hr-admin",
+      "hr-administrative-assistant",
+      "hr-administrative",
+      "hr-administrative-support",
+      "people-administrator",
+      "human-resources-administrative-support"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "HR Administrator",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/outsourced-staff/jobs/hr-administrator-8432452600",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_2e011f001aaf": {
@@ -8575,6 +8849,161 @@
       "probability_low": 26.0
     }
   },
+  "opp_540c86caa09a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 154.81,
+    "budget_min": 110.58,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Reddit",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:27:42+00:00",
+    "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit . Team overview: The Engagement Modeling Team at Reddit focuses on building machine learning models to drive on-platform user engagement with diverse media and content, with a focus on predictive modeling to improve interactions of click-throughs and video view-throughs. This role offers a unique opportunity to shape and scale Reddit \u2019s Ads prediction models, in alignment with our product goals and driving SoTA modeling advancement. This role is well-suited for a leader with deep machine learning expertise, strategic vision, and a collaborative mindset to engage with both technical and cross-functional stakeholders. We\u2019re a remote-friendly company, and this position is open to candidates anywhere in the U.S. Responsibilities: Set Technical Vision and Strategy: Define and execute a roadmap for engagement modeling, balancing innovative modeling approaches with business objectives. Drive Technical Execution: Oversee the model development lifecycle from ideation to deployment, ensuring high standards of ML performance and robustness. Lead and Mentor a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 829.35,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/reddit/jobs/machine-learning-engineering-manager-ads-engagement-modeling-5123191989",
+    "id": "opp_540c86caa09a",
+    "is_demo": false,
+    "match_score": 52.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:27:42+00:00",
+    "profit_score": 83.0,
+    "risk_flags": [],
+    "score": 65.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.3,
+          "evidence": "Estimated net $829 on $829 (100% margin). $177 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $221 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: machine learning, rest). Domain overlap: predictive modeling."
+        }
+      },
+      "final_score": 65.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "machine learning",
+      "machine-learning-engineering",
+      "ads-engineering",
+      "digital-engagement-models",
+      "ml-leadership",
+      "engineering-management",
+      "senior-machine-learning-engineering-manager",
+      "ai-ml-engineering-manager",
+      "ads-engagement-modeling",
+      "ml-engineering-manager",
+      "machine-learning-engineering-leader",
+      "machine-learning-engineering-lead",
+      "machine-learning-engineering-management",
+      "engineering-manager"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/reddit/jobs/machine-learning-engineering-manager-ads-engagement-modeling-5123191989",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "20%",
+          "to": "28%",
+          "why": "Mentions 'predictive modeling', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "28%",
+          "to": "34%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "34%",
+          "to": "24%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
+    }
+  },
   "opp_555518b78f7a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10439,6 +10868,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_68c470641119": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 56.25,
+    "budget_min": 33.75,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ManTech",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:28:48+00:00",
+    "description": "Shape the future of defense with MANTECH! Join a team dedicated to safeguarding our nation through advanced tech and innovative solutions. Since 1968, we\u2019ve been a trusted partner to the Department of Defense, delivering cutting-edge projects that make a real impact. Dive into exciting opportunities in Cybersecurity, IT, Data Analytics and more. Propel your career forward and be part of something extraordinary. Your journey starts now\u2014protect and innovate with MANTECH! MANTECH seeks a motivated, career and customer-oriented Electronics Engineer to join our team in Chesapeake, VA . This position is remote out of Virginia , but requires occasional travel to Chesapeake or Norfolk, VA , for client meetings and events. The Electronics Engineer will leverage their strong technical background and knowledge to support Military Sealift Command (MSC) engineering and design efforts. You will help manage the technical aspects of shipboard electronic systems, including navigation, machinery control electronics, and satellite communications, to ensure safe and reliable maritime operations through professional architectural and scientific analysis. Responsibilities include but are not limited to: Managing the design, maintenance, and configuration control for shipboard electrical systems, navigation, and machinery control electronics. Conducting technical surveys, inspection trips, and attending sea trials or ship checks before, during, and after system alterations. Developing Electrical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 253.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mantech/jobs/electronics-engineer",
+    "id": "opp_68c470641119",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:28:49+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 62.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $253 on $253 (100% margin). $54 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $68 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "defense-engineering",
+      "maritime-engineering",
+      "satellite-communications-engineering",
+      "electrical-engineering",
+      "electronics-engineer",
+      "electronics-design-engineer",
+      "electronics-systems-engineer",
+      "electronics-engineering-jobs",
+      "hardware-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Electronics Engineer",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/mantech/jobs/electronics-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6981a55c9deb": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11634,6 +12199,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_72ebaeb072a9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 65,
+    "budget_min": 6,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Invisible Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:24:58+00:00",
+    "description": "Project Overview We are sourcing independent Audio Evaluation Specialists for an AI benchmark evaluation project assessing advanced agentic audio models. As AI models increasingly handle complex workflows in this domain\u2014specifically real-world customer support scenarios like flight bookings, financial services, and telecommunications\u2014their accuracy relies entirely on robust, expert-crafted training data. The objective of this project is to autonomously produce high-quality evaluation tasks through simulated interactions, audit conversational AI outputs, and generate clean, reliable datasets to optimize model performance. Project Deliverables & Scope Operate autonomously to design complex evaluation frameworks and provide structured training data. Expected deliverables include: Role-Play Scenario Execution: Creating and executing complex, role-play-based evaluation scenarios that simulate realistic customer service interactions across travel, finance, and technical support domains. Model Performance Auditing: Evaluating AI model performance across standardized qualitative and quantitative metrics, focusing strictly on task completion accuracy, conversational naturalness, and audio comprehension. Technical Metric Evaluation: Assessing the model's basic computer programming literacy, including its understanding of JSON structures, functions, methods, and ability to reason about structured data within a support context. Representative Dataset Generation: Contributing to the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 45.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/inv/jobs/welsh-audio-specialist-freelance-ai-trainer-project-2323745099",
+    "id": "opp_72ebaeb072a9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:24:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $45 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "language-and-linguistics",
+      "audio-evaluation",
+      "ai-training",
+      "conversational-ai",
+      "quality-assurance",
+      "freelance-ai-trainer",
+      "ai-audio-model-trainer",
+      "freelance-ai-training-specialist",
+      "ai-training-freelance",
+      "freelance-ai-model-trainer",
+      "ai-trainer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Welsh Audio Specialist - Freelance AI Trainer Project",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/inv/jobs/welsh-audio-specialist-freelance-ai-trainer-project-2323745099",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_75efe85715df": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11866,6 +12567,158 @@
     "title": "Attorney 1, Securities",
     "updated_at": "2026-09-13T11:16:25+00:00",
     "url": "https://himalayas.app/companies/lifelancer/jobs/attorney-1-securities",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_77fec32ad159": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "Webflow",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:28:33+00:00",
+    "description": "Webflow is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality. About the Role We\u2019re looking for a S enior Infrastructure Engineer to improve reliability and stability of Webflow \u2019s customer-facing, production infrastructure, serving millions of page views per hour. Our product is used by over 2 million users world-wide across 190 countries, and you\u2019ll help ensure our platform is secure and scalable for these users as tens of thousands of projects are launched on Webflow each month. Location: Remote-first (Argentina) Permanent, full-time employee (this is not a contractor position) Application Information: Application deadline: applications accepted on an ongoing basis until position is closed and filled This posting is for a new position. As an Senior Infrastructure Engineer you will: Own and evolve the cloud platform that Webflow 's product and engineering teams depend on, including our compute layer, EKS fleet, serverless infrastructure, networking, and cloud operations across AWS and GCP. Help design and maintain our infrastructure-as-code foundation, evolving the patterns and shared components other teams build on. Design and maintain the networking layer that connects Webflow 's services, ensuring reliability, security, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/webflow/jobs/senior-infrastructure-engineer-7316105692",
+    "id": "opp_77fec32ad159",
+    "is_demo": false,
+    "match_score": 45.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:28:34+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 16.8,
+          "evidence": "Matched 2 profile skills: automation, dashboard. Covers 22% of the 9 skills this listing names (missing: aws, gcp, grafana, kubernetes)."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "aws",
+      "gcp",
+      "kubernetes",
+      "terraform",
+      "automation",
+      "dashboard",
+      "grafana",
+      "node",
+      "senior-infrastructure-engineer",
+      "site-reliability-engineer",
+      "cloud-infrastructure-engineer",
+      "devops-engineer",
+      "platform-engineer",
+      "senior-infrastructure-engineering",
+      "senior-it-infrastructure-engineer",
+      "senior-infrastructure-operations-engineer",
+      "senior-infrastructure-software-engineer",
+      "senior-network-infrastructure-engineer",
+      "senior-infrastructure-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Infrastructure Engineer",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/webflow/jobs/senior-infrastructure-engineer-7316105692",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -12605,6 +13458,146 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_8068e2cda5a4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Electric Hydrogen",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:23:00+00:00",
+    "description": "Electric Hydrogen \u2019s mission is to decarbonize our world! Our outstanding people deliver creative decarbonization energy solutions to our customers. We are seeking a Quality Manager to develop our plant quality programs and lead quality execution for our European electrolysis plant projects. In this role, you will be responsible for building and managing quality systems, processes, and personnel that support successful project delivery from product development through fabrication, construction, commissioning, and customer handover. You will partner closely with Engineering, Supply Chain, Manufacturing, and Project Delivery teams to ensure the highest standards of quality, compliance, and customer satisfaction across our European projects. This role is based in Europe and reports to the VP, Product Engineering. Primary Responsibilities Lead quality activities throughout the full lifecycle of product development, procurement, fabrication, construction, and project delivery Develop and manage quality processes, procedures, and programs to support successful project execution Build, contract, and manage quality personnel and third-party inspection resources to support procurement, fabrication, and construction activities Develop Inspection and Test Plans (ITPs) and establish quality hold points throughout fabrication, manufacturing, and construction processes Provide quality leadership and oversight during project construction activities Deliver quality updates and project \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/electric-hydrogen/jobs/quality-manager-europe-6769717540",
+    "id": "opp_8068e2cda5a4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-15T19:23:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "quality-management",
+      "quality-engineering",
+      "quality-assurance",
+      "plant-quality",
+      "project-quality",
+      "quality-manager",
+      "qualit\u00e4tsmanager",
+      "senior-quality-manager",
+      "regional-quality-manager",
+      "quality-excellence-manager",
+      "qa-qc-manager",
+      "operations-quality-manager",
+      "qms-manager",
+      "quality-compliance-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Quality Manager - Europe",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/electric-hydrogen/jobs/quality-manager-europe-6769717540",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_8326b20dbe81": {
@@ -13968,6 +14961,143 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_9185f99b7876": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Anywhere Real Estate Inc.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:26:05+00:00",
+    "description": "Your Role & Accountabilities: Lead the proposal workflow, assessing requirements and allocating resources across incoming bids, requests for proposals and strategic projects. Manage selected high-profile or complex opportunities from planning through submission, maintaining clear timelines, quality standards and compliance. Provide day-to-day leadership, coaching and support to the writing team, including setting priorities, giving constructive feedback and contributing to development plans. Partner with Sales, Account Management, senior leaders and subject-matter experts to gather insight and develop tailored responses. Maintain the response database and related content, ensuring information is accurate, current, accessible and easy to reuse. Improve proposal templates, processes and governance to increase efficiency and consistency. Translate client needs into differentiated solution narratives that reflect Cartus\u2019s flexible mobility solutions and commitment to personalised support. Apply data and technology to strengthen workflows, analyse opportunities for improvement and enhance the proposal experience. Promote inclusive, respectful collaboration across internal teams and with external partners. How You Succeed: Our Entrepreneurial Principles represent how we succeed and what we believe in, they shape our culture, and enable our employees and business to continuously thrive. Always aspire to role model these. Dream Big Move Fast Learn from Reality Be Solutions Driven \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/manager-proposal-writing",
+    "id": "opp_9185f99b7876",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-15T19:26:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 58.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "proposal-writing",
+      "rfp-management",
+      "business-development",
+      "marketing-communications",
+      "project-management",
+      "proposals-manager",
+      "proposal-development-manager",
+      "proposal-manager",
+      "proposals-management",
+      "proposal-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manager Proposal Writing",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/manager-proposal-writing",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -18595,6 +19725,147 @@
       "probability_low": 51.0
     }
   },
+  "opp_c1776aa06637": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 168.27,
+    "budget_min": 139.42,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "LogicGate",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:23:29+00:00",
+    "description": "LogicGate \u00ae is the leading AI GRC platform for the Enterprise, helping governance, risk, and compliance teams limit surprises, strengthen resilience, augment program performance, and confidently quantify impact and business value. Built to provide a centralized view of risk and compliance, with AI intelligence woven into the platform's core, LogicGate delivers real-time insights and actionable data to help drive current business decisions, with the flexibility to scale alongside evolving business needs. Recognized as a Leader in the GRC Market, LogicGate continues to further solidify its position as a best-in-class platform. Excited about LogicGate but not familiar with GRC? GRC stands for Governance, Risk, and Compliance GRC professionals help their companies manage uncertainty, act with integrity, and stay on the right side of the law. The GRC market is rapidly expanding with continuous growth opportunities. The current market size was valued at $50.5 billion in 2024 and is projected to reach $104.5 billion by 2031. Strategic Account Executive Location: United States - Remote About the role Our Strategic Account Executives have a passion for pitching novel technology in big markets. You\u2019ll target large enterprises in all verticals with a focus on their GRC programs. We are disrupting the GRC software industry as a recent Forrester Wave Leader by providing a solution end users can self-manage, saving enterprises huge amounts of time and money and you\u2019ll focus on identifying \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1394.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/logicgate/jobs/strategic-account-executive",
+    "id": "opp_c1776aa06637",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:23:31+00:00",
+    "profit_score": 90.1,
+    "risk_flags": [],
+    "score": 64.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.6,
+          "evidence": "Estimated net $1,394 on $1,394 (100% margin). $294 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $465 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: automation. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 64.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "automation",
+      "analytics",
+      "strategic-account-executive",
+      "enterprise-sales",
+      "b2b-saas-sales",
+      "account-management",
+      "saas-sales",
+      "grc-sales",
+      "software-sales",
+      "strategic-accounts-executive",
+      "senior-strategic-account-executive",
+      "strategic-enterprise-account-executive",
+      "strategic-account-leader",
+      "strategic-partner-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Strategic Account Executive",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/logicgate/jobs/strategic-account-executive",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c1bbc3b8edbd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -21085,6 +22356,148 @@
       "probability_low": 4.0
     }
   },
+  "opp_d95f348c5754": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Mindrift",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T19:25:01+00:00",
+    "description": "Mindrift is looking for a versatile, highly skilled Graphic Designer with strong experience in logo design and visual identity to join the Tendem project (** and create high-quality visual assets for real-world use cases. In this role, you'll apply your expertise in logo design, branding, visual communication, typography, and layout to transform ideas into professional, polished creative assets. This part-time remote opportunity is ideal for creative professionals with hands-on experience in visual communications, layout design, and creating diverse marketing materials. What We Do The Mindrift platform connects specialists with innovative technology projects. Our mission is to help develop high-quality AI technologies by combining real-world expertise from professionals across the globe with advanced AI development efforts. About the Role This is a freelance role for a Tendem project. As a Graphic Designer, you'll work across a variety of visual design tasks, with a particular focus on logo design, brand identity, and visual concept development. You may also work on layouts, infographics, social media templates, one-pagers, and other marketing and communication assets. We are looking for a versatile designer who can translate ideas and brand concepts into clear, distinctive visual solutions while maintaining a high level of craft and consistency across different formats. Key Responsibilities Design distinctive, professional logos and visual identity concepts based on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-480517051",
+    "id": "opp_d95f348c5754",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:25:03+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 39.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "graphic-design",
+      "visual-design",
+      "freelance-design",
+      "digital-design",
+      "creative-and-design",
+      "branding",
+      "logo-design",
+      "freelance-graphic-designer",
+      "freelance-graphic-design",
+      "freelance-designer",
+      "freelance-creative-design",
+      "freelance-brand-designer",
+      "freelance-creative",
+      "graphic-designer",
+      "creative-freelancer",
+      "design"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance Graphic Designer",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-480517051",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_da29151dfb0e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -22316,6 +23729,154 @@
     "title": "AI Agent Power User",
     "updated_at": "2026-09-12T20:17:51+00:00",
     "url": "https://himalayas.app/companies/micro1/jobs/ai-agent-power-user-558497885",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_e5a97142cfec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.48,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Ciellos",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T20:57:33+00:00",
+    "currency": "EUR",
+    "deadline": "2026-11-14T19:24:17+00:00",
+    "description": "About Ciellos Ciellos is a Microsoft Dynamics 365 technology consulting powerhouse. We are a Solutions Designated Partner in AI Business Solutions and a certified Microsoft ISV Development Center. Our expertise covers a broad range of Microsoft technologies, such as Microsoft Dynamics 365 Business Central, Finance and Supply Chain Management and Customer Engagement, in addition to Power Platform, Azure, AI, Copilot and more. Ciellos has a proven partner centric business model that supports technical excellence, global project delivery, and repeatable methodology. Our deep experience comes from over 25 years of working with Microsoft partners and technologies. At Ciellos , we want to attract and retain the best and brightest to support our mission of excellence within our mission Everything Microsoft Dynamics . Ciellos operates globally with regional locations in Albania, Brazil, Canada, Denmark, Macedonia, Portugal, Ukraine, and the USA, as well as supporting remote employees from other locations. You will be working with recent technologies in a strong team of professionals. Position Overview We are looking for a commercially driven and relationship focused Strategic Business Development Manager to join our Professional Services team in EMEA. In this role, you will be responsible for developing new business opportunities and expanding relationships with Microsoft partners across Europe. You will work closely with partners to understand their business challenges, identify \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T205731Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ciellos/jobs/strategic-business-development-manager-professional-services",
+    "id": "opp_e5a97142cfec",
+    "is_demo": false,
+    "match_score": 45.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T19:24:18+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 50.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 16.6,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 67% of the 3 skills this listing names (missing: azure)."
+        }
+      },
+      "final_score": 50.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"working with microsoft partners\"; \"technologies\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 50.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "azure",
+      "forecasting",
+      "business-development",
+      "sales-and-marketing",
+      "strategic-sales",
+      "professional-services-sales",
+      "enterprise-software-sales",
+      "strategic-business-development-manager",
+      "business-development-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Strategic Business Development Manager (Professional Services)",
+    "updated_at": "2026-09-15T20:57:33+00:00",
+    "url": "https://himalayas.app/companies/ciellos/jobs/strategic-business-development-manager-professional-services",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
