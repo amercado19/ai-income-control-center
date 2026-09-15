@@ -4685,6 +4685,147 @@
       "probability_low": 0.0
     }
   },
+  "opp_335dad15874d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.87,
+    "budget_min": 42.16,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Centene Corporation",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:32:38+00:00",
+    "description": "This is a remote position and can be located anywhere in the US. Position Purpose: Promote increased program efficiency, service levels, and value by capturing and monitoring performance, and then identifying opportunities for improvement and strategies to realize those opportunities. Plan, organize, monitor, oversee and lead multiple, concurrent resultant projects utilizing cross functional teams to deliver defined requirements and meet company strategic objectives. Key Details: Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J -1, OPT, or CPT. Identify opportunities to increase efficiency, improve service levels and to ensure regulatory compliance through enhanced operations Develop strategies to realize improvement opportunities, and ensure organizational prioritization and resource alignment Manage multiple projects through full project life cycle process including requirements gathering, creation of project plans and schedules, obtaining and managing resources, managing budget, and facilitating project execution, deployment and closure Utilize corporate and industry standard project management tools and techniques to effectively manage projects Maintain detailed project documentation as needed including action items, issues lists and risk mitigation plans Provide \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 316.2,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/centene-corporation/jobs/program-manager-iii",
+    "id": "opp_335dad15874d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:32:39+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 40.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $316 on $316 (100% margin). $67 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $84 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "project-management",
+      "healthcare-program-management",
+      "strategic-program-manager",
+      "program-manager",
+      "project-program-manager",
+      "program-and-project-manager",
+      "senior-programs-manager",
+      "program-operations-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Program Manager III",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/centene-corporation/jobs/program-manager-iii",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_3477e01d9d2d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11852,6 +11993,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_8c8990a9ce5e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Centene Corporation",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:40:25+00:00",
+    "description": "Position Purpose: Observe preceptors and participate in various projects to learn and develop skills related to the Managed Care industry. Develop clinical knowledge and skills by learning about various processes and functions within the Managed Care industry Observe processes and shadow preceptors to gain hands on experience and become familiar with various clinical services Follow instructions and procedures provided by preceptor or manager in accordance with company guidelines Education/Experience: Current enrollment in an accredited clinical program. Candidates must be receiving course credit for participating in the Externship program. At Centene, we connect people to the care they need to live healthier lives \u2014 and the work you do here makes that impact real every day. You\u2019ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It\u2019s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/centene-corporation/jobs/clinical-extern-5757176113",
+    "id": "opp_8c8990a9ce5e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:40:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "clinical-extern",
+      "healthcare-externship",
+      "clinical-rotations",
+      "managed-care",
+      "healthcare-administration",
+      "clinical-education",
+      "healthcare-training",
+      "clinical-externship",
+      "externship",
+      "clinical-internship",
+      "clinical-intern",
+      "entry-level-clinical-internship"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Extern",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/centene-corporation/jobs/clinical-extern-5757176113",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8ca700fd991b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -15230,6 +15509,151 @@
       "probability_low": 4.0
     }
   },
+  "opp_b0dd4cda4c0e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Compass Group USA",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:41:00+00:00",
+    "description": "We are hiring immediately for a Director, Finance - Remote - East Coastposition. Location : Note: online applications accepted only. Schedule : Requirement : *Internal Employee Referral Bonus Available Pay Range : [[cust_StartingPayRate]] per hour to [[cust_MaxPayRate]] per hour We Make Applying Easy! Want to apply to this job via text messaging? Text JOB to 75000 and search requisition ID number 1566098. The advertised program is a conversational recruiting assistant that helps you apply to jobs with Compass Group. Message frequency varies. Message and data rates may apply. Text STOP to opt out or HELP for help. Terms and conditions: Application Deadline: applications are accepted ongoing until all openings are filled for this position. If an applicant is declined due to the position being filled, they may still be considered for future opportunities and are always welcome to reapply. Diversity of thought and inclusion for all is what drives our success - we invite you to start your journey with us today! Eurest is recognized worldwide for standards of service and excellence within the foodservice industry. Embracing an ownership mindset, Eurest leverages global resources, promotes a local presence and enriches the communities we serve. The Eurest Promise, \u201cconnect with people, inspire through food, create solutions, and live our promise,\u201d is exemplified throughout our organization. Eurest is proud to serve the world\u2019s most respected successful corporations, including many \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/compass-group-usa/jobs/director-finance-remote-east-coast-chesterbrook-pa-us-19087-5564",
+    "id": "opp_b0dd4cda4c0e",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:41:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 32.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 32.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 44.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "director-of-finance",
+      "financial-planning-and-analysis",
+      "financial-management",
+      "corporate-finance",
+      "financial-controller",
+      "remote-commercial-finance-director",
+      "global-director-of-finance",
+      "senior-director-of-finance",
+      "finance"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DIRECTOR, FINANCE - REMOTE - EAST COAST (Chesterbrook, PA, US, 19087-5564)",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/compass-group-usa/jobs/director-finance-remote-east-coast-chesterbrook-pa-us-19087-5564",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b10d2ac568f9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -16561,6 +16985,149 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_c38f5a5ad24c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105,
+    "budget_min": 105,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:40:13+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Junior Investment Analyst (Buy-Side) Type: Contract Compensation: $105/hour Location: Remote Commitment: 10\u201320 hours/week Role Responsibilities Conduct equity and macroeconomic research across sectors to support AI model training . Build and interpret financial models ( DCF , comps, scenario analysis) to enhance AI reasoning . Analyze earnings reports, filings, and market data for improved model outputs . Assist in generating investment theses and risk assessments to refine AI-generated outputs . Evaluate AI-generated outputs for financial accuracy and reasoning quality. Collaborate with senior experts to refine model outputs and datasets. Qualifications Must-Have 1\u20133 years of experience in investment banking, equity research, or buy-side roles. Strong understanding of financial statements and valuation techniques. Proficiency in Excel ; familiarity with financial modeling. Clear written and verbal communication skills. High attention to detail and analytical rigor. Preferred CFA Level I/II candidate. Exposure to public equities or asset management. Experience with data analysis tools ( Python , SQL ). Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 295.05,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/junior-investment-analyst-remote-570502197",
+    "id": "opp_c38f5a5ad24c",
+    "is_demo": false,
+    "match_score": 46.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:40:14+00:00",
+    "profit_score": 73.8,
+    "risk_flags": [],
+    "score": 64.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.6,
+          "evidence": "Estimated net $295 on $295 (100% margin). $324 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $1,054 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.0,
+          "evidence": "Matched 4 profile skills: excel, financial modeling, python, sql. Covers 100% of the 4 skills this listing names."
+        }
+      },
+      "final_score": 64.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"investment banking\"; \"equity research\"; \"or buy-side roles\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 64.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "financial modeling",
+      "investment-analysis",
+      "equity-research",
+      "buy-side-analyst",
+      "financial-modeling",
+      "investment-banking",
+      "remote-junior-financial-analyst",
+      "investment-analyst",
+      "finance"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Junior Investment Analyst - Remote",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/junior-investment-analyst-remote-570502197",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_c466343dc2ea": {
@@ -19072,6 +19639,156 @@
       "probability_low": 15.0
     }
   },
+  "opp_e135f6a339d4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 8,
+    "budget_min": 8,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Toloka AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:44:34+00:00",
+    "description": "Please submit your resume in English and indicate your level of English proficiency. Mindrift connects specialists with project-based AI opportunities for leading tech companies, focused on testing, evaluating, and improving AI systems. Participation is project-based, not permanent employment. What this opportunity involves Annotation is what helps AI make sense of the world. As an annotator, you may be invited to take part in online projects such as rating AI-generated content, evaluating factual accuracy, or comparing responses \u2014 when projects are available. While each project involves unique tasks, contributors may: Carefully review provided data (text, images, or videos); Label or classify content based on project guidelines; Identify and flag factually incorrect, sensitive, inappropriate, or unclear material. What we look for This opportunity is a good fit for candidates open to part-time, non-permanent projects. Ideally, contributors will have: Bachelor\u2019s degree in any discipline; Minimum 1 year of experience in any professional role; Logical thinking, fact-checking and reasoning abilities; Strong attention to detail and ability to understand and follow complex instructions; Strong communication skills, including the ability to ask clarifying questions when needed; Genuine interest in technology and artificial intelligence; Strong written and spoken English (C1+). How it works Apply \u2192 Pass qualification(s) \u2192 Join a project (when available) \u2192 Complete tasks \u2192 Get paid \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 60.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/toloka-ai/jobs/ai-trainer-freelance-data-annotator-2390591391",
+    "id": "opp_e135f6a339d4",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:44:35+00:00",
+    "profit_score": 15.2,
+    "risk_flags": [],
+    "score": 33.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.8,
+          "evidence": "Estimated net $60 on $60 (100% margin). $13 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $16 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "annotator",
+      "data-annotation",
+      "ai-training",
+      "content-moderation",
+      "freelance-data-entry",
+      "freelance-ai-data-trainer",
+      "ai-data-annotation-trainer",
+      "freelance-ai-trainer",
+      "freelance-data-annotator",
+      "freelance-data-annotation-specialist",
+      "freelance-ai-model-trainer",
+      "ai-training-freelance",
+      "freelance-ai-annotator",
+      "freelance-ai-training-specialist",
+      "ai-training-data-annotator",
+      "data-annotator",
+      "ai-trainer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Trainer - Freelance Data Annotator",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/toloka-ai/jobs/ai-trainer-freelance-data-annotator-2390591391",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_e49b36d2a9b9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19480,6 +20197,139 @@
       "probability_low": 60.0
     }
   },
+  "opp_e8315df8edab": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 6,
+    "budget_min": 6,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Toloka AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:41:29+00:00",
+    "description": "Gana dinero grabando actividades de tu vida diaria Buscamos personas para grabar actividades cotidianas desde una perspectiva en primera persona utilizando una aplicaci\u00f3n m\u00f3vil. Puedes grabar tareas que ya realizas normalmente, como: Cocinar \u2022 Limpiar \u2022 Doblar ropa Ordenar espacios \u2022 Hacer jardiner\u00eda \u2022 Pasear al perro Los videos ayudan a entrenar sistemas de IA y rob\u00f3tica para comprender c\u00f3mo las personas interact\u00faan con el mundo real. Lo que ofrecemos: Horarios flexibles \u2022 Trabajo remoto por proyecto USD $6 por hora de contenido aprobado \u2022 Bono adicional por la primera hora aprobada Requisitos: iPhone 12 o superior, Google Pixel 6+ o Samsung Galaxy S21+ o superior \u2022 Acceso a internet Nivel b\u00e1sico de ingl\u00e9s para registrarte y utilizar la plataforma No se requiere experiencia previa. Originally posted on Himalayas",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 45.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/toloka-ai/jobs/freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-869131468",
+    "id": "opp_e8315df8edab",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:41:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $45 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "ai-training-data-collection",
+      "video-data-collection",
+      "crowdsourcing",
+      "gig-work",
+      "annotator",
+      "ai-data-collection",
+      "data-annotation",
+      "freelance-recording"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance: grabaci\u00f3n de tareas cotidianas para proyecto de IA",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/toloka-ai/jobs/freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-869131468",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e8a5a7c8aacd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19587,6 +20437,144 @@
     "title": "Senior Product Manager, Growth (10-to-100)",
     "updated_at": "2026-09-12T10:15:58+00:00",
     "url": "https://himalayas.app/companies/jerry/jobs/senior-product-manager-growth-10-to-100",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_ea5d4aaaac29": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 62.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "AbsenceSoft, LLC",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T03:52:27+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T01:33:49+00:00",
+    "description": "At AbsenceSoft, we\u2019re transforming the employee experience. Our secure, intuitive technology helps employers bring humanity, certainty, and efficiency to some of the most complex moments in the workplace. Built by HR professionals for HR professionals, we\u2019re proud of where we\u2019ve been and even more excited about where we\u2019re going. AbsenceSoft University is our growing education platform for customers, partners, and employees, and we're looking for a Senior Director, Customer Education who's ready to get hands-on. This role sets the direction for AbsenceSoft's training and certification programs while directly contributing to the content itself. Reporting to the Chief Customer Officer and leading a small, growing team, it blends strategic direction with individual contribution \u2014 a great fit for a leader who wants to stay closely involved in the work rather than operate purely at the strategy level. WHAT YOU'LL DO Set the strategy and content roadmap for AbsenceSoft University, building the calendar that turns priorities into fully developed courses and certifications. Own the certification program end-to-end \u2014 exam design and content, renewal tracking, and the roadmap for new credentials \u2014 serving as final reviewer for all compliance-sensitive training material. Hire, coach, and manage a small team, holding everyone \u2014 including yourself \u2014 to a high bar for performance and accountability. Collaborate with the internal compliance team to ensure course content reflects current \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T035225Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 468.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/absencesoft-llc/jobs/senior-director-customer-education",
+    "id": "opp_ea5d4aaaac29",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T01:33:50+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 66.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $469 on $469 (100% margin). $100 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $125 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 66.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-education",
+      "learning-and-development",
+      "education-program-management",
+      "professional-development",
+      "director-of-customer-education",
+      "senior-education-program-director"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Senior Director, Customer Education",
+    "updated_at": "2026-09-15T03:52:27+00:00",
+    "url": "https://himalayas.app/companies/absencesoft-llc/jobs/senior-director-customer-education",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
