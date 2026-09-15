@@ -6665,6 +6665,152 @@
       "probability_low": 56.0
     }
   },
+  "opp_45279761a2ec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 31.25,
+    "budget_min": 31.25,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "24x7 Direct",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "PHP",
+    "deadline": "2026-11-14T08:44:11+00:00",
+    "description": "This is a remote position. We are seeking a skilled Azure AI & .NET Developer with strong experience in Microsoft Azure and .NET. The ideal candidate will be confident working across cloud development, DevOps, AI technologies, coding, databases, and Azure infrastructure. Responsibilities: Manage and administer Microsoft Azure services, subscriptions, and resources. Support Azure DevOps environments, including administration and development workflows. Develop, compile, debug, and maintain applications using C# and .NET. Use Visual Studio, GitHub, GitHub Copilot, and Microsoft Copilot to support software development. Utilise Azure AI Foundry and other AI/LLM technologies to develop and support AI-driven solutions. Manage and work with Azure SQL Server, Azure Container Registry, App Services, and Resource Groups. Analyse business requirements and interpret solution architecture to support effective technical solutions. Identify, investigate, and resolve complex IT and commercial issues. Work closely with stakeholders to understand business needs and translate them into practical technology solutions. Apply strong business and commercial understanding when assessing technical solutions and recommendations. Requirements Must have demonstrable proficiencies in the following Microsoft (centric) tools: AZ suite and subscription experience, AZ DevOps knowledge and administration experience, AZ AI Foundry proficiency, Abject AI skills across other LLM\u2019s, Visual Studio (.NET), Agency \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 234.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/24x7-direct/jobs/azure-ai-net-developer-7407145222",
+    "id": "opp_45279761a2ec",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T08:44:12+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 43.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $234 on $234 (100% margin). $50 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $62 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: sql."
+        }
+      },
+      "final_score": 43.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"demonstrable proficiencies in the following microsoft (centric) tools:\"; \"subscription experience\"; \"az devops knowledge\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 43.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "azure",
+      "azure-developer",
+      "cloud-development",
+      "software-engineer",
+      "ai-development",
+      ".net-development",
+      "azure-ai-developer",
+      "azure-.net-developer",
+      "azure-ai-specialist",
+      "azure-ai-engineer",
+      "microsoft-ai-developer",
+      "azure-ai-development",
+      ".net-developer",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Azure AI & .NET Developer",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/24x7-direct/jobs/azure-ai-net-developer-7407145222",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_45f98fa98228": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12821,6 +12967,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_932d284a99e8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Mindrift",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T08:51:27+00:00",
+    "description": "Mindrift is looking for a versatile, highly skilled Graphic Designer with strong experience in logo design and visual identity to join the Tendem project (** and create high-quality visual assets for real-world use cases. In this role, you'll apply your expertise in logo design, branding, visual communication, typography, and layout to transform ideas into professional, polished creative assets. This part-time remote opportunity is ideal for creative professionals with hands-on experience in visual communications, layout design, and creating diverse marketing materials. What We Do The Mindrift platform connects specialists with innovative technology projects. Our mission is to help develop high-quality AI technologies by combining real-world expertise from professionals across the globe with advanced AI development efforts. About the Role This is a freelance role for a Tendem project. As a Graphic Designer, you'll work across a variety of visual design tasks, with a particular focus on logo design, brand identity, and visual concept development. You may also work on layouts, infographics, social media templates, one-pagers, and other marketing and communication assets. We are looking for a versatile designer who can translate ideas and brand concepts into clear, distinctive visual solutions while maintaining a high level of craft and consistency across different formats. Key Responsibilities Design distinctive, professional logos and visual identity concepts based on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-1567528073",
+    "id": "opp_932d284a99e8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T08:51:28+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 34.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "graphic-design",
+      "visual-design",
+      "freelance-design",
+      "creative-and-design",
+      "brand-identity-design",
+      "freelance-graphic-designer",
+      "freelance-graphic-design",
+      "freelance-designer",
+      "freelance-creative-design",
+      "freelance-brand-designer",
+      "graphic-designer",
+      "design"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance Graphic Designer",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-1567528073",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_966d2d73b4d7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -13654,6 +13938,144 @@
           "from": "20%",
           "to": "26%",
           "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_9c1f29bfb377": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Parallel",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T08:36:15+00:00",
+    "description": "Are you passionate about supporting children with learning differences? Parallel is seeking an experienced School Psychologist to deliver outstanding psychological services and comprehensive psycho-educational evaluations to students nationwide. Join our mission-driven team dedicated to equipping families and students with the essential tools for success. What You\u2019ll Do Conduct comprehensive psycho-educational evaluations, assessing students\u2019 academic, cognitive, social, emotional, and behavioral functioning to identify needs and inform intervention planning. Provide direct and indirect psychological services (e.g., intervention, counseling, consultation) to support students with Individualized Education Programs (IEPs). Contribute to the development, implementation, and monitoring of IEP goals specifically targeting social, emotional, and behavioral growth. Collaborate as a vital and integral member of multidisciplinary teams throughout the evaluation and service delivery process. What You\u2019ll Need Clinical & Professional Qualifications An EdS degree (or equivalent) in school psychology from a NASP-approved program. For North Carolina candidates: Due to state regulations for third-party vendors, a PhD or Psy.D in school psychology is required, in addition to the standard DPI license. A valid state license or certificate as a school psychologist. NCSP preferred but not required. At least 1 year of experience practicing full time as an on-site school psychologist (excluding \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parallellearning/jobs/phd-or-psy-d-school-psychologist-north-carolina-26-27-school-year-8104186461",
+    "id": "opp_9c1f29bfb377",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T08:36:16+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "school-psychology",
+      "school-psychologist",
+      "clinical-psychology",
+      "psychoeducational-assessment",
+      "special-education",
+      "pps-school-psychology"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "PhD or Psy.D School Psychologist - North Carolina (26-27 School Year)",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/parallellearning/jobs/phd-or-psy-d-school-psychologist-north-carolina-26-27-school-year-8104186461",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         },
         {
           "effect": "-10%",
@@ -14934,6 +15356,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ab94b7b5d0dc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "ImagineArt",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T08:37:59+00:00",
+    "description": "GTM Enterprise Department: Go-To-Market (GTM) Location: Remote Employment Type: Full-Time About ImagineArt We're redefining how the world creates and designs. ImagineArt is one of the fastest-growing GenAI companies in the world. We've scaled faster than most funded startups \u2014 with zero outside funding. $35M+ ARR crossed this year 100M+ social impressions Built and shipped our own image generation model, now ranked #3 globally for photo realism No funding. No shortcuts. Just a sharp, driven team building one of the strongest GenAI products in the world \u2014 and we're just getting started. We're now expanding our commercial presence in San Francisco and looking for someone who can help us build and scale our Enterprise and B2B motion from the ground up. About the Role We're hiring a GTM Enterprise professional to help build and scale ImagineArt 's Enterprise revenue engine. You'll work directly with prospects and customers to understand creative workflows, run discovery sessions, deliver product demonstrations, design pilots, close commercial agreements, and turn customer experimentation into repeatable revenue. This is a high-ownership, customer-facing role ideal for someone who enjoys working with creative and marketing teams, understands SaaS buying processes, and wants to help define how a category-leading AI company scales commercially. What You'll Do Build the Enterprise & B2B Motion Own the full GTM lifecycle from prospecting and outreach to discovery, demos, pilots, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/imagineart/jobs/enterprise-account-executive-ai-3768475898",
+    "id": "opp_ab94b7b5d0dc",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T08:37:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 48.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 48.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "enterprise-account-executive",
+      "enterprise-sales-account-executive",
+      "ai-account-executive",
+      "senior-enterprise-account-executive-ai-security",
+      "senior-enterprise-account-executive",
+      "strategic-enterprise-account-executive",
+      "large-enterprise-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Enterprise Account Executive (AI)",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/imagineart/jobs/enterprise-account-executive-ai-3768475898",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_ac3e0b40a0d0": {
@@ -17273,6 +17830,136 @@
       "probability_low": 4.0
     }
   },
+  "opp_c56ae85bede3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Huzzle",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Colombia About Huzzle At Huzzle, we connect high-performing B2B sales professionals with global companies across the UK, US, Canada, Europe, and Australia. Our clients include startups, digital agencies, and tech platforms in industries like SaaS, MarTech, FinTech, and EdTech. We match top sales talent to full-time remote roles where they\u2019re hired directly into client teams and provided ongoing support by Huzzle. Role Type: Full-time Engagement: Independent Contractor Job Summary We are seeking a Remote AI Backend / Full-Stack Engineer with strong Python and modern web development experience to help build and scale an AI-powered travel planning platform. You will work closely with the product and engineering teams to develop backend services, build APIs, and contribute to frontend features. This role requires a developer who can write clean, scalable code, collaborate through GitHub pull requests, and contribute to sprint planning in an agile environment . The ideal candidate is comfortable working in a startup environment , takes ownership of deliverables, and is passionate about building high-quality AI-driven applications. Key Responsibilities Develop and maintain backend services using Python and FastAPI Build and optimize APIs that power AI-driven travel planning features Collaborate with engineers through high-quality GitHub pull requests and code reviews Contribute to sprint planning and agile development cycles Work on frontend components using React \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai-1",
+    "id": "opp_c56ae85bede3",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "Tue, 18 Aug 2026 20:34:11 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: python. Covers 20% of the 5 skills this listing names (missing: api, aws, fastapi, react)."
+        }
+      },
+      "final_score": 46.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "fastapi",
+      "aws",
+      "react"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Huzzle: Full-Stack Developer (Python, React, AI)",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai-1",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "30%",
+          "to": "15%",
+          "why": "About 28 days old; likely filled or abandoned."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "15%",
+          "to": "5%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 18.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_c5c09a4ced9f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18542,6 +19229,149 @@
       "probability_low": 15.0
     }
   },
+  "opp_cddf14c69bac": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 86.2,
+    "budget_min": 58.65,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Autodesk",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "CAD",
+    "deadline": "2026-11-14T09:01:40+00:00",
+    "description": "Job Requisition ID # 26WD98600 French posting follows Senior Product Manager, Media & Entertainment AI Platform Position Overview At Autodesk , we help our customers design and make anything. Within Autodesk Interactive Graphics, Media & Entertainment, that mission comes to life through products that helpfilm, games, and animationteamstell amazing stories, buildincredible worlds, andcoordinate complex work acrossproductionpipelines. As Senior Product Manager, you will work on Autodesk \u2019s next-generation AInativeplatformin Media & Entertainment,\u201cFlow,\u201dandwill play a key role in defining and delivering an AI-first application experience that transforms how creatives and productionteamswork. Autodesk \u2019s Flowplatform acts as thegluethat connects disciplines andeliminatestool fragmentation by bringing data, tasks, communication, and creative assets into a unified, context-aware workspace. It shifts the paradigm from tool-centric workflows to outcome-oriented creation: users describe their goals in natural language, and the system intelligently orchestrates tools, agents, and workflows across Autodesk and non- Autodesk environments to deliver results. Reporting to the Director of ProductManagement, you will help shape the strategic direction and roadmap forAIassistedexperiencesonFlow. You will translate deep customer insights into clear priorities, drive cross-functional execution, and deliver measurable impact through adoption, productivity gains, and new creative capabilities. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 422.28,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/autodesk/jobs/senior-product-manager-media-entertainment-ai-platform-6957992717",
+    "id": "opp_cddf14c69bac",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-15T09:01:43+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 71.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $422 on $422 (100% margin). $147 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $293 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, reporting."
+        }
+      },
+      "final_score": 71.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "senior-product-management",
+      "ai-product-management",
+      "media-product-management",
+      "saas-product-management",
+      "product-management",
+      "senior-product-manager-ai-platform",
+      "senior-ai-product-manager",
+      "senior-ai-product-management",
+      "ai-platform-product-manager"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Senior Product Manager, Media & Entertainment AI Platform",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/autodesk/jobs/senior-product-manager-media-entertainment-ai-platform-6957992717",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_d58eb2beae65": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19198,6 +20028,150 @@
     "title": "Strategic Business Development Executive",
     "updated_at": "2026-09-13T11:16:25+00:00",
     "url": "https://himalayas.app/companies/kldiscovery/jobs/strategic-business-development-executive",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_dcbfe5e2165b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "CrucialLogics",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T08:20:21+00:00",
+    "description": "About CrucialLogics Inc. We secure your business using native Microsoft technologies you already own. We apply our Consulting with a Conscience TM approach in our security philosophy. Security should be simple, easy to manage and scalable Security does not require a large investment in various point solutions Security is easily achieved by properly configuring technologies you already are paying for Reduce your attack footprint by reducing overall infrastructure You will never stop bad actors from targeting you. The goal in security is to put defences in place to detect the attempt before the breach. Principal Consultant- Azure, IAM & Endpoint Solutions Remote, Global locations welcome (North American business hours required) Job Summary: The Principal Consultant will lead the architecture, deployment, and optimization of Microsoft security and endpoint management solutions, with deep specialization in Microsoft Active Directory on-premise/Entra ID , Microsoft Defender XDR , Microsoft Intune, and Azure Infrastructure . This role blends advanced technicalexpertise, advisory leadership, and presales engagement to deliver secure, scalable, and modern security operations for enterprise clients. Key Responsibilities: Presales & Client Engagement Support presales through clientarchitectureworkshops, solution demonstrations, scoping sessions, and proposal development. Translate business requirements into modern security architectures that drive measurable outcomes. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cruciallogics/jobs/principal-consultant-azure-iam-endpoint-solutions-3532158151",
+    "id": "opp_dcbfe5e2165b",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-15T08:20:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 19 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 50% of the 4 skills this listing names (missing: analytics, azure)."
+        }
+      },
+      "final_score": 52.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "azure",
+      "automation",
+      "analytics",
+      "cloud-security",
+      "iam",
+      "cybersecurity-consultant",
+      "endpoint-management",
+      "security-operations",
+      "microsoft-azure-consultant",
+      "azure-consultant",
+      "senior-principal-consultant",
+      "microsoft-azure-solutions-architect",
+      "azure-solutions-architect",
+      "principal-solution-consultant",
+      "senior-identity-management-consultant",
+      "azure-cloud-solutions-architect",
+      "professional-services-principal-consultant",
+      "azure-solution-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Consultant \u2013 Azure, IAM & Endpoint Solutions",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/cruciallogics/jobs/principal-consultant-azure-iam-endpoint-solutions-3532158151",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -20888,6 +21862,133 @@
       "probability_low": 4.0
     }
   },
+  "opp_ed784d2fdd25": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Performyard",
+    "competition_score": 45.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Arlington, Virginia, United States PerformYard is a profitable, growth-stage B2B SaaS company transforming how organizations manage and measure employee performance. Our AI-enabled platform is widely adopted for its customizable performance processes, ease of use, and measurable business impact. As we scale, PerformYard has significant opportunities to accelerate growth by creating AI-native workflows, expanding into adjacent talent modules, and modernizing our user experience. We are seeking a customer-obsessed, strategically minded Vice President of Product to translate PerformYard's AI-native vision into validated, high-impact product experiences. By delivering AI-native innovation, modernizing the user experience to accelerate adoption, and expanding monetization pathways, this leader will directly impact ARR growth and long-term market leadership. Reporting directly to the CTO and partnering closely with the executive team, the VP of Product will build and scale a high-performing product organization, drive a culture of data-informed decision making, and ensure product investments translate into tangible business outcomes. With a mandate to accelerate innovation and unlock durable competitive advantages, this leader will be central to PerformYard\u2019s next phase of growth. This is a 100% Remote Position - now & forever What You\u2019ll Do: Product Strategy & Vision Own and evolve the long-term product vision, embedding AI-native innovation into the core platform \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/performyard-vp-of-product",
+    "id": "opp_ed784d2fdd25",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "Tue, 18 Aug 2026 20:34:05 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 53.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Performyard: VP of Product",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/performyard-vp-of-product",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "30%",
+          "to": "15%",
+          "why": "About 28 days old; likely filled or abandoned."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "15%",
+          "to": "5%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 18.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_eed9eaeeb59a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -21900,6 +23001,148 @@
       ],
       "probability_high": 32.0,
       "probability_low": 8.0
+    }
+  },
+  "opp_f8d9d473860a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ciellos",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-15T11:18:06+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-14T08:08:35+00:00",
+    "description": "About Ciellos Ciellos is a Microsoft Dynamics 365 technology consulting powerhouse. We are a Solutions Designated Partner in AI Business Solutions and a certified Microsoft ISV Development Center. Our expertise covers a broad range of Microsoft technologies, such as Microsoft Dynamics 365 Business Central, Finance and Supply Chain Management and Customer Engagement, in addition to Power Platform, Azure, AI, Copilot and more. Ciellos has a proven partner centric business model that supports technical excellence, global project delivery, and repeatable methodology. Our deep experience comes from over 25 years of working with Microsoft partners and technologies. At Ciellos , we want to attract and retain the best and brightest to support our mission of excellence within our mission Everything Microsoft Dynamics . Ciellos operates globally with regional locations in Albania, Brazil, Canada, Denmark, Macedonia, Portugal, Ukraine, and the USA, as well as supporting remote employees from other locations. You will be working with recent technologies in a strong team of professionals. What makes us successful, is our teaming approach, application of Solution Architects to overall project governance, and a deep seeded passion for solution excellence, quality, and continuous improvement. All Microsoft Professionals are welcome to apply and join Ciellos We are looking for strong Microsoft Dynamics Professionals that match our technology footprint and/or desire to strengthen their \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260915T111803Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ciellos/jobs/join-ciellos-team-anywhere-apply-now",
+    "id": "opp_f8d9d473860a",
+    "is_demo": false,
+    "match_score": 34.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-15T08:08:38+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.4,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 50% of the 4 skills this listing names (missing: azure, power bi)."
+        }
+      },
+      "final_score": 43.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"working with microsoft partners\"; \"technologies\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 43.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "azure",
+      "automation",
+      "power bi",
+      "microsoft-dynamics-365-consultant",
+      "microsoft-dynamics-365-finance-and-supply-chain",
+      "dynamics-365-business-central-specialist",
+      "power-platform-developer",
+      "erp-consulting",
+      "business-operations",
+      "professional-services-consulting"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Join Ciellos team anywhere - Apply now!",
+    "updated_at": "2026-09-15T11:18:06+00:00",
+    "url": "https://himalayas.app/companies/ciellos/jobs/join-ciellos-team-anywhere-apply-now",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f93cab8fc2cb": {
