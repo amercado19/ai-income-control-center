@@ -3289,6 +3289,144 @@
       "probability_low": 4.0
     }
   },
+  "opp_1e22aec2ee58": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 64.9,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Alteryx",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:40:16+00:00",
+    "description": "Meet the Moment with Alteryx We're living through a once-in-a-generation shift in how work gets done. Data, automation, and AI are quickly becoming the center of every business decision - and Alteryx is leading the transformation. You'll be working on the challenges that sit at the heart of modern business. No matter your role, the work you do will help organizations move faster, see more clearly, and tackle questions that used to feel impossible. If you're ready to meet the moment with innovation, curiosity, and excellence, there's a place for you here. This role is for a program/project manager who is genuinely fluent in how B2B marketing, sales, and revenue operations work together \u2014 someone who can sit in a room with Sales, RevOps, SDR, and Marketing leaders, understand the funnel and pipeline mechanics they're each accountable for, and drive the cross-functional discipline needed to close gaps between them. This is not a generalist project-management role: it requires real operating fluency in GTM motions, not just process facilitation. Initially about one-third to one-half of this role's time will be dedicated to serving as the dedicated program/project manager for Alteryx 's cross-functional Pipeline Health & Growth concentration, in close partnership with the SVP of Demand Generation. Over time, this role will also take on new projects/programs as needed and will be expected to help Marketing build a more consistent framework for managing priorities and work \u2014 \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 749.97,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/alteryx/jobs/sr-program-manager-pipeline-marketing-operations",
+    "id": "opp_1e22aec2ee58",
+    "is_demo": false,
+    "match_score": 88.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:40:18+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 78.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $750 on $750 (100% margin). $122 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $192 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 32.6,
+          "evidence": "Matched 5 profile skills: automation, dashboard, excel, forecasting, sql. Covers 62% of the 8 skills this listing names (missing: power bi, rest, tableau)."
+        }
+      },
+      "final_score": 78.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 78.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "rest",
+      "automation",
+      "dashboard",
+      "tableau",
+      "power bi",
+      "forecasting",
+      "marketing-operations",
+      "revenue-operations",
+      "pipeline-management",
+      "gtm-strategy",
+      "senior-marketing-operations-lead",
+      "pipeline-programs-manager",
+      "sr-marketing-campaign-manager",
+      "marketing-programs-manager",
+      "senior-marketing-operations",
+      "senior-manager-of-marketing-operations",
+      "sales-program-manager",
+      "program-manager"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Sr. Program Manager \u2014 Pipeline & Marketing Operations",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/alteryx/jobs/sr-program-manager-pipeline-marketing-operations",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_1eebebc2559b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -4208,6 +4346,142 @@
       ],
       "probability_high": 61.0,
       "probability_low": 45.0
+    }
+  },
+  "opp_248b9e3b1212": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:48:01+00:00",
+    "description": "Category: IT Services Location: For an international organization in New York, we are urgently looking for a REMOTE (Senior) Azure Data Engineer with Azure Cloud Portal experience and detailed knowledge of data warehouse technical architectures. Candidates need to be able to work 4/5 hours per day in the normal office hours of New York, US. Example 9AM NY time equals 7:30PM. Tasks and Responsibilities: Collecting large, complex sets of data that meet non-functional and functional business requirements; Identifying, designing, and implementing internal process improvements including re-designing infrastructure for greater scalability, optimizing data delivery, and automating manual processes; Building required infrastructure for optimal extraction, transformation and loading of data from various data sources using Azure and SQL technologies; Building analytical tools to utilize the data pipeline, providing actionable insight into key business performance metrics including operational efficiency and customer acquisition; Working with stakeholders including cloud infrastructure teams, data teams, governance, and information management officers, to collaboratively design, develop and deploy and support data solutions and related infrastructure; Profile: Bachelor or Master degree; +5 years of relevant experience with detailed knowledge of data warehouse technical architectures, infrastructure components, ETL/ ELT and reporting/analytic tools; +3 years of experience with Azure \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/x28-senior-x29-azure-data-engineer-full-remote-3266879840",
+    "id": "opp_248b9e3b1212",
+    "is_demo": false,
+    "match_score": 40.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T18:48:04+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.9,
+          "evidence": "Matched 4 profile skills: data pipeline, etl, reporting, sql. Covers 40% of the 5 skills this listing names (missing: analytics, azure, rest)."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"infrastructure components\"; \"azure \u2026 [excerpt - see source link for the full posting]\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "etl",
+      "rest",
+      "azure",
+      "analytics",
+      "data-engineering",
+      "azure-data-engineer",
+      "cloud-data-engineering",
+      "data-warehouse-engineering",
+      "data-engineer",
+      "senior-azure-data-engineer",
+      "senior-cloud-data-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "&#x28;Senior&#x29; Azure Data Engineer - Full Remote",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/x28-senior-x29-azure-data-engineer-full-remote-3266879840",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_25d8879c6bdb": {
@@ -5852,6 +6126,148 @@
       "probability_low": 26.0
     }
   },
+  "opp_30b7dc34e8e1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Parexel",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:39:39+00:00",
+    "description": "When our values align, there's no limit to what we can achieve. At Parexel , we all share the same goal - to improve the world's health. From clinical trials to regulatory, consulting, and market access, every clinical development solution we provide is underpinned by something special - a deep conviction in what we do. Each of us, no matter what we do at Parexel , contributes to the development of a therapy that ultimately will benefit a patient. We take our work personally, we do it with empathy and we're committed to making a difference. Senior Solution Consultant India -Remote Key Requirements & Responsibilities Minimum 5+ years of Pharmacovigilance (PV) / Drug Safety Services experience. At least 2 years of experience in developing and designing client-specific safety solutions. Proven client-facing experience with strong stakeholder management and consulting skills. Solid understanding of process improvement methodologies, including the application of automation to enhance quality, efficiency, and scalability. Experience working with clients across the full lifecycle, from pre-award proposal development through post-award delivery and account management. Responsible for the design, operational execution, and successful delivery of global Pharmacovigilance solutions. Accountable for: Pre-sales support and solution development Preparation of budgets and commercial proposals Post-award account management Client relationship management and delivery oversight Functions as \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parexel/jobs/senior-solution-consultant",
+    "id": "opp_30b7dc34e8e1",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T18:39:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 42.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 5.2,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 42.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"pharmacovigilance (pv) / drug safety services experience\"; \"developing\"; \"designing client-specific safety solutions\".",
+          "name": "Unmet stated requirements",
+          "points": 10.2
+        }
+      ],
+      "raw_total": 42.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "automation",
+      "pharmacovigilance-consulting",
+      "solution-consulting",
+      "drug-safety",
+      "clinical-development",
+      "life-sciences-consulting",
+      "senior-solutions-consultant",
+      "senior-solutions-specialist",
+      "solutions-consultant",
+      "solution-consultant",
+      "principal-solution-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Solution Consultant",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/parexel/jobs/senior-solution-consultant",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_310cc86bc65d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6538,6 +6954,142 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_34a7a8c5f73c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Culligan Consumer Products UK",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:48:47+00:00",
+    "description": "We are seeking a commercially driven SEO & GEO Manager to own how Culligan is found, understood and recommended across both traditional search engines and AI-driven answer engines. Organic discovery is one of our highest-return acquisition channels, and this role owns the strategy, delivery and measurement behind it end to end. You will be accountable for growing high-quality organic traffic, leads and revenue across our B2B and consumer propositions \u2014 covering technical SEO, content and topical authority, digital PR and authority building, and local/multi-location search. Alongside this, you will build our Generative Engine Optimisation (GEO) capability: making Culligan the cited, trusted source in AI Overviews, ChatGPT, Copilot, Gemini, Perplexity and other AI assistants. Requirements 5+ years in SEO, with clear ownership of strategy and measurable commercial results Demonstrable technical SEO capability: audits, migrations, structured data, crawl and indexation, Core Web Vitals Strong content and keyword/entity strategy experience, including topical authority and content refresh programmes Experience building authority through digital PR, original data or editorial partnerships Practical, evidenced experience of GEO / AI search visibility \u2014 or a clear, credible track record of adapting quickly to major search change Advanced use of GA4, Google Search Console and at least one enterprise SEO platform (e.g. Semrush, Ahrefs, Screaming Frog, Sitebulb, Botify, Conductor) \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/culligan-consumer-products-uk/jobs/seo-geo-manager-1779814313",
+    "id": "opp_34a7a8c5f73c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T18:48:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "marketing",
+      "seo-management",
+      "digital-marketing",
+      "content-marketing",
+      "seo",
+      "seo-manager",
+      "geo-marketing-manager",
+      "seo-marketing-manager",
+      "seo-strategy-manager",
+      "geo-manager",
+      "seo-content-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SEO & GEO Manager",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/culligan-consumer-products-uk/jobs/seo-geo-manager-1779814313",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_355e721c8caf": {
@@ -14610,6 +15162,153 @@
       "probability_low": 15.0
     }
   },
+  "opp_727f7d3b22d7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:52:37+00:00",
+    "description": "Category: Sales - Marketing Location: Fort Western Province Sri Lanka Our client is a leading sales & marketing company in the fields of Import, Export, Wholesale and Outsourced Sales. They are looking for a Virtual B2B Business Development and Sales Specialist to welcome to their team with the below requirements. Principal duties and responsibilities Achieve forecasted sales goals Actively source leads & manage the sales pipeline Actively approach targeted business clients (telephone, email, social networks, online events, etc.) Regularly close deals. Manage relationships with existing customers. Conduct market research (analyze competitors, sales & marketing strategies, etc.) Ability to build, manage & grow a small size sales team. Requirements Higher Education. Solid knowledge of Sales management and B2B sales pipeline management Fluency in English. Tech Savvy Demonstrated ability to maintain a high level of enthusiasm and motivation. Experience in B2B in foreign markets is a PLUS. Position Type/ Expected Hours of Work Work from home/ full time. Working within different time zones may be required as job duties demand. If you have the right profile, you have the opportunity to be a part of a dynamic team working for a company with global exposure, providing you a great working environment and ample space to learn and develop. If you are ready to grab this opportunity, please forward your CV to or call us on +94 114312515 for more information. Details Originally posted on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/virtual-b2b-business-development-and-sales-specialist-4434652150",
+    "id": "opp_727f7d3b22d7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:52:38+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "b2b-sales",
+      "business-development",
+      "sales-management",
+      "virtual-sales",
+      "telesales",
+      "sales",
+      "remote-b2b-sales-specialist",
+      "virtual-sales-specialist",
+      "remote-business-development-representative",
+      "b2b-sales-specialist",
+      "remote-business-development-executive",
+      "business-development-b2b",
+      "b2b-lead-generation-specialist",
+      "b2b-sales-development",
+      "sales-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Virtual B2B Business Development and Sales Specialist",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/virtual-b2b-business-development-and-sales-specialist-4434652150",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_72ebaeb072a9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19711,6 +20410,149 @@
       "probability_low": 56.0
     }
   },
+  "opp_9e89fb190e91": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:46:17+00:00",
+    "description": "Category: IT Services Location: Fort Western Province Sri Lanka For an international organization in New York, we are urgently looking for a REMOTE Senior QA Automation Specialist with hands-on Selenium, .NET, and Angular experience. Candidates need to be fluent in English. All positions are long-term. This position is open for freelancers and employees. Candidates need to be able to work 2-3 hours per day in the normal office hours of New York, US. (Example 9 AM NY time equals 7:30 PM.) The applicant should be an experienced Quality Assurance Automation expert with a history of working in an agile environment. Candidates must have hands-on experience working with .NET, Angular, MS SQL in teams building large consumer-facing web applications from the ground up. Tasks and deliverables Work within an agile team to ensure the quality of complex .NET based multilingual applications; Develop, modify, and execute functional test scripts and analyze bugs for systems in development; Work closely with developers to recognize the potential for any operational issues, assess risks, and resolve issues proactively; Create test automation frameworks from the ground up using Selenium WebDriver; Automate API testing using Postman and similar tools; Perform load testing using a variety of tools as per industry standards and suggest solutions for performance issues; Perform Mobile application testing and enable automation for various devices, platforms/environments as needed; Record defect \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-qa-automation-specialist-selenium-full-remote-1081026332",
+    "id": "opp_9e89fb190e91",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:46:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 3 profile skills: automation, ci/cd, sql. Covers 50% of the 6 skills this listing names (missing: api, rest, selenium)."
+        }
+      },
+      "final_score": 57.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "rest",
+      "selenium",
+      "ci/cd",
+      "automation",
+      "qa-automation",
+      "software-testing",
+      "automation-testing",
+      "quality-assurance",
+      "senior-qa-automation-tester",
+      "senior-qa-automation-engineer",
+      "senior-automation-qa-engineer",
+      "senior-quality-assurance-automation-specialist",
+      "senior-automation-test-engineer",
+      "senior-automation-qa",
+      "senior-qa-automation",
+      "remote-test-automation-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior QA Automation Specialist - Selenium - Full Remote",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-qa-automation-specialist-selenium-full-remote-1081026332",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_9eb80e1c715f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -20740,6 +21582,149 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_a5b3633a4d9c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:49:29+00:00",
+    "description": "Category: IT Services Location: Fort Western Province Sri Lanka We are urgently looking for a REMOTE Senior QA/Mobile testing Specialist for an international organization in New York. Candidates need to be fluent in English. This position is open for freelancers and employees. Candidates need to be able to work 2-3 hours per day in the normal office hours of New York, US. (Example 9 AM NY time equals 7:30 PM.) QA Specialist with a background in agile software development and strong expertise in functional end-to-end testing, test automation, manual/automated testing for mobile web applications. Candidates must have experience working with MEAN platform teams building large consumer-facing web applications from the ground up. Tasks and responsibilities: Create test automation frameworks from the ground up using Selenium WebDriver in several simultaneous projects; Responsible for developing, modifying, and executing test scripts and analyzing bugs; Perform manual testing on a variety of browsers and operating systems; Run various tests on new software products to ensure that applications satisfy all specifications and requirements; Record all defect details, creating and distributing reports outlining the types of defects found and the steps taken to resolve these issues and update the regression test framework; Automate API testing using Postman and similar tools; Work closely with developers to recognize the potential for any operational issues, assess risks, and resolve \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-qa-x2f-mobile-testing-specialist-mean-remote-6200539784",
+    "id": "opp_a5b3633a4d9c",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T18:49:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: automation, ci/cd. Covers 33% of the 6 skills this listing names (missing: api, aws, rest, selenium)."
+        }
+      },
+      "final_score": 54.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "selenium",
+      "aws",
+      "ci/cd",
+      "automation",
+      "qa-engineering",
+      "mobile-testing",
+      "software-testing",
+      "automation-testing",
+      "quality-assurance",
+      "senior-mobile-qa-engineer",
+      "senior-mobile-quality-engineer",
+      "remote-qa-engineer",
+      "remote-quality-assurance-specialist",
+      "mobile-qa-engineer",
+      "mobile-qa-specialist",
+      "remote-quality-assurance-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior QA&#x2f;Mobile Testing Specialist - MEAN - REMOTE",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-qa-x2f-mobile-testing-specialist-mean-remote-6200539784",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -22552,6 +23537,145 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_baddd3228420": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.67,
+    "budget_min": 50.48,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Lyten, Inc.",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:40:41+00:00",
+    "description": "Lyten is leading an industrial revolution through Lyten 3D Graphene\u2122, a breakthrough supermaterial unlocking a new generation of products \u2014 from lithium\u2013sulfur batteries and energy storage systems to concrete admixtures, lightweight composites, and next-generation sensors that are revolutionizing industries. Together, these innovations are making a massive global improvement and driving real-world impact across energy, mobility, construction, and defense. At Lyten, we believe the most meaningful careers begin with purpose \u2014 and with people who want to make a difference. We\u2019re not just developing advanced supermaterials \u2014 we\u2019re about to change the world as we know it, reshaping how energy is stored, how products are built, and how progress is made. We\u2019re entering an exciting growth phase, scaling production across the U.S. and Europe and expanding our team of engineers, scientists, and innovators. Apply now to join our team and be part of something bigger than yourself \u2014 where collaboration, creativity, and purpose come together to build the technologies that will define the next century. We are looking for a hands-on, analytical, and collaborative Compensation Partner to help evolve, scale, and operationalize our global compensation framework. As we grow from ~650 employees to 1,500+ worldwide, this role will play a foundational part in assessing our current compensation landscape, closing infrastructure gaps, and building scalable programs across the United States and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 141.85,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lyten-inc/jobs/compensation-partner",
+    "id": "opp_baddd3228420",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:40:42+00:00",
+    "profit_score": 60.8,
+    "risk_flags": [],
+    "score": 64.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.2,
+          "evidence": "Estimated net $142 on $142 (100% margin). $156 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $507 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 33% of the 6 skills this listing names (missing: api, aws, google sheets, rest)."
+        }
+      },
+      "final_score": 64.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "api",
+      "rest",
+      "aws",
+      "automation",
+      "compensation-partner",
+      "total-rewards",
+      "global-compensation",
+      "compensation-analysis",
+      "hr-business-partner",
+      "hr-compensation-partner",
+      "compensation-business-partner",
+      "compensation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Compensation Partner",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/lyten-inc/jobs/compensation-partner",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_bd542fb6d369": {
@@ -24651,6 +25775,144 @@
       ],
       "probability_high": 34.0,
       "probability_low": 12.0
+    }
+  },
+  "opp_ca9266023efd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75,
+    "budget_min": 75,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "The Freelance Firm, LLC",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:37:21+00:00",
+    "description": "Category: Legal Location: Quincy Illinois United States Welcome to The Freelance Firm! We are a national network of experienced, high-level, freelance attorneys and paralegals who provide on-demand support for both short-term and long-term legal projects for our client law firms. Our client contracts nationwide with SMB's to provide written responses to submitted client inquiries on everyday employment and business law matters. They currently have an opportunitiy for an attorney with expertise inHR/Employment Law inIllinois. Attorney Requirements: Licensed in good standing to practice law in Illinois Minimum of 5 years\u2019 experience inHR/Employment Law In-depth understanding ofHR/Employment Law in licensed State Clear, concise, comprehensive written communicator - able to provide written, complete answers to client inquiries in one response in most cases Some research, review, and drafting of employment and business law-related policies, forms, and documents Well-organized and proven ability to meet deadlines Self-starter and able to work independently The Attorney pay rate starts at $75/hour. We welcome you to join our established network of legal professionals! \u200b Resume submissions will be kept in strict confidence. Please visit our website,, to learn more about us and the services we provide! Details Originally posted on Himalayas",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 562.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-freelance-firm-llc/jobs/illinois-remote-hr-employment-law-attorney-opportunity-email-phone-support-onl",
+    "id": "opp_ca9266023efd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:37:23+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 44.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $562 on $562 (100% margin). $120 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $150 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "employment-law",
+      "legal-consulting",
+      "freelance-attorney",
+      "legal-services",
+      "remote-labor-and-employment-attorney",
+      "remote-employment-attorney"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Illinois Remote HR/Employment Law Attorney Opportunity - Email/Phone Support Onl",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/the-freelance-firm-llc/jobs/illinois-remote-hr-employment-law-attorney-opportunity-email-phone-support-onl",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_ccba8f3916b6": {
@@ -28763,6 +30025,157 @@
       "probability_low": 15.0
     }
   },
+  "opp_eb9a9cabea70": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Day Translations, Inc.",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:51:02+00:00",
+    "description": "Night Shift Project Manager \u2014 Localization, Translation, Interpreting & Sales Company: Day Translations, Inc. Position type: Full-time Location: Remote \u2014 worldwide Schedule: U.S. nighttime hours. Exact hours and applicable U.S. time zone will be confirmed during hiring. Day Translations is a global translation and interpreting company. We help individuals, organizations, and businesses communicate worldwide through accurate translations, localization, interpreting, and tailored language solutions. We are seeking a full-time Project Manager with strong sales experience and knowledge of localization, translation, and interpreting to join our night team. This position combines project management, client service, and sales. You will manage language projects from inquiry through delivery, convert inquiries into paying clients, close deals with large interpreting clients, and help businesses sign up for phone interpreting services through Day Interpreting. The ideal candidate can confidently lead client conversations, explain our services, negotiate effectively, and close business while keeping projects organized and on schedule. Responsibilities Manage localization, translation, and interpreting projects from initial inquiry and quoting through scheduling, delivery, and completion. Lead sales conversations with prospective clients, understand their needs, recommend appropriate services, and close deals. Pursue and close large interpreting opportunities, including ongoing service \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/day-translations-inc/jobs/night-time-localization-interpreting-project-manager",
+    "id": "opp_eb9a9cabea70",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:51:04+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "localization-project-manager",
+      "translation-project-manager",
+      "interpreting-services",
+      "sales-and-account-management",
+      "language-operations-team-lead",
+      "senior-localization-project-manager",
+      "language-services-project-manager",
+      "linguistic-project-manager",
+      "multilingual-project-manager",
+      "localization-program-manager",
+      "project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Night time Localization & Interpreting Project Manager",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/day-translations-inc/jobs/night-time-localization-interpreting-project-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "20%",
+          "to": "12%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "12%",
+          "to": "18%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "18%",
+          "to": "8%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_ed4d7a4453a0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29029,6 +30442,145 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_edd4b7eba826": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "ContactLink Solutions",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:46:32+00:00",
+    "description": "Are you a skilled Pashto interpreter based in US looking for a flexible and rewarding opportunity? We are seeking talented individuals proficient in Pashto and English to join our team of international interpreters. If you have a passion for languages and a commitment to providing excellent service, we want to hear from you! This is a fully remote position. As a remote interpreter, you play a significant role in facilitating communication between Pashto and English speakers. The interpreter needs to be able to process information quickly and accurately in a professional manner. It is essential to ensure a quiet and secure environment. Notepads, writing utensils, glossaries, and dictionaries are useful tools. Candidate Qualifications: Fluency in English and Pashto Based in US Minimum 3 year of interpretation experience Excellent listening, retention, and note-taking skills to maintain a high level of accuracy Ability to render correct concepts and meanings according to established interpretation protocols, avoiding omissions or additions Ability to explain certain cultural concepts to avoid miscommunication, with permission or at the request of the client Technical Requirements: 90% English proficiency Steady wired internet connection USB wired headset Windows 10 or Mac What we offer you: Fully remote \u2014 work from your home office Full-time contractor position Immediate availability to start after onboarding Monthly payments Your responsibilities: Answer calls professionally, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/contactlink-solutions/jobs/pashto-interpreter",
+    "id": "opp_edd4b7eba826",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T18:46:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "interpretation",
+      "language-services",
+      "translation-services",
+      "healthcare-interpretation",
+      "remote-interpretation",
+      "pashto-translation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Pashto Interpreter",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/contactlink-solutions/jobs/pashto-interpreter",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_eed9eaeeb59a": {
@@ -29661,6 +31213,149 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_f37e3a6a5dc3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T20:59:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T18:42:26+00:00",
+    "description": "Category: IT Services Location: For an international organization in New York, we are urgently looking for a Full Remote Senior API Developer - Azure. As Full Remote Senior API Developer, you are responsible for the design, creation, and delivery of a range of supporting APIs and Azure platform elements to support the implementation of a central API system for data synchronization/exchange between data platforms in a hub and spoke architecture model. Candidates need to be able to work 4/5 hours per day in the normal office hours of New York, US. Example 9AM NY time equals 7:30PM. This role is open for employees and contractors Tasks and responsibilities: Analyze, design, develop, as well as implement RESTful services and APIs; Be involved in the development life cycle and perform definition and feasibility analysis; Implement, integrate, and document a variety of software platforms through the REST API framework; Apply the latest software design techniques and contribute to the technical design of new solutions; Modify existing programs, prepare test data and functional specifications; Troubleshoot issues and solve problems, identify potential process improvement areas; Implement common APIs based on architecture guidelines and frameworks; Write object-oriented, clean, and maintainable code; Deliver quality results on time with minimal supervision; Profile: \u200b Bachelor or Master degree; +2 years of experience in a computing environment with multiple programming languages \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T205917Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/api-developer-azure-full-remote-contractor-in-usd-5309294824",
+    "id": "opp_f37e3a6a5dc3",
+    "is_demo": false,
+    "match_score": 42.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T18:42:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.3,
+          "evidence": "Matched 2 profile skills: python, rest api. Covers 17% of the 6 skills this listing names (missing: api, azure, javascript, node)."
+        }
+      },
+      "final_score": 49.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "azure",
+      "javascript",
+      "node",
+      "api-development",
+      "azure-developer",
+      "backend-development",
+      "cloud-engineer",
+      "data-engineering",
+      "software-engineer",
+      "web-api-developer",
+      "azure-.net-developer",
+      "api-developer",
+      "senior-.net-azure-developer",
+      "senior-azure-developer",
+      "senior-azure-cloud-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "API Developer - Azure - Full Remote - Contractor in USD",
+    "updated_at": "2026-09-16T20:59:19+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/api-developer-azure-full-remote-contractor-in-usd-5309294824",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f390e79a61cb": {
