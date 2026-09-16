@@ -4210,6 +4210,154 @@
       "probability_low": 45.0
     }
   },
+  "opp_25d8879c6bdb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Jerry",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:16:17+00:00",
+    "description": "You could work anywhere. Why us? Join a pre-IPO startup with capital, traction and runway ($240M funded | 70X revenue growth in 5 years | $2T market size) Disrupt a massive market and take us to a $10B business in the next few years Be immersed in a talent-dense environment and greatly accelerate your career growth About the opportunity: We are looking for a hands-on HR Generalist to join our dynamic team. Reporting to our Director of HR Operations, you will support day-to-day HR operations - from new employee onboarding and HR administration to compliance and employee support- while helping us build processes that scale as we grow. You\u2019re comfortable operating independently, researching compliance requirements, and drafting policies for leadership review. You have a solid understanding of the employee lifecycle and bring a service-first mindset to every employee interaction. Jerry .ai is building the first super app to make car ownership affordable and accessible \u2013 insurance, buy/sell, registration, loans, safety, repairs, parking, etc \u2013 a $2T market in the U.S. We started with insurance in 2019, and since then we\u2019ve launched driving insights, repair marketplace, car diagnostics, and a GenAI-powered chatbot & voicebot. We have amassed over 5M customers, raised $240MM in funding, scaled our revenue 70X and our team to 225 across 6 countries. How you will make an impact: Own the day-to-day administration of the employee lifecycle \u2014 onboarding, offboarding, employee file \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jerry/jobs/hr-generalist",
+    "id": "opp_25d8879c6bdb",
+    "is_demo": false,
+    "match_score": 19.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T13:16:18+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 50.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.2,
+          "evidence": "Matched 2 profile skills: automation, reporting. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 50.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"| $2t market size) disrupt a massive market\"; \"take us to a $10b business in the next few years be immersed in a tale\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 50.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "automation",
+      "hr-generalist",
+      "people-generalist",
+      "hr-operations-generalist",
+      "people-operations-generalist",
+      "employee-relations-generalist",
+      "human-resources"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "HR Generalist",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/jerry/jobs/hr-generalist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_278f596037c1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5704,6 +5852,145 @@
       "probability_low": 26.0
     }
   },
+  "opp_310cc86bc65d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:22:43+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Audio Transcriber - Clinical Conversation Data Type: Contract Compensation: $30/hour Location: Remote Role Responsibilities Evaluate machine-generated draft transcripts against audio segments of 30 to 45 seconds. Correct transcripts for accuracy, focusing on critical words that impact meaning. Apply transcription specifications precisely, including verbatim capture and speaker labels. Ensure word-level timing accuracy and tag vocal artifacts like laughter and crosstalk. Flag uncertain medical terms for review by clinical specialists. Qualifications Must-Have Native or near-native English listening comprehension. Comfort with detailed specifications and consistent formatting. A quiet working environment and over-ear headphones. Preferred Prior experience in transcription, captioning, subtitling, or audio annotation. Familiarity with medical terminology. Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & Support For details about the interview process and platform information, please check: For any help or support, reach out to: PS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/clinical-audio-transcriber-expert-9878369824",
+    "id": "opp_310cc86bc65d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T13:22:43+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 34.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "clinical-transcription",
+      "medical-transcription",
+      "audio-transcription",
+      "transcriptionist",
+      "audio-annotation",
+      "audio-transcription-expert",
+      "expert-audio-transcriber",
+      "audio-transcription-specialist",
+      "audio-transcriptionist",
+      "english-audio-transcription-specialist",
+      "medical-transcriber",
+      "expert-transcription",
+      "audio-transcriber",
+      "english-transcription-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Audio Transcriber - Expert",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/clinical-audio-transcriber-expert-9878369824",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_314c155c125b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6381,6 +6668,154 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_35c8e702708a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Hiflylabs",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:35:16+00:00",
+    "description": "Responsibilities Develop native Swift/iOS applications Design user interfaces and functions as planned Take part in requirements gathering, project and technical planning Write Unit and UI tests, participate in developer testing Continuous learning Stay up-to-date with current technology trends in iOS development Work closely with teammates, helping each other Get to know procedures in different sectors Develop applications for businesses in all sizes Requirements 3+ years of experience in iOS development Comprehensive knowledge of Swift, iOS SDK, CocoaPods Advanced proficiency in English Experience with MVVM / VIPER, DI (Swinject) Knowledge of Human Interface Guidelines Networking (Moya, REST, OAuth) experience ReactiveX (RxSwift, RxCocoa) Combine SwiftUI Personal traits Proactive in finding solutions, adding constructive ideas Process driven with a keen eye for detail and quality Team player with a positive, open minded and friendly attitude Eager to learn and improve in both soft and technical skills Reliable, taking responsibility Customer focused attitude Nice to have Experience in writing Unit and UI tests SOLID, clean code knowledge SwiftLint, CI/CD App Store, distribution experience Experience in other platforms, web, backend, frontend, cross platform, etc. About the company We're Hiflylabs , a vibrant team of 250+ data and tech enthusiasts based in Budapest. From data engineering to data science, artificial intelligence and application development, we work on a wide \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hiflylabs/jobs/expression-of-interest-ios-developer-1987259264",
+    "id": "opp_35c8e702708a",
+    "is_demo": false,
+    "match_score": 30.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T13:35:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 7.4,
+          "evidence": "Matched 3 profile skills: ci/cd, excel, python. Covers 33% of the 9 skills this listing names (missing: analytics, api, data science, node)."
+        }
+      },
+      "final_score": 48.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"ios development comprehensive knowledge of swift\"; \"cocoapods advanced proficiency in english experience with mvvm / vi\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 48.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "rest",
+      "ci/cd",
+      "react",
+      "node",
+      "data science",
+      "analytics",
+      "ios-development",
+      "swift-development",
+      "mobile-application-developer",
+      "ios-developer",
+      "software-development",
+      "ios-mobile-engineer",
+      "ios-sdk-engineer",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Expression of Interest - iOS Developer",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/hiflylabs/jobs/expression-of-interest-ios-developer-1987259264",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_35f1b7e43b6e": {
@@ -10569,6 +11004,133 @@
       "probability_low": 34.0
     }
   },
+  "opp_582518376f49": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Infomediji .",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T16:20:14+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Belgrade, 00, Serbia Job description Join Our Vision: We are building the next generation of Spatial Media - a new way people experience videos through interaction, multi-user presence, haptics, AI, and immersive storytelling. DeoVR is the leading immersive streaming technology serving multiple enterprise customers and millions of users globally. We are now expanding the boundaries of what video can be - moving from passive watching to active, interactive, multi-user journeys. If this excites you more than it scares you, you are in the right place. The Role We are looking for Senior Growth Product Manager who will drive revenue growth by optimizing the subscription lifecycle and monetization mechanics. In this role, you will focus on improving conversion, ARPU, and retention through experimentation, pricing strategy, and product-led growth initiatives. What You Will Do Own and optimize the subscription funnel: join pages, paywalls, free flows and trials, upgrades, renewals Develop and iterate on pricing, packaging, and upsell/order bumps strategies to maximize LTV per user Lead initiatives around churn reduction, cancellation flows, and retention mechanics Design and run A/B tests to improve conversion, LTV, and monetization efficiency Work with user segmentation and behavioral data to personalize offers and pricing Collaborate with engineering, data, and marketing teams to ship growth experiments and monetization features Define hypotheses, analyze results, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/infomediji-senior-growth-product-manager",
+    "id": "opp_582518376f49",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Tue, 18 Aug 2026 20:34:41 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 33.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "analytics"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Infomediji .: Senior Growth Product Manager",
+    "updated_at": "2026-09-16T16:20:14+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/infomediji-senior-growth-product-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "20%",
+          "to": "5%",
+          "why": "About 29 days old; likely filled or abandoned."
+        }
+      ],
+      "probability_high": 18.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_59b34619f32d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -13904,6 +14466,150 @@
       "probability_low": 4.0
     }
   },
+  "opp_725bf979eb90": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Jerry",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:53:03+00:00",
+    "description": "You could work anywhere. Why us? Join a pre-IPO startup with capital, traction and runway ($240M funded | 70X revenue growth in 5 years | $2T market size) Disrupt a massive market and take us to a $10B business in the next few years Be immersed in a talent-dense environment and greatly accelerate your career growth About the opportunity: We are looking for a hands-on People Ops Generalist to join our dynamic team. Reporting to our Director of HR Operations, you will support day-to-day HR operations - from new employee onboarding and HR administration to compliance and employee support- while helping us build processes that scale as we grow. You\u2019re comfortable operating independently, researching compliance requirements, and drafting policies for leadership review. You have a solid understanding of the employee lifecycle and bring a service-first mindset to every employee interaction. Jerry .ai is building the first super app to make car ownership affordable and accessible \u2013 insurance, buy/sell, registration, loans, safety, repairs, parking, etc \u2013 a $2T market in the U.S. We started with insurance in 2019, and since then we\u2019ve launched driving insights, repair marketplace, car diagnostics, and a GenAI-powered chatbot & voicebot. We have amassed over 5M customers, raised $240MM in funding, scaled our revenue 70X and our team to 225 across 6 countries. How you will make an impact: Own the day-to-day administration of the employee lifecycle \u2014 onboarding, offboarding, employee \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jerry/jobs/people-ops-generalist",
+    "id": "opp_725bf979eb90",
+    "is_demo": false,
+    "match_score": 19.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T13:53:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 4.7,
+          "evidence": "Matched 2 profile skills: automation, reporting. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 46.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"| $2t market size) disrupt a massive market\"; \"take us to a $10b business in the next few years be immersed in a tale\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 46.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "automation",
+      "people-operations-generalist",
+      "hr-operations-generalist",
+      "people-ops-coordinator",
+      "people-generalist",
+      "hr-operations-specialist",
+      "people-operations-coordinator",
+      "hr-generalist",
+      "people-operations-associate",
+      "human-resources"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "People Ops Generalist",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/jerry/jobs/people-ops-generalist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_72ebaeb072a9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -14755,6 +15461,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_7a7dd90d80e0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Lavendo",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:24:53+00:00",
+    "description": "Lavendo partners with startups and high\u2011growth companies to help them hire top\u2011tier sales, GTM, and technical talent. This role is with one of our clients; we\u2019ll share full details about the company and interview process as we get to know you and confirm mutual fit. About the Company Our client is a Series A startup based in San Francisco's Mission District, with about 20 people on the team. They're going after legacy automation giants that have dominated the RPA space for years with an AI platform that learns how a person does a task and then does it for them. With $19.75M raised, they're seeing 40% month-over-month growth and building a repeatable sales motion at a critical inflection point The idea is simple: teaching software to do a job shouldn't be harder than showing a coworker how to do it. Their AI agents watch a person complete a workflow, then repeat it inside real enterprise systems, whether that's a browser app, Windows, or Citrix. Big insurers, healthcare companies, and fintechs are already using it to cut costs and speed up work that used to run on old-school RPA tools. The Opportunity Join a fast-growing sales team and help fuel the pipeline at a genuine inflection point. You'll be a sharp, tenacious outbound seller who thrives on cold calls and books qualified meetings with enterprise buyers. What You'll Do Drive outbound prospecting through cold calls and cold emails to generate qualified meetings for the AE team Hit and exceed a monthly quota of ~10 \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 346.18,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lavendo/jobs/bdr-enterprise-ai-automation-sf",
+    "id": "opp_7a7dd90d80e0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T13:24:54+00:00",
+    "profit_score": 65.7,
+    "risk_flags": [],
+    "score": 68.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.1,
+          "evidence": "Estimated net $346 on $346 (100% margin). $120 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $240 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 68.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "enterprise-bdr",
+      "enterprise-ai-automation",
+      "bdr"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "BDR, Enterprise AI Automation (SF)",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/lavendo/jobs/bdr-enterprise-ai-automation-sf",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_7c742b0125fa": {
@@ -20763,6 +21598,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_b00db3ed7608": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Celara",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T13:25:48+00:00",
+    "description": "Our technology team is a rapidly growing group of talented and experienced engineers helping to build the leading enterprise software company focused on restaurant technology. We use modern technologies, automation, and AI-assisted engineering practices to build products that power restaurant operations at scale. We are looking for a hands-on, forward-thinking QA Automation Engineer to join our Kitchen Display System (KDS) team. This is an automation-first role where you'll own and extend automated test coverage for a business-critical platform used in restaurant operations. You will work within an established automation framework, help maintain healthy regression pipelines, improve test reliability, and partner closely with engineers to deliver high-quality software. This is a high-impact role on a fast-moving team where quality, automation, and continuous improvement are core to how we build and release software. What You'll Do Here \u25cf Develop, maintain, and expand automated test coverage for the Kitchen Display System (KDS) platform. \u25cf Design and execute automated UI, API, regression, and smoke tests. \u25cf Build scalable, maintainable automation solutions using established framework patterns and best practices. \u25cf Partner closely with developers, product managers, and QA engineers to ensure quality throughout the software development lifecycle. \u25cf Investigate defects, troubleshoot test failures, and identify quality risks early in the development process. \u25cf Maintain and improve \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/celara/jobs/qa-automation-engineer-qb-qa-20260617-4140721079",
+    "id": "opp_b00db3ed7608",
+    "is_demo": false,
+    "match_score": 58.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T13:25:49+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 14.2,
+          "evidence": "Matched 3 profile skills: automation, ci/cd, excel. Covers 33% of the 9 skills this listing names (missing: api, azure, docker, playwright)."
+        }
+      },
+      "final_score": 53.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 53.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "selenium",
+      "playwright",
+      "azure",
+      "docker",
+      "ci/cd",
+      "automation",
+      "qa-automation-engineer",
+      "sdet",
+      "automation-testing",
+      "quality-engineer",
+      "software-engineer-in-test",
+      "kitchen-display-systems-(kds)",
+      "mid-level-qa-automation-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "QA Automation Engineer (QB - QA - 20260617)",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/celara/jobs/qa-automation-engineer-qb-qa-20260617-4140721079",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_b0dd4cda4c0e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -23955,6 +24924,142 @@
       "probability_low": 15.0
     }
   },
+  "opp_cce7f4ab6369": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.79,
+    "budget_min": 37.7,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Samsara",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "CAD",
+    "deadline": "2026-11-15T13:13:56+00:00",
+    "description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara , we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner. Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 377.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/samsara/jobs/customer-success-associate",
+    "id": "opp_cce7f4ab6369",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T13:13:58+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 41.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $377 on $377 (100% margin). $79 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $126 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 41.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "customer-success",
+      "customer-success-associate",
+      "account-management",
+      "strategic-consulting",
+      "enterprise-saas-customer-success",
+      "associate-customer-success-specialist",
+      "client-success-associate",
+      "customer-success-representative",
+      "customer-success-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success Associate",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://himalayas.app/companies/samsara/jobs/customer-success-associate",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_cd681f620f93": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -25312,6 +26417,139 @@
         }
       ],
       "probability_high": 18.0,
+      "probability_low": 0.0
+    }
+  },
+  "opp_da34959323cc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (13 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Preciso de um profissional que funcione como meu call center, recebendo e fazendo liga\u00e7\u00f5es em nome da empresa, sempre em portugu\u00eas claro e cordial. Objetivos principais: \u2022 Atender chamadas de clientes, tirar d\u00favidas b\u00e1sicas e registrar recados. \u2022 Realizar liga\u00e7\u00f5es proativas quando necess\u00e1rio, mantendo um script simples que fornecerei. \u2022 Agendar compromissos diretamente no calend\u00e1rio que uso (Google Calendar), garantindo que todos os hor\u00e1rios sejam confirmados com o cliente e comigo. O que espero de voc\u00ea: \u2013 Voz agrad\u00e1vel, boa dic\u00e7\u00e3o em portugu\u00eas e postura profissional ao telefone. \u2013 Organiza\u00e7\u00e3o para registrar cada chamada e atualizar o status do agendamento. \u2013 Pontualidade para cumprir os hor\u00e1rios combinados de atendimento. Disponibilizo: script de atendimento, acesso ao calend\u00e1rio e um e-mail corporativo para registro das liga\u00e7\u00f5es. Entrego feedback r\u00e1pido e estou aberto a sugest\u00f5es de melhoria no fluxo de atendimento. Se tem experi\u00eancia em call center ou suporte telef\u00f4nico e domina ferramentas simples de agenda online, aguardo sua proposta.",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40715436",
+    "id": "opp_da34959323cc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-16T15:33:16+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 38.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.5,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 38.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "php",
+      "graphic design",
+      "software architecture",
+      "html",
+      "customer service",
+      "call center",
+      "appointment setting",
+      "voice acting"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Atendimento Telef\u00f4nico e Agendamento de Compromissos - 16/09/2026 11:18 EDT",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://www.freelancer.com/projects/appointment-setting/Atendimento-Telef-nico-Agendamento-40715436",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-24%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "20%",
+          "to": "5%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "5%",
+          "to": "11%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "11%",
+          "to": "11%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 24.0,
       "probability_low": 0.0
     }
   },
@@ -30211,6 +31449,146 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_fde70d9ea304": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (22 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T16:20:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Preciso de um profissional que funcione como meu call center, recebendo e fazendo liga\u00e7\u00f5es em nome da empresa, sempre em portugu\u00eas claro e cordial. Objetivos principais: \u2022 Atender chamadas de clientes, tirar d\u00favidas b\u00e1sicas e registrar recados. \u2022 Realizar liga\u00e7\u00f5es proativas quando necess\u00e1rio, mantendo um script simples que fornecerei. \u2022 Agendar compromissos diretamente no calend\u00e1rio que uso (Google Calendar), garantindo que todos os hor\u00e1rios sejam confirmados com o cliente e comigo. O que espero de voc\u00ea: \u2013 Voz agrad\u00e1vel, boa dic\u00e7\u00e3o em portugu\u00eas e postura profissional ao telefone. \u2013 Organiza\u00e7\u00e3o para registrar cada chamada e atualizar o status do agendamento. \u2013 Pontualidade para cumprir os hor\u00e1rios combinados de atendimento. Disponibilizo: script de atendimento, acesso ao calend\u00e1rio e um e-mail corporativo para registro das liga\u00e7\u00f5es. Entrego feedback r\u00e1pido e estou aberto a sugest\u00f5es de melhoria no fluxo de atendimento. Se tem experi\u00eancia em call center ou suporte telef\u00f4nico e domina ferramentas simples de agenda online, aguardo sua proposta.",
+    "discovered_by_run": "20260916T162011Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40715368",
+    "id": "opp_fde70d9ea304",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-16T14:57:24+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 38.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.5,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 38.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "php",
+      "graphic design",
+      "software architecture",
+      "html",
+      "customer service",
+      "call center",
+      "appointment setting",
+      "voice acting"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Atendimento Telef\u00f4nico e Agendamento de Compromissos",
+    "updated_at": "2026-09-16T16:20:13+00:00",
+    "url": "https://www.freelancer.com/projects/appointment-setting/Atendimento-Telef-nico-Agendamento",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "22 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_fe7af700270f": {
