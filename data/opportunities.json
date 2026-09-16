@@ -4723,6 +4723,165 @@
       "probability_low": 4.0
     }
   },
+  "opp_2c627f5ac567": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120.19,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Branch",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:29:16+00:00",
+    "description": "Branch is the early-stage game development company behind Castaways. We are developing an exciting new mobile game set in the Castaways universe, that is in stealth. You would be a great fit to work on this project if you are a detail-oriented expert in mobile gaming and enjoy working with a small cracked team to build and ship quality games on a rapid timeline. Responsibilities Work closely with marketing team to integrate Adjust SDK to measure marketing performance Build with Apple and Facebook OAUTH to enable user authentication in game Work closely with Facebook API to enable social connectivity with various game mechanics Ensure the best possible performance, quality, and responsiveness of the game Adopt our test-driven culture and meet high internal standards for code quality and documentation Qualifications 3+ years of experience building games in the Unity game engine. 5+ years of experience with a modern language such as C# The capacity to thrive in an ever-changing, quick-to-deliver environment Excellent written and verbal communication skills Experience testing, automating, and instrumenting your code Experience building high-production value mobile games Proven track record of having shipped high-production value games at other game studios Knowledge of how to profile, analyze, and improve performance, from low-level limitations to high-level architectural decisions Originally posted on Himalayas",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 865.4,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/branch-gg/jobs/senior-unity-engineer-contract-4235218668",
+    "id": "opp_2c627f5ac567",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T08:29:18+00:00",
+    "profit_score": 83.6,
+    "risk_flags": [],
+    "score": 60.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.4,
+          "evidence": "Estimated net $865 on $865 (100% margin). $182 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $288 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 60.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"building games in the unity game engine\"; \"a modern language such as c# the capacity to thrive in an ever-changin\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 60.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "unity",
+      "mobile-game-development",
+      "game-engineering",
+      "contract-engineering",
+      "software-engineer",
+      "senior-unity-game-engineer",
+      "senior-unity-developer",
+      "senior-unity-game-developer",
+      "unity-software-engineer",
+      "senior-game-engineer",
+      "unity-engineer",
+      "senior-game-engine-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Unity Engineer (Contract)",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/branch-gg/jobs/senior-unity-engineer-contract-4235218668",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-16%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-20%",
+          "factor": "Platform reputation required",
+          "from": "45%",
+          "to": "25%",
+          "why": "Asks for reviews, Job Success Score or completed-job counts. This account has none."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "25%",
+          "to": "15%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "15%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "8%",
+          "to": "2%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 16.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_2c7e756925ad": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -4998,6 +5157,150 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2f4bfbcc6a6b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "api_integration",
+    "client": "Freelancer.com client (4 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T11:00:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We are looking for an experienced Sales, Business Development, or Lead Generation professional who can find and bring genuine clients for our IT and software development services. Our services include: Web and Website Development Mobile App Development Custom Software Development AI & Machine Learning Solutions AI Agents and Workflow Automation CRM & ERP Development API and Third-Party Integrations Cloud Solutions E-commerce Development UI/UX Development SEO, AEO, GEO, and Digital Marketing Your Role You will be responsible for: Finding businesses or decision-makers who need IT or software services Generating qualified project opportunities Reaching prospects through LinkedIn, cold email, cold calling, forums, social media, or networking Introducing our services Understanding the client's basic requirements Following up with interested prospects Connecting qualified prospects with our team Our technical team will handle the detailed technical discussion, project scope, estimation, quotation, proposal, and development. Commission This is a 100% commission-based opportunity. You will receive 10% commission on every successfully closed and paid project that you bring to us. Commission will be paid after the client confirms the project and we receive the required project payment. There is no limit on how many clients or projects you can bring. No commission will be paid only for leads, contact details, or meetings if the prospect does not become a paying client. Who Should Apply \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.36,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.51,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.15,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40714781",
+    "id": "opp_2f4bfbcc6a6b",
+    "is_demo": false,
+    "match_score": 41.3,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-09-16T09:25:13+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 58.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 9.9,
+          "evidence": "70% of estimated effort is AI-carryable (7.4h AI / 3.1h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 8.0,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 12.0,
+          "evidence": "Estimated net $450 on $500 (90% margin). $90 per effective hour vs $85 target (5.0 effective h = 3.1h human + 7.4h AI discounted). Leverage: $143 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 12.8,
+          "evidence": "Matched 1 profile skills: automation. Covers 25% of the 4 skills this listing names (missing: api, machine learning, rest)."
+        }
+      },
+      "final_score": 58.9,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 58.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "automation",
+      "machine learning",
+      "telemarketing",
+      "sales",
+      "software architecture",
+      "software sales",
+      "lead generation",
+      "b2b marketing",
+      "business development",
+      "cold calling"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "IT Services Sales & Lead Generation Agent \u2013 Commission Per Closed Client",
+    "updated_at": "2026-09-16T11:00:24+00:00",
+    "url": "https://www.freelancer.com/projects/sales/Services-Sales-Lead-Generation-Agent",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "20%",
+          "to": "10%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "10%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_2f81d1d08445": {
@@ -6756,6 +7059,283 @@
       ],
       "probability_high": 16.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_3ce6052bb68f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EXL",
+    "competition_score": 45.3,
+    "confidence": 25.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:16:43+00:00",
+    "description": "As a Sourcing Consultant, you will be a key member of our SGU_F&A Ops_FRAC Consulting team, driving strategic sourcing initiatives and delivering exceptional results for our insurance clients. Your expertise will be instrumental in optimizing our clients' operations and transforming their businesses. Originally posted on Himalayas",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/exl/jobs/sourcing-consultant",
+    "id": "opp_3ce6052bb68f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T08:16:44+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 31.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 31.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "procurement-and-sourcing",
+      "insurance-consulting",
+      "operations-consulting",
+      "finance-and-accounting",
+      "business-transformation",
+      "sourcing-consulting",
+      "strategic-sourcing-consultant",
+      "sourcing-optimization-consultant",
+      "sourcing-advisory",
+      "purchasing-consultant",
+      "procurement-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sourcing Consultant",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/exl/jobs/sourcing-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_3df15f8dc950": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Marketplace Ministries, Inc.",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:26:23+00:00",
+    "description": "It's fun to work in a company where people truly BELIEVE in what they're doing! We're committed to bringing passion and customer focus to the business. Please Note: While assigned hours are generally consistent from week to week, there are no guaranteed minimal hours and positional needs will vary depending on Chaplain availability and Client requirements. Position Summary Chaplains are the frontline staff fulfilling the mission and Christian ministry of MCHAP, by using their gifts and talents to serve company employees and their immediate families. Part Time, Orangeburg, SC Essential Functions and Responsibilities \u2022 Serves as a messenger and conveyor of faith, mission, and purpose. \u2022 Interacts with companies, their employees, and the community in a manner that exhibits character through personal and spiritual disciplines. Ministry Makes regular visits to company worksites (usually weekly) to interact with employees and build relationships of trust and friendship motivated by Christian faith. Visits employees or immediate family members wherever care can be expressed and help given: hospitals, nursing homes, funeral homes, family residences, or other sites. May provide confidential pastoral discussions for problem issues of employees and their immediate family members including, but not limited to family matters, divorce, serious illness, care of aging parents, death and grief recovery, parenting, financial situations that may include debt discussions, budgeting, and other \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/marketplace-ministries-inc/jobs/chaplain-part-time-orangeburg-sc-2723009539",
+    "id": "opp_3df15f8dc950",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:26:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 1 profile skills: excel. Domain overlap: budgeting."
+        }
+      },
+      "final_score": 55.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "chaplain",
+      "ministry",
+      "pastoral-care",
+      "clergy",
+      "social-services",
+      "part-time-chaplain",
+      "part-time-religious-counselor",
+      "healthcare-chaplain"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Chaplain Part Time - Orangeburg, SC",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/marketplace-ministries-inc/jobs/chaplain-part-time-orangeburg-sc-2723009539",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "20%",
+          "to": "28%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "28%",
+          "to": "34%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "34%",
+          "to": "24%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
     }
   },
   "opp_3f47bd3421cb": {
@@ -9149,6 +9729,272 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_51b0e8552cb3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Veles Productions Sp. z o.o.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:30:26+00:00",
+    "description": "We are seeking a talented and experienced 3D Character Rigging Artist freelancer to join our creative team. We specialize in Metaverse projects, virtual production services and digital products, and we are committed to delivering high-quality content to our clients. Solid experience as a 3D Character Rigging Artist in the post-production/animated commercials or relevant industry experience Proficiency in industry-standard software such as Maya, 3ds Max or equivalent. Knowledge of importing Blendshapes to Unreal Engine Strong understanding of anatomy, kinematics, and deformation principles Excellent knowledge of rigging techniques for bipeds, quadrupeds, and complex creatures Familiarity with scripting and automation tools (Python, MEL, etc.) for rigging workflows is a plus Ability to work collaboratively in a team environment and effectively communicate ideas and solutions Attention to detail and the ability to deliver high-quality work within project timelines Competitive salary with project-based bonuses A modern indie-style studio that fosters a relaxed atmosphere while working on revolutionary metaverse projects Opportunity to collaborate with international teams and contribute to the booming metaverse industry At Veles Productions, we are creating new worlds and redefining the boundaries of the digital landscape. We are looking for open-minded, revolutionary thinkers who share our passion for the Metaverse and its potential. Originally posted on Himalayas",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veles-productions-sp-z-o-o/jobs/3d-character-rigging-artist-freelancer-6219932538",
+    "id": "opp_51b0e8552cb3",
+    "is_demo": false,
+    "match_score": 82.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T08:30:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 60.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.9,
+          "evidence": "Matched 3 profile skills: automation, excel, python. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 60.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 60.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "automation",
+      "3d-character-rigging",
+      "3d-art",
+      "3d-animation",
+      "metaverse",
+      "virtual-production",
+      "game-art",
+      "freelance-character-rigger",
+      "character-rigger",
+      "rigging-artist",
+      "3d-rigging",
+      "character-rigging"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "3D Character Rigging Artist (freelancer)",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/veles-productions-sp-z-o-o/jobs/3d-character-rigging-artist-freelancer-6219932538",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (43-59%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 59.0,
+      "probability_low": 43.0
+    }
+  },
+  "opp_52c5af5bd3fd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Xideral",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:48:45+00:00",
+    "description": "Seeking Experienced SAP ABAP Integration BTP/PI/PO for Exciting Projects Remote in Mexico We are looking for an experienced SAP ABAP Integration Consultant to join a long-term SAP S/4HANA implementation project. In this role, you will work closely with functional and technical teams to design, develop, and implement integration solutions using SAP ABAP, SAP BTP Integration Suite, and SAP PI/PO. Key Responsibilities: Collaborate with SAP functional and technical teams to understand development and integration requirements. Participate in the preparation of functional and technical specifications for ABAP developments. Develop reports, interfaces, conversions, enhancements, forms, and workflows following SAP development best practices. Design and implement integrations using SAP BTP Integration Suite and SAP PI/PO. Configure and work with different adapters and connectors for system integrations. Develop and consume APIs using REST, SOAP, and OData services. Support technical testing, integration testing, and assist during UAT phases. Provide support during cutover, go-live, and post-go-live hypercare activities. Work with different message mapping techniques and messaging services such as Event Mesh, JMS, and Datastore. Ensure best practices related to API security, authentication, and authorization. Tech Skills required: 3+ Experience with SAP ABAP development. Experience working with SAP integration technologies such as SAP BTP Integration Suite or SAP PI/PO. Experience \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/xideral/jobs/sap-abap-integration-btp-pi-po-2747-5877396229",
+    "id": "opp_52c5af5bd3fd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:48:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "sap-abap-development",
+      "sap-integration",
+      "sap-s-4hana",
+      "sap-btp",
+      "sap-pi-po",
+      "sap-po-to-btp-integration-suite-migration",
+      "sap-btp-development",
+      "sap-abap",
+      "abap-programmierung",
+      "sap-btp-developer",
+      "sap-btp-administration",
+      "abap-programming",
+      "sap-btp-solutions",
+      "sap-abap-programming"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAP ABAP Integration BTP/PI/PO 2747",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/xideral/jobs/sap-abap-integration-btp-pi-po-2747-5877396229",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_52fe1af70d50": {
@@ -12088,6 +12934,144 @@
       ],
       "probability_high": 80.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_6bff5e750809": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Datavail",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:26:32+00:00",
+    "description": "Job Title: Peoplesoft Finance Functional consultant with HCM Exp Experience: 10+years Job Location: Remote Education: Any bachelor's degree Job Description: Datavail is seeking an experienced PeopleSoft Finance Functional Consultant to support a managed services engagement focused on PeopleSoft Financials and HCM environment . This consultant will lead and participate in discovery sessions, assess current-state business processes and system utilization, and develop findings and recommendations that guide future-state planning and modernization efforts. The ideal candidate combines strong functional expertise in PeopleSoft Financials with excellent consulting and communication skills. They will work closely with business and IT stakeholders to understand how PeopleSoft is used today, identify opportunities for process improvement and optimization, and recommend practical solutions aligned with business objectives. Key Responsibilities: Facilitate discovery workshops and working sessions with business and IT stakeholders. Assess current-state PeopleSoft Financials business processes, system configuration, and operational practices. Evaluate key financial processes, including controls, integrations, reporting, and manual workarounds. Identify business process gaps, operational risks, and opportunities for optimization. Document findings, recommendations, and future-state options to support client decision-making. Contribute to roadmap development and modernization discussions. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/datavail/jobs/peoplesoft-finance-functional-consultant",
+    "id": "opp_6bff5e750809",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T08:26:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 37.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 37.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 49.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "peoplesoft-consulting",
+      "erp-consulting",
+      "finance-consulting",
+      "business-process-consulting",
+      "functional-consultant",
+      "peoplesoft-functional-consultant",
+      "peoplesoft-financials-consulting",
+      "peoplesoft-functional-analyst",
+      "financials-functional-consultant",
+      "finance-functional-consultant",
+      "oracle-peoplesoft-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Peoplesoft Finance Functional Consultant",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/datavail/jobs/peoplesoft-finance-functional-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_6cb9a9f65cbd": {
@@ -17103,6 +18087,150 @@
       "probability_low": 4.0
     }
   },
+  "opp_9b042d20fa9c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Brafton",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:37:25+00:00",
+    "description": "Brafton is one of the world's leading content marketing firms, with offices in Boston, London, Toronto and Sydney. We aspire to continually raise the bar on what people consider \"marketing content.\" We create result-focused strategies and content to drive SEO, social engagement and leads for our clients. Our teams continuously build expertise across new media formats, including video, blogs, infographics and web design. This is a remote, full-time contractor position open to candidates across South Africa. JOB DESCRIPTION Brafton Content Writers are dedicated to producing strong, creative pieces that are incorporated into content marketing campaigns for clients. Client experience is paramount for us, meaning you are expected to communicate directly with them. Viable candidates must handle white papers, case studies, landing pages, infographic outlines, video blog scripts and long-form articles based on an approved brief. The majority of our clients are B2B and their industries span technology, health, finance, business, education and marketing. Writing and researching confidently, and on deadline, in these spaces is a must. If you are interested in joining a company on the forefront of innovation and creativity in the content marketing industry, please apply immediately. ESSENTIAL JOB FUNCTIONS Research, create and deliver high-quality content to clients according to specified deadlines Edit the work of peers using Brafton \u2019s editing marks and processes Work with account \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/brafton/jobs/remote-content-writer-south-africa-400756803",
+    "id": "opp_9b042d20fa9c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:37:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 37.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 37.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 49.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "content-writing",
+      "content-marketing",
+      "editorial",
+      "copywriting",
+      "b2b-writing",
+      "remote-content-writer",
+      "remote-content-writing",
+      "freelance-content-writer",
+      "content-writer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Content Writer - South Africa",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/brafton/jobs/remote-content-writer-south-africa-400756803",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_9c1f29bfb377": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -17746,6 +18874,275 @@
       ],
       "probability_high": 76.0,
       "probability_low": 56.0
+    }
+  },
+  "opp_9eb80e1c715f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Catholic Relief Services",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:47:43+00:00",
+    "description": "NOTE: The above Pay Range only applies to applicants who perform the job within the US and to applicants classified by CRS as International Assignees. Staff hired on local payroll would follow the respective Country pay range. Your recruiter can share more about the specific salary range for your anticipated work location during the candidate selection process . Job Summary The Advisor II, Procurement Contracts serves as Global Procurement\u2019s technical subject matter expert providing technical advice, capacity building on procurement contracting in line with CRS procurement policies, procedures, donor requirements, and applicable legal and compliance standards. The Advisor works closely with global, regional, and country stakeholders to strengthen procurement contracting practices across the agency and support high-quality programming through effective risk management and contract administration. The role also contributes to the development of complex and strategic agreements and supports the development of agency-wide contracting standards, templates, guidance, tools, and good practices. Through advisory support, knowledge management, and capacity strengthening, the role improves the quality, consistency, efficiency, and risk profile of procurement contracts across CRS global operations. Roles and Key Responsibilities Contract Strategy, Development and Negotiation Leads the development, review, and negotiation of complex, high-value, high-risk, and strategic \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/catholic-relief-services/jobs/advisor-ii-procurement-contracts-us-only",
+    "id": "opp_9eb80e1c715f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T07:47:45+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "procurement-contracts",
+      "contract-management",
+      "procurement-specialist",
+      "contract-negotiation",
+      "supply-chain-procurement",
+      "procurement-contracts-specialist",
+      "contracts-and-procurement-specialist",
+      "contract-advisor",
+      "senior-contract-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Advisor II, Procurement Contracts - (US Only)",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/catholic-relief-services/jobs/advisor-ii-procurement-contracts-us-only",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_9f1fcc8da8ab": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 47.12,
+    "budget_min": 37.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Greystar",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:31:51+00:00",
+    "description": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billion of real estate in more than 260 markets globally with offices throughout North America, Europe, South America, and the Asia-Pacific region. Greystar is the largest operator of apartments in the United States, managing over one million units/beds globally. Across its platforms, Greystar has nearly $79 billion of assets under management, including over $34 billion of development assets and over $36.5 billion of regulatory assets under management. Greystar was founded by Bob Faith in 1993 to become a provider of world-class service in the rental residential real estate business. To learn more, visit . JOB DESCRIPTION SUMMARY This position is responsible for developing, implementing, and managing the execution of various specialized projects that support the achievement of multi-faceted organizational objectives. Additional responsibilities may include oversight of budgets, participation in plan development and direct or indirect reporting relationships depending on the project and functional area for which the incumbents reside. Incumbents in this role will partner with colleagues and management internal or external to the department to complete projects that \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 281.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/greystar/jobs/project-manager-8289499303",
+    "id": "opp_9f1fcc8da8ab",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:31:52+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 65.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $281 on $281 (100% margin). $60 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $75 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 65.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "project-manager",
+      "real-estate-project-manager",
+      "property-management",
+      "operations-project-management",
+      "construction-project-management",
+      "project-management",
+      "project-management-project-managers"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Project Manager",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/greystar/jobs/project-manager-8289499303",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_9f44536bf765": {
@@ -19916,6 +21313,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_b601ce42b093": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105,
+    "budget_min": 70,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "abridge",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:26:02+00:00",
+    "description": "About Abridge Abridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our AI-powered platform was purpose-built for medical conversations, improving clinical documentation efficiencies while enabling clinicians to focus on what matters most\u2014their patients. Our enterprise-grade technology transforms patient-clinician conversations into structured clinical notes in real-time, with deep EMR integrations. Powered by Linked Evidence and our purpose-built, auditable AI, we are the only company that maps AI-generated summaries to ground truth, helping providers quickly trust and verify the output. As pioneers in generative AI for healthcare, we are setting the industry standards for the responsible deployment of AI across health systems. We are a growing team of practicing MDs, AI scientists, PhDs, creatives, technologists, and engineers working together to empower people and make care make more sense. We have offices located in the Mission District in San Francisco, the SoHo neighborhood of New York, and East Liberty in Pittsburgh. The Role Overview As a part-time Art Directorat Abridge, you will help set a new standard for design in healthcare, raising the bar for how our most important campaigns and creative moments are crafted and brought to life. Working closely with the Abridge creative team, you\u2019ll bring direction, conceptual thinking, and hands on design expertise to priority campaigns and projects. You\u2019ll help translate complex ideas \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 700.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/abridge/jobs/art-director-part-time-contract",
+    "id": "opp_b601ce42b093",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:26:02+00:00",
+    "profit_score": 72.2,
+    "risk_flags": [],
+    "score": 69.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.3,
+          "evidence": "Estimated net $700 on $700 (100% margin). $147 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $233 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 69.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "art-director",
+      "content-art-director"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Art Director, Part Time Contract",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/abridge/jobs/art-director-part-time-contract",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_b76808eed9ec": {
@@ -23085,6 +24611,147 @@
       "probability_low": 25.0
     }
   },
+  "opp_d63802f9e522": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.72,
+    "budget_min": 0.43,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "PocketFM",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:44:51+00:00",
+    "description": "As a Promo Team Lead, you will manage a team of promo writers, sound engineers, video editors, and dubbing partners to create high-quality promotional ads for Pocket FM audio series. The role requires strong understanding of promo creation, ad storytelling, localization, dubbing workflows, quality control, team management, and creative optimization. You will oversee fresh promo creation, adaptation of ads from other geographies into Spanish, production quality, timely delivery, and reworks for ads that are not meeting performance benchmarks. Key Responsibilities 1. Team Leadership & Creative Direction Lead and guide promo writers, sound engineers, video editors, and external dubbing partners. Provide creative direction across writing, dubbing, audio mixing, video editing, and final delivery. Ensure the team is well-utilized, motivated, and aligned with business and creative goals. Build a high-ownership culture focused on quality, speed, and performance. 2. Promo Creation & Localization Oversee the creation of fresh promo ads, trailers, and long-form promotional scripts for audio series. Adapt successful ads from other geographies into Spanish Portuguese. Ensure all promos are culturally relevant, emotionally engaging, and suitable for Spanish audiences. Guide the team on hooks, story setup, emotional beats, cliffhangers, and audience entry points. 3. Production & Quality Control Own the end-to-end promo production process from brief to final asset delivery. Quality check \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 3.23,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pocketfm/jobs/promo-team-lead-spanish",
+    "id": "opp_d63802f9e522",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T08:44:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $3 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "creative-leadership",
+      "performance-marketing",
+      "localization",
+      "bilingual-english-spanish-content-production",
+      "campaign-management",
+      "marketing-team-lead",
+      "bilingual-team-lead",
+      "senior-promotions-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Promo Team Lead \u2013 Spanish",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/pocketfm/jobs/promo-team-lead-spanish",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_d8f90ed65252": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -24481,6 +26148,144 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_e49836602e9c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Assist World",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:25:49+00:00",
+    "description": "About the Company We are a growing lighting company with locations across North America, specialising in residential and commercial lighting. The business operates three Shopify stores covering wholesale, direct-to-consumer and luxury/heavy-trade customers, with a combined catalogue of approximately 4,000 SKUs . The Role We are looking for a Part-Time Shopify Developer to join the team and take ownership of the technical and development side of the Shopify stores. You will work alongside a full-time Shopify Manager who will handle the day-to-day site operations, catalogue management and content updates. Your focus will be on development, troubleshooting, integrations and ongoing technical improvements. This is not a from-scratch app development role . The business already has a custom product recommendation engine and several integrations in place. You will primarily be working within the existing environment \u2014 modifying, extending, troubleshooting and maintaining what is already there, as well as handling general Shopify theme and Liquid development. Key Responsibilities Modify, extend and troubleshoot existing Shopify apps and integrations, including the custom product recommendation engine. Develop and maintain Shopify themes using Liquid and Online Store 2.0 . Work across three Shopify stores, implementing new functionality and technical improvements as required. Support the technical setup of the business's four-tier B2B pricing and catalogue structure , including price \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/assist-world/jobs/shopify-developer",
+    "id": "opp_e49836602e9c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-16T07:25:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "shopify-developer",
+      "e-commerce-developer",
+      "shopify-plus-developer",
+      "liquid-developer",
+      "part-time-developer",
+      "shopify-frontend-developer",
+      "shopify-development-jobs",
+      "shopify-theme-developer",
+      "shopify-full-stack-developer",
+      "shopify-app-development",
+      "shopify-page-builder-developer",
+      "shopify-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Shopify Developer",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/assist-world/jobs/shopify-developer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e49b36d2a9b9": {
@@ -26620,6 +28425,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_f390e79a61cb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Jeeves",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T08:45:07+00:00",
+    "description": "Jeeves is a groundbreaking financial operating system built for global businesses that provides corporate cards, cross-border payments, and spend management software within one unified platform. The company operates across 20+ countries including Brazil, Canada, Colombia, Mexico, the United Kingdom, across Europe, and the United States, and serves over 5,000 clients ranging from venture-backed startups to SMBs around the world. With a mission to empower businesses with more efficient and cost-effective financial solutions worldwide, Jeeves combines cutting-edge financial technology with exceptional team expertise to transform the business financial landscape. Jeeves has been recognized as one of The Information's 50 Most Promising Startups in 2023, as well as a Y Combinator Top Company 2021-2023 and won \u201cFintech of the Year\" at the European Fintech Awards. Since graduating from Y Combinator in 2020, Jeeves has successfully raised over $380 million and is backed by top world-class investors including Andreessen Horowitz, Y Combinator, CRV, Tencent, Stanford University, Clocktower Ventures, and founders of more than 15 unicorns including David Velez (Nubank), Carlos Garcia (Kavak) and Sebasti\u00e1n Mej\u00eda (Rappi). Jeeves is rapidly growing our operations in Argentina and searching for a motivated, ambitious Account Executive to join and help scale our Argentina Sales organization. The Senior Account Executive will be responsible for closing high-value clients and growing the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jeeves/jobs/account-executive-3366038478",
+    "id": "opp_f390e79a61cb",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T08:45:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 50.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "sales",
+      "account-executive",
+      "b2b-sales",
+      "saas-sales",
+      "sales-development",
+      "senior-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Account Executive",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/jeeves/jobs/account-executive-3366038478",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_f3a4f0d2b9d5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -27867,6 +29806,151 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_fa191a32dbf9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Language Services Associates",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-16T11:00:25+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T07:55:36+00:00",
+    "description": "Overview: As an Internationally based audio/video interpreter for Soninke and French or Arabic in LSA\u2019s network of Independently Contracted Interpreters, you are responsible for handling telephone calls on demand and facilitating language communication for the Limited English Proficient (LEP) community in a variety of settings. Language Services Associates is continuously accepting qualified interpreters! Responsibilities: Provide effective audio and video interpreting through a web based platform Answer inbound calls in a timely manner Provide superior customer service Adhere to Code of Professional Conduct, including maintaining strict standards of confidentiality Adhere to all policies and procedures, including professional interpretation protocols and industry specific best practices Qualifications/Experience: Full fluency in both English and Soninke and French or Arabic Technology proficient (web-based platforms, email, Microsoft Word) An interpreting space that is quiet, secure, and free from outside noises 1+ years of professional interpreting experience preferred Industry specific certifications/trainings preferred (CMI, CCHI, Bridging the Gap, Cross-Cultural, etc.) LSA is passionate about what we do, which is helping people thrive in an increasingly global environment and in recognition of our commitment to excellence, LSA was named a Top Provider and a Top Workplace in 2026. If interested, please apply and include a copy of your resume, which emphasizes your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260916T110021Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/language-services-associates/jobs/international-audio-video-remote-soninke-and-french-or-arabic-interpreter-6685716434",
+    "id": "opp_fa191a32dbf9",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-16T07:55:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 40.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 5.2,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 40.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"professional interpreting experience preferred industry specific certi\"; \"bridging the gap\"; \"cross-cult\".",
+          "name": "Unmet stated requirements",
+          "points": 10.2
+        }
+      ],
+      "raw_total": 40.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "interpreters",
+      "remote-interpreter",
+      "video-interpreter",
+      "audio-interpreter",
+      "video-remote-interpreter",
+      "telephone-interpreter",
+      "remote-arabic-video-interpreter",
+      "arabic-remote-interpreter",
+      "remote-language-interpreter",
+      "remote-video-interpreter",
+      "remote-multilingual-interpreter",
+      "arabic-video-interpreter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "International Audio/Video Remote Soninke and French or Arabic Interpreter",
+    "updated_at": "2026-09-16T11:00:25+00:00",
+    "url": "https://himalayas.app/companies/language-services-associates/jobs/international-audio-video-remote-soninke-and-french-or-arabic-interpreter-6685716434",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_faada5362035": {

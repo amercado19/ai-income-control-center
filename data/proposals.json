@@ -500,6 +500,40 @@
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-13T15:46:24+00:00"
   },
+  "prop_e54bb05863da": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Art Director, Part Time Contract\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- Several third-party REST providers, each with credential-state degradation.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "api integrations",
+      "testing and deployment systems"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "What should happen when the upstream API rate-limits us mid-run - back off and resume, or fail the run loudly?",
+    "created_at": "2026-09-16T11:00:27+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_e54bb05863da",
+    "is_demo": false,
+    "opportunity_id": "opp_b601ce42b093",
+    "problem_statement": "About Abridge Abridge was founded in 2018 with the mission of powering deeper understanding in healthcare.",
+    "proposed_solution": "I would build the integration with the failure cases handled first - retries, rate limits, and a clear alert when an upstream source is down rather than silent bad data. Credentials stay in environment secrets. Tests cover the parsing so a provider format change is caught.",
+    "quoted_price": 700.0,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- Several third-party REST providers, each with credential-state degradation.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-16T11:00:27+00:00"
+  },
   "prop_e57996afd015": {
     "ai_disclosure_included": true,
     "approved_at": "",
