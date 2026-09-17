@@ -2175,6 +2175,151 @@
       "probability_low": 12.0
     }
   },
+  "opp_1442e7b75542": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 125.05,
+    "budget_min": 82.93,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Salesforce",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T12:16:07+00:00",
+    "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce 's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce . Applications will be accepted until 10/03/2026. Senior Technical Architect The Professional Services organization is focused on delivering Salesforce 's world-class product and project offerings to ensure customers are getting the most out of the Salesforce Platform. We help customers accelerate their path to value with Salesforce , focused on making sure you\u2019re set up for long-term success to tap into the full capacity of the Salesforce platform, fast. We help you plan your strategic roadmap and we make sure you are building Salesforce so that it\u2019s easy to maintain and adapt down the road, minimizing potential technical debt. Our team is made up of thousands of the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 621.98,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/salesforce/jobs/senior-technical-architect",
+    "id": "opp_1442e7b75542",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T12:16:07+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 43.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $622 on $622 (100% margin). $133 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $166 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "technical-architect",
+      "enterprise-architect",
+      "salesforce-consultant",
+      "solutions-architect",
+      "professional-services",
+      "senior-technical-solutions-architect",
+      "senior-architect",
+      "senior-architecture-engineer",
+      "senior-lead-architect",
+      "senior-it-architect",
+      "senior-application-architect",
+      "senior-systems-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Technical Architect",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/salesforce/jobs/senior-technical-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_1529d920bf92": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -2979,6 +3124,158 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_1bc6d4f23daa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T12:37:03+00:00",
+    "description": "Category: IT Services Location: Fort Western Province Sri Lanka For an international organization in Europe, we are urgently looking for a REMOTE Senior Java developer - Angular / NodeJS with good knowledge of Angular (Angular, AngularJS, Angular2, \u2026). The Senior Java developer - Angular / NodeJS is responsible for the design, implementation, testing, deployment, and support of multiple applications. Candidates need to be able to work the European schedule. During the corona crisis, interviews will be done through WEBEX, and travel is not required for the interviews. All positions are long-term. Tasks and Responsibilities: Ensure the project's technical knowledge is kept within the contracted company for the duration of the services; Perform the initial transfer of knowledge; Onsite or near-shore development, testing, and delivery of the Work Package in the development and maintenance environments, as well as assistance to migration to production if requested, as further detailed below under \"deliverables\".Troubleshoot and remediate system problems affecting availability and functionality; Generate and retain relevant technical documentation related to the technical services provided during the project period; Resolution of minor open issues relating to the 2017 IT enhancement project, depending on time availability and re-evaluation of project priorities if necessary; Troubleshooting and remediation of system issues impacting the availability or functionality of the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-java-developer-angular-x2f-nodejs-full-remote-2945329759",
+    "id": "opp_1bc6d4f23daa",
+    "is_demo": false,
+    "match_score": 43.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T12:37:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.9,
+          "evidence": "Matched 2 profile skills: excel, sql. Covers 18% of the 11 skills this listing names (missing: api, aws, css, docker)."
+        }
+      },
+      "final_score": 48.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 48.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "mysql",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "docker",
+      "javascript",
+      "node",
+      "html",
+      "css",
+      "java-developer",
+      "fullstack-development",
+      "java-development",
+      "frontend-development",
+      "backend-development",
+      "software-development",
+      "full-stack-engineer",
+      "senior-full-stack-developer-(java-+-angular)",
+      "senior-fullstack-engineer-(java-+-angular)"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Java developer - Angular &#x2f; NodeJS - Full Remote",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-java-developer-angular-x2f-nodejs-full-remote-2945329759",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_1c912078f401": {
@@ -12537,6 +12834,136 @@
       "probability_low": 0.0
     }
   },
+  "opp_587832746bac": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50,
+    "budget_min": 25,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T13:16:30+00:00",
+    "description": "Role Title: Subject Matter Expert \u2013 Chart & Data Visualization Analysis Role Type: Contractor Location: Remote micro1 is selecting Subject Matter Experts \u2013 Chart & Data Visualization Analysis (AI Training) to contribute to a high-impact client project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is ideal for data-driven professionals with a meticulous eye for interpreting domain-specific charts, excellent quantitative reasoning, and a passion for communicating complex concepts clearly in both written and verbal form. Contributors from Medicine & Biostatistics, Finance & Economics, Engineering & Physics, Earth Sciences & GIS, Data Science & Statistics, or Operations & Manufacturing are especially encouraged to express interest. Scope of Work Interpret and analyze domain-specific charts, graphs, and data visualizations with a high level of accuracy and domain terminology precision. Design clear, unambiguous questions that require multi-step quantitative reasoning based on information-rich charts. Develop objectively answerable tasks focused on in-depth reasoning, calculations, comparisons, and trend analysis. Provide precise answers along with detailed, step-by-step explanations of your reasoning and calculation process. Utilize correct chart \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 325.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/subject-matter-expert-chart-data-visualization-analysis",
+    "id": "opp_587832746bac",
+    "is_demo": false,
+    "match_score": 62.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T13:16:30+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 65.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $325 on $325 (100% margin). $53 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $83 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.1,
+          "evidence": "Matched 3 profile skills: data visualization, excel, statistics. Covers 40% of the 5 skills this listing names (missing: analytics, data science, rest)."
+        }
+      },
+      "final_score": 65.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "data science",
+      "statistics",
+      "analytics",
+      "data-visualization-specialist",
+      "data-visualization-consultant",
+      "data-visualization-analyst",
+      "subject-matter-expert",
+      "analytics-expert",
+      "senior-subject-matter-expert",
+      "technical-subject-matter-expert"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Subject Matter Expert \u2013 Chart & Data Visualization Analysis",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/subject-matter-expert-chart-data-visualization-analysis",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_59b34619f32d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12931,6 +13358,140 @@
       ],
       "probability_high": 32.0,
       "probability_low": 8.0
+    }
+  },
+  "opp_5b11383538ce": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T14:16:13+00:00",
+    "description": "Role Title: Life Sciences Research Assistant Role Type: Contractor Location: Remote micro1 is engaging Life Sciences Research Assistants to contribute to a customer's project focused on creating next-generation AI benchmarks. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. You'll design and author expert-level evaluation tasks, using authentic research artifacts and technical challenges that mirror advanced practice in the life sciences. Each assignment will test AI agents with realistic data sets, multi-step problem-solving, and rigorous evaluation rubrics that go beyond textbook science. Scope of Work Develop complex, authentic research evaluation tasks in the life sciences domain (e.g., experimental design critique, protocol analysis, and primary data interpretation). Source and synthesize research materials, including raw experimental data, lab protocols, technical literature, and supplementary documents. Define and document the correct methodological approach and biological interpretation for each task. Create comprehensive, multiple item rubrics targeting methodological rigor, data interpretation, and source fidelity for LLM-based evaluation. Ensure all tasks reflect the nuance, ambiguity, and depth of real-world scientific work \u2014 not simplified or \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 144.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/life-sciences-research-assistant-8300421307",
+    "id": "opp_5b11383538ce",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T14:16:14+00:00",
+    "profit_score": 42.9,
+    "risk_flags": [],
+    "score": 65.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.9,
+          "evidence": "Estimated net $144 on $144 (100% margin). $69 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: csv."
+        }
+      },
+      "final_score": 65.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "csv",
+      "pdf",
+      "research-assistant-biology",
+      "biological-research-assistant",
+      "research-assistant",
+      "healthcare-research-assistant",
+      "academic-research-assistant",
+      "life-sciences-internship",
+      "student-research-assistant"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Life Sciences Research Assistant",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/life-sciences-research-assistant-8300421307",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_5e63b5e781de": {
@@ -13693,6 +14254,151 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_62354d4b83f4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 115.38,
+    "budget_min": 76.92,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "ElitevoraSys LLC",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-17T15:00:23+00:00",
+    "description": "About Us ElitevoraSys is a modern engineering consultancy focused on building high-performance operational platforms, automation pipelines, and data-driven workflows for clients who need real results - not just software. We partner with organizations to design and deliver systems that streamline dispatch, asset management, field operations, and enterprise integrations. Job Description This is a remote position. Team: Engineering \u2013 Platform Consulting About ElitevoraSys ElitevoraSys is a modern engineering consultancy focused on building high-performance operational platforms, automation pipelines, and data-driven workflows for clients who need real results - not just software. We partner with organizations to design and deliver systems that streamline dispatch, asset management, field operations, and enterprise integrations. Our work blends clean architecture, practical engineering, and a startup mindset. We're hiring a Senior Software Engineer to help expand WorkPro, our flagship operations platform deployed across multiple client environments. You'll work in a small, senior team, own services end-to-end across the stack, and help shape the technical direction of a system used daily by real operational teams. This role is perfect for an experienced full-stack engineer who enjoys solving complex workflow problems, building reliable APIs, and working across modern and legacy systems. What You'll Do Backend & Integrations Build and maintain REST APIs using Java (Spring Boot), \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 769.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/elitevorasys-llc/jobs/software-engineer",
+    "id": "opp_62354d4b83f4",
+    "is_demo": false,
+    "match_score": 67.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T15:00:23+00:00",
+    "profit_score": 73.3,
+    "risk_flags": [],
+    "score": 70.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.5,
+          "evidence": "Estimated net $769 on $769 (100% margin). $162 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $256 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 24.9,
+          "evidence": "Matched 5 profile skills: automation, ci/cd, python, rest api, sql. Covers 29% of the 14 skills this listing names (missing: api, azure, django, docker)."
+        }
+      },
+      "final_score": 70.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 70.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "fastapi",
+      "django",
+      "azure",
+      "docker",
+      "kubernetes",
+      "ci/cd",
+      "automation",
+      "typescript",
+      "software-engineer",
+      "software-engineer-developer",
+      "software-developer",
+      "it-software-engineer",
+      "software-engineer-jobs",
+      "engineering-software-developer"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Software Engineer",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/elitevorasys-llc/jobs/software-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_62543a205c4b": {
@@ -14680,6 +15386,133 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_69dffde5bfe4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T13:20:36+00:00",
+    "description": "Role Title: Excel Specialist Role Type: Contractor Location: Remote micro1 is engaging Excel Specialists to support a customer\u2019s initiative focused on enhancing an LLM\u2019s proficiency in creating, understanding, and modifying Office Open XML files\u2014including complex .xlsx, .docx, and .pptx documents. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Design and simulate challenging, realistic business scenarios that require expert-level use of Excel, PowerPoint, and Word, mirroring tasks from your professional experience. Engage in structured, multi-turn conversations with an LLM, presenting complex document-related prompts and evaluating AI-generated deliverables. Create and review Office documents (.xlsx, .docx, .pptx), assessing two AI-generated solutions against professional standards and selecting the preferred output. Document feedback and provide detailed, side-by-side preference data to inform AI model improvements, focusing on quality, accuracy, and business relevance. Contribute domain-specific insight across multiple industries and business functions, ensuring the data collected covers diverse, real-world use cases. Communicate clearly and thoughtfully in both written and verbal formats to ensure precise understanding and actionable feedback for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/excel-specialist-2996931708",
+    "id": "opp_69dffde5bfe4",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-17T14:20:36+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 62.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 62.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 62.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "excel-specialist",
+      "excel-expert",
+      "spreadsheet-specialist",
+      "excel-automation-specialist",
+      "excel-data-analyst",
+      "microsoft-excel-developer",
+      "microsoft-office-specialist",
+      "microsoft-excel-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Excel Specialist",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/excel-specialist-2996931708",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_6a45b0019225": {
@@ -15870,6 +16703,139 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_721093dca87d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50,
+    "budget_min": 25,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T13:40:58+00:00",
+    "description": "Role Title: Subject Matter Expert \u2013 Data & Statistical Chart Analysis Role Type: Contractor Location: Remote micro1 is engaging Subject Matter Experts \u2013 Data & Statistical Chart Analysis (AI Benchmark) to contribute expertise on a customer project advancing the capabilities of next-generation AI systems. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Interpret complex data science and statistical visualizations\u2014such as Sankey diagrams, heatmaps, calibration curves, residual plots, correlation matrices, and distribution plots\u2014applying advanced professional judgement and terminology. Design clear, objective, multi-step analytical tasks and questions based on challenging visualizations, emphasizing quantitative reasoning beyond surface-level chart reading. Deliver precise, unambiguous answers with thorough, step-by-step written explanations, including explicit calculations, statistical inferences, or modeling logic as required. Utilize exact data science and statistical language, ensuring accuracy in referencing units, scales, axes, legends, and annotations in all outputs. Create tasks that require graphical reasoning, trend analysis, comparison, interpolation, and statistical inference, always avoiding ambiguous or subjective prompts. Participate in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 325.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/subject-matter-expert-data-statistical-chart-analysis",
+    "id": "opp_721093dca87d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T13:40:59+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 65.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $325 on $325 (100% margin). $53 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $83 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: statistics."
+        }
+      },
+      "final_score": 65.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data science",
+      "statistics",
+      "subject-matter-expert-mathematics",
+      "data-visualization-specialist",
+      "analytics-expert",
+      "senior-subject-matter-expert",
+      "statistics-expert",
+      "math-subject-matter-expert"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Subject Matter Expert \u2013 Data & Statistical Chart Analysis",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/subject-matter-expert-data-statistical-chart-analysis",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_725bf979eb90": {
@@ -20058,6 +21024,157 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_96bf6630e984": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 69.71,
+    "budget_min": 46.63,
+    "budget_type": "HOURLY",
+    "category": "reporting",
+    "client": "Wipfli",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T15:39:44+00:00",
+    "description": "Overview At Wipfli , people count. At Wipfli , our people are core to everything we do\u2014the catalyst behind our ability to create exceptional impact and extraordinary results. We believe in flexibility. We focus on relationships. We encourage each individual to follow their own path. People truly matter and they feel it. For those looking to make a difference and find a professional home, Wipfli offers a career-defining opportunity. This job can be worked remotely anywhere in the US! Responsibilities Responsibilities Review and deliver financial reports and KPIs. Assist with budgeting, forecasting, and cash flow modeling. Provide technical accounting assistance to clients and internal engagement teams. Develop and coach staff and senior accountants. Collaborate with advisory teams and external partners. Identify opportunities to transition clients to higher-value services in collaboration with advisory teams. Assist with onboarding new clients, including system setup and process documentation. Monitor team KPIs and implement process improvements. Support the integration of new technology platforms and train team members on system enhancements. Knowledge, Skills and Abilities Qualifications: Bachelor\u2019s degree in Accounting, Finance, or Business required 4\u20136 years of experience in public or private accounting, preferably within the construction industry Proven experience leading teams and managing multiple priorities in a fast-paced environment Strong understanding of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.7,
+    "estimated_net_revenue": 219.16,
+    "estimated_non_ai_effort": 0.94,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wipfli/jobs/manager-financial-reporting-construction-clients",
+    "id": "opp_96bf6630e984",
+    "is_demo": false,
+    "match_score": 34.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T15:39:45+00:00",
+    "profit_score": 62.9,
+    "risk_flags": [],
+    "score": 57.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.8h AI / 0.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.6,
+          "evidence": "Estimated net $219 on $219 (100% margin). $117 per effective hour vs $85 target (1.9 effective h = 0.9h human + 3.8h AI discounted). Leverage: $233 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 12.6,
+          "evidence": "Matched 2 profile skills: forecasting, reporting. Domain overlap: budgeting."
+        }
+      },
+      "final_score": 57.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"public or private accounting\"; \"preferably within the construction industry proven experience leading \"; \"managing multipl\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 57.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "forecasting",
+      "financial-reporting",
+      "construction-accounting",
+      "accounting-management",
+      "public-accounting",
+      "outsourced-accounting",
+      "construction-accounting-manager",
+      "client-accounting-manager",
+      "financial-reporting-manager",
+      "accounting-and-reporting-manager",
+      "financial-accounting-manager",
+      "real-estate-accounting-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manager, Financial Reporting - Construction Clients",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/wipfli/jobs/manager-financial-reporting-construction-clients",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (30-48%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "35%",
+          "to": "43%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "43%",
+          "to": "49%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "49%",
+          "to": "39%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 48.0,
+      "probability_low": 30.0
     }
   },
   "opp_9708061e9e6c": {
@@ -25260,6 +26377,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_b2b0a29d4f22": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Parexel",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T15:34:32+00:00",
+    "description": "When our values align, there's no limit to what we can achieve. At Parexel , we all share the same goal - to improve the world's health. From clinical trials to regulatory, consulting, and market access, every clinical development solution we provide is underpinned by something special - a deep conviction in what we do. Each of us, no matter what we do at Parexel , contributes to the development of a therapy that ultimately will benefit a patient. We take our work personally, we do it with empathy and we're committed to making a difference. PXL FSP is seeking LSADs in Canada! This is a remote role. Oncology experience is required for this role and cell therapy is strongly preferred! The Local Study Associate Director (LSAD) leads Local Study Team(s) (LSTs) at country level to deliver committed components of clinical studies according to agreed resources, budget and timelines complying with Client Procedural Documents, international guidelines such as ICH-GCP as well as relevant local regulations. The LSAD may perform site monitoring as needed to support the flexible capacity model. The LSAD is responsible to ensure that sites are identified, site qualifications performed, set up, initiated, monitored, closed and documentation archived. Trial and Site Administration Has the overall responsibility for the study commitments within the country and for timely delivery of data to required quality. Leads Local Study Team consisting of CRA(s), CSA(s), for assigned study/studies. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parexel/jobs/local-study-associate-director-fsp-387965045",
+    "id": "opp_b2b0a29d4f22",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-17T15:34:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 50% of the 4 skills this listing names (missing: aws, gcp)."
+        }
+      },
+      "final_score": 50.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "gcp",
+      "forecasting",
+      "clinical-operations",
+      "clinical-research",
+      "site-management",
+      "clinical-trial-management",
+      "pharmaceutical-research",
+      "local-study-management",
+      "clinical-project-management",
+      "site-monitoring",
+      "local-study-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Local Study Associate Director- FSP",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/parexel/jobs/local-study-associate-director-fsp-387965045",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_b601ce42b093": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29251,6 +30499,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_d3e5ce854343": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100,
+    "budget_min": 55,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T14:50:52+00:00",
+    "description": "Role Title: Mechanical Engineer Role Type: Contractor Location: Remote micro1 is selecting experienced Mechanical Engineer - AI trainers to contribute to a customer project focused on developing advanced AI systems for engineering applications. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Produce detailed 3D CAD models of simple mechanical components using platforms such as SolidWorks, NX, Creo, or CATIA. Interpret and analyze technical drawings, identifying critical dimensions, tolerances, and specifications. Document component requirements, technical specifications, and manufacturing tolerances in clear, structured formats. Contribute insights and feedback on conceptual stress analysis and finite element analysis (FEA) tasks, supporting model validation. Review, critique, and enhance technical documentation and CAD outputs for accuracy and clarity. Provide expert written and verbal feedback to help train and validate AI system outputs in the context of mechanical engineering. Collaborate asynchronously with cross-functional teams via remote communication tools, ensuring project objectives are achieved. Preferred Qualifications 5+ years of demonstrated, hands-on experience in mechanical design engineering, with a focus on 3D CAD modeling and FEA. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 412.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/mechanical-engineer-6909198514",
+    "id": "opp_d3e5ce854343",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T14:50:52+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 44.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $412 on $412 (100% margin). $88 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $110 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "mechanical-engineer",
+      "mechanical-design-engineer",
+      "mechanical-engineering-jobs",
+      "mechanical-engineering-specialist",
+      "mechanical-design-engineering",
+      "mechanical-project-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Mechanical Engineer",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/mechanical-engineer-6909198514",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_d58eb2beae65": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -31649,6 +33035,153 @@
       ],
       "probability_high": 98.0,
       "probability_low": 74.0
+    }
+  },
+  "opp_e4d35321c497": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 19,
+    "budget_min": 19,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Toloka AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-17T16:28:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-16T15:13:49+00:00",
+    "description": "Please submit your resume in English and indicate your level of English proficiency. Mindrift connects specialists with project-based AI opportunities for leading tech companies, focused on testing, evaluating, and improving AI systems. Participation is project-based, not permanent employment. What this opportunity involves Annotation is what helps AI make sense of the world. As an annotator, you may be invited to take part in online projects such as rating AI-generated content, evaluating factual accuracy, or comparing responses \u2014 when projects are available. While each project involves unique tasks, contributors may: Carefully review provided data (text, images, or videos); Label or classify content based on project guidelines; Identify and flag factually incorrect, sensitive, inappropriate, or unclear material. What we look for This opportunity is a good fit for candidates open to part-time, non-permanent projects. Ideally, contributors will have: Bachelor\u2019s degree in any discipline; Minimum 1 year of experience in any professional role; Logical thinking, fact-checking and reasoning abilities; Strong attention to detail and ability to understand and follow complex instructions; Strong communication skills, including the ability to ask clarifying questions when needed; Genuine interest in technology and artificial intelligence; Strong written and spoken English (C1+). How it works Apply \u2192 Pass qualification(s) \u2192 Join a project (when available) \u2192 Complete tasks \u2192 Get paid \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260917T162758Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 142.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/toloka-ai/jobs/freelance-annotator-english-ai-trainer-7912499565",
+    "id": "opp_e4d35321c497",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-17T15:13:50+00:00",
+    "profit_score": 18.4,
+    "risk_flags": [],
+    "score": 33.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.4,
+          "evidence": "Estimated net $142 on $142 (100% margin). $30 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $38 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "annotator",
+      "ai-trainer",
+      "data-annotation",
+      "content-moderation",
+      "freelance-ai-work",
+      "freelance-ai-annotator",
+      "freelance-english-ai-trainer",
+      "freelance-ai-annotation",
+      "freelance-annotator",
+      "freelance-ai-trainer",
+      "ai-annotation-specialist",
+      "ai-training-freelance",
+      "freelance-ai-linguistics-instructor",
+      "freelance-ai-model-trainer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance Annotator (English) - AI Trainer",
+    "updated_at": "2026-09-17T16:28:00+00:00",
+    "url": "https://himalayas.app/companies/toloka-ai/jobs/freelance-annotator-english-ai-trainer-7912499565",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e4d5265e3375": {
