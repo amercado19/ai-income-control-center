@@ -97,6 +97,37 @@
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-12T10:16:00+00:00"
   },
+  "prop_2c36661e064b": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Project Manager\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- Several third-party REST providers, each with credential-state degradation.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "api integrations"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "What does 'done' look like to you - what would make you call this a success?",
+    "created_at": "2026-09-17T11:11:08+00:00",
+    "deliverables": [
+      "For technical teams"
+    ],
+    "id": "prop_2c36661e064b",
+    "is_demo": false,
+    "opportunity_id": "opp_a90e24d513e1",
+    "problem_statement": "At N\u00fcvitek , customer success is our Ethos; together, we drive transformational outcomes.",
+    "proposed_solution": "I would start by pinning down exactly what 'done' looks like, because most of the cost in work like this comes from discovering halfway through that we meant different things. From there I build it as something repeatable rather than a one-off, handle the failure cases explicitly rather than assuming the happy path, and verify the output against your criteria before it reaches you.",
+    "quoted_price": 432.67,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- Several third-party REST providers, each with credential-state degradation.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-17T11:11:08+00:00"
+  },
   "prop_4162bcdaac6b": {
     "ai_disclosure_included": true,
     "approved_at": "",
@@ -597,6 +628,40 @@
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-13T15:46:24+00:00"
   },
+  "prop_deb31c1a8112": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Director of Product Line Management (US - Remote)\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- Model training, calibration reporting and backtesting with committed metric summaries.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "automated python data pipelines",
+      "scheduled github actions",
+      "model pipelines"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "What should happen when the upstream API rate-limits us mid-run - back off and resume, or fail the run loudly?",
+    "created_at": "2026-09-17T11:11:08+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_deb31c1a8112",
+    "is_demo": false,
+    "opportunity_id": "opp_8e4e8bd26f60",
+    "problem_statement": "AXON Networks delivers a robust AI-driven, analytics-based orchestration platform and a wide portfolio of next-gen high-speed routers that leverage the newest Wi-Fi technologies.",
+    "proposed_solution": "I would build the integration with the failure cases handled first - retries, rate limits, and a clear alert when an upstream source is down rather than silent bad data. Credentials stay in environment secrets. Tests cover the parsing so a provider format change is caught.",
+    "quoted_price": 1057.7,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Two scheduled production pipelines ingesting multiple third-party data sources on a schedule.\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- Model training, calibration reporting and backtesting with committed metric summaries.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-17T11:11:08+00:00"
+  },
   "prop_e54bb05863da": {
     "ai_disclosure_included": true,
     "approved_at": "",
@@ -699,6 +764,40 @@
     "submitted_at": "",
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-11T20:14:35+00:00"
+  },
+  "prop_ec8659896d38": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: AI/ML Engineer - Clearance Required\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- Model training, calibration reporting and backtesting with committed metric summaries.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "scheduled github actions",
+      "model pipelines",
+      "testing and deployment systems"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "What does 'done' look like to you - what would make you call this a success?",
+    "created_at": "2026-09-17T11:11:08+00:00",
+    "deliverables": [
+      "The completed work product in the format you specified",
+      "The script or process used, so you can re-run it yourself",
+      "A short note on method and any data-quality issues found"
+    ],
+    "id": "prop_ec8659896d38",
+    "is_demo": false,
+    "opportunity_id": "opp_d3273163c25d",
+    "problem_statement": "Overview LMI is seeking an Artificial Intelligence and Machine Learning (AI/ML) Engineer to support a Special Operations Command (SOCOM) mission partner with production machine learning, predictive forecasting, natural language processing, generative AI, and real-time decision-su",
+    "proposed_solution": "I would start by pinning down exactly what 'done' looks like, because most of the cost in work like this comes from discovering halfway through that we meant different things. From there I build it as something repeatable rather than a one-off, handle the failure cases explicitly rather than assuming the happy path, and verify the output against your criteria before it reaches you.",
+    "quoted_price": 439.88,
+    "relevant_experience": "Relevant work I have actually built and run:\n- A tiered cron scheduler with a phase gate that skips no-op slots to conserve Actions minutes.\n- Model training, calibration reporting and backtesting with committed metric summaries.\n- ruff + mypy + pytest + secret scanning + dependency audit in CI, and verify-before-publish that refuses to deploy a broken dashboard build.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-17T11:11:08+00:00"
   },
   "prop_f8d61601b152": {
     "ai_disclosure_included": true,
