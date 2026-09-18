@@ -28762,6 +28762,147 @@
       "probability_low": 15.0
     }
   },
+  "opp_a5cc5925133c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75,
+    "budget_min": 65,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T19:43:46+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Analytical Chemist Type: Contract Compensation: $65\u2013$75/hour Location: Remote Role Responsibilities Write challenging single-turn prompts in Chemistry and Chemical Safety , labeled as benign, dual-use, and adversarial. Evaluate model responses against a defined policy standard to ensure correct handling. Write reference answers with technical reasoning for correct responses. Differentiate routine professional questions from those fishing for misuse. Collaborate with practitioners to draw reliable lines in dual-use scenarios. Work independently and asynchronously to meet deadlines while improving AI model performance . Qualifications Must-Have Experience in detection and identification of hazardous compounds using GC-MS , LC-MS/MS , IR , NMR . Method development and validation for trace-level analysis. Background in environmental, occupational, or emergency-response sampling and analysis. Experience with reference standards, spectral libraries, and unknown identification. Laboratory accreditation, QA/QC , and proficiency testing. Compensation & Legal Hourly contractor , Paid weekly via Stripe Connect . Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 487.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/analytical-chemist-hazardous-compounds",
+    "id": "opp_a5cc5925133c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:43:48+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 43.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $488 on $488 (100% margin). $104 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $130 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "analytical-chemistry",
+      "chemical-safety",
+      "environmental-chemistry",
+      "laboratory-analysis",
+      "ai-training-data",
+      "analytical-chemist",
+      "analytical-chemistry-specialist",
+      "chemistry-analyst",
+      "analytical-scientist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Analytical Chemist - Hazardous Compounds",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/analytical-chemist-hazardous-compounds",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_a679f328ddcd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29335,6 +29476,142 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_aa661497c4c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Human Agency",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T19:42:13+00:00",
+    "description": "Location: Remote (U.S. or Canada) Type: US Applicants \u2013 Full-Time; Canadian Applicants \u2013 Independent Contractor **A note before you read further** The world is changing fast, and so is this role. We can't fully tell you what this job looks like in six months. That's true of every role at Human Agency right now. What we need from you, no matter what: accountability, curiosity, and a builder-first mindset. If that sounds exciting, keep reading. If it sounds intimidating but you're still interested, let's talk. If none of that sounds like you, that's okay. This probably isn't your spot. About Human Agency We're scaling rapidly and have a growing pipeline of opportunities that demand exceptional talent across disciplines. Our mission is to bring on individuals, from creative producers to technical experts to entrepreneurial leaders, who can help us realize this next chapter of growth. We are a company of doers. Leaders roll up their sleeves, teams work flat, and everyone contributes to what ships. Titles don't insulate us from feedback or basics. We invite critique, learn quickly, and keep raising the bar. The best ideas win here, no matter where they come from, because clients trust us to deliver the strongest outcomes every time. Our clients' missions, products, and bottom lines are sacred. We immerse ourselves in their world, becoming stewards of their goals and partners in solving big problems. Every product, strategy, or asset we create must be both beautiful and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/human-agency/jobs/ai-resilience-fund-manager-vancouver",
+    "id": "opp_aa661497c4c0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:42:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "fund-management",
+      "venture-capital",
+      "private-equity",
+      "investment-management",
+      "ai-strategy",
+      "ai-resilience",
+      "ai-technology-risk-manager",
+      "ai-portfolio-manager",
+      "ai-safety-and-resilience"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Resilience Fund Manager - Vancouver",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/human-agency/jobs/ai-resilience-fund-manager-vancouver",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_aa9e8caec72e": {
@@ -32219,6 +32496,145 @@
     "title": "Compensation Partner",
     "updated_at": "2026-09-16T20:59:19+00:00",
     "url": "https://himalayas.app/companies/lyten-inc/jobs/compensation-partner",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_bb6cc484e713": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.48,
+    "budget_min": 0.48,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "REIZ TECH UAB",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "EUR",
+    "deadline": "2026-11-17T19:44:21+00:00",
+    "description": "ABOUT REIZ TECH Reiz Tech is more than just an IT company. We are a trusted end-to-end IT advisor throughout clients\u2019 business lifecycle. We have a growing global presence in more than 30 countries and regions, united to deliver end-to-end IT solutions. Our talents work together remotely, and low leadership levels are decentralized for better communication, decision-making, and flexibility. ABOUT THE ROLE Join our Marketing team and support the growth of our fintech product. As a Digital & Product Marketing Specialist , you will play a key role in executing digital marketing initiatives, creating engaging content, and working closely with Product and Sales teams to drive customer acquisition, activation, and revenue growth . This is a hands-on junior-to-mid-level role combining digital marketing execution, content creation, product marketing, and sales enablement. Applications are open to candidates based in Lithuania only. RESPONSIBILITIES Digital & Growth Marketing Assist in planning, executing, and optimizing digital marketing campaigns across paid and organic channels, including Google, Meta, LinkedIn, and SEO . Support the optimization of landing pages, marketing funnels, and conversion rates. Track, analyze, and report on campaign performance using analytics tools and dashboards. Content Creation Create and maintain marketing content, including: Website and landing page copy Blog posts and educational articles Email campaigns and lifecycle communications \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 6.24,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/reiz-tech-uab/jobs/digital-product-marketing-specialist",
+    "id": "opp_bb6cc484e713",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:44:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $6 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: dashboard."
+        }
+      },
+      "final_score": 55.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "dashboard",
+      "analytics",
+      "digital-marketing",
+      "product-marketing",
+      "growth-marketing",
+      "content-marketing",
+      "marketing-specialist",
+      "product-marketing-specialist",
+      "digital-product-marketing-manager",
+      "digital-marketing-specialist",
+      "product-marketer",
+      "digital-product-marketing",
+      "product-marketing-strategist",
+      "product-marketing-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DIGITAL & PRODUCT MARKETING SPECIALIST",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/reiz-tech-uab/jobs/digital-product-marketing-specialist",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -35749,6 +36165,153 @@
       "probability_low": 15.0
     }
   },
+  "opp_ccfa260ec9cc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 83.44,
+    "budget_min": 57.74,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Sharp HealthCare",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T19:41:13+00:00",
+    "description": "Hours : Shift Start Time: Variable Shift End Time: Variable AWS Hours Requirement: 8/40 - 8 Hour Shift Additional Shift Information: Weekend Requirements: Not Specified On-Call Required: No Hourly Pay Range (Minimum - Midpoint - Maximum): $57.740 - $74.490 - $83.440 The stated pay scale reflects the range that Sharp reasonably expects to pay for this position. The actual pay rate and pay grade for this position will be dependent on a variety of factors, including an applicant\u2019s years of experience, unique skills and abilities, education, alignment with similar internal candidates, marketplace factors, other requirements for the position, and employer business practices. What You Will Do This position has a significant level of spend responsibility, oversees and manages approximately $50M-$100M per year of supplies/services with categories of medium-to-high complexity and risk, and will provide strategic decision-support and recommendations to clinical and non-clinical stakeholders to maximize and ensure the value of supplier performance at Sharp HealthCare . Delivers clinical improvement, cost savings, operational efficiencies, and/or added value by leading cross functional stakeholders through fact/evidence-based, data-driven sourcing initiatives with strong market and competitive analysis, creation of leverage, and professional negotiations to secure the best quality, service, and cost to meet Sharp's business needs. Lead the development of sourcing strategies for key \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 433.05,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sharp-healthcare/jobs/program-manager-sourcing-category-management",
+    "id": "opp_ccfa260ec9cc",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:41:14+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 61.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 61.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "sourcing-manager",
+      "category-management",
+      "strategic-sourcing",
+      "healthcare-supply-chain",
+      "procurement-manager",
+      "procurement-category-manager",
+      "supply-chain-program-manager",
+      "procurement-program-manager",
+      "category-procurement-lead",
+      "procurement-sourcing-manager",
+      "strategic-sourcing-manager",
+      "program-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Program Manager - Sourcing Category Management",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/sharp-healthcare/jobs/program-manager-sourcing-category-management",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_ccfc4b2c90d3": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -36825,6 +37388,170 @@
       "probability_low": 4.0
     }
   },
+  "opp_d4d9c64bae95": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 12.02,
+    "budget_min": 11.06,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Remote Recruitment",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "ZAR",
+    "deadline": "2026-11-17T19:41:46+00:00",
+    "description": "Salary: R23 000 \u2013 R25 000 per month Remote Recruitment is hiring a Sales Representative for our UK-based clients. This is a fully remote position offering South African professionals an excellent opportunity to work with leading UK employers from home. You will work UK business hours and join a supportive, fast-growing team. Key Responsibilities Reach out to new and existing clients to generate sales opportunities Present products and services clearly and persuasively Manage a pipeline of leads and follow up consistently Achieve monthly revenue targets and KPIs Collaborate with the wider sales team to share best practices Requirements 1+ year of sales experience (B2B or B2C) Strong communication and negotiation skills Experience using a CRM to manage leads and track activity Goal-oriented with a proven track record of meeting targets Comfortable working remotely with minimal supervision What We Offer 100% remote, UK business hours Career growth and professional development Remote Recruitment \u2013 connecting top South African talent with UK employers. Apply today. Originally posted on Himalayas",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 82.95,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/remote-recruitment/jobs/sales-representative",
+    "id": "opp_d4d9c64bae95",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:41:47+00:00",
+    "profit_score": 16.3,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 27.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.0,
+          "evidence": "Estimated net $83 on $83 (100% margin). $18 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $22 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 27.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"sales experience (b2b or b2c) strong communication\"; \"negotiation skills experience using a crm to manage leads\"; \"track activity goal-ori\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 39.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "sales",
+      "staffing-and-recruiting",
+      "b2b-sales",
+      "b2c-sales",
+      "retail-sales-representative",
+      "sales-and-marketing-representative",
+      "customer-sales-representative",
+      "dealer-sales-representative",
+      "sales-account-representative",
+      "business-sales-representative",
+      "sales-and-service-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Representative",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/remote-recruitment/jobs/sales-representative",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-16%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-20%",
+          "factor": "Platform reputation required",
+          "from": "45%",
+          "to": "25%",
+          "why": "Asks for reviews, Job Success Score or completed-job counts. This account has none."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "25%",
+          "to": "15%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "15%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "8%",
+          "to": "2%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 16.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_d58eb2beae65": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -37362,6 +38089,152 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_d7d505a90f25": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 60.67,
+    "budget_min": 33.7,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Centene Corporation",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T19:42:35+00:00",
+    "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you\u2019ll have access to competitive benefits including a fresh perspective on workplace flexibility. Applicants for this job have the flexibility to work remote from home anywhere in the Continental United States. Position Purpose: Participates in corrections process for all lines of business. Responsibilities include intaking and triaging suspected issues of non-compliance, entry of compliance issues into GRC tool and assignment/coordination of issues to corrections team members. Collaborates with compliance and business stakeholders to gather information, develop corrective action plans, identify and escalate barriers to progress and gather evidence of remediation. Updates GRC tool to support corrections reporting. Collaborates with compliance and business stakeholders to ensure adequate root cause analysis and development of corrective actions plans to effectively address non-compliance. Reviews and oversees progress towards remediation and documented key milestones in GRC tool. Identifies issues that require escalation and ensures they are addressed timely through established paths and processes. Conducts review of evidence to address root cause of issue and facilitate timely closure of issues. Develops, implements and continually refines corrections reporting that provides meaningful \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 252.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/centene-corporation/jobs/senior-compliance-corrections-specialist",
+    "id": "opp_d7d505a90f25",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:42:36+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 59.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $253 on $253 (100% margin). $54 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $67 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: excel, reporting. Covers 33% of the 3 skills this listing names (missing: analytics, rest)."
+        }
+      },
+      "final_score": 59.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "analytics",
+      "compliance-specialist",
+      "compliance-corrections",
+      "healthcare-compliance",
+      "regulatory-compliance",
+      "compliance-analyst",
+      "senior-compliance-specialist",
+      "senior-compliance-professional",
+      "senior-compliance-officer",
+      "senior-compliance-analyst",
+      "senior-compliance-advisor",
+      "senior-compliance-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Compliance Corrections Specialist",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/centene-corporation/jobs/senior-compliance-corrections-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_d8f90ed65252": {
@@ -40441,6 +41314,144 @@
       ],
       "probability_high": 80.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_e6ed7e5a6420": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80,
+    "budget_min": 80,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "FamilyWell Health",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T20:33:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T19:44:37+00:00",
+    "description": "Therapist - Women\u2019s Mental Health (NJ) Are you passionate about making a meaningful impact in women\u2019s mental health care? Here's your chance to be a vital part of FamilyWell's mission to enhance access to high-quality, equitable, and affordable mental health services for pregnant, postpartum, and menopausal individuals across the U.S. Background: FamilyWell Health is an AI-enabled mental health start-up dedicated to solving the women\u2019s mental health crisis by seamlessly embedding high quality, equitable, & affordable mental health care into OB/Gyn practices. FamilyWell provides comprehensive virtual mental health services designed specifically for integration into OB/Gyn and Family Medicine practices utilizing the psychiatric collaborative care model. FamilyWell\u2019s virtual care team model delivers evidence-based coaching, therapy, care coordination, and psychiatric services with specialized expertise in perinatal mental health and perimenopause/menopause. For more information: . Role: Location : Remote Department: Care Operations Job type: Part-time, 10-30 hours per week as a 1099/contractor Compensation: $80 per 60-minute session (inclusive of intake and follow-up) plus 2-hour allotment per month for administrative compensation Patient Care & Support Responsibilities: Provide individual tele-therapy to patients requesting regular sessions using FamilyWell\u2019s virtual platform. Conduct one-on-one psychological intakes for referred FamilyWell program patients, gathering \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T203357Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 800.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/familywell-health/jobs/women-s-mental-health-therapist-new-jersey-9090257708",
+    "id": "opp_e6ed7e5a6420",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T19:44:38+00:00",
+    "profit_score": 73.8,
+    "risk_flags": [],
+    "score": 69.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.6,
+          "evidence": "Estimated net $800 on $800 (100% margin). $168 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $267 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 69.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "therapy-services",
+      "women's-mental-health",
+      "perinatal-mental-health",
+      "telehealth-counseling",
+      "clinical-mental-health-services",
+      "women's-mental-health-therapist",
+      "women's-mental-health-therapy",
+      "women's-mental-health-counseling",
+      "women's-behavioral-health",
+      "maternal-mental-health-therapist",
+      "women's-health-counseling"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Women's Mental Health Therapist - New Jersey",
+    "updated_at": "2026-09-18T20:33:59+00:00",
+    "url": "https://himalayas.app/companies/familywell-health/jobs/women-s-mental-health-therapist-new-jersey-9090257708",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e82be43d18ae": {
