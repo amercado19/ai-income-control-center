@@ -14301,6 +14301,156 @@
       "probability_low": 32.0
     }
   },
+  "opp_59034b9ab87c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 103.37,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Sureify",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:40:09+00:00",
+    "description": "About the Role We're looking for a Director of GTM Strategy and Operations to be the operational engine behind our go-to-market team. We know our market \u2014 now we need to win it faster. This role is about building the infrastructure, automation, and analytics that compress our sales cycle, increase pipeline velocity, and give leadership the visibility to forecast with confidence. You'll sit at the intersection of sales operations, marketing operations, and revenue intelligence \u2014 owning the systems, data, and workflows that turn our GTM strategy into repeatable, measurable execution. This is not a \"keep the lights on\" role. You'll identify gaps, design solutions, and drive adoption across the team. What You'll Do Revenue Operations & Automation Own and evolve the GTM tech stack \u2014 Salesforce, HubSpot, and the surrounding ecosystem \u2014 ensuring clean data flow, tight integrations, and minimal manual work Design and implement automation across the funnel: lead routing, handoff workflows, enrichment pipelines, follow-up sequences, and deal stage triggers Build and maintain integrations between revenue tools (CRM, MAP, sequencing platforms, data enrichment, BI) so teams operate from a single source of truth Identify and eliminate process friction that slows deals down \u2014 from first touch through closed-won Partner with technical resources to architect scalable RevOps infrastructure; you set the strategy and requirements, others execute the builds Sales Operations & Cycle Optimization \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 1125.02,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sureify/jobs/director-gtm-strategy-and-operations",
+    "id": "opp_59034b9ab87c",
+    "is_demo": false,
+    "match_score": 80.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:40:10+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 79.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $182 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $288 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 29.8,
+          "evidence": "Matched 5 profile skills: automation, dashboard, excel, forecasting, sql. Covers 50% of the 10 skills this listing names (missing: analytics, api, looker, tableau)."
+        }
+      },
+      "final_score": 79.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 79.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "api",
+      "automation",
+      "zapier",
+      "dashboard",
+      "tableau",
+      "looker",
+      "forecasting",
+      "analytics",
+      "gtm-strategy",
+      "revenue-operations",
+      "sales-operations",
+      "rev-ops",
+      "go-to-market-operations",
+      "senior-director-of-gtm-strategy",
+      "gtm-strategy-director",
+      "director-of-go-to-market-strategy"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Director, GTM Strategy and Operations",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/sureify/jobs/director-gtm-strategy-and-operations",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_59b34619f32d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18996,6 +19146,145 @@
       "probability_low": 15.0
     }
   },
+  "opp_74d5b5464c5d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 115.38,
+    "budget_min": 96.15,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wpromote",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:38:16+00:00",
+    "description": "The Role As Vice President, Enterprise Growth, you will be a driving force on Wpromote 's Growth leadership team, responsible for winning net-new enterprise revenue and deepening our footprint within complex, multi-stakeholder organizations. You will partner closely with the SVP, Enterprise Growth to shape our go-to-market strategy, prioritize target accounts, and build the account-based growth engine that fuels Wpromote 's next chapter of growth in a market where legacy holding companies still control roughly $70B in enterprise value. This is a high-visibility seat for a strategic, commercially sharp operator who thrives in competitive, high-stakes deal environments and knows how to align cross-functional teams (strategy, media, creative, data, and technology) around a single winning vision. You will pair storytelling and closing instincts with real financial rigor, turning complex enterprise opportunities into scalable, high-margin, long-term partnerships. Success in this role means becoming a trusted advisor, both to Wpromote 's internal teams and to the enterprise clients you're fighting to win and grow. At Wpromote , we believe that great work is only possible with great people. Our goal is to build a better, more inclusive work environment and support our people at every stage of their careers by prioritizing a strong work-life balance through our policies and benefits listed below. As a Best Place to Work according to both Ad Age and Glassdoor and Adweek\u2019s Fastest \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 721.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wpromote/jobs/vice-president-enterprise-growth-agency-sales",
+    "id": "opp_74d5b5464c5d",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:38:16+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 59.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $721 on $721 (100% margin). $154 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $192 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: forecasting. Covers 25% of the 4 skills this listing names (missing: analytics, api, aws)."
+        }
+      },
+      "final_score": 59.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "forecasting",
+      "analytics",
+      "sales",
+      "agency-sales",
+      "enterprise-sales",
+      "business-development",
+      "strategic-sales",
+      "vice-president-enterprise-sales",
+      "vp-enterprise-sales",
+      "enterprise-sales-vp",
+      "vp-of-enterprise-accounts",
+      "enterprise-growth-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Vice President, Enterprise Growth (Agency Sales)",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/wpromote/jobs/vice-president-enterprise-growth-agency-sales",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_7556ec2e7886": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -20644,6 +20933,135 @@
       "probability_low": 58.0
     }
   },
+  "opp_7ceb6ef14cb1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "Enterra Solutions",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:38:13+00:00",
+    "description": "Project Manager (Technical) Location: Remote US Who We Are: Enterra Solutions is introducing the world\u2019s top brands and market leaders to true enterprise intelligence. Powered by our groundbreaking Enterra Autonomous Decision Science\u2122 Platform, we\u2019re delivering enterprise-wide optimization and decision-making to help businesses best achieve their most complex goals. We\u2019re providing real human insights to facilitate smarter, faster market moves. And we\u2019re turning unknowns into opportunities for unprecedented growth and agility. All with next-level speed, accuracy, autonomy, and continuous learning. We\u2019re shaping the future - join a dynamic, collaborative team where your contributions drive real impact. Overview The Project Manager (PM) oversees the planning, execution, and successful completion of projects, ensuring alignment with organizational goals, client expectations, and quality standards. The PM serves as a central point of communication between stakeholders and project teams, manages resources effectively, mitigates risks, and drives continuous process improvement to maximize the success and profitability of projects. What You'll Do: Define project scope, deliverables, tasks, timelines, and charters; develop comprehensive project plans in MS Project and Excel aligned with client and organizational requirements. Monitor progress against plans, adjust timelines and resources as needed, ensure high-quality delivery, and manage project closure activities including \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/enterra-solutions/jobs/project-manager-technical",
+    "id": "opp_7ceb6ef14cb1",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-18T09:38:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "technical-project-management",
+      "project-management",
+      "client-project-management",
+      "saas-project-management",
+      "technology-project-management",
+      "technical-project-manager",
+      "technology-project-manager",
+      "project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager (Technical)",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/enterra-solutions/jobs/project-manager-technical",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_7d9fdd91c295": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -21482,6 +21900,146 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_891542e49861": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "AbsenceSoft, LLC",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:01+00:00",
+    "description": "At AbsenceSoft, we\u2019re transforming the employee experience. Our secure, intuitive technology helps employers bring humanity, certainty, and efficiency to some of the most complex moments in the workplace. Built by HR professionals for HR professionals, we\u2019re proud of where we\u2019ve been and even more excited about where we\u2019re going. As our Instructional Designer, you'll build the training content that powers AbsenceSoft University \u2014 the courses, learning paths, and assessments customers and partners rely on to master our platform. You'll develop deep product expertise and partner closely with our compliance team to keep content accurate as leave and accommodations laws evolve. Working independently within established instructional design practices, you'll translate complex product changes and regulatory updates into clear, engaging content customers can actually use. As a trusted partner to Product, Compliance, and Customer Success, you'll directly support faster customer onboarding, stronger product adoption, and fewer support escalations. This role reports to the Director, Customer Education. WHAT YOU'LL DO Design and build courses, learning paths, and assessments \u2014 including quizzes and certification exam content \u2014 that reflect our product and how customers actually use it, applying sound instructional design practices and SCORM/xAPI standards. Build deep expertise in the AbsenceSoft platform, serving as the team's go-to resource on what's changing and why it matters for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 288.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/absencesoft-llc/jobs/instructional-designer",
+    "id": "opp_891542e49861",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:39:02+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 39.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $288 on $288 (100% margin). $62 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $77 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "instructional-design",
+      "curriculum-development",
+      "customer-education",
+      "learning-and-development",
+      "hr-technology-training",
+      "instructional-designer",
+      "instructional-experience-designer",
+      "instructional-design-specialist",
+      "instructional-systems-designer",
+      "instructional-design-consultant",
+      "learning-designer",
+      "instructional-developer",
+      "senior-instructional-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Instructional Designer",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/absencesoft-llc/jobs/instructional-designer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_89cd2ce6f9b8": {
@@ -27224,6 +27782,156 @@
       "probability_low": 15.0
     }
   },
+  "opp_a679f328ddcd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Expert Institute",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:14+00:00",
+    "description": "As a Client Advisor on the managed billing team, you'll be a crucial link between Expert Institute and our attorney-clients, directly impacting case outcomes through expert witness selection and strategic consulting. This role combines legal analysis, client service, and project management in a fast-paced, technology-driven environment. Key Responsibilities Strategic Client Partnership Lead comprehensive case intake conversations with attorneys Analyze case theories and develop targeted expert witness search strategies Translate complex legal needs into actionable research parameters Project Management Oversee end-to-end client engagements Ensure timely delivery and exceptional quality of all deliverables Relationship Management Build and maintain strong relationships with attorney clients Present findings and recommendations to key stakeholders Proactively identify and resolve potential challenges Serve as a trusted advisor throughout the litigation process Bachelor of Science or Bachelor of Arts 1-3 years of client or customer service experience Exceptional attention to detail and commitment to accuracy Strong analytical and critical thinking abilities Demonstrated ability to work independently in a fast-paced environment Outstanding written and verbal communication skills Proven track record of meeting deadlines and managing multiple priorities Natural problem-solver with a creative approach to challenges Previous experience in legal, research, or professional services \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/expert-institute/jobs/legal-client-advisor-remote-pst",
+    "id": "opp_a679f328ddcd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-18T09:39:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "analytics",
+      "legal-services",
+      "client-advisory",
+      "legal-consulting",
+      "legal-project-management",
+      "remote-legal-advisor",
+      "remote-legal-consultant",
+      "remote-legal-professional",
+      "remote-client-services-coordinator",
+      "remote-legal",
+      "remote-consulting-advisor-client-relations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Legal Client Advisor - Remote PST",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/expert-institute/jobs/legal-client-advisor-remote-pst",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (1-25%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-20%",
+          "factor": "Platform reputation required",
+          "from": "45%",
+          "to": "25%",
+          "why": "Asks for reviews, Job Success Score or completed-job counts. This account has none."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "25%",
+          "to": "15%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "15%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "2%",
+          "to": "7%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "7%",
+          "to": "13%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 25.0,
+      "probability_low": 1.0
+    }
+  },
   "opp_a7688bd0584d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29731,6 +30439,155 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_b5afad49431c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Sparq",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:39+00:00",
+    "description": "At Sparq , we help companies solve the right problems\u2014not just build more technology. We\u2019re a modern product engineering partner blending strategy, craftsmanship, and speed to help organizations modernize confidently in the age of AI. From data ecosystems to digital products and AI acceleration, we turn complexity into clarity and ideas into impact. If you\u2019re driven to build what\u2019s next, lead with empathy, and deliver excellence without ego, you\u2019ll feel right at home at Sparq . C2C is not available Must be authorized to work in the U.S. without sponsorship A Day in the Life: As a Senior Android Contractor, you will be responsible for defining, designing, and implementing on various mobile smartphones running Android. A key part of your responsibilities will include communicating with engineers on the mobile team, as well as other parties like UI designers and product managers. Develop mobile applications in Android with Kotlin Develop new functionality on our existing software products using Kotlin and Java Knowledgeable of design patterns (MVVM, MVC) Knowledgeable of asynchronous operations in both Java, and Kotlin Participate in a small, experienced, energetic team on a rapid, agile development schedule. Knowledge of scrum ceremonies and processes. Provide general technical support and training to Sparq and for our clients What it takes: Consultative approach and problem solving skills to successfully align digital solutions with long-term business goals of the client \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sparq/jobs/contractor-senior-android-engineer",
+    "id": "opp_b5afad49431c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:39:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "android-engineering",
+      "mobile-development",
+      "software-engineer",
+      "contract-engineering",
+      "android-development",
+      "senior-android-engineer",
+      "android-developer",
+      "senior-mobile-engineer-(android)",
+      "senior-android-architect",
+      "lead-android-engineer",
+      "senior-mobile-developer-(android)",
+      "senior-mobile-engineer",
+      "mobile-android-engineer",
+      "staff-android-engineer",
+      "android-software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "(Contractor) Senior Android Engineer",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/sparq/jobs/contractor-senior-android-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_b601ce42b093": {
@@ -32666,6 +33523,158 @@
       "probability_low": 15.0
     }
   },
+  "opp_c87c54e4e8f1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 151.44,
+    "budget_min": 105.77,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Apollo",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:38:15+00:00",
+    "description": "Apollo .io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in SaaS, raising approximately $250 million to date and valued at $1.6 billion. Apollo .io provides sales and marketing teams with easy access to verified contact data for over 210 million B2B contacts and 35 million companies worldwide, along with tools to engage and convert these contacts in one unified platform. By helping revenue professionals find the most accurate contact information and automating the outreach process, Apollo .io turns prospects into customers. Apollo raised a series D in 2023 and is backed by top-tier investors, including Sequoia Capital, Bain Capital Ventures, and more, and counts the former President and COO of Hubspot, JD Sherman, among its board members. As the Head of Partner Operations, you will build and own the operating system that allows Apollo 's Partnerships business to scale. Sitting within Revenue Operations, you will be the connective tissue between partner strategy and the company-wide systems, data, processes, and commercial infrastructure that make partner motions work. This is a high-leverage role at the intersection of Partnerships, Revenue Operations, Systems, Data, Finance, Legal. Partner Managers own relationships and execution; you own the operational \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1057.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/apollo/jobs/head-of-partner-programs-strategy-and-operations",
+    "id": "opp_c87c54e4e8f1",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:38:16+00:00",
+    "profit_score": 86.3,
+    "risk_flags": [],
+    "score": 73.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.9,
+          "evidence": "Estimated net $1,058 on $1,058 (100% margin). $223 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $353 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 3 profile skills: automation, dashboard, sql. Covers 50% of the 6 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 73.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "rest",
+      "automation",
+      "dashboard",
+      "analytics",
+      "partner-operations",
+      "revenue-operations",
+      "strategy-and-operations",
+      "business-operations",
+      "partnerships-manager",
+      "partner-programs-manager",
+      "partner-program-manager",
+      "partner-strategy-and-operations",
+      "head-of-partnerships",
+      "partnership-program-manager",
+      "senior-director-strategic-partnerships",
+      "senior-partnership-operations-specialist",
+      "partner-success-program-manager",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Head of Partner Programs, Strategy and Operations",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/apollo/jobs/head-of-partner-programs-strategy-and-operations",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_c910a33eb8b5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -33436,6 +34445,143 @@
     "title": "Customer Success Associate",
     "updated_at": "2026-09-16T16:20:13+00:00",
     "url": "https://himalayas.app/companies/samsara/jobs/customer-success-associate",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_ccfc4b2c90d3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 29.81,
+    "budget_min": 29.81,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Thriveworks",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:01+00:00",
+    "description": "Part Time LCSW Clinical Talk Therapist (Synchronous AHPC) - Remote Thriveworks is currently seeking Part-Time Independently Licensed LCSW to provide telehealth sessions in California*. *Candidate can live in any state in the USA but MUST be licensed in the state of California About the Job The Clinical Talk Therapist is an active member of the Corporation\u2019s clinical team and is responsible for moving us toward a world-class clinical experience. This role impacts multiple stakeholders, including Participants, Clinical Specialists, and the Health Care Industry at large. The Specialist delivers the best quality of care to the Participant to help them reach the agreed-upon goals for an improved quality of life and well-being. The Specialist partners closely with the Operations team to improve experiences of processes of efficiency and ease of access, as well as with the Clinical team to improve the delivery of clinical care and support. Who We Are Thriveworks is a trusted mental health provider with 340+ locations and a nationwide hybrid care model. We serve over 175,000 clients annually through more than 1.7 million sessions, and those numbers are growing. As a clinician-founded and clinician-led organization, we offer the tools, support, and community you need to build a fulfilling, long-term career. Compensation : Fee for service position ranging up to $62,000 based on licensure type/level, session volume, and bonus opportunities. Key Responsibilities Productivity standards \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 298.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/thriveworks/jobs/part-time-clinical-talk-therapist-synchronous-ahpc-remote-8626653576",
+    "id": "opp_ccfc4b2c90d3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:39:02+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 41.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $298 on $298 (100% margin). $63 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $99 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 41.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "clinical-therapist",
+      "lcsw",
+      "telehealth-therapist",
+      "mental-health-counselor",
+      "remote-therapist",
+      "remote-clinical-therapist",
+      "remote-talk-therapist",
+      "teletherapy-clinician",
+      "remote-mental-health-clinician",
+      "remote-mental-health-therapist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Part Time Clinical Talk Therapist (Synchronous AHPC) - Remote",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/thriveworks/jobs/part-time-clinical-talk-therapist-synchronous-ahpc-remote-8626653576",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -36344,6 +37490,153 @@
       ],
       "probability_high": 27.0,
       "probability_low": 3.0
+    }
+  },
+  "opp_e051667340a0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Zencore",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:39+00:00",
+    "description": "Zencore is a fast-growing company founded by former Google Cloud leaders, architects, and engineers. We are seeking candidates with significant experience in Google Cloud to join our team. Our engagements aim to eliminate obstacles, reduce risk, and accelerate timelines for customers transitioning to Google and seeking assistance with data and application modernization. We embed within customer teams to provide strategic guidance, facilitate technology decisions, and execute projects in a collaborative, co-development style. As a member of our Cloud Engineering team, you will be working with fast-paced innovative companies, leveraging Cloud as the key driver of their transformation. Our clients will look to you as their trusted advisor, someone they can rely on and who will be there to help them along their Google Cloud journey. You will be expected to work a large spectrum of technology and tools, including public cloud platforms, AI and LLMs, Kubernetes, data processing systems, databases, and more. Note: This will be a short-term contract. No expectation set that this will transition into a full time role What you will do... Working with our clients to understand their requirements and technical challenges. Using this input you will develop a technical design for a solution and communicate the value of your solution to the client team. You will work to develop delivery estimates and an estimated project plan. You will act as the lead technical member of the implementation \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/zencore/jobs/software-engineer-short-term-contract",
+    "id": "opp_e051667340a0",
+    "is_demo": false,
+    "match_score": 74.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:39:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 27.6,
+          "evidence": "Matched 4 profile skills: ci/cd, excel, github actions, python. Covers 50% of the 8 skills this listing names (missing: aws, gcp, kubernetes, streamlit)."
+        }
+      },
+      "final_score": 58.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "aws",
+      "gcp",
+      "kubernetes",
+      "github actions",
+      "ci/cd",
+      "streamlit",
+      "software-engineer",
+      "cloud-engineer",
+      "devops",
+      "data-engineering",
+      "application-development",
+      "contract-software-engineer",
+      "contract-software-engineering-jobs"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Software Engineer (Short Term Contract)",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/zencore/jobs/software-engineer-short-term-contract",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e0b265b8ab3c": {
@@ -42225,6 +43518,135 @@
       "probability_low": 25.0
     }
   },
+  "opp_fc283b8c2138": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "SPIRIT/21",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:40:22+00:00",
+    "description": "deine aufgaben Du ber\u00e4tst unsere Kunden bei der Implementierung von SAP Cloud ERP (S/4HANA Public Cloud) \u2013 von der Analyse bis zur kontinuierlichen Optimierung Du \u00fcbernimmst eigenverantwortlich Arbeitspakete und treibst deren Umsetzung aktiv voran Du analysierst Anforderungen, entwickelst passende L\u00f6sungen und stimmst Dich eng mit Kunden, Projektteams und Partnern ab Du begleitest Kunden bei ihrer digitalen Transformation und unterst\u00fctzt sie bei der Nutzung neuer Innovationen wie Business AI Du konzipierst und moderierst Workshops und Schulungen und vermittelst komplexe Themen verst\u00e4ndlich und praxisnah Du entwickelst Best Practices, Methoden und L\u00f6sungsans\u00e4tze f\u00fcr Cloud-ERP-Projekte weiter und bringst neue Ideen aktiv ein Du unterst\u00fctzt Presales-Aktivit\u00e4ten mit fachlichem Input, Aufwandssch\u00e4tzungen und Demos und arbeitest dabei eng mit Kunden und Teams zusammen Der Job wird der Jobrolle Consulting im Level F4 zugeordnet. dein profil Du verf\u00fcgst \u00fcber mehrj\u00e4hrige Erfahrung in der Implementierung oder Betreuung von SAP Cloud ERP (S/4HANA Public Cloud) Du verstehst zentrale Gesch\u00e4ftsprozesse wie Order-to-Cash, Procure-to-Pay und Record-to-Report Du hast Erfahrung in der eigenst\u00e4ndigen Umsetzung von Projektthemen oder Teilprojekten Du kennst idealerweise weitere SAP-Cloud-L\u00f6sungen wie SuccessFactors, SAP Sales Cloud oder BTP Du bist mit der Implementierungsmethodik SAP Activate vertraut und hast Erfahrung in der Konzeption und Weiterentwicklung von Cloudl\u00f6sungen Du analysierst \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/spirit-21/jobs/sap-public-cloud-consultant-w-m-d-intern-5397371267",
+    "id": "opp_fc283b8c2138",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-18T09:40:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sap-consulting",
+      "s4hana",
+      "cloud-erp",
+      "sap-public-cloud",
+      "digital-transformation",
+      "erp-consulting",
+      "sap-implementation",
+      "sap-public-cloud-consultant",
+      "sap-junior-consultant",
+      "junior-sap-consultant",
+      "sap-cloud-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAP Public Cloud Consultant (w/m/d) - intern",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/spirit-21/jobs/sap-public-cloud-consultant-w-m-d-intern-5397371267",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_fd901594c5d5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -42912,6 +44334,154 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_fef6108d28b0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Marketplace Ministries, Inc.",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-18T10:44:34+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T09:39:46+00:00",
+    "description": "It's fun to work in a company where people truly BELIEVE in what they're doing! We're committed to bringing passion and customer focus to the business. Please Note: While assigned hours are generally consistent from week to week, there are no guaranteed minimal hours and positional needs will vary depending on Chaplain availability and Client requirements. Position Summary Chaplains are the frontline staff fulfilling the mission and Christian ministry of MCHAP, by using their gifts and talents to serve company employees and their immediate families. Part-Time, Northwest, AR Essential Functions and Responsibilities \u2022 Serves as a messenger and conveyor of faith, mission, and purpose. \u2022 Interacts with companies, their employees, and the community in a manner that exhibits character through personal and spiritual disciplines. Ministry Makes regular visits to company worksites (usually weekly) to interact with employees and build relationships of trust and friendship motivated by Christian faith. Visits employees or immediate family members wherever care can be expressed and help given: hospitals, nursing homes, funeral homes, family residences, or other sites. May provide confidential pastoral discussions for problem issues of employees and their immediate family members including, but not limited to family matters, divorce, serious illness, care of aging parents, death and grief recovery, parenting, financial situations that may include debt discussions, budgeting, and other \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T104432Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/marketplace-ministries-inc/jobs/chaplain-part-time-northwest-ar",
+    "id": "opp_fef6108d28b0",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T09:39:47+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 1 profile skills: excel. Domain overlap: budgeting."
+        }
+      },
+      "final_score": 55.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "chaplain",
+      "pastoral-care",
+      "christian-ministry",
+      "employee-assistance-programs",
+      "spiritual-care-services",
+      "part-time-chaplain",
+      "part-time-religious-counselor",
+      "healthcare-chaplain"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Chaplain (Part-Time) - Northwest AR",
+    "updated_at": "2026-09-18T10:44:34+00:00",
+    "url": "https://himalayas.app/companies/marketplace-ministries-inc/jobs/chaplain-part-time-northwest-ar",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "20%",
+          "to": "28%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "28%",
+          "to": "34%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "34%",
+          "to": "24%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
     }
   }
 }
