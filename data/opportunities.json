@@ -406,6 +406,136 @@
       "probability_low": 0.0
     }
   },
+  "opp_01a2d9224263": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 65,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T00:21:17+00:00",
+    "description": "Role Title: Purchasing Agent Role Type: Contractor Location: Remote micro1 is engaging Purchasing Agents to contribute to a customer's project focused on advancing AI systems in the procurement domain. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Design and author expert-level procurement tasks reflecting real-world complexity, including RFP drafting, bid evaluation, supplier scoring, and contract negotiation scenarios. Source, create, and format realistic procurement artifacts such as supplier quotations, specifications sheets, pricing tables, and technical documentation in multiple inconsistent formats. Define defensible sourcing recommendations with clear, well-reasoned justifications that mirror sophisticated procurement decision-making. Develop comprehensive grading rubrics to be used by AI grading agents, focusing on accurate evaluation of agent performance in vendor comparison, contract reasoning, and bid analysis. Ensure tasks accurately represent the granular challenges of procurement in specialized domains such as IT, industrial, or professional services. Provide clear, well-structured written and verbal communication to articulate procurement challenges, task context, and evaluation standards. Collaborate with micro1 \u2019s project team to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/purchasing-agent-7011660444",
+    "id": "opp_01a2d9224263",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T00:21:17+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "purchasing-agent",
+      "buying-agent",
+      "purchasing-advisor",
+      "purchasing-buyer",
+      "procurement-buyer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Purchasing Agent",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/purchasing-agent-7011660444",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_01c1dc3dcc46": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5453,6 +5583,139 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_24d42f0884c5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 38.46,
+    "budget_min": 26.44,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "iwoca",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "GBP",
+    "deadline": "2026-11-17T01:38:41+00:00",
+    "description": "The company It's still difficult for business owners to sell their business, or buy others, in the sub-\u00a310m enterprise value market. Information asymmetry, lack of knowledge and low transaction values make it hard, and most M&A firms shy away from the segment because they can't serve it profitably. A generation of owner-managers is approaching retirement, and most of them have no realistic route to a sale. manda exists to fix that. We match buyers with sellers in the part of the market everyone else ignores, and we finance acquisitions ourselves so buyers arrive pre-qualified and often pre-financed. We've sold the first businesses, funded the first acquisition loans, and we're now opening the platform up beyond the businesses that already bank with us. manda is part of iwoca , one of Europe's leading fintech lenders. Since 2012 iwoca has provided more than \u00a34 billion in funding and its mission is to support one million SMEs in their defining moments. That backing is why we can serve this market where others can't: a deep footprint in the SME economy with 150,000+ UK customers, the data and infrastructure of an established lender, and the ability to build clean, automated processes instead of running an advisory firm on spreadsheets. We\u2019re looking for a Partnership Manager - manda ( iwoca 's M&A Platform) We're looking for someone to build the introducer network that brings business owners to manda, iwoca 's M&A platform. Accountants, solicitors, wealth managers and brokers \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 198.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/iwoca/jobs/partnerships-manager",
+    "id": "opp_24d42f0884c5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T01:38:42+00:00",
+    "profit_score": 20.1,
+    "risk_flags": [],
+    "score": 34.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.7,
+          "evidence": "Estimated net $198 on $198 (100% margin). $42 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $53 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "partnerships-manager",
+      "partnerships-account-manager",
+      "partnership-development-manager",
+      "partnerships-sales-manager",
+      "strategic-partnerships-manager",
+      "strategic-partnership-manager",
+      "partnership-account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Partnerships Manager",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/iwoca/jobs/partnerships-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_25d8879c6bdb": {
@@ -18733,6 +18996,284 @@
       "probability_low": 15.0
     }
   },
+  "opp_7556ec2e7886": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 150,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T00:01:45+00:00",
+    "description": "Pay: $100\u2013$150/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you choose the hours and days you work, including weekends if needed We are looking for highly skilled Open-Source Software Engineers to contribute to an AI training project involving software development, repository exploration, debugging, system architecture, and code evaluation. The work involves creating, solving, reviewing, and validating challenging software-engineering tasks across front-end and back-end systems and helping with translating full coding builds from one particular language into another. We are particularly interested in engineers who own or maintain open-source repositories or have made meaningful contributions to established projects. Contributions should demonstrate real engineering ability, not only documentation updates, dependency bumps, formatting changes, or minor typo corrections. Candidates should be prepared to discuss specific repositories, pull requests, issues, and code they personally authored. What You\u2019ll Work On Explore and understand unfamiliar software repositories. Implement, modify, and debug front-end and back-end components. Trace data and execution across interfaces, services, libraries, APIs, databases, and external dependencies. Reproduce software issues and identify their underlying causes. Implement solutions that fit an existing project\u2019s architecture and contribution standards. Write unit, integration, regression, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1000.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/open-source-contributor-github",
+    "id": "opp_7556ec2e7886",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T00:01:46+00:00",
+    "profit_score": 85.2,
+    "risk_flags": [],
+    "score": 62.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.7,
+          "evidence": "Estimated net $1,000 on $1,000 (100% margin). $211 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $333 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: python. Covers 20% of the 5 skills this listing names (missing: api, javascript, rest, typescript)."
+        }
+      },
+      "final_score": 62.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "javascript",
+      "typescript",
+      "open-source-contributor",
+      "open-source-developer",
+      "open-source-software-developer",
+      "open-source-engineer",
+      "open-source-software-engineer",
+      "open-source-software-maintainer",
+      "open-source-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Open Source Contributor (GitHub)",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/open-source-contributor-github",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_75ab6e73ae6d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 84.62,
+    "budget_min": 72.12,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "abridge",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T01:23:40+00:00",
+    "description": "About Abridge Abridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our AI-powered platform was purpose-built for medical conversations, improving clinical documentation efficiencies while enabling clinicians to focus on what matters most\u2014their patients. Our enterprise-grade technology transforms patient-clinician conversations into structured clinical notes in real-time, with deep EMR integrations. Powered by Linked Evidence and our purpose-built, auditable AI, we are the only company that maps AI-generated summaries to ground truth, helping providers quickly trust and verify the output. As pioneers in generative AI for healthcare, we are setting the industry standards for the responsible deployment of AI across health systems. We are a growing team of practicing MDs, AI scientists, PhDs, creatives, technologists, and engineers working together to empower people and make care make more sense. We have offices located in the Mission District in San Francisco, the SoHo neighborhood of New York, and East Liberty in Pittsburgh. The Role The Finance & Strategy team is an integral thought partner to Abridge\u2019s cross-functional leadership. As a Finance & Strategy Lead, you\u2019ll have a unique opportunity to play a pivotal part in our financial management and strategic planning process. The role will be integral in driving our company's financial health and visibility, and offers a chance to work at the cutting edge of AI technology and healthcare. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 721.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/abridge/jobs/finance-strategy-lead",
+    "id": "opp_75ab6e73ae6d",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T01:23:40+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 76.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $721 on $721 (100% margin). $152 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $240 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: automation, excel, financial modeling. Covers 75% of the 4 skills this listing names (missing: rest)."
+        }
+      },
+      "final_score": 76.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 76.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "automation",
+      "financial modeling",
+      "finance-strategy-lead",
+      "strategic-finance-lead",
+      "finance-strategy-manager",
+      "financial-strategy-director",
+      "strategic-finance-manager"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Finance & Strategy Lead",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/abridge/jobs/finance-strategy-lead",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_75efe85715df": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -20376,6 +20917,145 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_82ba6b1cfa0f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 350,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T00:49:03+00:00",
+    "description": "Role Title: Consultant - Executive Presentation Review & Reconstruction Role Type: Contractor Location: Remote micro1 is engaging expert Consultants - Executive Presentation Review & Reconstruction to contribute to a high-impact customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Receive business slide images and reconstruct them in Microsoft PowerPoint with professional accuracy and refinement. Enhance the clarity, visual structure, data visualization, and storytelling impact of executive-level presentations. Draft a thorough reasoning log for each task, detailing every slide change made and every element intentionally left unchanged, including rationale for all decisions. Apply best practices in executive communication \u2014 including message hierarchy, action titles, horizontal/vertical logic, and exhibit selection \u2014 to every assignment. Edit and restructure written and visual slide content for coherence, impact, and alignment with consulting standards. Ensure deliverables meet high standards of management consulting, with a focus on both outcome and methodological transparency. Communicate findings and recommendations in clear, concise written and verbal formats. Preferred Qualifications Minimum 2 years client-facing experience at a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1125.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/consultant-executive-presentation-review-reconstruction",
+    "id": "opp_82ba6b1cfa0f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T00:49:03+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 71.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $240 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: data visualization."
+        }
+      },
+      "final_score": 71.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "presentation-development",
+      "executive-consultant",
+      "presentation-specialist",
+      "business-presentation-designer",
+      "presentation-designer",
+      "corporate-presentation-design"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Consultant - Executive Presentation Review & Reconstruction",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/consultant-executive-presentation-review-reconstruction",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_8326b20dbe81": {
@@ -34651,6 +35331,139 @@
     "title": "Freelance Graphic Designer",
     "updated_at": "2026-09-15T20:57:33+00:00",
     "url": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-480517051",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_d9f85c75e3a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 55,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-18T03:42:05+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-17T00:00:51+00:00",
+    "description": "Role Title: Fire Dispatcher - Emergency Communications Specialist Role Type: Contractor Location: Remote micro1 is selecting Fire Dispatcher - Emergency Communications Specialists to contribute their operational expertise to a dynamic customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This is an opportunity for seasoned fire dispatch professionals to share their practical knowledge of prioritizing and routing emergency requests while applying standardized protocols in high-pressure environments. Expertise in both written and verbal communication will be essential in providing clear, actionable feedback and data for AI development. Scope of Work Receive and analyze simulated or real-time emergency requests, determining urgency and allocating appropriate resources based on established protocols. Apply triage skills to prioritize incoming information from multiple communication channels, ensuring timely and accurate routing. Utilize standardized checklists and dispatching scripts to maintain procedural consistency and compliance with best practices. Document scenario responses and communication flows in a clear and structured format for AI system learning. Evaluate, critique, and suggest improvements to protocols or automated responses generated by AI \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260918T034203Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/fire-dispatcher-emergency-communications-specialist-1222299422",
+    "id": "opp_d9f85c75e3a8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T00:00:51+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "emergency-services-dispatcher",
+      "emergency-dispatcher",
+      "emergency-response-dispatcher",
+      "dispatch-specialist",
+      "emergency-dispatch",
+      "emergency-call-handling-specialist",
+      "communications-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Fire Dispatcher - Emergency Communications Specialist",
+    "updated_at": "2026-09-18T03:42:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/fire-dispatcher-emergency-communications-specialist-1222299422",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
