@@ -1340,6 +1340,134 @@
       "probability_low": 20.0
     }
   },
+  "opp_0480ab9b95ec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "ProSidian Consulting, LLC",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-18T13:34:47+00:00",
+    "description": "ProSidian Seeks an Environmental Equity Environmental Scientist (EJE4) (Engagement Team | Program Manager - Exempt 874-1 Consultant) This service supports Sector Sector Clients (For Present / Future Requirements) and ProSidian Team Members work as part of an Engagement Team Cadre (Labor Category ) to fulfill FFP - Firm Fixed Price (FFP) Task Order (TO) requirements for a ProSidian Consulting is seeking a highly skilled and motivated Environmental Scientist to join our team in supporting the Federal Energy Regulatory Commission's (FERC) efforts to promote environmental justice and equity. As an Environmental Scientist specializing in environmental justice, the successful candidate will play a crucial role in reviewing and analyzing environmental assessment documents and policies from federal, state, and local agencies regarding determinations of geographic reach and scope for identifying and assessing infrastructure project impacts on environmental justice communities. Your work will contribute to FERC's implementation of its first Equity Action Plan per Executive Order 13985. The Executive Order on Advancing Racial Equity and Support for Underserved Communities Through the Federal Government, issued on January 20, 2021, aims to address systemic barriers and promote equal opportunity for underserved communities and individuals in the United States. The order emphasizes the importance of advancing equity, civil rights, racial justice, and equal opportunity across all federal \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/prosidian-consulting-llc/jobs/environmental-justice-environmental-scientist-eje4",
+    "id": "opp_0480ab9b95ec",
+    "is_demo": false,
+    "match_score": 41.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-19T13:34:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 51.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "environmental-science",
+      "environmental-justice",
+      "environmental-consulting",
+      "compliance",
+      "senior-environmental-scientist",
+      "environmental-scientist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Environmental Justice - Environmental Scientist (EJE4)",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/prosidian-consulting-llc/jobs/environmental-justice-environmental-scientist-eje4",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_04ab9701e36f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -1610,6 +1738,155 @@
       ],
       "probability_high": 19.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_059c59b7fc0a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 40.87,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "JLL",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "CAD",
+    "deadline": "2026-11-18T13:39:14+00:00",
+    "description": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong. Whether you\u2019ve got deep experience in commercial real estate, skilled trades or technology, or you\u2019re looking to apply your relevant experience to a new industry, join our team as we help shape a brighter way forward. Sp\u00e9cialiste en approvisionnement et contrats (bilingue) \u2013 JLL Ce que ce poste implique : En tant que Sp\u00e9cialiste bilingue en approvisionnement et contrats chez JLL , vous jouerez un r\u00f4le central dans la gestion des relations avec les fournisseurs et des cycles de vie des contrats \u00e0 travers nos op\u00e9rations am\u00e9ricaines et canadiennes. Ce poste est essentiel pour assurer l'int\u00e9gration harmonieuse des fournisseurs, la conformit\u00e9 et la gestion des risques pour plusieurs portefeuilles clients. Vous travaillerez dans un environnement dynamique et rapide en mode t\u00e9l\u00e9travail, soutenant \u00e0 la fois les comptes \u00e9tablis et les nouvelles mises en \u0153uvre client, tout en servant de liaison cl\u00e9 entre les fournisseurs, les \u00e9quipes op\u00e9rationnelles et les parties prenantes internes. Vos comp\u00e9tences bilingues en anglais et en fran\u00e7ais seront essentielles pour naviguer dans divers environnements r\u00e9glementaires et \u00e9tablir des partenariats solides \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jll/jobs/specialiste-en-approvisionnement-et-contrats-bilingue-sourcing-contracts-s",
+    "id": "opp_059c59b7fc0a",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-19T13:39:14+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 58.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 58.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "sourcing-specialist",
+      "contracts-specialist",
+      "procurement-specialist",
+      "supply-chain-management",
+      "supplier-relationship-management",
+      "bilingual-procurement",
+      "sourcing-contract-specialist",
+      "supply-chain-procurement-specialist",
+      "supplier-sourcing-specialist",
+      "sourcing-and-procurement-analyst",
+      "supply-chain-contracts-specialist",
+      "senior-sourcing-specialist",
+      "procurement-contracts-specialist",
+      "strategic-sourcing-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sp\u00e9cialiste en approvisionnement et contrats (bilingue) / Sourcing & Contracts S",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/jll/jobs/specialiste-en-approvisionnement-et-contrats-bilingue-sourcing-contracts-s",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_06bfe83fcd5b": {
@@ -2030,6 +2307,159 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_0c473a68876a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 10,
+    "budget_min": 9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "1840 & Company",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-18T13:36:47+00:00",
+    "description": "We are seeking a motivated and results-driven Inside Sales Consultant to join our growing motorcoach company. This role is responsible for following up on inbound leads / existing quotes, gathering feedback on open quotes, and converting inquiries into confirmed reservations. The ideal candidate is an excellent communicator, highly organized, and comfortable working in a fast-paced, customer-focused environment. This position plays a critical role in driving revenue and delivering an exceptional customer experience from first contact to booking. Working Hours: 10:00 AM \u2013 6:00 PM EST Key Responsibilities: Lead / Quote Follow-Up & Conversion Follow up on existing quotes at pre-determined times Engage prospects to understand trip details, needs, and decision timelines Convert qualified leads into booked reservations Customer Relationship Management Build rapport with schools, corporate clients, tour groups, and private customers Maintain consistent communication throughout the sales cycle Provide professional, friendly, and knowledgeable service Objection Handling & Closing Address customer questions regarding pricing, availability, and safety Reinforce company value propositions (safety record, reliability, service quality) Proactively close sales and secure deposits Lead Management & CRM Tracking Maintain accurate records of all interactions in CRM system Track lead status, follow-ups, and conversion outcomes Ensure no opportunities fall through the cracks Feedback Collection \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 67.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/1840-company/jobs/inside-sales-consultant-3210570655",
+    "id": "opp_0c473a68876a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-19T13:36:48+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 56.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $68 on $68 (100% margin). $14 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $18 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 56.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "inside-sales",
+      "call-center-representative",
+      "customer-service",
+      "sales",
+      "sales-consultant",
+      "internal-sales-consultant",
+      "inside-sales-professional",
+      "inside-sales-representative",
+      "inside-sales-specialist",
+      "inside-sales-executive",
+      "inside-sales-associate",
+      "inbound-sales-consultant",
+      "sales-inside-sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Inside Sales Consultant",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/1840-company/jobs/inside-sales-consultant-3210570655",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_0c9923096b88": {
@@ -19656,6 +20086,156 @@
       "probability_low": 32.0
     }
   },
+  "opp_6c5812087adb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120.19,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Sanctuary Computer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We are hiring a\u00c2 contract-based Senior Shopify Developer \u00c2 to contribute to our Design and Development Team. Original Job posting link here \u00f0\u009f\u008c\u008e About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy & Gagosian. We\u00e2\u0080\u0099re the software team behind innovative products like The Light Phone & Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse studio culture. We work on projects that bring value to our world, and we balance deep care for the work we do with a genuine curiosity about life outside of our jobs. Sanctuary Computer \u00c2 \u00e2\u0080\u0094 Development At Sanctuary Computer we\u00e2\u0080\u0099re building a different type of technology shop \u00e2\u0080\u0093 one that prioritizes close collaboration between the client and the craftsperson. Our projects range from design-forward websites, to robust web apps, to native mobile development. XXIX \u00c2 \u00e2\u0080\u0094 Design When we started XXIX in 2013, we set out to create a different kind of design studio and we\u00e2\u0080\u0099ve thrived because we continually ask what a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137405",
+    "id": "opp_6c5812087adb",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-18T13:29:53+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 2 profile skills: etl, sql. Covers 15% of the 13 skills this listing names (missing: analytics, api, css, graphql)."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "etl",
+      "api",
+      "rest",
+      "graphql",
+      "playwright",
+      "typescript",
+      "node",
+      "css",
+      "analytics",
+      "ocr",
+      "dev",
+      "engineer",
+      "senior",
+      "front end",
+      "shopify"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Senior Shopify Developer",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_6c5c43125e29": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -33739,6 +34319,138 @@
       "probability_low": 21.0
     }
   },
+  "opp_b41dda8c8c1d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "The Church of Jesus Christ of Latter-day Saints",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-18T13:41:46+00:00",
+    "description": "This position is central to the missionaries' role to 'Invite others to come unto Christ by helping them receive the restored gospel through faith in Jesus Christ and His Atonement, repentance, baptism, receiving the gift of the Holy Ghost, and enduring to the end.' Teachers are an entry support level individual contributor that helps train missionaries in a variety of settings and topics. Training may include language skills, gospel doctrine/Preach My Gospel instruction, and missionary skill development. Teachers may train both junior and senior missionaries before they enter the MTC, while at the MTC and after leaving the MTC. They follow an approved curriculum and may be selected to participate in pilots and initiatives. Originally posted on Himalayas",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-church-of-jesus-christ-of-latter-day-saints/jobs/australia-infield-mentor",
+    "id": "opp_b41dda8c8c1d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-19T13:41:47+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 31.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 31.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "missionary-training",
+      "training",
+      "religious-education",
+      "mentorship",
+      "teaching",
+      "infield-mentor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Australia: Infield Mentor",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/the-church-of-jesus-christ-of-latter-day-saints/jobs/australia-infield-mentor",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b51b7d15876a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -34710,6 +35422,133 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_bae3f22991fd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ergomed",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-18T13:40:33+00:00",
+    "description": "The EDC Developer within the ERGOMED Data Management (DM) department is responsible for all tasks linked to the building of the EDC application for complex projects. The EDC Developer represents a position under direction of the Director of Data Management, with oversight by the Project Data Manager on a project level. ROLE AND RESPONSIBILITIES Creates EDC system in terms of structure, workflow, edit checks and user roles & permissions; based on data standards (CDASH), study protocol and standard eCRF templates. Including, where applicable: Randomisation ePRO (including licensing, validation & translation) IMP Management Targeted SDV Any other additional (non-core) EDC functionality Creates all study level documentation related to EDC System, including, but not limited to: Specifications Test Plans Study specific training materials Performs post-live changes to EDC system and applicable reporting applications under Change Control process Medidata RAVE and Zelta v1.0 experience is essential Graduate or bachelor\u2019s degree in Life Sciences (or Pharma or related health discipline) from an accredited university or college Prior experience in EDC system creation and Edit Check programming is a must Effective communication skills Cooperative and team-oriented approach Self-motivation and ability to work independently Proficiency in data standards (CDASH & SDTM) and application to EDC system creation, CDASH Certification preferred When you join Ergomed Group, you make a difference by \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ergomed/jobs/edc-developer-medidata-rave-and-zelta-v1-0-8335549873",
+    "id": "opp_bae3f22991fd",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-19T13:40:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "edc-developer",
+      "clinical-data-management",
+      "clinical-research",
+      "clinical-data-coordinator",
+      "pharmaceutical-development",
+      "medidata-rave-developer",
+      "edc-programmer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "EDC Developer (Medidata RAVE and Zelta v1.0)",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/ergomed/jobs/edc-developer-medidata-rave-and-zelta-v1-0-8335549873",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_bb6cc484e713": {
@@ -43867,6 +44706,147 @@
     "title": "Strategic Business Development Manager (Professional Services)",
     "updated_at": "2026-09-15T20:57:33+00:00",
     "url": "https://himalayas.app/companies/ciellos/jobs/strategic-business-development-manager-professional-services",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_e5c79d288b7b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120,
+    "budget_min": 80,
+    "budget_type": "HOURLY",
+    "category": "data_cleaning",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-19T15:32:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-18T13:38:51+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Data quality / CRM operations Evaluator Type: Contract Compensation: $80\u2013$120/hour Location: Remote Role Responsibilities Evaluate AI-generated artifacts against domain-specific quality rubrics. Identify factual, aesthetic, and presentation errors. Provide clear, structured written feedback. Collaborate asynchronously to enhance AI model outputs. Work independently to meet deadlines and improve data quality. Qualifications Must-Have 5+ years of relevant professional experience in Data quality / CRM operations . Native or professional fluency in English . Highly proficient in Microsoft Office and Google Workspace , especially Slides . Preferred Advanced degree ( Master's or higher ) from a reputable institution. Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & Support For details about the interview process and platform information, please check: For any help or support, reach out to: PS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this opportunity. Originally posted on Himalayas",
+    "discovered_by_run": "20260919T153217Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.04,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.38,
+    "estimated_net_revenue": 270.4,
+    "estimated_non_ai_effort": 0.34,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/crm-operations-evaluator-fully-remote-upto-120-hr-4106391751",
+    "id": "opp_e5c79d288b7b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-19T13:38:52+00:00",
+    "profit_score": 73.3,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (3.0h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.5,
+          "evidence": "Estimated net $270 on $270 (100% margin). $246 per effective hour vs $85 target (1.1 effective h = 0.3h human + 3.0h AI discounted). Leverage: $795 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "crm-operations",
+      "data-quality-management",
+      "quality-assurance",
+      "operations-evaluator",
+      "ai-data-evaluation",
+      "crm-operations-specialist",
+      "remote-evaluator",
+      "remote-crm-specialist",
+      "crm-operations-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "CRM Operations Evaluator - Fully Remote | Upto $120/hr",
+    "updated_at": "2026-09-19T15:32:19+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/crm-operations-evaluator-fully-remote-upto-120-hr-4106391751",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
