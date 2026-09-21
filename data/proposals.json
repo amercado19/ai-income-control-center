@@ -728,6 +728,39 @@
     "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
     "updated_at": "2026-09-16T03:49:17+00:00"
   },
+  "prop_b30a71f8a3a1": {
+    "ai_disclosure_included": true,
+    "approved_at": "",
+    "approved_by": "",
+    "body": "Re: Financial Analyst - Fully Remote | Upto $70/hr\n\nHere is what I would bring to it, and where I would not.\n\nRelevant work I have actually built and run:\n- Model training, calibration reporting and backtesting with committed metric summaries.\n- Idempotent refresh steps with caching and rebuild-on-empty guards.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.\n\nWhere I would be starting from less: you asked for in a hands-on non-investment finance role. I have not built that specific thing, and I would rather say so now than have you find out in week two. What I would bring is the habit the list above describes - failure cases handled first, and work that reconciles.\n\nAvailability: I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more.\n\nHappy to talk it through whenever suits you.\n\nFor transparency: I use AI tooling as part of my workflow, under my own review. Every deliverable is checked against your acceptance criteria before it reaches you. If you would prefer this work done without AI assistance, tell me and I will price it that way.\n\nAndres Mercado",
+    "claims_made": [
+      "model pipelines",
+      "automated data refresh"
+    ],
+    "claims_verified": true,
+    "clarifying_question": "When two source files disagree on the same record, which one should win - the newer file, or a specific source of truth?",
+    "created_at": "2026-09-21T21:47:21+00:00",
+    "deliverables": [
+      "Such as PnL and mark-to-market reconciliations",
+      "Vendor payment reconciliations",
+      "And integrated 3-statement models"
+    ],
+    "id": "prop_b30a71f8a3a1",
+    "is_demo": false,
+    "opportunity_id": "opp_96401179b43d",
+    "problem_statement": "About the job Mercor connects elite creative and technical talent with leading AI research labs.",
+    "proposed_solution": "I would write a repeatable script rather than doing this once by hand, so you can re-run it yourself next period. The script normalizes the differing headers to one schema, preserves every source row (rows that fail to map get flagged, never dropped), and outputs the consolidated workbook plus a mapping note. I verify by comparing row counts, column counts and totals before and after - if the numbers do not reconcile, it is not done.",
+    "quoted_price": 196.7,
+    "relevant_experience": "Relevant work I have actually built and run:\n- Model training, calibration reporting and backtesting with committed metric summaries.\n- Idempotent refresh steps with caching and rebuild-on-empty guards.\n\nThese are my own production systems, not client references, and I am happy to walk you through the code and the deployment.",
+    "source": "himalayas",
+    "status": "AWAITING_APPROVAL",
+    "submit_cost_cash": 0.0,
+    "submit_cost_currency": "",
+    "submit_cost_units": 0,
+    "submitted_at": "",
+    "turnaround": "I can start within a week and commit consistent hours; happy to begin with a small scoped piece so you can see how I work before committing to more",
+    "updated_at": "2026-09-21T21:47:21+00:00"
+  },
   "prop_b7371e6d6e36": {
     "ai_disclosure_included": true,
     "approved_at": "",
