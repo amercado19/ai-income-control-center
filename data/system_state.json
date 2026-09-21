@@ -93,7 +93,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "702 events recorded.",
+      "detail": "703 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "state": "",
@@ -113,8 +113,8 @@
       "key": "ai_worker",
       "label": "AI Worker",
       "health": "HEALTHY",
-      "detail": "Verified. A real `ClaudeWorker.execute -> claude -p` call succeeded 0h ago on a GitHub Actions runner, at commit eef02b1a on main, authenticated by CLAUDE_CODE_OAUTH_TOKEN with no paid API key present.",
-      "last_success": "2026-09-20T14:24:37+00:00",
+      "detail": "Verified. A real `ClaudeWorker.execute -> claude -p` call succeeded 0h ago on a GitHub Actions runner, at commit e37bfccd on main, authenticated by CLAUDE_CODE_OAUTH_TOKEN with no paid API key present.",
+      "last_success": "2026-09-21T16:42:28+00:00",
       "blocking_reason": "",
       "state": "HEALTHY",
       "light": "GREEN"
@@ -162,6 +162,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-21T12:15:22+00:00",
+  "updated_at": "2026-09-21T17:07:33+00:00",
   "has_real_revenue": false
 }
