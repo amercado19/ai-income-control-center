@@ -2172,6 +2172,141 @@
       "probability_low": 4.0
     }
   },
+  "opp_0780f4b362e5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:52:30+00:00",
+    "description": "Category: IT Services Location: For an international organization in New York, we are urgently looking for a REMOTE AWS DevOps specialist with a history of working in an agile environment. Ideally, the applicant should have AWS experience in the Build, Release processes, Continuous Integration (CI) , Continuous Delivery/Deployment (CD) for the automated deployment of Microservices components using Docker Containers, AWS services and other technologies. Candidates need to be able to work +6 hours per day in the normal office hours of New York, US. Example 9AM NY time equals 7:30PM. Tasks and responsibilities: Assist in migration of websites to AWS; Deployment, automation, management, and maintenance of AWS cloud-based production system; Ensuring availability, performance, security, and scalability of AWS production systems; Management of creation, release, and configuration of production systems; System troubleshooting and problem resolution across various application domains and platforms; Pre-production acceptance testing for quality assurance; Provision of critical system security by leveraging best practices and prolific cloud security solutions; Providing recommendations for architecture and process improvements; Definition and deployment of systems for metrics, logging, and monitoring on AWS platform; Designing, maintenance and management of tools for automation of different operational processes; Perform other duties as may be reasonably required and in line with the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/aws-devops-specialist-full-remote-in-usd-8834118478",
+    "id": "opp_0780f4b362e5",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:52:31+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 33% of the 6 skills this listing names (missing: aws, docker, rest, terraform)."
+        }
+      },
+      "final_score": 54.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "rest",
+      "aws",
+      "docker",
+      "terraform",
+      "automation",
+      "aws-devops-specialist",
+      "cloud-devops-engineer",
+      "ci-cd-engineer",
+      "infrastructure-engineer",
+      "devops-engineer",
+      "aws-devops-engineer",
+      "remote-devops-engineer",
+      "cloud-devops-specialist",
+      "devops-specialist",
+      "aws-devops-engineering",
+      "aws-platform-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AWS DevOps specialist - Full remote - in USD",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/aws-devops-specialist-full-remote-in-usd-8834118478",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_07b00682f1b9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -8632,6 +8767,154 @@
       "probability_low": 32.0
     }
   },
+  "opp_2a75c9220e5a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Espresso Systems",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:54:23+00:00",
+    "description": "Espresso Systems builds foundational infrastructure to power tomorrow\u2019s internet, where digital assets are able to move across chains as easily as info flows across the web. It\u2019s the lead developer of the Espresso Network, the first base layer built from the ground up to provide rollups with the functionality they\u2019ve always needed but never had: fast, secure finality for users\u2019 transactions and seamless composability with other rollups. Rollups today rely on infrastructure that wasn\u2019t built with them in mind, resulting in their isolation and the fragmentation of users, developers and liquidity within the Ethereum ecosystem. This prevents rollups from achieving the seamless composability that\u2019s essential to web3's vision. Espresso solves this by providing rollups with secure, real-time visibility into what\u2019s happening on all integrated chains, including their own, empowering the apps to execute crosschain interactions immediately without waiting for slow settlement or trusting centralized sequencers. The Espresso Network is currently live on mainnet in its initial release. In addition to fast confirmations and data availability, rollups seeking further decentralization can also opt to use the Espresso Network as a decentralized sequencer. As the first purpose-built base layer for rollups, Espresso supports a fast-growing ecosystem of interconnected chains regardless of tech stack, VM, or settlement layer\u2014from established chains like Celo and ApeChain to emerging app-specific \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/espresso-systems/jobs/japan-community-ambassador-5801193935",
+    "id": "opp_2a75c9220e5a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:54:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 35.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 35.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 47.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "regional-ambassador",
+      "community-management",
+      "community-building",
+      "crypto-community",
+      "web3-community",
+      "crypto-ambassador",
+      "ambassador",
+      "community-ambassador",
+      "japanese-community-moderator",
+      "japanese-cultural-content-specialist",
+      "culture-ambassador",
+      "ambassador-program",
+      "community-liaison"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Japan Community Ambassador",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/espresso-systems/jobs/japan-community-ambassador-5801193935",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_2b10d951f951": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12906,6 +13189,166 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_3a98271611a0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105.77,
+    "budget_min": 78.56,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "HighLevel",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:53:14+00:00",
+    "description": "About HighLevel : HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes. To date, businesses operating on HighLevel have generated over $7 billion in ecosystem value, demonstrating the impact of shared infrastructure at scale. By centralizing conversations, automation and intelligence into one system, we help businesses move faster, reduce complexity and execute efficiently. Behind the platform, HighLevel powers more than 4 billion API hits and 2.5 billion message events daily. With 250 terabytes of distributed data, 250+ microservices and over 1 million domain names supported, our architecture is built for performance, resilience and long-term scalability. Our People With over 2,000 team members across 10+ countries, HighLevel operates as a global, remote-first organization built for speed and ownership. We value initiative, clarity and execution, creating space for ambitious people to build systems that support millions of businesses worldwide. Here, innovation thrives, ideas are celebrated and people come first, no matter where they call home. Our Impact Every month, HighLevel enables more than 1.5 billion messages, 200 million leads and 20 million conversations for the more than 1 million businesses we support. Behind those numbers are real people building \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 785.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/highlevel/jobs/staff-data-scientist-growth-expansion",
+    "id": "opp_3a98271611a0",
+    "is_demo": false,
+    "match_score": 71.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:53:15+00:00",
+    "profit_score": 73.3,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.5,
+          "evidence": "Estimated net $786 on $786 (100% margin). $165 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $262 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.3,
+          "evidence": "Matched 4 profile skills: automation, python, sql, statistics. Covers 44% of the 9 skills this listing names (missing: analytics, api, data science, dbt)."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 69.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "snowflake",
+      "dbt",
+      "api",
+      "automation",
+      "data science",
+      "statistics",
+      "analytics",
+      "staff-data-scientist",
+      "growth-analytics",
+      "product-analytics",
+      "business-intelligence",
+      "data-science",
+      "growth-data-scientist",
+      "senior-staff-data-scientist",
+      "user-growth-data-scientist",
+      "senior-staff-data-science",
+      "growth-data-science",
+      "data-scientist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Staff Data Scientist - Growth & Expansion",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/highlevel/jobs/staff-data-scientist-growth-expansion",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_3abd91d4cc67": {
@@ -17385,6 +17828,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_4c5b51fe22ca": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "CIAL Dun & Bradstreet",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:52:30+00:00",
+    "description": "Why work with us? We are a fast-growing company that is revolutionizing the world of data and business information in Latin America! CIAL Dun & Bradstreet is the leading provider of business decisioning solutions and commercial data across Latin America and the Caribbean. Our solutions are designed to transform how businesses manage risk and make critical decisions about the companies they rely on. At CIAL, we firmly believe that every team member plays a critical role towards achieving our goal of enabling businesses to thrive in any economic environment. It\u2019s our people, not technology, that makes what we do possible. It\u2019s our people, not data, that turns information into insights. And it\u2019s our people, not algorithms, that cares to help our clients make better informed decisions. We are innovative, agile, and inspired by data \u2013 and we are looking for people that share those values to join our mission to build stronger businesses! Join the data-revolution! Key Responsibilities: Design, develop, and maintain scalable, reliable, and efficient fullstack applications using ReactJS, NodeJS, NestJS, MongoDB, and PostgreSQL. Ensure the reliability and efficiency of system infrastructure. Optimize application performance for maximum efficiency and scalability. Implement and oversee continuous monitoring and alerting systems. Collaborate with the development team to identify and resolve performance bottlenecks. Conduct root cause analysis for production errors and incorporate \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cial-dun-bradstreet/jobs/senior-fullstack-software-engineer",
+    "id": "opp_4c5b51fe22ca",
+    "is_demo": false,
+    "match_score": 33.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:52:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.2,
+          "evidence": "Matched 1 profile skills: sql. Covers 12% of the 8 skills this listing names (missing: aws, docker, kubernetes, node)."
+        }
+      },
+      "final_score": 43.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 43.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "aws",
+      "docker",
+      "kubernetes",
+      "react",
+      "node",
+      "full-stack-engineering",
+      "fullstack-development",
+      "software-engineer",
+      "backend-development",
+      "frontend-engineer",
+      "full-stack-engineer",
+      "senior-full-stack-engineering",
+      "senior-fullstack-developer",
+      "\u00bfsenior-fullstack-engineering",
+      "senior-full-stack-development",
+      "senior-full-stack-engineer-(react-node.js)",
+      "senior-fullstack-web-application-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Fullstack Software Engineer",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/cial-dun-bradstreet/jobs/senior-fullstack-software-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_4c67fa3175c6": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -17994,6 +18582,152 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5139386e03a6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100.96,
+    "budget_min": 84.13,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "NetBrain",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:54:53+00:00",
+    "description": "Founded in 2004, NetBrain is the leader in no-code network automation. Its ground-breaking Next-Gen platform provides IT operations teams with the ability to scale their hybrid multi-cloud connected networks by automating the processes associated with Diagnostic Troubleshooting, Outage Prevention and Protected Change Management. Today, over 2,500 of the world\u2019s largest enterprises and managed services providers leverage NetBrain \u2019s platform. What We Need NetBrain is seeking a Strategic Technology Alliances Director to expand and activate our ecosystem of technology and consulting partners. This role focuses on identifying and evangelizing joint value between NetBrain and adjacent platforms\u2014helping customers and partners understand how integrated solutions can deliver greater operational impact. This is a customer-facing, individual contributor role that bridges product innovation and go-to-market execution. You will not be responsible for building integrations, but for ensuring the value of those integrations is clearly articulated, adopted, and scaled across the ecosystem. The Impact You'll Make NetBrain sits within a dense ecosystem of technologies used by the world\u2019s largest enterprises. This role is critical in ensuring we don\u2019t just integrate into that ecosystem\u2014but actively shape and amplify the value created across it. Success is measured by the activation and adoption of joint solutions, not just the existence of partnerships. What You'll Do Identify and develop \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 841.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/netbrain/jobs/strategic-technology-alliances-director-3229190601",
+    "id": "opp_5139386e03a6",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:54:53+00:00",
+    "profit_score": 83.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 55.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.3,
+          "evidence": "Estimated net $841 on $841 (100% margin). $177 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $280 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 50% of the 4 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 55.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 67.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "automation",
+      "strategic-alliances-director",
+      "technology-partnerships-director",
+      "partner-management-director",
+      "business-development-director",
+      "channel-partnerships-director",
+      "technology-alliances-director",
+      "director-of-strategic-alliances",
+      "strategic-partnerships-director",
+      "partner-alliances-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Strategic Technology Alliances Director",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/netbrain/jobs/strategic-technology-alliances-director-3229190601",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_51b0e8552cb3": {
@@ -20988,6 +21722,134 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5f19ca50b64c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Techmagnate",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:53:12+00:00",
+    "description": "What You Do: Compile monthly content request sheet received from SEO Team Leaders. Allocate content to in-house and freelance writers. Independently handle the procedure to assign and deliver content Independently handle clients - communication and deliverables Deliver editing targets - 8-10,000 words a day Coordinate multiple schedules of writers and allocate content according to their availability. Compile and allocate any additional content requests on a timely basis. Ensure clear and open communication between writers, clients and the team leaders. Maintain a daily record of all the content received and sent to respective teams. Ensure that work received from freelance writers is edited and sent to respective teams on a timely basis. Develop a continuous and reliable pool of freelance writers for various client niches. What You Need: Excellent written and spoken English language skills. Strong leadership skills. The desired candidate must possess demonstrated ability to work creatively and analytically in a high-pressure problem solving environment. Must be a self-starter and capable of working independently with minimal instruction. You must use your own sound judgment to decide the best course of action for your projects. Proven project management skills. Have a great, positive and upbeat attitude. Bachelors and/or Master's degree in any of the following areas; a. Communications b. Marketing c. Business Administration Days working Flexi timings. Levelled hierarchy for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/techmagnate/jobs/am-content-editor",
+    "id": "opp_5f19ca50b64c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:53:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "content-editing",
+      "writing-editing",
+      "digital-marketing",
+      "marketing-and-advertising",
+      "project-management",
+      "content-editor",
+      "digital-content-editor",
+      "seo-content-editor",
+      "web-content-editor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AM - Content Editor",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/techmagnate/jobs/am-content-editor",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_5fbccd1271b3": {
@@ -27951,6 +28813,149 @@
       "probability_low": 4.0
     }
   },
+  "opp_76546b74ce93": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 32,
+    "budget_min": 32,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:52:40+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Music Audio Expert - Arabic Type: Contract Compensation: $32/hour Location: Remote Duration: Up to 6 months Commitment: 10+ hours/week Role Responsibilities Evaluate AI model output for lyrics, voice generation, and other standards in music. Score the quality of musical training data to ensure high standards. Write music in the domain language listed in the title, demonstrating expertise. Understand and follow directions in the English language . Work independently and asynchronously to meet project deadlines. Qualifications Must-Have 3+ years experience as a music producer, audio engineer, or sound mixer. College degree in music, covering performance, theory, and lyrics. Native or near-native proficiency in both Arabic and English . Preferred Evidence of understanding musical performance, theory, and lyrics. Past experience writing lyrical music in the domain language listed in the title. Start Date Immediate Application Process (Takes 20\u201330 mins to complete) Upload resume and application form Complete a 25-minute conversational interview on your background, experience, and motivations Receive next steps and onboarding details within a few days Resources & Support For details about the interview process and platform \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 240.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/music-producer-arabic-expertise-4044012281",
+    "id": "opp_76546b74ce93",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:52:41+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $240 on $240 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $64 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 38.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "music-production",
+      "arabic-music",
+      "audio-engineering",
+      "ai-quality-assurance",
+      "music-composition",
+      "arabic-music-specialist",
+      "music-production-expert",
+      "music-production-specialist",
+      "music-producer",
+      "language-specific-music-expert",
+      "bilingual-music-production"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Music Producer - Arabic Expertise",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/music-producer-arabic-expertise-4044012281",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_767b09fcdbcb": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -28771,6 +29776,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_7b2eb1ec2cf7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TurbineOne",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:54:00+00:00",
+    "description": "Company Intro: TurbineOne is the frontline perception company. We deliver decision advantage, better situational awareness, and stronger force protection. Our customers love how we automate the right portions of the military intelligence cycle while keeping them in the loop. The company is a small, fast-moving, and high-performance startup that is backed by the best DefenseTech venture capitalists. Sales Team : You would join a successful team whose leaders include three former Commanders of the Joint Intel Brigade. Our advisors include a former Commander of the Joint Special Operations Command, two former Directors of the Defense Intelligence Agency and National Geospatial Agency, and the most senior leaders of Service Branch' s Intel organizations.You will also have inspiring partners in the Product and Engineering teams, who are highly responsive to customer needs. Job Title : Principal, Business Development Air Force Reporting directly to the Chief Revenue Officer Geographically flexible for home-office and moderate domestic travel (~25%) should be expected. Primary Responsibilities: Deliver new revenue to TurbineOne through direct sales to the U.S. Air Force. You will identify sales opportunities, drive leads into the sales funnel by directly engaging buyers, pitch our product (with support from the Sales team), document the scope of work (in collaboration with the CTO), and negotiate the contract (with pricing approval from the CEO). Identify a military leader with the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/turbineone/jobs/principal-business-development-air-force",
+    "id": "opp_7b2eb1ec2cf7",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:54:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "business-development",
+      "defense-sales",
+      "government-sales",
+      "military-sales",
+      "enterprise-sales",
+      "air-force-business-development",
+      "principal-business-development",
+      "defense-business-development-director",
+      "federal-business-development-director",
+      "military-business-development",
+      "aerospace-business-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal, Business Development Air Force",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/turbineone/jobs/principal-business-development-air-force",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_7c742b0125fa": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29306,6 +30448,133 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_7e318c94524d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Advertising Production Resources",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:54:47+00:00",
+    "description": "If you have an interest in joining an exciting and growing industry, and you have a work history that demonstrates consistently strong performance, reliability, and integrity, we want to learn more about you! This is an opportunity for you to submit an application in the event a position that you are aligned withbecomes available, and if you meet the job specific qualifications, we may contact you for more information. Becoming a member of our team is both exciting and challenging. Our team members work hard every day to provide a great experience to our clients! APR values an inclusive workforce and culture driven by our unique viewpoints and diverse background and experiences. Equal Employment Opportunity (EEO) The Company is committed to equal employment opportunity and to compliance with federal and state antidiscrimination laws. We prohibit discrimination and harassment against any employees or applicants based on race, color, creed, religion, sex (including pregnancy, childbirth or related medical conditions), sexual orientation, gender identity and transgender, familial status, national origin, disability, genetic information, age 40 and over, veteran status, military status, marital status, domestic violence victim status, or any other status protected by applicable state or local law. This policy governs all stages of employment including application. Originally posted on Himalayas",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/advertising-production-resources/jobs/general-interest-apac",
+    "id": "opp_7e318c94524d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:54:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "aws",
+      "general-applications",
+      "open-applications",
+      "general-interest",
+      "talent-pipeline!",
+      "candidate-pool",
+      "apac",
+      "apac-commercial"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "General Interest- APAC",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/advertising-production-resources/jobs/general-interest-apac",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_7f95730ff717": {
@@ -30296,6 +31565,146 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_8587e0feae48": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "goPro Consultancy Group ltd.",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:55:05+00:00",
+    "description": "Category: IT Services Location: Fort Western Province Sri Lanka For an International Institution, we are urgently looking for an experienced (Senior) Power BI Report Developer - Full remote. Candidates need to be fluent in English. This positions is long-term open for contractors or employees. Work permit not required. Candidates need to be based willing to work at least 4-6 hours NY time. Tasks and responsibilities: Engage with stakeholders to determine data analytics requirements; Analyze business needs and create data-driven solutions; Gather and analyze corporate data; Implement data analytics applications, including data transformation, analysis and visualization; Contribute to standards for analytics pipelines; Profile: \u200b Business analysis skills - understanding clients\u2019 business needs and translate those into data driven solutions; Understanding of data governance issues such as data privacy and protection; Proficiency with data analytics tools, particularly the Python ecosystem for data exploration and pipeline automation and Microsoft Power BI; Experience in developing interactive visualization applications and visual design of information; Fluent in English; Interested: Please send you CV to Details Originally posted on Himalayas",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/microsoft-power-bi-x2f-data-analytics-specialist-full-remote-contactor-1089863409",
+    "id": "opp_8587e0feae48",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:55:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 40% of the 5 skills this listing names (missing: analytics, power bi, rest)."
+        }
+      },
+      "final_score": 53.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "rest",
+      "automation",
+      "power bi",
+      "analytics",
+      "power-bi-development",
+      "business-intelligence",
+      "data-visualization",
+      "business-analysis",
+      "bi-developer",
+      "report-developer",
+      "power-bi-analyst",
+      "power-bi-specialist",
+      "senior-power-bi-developer",
+      "power-bi-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Microsoft Power BI &#x2f; Data Analytics Specialist - Full Remote - Contactor",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/microsoft-power-bi-x2f-data-analytics-specialist-full-remote-contactor-1089863409",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_88366dc6f682": {
@@ -34540,6 +35949,144 @@
       ],
       "probability_high": 73.0,
       "probability_low": 53.0
+    }
+  },
+  "opp_99c2aeb20d0e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 2.88,
+    "budget_min": 1.44,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "The Womb Sauna",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:53:12+00:00",
+    "description": "Job description: Enrollment Sales Coordinator \u2013 The Womb Sauna University (Remote): Compensation: $3,000 - $6,000 per month (based on experience and performance) Location: Remote | Minimum Commitment: 8 Hours Per Week About Us: The Womb Sauna University (WSU) is a premier online training institution dedicated to holistic womb wellness and alternative healing . We empower individuals through transformative education and certification programs. We are looking for a high-energy, self-motivated Enrollment Sales Coordinator to engage with prospective students, guide them through enrollment, and help them begin their journey toward holistic healing and entrepreneurship. What You\u2019ll Do: Generate and connect with leads and enroll students in our holistic wellness certification programs (we will provide some leads, but you will need the skill of finding your own as well) Close at least 10 enrollments per month (after a 30-day ramp-up period) Respond to student inquiries within 1-2 business days and conduct application interviews Manage and track leads using OnePage CRM Follow up with past students for re-enrollments, upsells, and referrals Support new students by coordinating communication between their dedicated mentor and tech support team Commit to a minimum of 10 hours per week to meet enrollment and student success goals What We\u2019re Looking For: \u2714 Experience in sales, student enrollment, or holistic wellness coaching \u2714 Strong communicator with a passion for holistic healing and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 10.8,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-womb-sauna/jobs/enrollment-advisor-womb-sauna-university-6542689605",
+    "id": "opp_99c2aeb20d0e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:53:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $11 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sales",
+      "alternative-medicine",
+      "enrollment-sales",
+      "student-recruitment",
+      "admissions",
+      "enrollment-advisor",
+      "student-enrollment-advisor",
+      "enrollment-counselor",
+      "enrollment-consultant",
+      "enrollment-coach",
+      "enrollment-advising",
+      "enrollment-representative",
+      "enrolment-advisor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Enrollment Advisor - Womb Sauna University",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/the-womb-sauna/jobs/enrollment-advisor-womb-sauna-university-6542689605",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_99cf2bb97bc7": {
@@ -49577,6 +51124,138 @@
       "probability_low": 4.0
     }
   },
+  "opp_d46edfeef28b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 60,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:55:13+00:00",
+    "description": "Role Title: Medical Writer (Pharmaceutical) Role Type: Contractor Location: Remote micro1 is engaging Medical Writers / Clinical Document Authors to participate in a customer\u2019s project focused on developing advanced AI-assisted writing tools for clinical documentation. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Author and review realistic evaluation tasks based on Clinical Study Reports, DSURs, PSURs/PBRERs, and related clinical documents to inform AI tool development. Apply expert judgment to assess whether AI-generated content fulfills clinical template and structural requirements, including ICH E3 organization, section sequencing, cross-referencing, and appendix management. Evaluate scientific accuracy in narrative sections such as efficacy, safety summaries, discussion, and conclusions, distinguishing true scientific or interpretive errors from stylistic differences. Trace narrative claims to source records\u2014tables, figures, listings, and protocols\u2014to verify that all assertions are appropriately supported. Provide clear and structured written rationales for each assessment, enabling precise diagnosis and improvement of AI model behavior. Collaborate with project leads to refine evaluation frameworks and document best practices for clinical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/medical-writer-pharmaceutical",
+    "id": "opp_d46edfeef28b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:55:13+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "pharmaceutical-medical-writer",
+      "medical-writer",
+      "pharmaceutical-scientific-writer",
+      "medical-affairs-writer",
+      "regulatory-medical-writer",
+      "medical-writing-specialist",
+      "clinical-medical-writer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Medical Writer (Pharmaceutical)",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/medical-writer-pharmaceutical",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d4d9c64bae95": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -50015,6 +51694,146 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_d6b0c1a9e167": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Green Cell",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:53:37+00:00",
+    "description": "Acquiring new customers from Retail, E-tail, E-commerce and Distribution sector Market analysis and monitoring of the activities of competitors Negotiating the terms of the transactions Maintenance of the customer database Conducting business discussions with potential customers Fulfillment of orders from customers; Delivery of goods, after-sales service, handling of complaints, checking stocks on the customer side Selling and upselling, improving the quality of services Participation in meetings with potential, new and present customers At least 3 years of experience in B2B sales area including the field of consumer electronics (required) Connections with the largest retail and distribution networks Own clients portfolio (required) Negotiation skills and knowledge of sales techniques Knowledge of the sales cycle Communication skills and good work organization Willingness for business trips Flexibility and personal responsibility in the role What we offer: You can participate in creating the future of the company Possibility to develop new structures We are open for negotiations of attractive bonus system Green Cell is an idea created in 2013 as a response to the ever-growing demand for mobility. The team, originally founded by Pawe\u0142 Ochy\u0144ski wanted to create a brand, that will make our lives as easy as possible in a world dominated by mobile devices. From the very beginning, we have targeted Li-Ion technology as our specialization, and the first Green Cell branded products \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/green-cell/jobs/key-account-manager-uk-1551631814",
+    "id": "opp_d6b0c1a9e167",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-22T09:53:38+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "key-account-manager",
+      "b2b-sales",
+      "account-management",
+      "sales-management",
+      "retail-sales",
+      "distribution-sales",
+      "key-account-sales-manager",
+      "regional-key-account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Key Account Manager UK",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/green-cell/jobs/key-account-manager-uk-1551631814",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_d7338bc4427a": {
@@ -56385,6 +58204,147 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_edb9283e0ea3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bordr",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-22T11:08:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T09:53:10+00:00",
+    "description": "We\u2019re looking for a UX Writer who can provide regular support in creating effective communication materials. You will help us craft a consistent brand voice across all of our written assets. This is an interdisciplinary role that will require you to collaborate across most, if not all teams within our organization. Here are some examples of documents that you will work on: External (customer-facing) Customer instructions guides Sales pages Product copy FAQ\u2019s Email templates Internal (teams within Bordr and vendors) Standard operating procedures (SOP\u2019s) Service level agreements (SLA\u2019s) Native level of English language (US preferred) Previous experience with copywriting and information architecture (UX) UX skills - Since we work in a space known to be full of hard-to-understand jargon, we have an important job of distilling the noise into clear communications. In order to achieve this, you will need to be comfortable organizing content in such a way that it makes sense to the end-user. Writing skills - You will need to select the appropriate words to clearly communicate the message in the Bordr voice. Ability to write in a casual, yet professional (although not overly so) manner Strong attention to detail Good communication skills Interested? Send us a message with your: Favorite city LinkedIn profile At least 3 writing samples of your previous work Bordr is a fast growing startup helping expats move to Portugal. Originally posted on Himalayas",
+    "discovered_by_run": "20260922T110813Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bordr/jobs/part-time-ux-writer-3175203062",
+    "id": "opp_edb9283e0ea3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-22T09:53:11+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "writing-editing",
+      "it-services",
+      "ux-writing",
+      "content-writing",
+      "technical-writer",
+      "part-time-ux-writer",
+      "ux-writer",
+      "mid-level-ux-writer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Part-time UX Writer",
+    "updated_at": "2026-09-22T11:08:15+00:00",
+    "url": "https://himalayas.app/companies/bordr/jobs/part-time-ux-writer-3175203062",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_edc9f6ae3090": {
