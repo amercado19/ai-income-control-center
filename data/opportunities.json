@@ -676,6 +676,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_01d36235509c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Rimini Street, Inc",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:50:59+00:00",
+    "description": "About Rimini Street, Inc . Rimini Street, Inc . (Nasdaq: RMNI), a Russell 2000\u00ae Company, is a proven, trusted global provider of end-to-end, mission-critical enterprise software support, managed services and innovative Agentic AI ERP solutions, and is the leading third-party support provider for Oracle, SAP and VMware software. Our comprehensive portfolio of unified solutions help run, manage, support, customize, configure, connect, protect, monitor, and optimize enterprise application, database and technology software, enabling our clients to achieve better business outcomes, significantly reduce costs and reallocate resources towards strategic projects. The Company has signed thousands of contracts with Fortune Global 100, Fortune 500, midmarket, public sector and government organizations who selected Rimini Street as their trusted, proven mission-critical enterprise software solutions provider and achieved better operational outcomes, realized billions of US dollars in savings and funded AI and other innovation investments. Position Summary The Support Engineer, SAP MM / WM / eWM provides exceptional remote support for mission-critical SAP applications as part of a global customer support team. This role researches, troubleshoots, and resolves complex issues across SAP MM, WM, and eWM for clients operating highly configured and integrated SAP 4.x and ECC environments. The Support Engineer diagnoses critical application issues and develops, tests, packages, and delivers \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rimini-street-inc/jobs/support-engineer-sap-mm-wm-ewm-evergreen",
+    "id": "opp_01d36235509c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:51:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "sap-support-engineer",
+      "sap-mm-consultant",
+      "sap-wm-ewm-specialist",
+      "erp-technical-support",
+      "sap-support-consultant",
+      "sap-support-analyst",
+      "sap-support-specialist",
+      "sap-support-engineering",
+      "sap-material-management-(mm)-consultant",
+      "sap-wm-ewm-consultant",
+      "support-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Support Engineer, SAP MM / WM / eWM (Evergreen)",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/rimini-street-inc/jobs/support-engineer-sap-mm-wm-ewm-evergreen",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_01d859581107": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -1338,6 +1475,154 @@
       ],
       "probability_high": 40.0,
       "probability_low": 20.0
+    }
+  },
+  "opp_044769b25ebf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 74.04,
+    "budget_min": 57.21,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Blue United Sourcing",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:39:39+00:00",
+    "description": "NOW HIRING: CAPITAL PROJECTS ESTIMATOR OVERVIEW Job Title: Capital Projects Estimator Location: Remote (U.S. Only). Can be located anywhere in the US. Option to relocate to Cleveland, OH. Travel: 30% (Site visits required within the U.S.) Schedule: M-F, Days. 40 Hrs/wk. No on-call or weekends required. Base Salary Range: $119,000 - $154,000 depending on experience. Total Compensation Package: Pension Plan, Company Stock Options, API Bonus, Medical, Dental & Vision, 401k with match, Continuing Education, Gym Reimbursement, Paid Travel Expenses, and more! Required Experience: At least 10+ years of combined engineering and cost estimating experience. Demonstrated experience with Class 4 estimations for Industrial projects. Must have a Bachelor\u2019s Degree in Engineering (any discipline) or Construction Management. Employment: Full-Time W2, Direct Hire ABOUT THIS OPPORTUNITY: We are placing a Staff Capital Cost Estimator (Class 3 & 4) on behalf of a global leader in manufacturing. This is a company where people don't just come to work, they build careers. This role owns the estimating function for capital projects across a large-scale North American manufacturing and distribution network, covering facility expansions, warehouse improvements, and continuous improvement initiatives across the global supply chain. This is a high-impact role. You'll be the first dedicated estimator in the organization, supporting capital expansion projects at manufacturing and distribution facilities \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 572.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blue-united-sourcing/jobs/capital-projects-estimator",
+    "id": "opp_044769b25ebf",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-23T19:39:40+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 53.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $572 on $572 (100% margin). $120 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $191 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"at least 10+ years of combined engineering\"; \"cost estimating experience\"; \"a bachelor\u2019s degree in engineering (any discipline) or construction ma\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 53.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "capital-projects-estimating",
+      "cost-estimator",
+      "construction-estimator",
+      "engineer-estimator",
+      "project-estimator",
+      "civil-construction-estimator",
+      "civil-estimator",
+      "civil-engineering-estimator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Capital Projects Estimator",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/blue-united-sourcing/jobs/capital-projects-estimator",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_0480ab9b95ec": {
@@ -3409,6 +3694,148 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_0d3355416fef": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Alcanza Clinical Research",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:27:58+00:00",
+    "description": "Alcanza is a growing multi-site, multi-phase clinical research company with a network of locations in AL, AZ, FL, GA, IL, MA, MI, MO, NV, VA, SC, TN, TX and Puerto Rico. We have established a strong presence across Phase I-IV studies and several therapeutic areas including vaccine, neurology, dermatology, psychiatry, and general medicine. Join us as we continue to grow. The Contracts Administrator is responsible for drafting various contractor and employment agreements and amendments. This role partners closely with HR and executive leadership to ensure contractual terms align with business objectives while minimizing legal and financial risks. Key Responsibilities Essential Job Duties: Support the administration, maintenance, and consistent application of 1099 and W2 contracts. Draft NDAs, confidentiality, contractor, employment, consulting, and other agreements and amendments, as needed. Provide guidance and interpretation of contractual terms, obligations, and compliance requirements. Maintenance of a comprehensive contract baseline and record system. Maintain a positive, results-oriented work environment and build partnerships within the team and across the organization. Handle compensation information with discretion, confidentiality, accuracy, and sound judgment. Perform all other duties that may be requested or assigned. Skills, Knowledge and Expertise Minimum Qualifications: A bachelor\u2019s degree in business management, law, or related field, and 2+ years of related \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/alcanza-clinical-research/jobs/contracts-administrator-prn-approx-5-hours-per-week",
+    "id": "opp_0d3355416fef",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-23T19:27:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "contracts-administrator",
+      "contract-management",
+      "legal-compliance",
+      "clinical-research-administration",
+      "business-administration",
+      "contracts-coordinator",
+      "contract-administrator",
+      "contract-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Contracts Administrator (PRN - Approx 5 hours per week)",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/alcanza-clinical-research/jobs/contracts-administrator-prn-approx-5-hours-per-week",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_0e183c8a6727": {
@@ -23131,6 +23558,149 @@
       "probability_low": 4.0
     }
   },
+  "opp_5cdce2e618cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 9.62,
+    "budget_min": 9.62,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "D2B",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "ZAR",
+    "deadline": "2026-11-22T19:34:00+00:00",
+    "description": "Position: Account Sales Executive Salary: 20,000 ZAR / month (The final amount will be at the client's discretion based on the candidate\u2019s skills and experience) Working Hours & Condition : Observing UK business hours Holidays: Observing UK holidays Our client operates an innovative digital platform connecting care seekers and local care agencies across the United Kingdom with qualified care professionals. To drive the next phase of rapid growth, we are seeking an energetic, target-driven B2B Telesales Representative based in South Africa to expand our care provider network. In this high-impact outbound role, you will directly influence company growth by pitching value-add staffing and client-generation solutions to UK-based care homes and agencies. RESPONSIBILITIES: Execute High-Volume Prospecting: Conduct daily outbound cold and warm calls to care homes, agency managers, and UK-based care providers. Identify Decision-Makers: Locate and engage key personnel responsible for business development, marketing, and agency operations. Drive Full-Cycle Sales: Qualify prospects, identify specific staffing or client-acquisition needs, handle objections, and close sales over the phone. Deliver Value Propositions: Educate UK clients on platform services to seamlessly convert qualified prospects into active subscribers. Maintain Pipeline Discipline: Track all outreach, follow-ups, lead statuses, and conversion metrics accurately within the CRM. Achieve Core Metrics: Meet and exceed \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 72.15,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/d2b/jobs/account-sales-executive",
+    "id": "opp_5cdce2e618cf",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-23T19:34:01+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 33.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $72 on $72 (100% margin). $15 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $19 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "telesales",
+      "b2b-sales",
+      "healthcare-sales",
+      "outbound-sales",
+      "business-development",
+      "sales:-account-executives",
+      "account-sales-representative",
+      "sales-account-representative",
+      "sales-executive",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Account Sales Executive",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/d2b/jobs/account-sales-executive",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_5e63b5e781de": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -27663,6 +28233,138 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_6cdd5f4fcd2d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "QHR",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:52:37+00:00",
+    "description": "Welcome to Ovation Healthcare! At Ovation Healthcare, we\u2019ve been making local healthcare better for more than 40 years. Our mission is to strengthen independent community healthcare. We provide independent hospitals and health systems with the support, guidance and tech-enabled shared services needed to remain strong and viable. With a strong sense of purpose and commitment to operating excellence, we help rural healthcare providers fulfill their missions. The Ovation Healthcare difference is the extraordinary combination of operations experience and consulting guidance that fulfills our mission of creating a sustainable future for healthcare organizations. Ovation Healthcare's vision is to be a dynamic, integrated professional services company delivering innovative and executable solutions through experience and thought leadership, while valuing trust, respect, and customer focused behavior. We\u2019re looking for talented, motivated professionals with a desire to help independent hospitals thrive. Working with Ovation Healthcare you will have the opportunity to collaborate with highly skilled subject matter specialists and operations executives, in a collegial atmosphere of professionalism and teamwork. Ovation Healthcare's corporate headquarters is located in Brentwood, TN. For more information, visit Summary The Director, Revenue Cycle Management (RCM) will support with strategic oversight to direct, manage, and improve the revenue cycle operations that favorably impact \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ovationhc/jobs/director-revenue-cycle-management",
+    "id": "opp_6cdd5f4fcd2d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:52:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "revenue-cycle-management",
+      "healthcare-administration",
+      "healthcare-finance",
+      "healthcare-operations",
+      "hospital-revenue-cycle",
+      "revenue-cycle-management-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director, Revenue Cycle Management",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/ovationhc/jobs/director-revenue-cycle-management",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_6d1186d86b34": {
@@ -32631,6 +33333,131 @@
       "probability_low": 0.0
     }
   },
+  "opp_803839ea5385": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Worldwide Clinical Trials",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:28:14+00:00",
+    "description": "Who we are We\u2019re a global, midsize CRO that pushes boundaries, innovates and invents because the path to a cure for the world\u2019s most persistent diseases is not paved by those who play it safe. It is built by those who take pioneering, creative approaches and implement them with quality and excellence. We are Worldwide Clinical Trials , and we are a global team of over 3,500+ experts, bright thinkers, dreamers and doers and, together, we are changing the way the world experiences CROs \u2013 in the best possible way. Our mission is to work with passion and purpose every day to improve lives and we are looking for others who value this same pursuit. Why Worldwide We believe everyone plays an important role in making a world of difference for patients and their caregivers. From our hands-on, accessible leaders, to our cohesive and supportive teams, we are committed to enabling professionals from all backgrounds and experiences to succeed. We prioritize cultivating a diverse and inclusive environment that continues to promote collaboration and creativity. We are proud to be a workplace where people thrive by being themselves and are inspired to do their best work every day. Join us! What the Regulatory Affairs department does at the Worldwide Regulatory Affairs plays a pivotal role in navigating the complex regulatory landscape, ensuring the success of diverse clinical trials. As subject matter experts, the team leads submissions to regulatory authorities, coordinates with ethics \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/worldwide-clinical-trials/jobs/manager-regulatory-affairs-emea-remote",
+    "id": "opp_803839ea5385",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:28:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "gcp",
+      "regulatory-affairs",
+      "regulatory-affairs-manager",
+      "clinical-research",
+      "drug-development",
+      "emea-regulatory-affairs"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manager, Regulatory Affairs - EMEA- Remote",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/worldwide-clinical-trials/jobs/manager-regulatory-affairs-emea-remote",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_8068e2cda5a4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -34034,6 +34861,140 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_85974a18bb4a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AESG",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:36:32+00:00",
+    "description": "Due to the continuing success and growth of our AESG team, a fantastic opportunity has opened up at our award-winning Specialist Consultancy, Engineering and Advisory Firm. We are headquartered in London, Riyadh, Singapore and Dubai, Cape Town, Cairo & Sydney working throughout the Middle East, Europe and Asia. Our areas of expertise are represented in four core verticals: Building Engineering, Planning and Infrastructure, Strategy and Advisory and Commissioning, Handover and Asset Management. We pride ourselves in being leaders in the industry in each of the services that we offer. We have one of the largest dedicated team with decades of cumulative experience in sustainable design, fire and life safety, cost management, fa\u00e7ade engineering, commissioning, building performance, waste management, environmental consultancy, carbon management and acoustics. JOB PURPOSE The Senior Building Physicist will lead and deliver advanced building performance and urban physics assessments across building and master planning projects. The role covers daylight and glare, thermal comfort, microclimate and wind comfort, solar radiation, energy performance, building envelope optimisation, passive design, climate resilience and decarbonisation. The role will translate simulation results into practical, design-led recommendations and optimisation strategies; establish robust modelling methodologies and workflows; ensure technical quality and consistency of deliverables; and support \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aesg/jobs/senior-building-physicist",
+    "id": "opp_85974a18bb4a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:36:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: dashboard."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "dashboard",
+      "building-science",
+      "sustainable-engineering",
+      "sustainability-consultant",
+      "building-performance-simulation",
+      "environmental-design",
+      "building-performance-engineer",
+      "senior-energy-engineer",
+      "buildings-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Building Physicist",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/aesg/jobs/senior-building-physicist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_87cfcd497f78": {
@@ -42187,6 +43148,149 @@
       ],
       "probability_high": 16.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_a2fed9f748b6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Estoras Group of Companies",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "CAD",
+    "deadline": "2026-11-22T19:46:10+00:00",
+    "description": "This is a remote position. Archive is assembling a team to build a bilingual digital platform for a non profit organization. Each role has one planned assignment, with specialist involvement as needed. Qualified people may cover more than one role. Client's internal team leads product, business project management, UX/design and English/French content. Archive leads technical delivery and handover. All candidates should demonstrate relevant delivery experience, collaborative working and clear documentation. Nonprofit or education experience is an asset. \u200b This contract role willbuild the application services for accounts, profiles, registrations, saved resources and dashboard information. Implement permissions and agreed business rules, working with the integration developer to exchange information with Client's systems. Requirements Production web services, API development, databases and automated testing. Authentication, single sign-on, authorization and secure account lifecycle management. Registration workflows, input validation, reliable identifiers and duplicate prevention. Logging, error handling, performance tuning and maintainable technical documentation. 5 to 10 year experience, Required within a month, Canada location, Work remotely, Position to remain open till filled Must be fluent in spoken and written English, huge asset if you are also fluent in spoken and written French. \u200b Prefer contractor located in Canada or the USA. Client is on the East Coast of Canada \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/estoras-group-of-companies/jobs/back-end-developer",
+    "id": "opp_a2fed9f748b6",
+    "is_demo": false,
+    "match_score": 13.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:46:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 3.2,
+          "evidence": "Matched 1 profile skills: dashboard."
+        }
+      },
+      "final_score": 44.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 4 hard requirement(s) with nothing in the operator profile behind them: \"required within a month\"; \"canada location\"; \"work remotely\".",
+          "name": "Unmet stated requirements",
+          "points": 12.1
+        }
+      ],
+      "raw_total": 44.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "dashboard",
+      "backend-development",
+      "api-development",
+      "backend-engineer",
+      "software-development",
+      "web-services-development",
+      "backend-web-developer",
+      "backend-api-developer",
+      "backend-javascript-developer",
+      "backend-systems-developer",
+      "backend-platform-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Back-End Developer",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/estoras-group-of-companies/jobs/back-end-developer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_a39889cc2918": {
@@ -57318,6 +58422,136 @@
       ],
       "probability_high": 24.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_db86004b900b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Digital Career Institute",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-23T21:13:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T19:37:40+00:00",
+    "description": "join the digital career institute & social impact school Das DCI und die Impact School geh\u00f6ren zusammen. Als gemeinsamer Player sind wir am Bildungsmarkt aktiv, um tausenden von Menschen in einen beruflichen Neustart zu verhelfen. Werde Teil des Digital Career Institute (DCI) - wir sind einer der f\u00fchrenden Anbieter f\u00fcr digitale Weiterbildungen in Deutschland. Wir helfen Menschen, neue berufliche Wege zu gehen \u2013 und vernetzen Bildung, Arbeitsmarkt und Unternehmen. Wir suchen eine:n Freelancer:in, der/die uns t\u00e4glich von Montag bis Freitag von 9-12.00 Uhr unterst\u00fctzt. deine aufgaben Vermittlung der HR-generalistischen Grundlagen an Einsteiger anhand eines festgelegten Curriculums Motivieren der Teilnehmenden und Unterst\u00fctzung hin zu individuellen H\u00f6chstleistungen Dokumentation von Anwesenheiten, Unterrichtsfortschritten und Leistungsst\u00e4nden der Teilnehmenden Gestaltung und Aufrechterhaltung einer positiven Gruppendynamik in einer reinen Onlineveranstaltung f\u00fcr ein angenehmes Lern- und Arbeitsklima der Teilnehmenden Enge virtuelle Zusammenarbeit mit unseren Lern- und Karriere-Teams, um ein ansprechendes und praxisorientiertes Ausbildungserlebnis zu gew\u00e4hrleisten Aktive Mitgestaltung bei der Curriculumentwicklung und der kontinuierlichen Verbesserung der Lerninhalte auf Basis aktueller Markttrends deine skills Generalistisches HR-Wissen, z. B. durch Studium, passende Aus- und Weiterbildung Sicherer Umgang mit DATEV im HR-Bereich (z. B. Lohn und Gehalt / Stammdatenpflege) ist \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260923T211350Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/digital-career-institute/jobs/teacher-lehrer-m-w-d-hr-consultant-people-culture",
+    "id": "opp_db86004b900b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-23T19:37:41+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "hr-consulting",
+      "teaching",
+      "vocational-training",
+      "people-and-culture",
+      "learning-and-development",
+      "people-and-culture-advisor",
+      "hr-beratung",
+      "hr-consultant",
+      "people-and-culture-specialist",
+      "talent-and-learning-consultant",
+      "human-resources-consultant",
+      "human-resources"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Teacher/Lehrer (m/w/d) HR-Consultant/People & Culture",
+    "updated_at": "2026-09-23T21:13:52+00:00",
+    "url": "https://himalayas.app/companies/digital-career-institute/jobs/teacher-lehrer-m-w-d-hr-consultant-people-culture",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_dbca6911bca2": {
