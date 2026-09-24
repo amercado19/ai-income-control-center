@@ -4776,6 +4776,132 @@
       "probability_low": 32.0
     }
   },
+  "opp_13c4a40f6799": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 92,
+    "budget_min": 28,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 45.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T10:53:52+00:00",
+    "description": "Role Title: Buildium Specialist Role Type: Contractor Location: Remote micro1 is engaging Buildium Specialists to support a customer project focused on completing and documenting real-world workflows within Buildium. In this role, you\u2019ll use your hands-on Buildium and property management experience to complete realistic workflows and contribute high-quality interaction data that supports the development of next-generation AI systems. Scope of Work Complete assigned workflows and tasks within Buildium using your practical property management experience. Navigate Buildium features related to properties, tenants, leases, payments, maintenance, and property operations. Create, update, and manage property, tenant, and lease information based on provided workflow instructions. Complete common workflows involving tenant management, leasing, rent/payment tracking, and maintenance requests. Record your screen while completing assigned workflows and clearly demonstrate the steps taken. Create realistic prompts and detailed rubrics based on completed workflows. Document workflow steps and clearly explain the Buildium tools, features, and actions used. Review task outputs for accuracy and alignment with project guidelines. Follow project instructions and quality standards while working independently in a remote environment. Preferred Qualifications Strong hands-on experience using Buildium in a professional property management environment. Prior Human Data experience, such as data \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 201.6,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/buildium-specialist",
+    "id": "opp_13c4a40f6799",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T10:53:52+00:00",
+    "profit_score": 44.5,
+    "risk_flags": [],
+    "score": 41.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.2,
+          "evidence": "Estimated net $202 on $202 (100% margin). $70 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 41.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "real-estate-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Buildium Specialist",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/buildium-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_13e3c6503eee": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -14354,6 +14480,141 @@
       "probability_low": 15.0
     }
   },
+  "opp_353112e92b02": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 20,
+    "budget_min": 10,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T13:12:17+00:00",
+    "description": "Role Title: Break-It-To-Build-It \u2014 Hardware Tester Role Type: Contractor Location: San Francisco, Cali micro1 is engaging Break-It-To-Build-It \u2014 Hardware Testers to contribute to an innovative project focused on next-generation robotics hardware. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This hands-on opportunity invites recent grads, students, and experts alike to conduct physical tests on actual robotic sub-assemblies, not just review specifications or code. Your attention to detail, clear communication skills, and ability to meticulously follow procedures will make a direct impact on the project\u2019s success. Scope of Work Conduct hands-on functional and reliability tests on robotic sub-assemblies and hardware components. Operate diagnostic tools such as DAQ systems, measurement instruments, and other test equipment per provided protocols. Carefully document test procedures, observed results, and anomalies in both written and verbal form. Identify, flag, and provide clear descriptions of failures or unexpected behaviors encountered during testing. Collaborate with engineers and other experts to investigate root causes of hardware issues and suggest areas for improvement. Follow detailed test protocols and instructions with high accuracy and reliability. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 75.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/break-it-to-build-it-hardware-tester",
+    "id": "opp_353112e92b02",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T13:12:17+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 34.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $75 on $75 (100% margin). $16 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $20 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "hardware-testing",
+      "hardware-testing-engineer",
+      "hardware-test-development",
+      "hardware-test-engineer",
+      "hardware-test-engineering",
+      "hardware-qa",
+      "hardware-debugging",
+      "hardware-qa-engineer",
+      "hardware-penetration-testing",
+      "hardware-software-qa"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Break-It-To-Build-It \u2014 Hardware Tester",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/break-it-to-build-it-hardware-tester",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_355e721c8caf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19509,6 +19770,148 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_4722b1ad8459": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T14:06:13+00:00",
+    "description": "Role Title: Senior Accountant Expert Role Type: Contractor Location: Remote (US Based) micro1 is engaging Senior Accountant Experts to contribute specialized knowledge and experience to a dynamic customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Review, evaluate, and annotate financial reports and statements for accuracy and completeness, providing insights based on established accounting standards. Assess and critique audit procedures, identifying gaps, best practices, and regulatory considerations for diverse business scenarios. Create and assess financial models, ensuring logical structure, accuracy, and actionable insights. Analyze and provide feedback on tax compliance practices and documentation, highlighting risks and compliance issues. Review a variety of legal and financial documents, offering detailed feedback on clarity, correctness, and alignment with regulations. Deliver clear and constructive written and verbal feedback on project materials, ensuring effective communication with cross-functional teams. Support the development and evaluation of data sets for AI training, leveraging your prior experience with human data processes such as data labeling, annotation, or model evaluation. Required Skills and Qualifications: \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/senior-accountant-expert-188363007",
+    "id": "opp_4722b1ad8459",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T14:06:14+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 44.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "senior-accountant",
+      "senior-accounting-consultant",
+      "expert-comptable-senior",
+      "senior-accounting-specialist",
+      "accounting-expert",
+      "senior-accounting-executive",
+      "senior-manager-accountant",
+      "senior-accountant-jobs",
+      "senior-accounting",
+      "senior-tax-accountant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Accountant Expert",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/senior-accountant-expert-188363007",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_47470486a9d6": {
@@ -33007,6 +33410,155 @@
       "probability_low": 3.0
     }
   },
+  "opp_771f6d23d55c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 136.3,
+    "budget_min": 75.72,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Parsons Corporation",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T10:50:55+00:00",
+    "description": "In a world of possibilities, pursue one with endless opportunities. Imagine Next!At Parsons, you can imagine a career where you thrive, work with exceptional people, and be yourself. Guided by our leadership vision of valuing people, embracing agility, and fostering growth, we cultivate an innovative culture that empowers you to achieve your full potential. Unleash your talent and redefine what\u2019s possible. Job Description: The Portfolio Director, NAVFAC & US Coast Guard provides strategic and operational leadership for a portfolio of programs supporting the Naval Facilities Engineering Systems Command (NAVFAC)and U.S. Coast Guard (USCG), including large IDIQ task orders, and multi-award contract vehicles. This role is responsible for overseeing program execution, portfolio performance, client relationships, compliance, and resource alignment across a range of Air and Space Force customers and missions. The Portfolio Director works closely with program managers, technical leaders, operations, contracts, finance, and business development teams to ensure successful delivery and sustained portfolio growth. This position serves as a senior leader accountable for delivery excellence, financial performance, customer satisfaction, and strategic expansion across NAVFAC and USCG accounts. What You'll Be Doing: Lead and oversee a portfolio of NAVFAC and USCG programs and contract vehicles. Ensure successful execution of scope, schedule, budget, quality, and compliance requirements \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 567.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parsons-corporation/jobs/portfolio-director-navfac-us-coast-guard",
+    "id": "opp_771f6d23d55c",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T10:50:56+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 71.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $568 on $568 (100% margin). $121 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $151 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, forecasting."
+        }
+      },
+      "final_score": 71.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "portfolio-director",
+      "federal-defense",
+      "defense-contracting",
+      "government-contracts-management",
+      "portfolio-management-director",
+      "portfolio-leadership",
+      "portfolio-lead",
+      "real-estate-portfolio-director"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Portfolio Director, NAVFAC & US Coast Guard",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/parsons-corporation/jobs/portfolio-director-navfac-us-coast-guard",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_77fec32ad159": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -41780,6 +42332,136 @@
       "probability_low": 4.0
     }
   },
+  "opp_9a2aeb1eceae": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 175,
+    "budget_min": 90,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T13:45:57+00:00",
+    "description": "Role Title: GitHub Specialist Role Type: Contractor Location: Remote micro1 is engaging GitHub Specialists to support a customer project focused on completing and documenting real-world workflows within GitHub. In this role, you\u2019ll use your hands-on GitHub experience to complete realistic workflows and contribute high-quality interaction data that supports the development of next-generation AI systems. Scope of Work Complete assigned workflows and tasks within GitHub using your practical software development and version control experience. Navigate GitHub features related to repositories, branches, commits, pull requests, issues, and collaboration. Create, edit, review, and manage repositories and common GitHub workflows based on provided instructions. Use Git and GitHub to complete common version control tasks such as branching, merging, commits, and pull requests. Record your screen while completing assigned workflows and clearly demonstrate the steps taken. Create realistic prompts and detailed rubrics based on completed workflows. Document workflow steps and clearly explain the GitHub tools, features, and actions used. Review task outputs for accuracy and alignment with project guidelines. Follow project instructions and quality standards while working independently in a remote environment. Preferred Qualifications Strong hands-on experience using GitHub in professional, project-based, or open-source environments. Prior Human Data experience, such as data annotation, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 648.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/github-specialist",
+    "id": "opp_9a2aeb1eceae",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T13:45:58+00:00",
+    "profit_score": 80.3,
+    "risk_flags": [],
+    "score": 49.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 14.8,
+          "evidence": "Estimated net $648 on $648 (100% margin). $225 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $450 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 49.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 49.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "devops-specialist",
+      "software-specialist",
+      "software-development-specialist",
+      "it-specialist",
+      "codebase-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "GitHub Specialist",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/github-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_9a61ffac2932": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -48114,6 +48796,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_ae8d3660531b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 20,
+    "budget_min": 10,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T13:49:06+00:00",
+    "description": "Role Title: Robot Whisperer \u2014 Skills & Data Role Type: Contractor Location: San Francisco, Cali micro1 is engaging Robot Whisperers \u2014 Skills & Data to contribute to a customer's project focused on teaching the next generation of robots real-world dexterity. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Execute precise, repetitive manipulation tasks (e.g., picking up objects, opening containers, performing simple household actions) using handheld devices, following detailed protocols. Follow step-by-step task instructions exactly, ensuring full consistency and accuracy with each repetition. Reset and prepare the testing environment between task attempts to maintain data integrity across sessions. Review and confirm each data recording for completeness and clarity before proceeding. Identify and promptly flag hardware issues, recording anomalies, or unclear instructions to the project lead for resolution. Maintain meticulous attention to detail throughout each project phase, ensuring high-quality data collection under repetitive conditions. Communicate findings and updates clearly in both written and verbal form as required for project documentation and troubleshooting. Preferred Qualifications Exceptional fine motor skills and manual dexterity in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 75.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/robot-whisperer-skills-data",
+    "id": "opp_ae8d3660531b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T13:49:07+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 33.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $75 on $75 (100% margin). $16 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $20 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "robot-skills-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Robot Whisperer \u2014 Skills & Data",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/robot-whisperer-skills-data",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_afa24a81f52a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -49362,6 +50178,142 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_b215ed6b3a78": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 92,
+    "budget_min": 28,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T13:19:09+00:00",
+    "description": "Role Title: HubSpot Specialist Role Type: Contractor Location: Remote micro1 is engaging HubSpot Specialists to support a customer project focused on completing and documenting real-world workflows within HubSpot. In this role, you\u2019ll use your hands-on HubSpot experience to complete realistic CRM and sales workflows and contribute high-quality interaction data that supports the development of next-generation AI systems. Scope of Work Complete assigned workflows and tasks within HubSpot using your practical CRM and sales operations experience. Navigate HubSpot features related to contacts, companies, deals, pipelines, tasks, reporting, and workflow automation. Create, update, and manage CRM records and complete common sales and customer management workflows. Complete workflows involving lead management, deal tracking, pipeline management, and CRM automation. Record your screen while completing assigned workflows and clearly demonstrate the steps taken. Create realistic prompts and detailed rubrics based on completed workflows. Document workflow steps and clearly explain the HubSpot tools, features, and actions used. Review task outputs for accuracy and alignment with project guidelines. Follow project instructions and quality standards while working independently in a remote environment. Preferred Qualifications Strong hands-on experience using HubSpot CRM in a professional environment. Prior Human Data experience, such as data annotation, labeling, RLHF, AI response \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 201.6,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hubspot-specialist",
+    "id": "opp_b215ed6b3a78",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T13:19:10+00:00",
+    "profit_score": 44.5,
+    "risk_flags": [],
+    "score": 69.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.2,
+          "evidence": "Estimated net $202 on $202 (100% margin). $70 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, reporting."
+        }
+      },
+      "final_score": 69.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "hubspot-specialist",
+      "hubspot-crm-specialist",
+      "hubspot-expert",
+      "hubspot-solutions-expert",
+      "hubspot-consultant",
+      "hubspot-implementation-specialist",
+      "hubspot-integration-specialist",
+      "hubspot-onboarding-specialist",
+      "hubspot-delivery-specialist",
+      "hubspot-implementation-consultant"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "HubSpot Specialist",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hubspot-specialist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_b2b0a29d4f22": {
@@ -54135,6 +55087,129 @@
       ],
       "probability_high": 16.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_c3f22045ce9e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-24T16:41:10+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T13:20:32+00:00",
+    "description": "Role Title: Data Analyst Role Type: Contractor Location: Remote micro1 is engaging Data Analysts to contribute expertise to a confidential client project focused on evaluating AI assistants in real-world analytical workflows leveraging cloud data warehouses. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Execute structured evaluation tasks simulating typical analytical workflows (e.g., anomaly investigation, KPI reporting, data refreshes) using AI-powered solutions with cloud data warehouse connectivity. Independently verify AI-generated figures against source data by writing and running your own SQL queries, and assess the correctness of data joins, filters, and time windows. Maintain, reset, and manage seeded datasets within Snowflake, ensuring data integrity and correct answer states for test scenarios. Oversee warehouse roles, permissions, and access controls to facilitate secure and repeatable evaluation environments. Configure and document connectivity and authentication processes across multiple analytics and SaaS platforms. Investigate and document novel or undocumented product behavior encountered during workflow execution. Participate in calibration sessions with peers to ensure consistency and rigor when grading or scoring outputs. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260924T164107Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/data-analyst-9215136284",
+    "id": "opp_c3f22045ce9e",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-24T14:20:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: reporting, sql. Covers 33% of the 3 skills this listing names (missing: analytics, snowflake)."
+        }
+      },
+      "final_score": 55.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "snowflake",
+      "analytics",
+      "data-analyst",
+      "analytics-analyst",
+      "data-science-analyst",
+      "it-data-analyst",
+      "associate-data-analyst",
+      "data-analytics-specialist",
+      "research-data-analyst",
+      "data-intelligence-analyst",
+      "ai-data-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Analyst",
+    "updated_at": "2026-09-24T16:41:10+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/data-analyst-9215136284",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (43-59%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 59.0,
+      "probability_low": 43.0
     }
   },
   "opp_c466343dc2ea": {
