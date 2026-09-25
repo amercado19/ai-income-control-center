@@ -10027,6 +10027,151 @@
       "probability_low": 4.0
     }
   },
+  "opp_26e4f387d2e0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.68,
+    "budget_min": 1.44,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "JobRack",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:21:14+00:00",
+    "description": "For recruiters who want ownership, variety, impact and a great team. $3000-$3500 | Full-time | CET timezone Hey, I'm Noel, CEO and Owner at JobRack , and I'm on a mission to build the most amazing recruitment business with the most amazing team. Here's a short video by way of introduction. There's a lot of detail below. If you don't like details, that's completely fine. It just means this role isn't for you. About us JobRack helps small businesses and start-ups in the US and Europe hire remote team members from Eastern Europe and South Africa. We're a fully-remote team of 8 just now. What sets us apart is that we actually know each other, support each other, and share one goal: helping our clients hire amazing candidates. Clients work with us for three reasons: \u2611\ufe0f We find them people they couldn't find themselves \u2611\ufe0fWe give them a lot of help and support to hire successfully \u2611\ufe0fWe're confident enough in our service to offer a one-year guarantee We recruit across ecommerce and DTC marketing, creative and paid social, SEO and content, customer support, operations and project management, professional services, legal, executive assistance, finance, sales and tech. You can hear from our clients at Here\u2019s some of the comments we get from candidates: I had a great experience with Jobrack. They helped me get a great job, and Chelsea was very helpful and professional from start to finish. The overall process was quite smooth. I had a phenomenal experience with JobRack ! Thank you for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 10.8,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jobrack/jobs/jobrack-recruitment-partner",
+    "id": "opp_26e4f387d2e0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:21:15+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $11 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "recruiter",
+      "technical-recruiter",
+      "talent-acquisition-specialist",
+      "agency-recruiter",
+      "recruitment-consultant",
+      "recruitment-partner",
+      "recruitment-partnership",
+      "recruiting-partner",
+      "recruitment-partnerships",
+      "recruiting-partnership",
+      "talent-acquisition-partner",
+      "recruitment-business-partner"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "JobRack - Recruitment Partner",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/jobrack/jobs/jobrack-recruitment-partner",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_278f596037c1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -21334,6 +21479,153 @@
       "probability_low": 21.0
     }
   },
+  "opp_490b26b767ea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Oklo",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:26:15+00:00",
+    "description": "Thanks for your interest in Oklo ! We are searching for a Deployment Project Manager to join our team. Position Description The Deployment Project Manager is a pivotal, execution-focused role responsible for advancing Oklo \u2019s mission to deliver clean, affordable, and reliable energy. This individual owns the end-to-end delivery of one or more highly complex powerhouse projects, from design integration and site development through construction, startup, commissioning, and turnover to operations. These multi-year, non-recurring projects include significant first-of-a-kind scope, substantial commercial value, evolving risks, and complex dependencies across internal teams, external partners, regulators, and other key stakeholders. The Deployment Project Manager serves as the central point of coordination, driving integrated planning, decision-making, risk management, and clear communication among project teams, executive leadership, and external parties. Success in this role requires a strategic and hands-on leader with a startup mindset - someone who can bring structure to ambiguity, operate effectively in a resource-constrained environment, and maintain momentum, accountability, and alignment throughout the full project lifecycle. Location: Remote, with 25%\u201340% travel required Specific responsibilities may include: Lead end-to-end execution of powerhouse facility deployments from design through startup and turnover to operations. Support and maintain integrated project plans, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 480.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/oklo/jobs/deployment-project-manager",
+    "id": "opp_490b26b767ea",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:26:16+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 60.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $481 on $481 (100% margin). $101 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: api, aws, react, rest)."
+        }
+      },
+      "final_score": 60.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "react",
+      "project-manager",
+      "program-manager",
+      "deployment-manager",
+      "nuclear-project-manager",
+      "construction-project-manager",
+      "deployment-project-manager",
+      "deployment-program-manager",
+      "facility-deployment-project-manager",
+      "technology-deployment-manager",
+      "long-haul-deployment-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Deployment Project Manager",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/oklo/jobs/deployment-project-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_49be8569dea7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -23189,6 +23481,158 @@
       ],
       "probability_high": 59.0,
       "probability_low": 43.0
+    }
+  },
+  "opp_520088cb0fff": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.96,
+    "budget_min": 62.5,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Revvity",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:27:15+00:00",
+    "description": "Job Title Senior Back End Software Developer (AI, Java, Vert.x, AWS) - Remote US Location(s) Waltham About Us Revvity is a developer and provider of end-to-end solutions designed to help scientists, researchers, and clinicians solve the world\u2019s greatest health challenges. We pair the enthusiasm of an industry disruptor with the experience of a longtime leader. Our team of 11,000+ colleagues from around the globe are vital to our success and the reason we\u2019re able to push boundaries in pursuit of better human health. Find your future at Revvity We are looking for a talented Senior Back End Software Developer (AI, Java, Vert.x, AWS) to join our Signals Software team, building our next generation cloud notebook application. You will be focused on the back-end design and development of our cloud notebook product, helping turn marketing requirements into an easy to use and elegant application designed for the scientific community. If you are looking to join an international team of talented engineers, designers, and product managers, and to contribute to delivering amazing, high impact, customer-focused features, this is a great opportunity. You Will - Collaborate with fellow team members on priorities, specifications, and feature implementation Craft well-documented, clean, and tested code Create secure, performant interfaces and services Build and maintain new, high-impact functionality into Signals Notebook Work with cloud services and technologies Basic Qualifications: 5-7 \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 625.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/revvity/jobs/senior-back-end-software-developer-ai-java-vert-x-aws-remote-us-2044177263",
+    "id": "opp_520088cb0fff",
+    "is_demo": false,
+    "match_score": 58.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:27:16+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 68.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $625 on $625 (100% margin). $132 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $208 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 21.6,
+          "evidence": "Matched 3 profile skills: ci/cd, excel, sql. Covers 33% of the 9 skills this listing names (missing: api, aws, postgres, postgresql)."
+        }
+      },
+      "final_score": 68.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "ci/cd",
+      "react",
+      "backend-engineer",
+      "software-engineer",
+      "java-developer",
+      "cloud-engineer",
+      "ai-engineer",
+      "senior-java-backend-developer",
+      "senior-java-backend-engineer",
+      "remote-senior-backend-engineer",
+      "senior-backend-developer-(java-spring-aws)",
+      "senior-ai-backend-developer",
+      "senior-backend-developer-(artificial-intelligence)"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Back End Software Developer (AI, Java, Vert.x, AWS) - Remote US",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/revvity/jobs/senior-back-end-software-developer-ai-java-vert-x-aws-remote-us-2044177263",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_52bfcaba8a6b": {
@@ -26610,6 +27054,148 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_5fb55e4c914a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Dignotion Digital Marketing",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:27:09+00:00",
+    "description": "Category: Advertising Location: New York New York United States Dignotion is seeking a versatile and creative Social Media Editor to manage and grow social media accounts across a portfolio of client projects. From Gaming and Entertainment to Health & Wellness, Travel, Sports and Finance, you'll help bring brand voices to life across platforms, owning content creation, trend engagement and community management. This is a hands-on, part-time role ideal for someone who thrives on variety, understands platform-specific content strategies, and can balance creativity with performance goals. If you've built traction on a specific platform or grown accounts in a niche (e.g., viral video content on Instagram, sports commentary on X, lifestyle curation on Pinterest, or B2B engagement on LinkedIn), we'd love to hear about it. Key Responsibilities Manage day-to-day content and community activity across multiple social media accounts Create platform-native content (graphics, captions, short-form videos) tailored to each audience and industry Monitor trends and social conversations to ensure brands stay relevant and engaging Develop content calendars, schedule posts, and manage approval workflows Engage with communities via comments, DMs, and real-time responses Collaborate with internal teams (designers, account managers, media buyers) to align content with broader marketing campaigns Track content performance, extract insights, and suggest optimizations to improve reach and engagement \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dignotion-digital-marketing/jobs/social-media-editor-remote-or-nyc-based",
+    "id": "opp_5fb55e4c914a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:27:09+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "social-media-editor",
+      "social-media-manager",
+      "content-creator",
+      "social-media-specialist",
+      "digital-marketing-specialist",
+      "social-media-content-editor",
+      "social-content-coordinator",
+      "social-media-content-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Social Media Editor (Remote or NYC-Based)",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/dignotion-digital-marketing/jobs/social-media-editor-remote-or-nyc-based",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_5fbccd1271b3": {
@@ -39107,6 +39693,155 @@
       "probability_low": 15.0
     }
   },
+  "opp_8b035f34f701": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 88.94,
+    "budget_min": 74.52,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Elation Health",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:15:44+00:00",
+    "description": "At Elation, our team is committed to enhancing physician and patient quality of life. We are a SaaS cloud-based clinical platform on a mission to enable every patient to receive the highest quality of care. Since inception, we\u2019ve been focused on building a delightful, world\u2011class customer experience that empowers physicians to focus on delivering phenomenal care to patients. As Principal, Key Accounts, you'll own the relationships and commercial outcomes for Elation's most complex, highest-value customers. This is a senior, highly visible role for someone who thinks like a partner, acts like an owner, and knows how to turn trusted relationships into long-term growth. You'll sit at the intersection of customer success, strategic advisory, and commercial expansion, working closely with Sales, Product, Services, and Executive leadership to make Elation indispensable to the organizations we serve. What You'll Own Strategic Account Leadership Own the end-to-end success and growth of a portfolio of Elation's largest, most strategic accounts, including gross revenue retention, net revenue retention, and expansion ARR Develop and execute account plans that reflect each customer's business goals, organizational dynamics, and clinical priorities Proactively identify and manage retention risks, escalating cross-functionally and setting clear expectations externally Executive Relationship Management Build and maintain trusted relationships with C-suite and senior decision-makers across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 558.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/elation-health/jobs/principal-key-accounts",
+    "id": "opp_8b035f34f701",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:15:45+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 43.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $559 on $559 (100% margin). $119 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $149 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "key-account-manager",
+      "strategic-account-manager",
+      "enterprise-account-manager",
+      "customer-success-manager",
+      "senior-account-executive",
+      "key-account-director",
+      "principal-account-executive",
+      "key-account-sales-manager",
+      "key-account-management-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal, Key Accounts",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/elation-health/jobs/principal-key-accounts",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_8b6008cfdd38": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -42772,6 +43507,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_9896be2b460a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Kodland",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:20:42+00:00",
+    "description": "Kodland is a digital platform that connects tutors and kids from all over the world. Are you good at Python and love sharing your knowledge with children? We are currently looking for Python Tutors to join our rapidly growing team! Job description: You will deliver fun and engaging lessons based on a provided curriculum and materials. You will work with children aged 10 to 14 in individual or group online lessons (9\u201312 students). You will improve your teaching skills with experienced Kodland mentors. You will provide feedback on lessons and materials to the team. You will provide detailed and regular reports on student progress. You will enhance the learning experience and student engagement in the classroom. You will become a positive, influential, and friendly figure of Kodland . You will implement creative ideas to support students. Benefits: Supportive and fun young team Scripts and materials for all lessons Commitment to personal and professional development with regular training courses Discounted courses for friends and family No teaching experience required \u2013 you will still be invited for an interview and will complete a digital skills test upon request. You will demonstrate your programming skills using Python Requirements Skills: Proficient in Python at least at an intermediate level. Willingness to acquire new skills and improve existing ones. Available to teach children and help them achieve great results. Availability to work on weekends and/or weekdays and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kodland/jobs/italy-tutor-python-pro",
+    "id": "opp_9896be2b460a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-25T14:20:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "python-tutoring",
+      "online-tutor",
+      "programming-instructor",
+      "coding-instructor",
+      "computer-science-tutor",
+      "italian-tutor",
+      "italian-language-tutor",
+      "italian-tutoring",
+      "italian-language-teacher",
+      "online-italian-teacher",
+      "italian-instructor",
+      "online-italian-instructor",
+      "italian-teaching",
+      "italian-teacher",
+      "education"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Italy Tutor | Python PRO",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/kodland/jobs/italy-tutor-python-pro",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_995de32c5129": {
@@ -61681,6 +62551,144 @@
       "probability_low": 4.0
     }
   },
+  "opp_d3e612f2a62b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "RealAdvisor S.A.",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:06:40+00:00",
+    "description": "REALADVISOR CHEGOU A PORTUGAL Business Development Representative - Mercado Portugu\u00eas | Freelancer / Trabalhador Independente Ajude-nos a construir e a desenvolver o mercado portugu\u00eas A RealAdvisor \u00e9 uma das principais plataformas digitais do setor imobili\u00e1rio na Europa. \u00c9 uma empresa internacional PropTech, fundada na Su\u00ed\u00e7a, que utiliza dados, transpar\u00eancia e tecnologia para ajudar os profissionais do imobili\u00e1rio a fazer crescer os seus neg\u00f3cios. Fundada na Su\u00ed\u00e7a, a empresa trabalha atualmente com mais de 5.000 ag\u00eancias imobili\u00e1rias e atrai mais de 10 milh\u00f5es de utilizadores por ano em v\u00e1rios mercados europeus. Ap\u00f3s o sucesso da RealAdvisor na Su\u00ed\u00e7a, It\u00e1lia, Fran\u00e7a, Espanha e Pol\u00f3nia, estamos agora a lan\u00e7ar o mercado portugu\u00eas. Portugal \u00e9 um mercado totalmente novo para a RealAdvisor. Isto significa que estamos numa fase inicial de desenvolvimento, o que cria oportunidades significativas para profissionais de vendas ambiciosos que queiram entrar desde o in\u00edcio, ajudar a construir o mercado e crescer com a empresa. N\u00e3o ir\u00e1 apenas gerir um mercado j\u00e1 estabelecido - ter\u00e1 a oportunidade de ajudar a constru\u00ed-lo e a mold\u00e1-lo de raiz. A FUN\u00c7\u00c3O Como Sales / Business Development Representative, ser\u00e1 respons\u00e1vel por desenvolver o mercado portugu\u00eas e apresentar a solu\u00e7\u00e3o da RealAdvisor aos profissionais do setor imobili\u00e1rio. As suas principais responsabilidades incluir\u00e3o: Identificar e contactar novos clientes atrav\u00e9s de prospe\u00e7\u00e3o ativa (outbound). Realizar chamadas (cold calls) e \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/realadvisor-s-a/jobs/business-development-representative-pt-freelancer-b2b-saas",
+    "id": "opp_d3e612f2a62b",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-25T14:06:41+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "business-development-representative",
+      "sales",
+      "sales-development-representative",
+      "b2b-sales-representative",
+      "inside-sales-representative",
+      "business-developer-freelance",
+      "saas-sales-representative",
+      "sales-business-development-representative",
+      "remote-business-development-representative",
+      "saas-business-development",
+      "remote-entry-level-saas-sales-development-representative",
+      "business-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development Representative - PT | Freelancer / B2B SaaS",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/realadvisor-s-a/jobs/business-development-representative-pt-freelancer-b2b-saas",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_d46edfeef28b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -63444,6 +64452,139 @@
     "title": "Freelance Graphic Designer",
     "updated_at": "2026-09-15T20:57:33+00:00",
     "url": "https://himalayas.app/companies/mindrift/jobs/freelance-graphic-designer-480517051",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_d969de5b2ad7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 70,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "BeterGGZ",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "EUR",
+    "deadline": "2026-11-24T14:15:41+00:00",
+    "description": "Werk volledig remote, ook vanuit het buitenland Ben jij een ervaren basispsycholoog die zelfstandig kan werken, verantwoordelijkheid durft te nemen en energie krijgt van specialistische GGZ? Heb je al minimaal twee jaar vlieguren gemaakt binnen de SGGZ en wil je jouw expertise inzetten binnen een innovatieve, volledig digitale behandelomgeving? Dan is Beterggz mogelijk een mooie volgende stap voor jou. Wij zoeken proactieve basispsychologen die online behandelen serieus nemen. Professionals die digitaal vaardig zijn, stevig in hun rol staan en ook op afstand een sterke behandelrelatie kunnen opbouwen. Over Beterggz Beterggz is een online aanbieder van specialistische GGZ. Wij bieden landelijk poliklinische behandelingen aan cli\u00ebnten met uiteenlopende en complexe zorgvragen. Ons team bestaat uit psychologen, artsen, psychiaters en andere betrokken professionals. We werken digitaal, multidisciplinair en met korte lijnen. Onze missie is helder: kwalitatief goede GGZ toegankelijker maken, wachtlijsten verkorten en zorg slimmer organiseren. Omdat wij volledig online werken, maakt het minder uit waar je zit. Of je nu vanuit Nederland werkt of vanuit het buitenland, zolang de kwaliteit, continu\u00efteit en professionaliteit op orde zijn. Requirements Wat ga je doen? Als online basispsycholoog behandel je cli\u00ebnten binnen de specialistische GGZ. Je voert online behandelgesprekken, doet psychodiagnostiek, stelt samen met collega\u2019s behandelplannen op en bewaakt de voortgang van de \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 525.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/beterggz/jobs/online-basispsycholoog-sggz",
+    "id": "opp_d969de5b2ad7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:15:41+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 44.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $525 on $525 (100% margin). $112 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "basispsycholoog",
+      "gz-psycholoog",
+      "psychologen",
+      "remote-psychologist",
+      "online-psychologie",
+      "online-behandeling",
+      "online-therapie"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Online Basispsycholoog SGGZ",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/beterggz/jobs/online-basispsycholoog-sggz",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -67487,6 +68628,135 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_e7805e9bd830": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Tenthpin",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T14:16:31+00:00",
+    "description": "At Tenthpin , we are looking for a highly organised, commercially minded and collaborative Resource & Vendor Management Specialist to join our rapidly growing global team. The successful candidate will play a key role in helping us identify, engage and manage high-quality external consultants across Europe and other international markets, ensuring our clients have access to the specialist expertise required to deliver complex transformation programmes. Working closely with Partners, Delivery Leads and Resource Management teams, you will help support some of the world's leading Life Sciences organisations, contributing to our reputation as one of the consulting success stories of recent years. The Opportunity As a Resource & Vendor Management Specialist, you will play a critical role in supporting the engagement, management and deployment of external consultants across our global business. Acting as a trusted partner to both internal stakeholders and external suppliers, you will help ensure we have access to the right talent at the right time, whilst maintaining strong commercial and operational controls. The role will include, but not be limited to: Building and managing relationships with subcontracting agencies and staffing partners across Europe and other international markets. Developing and maintaining talent pools of high-quality consultants across key skill areas to support current and future business demand. Partnering closely with Resource Management, Delivery Leads \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tenthpin/jobs/resource-vendor-management-specialist",
+    "id": "opp_e7805e9bd830",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-25T14:16:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "resource-manager",
+      "vendor-manager",
+      "contract-recruiter",
+      "workforce-planning-specialist",
+      "staffing-manager",
+      "vendor-management-specialist",
+      "resource-management-specialist",
+      "vendor-relations-specialist",
+      "supplier-management-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Resource & Vendor Management Specialist",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/tenthpin/jobs/resource-vendor-management-specialist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_e7fd1cf8ee88": {
@@ -72673,6 +73943,141 @@
       "probability_low": 8.0
     }
   },
+  "opp_f82e3fcd8b88": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Mercier Consultancy Group",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-25T16:46:45+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Danish Speaking Solutions Consultant About Mercier Consultancy Group Mercier Consultancy Group is a premier international staffing firm, recognized for bridging the gap between high-caliber talent and global industry leaders. We pride ourselves on delivering bespoke recruitment solutions that empower professionals to excel in the competitive Customer Support Services landscape while advancing their international careers. Job Overview We are currently sourcing exceptional talent for a Danish Speaking Solutions Consultant position in Bulgaria. This role is a fantastic opportunity to join a world-class team in the Customer Support Services sector, where your linguistic expertise will directly influence client satisfaction and service delivery in one of the most exciting jobs in Bulgaria. Key Responsibilities Act as the primary point of contact for Danish-speaking customers, providing high-level technical and administrative support. Resolve complex inquiries through multiple channels, maintaining the high standards expected in the Customer Support Services industry. Document all interactions accurately within the CRM to ensure a seamless service experience for every client. Identify recurring customer issues and collaborate with internal departments to implement long-term service improvements. Contribute to team KPIs by maintaining high service efficiency and customer satisfaction scores. Provide expert guidance to clients, ensuring they get the most value out of our service \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137431",
+    "id": "opp_f82e3fcd8b88",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-24T16:00:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "consulting",
+      "education",
+      "technical",
+      "customer support",
+      "marketing",
+      "travel",
+      "medical",
+      "recruiter"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Danish Speaking Solutions Consultant Work Sofia Bulgaria",
+    "updated_at": "2026-09-25T16:46:45+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-danish-speaking-solutions-consultant-work-sofia-bulgaria-mercier-consultancy-group-1137431",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_f8d9d473860a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -73959,6 +75364,142 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_fa482f1b5514": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.72,
+    "budget_min": 0.72,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Avedo - Eine Marke der Str\u00f6er X GmbH",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-25T16:46:44+00:00",
+    "currency": "EUR",
+    "deadline": "2026-11-24T14:23:53+00:00",
+    "description": "Du sprichst sehr gut Deutsch und hast Freude am Kontakt mit anderen Menschen? Dann bist du bei uns als Customer Support Telekommunikation (m/w/d) im Homeoffice genau richtig, um ein Teil des Avedo-Teams zu werden. Auch Quereinsteiger sind bei uns im Contact Center herzlich willkommen! Deine Benefits sicherer Arbeitsplatz und sehr gute Verdienstm\u00f6glichkeiten: Grundgehalt von 1.500\u20ac + unbegrenzte Boni hybrides Arbeitsmodell - Homeoffice m\u00f6glich (Wohnort muss in Bulgarien sein) Benefits und Entwicklungsm\u00f6glichkeiten sicherer Arbeitsplatz in Voll- oder Teilzeit (ab 20h/Woche) - Schulungsphase muss in Vollzeit absolviert werden direkter Einstieg mit verg\u00fcteter Schulungsphase - bei uns lernst du alles was du wissen musst! umfangreiche Mitarbeiterrabatte sowie Pr\u00e4mien f\u00fcr Mitarbeiter werben Mitarbeiter flache Hierarchien, kurze Entscheidungswege und wertsch\u00e4tzende Teamatmosph\u00e4re Deine Aufgaben schriftlicher und telefonischer Kundenservice proaktive Beratungsgespr\u00e4che zu Produkten, Tarifen und Preisen Abschluss von Vertr\u00e4gen im Rahmen von Tarifumstellungen, Vertragsoptimierungen und der Vermarktung neuer Produkte Sicherstellung der Kundenzufriedenheit Nachbereitung der Kundengespr\u00e4che Requirements Dein Profil sehr gute Deutschkenntnisse (mind. C1) in Wort und Schrift sicherer Umgang mit PC-Anwendungen (z.B. MS Office) ausgepr\u00e4gte Kommunikationsf\u00e4higkeit und Servicementalit\u00e4t selbstst\u00e4ndige Arbeitsweise und schnelle Auffassungsgabe idealerweise erste Erfahrungen im Call Center Umfeld \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260925T164642Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 5.4,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/avedo-eine-marke-der-stroer-x-gmbh/jobs/customer-support-telekommunikation-m-w-d-homeoffice",
+    "id": "opp_fa482f1b5514",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-25T14:23:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $5 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-support-representative",
+      "call-center-representative",
+      "customer-service",
+      "telecommunications-specialist",
+      "phone-support-representative",
+      "remote-german-customer-support-specialist",
+      "sachbearbeiter-kundenbetreuung",
+      "work-from-home-customer-support",
+      "kundenservice-(inbound)",
+      "german-speaking-customer-support-jobs",
+      "customer-support"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Support Telekommunikation (m/w/d) Homeoffice",
+    "updated_at": "2026-09-25T16:46:44+00:00",
+    "url": "https://himalayas.app/companies/avedo-eine-marke-der-stroer-x-gmbh/jobs/customer-support-telekommunikation-m-w-d-homeoffice",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
