@@ -4798,6 +4798,165 @@
       "probability_low": 15.0
     }
   },
+  "opp_10cd1360e35d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": 50.0,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Freelancer.com client (18 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-26T10:58:49+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Hiring 100+ people this weekend. 10 minutes of recording, $10 fixed, paid through Freelancer. That works out to $60 per recorded hour, for filming something you already do. Here's the job. Strap your phone to your head, do an everyday task (cook a meal, fix a bike, repot a plant, play a PC game), and explain each step out loud in English. No editing. No script. No experience needed. Why we pay for this: AI and robotics labs learn how people use their hands from videos like yours. They also need to hear you explain what you're doing, so clear narration matters more than camera skills. Why take this job: - Fast. About 15 minutes from start to upload. - Paid on Freelancer. Payment is released within 48 hours of your video being accepted. - A completed project on your profile. - We'll invite people who do this well to future video projects. How it works: 1. Pick one task you already know. We send the full list of 44 options after you're hired. 2. Mount your phone on your head so the camera sees your hands. 3. Do one step, then stop and say what you just did: which hand, which tool, what it touched. Then do the next step. 4. Record 5 to 10 minutes and upload it in the project chat here. Requirements: - Clear, fluent spoken English. Accents are fine. Videos without narration can't be accepted. - A phone that records HD video and a head mount. - Keep other people's faces out of the video. - 18 or older. Deadline: Sunday, September 27, 03:00 UTC. To apply, start your proposal with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260926T105847Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 337.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 37.5,
+    "external_id": "40734131",
+    "id": "opp_10cd1360e35d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-26T08:11:52+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 21.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $338 on $375 (90% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 5.4,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 21.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 33.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "video services",
+      "video upload",
+      "english translation",
+      "data collection",
+      "ai training data"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "$60/hr rate, 100+ hires: 10-min phone video narrated in English",
+    "updated_at": "2026-09-26T10:58:49+00:00",
+    "url": "https://www.freelancer.com/projects/ai-training-data/rate-hires-min-phone-video",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-16%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "18 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "2%",
+          "to": "2%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "8%",
+          "to": "2%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 16.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_11a9bb6b38a1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -9262,6 +9421,140 @@
       ],
       "probability_high": 69.0,
       "probability_low": 51.0
+    }
+  },
+  "opp_22d51bbc53ca": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 15,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-26T10:58:49+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-25T05:38:56+00:00",
+    "description": "Role Title: Gmail & Google Calendar AI Assistant Evaluator Role Type: Contractor, Remote Location: United States only micro1 is engaging Gmail & Google Calendar AI Assistant Evaluators to collaborate on a customer-driven project enhancing AI assistant quality through real-world task evaluation. In this role, you'll use your everyday experience managing your digital life \u2014 email, calendars, bookings, and coordination \u2014 to help train and evaluate next-generation AI assistants. Your work will shape how AI models handle the real tasks people delegate every day. Key Responsibilities: Complete realistic, everyday digital tasks (emailing, scheduling, booking, coordinating) using AI assistant tools under standardized, repeatable conditions. Give an AI assistant clear instructions for real-world tasks, then carefully review and verify its work for accuracy and completeness. Apply detailed grading guidelines to evaluate, rank, and annotate assistant responses, providing structured feedback that improves model performance. Test scenarios involving email threads, calendar invites, online bookings, and multi-person coordination, ensuring coverage of diverse situations and edge cases. Utilize AI training tools and platforms to record findings and submit evaluation data in alignment with project standards and milestones. Collaborate with project trainers and contributors to resolve ambiguities, refine guidelines, and ensure evaluation consistency across the team. Participate in ongoing \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260926T105847Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 112.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/gmail-google-calendar-ai-assistant-evaluator",
+    "id": "opp_22d51bbc53ca",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-26T05:38:56+00:00",
+    "profit_score": 17.4,
+    "risk_flags": [],
+    "score": 35.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.2,
+          "evidence": "Estimated net $112 on $112 (100% margin). $24 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $30 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "ai-evaluator",
+      "ai-chatbot-evaluator",
+      "ai-feedback-evaluator",
+      "generative-ai-evaluator",
+      "ai-evaluation-analyst",
+      "ai-evaluation",
+      "chatbot-conversational-ai-evaluator",
+      "freelance-ai-evaluator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Gmail & Google Calendar AI Assistant Evaluator",
+    "updated_at": "2026-09-26T10:58:49+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/gmail-google-calendar-ai-assistant-evaluator",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_230b4c934762": {
@@ -19664,6 +19957,138 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_431c3139cbea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 24,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-26T10:58:49+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-25T07:39:09+00:00",
+    "description": "Role Title: Danish Transcription Expert Role Type: Contractor Location: Remote micro1 is engaging Danish Transcription Experts to participate in a customer-driven project focused on developing advanced AI technologies. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is ideal for native Danish speakers with strong transcription backgrounds who are interested in contributing to the future of AI. Scope of Work Transcribe Danish audio files with a high degree of accuracy and linguistic nuance. Annotate and label speech data according to detailed project guidelines and standards. Carefully evaluate and verify the quality of transcriptions to ensure consistency and completeness. Work with AI workflow tools to process, correct, and enhance audio data sets. Participate in the review and refinement of annotation schema as project needs evolve. Provide constructive feedback to improve transcription processes and support continuous improvement. Preferred Qualifications Native-level proficiency in Danish, with exceptional listening and language skills. Demonstrated experience transcribing and annotating Danish audio in professional or research settings. Strong attention to detail in identifying errors, inconsistencies, and nuances in spoken content. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260926T105847Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/danish-transcription-expert",
+    "id": "opp_431c3139cbea",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-26T07:39:09+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 52.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: machine learning, rest)."
+        }
+      },
+      "final_score": 52.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "machine learning",
+      "danish-language-expert",
+      "danish-language-services",
+      "danish-language-specialist",
+      "danish-linguist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Danish Transcription Expert",
+    "updated_at": "2026-09-26T10:58:49+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/danish-transcription-expert",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4337dfec5ae7": {
