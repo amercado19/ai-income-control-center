@@ -2025,6 +2025,146 @@
       "probability_low": 0.0
     }
   },
+  "opp_053df0ddbb1b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Pavago",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:53:42+00:00",
+    "description": "Account Executive \u2013 B2B Sales | Remote Position Type: Full-Time, Remote Working Hours: U.S. Business Hours About the Role We\u2019re hiring an experienced B2B Account Executive to own the sales process from qualified opportunity through close. You\u2019ll lead discovery, presentations, proposals, negotiations, and closing while maintaining a healthy pipeline and consistently achieving revenue targets. What You\u2019ll Do Conduct discovery and qualification calls Understand customer challenges, goals, and buying criteria Deliver compelling product or service presentations and demos Develop proposals and commercial recommendations Handle objections and negotiate pricing and terms Manage opportunities throughout the sales cycle Maintain accurate CRM records and sales forecasts Consistently achieve monthly and quarterly revenue targets Requirements 3+ years of B2B closing experience Proven history of meeting or exceeding sales quotas Strong discovery, negotiation, objection-handling, and closing skills Experience managing multiple opportunities simultaneously Proficiency with CRM platforms Excellent business communication and presentation skills Results-driven and comfortable working against revenue targets What Success Looks Like Consistent quota attainment Strong opportunity-to-close conversion rates Healthy and well-managed sales pipeline Accurate forecasting and CRM records Consistent revenue generation Interview Process Initial Screening Call Spark Hire Video Interview Recruiter Interview \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pavago/jobs/account-executive-b2b-sales-remote-7146376614",
+    "id": "opp_053df0ddbb1b",
+    "is_demo": false,
+    "match_score": 20.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:53:42+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 38.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.6,
+          "evidence": "Matched 2 profile skills: excel, forecasting."
+        }
+      },
+      "final_score": 38.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 4 hard requirement(s) with nothing in the operator profile behind them: \"b2b closing experience proven history of meeting or exceeding sales qu\"; \"negotiation\"; \"objection-handling\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 38.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "account-executive",
+      "b2b-sales",
+      "sales-executive",
+      "business-development",
+      "sales",
+      "remote-account-executive",
+      "remote-b2b-sales-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Account Executive - B2B Sales | Remote",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/pavago/jobs/account-executive-b2b-sales-remote-7146376614",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_059c59b7fc0a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -2870,6 +3010,156 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_08754dd7a848": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "US Federal Solutions",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:55:52+00:00",
+    "description": "USFS is an ISO 9001 management consulting firm with headquarters in the National Capital Region and offices and staff in 12 US states. USFS staff average 10+ years of professional experience, over 80 percent of our staff have bachelor\u2019s degrees, and over half have advanced degrees in business and technology. USFS was founded in 2010 and provides financial management, acquisition management, program management, and data analytic support services to federal and state governments. Acquisition Liaison Federal Transit Administration Support Location: Washington, DC / Primarily Remote Company: US Federal Solutions Why Join US Federal Solutions US Federal Solutions (USFS) is a management consulting firm supporting federal agencies with acquisition management, financial management, program management, and data analytics services. We are seeking an experienced Acquisition Liaison to support the Federal Transit Administration\u2019s Office of Acquisition Management. This role is well suited for a federal acquisition professional who can serve as a trusted bridge between program offices and contracting personnel. The successful candidate will help customers develop complete acquisition packages, strengthen requirements documentation, track procurement actions, support acquisition planning, and coordinate activities throughout the acquisition lifecycle. What You Will Do As an Acquisition Liaison, you will provide federal acquisition subject matter expertise to program and technical staff \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/us-federal-solutions/jobs/acquisition-liaison-contract-specialist",
+    "id": "opp_08754dd7a848",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-27T14:55:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 19 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: analytics, api, aws)."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"professional experience\"; \"over 80 percent of our staff have bachelor\u2019s degrees\"; \"over half have advanced degrees in business\".",
+          "name": "Unmet stated requirements",
+          "points": 10.2
+        }
+      ],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "analytics",
+      "contract-specialist",
+      "acquisition-specialist",
+      "contracting-officers",
+      "procurement-specialist",
+      "federal-acquisition-professional",
+      "procurement-contracts-specialist",
+      "contracts-and-procurement-specialist",
+      "acquisition-support-specialist",
+      "government-contracts-specialist",
+      "federal-acquisition-specialist",
+      "contracts-specialist",
+      "contract-development-specialist",
+      "contracts-coordinator",
+      "contract-management-specialist",
+      "supply-chain-contracts-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Acquisition Liaison/Contract Specialist",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/us-federal-solutions/jobs/acquisition-liaison-contract-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_096b1237df02": {
@@ -6346,6 +6636,158 @@
       ],
       "probability_high": 38.0,
       "probability_low": 16.0
+    }
+  },
+  "opp_17d25f528cbf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Stellar Tech",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:54:42+00:00",
+    "description": "Job Description International fast-growing IT company StellarTech is looking for a Backend Lead - Hands-on Tech Lead / Player-Coach. StellarTech is a fast-growing international product technology company looking for a Backend Lead to own the technical direction, engineering quality, and operational health of our backend ecosystem. This is a hands-on player-coach role combining backend architecture, technical execution, engineering leadership, and people management. You will lead a small team of experienced backend engineers while remaining actively involved in technical design, critical implementation, code reviews, production troubleshooting, and technical research. You will work in a cross-functional product environment and take responsibility not only for backend implementation, but also for product delivery, reliability, and long-term technical sustainability. What You\u2019ll Do: Own the backend technical direction and architecture across our product ecosystem. Translate product initiatives into technical solutions: clarify requirements, assess feasibility, identify risks, prepare technical designs, and decompose work for the team. Own the complete engineering lifecycle from refinement and solution design to implementation, release, monitoring, and production improvements. Design scalable, reliable, and maintainable backend solutions aligned with product and business needs. Build and evolve shared backend capabilities, reusable components, and platform solutions that allow \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/stellar-tech/jobs/backend-lead-hands-on-tech-lead",
+    "id": "opp_17d25f528cbf",
+    "is_demo": false,
+    "match_score": 82.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:54:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 63.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.4,
+          "evidence": "Matched 6 profile skills: automation, ci/cd, dashboard, github actions, python, sql. Covers 43% of the 14 skills this listing names (missing: analytics, api, aws, docker)."
+        }
+      },
+      "final_score": 63.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "fastapi",
+      "aws",
+      "docker",
+      "kubernetes",
+      "github actions",
+      "ci/cd",
+      "automation",
+      "dashboard",
+      "analytics",
+      "back-end-lead",
+      "technical-lead",
+      "backend-engineer",
+      "python-developer",
+      "software-engineer",
+      "tech-lead-backend"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Backend Lead - Hands-on Tech Lead",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/stellar-tech/jobs/backend-lead-hands-on-tech-lead",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_18151d1634a6": {
@@ -14086,6 +14528,149 @@
       ],
       "probability_high": 19.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_2f9b5fd50ded": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Red Canyon Engineering & Software",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:55:08+00:00",
+    "description": "Red Canyon Software is looking for an enthusiastic and creative Satellite Systems I&T Engineer - HWIL/SWIL (Contract) to develop solutions for satellite integration and test. We're looking for candidates who can bring exceptional engineering skills and strong experience in aerospace programs to the team. Position Responsibilities: The Satellite Systems I&T Engineer (SEIT) will contribute to the development and execution of satellite verification and validation activities, including Flatsats, HWIL/SWIL environments, and simulators. In this role, the engineer will map technical requirements to verification and validation strategies, develop test plans, procedures, and automated test scripts, and execute and report software, subsystem, and system-level test results. The engineer will also support requirements decomposition and the development of design documentation. As a mid-level engineer, the SEIT Engineer will lead portions of the verification program, serve as Test Conductor for formal validation events, troubleshoot complex hardware and software issues, and execute moderate to complex assignments with increasing autonomy under the Systems Engineering Manager and senior Systems Engineers. Satellite Functional Verification and Validation - 80% Review the satellite functional specification and develop verification plans and test approaches to validate requirements. Design and build automated testing systems, tooling, and/or ground support equipment (GSE) to optimize test and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/red-canyon-engineering-software/jobs/remote-satellite-systems-i-t-engineer",
+    "id": "opp_2f9b5fd50ded",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:55:08+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 67.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, python."
+        }
+      },
+      "final_score": 67.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "automation",
+      "satellite-systems-engineer",
+      "spacecraft-integration-and-test-engineer",
+      "systems-engineer",
+      "test-engineer",
+      "aerospace-engineer",
+      "satellite-systems-engineering",
+      "space-systems-engineer",
+      "spacecraft-systems-engineer",
+      "remote-systems-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Remote Satellite Systems I&T Engineer",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/red-canyon-engineering-software/jobs/remote-satellite-systems-i-t-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_306d91e37586": {
@@ -27655,6 +28240,157 @@
       "probability_low": 4.0
     }
   },
+  "opp_5c05b3b2a4b4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Backblaze",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:54:57+00:00",
+    "description": "About Backblaze Backblaze is the object storage leader in the open cloud movement, fueling customer success with cloud storage built purposefully to unlock budgets, unburden administrators, and unleash innovators. Together with our partners, we're helping customers break free from the restrictive, overpriced legacy solutions that hold them back and blaze forward with the full power of the open cloud in their hands. Founded in 2007, we scaled the business with less than $3 million in outside funding until 2021, when we did a traditional IPO on the Nasdaq stock exchange. Today, Backblaze generates over $125M in revenue and is the leading specialized storage cloud, managing over three billion gigabytes of data storage for 500K+ customers in 175+ countries, including businesses, developers, IT professionals, and individuals. Role Overview Backblaze is seeking a Director, Enterprise Systems & Architecture to own the technical vision, architecture, and operations of the company\u2019s enterprise systems and emerging AI use cases. This is a senior leadership role with organization-wide scope \u2014 spanning commercial and financial systems, GTM technology, data architecture, and the deployment and governance of AI agents across the business. This leader will serve as the company\u2019s architectural authority for enterprise platforms including Salesforce, NetSuite, Zendesk, Snowflake, and their surrounding integration ecosystem. Equally important, they will support the governed infrastructure \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/backblaze/jobs/director-enterprise-systems-architecture-latam",
+    "id": "opp_5c05b3b2a4b4",
+    "is_demo": false,
+    "match_score": 49.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-27T14:54:58+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 38.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.0,
+          "evidence": "Matched 2 profile skills: ci/cd, dashboard. Covers 29% of the 7 skills this listing names (missing: analytics, api, rest, snowflake)."
+        }
+      },
+      "final_score": 38.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "snowflake",
+      "api",
+      "rest",
+      "ci/cd",
+      "dashboard",
+      "tableau",
+      "analytics",
+      "enterprise-architect",
+      "it-director",
+      "system-architect",
+      "business-systems-director",
+      "platform-engineering-director",
+      "director-of-systems-architecture",
+      "director-of-application-architecture",
+      "director-enterprise-technology",
+      "director-of-data-architecture",
+      "infrastructure-architecture-director",
+      "director-of-solution-architecture"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director, Enterprise Systems & Architecture (LATAM)",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/backblaze/jobs/director-enterprise-systems-architecture-latam",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_5c0dec78de81": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29198,6 +29934,146 @@
     "title": "Work From Home - Part-Time Enrollment Specialist",
     "updated_at": "2026-09-16T03:49:15+00:00",
     "url": "https://himalayas.app/companies/global-elite-empire-consultants/jobs/work-from-home-part-time-enrollment-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_6160ed551e64": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Snic Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "SGD",
+    "deadline": "2026-11-26T14:53:52+00:00",
+    "description": "Solutions Sales Executive Location: Singapore (Exceptional English speaking candidates from Thailand, Vietnam or Malaysia also can apply) About Snic Solutions : Snic Solutions empowers manufacturing companies to unlock growth through smart manufacturing software solutions. Our offerings \u2014 including our proprietary Factory Thread platform and Manufacturing Operations Management Platform (APS, MES, LIMS, QMS) \u2014 help manufacturers digitalize their operations, improve efficiency, and scale without expensive technology overhauls. We work with leading manufacturers across industries to deliver real outcomes, not just technology deployments. Role Summary: We are seeking a Solutions Sales Executive to drive new business growth in India. You will be responsible for building your own pipeline, prospecting into manufacturing companies, qualifying opportunities, and closing deals. You will work closely with the leadership team to execute Snic Solutions \u2019 consultative, outcome-driven Go-To-Market strategy. This is a pure sales role \u2014 focused on new logo acquisition and account expansion. Onboarding, delivery, and post-sale customer success will be managed by our Solutions Delivery and Support teams. Key Responsibilities: Own the full sales cycle: From prospecting to contract signature for manufacturing software solutions. Prospect and build pipeline: Identify and qualify leads through outbound outreach (LinkedIn, email, calls, networking, events). Lead discovery conversations: Understand \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/snic-solutions/jobs/solutions-sales-executive-south-east-asia",
+    "id": "opp_6160ed551e64",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:53:52+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sales-executive",
+      "software-sales-representative",
+      "b2b-sales-executive",
+      "solution-sales-executive",
+      "account-executive",
+      "senior-solutions-sales-executive",
+      "solution-sales-specialist",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Solutions Sales Executive - South East Asia",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/snic-solutions/jobs/solutions-sales-executive-south-east-asia",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -40654,6 +41530,144 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_86e5aa63fa5d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 140.67,
+    "budget_min": 102.31,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Palo Alto Networks",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:54:42+00:00",
+    "description": "Our Mission At Palo Alto Networks \u00ae, we\u2019re united by a shared mission\u2014to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you\u2019re ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you\u2019re in the right place. Who We Are In order to be the cybersecurity partner of choice, we must trailblaze the path and shape the future of our industry. This is something our employees work at each day and is defined by our values: Disruption, Collaboration, Execution, Integrity, and Inclusion. We weave AI into the fabric of everything we do and use it to augment the impact every individual can have. If you are passionate about solving real-world problems and ideating beside the best and the brightest, we invite you to join us! This role is remote, but distance is no barrier to impact. Our hybrid teams collaborate across geographies to solve big problems, stay close to our customers, and grow together. You will be part of a culture that values trust, accountability, and shared success where your work truly matters. Job Summary Idira, by Palo Alto Networks is seeking a proven enterprise seller that will continue to capture our rapid market share in the Global Fortune 1000 covering some of our most strategic customer partners in the Dallas and Austin area. The Enterprise \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1023.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/palo-alto-networks/jobs/identity-enterprise-account-executive-texas",
+    "id": "opp_86e5aa63fa5d",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:54:43+00:00",
+    "profit_score": 85.7,
+    "risk_flags": [],
+    "score": 65.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.8,
+          "evidence": "Estimated net $1,023 on $1,023 (100% margin). $215 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $341 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: forecasting. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 65.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "forecasting",
+      "enterprise-account-executive",
+      "account-executive",
+      "sales-executive",
+      "enterprise-sales-representative",
+      "identity-security-sales",
+      "enterprise-sales-account-executive",
+      "senior-enterprise-account-executive",
+      "large-enterprise-account-executive",
+      "strategic-enterprise-account-executive",
+      "workforce-identity-sales-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Identity Enterprise Account Executive - Texas",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/palo-alto-networks/jobs/identity-enterprise-account-executive-texas",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -75152,6 +76166,155 @@
       "probability_low": 0.0
     }
   },
+  "opp_ebe646c1a50c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.88,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Elior North America",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:54:08+00:00",
+    "description": "Business Development Manager (BDM), Inside Sales Job Reference Number: 42241 Employment Type: Full-Time , Remote Segment: Education Brand: Elior-School-Dining Location: Remote Business Development Manager (BDM), Inside Sales\u2013 Elior Education The Role The Elior Education Growth team is seeking a Business Development Manager (BDM), Inside Sales who is motivated and committed to sales generation. In this position you will report to the SVP Growth with support from the Dir, Growth Enablement and (Sr.) Business Development Directors as mentors with support in learning Elior\u2019s sales process. In this role you will support the Education segment drive for sustainable growth through lead generation. As a key member of the Education Growth Team, you will play a pivotal role in shaping our company's growth & future. This position offers a unique opportunity to leverage your expertise and collaboration skills in a fast-paced and evolving industry. What You\u2019ll Be Doing Identify and develop new business opportunities across Elior Education\u2019s collegiate, independent school, and K-12 markets Own outbound prospecting and cold outreach to build and maintain a strong pipeline of prospective clients Research schools, universities, districts, and other educational organizations to identify potential opportunities and key decision-makers Engage senior leaders, including school administrators, university leaders, presidents, vice presidents, and other decision-makers Conduct initial discovery \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 360.6,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/elior-north-america/jobs/business-development-manager-bdm-inside-sales-lisle-il-us-60532",
+    "id": "opp_ebe646c1a50c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:54:08+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 39.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $361 on $361 (100% margin). $77 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $96 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "business-development-manager",
+      "inside-sales",
+      "sales-manager",
+      "b2b-sales",
+      "lead-generation",
+      "sales-business-development-manager",
+      "b2b-business-development-manager",
+      "business-development",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development Manager (BDM), Inside Sales (Lisle, IL, US, 60532)",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/elior-north-america/jobs/business-development-manager-bdm-inside-sales-lisle-il-us-60532",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_ec925c2eab47": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -78117,6 +79280,161 @@
       "probability_low": 26.0
     }
   },
+  "opp_f41b2ca15a2a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 45,
+    "budget_min": 35,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "GOAT Tutors",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:55:24+00:00",
+    "description": "Remote Finance & Accounting Specialist GOAT Tutors is seeking an experienced and detail-oriented Finance & Accounting Specialist to join our team on a remote basis. This role is ideal for someone with strong bookkeeping, accounting, financial reporting, and general finance experience who can work independently and maintain accurate financial records. Position Details Position: Finance & Accounting Specialist Work Arrangement: 100% Remote Pay: $35\u2013$45 per hour Employment Type: Part-time or contract, with potential for ongoing work Schedule: Flexible, with availability during U.S. business hours preferred Responsibilities Maintain accurate financial and accounting records. Record and categorize income, expenses, invoices, and payments. Reconcile bank and credit-card accounts. Prepare monthly financial statements and management reports. Monitor accounts payable and accounts receivable. Assist with budgeting, cash-flow tracking, and financial forecasting. Review financial transactions for accuracy and completeness. Maintain organized documentation and supporting financial records. Assist with payroll-related accounting and expense tracking. Support month-end and year-end closing activities. Identify discrepancies and resolve accounting issues promptly. Provide financial information and reports to management as requested. Maintain confidentiality of company financial information. Qualifications 2+ years of experience in accounting, bookkeeping, finance, or a related field. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 98.35,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/goat-tutors/jobs/remote-finance-accounting",
+    "id": "opp_f41b2ca15a2a",
+    "is_demo": false,
+    "match_score": 42.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:55:24+00:00",
+    "profit_score": 59.1,
+    "risk_flags": [],
+    "score": 60.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 10.9,
+          "evidence": "Estimated net $98 on $98 (100% margin). $108 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $351 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.7,
+          "evidence": "Matched 3 profile skills: excel, forecasting, reporting. Covers 67% of the 3 skills this listing names (missing: google sheets). Domain overlap: budgeting."
+        }
+      },
+      "final_score": 60.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"accounting\"; \"bookkeeping\"; \"or a related field\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 60.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "forecasting",
+      "accountant",
+      "finance-specialist",
+      "bookkeeper",
+      "accounting-specialist",
+      "finance-and-accounting-specialist",
+      "remote-accounting",
+      "remote-finance",
+      "remote-finance-roles",
+      "remote-finance-work",
+      "remote-accountant",
+      "remote-accounting-jobs",
+      "remote-finance-specialist",
+      "remote-finance-jobs",
+      "finance"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Finance & Accounting",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/goat-tutors/jobs/remote-finance-accounting",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (30-48%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "35%",
+          "to": "43%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "43%",
+          "to": "49%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "49%",
+          "to": "39%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 48.0,
+      "probability_low": 30.0
+    }
+  },
   "opp_f41cef3af6dc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -79445,6 +80763,153 @@
     "title": "Licensed Sales Professional (LSP) - Remote - IL",
     "updated_at": "2026-09-12T01:08:33+00:00",
     "url": "https://himalayas.app/companies/allstate/jobs/licensed-sales-professional-lsp-remote-il",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_f9e63d092dbf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 98.72,
+    "budget_min": 63.44,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Sargent & Lundy",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-27T16:35:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-26T14:54:42+00:00",
+    "description": "Responsibilities This is a remote/virtual position. Candidate can be based anywhere within the United States. Sargent & Lundy is one of the largest and most experienced power industry engineering and consulting firms. This position in Sargent & Lundy\u2019s Consulting group will require you to work on our project teams that provide a wide variety of services, such as the following: Technical consulting and advisory services to power project developers to support new utility-scale solar, wind, gas, battery energy storage, and other projects; Independent engineering and due diligence services for lenders and investors to evaluate the financing of new power and infrastructure projects; Technical, economic, and market studies for grid operators, utilities, and research agencies; and Planning studies and business case development for utilities, independent power producers, and government agencies. This position is being added to support the continued growth of the Sargent & Lundy Consulting group, particularly in the renewable energy, battery energy storage, and utility planning / advisory practice areas. Our Consulting Group works with clients across the United States and in numerous other countries. This position will require a great deal of face-to-face interaction with power plant developers and owners, as well as lenders and investors, during the execution of consulting services work for the firm. The work environment in our Consulting group is fast-paced, dynamic, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260927T163459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 475.8,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sargent-lundy/jobs/senior-energy-consultant-renewable-engineering-experience-5045738298",
+    "id": "opp_f9e63d092dbf",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-27T14:54:43+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 73.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $476 on $476 (100% margin). $101 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $127 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: automation, excel, financial modeling. Covers 75% of the 4 skills this listing names (missing: rest)."
+        }
+      },
+      "final_score": 73.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "automation",
+      "financial modeling",
+      "senior-energy-consultant",
+      "energy-consultant",
+      "renewable-energy-consultant",
+      "power-industry-consulting",
+      "engineering-consultant",
+      "senior-energy-engineer",
+      "renewable-energy-engineer",
+      "renewable-energy-consulting",
+      "senior-engineering-consultant",
+      "senior-consulting-engineer",
+      "renewable-energy-specialist"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Senior Energy Consultant -- Renewable Engineering Experience",
+    "updated_at": "2026-09-27T16:35:01+00:00",
+    "url": "https://himalayas.app/companies/sargent-lundy/jobs/senior-energy-consultant-renewable-engineering-experience-5045738298",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
