@@ -26158,6 +26158,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_53b0696a03ec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 3.85,
+    "budget_min": 1.92,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Omada.AI",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-28T13:10:59+00:00",
+    "currency": "GBP",
+    "deadline": "2026-11-27T04:25:49+00:00",
+    "description": "Build Your Own Sales Business with is the AI-powered marketing platform built for small businesses. We handle social media, email marketing, ads, and reputation management \u2014 so local business owners can stop being reluctant marketers and get back to doing what they love. We\u2019re venture-backed by HubSpot Ventures and Crosslink Capital, growing fast, and looking for independent, ambitious sales partners across the UK who want to earn serious money introducing local businesses to Omada. The Opportunity This isn\u2019t a job \u2014 it\u2019s a partnership. As an Omada Territory Sales Partner, you run your own independent sales operation. You choose your hours, your territory, your approach. We provide the product, the resources, and a compensation structure that means you\u2019re never working for free. Guaranteed Weekly Draw: \u00a3500/week guaranteed minimum \u2014 as long as you\u2019re hitting your trial targets. This isn\u2019t commission-only. Commission: \u00a3250\u2013\u00a3350 per closed account (tier-dependent) with uncapped earnings. Top partners earn \u00a34,000\u2013\u00a38,000+ per month. Structure: Self-employed (sole trader or limited company). You invoice us. You manage your own tax. Location: Your local city. Must be based in the United Kingdom. Schedule: Entirely your own. Work when it suits you \u2014 mornings, evenings, weekends. Your business, your call. How the Draw Works We believe in setting our partners up for success. That\u2019s why every Territory Partner receives a guaranteed weekly draw of \u00a3500 \u2014 as long as you\u2019re generating \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260928T131057Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 19.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/omada-ai/jobs/territory-sales-partner-9639105274",
+    "id": "opp_53b0696a03ec",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-28T04:25:49+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $19 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "territory-sales-representative",
+      "territory-sales-specialist",
+      "territory-account-manager",
+      "territory-account-executive",
+      "territory-sales-executive",
+      "territory-sales",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Territory Sales Partner",
+    "updated_at": "2026-09-28T13:10:59+00:00",
+    "url": "https://himalayas.app/companies/omada-ai/jobs/territory-sales-partner-9639105274",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_540c86caa09a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -28538,6 +28672,163 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5b698fac9f26": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.68,
+    "budget_min": 1.44,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Hire Hangar",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-28T13:10:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-27T04:31:31+00:00",
+    "description": "Join Hire Hangar and work with fast-growing global companies while building a long-term career. Sales Manager \u2013 Team Leadership & Coaching Focus Full-Time | Remote (ET Hours) | Competitive Pay | High-Growth SaaS Startup About Us We\u2019re a venture-backed SaaS company based in New York, enabling global brands to optimize over $1M in ad spend through cutting-edge enterprise software. As we scale, we\u2019re building a sales team that delivers performance, leadership, and innovation. The Role We\u2019re hiring a Sales Manager who excels at coaching and scaling teams . You\u2019ll lead a group of Account Executives, mentoring them to hit\u2014and exceed\u2014revenue targets. Your day-to-day includes developing talent, improving call quality, and turning sales processes into scalable systems. This is a strategic role that puts leadership first and closes second. Responsibilities Lead and coach a team of quota-carrying Account Executives Improve call and deal execution using platforms like Forecast, track, and analyze sales performance in Salesforce/HubSpot Build and optimize sales processes to drive efficiency and revenue Partner with Marketing to sharpen GTM alignment Contribute to hiring, onboarding, and development of sales talent What You Bring 6+ years in enterprise SaaS sales; 2+ years leading quota-carrying reps Proven ability to coach teams to meet or exceed goals Strong command of sales performance tools (, HubSpot, Salesforce) Exceptional communication, problem-solving, and leadership skills \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260928T131057Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 4.05,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hire-hangar/jobs/sales-manager-team-leadership-coaching-focus",
+    "id": "opp_5b698fac9f26",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-28T04:31:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $4 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 47.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"in enterprise saas sales\"; \"leading quota-carrying reps proven ability to coach teams to meet or e\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 47.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "sales-team-manager",
+      "sales-team-leader",
+      "team-sales-manager",
+      "sales-team-lead",
+      "sales-manager",
+      "team-lead-sales",
+      "manager-sales",
+      "sales-team-leader-jobs",
+      "sales-leadership-coach",
+      "senior-sales-team-lead"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Manager \u2013 Team Leadership & Coaching Focus",
+    "updated_at": "2026-09-28T13:10:59+00:00",
+    "url": "https://himalayas.app/companies/hire-hangar/jobs/sales-manager-team-leadership-coaching-focus",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_5c05b3b2a4b4": {
@@ -45731,6 +46022,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_940f8392d729": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bjak",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-28T13:10:59+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-27T04:45:42+00:00",
+    "description": "About Doit We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. We believe AI will help make finance smart, assessible and safe. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. We have teams working around the world, with over 20 nationalities and growing from our offices and remotely. Join us and build a better future for our society. In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia. The Role We are looking for strong operators to join the CEO Office for Doit's AI Neobank app expansion. This role is for someone who can help turn CEO priorities into execution across product, hiring, licensing, partnerships, market launch and daily operating rhythm. What You'll Own Drive CEO-level priorities from problem definition to execution. \uf06c Track OKRs, decisions, blockers, owners and deadlines across teams. \uf06c Support licensing applications, country expansion, hiring, partnerships and strategic projects. \uf06c Prepare clear briefs, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260928T131057Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-2291968629",
+    "id": "opp_940f8392d729",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-28T04:45:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 20.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 20.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "neobank-operations",
+      "ceo's-office",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "CEO Office - AI Neobank App",
+    "updated_at": "2026-09-28T13:10:59+00:00",
+    "url": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-2291968629",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_95d63f071a53": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -61615,6 +62035,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_c18cfeb83527": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Collibra",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-28T13:11:01+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote, USA Joining Collibra\u2019s CPS Solution Architect Team At Collibra Public Sector, our Professional Services team relies on Federal Solution Architects to deliver on customer expectations for the services we sell, working directly with customer key projects stakeholders throughout the entire customer journey. Ensuring growth, adoption and renewal, Federal Solution Architects act as customer champions, ensuring customers are onboarded and realizing value rapidly. Federal Solution Architects are responsible for Supporting federal customer engagements by delivering mission-aligned architectural design and execution of Collibra products that adhere to Collibra Public Sector\u2019s Delivery Models, Engagement Processes, Methodologies, and Artifacts, while ensuring compliance with applicable government regulations and security standards (e.g., FedRAMP, FISMA, GovCloud). Providing federal agencies with tailored data governance strategies that incorporate best practices, enable knowledge transfer, and drive measurable business and mission outcomes. Partnering cross-functionally with Collibra Sales, Customer Engineering, Product, Support, and Executive teams to ensure alignment with federal acquisition cycles and stakeholder priorities. Identifying opportunities to expand Collibra\u2019s footprint within agencies by aligning product capabilities to evolving agency mandates, modernization efforts, and compliance requirements. Meeting or exceeding utilization goals in support of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260928T131057Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/collibra-cps-solution-architect",
+    "id": "opp_c18cfeb83527",
+    "is_demo": false,
+    "match_score": 71.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 28 Sep 2026 07:31:05 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.3,
+          "evidence": "Matched 4 profile skills: automation, etl, excel, python. Covers 44% of the 9 skills this listing names (missing: api, aws, azure, kubernetes)."
+        }
+      },
+      "final_score": 58.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "etl",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "azure",
+      "kubernetes",
+      "automation"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Collibra: CPS Solution Architect",
+    "updated_at": "2026-09-28T13:11:01+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/collibra-cps-solution-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c19e309b6d93": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -62134,6 +62688,140 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_c26c23a145e8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Collibra",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-28T13:11:01+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote, USA Joining Collibra\u2019s CPS Solution Architect Team At Collibra Public Sector, our Professional Services team relies on Federal Solution Architects to deliver on customer expectations for the services we sell, working directly with customer key projects stakeholders throughout the entire customer journey. Ensuring growth, adoption and renewal, Federal Solution Architects act as customer champions, ensuring customers are onboarded and realizing value rapidly. Federal Solution Architects are responsible for Supporting federal customer engagements by delivering mission-aligned architectural design and execution of Collibra products that adhere to Collibra Public Sector\u2019s Delivery Models, Engagement Processes, Methodologies, and Artifacts, while ensuring compliance with applicable government regulations and security standards (e.g., FedRAMP, FISMA, GovCloud). Providing federal agencies with tailored data governance strategies that incorporate best practices, enable knowledge transfer, and drive measurable business and mission outcomes. Partnering cross-functionally with Collibra Sales, Customer Engineering, Product, Support, and Executive teams to ensure alignment with federal acquisition cycles and stakeholder priorities. Identifying opportunities to expand Collibra\u2019s footprint within agencies by aligning product capabilities to evolving agency mandates, modernization efforts, and compliance requirements. Meeting or exceeding utilization goals in support of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260928T131057Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/collibra-cps-solution-architect-1",
+    "id": "opp_c26c23a145e8",
+    "is_demo": false,
+    "match_score": 71.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 28 Sep 2026 07:31:13 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.3,
+          "evidence": "Matched 4 profile skills: automation, etl, excel, python. Covers 44% of the 9 skills this listing names (missing: api, aws, azure, kubernetes)."
+        }
+      },
+      "final_score": 58.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "etl",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "azure",
+      "kubernetes",
+      "automation"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Collibra: CPS Solution Architect",
+    "updated_at": "2026-09-28T13:11:01+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/collibra-cps-solution-architect-1",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
