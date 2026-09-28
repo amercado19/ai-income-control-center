@@ -93,7 +93,7 @@
       "key": "audit_log",
       "label": "Audit Log",
       "health": "HEALTHY",
-      "detail": "739 events recorded.",
+      "detail": "740 events recorded.",
       "last_success": "",
       "blocking_reason": "",
       "state": "",
@@ -102,12 +102,12 @@
     "opportunity_sources": {
       "key": "opportunity_sources",
       "label": "Opportunity Sources",
-      "health": "DEGRADED",
-      "detail": "5 of 6 sources reachable: hackernews, freelancer_com, python_jobs, remoteok, weworkremotely.",
+      "health": "HEALTHY",
+      "detail": "All 6 sources reachable: hackernews, freelancer_com, python_jobs, himalayas, remoteok, weworkremotely.",
       "last_success": "",
-      "blocking_reason": "himalayas (ConnectorError: HTTP 404 from https://himalayas.app/jobs/api)",
+      "blocking_reason": "",
       "state": "",
-      "light": "YELLOW"
+      "light": "GREEN"
     },
     "ai_worker": {
       "key": "ai_worker",
@@ -162,6 +162,6 @@
   },
   "started_at": "2026-09-12T01:07:15+00:00",
   "stopped_at": "2026-09-12T01:07:16+00:00",
-  "updated_at": "2026-09-27T21:02:50+00:00",
+  "updated_at": "2026-09-28T04:14:21+00:00",
   "has_real_revenue": false
 }
