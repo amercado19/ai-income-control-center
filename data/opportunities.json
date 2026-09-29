@@ -935,6 +935,154 @@
       "probability_low": 26.0
     }
   },
+  "opp_01f39c81c1c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 60,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-29T04:45:41+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-28T00:46:45+00:00",
+    "description": "Role Title: Data Analyst Role Type: Contractor Location: Remote, US-based. micro1 is engaging Data Analysts to contribute their knowledge and expertise to a customer\u2019s data quality project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Review datasets and detailed task outputs for accuracy, completeness, and adherence to guidelines. Identify and flag inconsistencies, errors, and outputs that deviate from provided instructions. Apply structured rubrics and evaluation criteria consistently across large data sets. Exercise sound judgment and document rationale in ambiguous scenarios where guidelines are unclear. Escalate patterns or recurring data issues for further analysis rather than addressing them individually. Provide clear, actionable written and verbal feedback pinpointing issues and suggesting resolution paths. Maintain meticulous attention to detail while working through high volumes of repetitive data review assignments. Preferred Qualifications 3\u20135+ years of experience in data review, data quality, quality assurance, or analytical roles. Proven expertise in reviewing, validating, and critiquing data or deliverables based on explicit criteria. Exceptional ability to follow detailed written instructions and apply complex evaluation rubrics \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T044538Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/data-analyst-8826568577",
+    "id": "opp_01f39c81c1c0",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T00:46:45+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: sql."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"quality assurance\"; \"or analytical roles\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "data-analyst",
+      "analytics-analyst",
+      "data-science-analyst",
+      "it-data-analyst",
+      "associate-data-analyst",
+      "data-analytics-specialist",
+      "research-data-analyst",
+      "data-intelligence-analyst",
+      "ai-data-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Analyst",
+    "updated_at": "2026-09-29T04:45:41+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/data-analyst-8826568577",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_020279a48b0a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -21385,6 +21533,146 @@
       "probability_low": 8.0
     }
   },
+  "opp_43d67d79ab0d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T04:45:41+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-20T23:53:34+00:00",
+    "description": "Job Type: Contractor (~15 hrs a week) Location: Remote Schedule: Flexible, you pick the hours and days (including weekends if desired) micro1 is selecting Cyber Security Engineers to contribute technical expertise to a dynamic customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. What we're looking for: Analyze, debug, and resolve software bugs and vulnerabilities across diverse codebases. Implement new features and enhance existing functionality in projects using Python3, Java, Rust, Go, C++, or TypeScript. Refactor legacy code to improve maintainability, security, and performance. Perform codebase audits, penetration testing, and other security assessments to identify and mitigate risks. Contribute to backend development and optimize application performance for scalability and security. Document findings, suggest improvements, and provide real-world insights to improve AI training datasets. Preferred Qualifications: Expertise in one or more languages: Python3, Java, Rust, Go, C++, or TypeScript. Proven experience in debugging, bug fixing, and backend development for complex systems. Strong background in cybersecurity practices, including pentesting, security audit, and vulnerability assessment. Proficiency in algorithms, codebase refactoring, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T044538Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/cyber-security-engineer",
+    "id": "opp_43d67d79ab0d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T00:36:55+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 35.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 35.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 47.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "typescript",
+      "cybersecurity-engineer",
+      "security-engineer",
+      "cyber-defense-engineer",
+      "information-security-engineer",
+      "it-security-engineer",
+      "cybersecurity-systems-engineer",
+      "network-security-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Cyber Security Engineer",
+    "updated_at": "2026-09-29T04:45:41+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/cyber-security-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_440899ea7e0f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -28277,6 +28565,143 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_59d75e3d99a5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 20,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-29T04:45:41+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-28T00:14:11+00:00",
+    "description": "Role Title: Content Writer & Editor Role Type: Contractor Location: Remote micro1 is engaging Content Writer & Editor to provide expert contributions to a customer\u2019s project focused on text quality and AI evaluation. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Assess the clarity, coherence, and accuracy of written content to ensure it meets project standards. Conduct detailed writing evaluations, providing constructive feedback for continual improvement. Identify and annotate AI-generated content, focusing on detecting \u201cAI slop\u201d or low-quality, artificial text elements. Review and edit documents for grammar, syntax, structure, and tone, maintaining high-level English proficiency throughout. Collaborate remotely with project coordinators and other specialists, offering actionable editorial insights. Contribute written analyses and recommendations to enhance the overall effectiveness of AI model training datasets. Complete assignments within defined project timelines, ensuring consistency and reliability in deliverables. Preferred Qualifications Proven experience in writing, editing, or evaluating text-based documents. Bachelor\u2019s degree in English, Linguistics, or a related field; or prior experience teaching English. Native-level proficiency in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T044538Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 150.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/content-writer-editor",
+    "id": "opp_59d75e3d99a5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T00:14:11+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 35.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $150 on $150 (100% margin). $32 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $40 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "content-writer",
+      "editorial-content-writer",
+      "marketing-content-writer",
+      "content-editor",
+      "website-content-writer",
+      "seo-content-writer",
+      "content-writing",
+      "freelance-content-writer",
+      "digital-content-writer",
+      "content-and-copywriting",
+      "content-creator",
+      "marketing"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Content Writer & Editor",
+    "updated_at": "2026-09-29T04:45:41+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/content-writer-editor",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -43776,6 +44201,139 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_89c4e10bad74": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T04:45:41+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-15T22:22:02+00:00",
+    "description": "Role Title: Developmental Psychology (PhD) Role Type: Contractor Location: Remote micro1 is engaging Psychologists to contribute their expertise to a customer's project at the intersection of psychology and technology. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is especially suited for contributors who have a background in research or academic work related to child development or developmental psychology, with or without direct clinical experience. Scope of Work Evaluate, review, and annotate data sets relevant to child development and developmental psychology for AI system training. Provide detailed insights and feedback on the accuracy, cultural appropriateness, and developmental relevance of data and model outputs. Contribute expert analysis to scenario development, test cases, and real-world situations involving children\u2019s learning and behavior. Collaborate with interdisciplinary teams to inform model improvements and ensure psychological integrity in AI interactions. Create or refine guidelines for AI systems to better address linguistic, cognitive, and psychosocial aspects of child development across diverse backgrounds. Document findings and recommendations with clarity and depth to support ongoing AI research and development. Preferred \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T044538Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/developmental-psychology-phd",
+    "id": "opp_89c4e10bad74",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T00:36:55+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "doctoral-psychologist",
+      "developmental-sciences-research",
+      "child-and-adolescent-psychology",
+      "child-psychology",
+      "phd",
+      "child-psychologist",
+      "healthcare",
+      "education"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Developmental Psychology (PhD)",
+    "updated_at": "2026-09-29T04:45:41+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/developmental-psychology-phd",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_89cd2ce6f9b8": {
