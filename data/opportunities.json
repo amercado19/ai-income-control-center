@@ -7520,6 +7520,145 @@
       "probability_low": 13.0
     }
   },
+  "opp_19405f380a1f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "ZoomInfo Technologies LLC",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-29T12:19:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You\u2019ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won\u2019t just contribute. You\u2019ll make things happen\u2013fast. As a Principal Infrastructure Architect on our Infrastructure Architecture team, you will be the architecture team's partner to ZoomInfo's data engineering organization. Data engineering owns the platforms and the products built on them. You bring the infrastructure patterns, evaluation rigor, and cross-team alignment that help them build and run those platforms well on GCP. This is a cloud architect seat with a data specialty. You bring the same cloud, Kubernetes, networking, and infrastructure-as-code foundation as the rest of the architecture team, plus enough hands-on depth in data systems to be credible with the engineers who run them. The work breaks down four ways: Patterns. You establish and maintain the paved-road patterns data teams build on: infrastructure as code, CI/CD for data jobs and pipelines, monitoring and alerting, performance, and cost. You keep them easy to consume and self-service. Enablement and alignment. You help data teams adopt those patterns, review their designs, and work through hard infrastructure trade-offs with them. Evaluation. You run POCs of new data technologies and vendor \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-infrastructure-architect-data-platform",
+    "id": "opp_19405f380a1f",
+    "is_demo": false,
+    "match_score": 51.1,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Tue, 29 Sep 2026 07:30:41 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.4,
+          "evidence": "Matched 3 profile skills: automation, ci/cd, sql. Covers 21% of the 14 skills this listing names (missing: airflow, analytics, aws, bigquery)."
+        }
+      },
+      "final_score": 52.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "snowflake",
+      "bigquery",
+      "airflow",
+      "rest",
+      "aws",
+      "gcp",
+      "kubernetes",
+      "terraform",
+      "ci/cd",
+      "automation",
+      "analytics"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "ZoomInfo Technologies LLC: Principal Infrastructure Architect: Data Platform",
+    "updated_at": "2026-09-29T12:19:48+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-infrastructure-architect-data-platform",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_19b6bab42093": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -9914,6 +10053,130 @@
       "probability_low": 15.0
     }
   },
+  "opp_20485f16d0b8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 170,
+    "budget_min": 90,
+    "budget_type": "HOURLY",
+    "category": "financial_model",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-28T06:57:33+00:00",
+    "description": "Role Title: QuickBooks Specialist Role Type: Contractor Location: Remote About the Role micro1 is looking for experienced QuickBooks Accounting Specialists to join an AI training project. In this role, you'll use your day-to-day QuickBooks experience to review accounting workflows, validate financial data, and identify inconsistencies to help improve AI systems. Responsibilities Work with QuickBooks Online and/or Desktop Manage invoicing, bill payments, and bank reconciliations Generate and review P&L, Balance Sheet, and Cash Flow reports Maintain Chart of Accounts, customers, and vendors Identify accounting errors and workflow issues Requirements Hands-on experience with QuickBooks Online and/or Desktop Strong bookkeeping or accounting background Experience with financial reporting and reconciliations Excellent analytical skills and attention to detail Preferred Bookkeeper, Accountant, Finance Professional, or Small Business Owner Experience managing multiple clients or business entities Familiarity with financial compliance and accounting best practices Originally posted on Himalayas",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.88,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 675.0,
+    "estimated_non_ai_effort": 2.62,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/quickbooks-specialist",
+    "id": "opp_20485f16d0b8",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T06:57:33+00:00",
+    "profit_score": 80.8,
+    "risk_flags": [],
+    "score": 74.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.0,
+          "evidence": "65% of estimated effort is AI-carryable (4.9h AI / 2.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 14.9,
+          "evidence": "Estimated net $675 on $675 (100% margin). $176 per effective hour vs $85 target (3.8 effective h = 2.6h human + 4.9h AI discounted). Leverage: $258 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 74.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 74.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "quickbooks-specialist",
+      "quickbooks-consultant",
+      "quickbooks-bookkeeper",
+      "accounting-software-specialist",
+      "quickbooks"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "QuickBooks Specialist",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/quickbooks-specialist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_20dc891fd50a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10771,6 +11034,134 @@
     "title": "Plan Manager - Health Account Solutions",
     "updated_at": "2026-09-21T12:15:02+00:00",
     "url": "https://himalayas.app/companies/voya-financial/jobs/plan-manager-health-account-solutions",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_23d7ccccaf39": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 200,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-28T06:48:26+00:00",
+    "description": "Role Title: Bilingual Japanese Psychologist (PhD) Role Type: Contractor Location: Remote micro1 is engaging Bilingual Japanese Psychologist (PhD)s to contribute expertise to an innovative customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Analyze and assess psychological case studies and documentation, providing nuanced feedback and insights based on professional experience. Develop culturally sensitive psychological scenarios and materials in both Japanese and English for data enrichment and model training purposes. Evaluate AI-generated content for accuracy, ethical considerations, and alignment with psychological best practices. Collaborate with interdisciplinary teams to share perspectives and ensure holistic, effective solutions for diverse user needs. Document evaluation processes and findings clearly and systematically, supporting transparency and reproducibility. Apply bilingual communication to interpret and refine psychological assessments, ensuring fidelity across languages and cultural contexts. Preferred Qualifications PhD in Psychology with demonstrated experience in both clinical and academic settings. Native or near-native fluency in Japanese and English, with proven ability to navigate complex psychological terminology \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 750.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/bilingual-japanese-psychologist-phd",
+    "id": "opp_23d7ccccaf39",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T06:48:26+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 45.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $750 on $750 (100% margin). $160 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "bilingual-therapist",
+      "multilingual-therapist",
+      "japanese-speaking-psychologist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Bilingual Japanese Psychologist (PhD)",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/bilingual-japanese-psychologist-phd",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -18411,6 +18802,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_3bfd0d34f69d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T13:37:33+00:00",
+    "description": "Role Title: Investment Funds Attorney Role Type: Contractor Location: Remote We are seeking seasoned Investment Funds Attorneys for a part-time role at the forefront of legal AI. This opportunity is for elite lawyers who want to help shape how advanced AI is trained, evaluated, and applied in real-world legal work, especially those who have deep experience with drafting, reviewing, negotiating, and redlining within the tech field. In this role, you will review, assess, and contribute to contract redlining workflows used to train and evaluate state-of-the-art AI models. Your work will directly improve how these systems identify risk and interpret contract language to create tools with improved precision and legal judgment. Key Responsibilities: Perform simulated contract negotiations and redlining exercises. Review and assess AI responses to contract scenarios, providing expert feedback to improve model performance and output precision. Create objective evaluation frameworks and grading criteria to assess AI performance on contract tasks with rigor and consistency. Collaborate with product and research teams to refine data, guidelines, and best practices for AI-driven contract review solutions. Required Skills and Qualifications: J.D. from an ABA-accredited law school. Active bar admission in at least one U.S. jurisdiction. Minimum of 2 years in the funds department of a corporate law firm. Familiarity with standard M&A agreements, including LPA\u2019s, subscription agreements, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/investment-funds-attorney",
+    "id": "opp_3bfd0d34f69d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T03:21:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "investment-funds-attorney",
+      "investment-fund-lawyer",
+      "fund-attorney",
+      "investment-management-attorney",
+      "private-fund-attorney",
+      "fund-formation-attorney"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Investment Funds Attorney",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/investment-funds-attorney",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_3c368e6ec0fe": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18987,6 +19516,133 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_3d486fea20f2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 45.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-28T03:02:21+00:00",
+    "description": "Role Title: Airtable Specialist Role Type: Contractor Location: Remote micro1 is engaging Airtable Specialists to contribute to a customer's project focused on optimizing workflow automation and data management practices. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This is a unique opportunity for professionals who are passionate about workflow design, automating data processes, and enhancing product management practices using Airtable. Scope of Work Complete and review realistic workflows within Airtable. Explore Airtable features and identify common real-world use cases. Create and manage bases, tables, views, fields, records, and relationships. Work with Airtable automations, forms, interfaces, and other relevant features. Demonstrate how Airtable can be used for project, product, or operational workflows. Identify efficient ways to organize and manage information within Airtable. Document the steps required to complete different workflows clearly and accurately. Provide feedback on whether workflows and instructions reflect realistic Airtable usage. Preferred Qualifications Strong hands-on experience using Airtable in a professional setting. Experience creating and managing Airtable bases and workflows. Familiarity with Airtable automations, views, forms, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 216.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/airtable-specialist",
+    "id": "opp_3d486fea20f2",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T03:02:21+00:00",
+    "profit_score": 44.5,
+    "risk_flags": [],
+    "score": 64.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.2,
+          "evidence": "Estimated net $216 on $216 (100% margin). $75 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $150 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 64.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "airtable-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Airtable Specialist",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/airtable-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_3deb7e0c87ff": {
@@ -28846,6 +29502,147 @@
       "probability_low": 15.0
     }
   },
+  "opp_5a4600365ed1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T23:36:20+00:00",
+    "description": "Role Title: Corporate Transactions Attorney Role Type: Contractor Location: Remote We are seeking seasoned Corporate Transactions Attorneys for a part-time role at the forefront of legal AI. This opportunity is for elite lawyers who want to help shape how advanced AI is trained, evaluated, and applied in real-world legal work, especially those who have deep experience with drafting, reviewing, negotiating, and redlining within the tech field. In this role, you will review, assess, and contribute to contract redlining workflows used to train and evaluate state-of-the-art AI models. Your work will directly improve how these systems identify risk and interpret contract language to create tools with improved precision and legal judgment. Key Responsibilities: Perform simulated contract negotiations and redlining exercises. Review and assess AI responses to contract scenarios, providing expert feedback to improve model performance and output precision. Create objective evaluation frameworks and grading criteria to assess AI performance on contract tasks with rigor and consistency. Collaborate with product and research teams to refine data, guidelines, and best practices for AI-driven contract review solutions. Required Skills and Qualifications: J.D. from an ABA-accredited law school. Active bar admission in at least one U.S. jurisdiction. Minimum of 2 years in the M&A department of a corporate law firm. Familiarity with standard M&A agreements, including APAs and SPAs. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/corporate-transactions-attorney",
+    "id": "opp_5a4600365ed1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T03:21:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "corporate-transactions-attorney",
+      "corporate-transactional-attorney",
+      "transactional-corporate-attorney",
+      "transactions-attorney",
+      "corporate-m&a-lawyer",
+      "transaction-attorney",
+      "transactional-lawyer",
+      "corporate-lawyer",
+      "legal"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Corporate Transactions Attorney",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/corporate-transactions-attorney",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_5a9fd0bd04a4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -32399,6 +33196,149 @@
       "probability_low": 21.0
     }
   },
+  "opp_63bb89b314e2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T05:42:42+00:00",
+    "description": "Role Title: In-House Counsel Job Type: Contractor Location: Remote Job Summary: We are seeking seasoned In-House Counsels for a part-time role at the forefront of legal AI. This opportunity is for elite lawyers who want to help shape how advanced AI is trained, evaluated, and applied in real-world legal work, especially those who have deep experience with drafting, reviewing, negotiating, and redlining within the tech field. In this role, you will review, assess, and contribute to contract redlining workflows used to train and evaluate state-of-the-art AI models. Your work will directly improve how these systems identify risk and interpret contract language to create tools with improved precision and legal judgment. Key Responsibilities: Perform simulated contract negotiations and redlining exercises. Review and assess AI responses to contract scenarios, providing expert feedback to improve model performance and output precision. Create objective evaluation frameworks and grading criteria to assess AI performance on contract tasks with rigor and consistency. Collaborate with product and research teams to refine data, guidelines, and best practices for AI-driven contract review solutions. Required Skills and Qualifications: Minimum of 3 years of In-House experience focused on technology transactions, particularly negotiating MSAs, NDAs, ISDA's and Derivatives. Exceptional written and verbal communication skills with meticulous attention to detail. Strong analytical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/in-house-counsel-4104787074",
+    "id": "opp_63bb89b314e2",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T03:21:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "in-house-counsel",
+      "in-house-legal-counsel",
+      "in-house-attorney",
+      "in-house-legal",
+      "in-house-general-counsel",
+      "in-house-legal-director",
+      "in-house-ip-counsel",
+      "in-house-litigation",
+      "in-house-patent-counsel",
+      "corporate-counsel",
+      "legal"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "In-House Counsel",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/in-house-counsel-4104787074",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_63d080b535b7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -32543,6 +33483,130 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_63df88aa8a59": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-23T07:17:47+00:00",
+    "description": "Role Title: Security Onion Specialist Role Type: Contractor Location: Remote micro1 is engaging Security Onion Specialists to contribute to a dynamic customer project focused on advancing security operations and threat detection capabilities. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This engagement is ideal for professionals who excel at both technical implementation and clear, concise communication, ensuring knowledge transfer and actionable insights. Scope of Work Complete assigned workflows and tasks within Security Onion using your practical cybersecurity experience. Navigate Security Onion features related to network monitoring, alert investigation, log analysis, threat detection, and incident response. Analyze security alerts, network traffic, logs, and other relevant security data within Security Onion. Record your screen while completing assigned workflows and clearly demonstrate the steps taken. Create realistic prompts and detailed rubrics based on completed workflows. Document workflow steps and clearly explain the tools, features, and investigation techniques used. Review and evaluate task outputs for accuracy and alignment with project guidelines. Follow project instructions and quality standards while working independently in a remote \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/security-onion-specialist",
+    "id": "opp_63df88aa8a59",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T03:21:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 58.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "security-specialist",
+      "security-expert",
+      "cybersecurity-specialist",
+      "it-security-specialist",
+      "information-security-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Security Onion Specialist",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/security-onion-specialist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_63e9300835c2": {
@@ -36719,6 +37783,131 @@
     "title": "ArcGIS Configuration Specialist",
     "updated_at": "2026-09-21T03:51:40+00:00",
     "url": "https://himalayas.app/companies/qualysoft/jobs/arcgis-configuration-specialist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_70db14c40ffd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-21T17:51:25+00:00",
+    "description": "Role Title: BigLaw lawyers Role Type: Contractor Location: Remote micro1 is engaging lawyers to contribute their subject-matter expertise in support of a customer's project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is tailored for legal professionals with mandatory experience working at one or more Vault Law 100 firms . We are seeking candidates with top-tier legal training and exposure to sophisticated, high-stakes legal matters who are interested in applying their expertise in a collaborative, technology-driven environment. Scope of Work Conduct comprehensive legal analysis on a variety of US law topics, providing nuanced insights and guidance. Perform in-depth legal research to support project objectives and ensure current, accurate information is utilized. Draft, review, and edit legal content, including memoranda, opinions, contracts, and other relevant documents. Assess and provide structured feedback on legal texts for clarity, accuracy, and alignment with best practices. Participate in remote, multidisciplinary collaboration to refine project deliverables and address complex legal scenarios. Contribute to content quality assurance by spotting errors, inconsistencies, or ambiguities in legal materials. Apply meticulous attention to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/biglaw-lawyers-3239214341",
+    "id": "opp_70db14c40ffd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T03:21:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "law-firms",
+      "senior-lawyer",
+      "legal-jobs",
+      "legal-industry",
+      "legal",
+      "attorney"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "BigLaw lawyers",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/biglaw-lawyers-3239214341",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -41711,6 +42900,135 @@
       "probability_low": 26.0
     }
   },
+  "opp_8222e4b3bacc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-21T08:38:58+00:00",
+    "description": "Role Title: Immigration Attorney (BigLaw Firms) Role Type: Contractor Location: Remote micro1 is engaging Immigration Attorneys from BigLaw firms to contribute their legal expertise to a dynamic client project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is designed for legal professionals who excel in complex immigration matters and have experience supporting technology-driven initiatives. Scope of Work Review, analyze, and provide feedback on immigration law documents and legal scenarios for accuracy and compliance. Draft, edit, and evaluate legal content, including memos, briefs, and case documentation, to support AI model improvement. Conduct comprehensive legal research utilizing industry-standard tools and databases. Utilize case management software to simulate and assess technology-enabled workflows. Deliver clear, actionable feedback to shape and refine AI-generated legal outputs. Collaborate with cross-functional project teams to ensure the integrity and practical applicability of legal data. Contribute insights from BigLaw firm practice to enhance the depth and relevance of project deliverables. Preferred Qualifications Active license to practice law with demonstrated expertise in U.S. immigration law. Significant experience in a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/immigration-attorney-biglaw-firms",
+    "id": "opp_8222e4b3bacc",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T03:21:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "immigration-attorney",
+      "immigration-lawyer",
+      "immigration-law-attorney",
+      "corporate-immigration-attorney",
+      "u.s.-immigration-attorney",
+      "visa-attorney",
+      "immigration-law-specialist",
+      "business-immigration-attorney",
+      "immigration-legal-services",
+      "work-visa-attorney"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Immigration Attorney (BigLaw Firms)",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/immigration-attorney-biglaw-firms",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_8250893b4349": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -43800,6 +45118,135 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_88cf076d2d3d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-10-20T21:00:43+00:00",
+    "description": "Role Title: Family Law Attorney (BigLaw Firms) Role Type: Contractor Location: Remote micro1 is engaging Family Law Attorneys with BigLaw experience to contribute their expertise to a dynamic customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Analyze and interpret complex family law cases, statutes, and precedents to generate accurate legal insights for AI training purposes. Conduct thorough legal research and provide clear, concise written summaries and case notes. Draft, review, and annotate legal documents relating to family law (e.g., custody agreements, divorce decrees, prenuptial agreements). Identify and clarify key issues, legal arguments, and reasoning within documents and case files. Collaborate with a remote team using digital project management tools to ensure timely and accurate deliverables. Adapt quickly to evolving project requirements and leverage technology for efficient knowledge transfer. Ensure all deliverables meet high standards for attention to detail, clarity, and legal accuracy. Preferred Qualifications Demonstrated expertise in family law through practice at a leading BigLaw firm. Strong background in legal research, writing, and case analysis specific to family law matters. Excellent verbal and written \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/family-law-attorney-biglaw-firms",
+    "id": "opp_88cf076d2d3d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T03:21:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "family-law-attorney",
+      "family-lawyer",
+      "family-law-counsel",
+      "senior-family-law-attorney",
+      "family-law-associate",
+      "family-law-litigator",
+      "family-law-litigation-specialist",
+      "large-law-services",
+      "remote-family-law-attorney",
+      "legal"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Family Law Attorney (BigLaw Firms)",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/family-law-attorney-biglaw-firms",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_891542e49861": {
@@ -52116,6 +53563,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_9f6c6f1573e9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-22T23:21:06+00:00",
+    "description": "Job Title: Transactional Attorney Job Type: Contractor Location: Remote Job Summary: We are seeking seasoned in-house transactional attorneys for a part-time role at the forefront of legal AI. This opportunity is for elite lawyers who want to help shape how advanced AI is trained, evaluated, and applied in real-world legal work, especially those who have deep experience with drafting, reviewing, negotiating, and redlining within the tech field. In this role, you will review, assess, and contribute to contract redlining workflows used to train and evaluate state-of-the-art AI models. Your work will directly improve how these systems identify risk and interpret contract language to create tools with improved precision and legal judgment. Key Responsibilities: Perform simulated contract negotiations and redlining exercises. Review and assess AI responses to contract scenarios, providing expert feedback to improve model performance and output precision. Create objective evaluation frameworks and grading criteria to assess AI performance on contract tasks with rigor and consistency. Collaborate with product and research teams to refine data, guidelines, and best practices for AI-driven contract review solutions. Required Skills and Qualifications: Minimum of 3 years of In-House experience focused on technology transactions, particularly negotiating MSAs, NDAs, ISDA's and Derivatives. Exceptional written and verbal communication skills with meticulous attention to detail. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/transactional-attorney-7522920695",
+    "id": "opp_9f6c6f1573e9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-29T03:21:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "transactional-attorney",
+      "transactional-lawyer",
+      "transaction-attorney",
+      "transactions-attorney",
+      "transactional-corporate-attorney",
+      "corporate-transactional-attorney",
+      "corporate-transactions-attorney",
+      "transactional-law",
+      "transactional-legal",
+      "transaction-legal-counsel"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Transactional Attorney",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/transactional-attorney-7522920695",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_9f996fea0bfd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -58747,6 +60336,127 @@
     "title": "AI Trainer - English-Chinese Bilingual Voice Recording",
     "updated_at": "2026-09-20T03:54:43+00:00",
     "url": "https://himalayas.app/companies/toloka-ai/jobs/ai-trainer-english-chinese-bilingual-voice-recording-2457418297",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_b103a21dca32": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-09-29T12:19:47+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-24T15:12:50+00:00",
+    "description": "Role Title: Altium Designer Specialist Role Type: Contractor Location: Remote micro1 is engaging Altium Designer Specialists to support a customer project focused on completing and documenting real-world workflows within Altium Designer. In this role, you\u2019ll use your hands-on PCB design experience to complete realistic workflows and contribute high-quality interaction data that supports the development of next-generation AI systems. Scope of Work Complete assigned workflows and tasks within Altium Designer using your practical PCB design experience. Navigate Altium Designer features related to schematic design, PCB layout, component placement, routing, and design validation. Create, edit, review, and validate PCB designs and schematics based on provided workflow instructions. Record your screen while completing assigned workflows and clearly demonstrate the steps taken. Create realistic prompts and detailed rubrics based on completed workflows. Document workflow steps and clearly explain the Altium Designer tools, features, and design decisions used. Review task outputs for accuracy and alignment with project guidelines. Follow project instructions and quality standards while working independently in a remote environment. Preferred Qualifications Strong hands-on experience using Altium Designer in professional or project-based environments. Prior Human Data experience, such as data annotation, labeling, RLHF, AI response evaluation, model evaluation, or similar work. Current \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260929T121944Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/altium-designer-specialist",
+    "id": "opp_b103a21dca32",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-29T03:21:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 43.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "pcb-designer",
+      "printed-circuit-board-designer",
+      "cad-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Altium Designer Specialist",
+    "updated_at": "2026-09-29T12:19:47+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/altium-designer-specialist",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
