@@ -1,4 +1,139 @@
 {
+  "opp_000fb8853cac": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 153.85,
+    "budget_min": 120.19,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Kong",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T03:30:21+00:00",
+    "description": "Are you ready to unlock intelligence? If you don\u2019t think you meet all of the criteria below but are still interested in the job, please apply. Nobody checks every box - we\u2019re looking for candidates that are particularly strong in a few areas, and have some interest and capabilities in others. About the Role: We are seeking a committed Enterprise Sales Executive with a successful background in sales and account management, ideally within open source or similar enterprise software environments. In this role, you will be a key driver of our growth strategy, directly impacting the stability and expansion of our recurring revenue. This position is ideal for a sales professional who has experience in landing new clients, retaining existing customers, and driving account expansion for early-stage enterprise products in a dynamic, entrepreneurial setting. At Kong , we offer UNCAPPED COMMISSIONS with MASSIVE UPSIDE , competitive benefits, and equity in a company with huge growth potential. What You\u2019ll Do: Develop and execute sales strategies to target enterprise customers, focusing on building and maintaining a robust pipeline that drives long-term growth. Own the entire sales cycle, from prospecting and initial outreach to contract negotiations and closing deals, while consistently meeting or exceeding revenue targets. Collaborate with internal teams, including product, marketing, and customer success, to ensure a seamless sales experience and alignment on customer needs. Identify \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1201.9,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kong/jobs/enterprise-territory-account-executive-southeast",
+    "id": "opp_000fb8853cac",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T03:30:22+00:00",
+    "profit_score": 87.9,
+    "risk_flags": [],
+    "score": 71.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.2,
+          "evidence": "Estimated net $1,202 on $1,202 (100% margin). $253 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $401 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 50% of the 4 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 71.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "forecasting",
+      "enterprise-sales-account-executive",
+      "enterprise-account-executive",
+      "territory-account-executive",
+      "strategic-enterprise-account-executive",
+      "senior-enterprise-account-executive",
+      "enterprise-sales-representative"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Enterprise Territory Account Executive, Southeast",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/kong/jobs/enterprise-territory-account-executive-southeast",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_0079367dedbd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -1492,6 +1627,149 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_02890486dfaa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.06,
+    "budget_min": 0.77,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Marco",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T03:36:20+00:00",
+    "description": "Type: Full-Time Location: Remote Work Timezone: U.S. / North America Compensation: $1,600-$2,200/month USD About Marco : Marco connects the top 1% of global professionals with ambitious, fast-growing companies. We believe the future of work is borderless\u2014and that exceptional people come from anywhere. The Role & Our Client: Our client is a leading seller in commercial drone systems, payloads, and UAS solutions \u2014 is hiring a Business Development Representative to drive growth with large enterprise and public-sector organizations. If you\u2019re a hunter who thrives in outbound, complex sales cycles and loves closing big deals, this is a high-impact role with massive growth opportunity. Responsibilities - What You\u2019ll Do: Own the full Business Development Sales Cycle: Map out industries, prioritize prospects, build the sales funnel (enrichment, outreach, CRM ownership, pipeline development, negotiate and close clients). Hunt, engage, and close six- and seven-figure deals with enterprise organizations. Prospect high-value accounts in public safety, utilities, energy, construction, mining, and Fortune 1000. Run discovery calls, demos, and solution presentations tailored to mission-critical operations. Deliver accurate forecasting and pipeline reporting in Pipedrive. Lead early sales efforts for new product line launches and emerging drone technologies. Dealer Acquisition and Expansion: Identify and onboard new dealers through market research, LinkedIn outreach, industry events, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 5.78,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/marcohire/jobs/business-development-representative-903582975",
+    "id": "opp_02890486dfaa",
+    "is_demo": false,
+    "match_score": 78.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T03:36:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 59.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $6 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.8,
+          "evidence": "Matched 3 profile skills: excel, forecasting, reporting."
+        }
+      },
+      "final_score": 59.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "business-development-representative",
+      "sales-business-development-representative",
+      "sales-development-representative",
+      "business-development-professional",
+      "partner-business-development-representative",
+      "business-developer",
+      "remote-business-development-representative",
+      "business-development-specialist",
+      "sdr-business-development-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development Representative",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/marcohire/jobs/business-development-representative-903582975",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (12-34%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "35%",
+          "to": "27%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "27%",
+          "to": "33%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "33%",
+          "to": "23%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 34.0,
+      "probability_low": 12.0
     }
   },
   "opp_03a9c344b5c1": {
@@ -4572,6 +4850,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_0d35bd509ac0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bjak",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T02:54:59+00:00",
+    "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region \u2014 this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for strong operators to join the CEO Office for BJAK's AI Neobank app expansion. This role is for someone who can help turn CEO priorities into execution across product, hiring, licensing, partnerships, market launch and daily operating rhythm. What You'll Own Drive CEO-level priorities from problem definition to execution. \uf06c Track OKRs, decisions, blockers, owners and deadlines across teams. \uf06c Support licensing \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-1747809044",
+    "id": "opp_0d35bd509ac0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-30T02:55:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 20.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 20.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "neobank-operations",
+      "ceo's-office",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "CEO Office - AI Neobank App",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-1747809044",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_0da0057f83fe": {
@@ -14234,6 +14641,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_2d442135243d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bjak",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T02:43:09+00:00",
+    "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region \u2014 this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for a Chief of Staff to help drive BJAK's AI Neobank expansion across products, markets and teams. This is a senior execution role for someone who can align leadership, drive operating cadence, solve cross-functional problems and turn strategy into measurable progress. What You'll Own Drive strategic execution across AI Neobank priorities. \uf06c Build and manage operating rhythm, OKRs, leadership updates, decision \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bjak/jobs/chief-of-staff-1403805012",
+    "id": "opp_2d442135243d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-30T02:43:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 35.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 35.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 47.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "chief-of-staff",
+      "assistant-chief-of-staff",
+      "head-of-staff",
+      "ceo-chief-of-staff",
+      "executive-chief-of-staff",
+      "deputy-chief-of-staff",
+      "cfo-chief-of-staff"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Chief of Staff",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/bjak/jobs/chief-of-staff-1403805012",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_2d84341b1291": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18292,6 +18841,143 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_385c6bf7cc93": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "BlackBox Strategies",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T02:26:53+00:00",
+    "description": "HubSpot CRM Architect (Contract) Overview We\u2019re seeking a senior HubSpot contractor to lead a one-time, end-to-end implementation of HubSpot across CRM, Marketing, Sales, and Service Hubs. This role owns platform architecture, configuration, automation, and handoff to a production-ready state. You will work closely with internal stakeholders and the client to design and deploy a scalable, well-governed HubSpot instance aligned to real GTM workflows. Engagement Details Type: One-time contract Duration: Fixed-scope implementation Focus: Architecture, build, QA, and handoff (no ongoing admin required) Scope of Work Architect HubSpot across all Hubs (CRM, Marketing, Sales, Service, Ops) Design data model, lifecycle stages, pipelines, and core objects Configure workflows, automation, lead routing, and scoring Implement and validate integrations with the client\u2019s existing stack Support data migration, cleanup, and QA Build dashboards and reporting for operational and executive visibility Document system architecture and implementation decisions Deliver clean handoff of a production-ready HubSpot environment Deliverables Fully configured HubSpot deployment Documented CRM architecture (objects, pipelines, lifecycle stages) Live automations, workflows, and routing logic Integrated external tools and validated data syncs Executive and operator dashboards Final QA, documentation, and handoff Requirements Must Have Proven experience leading end-to-end HubSpot implementations Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blackbox-strategies/jobs/hubspot-crm-architect-contract",
+    "id": "opp_385c6bf7cc93",
+    "is_demo": false,
+    "match_score": 80.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T02:26:54+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 63.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 29.8,
+          "evidence": "Matched 4 profile skills: automation, dashboard, excel, reporting. Covers 60% of the 5 skills this listing names (missing: api, zapier)."
+        }
+      },
+      "final_score": 63.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "automation",
+      "zapier",
+      "dashboard",
+      "hubspot-solutions-architect",
+      "hubspot-solution-architect",
+      "crm-architect",
+      "crm-technical-architect",
+      "crm-solution-architect",
+      "crm-solutions-architect",
+      "senior-crm-solutions-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "HubSpot CRM Architect (Contract)",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/blackbox-strategies/jobs/hubspot-crm-architect-contract",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_38cee99c0616": {
@@ -43099,6 +43785,135 @@
       "probability_low": 0.0
     }
   },
+  "opp_7fdf721f41c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bjak",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T02:12:01+00:00",
+    "description": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia. Today, we are expanding ways to help people in the region \u2014 this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day. We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. If you're this person, we'd love to talk to you. The Role We are looking for strong operators to join the CEO Office for BJAK's AI Neobank app expansion. This role is for someone who can help turn CEO priorities into execution across product, hiring, licensing, partnerships, market launch and daily operating rhythm. What You'll Own Drive CEO-level priorities from problem definition to execution. \uf06c Track OKRs, decisions, blockers, owners and deadlines across teams. \uf06c Support licensing \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-4935374563",
+    "id": "opp_7fdf721f41c0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-09-30T02:12:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 20.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 20.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "neobank-operations",
+      "ceo's-office",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "CEO Office - AI Neobank App",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/bjak/jobs/ceo-office-ai-neobank-app-4935374563",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_803839ea5385": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -51177,6 +51992,133 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_975450fa6ae9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Terac",
+    "competition_score": 45.1,
+    "confidence": 100.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T04:03:36+00:00",
+    "description": "What We're Researching We're running a paid study on data structuring practices within architecture firms. Transforming messy operational data into clean evaluations and structured formats is critical for post-training workflows. Help us evaluate the current methodologies and challenges teams face when organizing this specialized architectural data. How It Works You will participate in a remote video interview to discuss how your firm handles operational data. We will ask you to walk us through the end-to-end process of turning unstructured architectural data into usable evaluations. You will be shown a few hypothetical data transformation scenarios and asked to provide feedback on potential workflow improvements. We will also ask you to describe the specific tools and practices your team relies on for post-training data management. Who This Is For We are looking for operations specialists, data managers, and technical architects who handle operational data within architecture firms. We welcome data operations leads, BIM managers, and internal workflow specialists with direct experience in post-training evaluations. If you regularly wrangle messy firm data into structured formats, this study is a great fit. What You'll Do Discuss how your architecture firm transforms messy operational data into structured evaluations. Walk us through your day-to-day data management and post-training workflows. Evaluate hypothetical data structuring scenarios and provide feedback on their \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 720.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/terac/jobs/architecture-operations-specialists-structured-data-for-post-training-evaluatio",
+    "id": "opp_975450fa6ae9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T04:03:37+00:00",
+    "profit_score": 81.4,
+    "risk_flags": [],
+    "score": 46.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.0,
+          "evidence": "Estimated net $720 on $720 (100% margin). $250 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $500 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 46.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "training-architecture",
+      "training-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Architecture Operations Specialists: Structured Data for Post-Training Evaluatio",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/terac/jobs/architecture-operations-specialists-structured-data-for-post-training-evaluatio",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_975beacb33fd": {
@@ -70069,6 +71011,157 @@
       "probability_low": 15.0
     }
   },
+  "opp_c85a0316f0ec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hire Hangar",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T02:13:13+00:00",
+    "description": "Join Hire Hangar and work with fast-growing global companies while building a long-term career. Job Title: Sales Development Representative (Inside Sales) Location: Remote Time Zone: US Time Zones (EST\u2013PST) Role Overview We are seeking an experienced Sales Development Representative to drive top-of-funnel growth through a balanced mix of outbound and inbound sales activities. This role is suited for a seasoned SDR who can independently manage prospecting, lead generation, and appointment setting while serving as a mentor to junior team members. Key Responsibilities Conduct high-volume outbound cold calling and email outreach Manage inbound leads and convert them into qualified sales opportunities Perform in-depth prospect research and account qualification Set and manage sales appointments and product demos Consistently meet or exceed monthly and quarterly pipeline targets Maintain clean and accurate CRM data Provide feedback on messaging, scripts, and prospecting strategies Support onboarding and coaching of junior SDRs as needed Required Qualifications Experience in sales development, lead generation, or inside sales Prior experience working remotely, with fluency in remote collaboration tools such as Slack, Zoom, Google Workspace, Asana, or similar; candidates without prior remote work experience will not be considered Experience working with US or UK-based companies Demonstrated success in both outbound and inbound sales motions Strong objection-handling and consultative \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hire-hangar/jobs/sales-development-representative-inside-sales-6356364380",
+    "id": "opp_c85a0316f0ec",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T02:13:15+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "forecasting",
+      "sales-development-(inside-sales)",
+      "sales-development-representative",
+      "inside-sales-representative",
+      "sales-development-associate",
+      "inbound-sales-development-representative",
+      "outbound-sales-development-representative",
+      "entry-level-sales-development-representative",
+      "inside-sales-and-sales-development",
+      "inside-sales",
+      "sales-development",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Development Representative (Inside Sales)",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/hire-hangar/jobs/sales-development-representative-inside-sales-6356364380",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_c86d27461ff1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -78690,6 +79783,135 @@
       ],
       "probability_high": 98.0,
       "probability_low": 74.0
+    }
+  },
+  "opp_e4bfd091ecbc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 200,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-09-30T04:31:02+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-29T03:27:36+00:00",
+    "description": "Role Title: Bilingual Marathi Psychologist (PhD) Role Type: Contractor Location: Remote micro1 is engaging Bilingual Marathi Psychologist (PhD)s to contribute expertise to an innovative customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Analyze and assess psychological case studies and documentation, providing nuanced feedback and insights based on professional experience. Develop culturally sensitive psychological scenarios and materials in both Marathi and English for data enrichment and model training purposes. Evaluate AI-generated content for accuracy, ethical considerations, and alignment with psychological best practices. Collaborate with interdisciplinary teams to share perspectives and ensure holistic, effective solutions for diverse user needs. Document evaluation processes and findings clearly and systematically, supporting transparency and reproducibility. Apply bilingual communication to interpret and refine psychological assessments, ensuring fidelity across languages and cultural contexts. Preferred Qualifications PhD in Psychology with demonstrated experience in both clinical and academic settings. Native or near-native fluency in Marathi and English, with proven ability to navigate complex psychological terminology in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20260930T043058Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 750.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/bilingual-marathi-psychologist-phd",
+    "id": "opp_e4bfd091ecbc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-09-30T03:27:37+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 45.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $750 on $750 (100% margin). $160 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "bilingual-therapist",
+      "multilingual-therapist",
+      "bilingual-therapy",
+      "healthcare"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Bilingual Marathi Psychologist (PhD)",
+    "updated_at": "2026-09-30T04:31:02+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/bilingual-marathi-psychologist-phd",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e4c1ba062e84": {
