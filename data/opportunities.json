@@ -3158,6 +3158,145 @@
       "probability_low": 26.0
     }
   },
+  "opp_07ab0e67e438": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "hopefreymosingi",
+    "competition_score": 85.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-02T12:02:38+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "hopefreymosingi | Location: Kabianga, Kenya | Remote: Open | Willing to relocate: Yes | Technologies: Python, Javascript, TypeScript, HTML/CSS UI, PostgreSQL, REST APIs, Web Scraping (Selenium, Playwright), Headless Browsers, Vercel, Render, GitHub | Project Portfolio: Built a fully automated cross-platform social application that aggregates content and handles multi-platform publishing. Integrated automated DM/comment engines and third-party developer APIs. Experienced in full-stack web and desktop app architecture, moving into mobile development. Email: [contact removed] | Open to contract work, internships, and full-time junior/mid-level roles.",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49930874",
+    "id": "opp_07ab0e67e438",
+    "is_demo": false,
+    "match_score": 53.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T07:41:31Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 3.3,
+          "evidence": "Moderate description (>=300 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.7,
+          "evidence": "Matched 4 profile skills: python, rest api, sql, web scraping. Covers 15% of the 13 skills this listing names (missing: api, css, html, javascript)."
+        }
+      },
+      "final_score": 54.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 54.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "scraping",
+      "selenium",
+      "playwright",
+      "javascript",
+      "typescript",
+      "html",
+      "css",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "hopefreymosingi - contract role",
+    "updated_at": "2026-10-02T12:02:38+00:00",
+    "url": "https://news.ycombinator.com/item?id=49930874",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (73-97%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "85%",
+          "to": "90%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "90%",
+          "to": "95%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "95%",
+          "to": "85%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 97.0,
+      "probability_low": 73.0
+    }
+  },
   "opp_07b00682f1b9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -14879,6 +15018,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_2abd83f1ef6c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 65.38,
+    "budget_min": 60.58,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Waterfall Technology Consulting Partners",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:29+00:00",
+    "description": "We are partnered with a wonderful organization seeking an Epic HB Certified Application Engineer with hands-on technical expertise and a working knowledge of hospital Revenue Cycle operations. This role will focus on developing, maintaining, and optimizing data integrations, reporting solutions, and supporting applications that enable efficient patient billing and financial workflows. The ideal candidate brings a combination of technical development skills and an understanding of healthcare financial systems, allowing them to effectively support operational and reporting needed. This is a remote 2-year contract that is salaried only. Must work West Coast business hours. What will I be doing? Design, develop, and maintain ETL processes and data integrations supporting Revenue Cycle operations Support report development and data extraction to meet business and operational needs Collaborate with stakeholders to gather requirements and translate them into technical solutions Troubleshoot and resolve issues across ETL, reporting, and application layers Monitor and maintain scheduled workflows and system processes Ensure data accuracy, performance, and integrity across systems Support ongoing system enhancements and process improvements What requirements do I need? Healthcare / Revenue Cycle: Knowledge of hospital Revenue Cycle operations, including patient accounting, billing, and claims processes Experience working with healthcare financial data and reporting ETL Engineering: \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 436.18,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/waterfall-technology-consulting-partners/jobs/epic-certified-hb-clarity-report-writer-engineer-remote-san-diego-ca",
+    "id": "opp_2abd83f1ef6c",
+    "is_demo": false,
+    "match_score": 94.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:29+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 81.9,
+    "score_band": "STRONG",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $436 on $436 (100% margin). $151 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $303 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 34.7,
+          "evidence": "Matched 5 profile skills: automation, etl, excel, reporting, sql. Covers 100% of the 4 skills this listing names."
+        }
+      },
+      "final_score": 81.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 81.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "etl",
+      "excel",
+      "automation",
+      "report-writer",
+      "business-intelligence-developer",
+      "etl-developer",
+      "data-engineer",
+      "healthcare-it-specialist",
+      "epic-clarity-report-writer",
+      "epic-reporting-specialist",
+      "reporting-and-analytics-engineer"
+    ],
+    "source": "himalayas",
+    "status": "STRONG_MATCH",
+    "title": "Epic Certified HB Clarity Report Writer (Engineer) \u2013 Remote - San Diego, CA",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/waterfall-technology-consulting-partners/jobs/epic-certified-hb-clarity-report-writer-engineer-remote-san-diego-ca",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_2b10d951f951": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -16406,6 +16675,149 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2e572f685349": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "qa_review",
+    "client": "Binance",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:08:53+00:00",
+    "description": "Binance is a leading global blockchain ecosystem behind the world\u2019s largest cryptocurrency exchange by trading volume and registered users. Binance is trusted by more than 320 million people in 100+ countries for its industry-leading security, transparency, trading engine speed, protections for investors, and unmatched portfolio of digital asset products and offerings from trading and finance to education, research, social good, payments, institutional services, and Web3 features. Binance is devoted to building an inclusive crypto ecosystem to increase the freedom of money and financial access for people around the world with crypto as the fundamental means. About Binance Accelerator Program Binance Accelerator Program (BAP) is a 3-6 month internship program designed for Early Career talent to have firsthand experience in the rapidly expanding digital assets space. You will be given the opportunity to develop your skills at Binance and understand what it\u2019s like to work at the world's leading blockchain ecosystem. As part of your internship in the BAP, there will also be opportunities for networking and development, which will expand your professional network and build transferable skills to propel you forward in your career. Learn about the BAP Program HERE. Who may apply Current university students and recent graduates. *Terms of employment / engagement shall be subject to contract and local applicable laws About the Team Join one of Binance 's core Tech functions, the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 1.83,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.15,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.32,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/binance/jobs/binance-accelerator-program-qa-engineer-compliance-java-sql-5078431579",
+    "id": "opp_2e572f685349",
+    "is_demo": false,
+    "match_score": 79.1,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T11:08:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 61.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (1.8h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.2,
+          "evidence": "Matched 4 profile skills: automation, dashboard, excel, sql. Covers 57% of the 7 skills this listing names (missing: api, aws, mysql)."
+        }
+      },
+      "final_score": 61.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 61.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "mysql",
+      "excel",
+      "api",
+      "aws",
+      "automation",
+      "dashboard",
+      "qa-engineering",
+      "software-testing",
+      "quality-assurance",
+      "internship",
+      "blockchain-qa",
+      "crypto-qa-automation-engineer",
+      "mid-level-crypto-qa-engineer",
+      "blockchain-qa-engineer",
+      "junior-blockchain-qa-engineer",
+      "java-qa-engineer",
+      "qa-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Binance Accelerator Program - QA Engineer, Compliance (Java, SQL)",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/binance/jobs/binance-accelerator-program-qa-engineer-compliance-java-sql-5078431579",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_2f4bfbcc6a6b": {
@@ -27410,6 +27822,154 @@
       "probability_low": 56.0
     }
   },
+  "opp_4a4615e8ac2a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 99.42,
+    "budget_min": 47.36,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "CACI International Inc",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:07:07+00:00",
+    "description": "Job Title: Senior Salesforce Developer / Technical ArchitectJob Category: Information TechnologyTime Type: Full timeMinimum Clearance Required to Start: NoneEmployee Type: RegularPercentage of Travel Required: NoneType of Travel: None* * * CACI is seeking an experienced Senior Salesforce Developer / Technical Architect to join our dedicated team, supporting a large Federal client. In this role, you will perform hands-on development as well as provide senior technical expertise for a complex Salesforce environment. You are a highly experienced Salesforce professional who can write and review code while also providing architectural insight, technical expertise, and an independent technical perspective. You will serve as a Salesforce SME, helping evaluate technical design, manage development standards, identify risks, and assist in guiding the long-term evolution of the platform. Responsibilities: Design, develop, test, and maintain complex Salesforce solutions using Apex, Lightning Web Components (LWC), SOQL, Flows, and Salesforce APIs. Lead and contribute to solution architecture and technical design. Review code and technical designs for quality, security, scalability, performance, and maintainability. Provide an independent technical perspective on architectural decisions and respectfully challenge proposed approaches when appropriate. Design, develop, and troubleshoot integrations between Salesforce, ERP, and other enterprise systems. Establish and promote Salesforce \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 473.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/caci-international-inc/jobs/senior-salesforce-developer-technical-architect",
+    "id": "opp_4a4615e8ac2a",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:07:07+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 71.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $474 on $474 (100% margin). $100 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $158 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, ci/cd. Covers 67% of the 3 skills this listing names (missing: api)."
+        }
+      },
+      "final_score": 71.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "ci/cd",
+      "automation",
+      "salesforce-developer",
+      "technical-architect",
+      "salesforce-architect",
+      "salesforce-technical-lead",
+      "senior-salesforce-technical-lead",
+      "senior-salesforce-platform-developer",
+      "salesforce-technical-architect",
+      "senior-salesforce-engineer",
+      "salesforce-technical-developer",
+      "lead-salesforce-architect",
+      "senior-salesforce-crm-engineer",
+      "remote-senior-salesforce-developer",
+      "salesforce-solutions-architect"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Salesforce Developer / Technical Architect",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/caci-international-inc/jobs/senior-salesforce-developer-technical-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_4ae2a3164550": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -30681,6 +31241,149 @@
       "probability_low": 15.0
     }
   },
+  "opp_537a175fb2a1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 84.47,
+    "budget_min": 38.75,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Syneos Health India Private Limited",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:31+00:00",
+    "description": "Principal Medical Writer - Publications Syneos Health\u00ae is a leading fully-integrated life sciences services organization built to accelerate customer success. We partner with innovators at every point across the drug development and commercialization continuum, helping them navigate complexity, anticipate change and accelerate progress. Our Clinical Solutions team members act with a drug development mindset, applying their years of experience and deep expertise to truly understand customer needs and represent those in the solutions we shape. Whether you join us in a Functional Service Provider partnership or a Full-Service environment, you\u2019ll collaborate with passionate problem solvers, innovating as a team to help our customers achieve their goals. We are agile and driven to deliver \u2013 for one another, our customers, and, most importantly, for those in need. Discover what your 25,000 future colleagues already know: Why Syneos Health We are passionate about developing our people, through career development and progression; supportive and engaged line management; technical and therapeutic area training; peer recognition and total rewards program. \u2022 We are committed to building an inclusive culture \u2013 where you can authentically be yourself. Central to this is our purpose \u2013 Driven to Deliver \u2013 which captures the passion of our colleagues to show up each day and shape solutions that have the ability to dramatically impact someone\u2019s life. \u2022 We are continuously building the company \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 290.62,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/syneos-health-india-private-limited/jobs/principal-medical-writer-publications-3348017686",
+    "id": "opp_537a175fb2a1",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:31+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 62.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $291 on $291 (100% margin). $62 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $78 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: statistics."
+        }
+      },
+      "final_score": 62.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "statistics",
+      "medical-writing",
+      "publications-writing",
+      "clinical-writing",
+      "regulatory-writing",
+      "medical-communications",
+      "principal-medical-writer",
+      "lead-medical-writer",
+      "senior-medical-writer",
+      "clinical-publications-writer",
+      "pharmaceutical-medical-writer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Medical Writer - Publications",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/syneos-health-india-private-limited/jobs/principal-medical-writer-publications-3348017686",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_53b0696a03ec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -31849,6 +32552,147 @@
       ],
       "probability_high": 52.0,
       "probability_low": 34.0
+    }
+  },
+  "opp_562bbc825d3c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 72.12,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Canadian Solar EMEA GmbH",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:07:06+00:00",
+    "description": "At Canadian Solar, our vision is to make lives better by bringing electricity powered by the sun to millions of people worldwide. As a leading manufacturer of solar panels, inverters, and energy storage solutions, we've been an industry front-runner since our founding in 2001. Our commitment to sustainability is reflected in all parts of our organization as we navigate the complexities of a booming industry. Throughout Canadian Solar's subsidiaries, e-Storage, Recurrent Energy, MSS and CSI Solar Co., we invest in our employees' growth. Our training programs and promotional opportunities ensure we all can continue to learn. We understand the importance of work-life balance and provide various flexible work options to support our employees' well-being. Join our team to \"Make the Difference\" by creating a lasting positive impact on the world and the communities where we operate. Position Title: Sr. Commercial Manager Department: Commercial Operations Compensation: $150,000 - $200,000 + annual bonus (paid in local currency) Reports To: Commercial Director Location: Canada or United States About the Role: The Commercial Manager will play a critical role in our rapidly growing Battery Energy Storage System (BESS) team and our expansion within the Global markets (North America, LATAM). The Commercial Manager will own and lead the RFP & competitive bid processes, the negotiation of contracts with contractors & suppliers, conduct cost analysis, and making strategic product decisions \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 540.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/canadian-solar-emea-gmbh/jobs/sr-commercial-manager",
+    "id": "opp_562bbc825d3c",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:07:06+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 70.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $541 on $541 (100% margin). $115 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $144 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 67% of the 3 skills this listing names (missing: api)."
+        }
+      },
+      "final_score": 70.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 70.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "automation",
+      "commercial-manager",
+      "business-development-manager",
+      "contract-manager",
+      "procurement-manager",
+      "bid-manager",
+      "senior-manager-commercial"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Sr. Commercial Manager",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/canadian-solar-emea-gmbh/jobs/sr-commercial-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_56b486bd45df": {
@@ -39792,6 +40636,129 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_6ad0fc4751bd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Applandeo",
+    "competition_score": 85.2,
+    "confidence": 25.0,
+    "created_at": "2026-10-02T12:02:38+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Applandeo | Senior Data Scientist | Remote (Poland) or Cracow | B2B from 200 PLN/h+ | 6month project We are looking for a Senior Data Scientist to join our Payment Intelligence / Fraud Prevention team. * Stack: Python, SQL, GCP, Vertex AI, BigQuery, MLOps, Deep Learning * Role: Full ML lifecycle (feature engineering, production, A/B testing) * Requirements: Production ML experience, fluency in English & Polish Full job description and direct application: https://applandeo.com/careers/senior-data-scientist/",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49931382",
+    "id": "opp_6ad0fc4751bd",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T09:04:12Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 8.2,
+          "evidence": "Moderate description (>=300 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 2 profile skills: python, sql. Covers 50% of the 4 skills this listing names (missing: bigquery, gcp)."
+        }
+      },
+      "final_score": 55.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "bigquery",
+      "gcp",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Applandeo - Senior Data Scientist",
+    "updated_at": "2026-10-02T12:02:38+00:00",
+    "url": "https://news.ycombinator.com/item?id=49931382",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (69-93%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "75%",
+          "to": "81%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 93.0,
+      "probability_low": 69.0
     }
   },
   "opp_6b2a86d3a071": {
@@ -69952,6 +70919,145 @@
       "probability_low": 4.0
     }
   },
+  "opp_b5e77c71ff9c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Future Vision 24",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:33+00:00",
+    "description": "Este es un puesto de trabajo remoto. Agente de Atenci\u00f3n y Gesti\u00f3n de Reservas (Part Time, Remoto) Ubicaci\u00f3n: Trabajo 100% remoto (horarios en hora de Espa\u00f1a ) Jornada: Parcial \u2013 4 horas diarias Horarios rotativos: Lunes a viernes: 18:00 a 00:00 (horario Espa\u00f1a) Fines de semana: 10:00 a 19:00 (horario Espa\u00f1a, seg\u00fan necesidades operativas) Disponibilidad: Inmediata Descripci\u00f3n del Puesto Buscamos incorporar dos Agentes de Atenci\u00f3n y Gesti\u00f3n de Reservas responsables de cubrir el servicio fuera del horario de oficina, asegurando atenci\u00f3n constante para nuestros pisos tur\u00edsticos, alojamientos coliving y apartamentos gestionados. Los candidatos seleccionados trabajar\u00e1n de forma completamente remota , atendiendo solicitudes en tiempo real y garantizando una experiencia fluida para los hu\u00e9spedes durante horarios vespertinos, nocturnos y fines de semana seg\u00fan las necesidades operativas. Responsabilidades El rol comprende la atenci\u00f3n de mensajes y consultas de hu\u00e9spedes mediante los distintos canales digitales, gesti\u00f3n y confirmaci\u00f3n de reservas en el Channel Manager, seguimiento de check-ins online, registro y derivaci\u00f3n de incidencias, as\u00ed como garantizar que cualquier solicitud urgente fuera del horario administrativo sea atendida con agilidad y profesionalismo. La persona deber\u00e1 mantener comunicaci\u00f3n fluida con el equipo interno cuando deba escalar situaciones o coordinar acciones operativas. Requisitos Requisitos del Perfil Experiencia previa de m\u00ednimo 3 a\u00f1os en atenci\u00f3n al \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/future-vision-24/jobs/agente-de-atencion-y-gestion-de-reservas-part-time-remoto",
+    "id": "opp_b5e77c71ff9c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "reservation-agent",
+      "customer-service",
+      "guest-services-agent",
+      "tourism-specialist",
+      "property-management-agent",
+      "remote-reservations-agent",
+      "bilingual-reservations-agent",
+      "reservations-representative",
+      "remote-reservations-specialist",
+      "remote-reservationist",
+      "guest-reservations-coordinator",
+      "reservations-coordinator",
+      "reservations-sales-agent"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Agente de Atenci\u00f3n y Gesti\u00f3n de Reservas (Part Time, Remoto)",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/future-vision-24/jobs/agente-de-atencion-y-gestion-de-reservas-part-time-remoto",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b601ce42b093": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -72148,6 +73254,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_beb4b59cabb3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 78.37,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Antora Energy",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:35+00:00",
+    "description": "Antora Energy delivers affordable, reliable energy to industry, data centers, and the grid. Our thermal batteries turn low-cost electricity into always-on heat and power, without supply-constrained critical minerals or multi-year construction timelines. We are growing our company with people who put team and mission first, value connection through laughter and joy, and work with humility and openness. We are committed to building a diverse, passionate, and creative team dedicated to a future powered by abundant, clean, low-cost energy. Position Summary Antora is seeking a Manager, Interconnection Projects & Grid Infrastructure Delivery to own the delivery of interconnection engineering, SCADA and telemetry systems, and grid infrastructure for Antora\u2019s thermal energy storage projects across multiple RTOs/ISOs. This is a hands-on role: the person in this seat will write/validate the statements of work, hold the budget, set the schedule, and hold consultants, Owner\u2019s Engineers and EPC firms to deliverables that are technically defensible. The ideal candidate combines practical program management discipline, scope definition, cost and schedule control, change management with enough engineering fluency to interrogate a data point list, an architecture diagram or an interface control document and recognize what is missing. The role works across Antora\u2019s portfolio in MISO, SPP, ERCOT and PJM, and partners closely with interconnection and grid engineering, project development, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 783.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/antora-energy/jobs/sr-project-manager-interconnection-projects-grid-infrastructure-delivery",
+    "id": "opp_beb4b59cabb3",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:36+00:00",
+    "profit_score": 73.3,
+    "risk_flags": [],
+    "score": 70.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.5,
+          "evidence": "Estimated net $784 on $784 (100% margin). $165 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $261 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 70.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 70.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "senior-project-manager",
+      "project-manager",
+      "energy-project-manager",
+      "grid-infrastructure-project-manager",
+      "interconnection-project-manager",
+      "senior-energy-and-infrastructure-project-manager",
+      "energy-infrastructure-project-manager",
+      "grid-modernization-project-manager",
+      "grid-integration-project-manager",
+      "senior-infrastructure-project-manager",
+      "power-delivery-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Sr. Project Manager, Interconnection Projects & Grid Infrastructure Delivery",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/antora-energy/jobs/sr-project-manager-interconnection-projects-grid-infrastructure-delivery",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_bf7769f6f221": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -72539,6 +73790,156 @@
     "title": "Senior Solution Consultant",
     "updated_at": "2026-09-18T15:59:51+00:00",
     "url": "https://himalayas.app/companies/genesys/jobs/senior-solution-consultant",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_c0459cc2b61a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "RedMane Technology",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:31+00:00",
+    "description": "This is a remote position. Although the role is remote, there will be traveled required. About 25% to the Chicago headquarters. Company Description RedMane Technology LLC is an application software consulting and systems integration company based in Chicago. We deliver software solutions for our clients throughout the United States and Canada by means of building new applications, implementing cloud and packaged systems, and/or modernizing legacy systems. RedMane has earned an exemplary service reputation that prioritizes a highly collaborative culture. Our primary objective is to ensure the solutions we design and implement meet or exceed the needs of our clients for their mission critical systems. The diverse and passionate teams within RedMane address complex, real world challenges. Technology is just our tool. The Role RedMane has a full-time opportunity for Curam Software Developer as we continue to grow our Chicago based practice. As a Curam Software Developer you will provide technical design and programming activities You will create technical design for Curam extensions, configurations and interfaces. You will work with other developers and business analysts to create and test quality Curam customizations. Skills & Role Requirements The Curam Software Developer will need to have: Extensive experience (5+ years) with development, testing and implementation in Curam environments. Expertise in Curam rules development is required Extensive recent experience with DB2 and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/redmane-technology/jobs/curam-rules-developer",
+    "id": "opp_c0459cc2b61a",
+    "is_demo": false,
+    "match_score": 18.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 39.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 6.8,
+          "evidence": "Matched 1 profile skills: sql. Covers 33% of the 3 skills this listing names (missing: javascript, rest)."
+        }
+      },
+      "final_score": 39.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \") with development\"; \"implementation in curam environments\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 39.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "rest",
+      "javascript",
+      "c\u00faram",
+      "ibm-curam",
+      "j2ee-developer",
+      "software-developer",
+      "rules-developer",
+      "rules-engine-developer",
+      "business-rules-developer",
+      "rule-engine-development",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Curam Rules Developer",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/redmane-technology/jobs/curam-rules-developer",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -73646,6 +75047,147 @@
       ],
       "probability_high": 86.0,
       "probability_low": 64.0
+    }
+  },
+  "opp_c1da2445a16d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 76.92,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Rise8",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:06:35+00:00",
+    "description": "Your Dream. Our Team. About Rise8 Rise8 builds custom, secure software for government organizations, measuring success by impact: lives saved, time returned, and missions advanced. We think big, start small, and scale fast with elite teams across product, design, and engineering to drive continuous delivery for critical missions. We believe customer experience starts with employee experience, so we take care of our employees. Rise8 is where you\u2019ll do the best work of your career\u2014supported by a culture you won\u2019t find anywhere else. We offer competitive pay and benefits, but what sets us apart is our commitment to autonomy, growth, and a culture rooted in kindness, candor, and continuous learning. Certified as a Great Place to Work\u00ae, with 100% of employees saying they love working here, Rise8 is where bold ideas become real capabilities. Where mission meets meaning. And where fewer bad things happen because of bad software. About You You want to make tomorrow better than today. You have a passion for driving amazing customer experience with ongoing alignment between delivery teams and stakeholders. You\u2019re obsessed with delivering mission impacts and outcomes. You enjoy daily decision making and real product delivery. You help ensure project success and client satisfaction. You enjoy collaborative teams, working across all internal groups and at all levels of the customer. You like to work alongside, and learn from, lean and agile leaders. You are a creative problem solver who \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 576.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rise8/jobs/customer-success-manager",
+    "id": "opp_c1da2445a16d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T11:06:36+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 28.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $577 on $577 (100% margin). $123 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $154 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 28.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 40.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-success-manager",
+      "customer-success",
+      "program-manager",
+      "account-manager",
+      "client-success",
+      "customer-success-account-manager",
+      "customer-success-manager-emea",
+      "customer-success-and-implementation-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success Manager",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/rise8/jobs/customer-success-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_c1fa0d2d0975": {
@@ -76600,6 +78142,136 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_c71d3e08bbd2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "BayApps, Inc.",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T12:02:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T11:08:16+00:00",
+    "description": "This is a remote position. We are currently seeking a Business Development Manager, residing anywhere in the United States to cover the US markets, to join our Professional Services group. The primary focus of the Business Development Manager will be to identify, qualify and win new business opportunities. Ideally, you will have expertise in the following: Business development and account management of multi-shore business application and IT services accounts. Target, penetrate and develop new accounts in business applications, analytics, system integrations, Salesforce.com and Oracle Cloud/E-Business Suite consulting. Use multi-shore delivery model and best practices to develop solution offerings. Collaborate with onsite and offshore teams for: requirement analysis, solution design, development and maintenance. Onsite and offshore manpower allocation & management. Should be able to prepare and present sales proposals to potential customers. Should have prior experience working with direct clients as prime vendor. Negotiate commercial contracts. Develop account management strategies and manage client relationships. Develop and implement strategies and business models to create win-win engagement model with customers. The successful candidate will demonstrate the ability to offer the customer unique perspectives, have strong two-way communication skills, understand the clients' value drivers and business economics and be able to have an effective conversation about technology \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bayapps-inc/jobs/business-development-manager",
+    "id": "opp_c71d3e08bbd2",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T11:08:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "business-development",
+      "sales",
+      "it-sales",
+      "account-management",
+      "consulting",
+      "business-development-manager",
+      "sales-business-development-manager",
+      "b2b-business-development-manager",
+      "business-development-account-manager",
+      "business-development-team-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development Manager",
+    "updated_at": "2026-10-02T12:02:39+00:00",
+    "url": "https://himalayas.app/companies/bayapps-inc/jobs/business-development-manager",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_c7a1a112ebaf": {
@@ -91891,6 +93563,149 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ee7422c6c7f1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Vistulo",
+    "competition_score": 95.2,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T12:02:38+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Vistulo | Senior Java, C#, React & Calypso engineers, Calypso BA/PO | REMOTE (Poland or Romania) | B2B contract, pay ranges below Vistulo hires engineers in Poland to work on trading systems for capital-markets clients. All roles below are with a top North American bank: actively developed front-office systems (algorithmic order management and routing, FX, fixed income, and one of the largest Calypso deployments in the world). You work alongside the original engineering team in North America and Europe. This is core product work, not legacy support. Long-term and fully remote, with overlap with US Eastern hours (6h for the trading roles; some roles work full ET hours for the first ~2 months of onboarding). - Senior Java Trading Systems Engineer (microsecond-latency OMS/order routing, equities/options/FX), 270\u2013300 PLN/hr, remote from Poland or Romania: https://ats.vistulo.com/roles/253cbd69-1019-4547-93b6-6ef8db... - Senior C# Trading Systems Engineer (.NET, FIX, low-latency, 7+ yrs), 250\u2013280 PLN/hr, remote from Poland or Romania: https://ats.vistulo.com/roles/a7986cb1-7531-4376-9f07-8dfa11... - Calypso Developer (Java, FX, fixed income), remote from Poland or Romania, 240\u2013270 PLN/hr: https://ats.vistulo.com/roles/0b4668c6-525e-4d41-8c6a-f6a8b2... - Java Backend Engineer (event-driven distributed systems, 6+ yrs), 220\u2013240 PLN/hr, remote from Poland or Romania,: https://ats.vistulo.com/roles/64866447-8224-49ab-b655-5c2f89... - Senior React Frontend Developer (React/TypeScript, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T120238Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49930656",
+    "id": "opp_ee7422c6c7f1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T07:09:22Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 36.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 17.1,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 36.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 36.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "typescript",
+      "react",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Vistulo - Senior Java, C#, React & Calypso engineers, Calypso BA/PO",
+    "updated_at": "2026-10-02T12:02:38+00:00",
+    "url": "https://news.ycombinator.com/item?id=49930656",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (52-70%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "60%",
+          "to": "65%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "65%",
+          "to": "71%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "71%",
+          "to": "61%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 70.0,
+      "probability_low": 52.0
     }
   },
   "opp_eea706076229": {
