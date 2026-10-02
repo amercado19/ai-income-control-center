@@ -3438,6 +3438,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_0819acc29c8e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 69.71,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ASRC Federal",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:02:10+00:00",
+    "description": "ASRC Federal is a leading government contractor furthering missions in space, public health and defense. As an Alaska Native owned corporation, our work helps secure an enduring future for our shareholders. Join our team and discover why we are a top veteran employer and Certified Great Place to Work\u2122 ASRC NetCentric is seeking an Application Security Analyst to support a DHS program. Work location: Remote Clearance: Public Trust Summary: The DHS Program will provide professional services to support application analysis, architectural design, engineering, development, maintenance, and support. Work includes implementation of Dynamics 365 Customer Engagement, Power Platform (PowerApps, Power Automate, Flow, and Power Business Intelligent (BI)), SharePoint, Office 365, Azure products and Services, Dataverse, Drupal, Confluence, Jira, and ServiceNow. We will provide a team experienced with design, agile software development, project management, technical architecture, engineering and design, continuous integration and delivery, integration, testing, configuration management, ongoing operations and maintenance, and cloud migration. The Application Security Analyst defines/implements enterprise information assurance and security standards and procedures; coordinates security programs; integrates security controls across applications and environments. Responsibilities: Without direct supervision, responsibility includes: Determine enterprise information assurance and security \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 432.67,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/asrc-federal/jobs/application-security-analyst",
+    "id": "opp_0819acc29c8e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:02:11+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 43.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "azure",
+      "application-security-analyst",
+      "information-security-analyst",
+      "security-analyst",
+      "cybersecurity-analyst",
+      "it-security-analyst",
+      "application-security-specialist",
+      "application-security-engineer",
+      "application-security-tester",
+      "application-scanning-analyst",
+      "appsec-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Application Security Analyst",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/asrc-federal/jobs/application-security-analyst",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_08754dd7a848": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -13794,6 +13930,123 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_28d3cdedad76": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Software is over. But for real. I just one-shotted Photoshop. The whole thing. My construction contractor neighbor creat",
+    "competition_score": 85.2,
+    "confidence": 15.0,
+    "created_at": "2026-10-02T04:34:03+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Software is over. But for real. I just one-shotted Photoshop. The whole thing. My construction contractor neighbor created an elder care app and has users. No experience in software. Our career is worthless soon.",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49928088",
+    "id": "opp_28d3cdedad76",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-01T23:05:21Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 31.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 0.0,
+          "evidence": "Thin description."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 31.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Software is over. But for real. I just one-shotted Photoshop. The whole thing. My construction contractor neighbor creat - contract role",
+    "updated_at": "2026-10-02T04:34:03+00:00",
+    "url": "https://news.ycombinator.com/item?id=49928088",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
     }
   },
   "opp_28e2bafeb5cf": {
@@ -26621,6 +26874,144 @@
       "probability_low": 21.0
     }
   },
+  "opp_4884b0a93369": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ergomed",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:08:36+00:00",
+    "description": "The Specialist, Study Start Up and Regulatory Affairs leads and coordinates all activities related to achieving site initiation readiness. The role provides subject matter expertise, ensures regulatory compliance, and serves as a key liaison between internal teams, clients, and external stakeholders Accountable for delivery of assigned study start-up and regulatory milestones within defined scope. Make independent decisions within assigned scope regarding regulatory processes and documentation approaches. Handles medium-complexity regulatory environments, including multi-country requirements where applicable. Leads study start-up and regulatory activities for assigned countries or projects of medium complexity, ensuring delivery in line with timelines, quality standards, and regulatory requirements. Leads preparation, review, and quality control of regulatory and study start-up documentation (including submissions, essential documents, and translations) to ensure completeness, accuracy, and compliance with ICH-GCP and country-specific requirements. Responsible for drafting, negotiating, finalizing, and executing clinical site agreements, ancillary agreements as well as amendments at country or regional level, in accordance with project requirements and country regulations and within the projected delivery timelines Review all relevant documentation e.g. labels, patient information sheets, diary cards, insurance etc, to ensure compliance with ICH GCP & country specific \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ergomedplc/jobs/study-start-up-and-regulatory-affairs-specialist-2-years-plus-experience-4333888514",
+    "id": "opp_4884b0a93369",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T03:08:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "gcp",
+      "regulatory-affairs-specialist",
+      "clinical-research-associate",
+      "regulatory-coordinator",
+      "clinical-operations-specialist",
+      "clinical-trial-regulatory-specialist",
+      "regulatory-affairs-study-start-up",
+      "clinical-research-regulatory-specialist",
+      "study-start-up-specialist",
+      "regulatory-affairs-specialist-ii",
+      "clinical-research-regulatory-coordinator",
+      "regulatory-affairs-(clinical)"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Study Start Up and Regulatory Affairs Specialist (2 years plus experience)",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/ergomedplc/jobs/study-start-up-and-regulatory-affairs-specialist-2-years-plus-experience-4333888514",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_490b26b767ea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -26891,6 +27282,132 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_4a27d4eb1020": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Technical founder looking for a commercial co-founder",
+    "competition_score": 85.2,
+    "confidence": 25.0,
+    "created_at": "2026-10-02T04:34:03+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Technical founder looking for a commercial co-founder | Europe / US Remote Senior software engineer with a background in fintech, production ML and distributed systems. Looking for someone to build a company with, ideally in B2B AI, fintech or infrastructure. Seeking an experienced founder or co-founder with a track record of building successful businesses or achieving an exit, strong in sales, customer discovery and GTM. I can own engineering and product development. Looking for a partner who\u2019s done it before and wants to do it again. Let\u2019s talk: [contact removed]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49929588",
+    "id": "opp_4a27d4eb1020",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T03:37:27Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Technical founder looking for a commercial co-founder - contract role",
+    "updated_at": "2026-10-02T04:34:03+00:00",
+    "url": "https://news.ycombinator.com/item?id=49929588",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_4ae2a3164550": {
@@ -27592,6 +28109,147 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_4c27f5c6f3a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 27,
+    "budget_min": 22,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Fanatee",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:04:41+00:00",
+    "description": "Location: Based in Belgium/Europe | Hours: Approx. 10-20 hours/month | Language Focus: Dutch (Belgian) About the Role Fanatee is seeking a detail-oriented and culturally fluent Regional Editor to refine and validate content for the Belgian Dutch\u2013speaking market. This is a remote, part-time freelance role. We are specifically looking for candidates based in Belgium or Europe, with a strong understanding of local language usage, cultural references, and regional nuances as used by Dutch-speaking players in Belgium. Responsibilities Review and validate in-game content, ensuring it reflects Belgian local cultural nuances. Curate culturally relevant references, sayings, and themes for localized features. Provide feedback and editorial insights to improve the player experience. Collaborate with the content team to define and maintain editorial standards for Belgian. Requirements We prefer to hire someone who currently lives in Belgium (or elsewhere in Europe) and is fully immersed in local Belgian culture, trends, and idioms. Fluency in Dutch (Belgian variant) and conversational English proficiency are required. Strong command of Belgian Dutch grammar, spelling, and usage. Deep familiarity with Belgian Dutch expressions, slang, media, and pop culture. Degree in Communications, Linguistics, Dutch Language, Writing, or a related field is preferred. Prior experience in content editing, localization, or game content is a plus. Passion for word games, language, and cultural \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 165.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fanatee/jobs/editor-dutch-belgium-freelance-part-time",
+    "id": "opp_4c27f5c6f3a8",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:04:42+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 58.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $165 on $165 (100% margin). $35 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $44 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 58.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "dutch-language-editor",
+      "freelance-editor",
+      "content-editor",
+      "localization-editor",
+      "game-content-editor",
+      "dutch-content-editor",
+      "freelance-dutch-flemish-ai-content-editor",
+      "part-time-editor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Editor \u2013 Dutch (Belgium) (Freelance/Part-Time)",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/fanatee/jobs/editor-dutch-belgium-freelance-part-time",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_4c5b51fe22ca": {
@@ -38059,6 +38717,126 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_6897c093166f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "BCC",
+    "competition_score": 85.2,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T04:34:03+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "BCC | Platform Systems Engineers | Bethesda MD | Competitive compensation! | https://www.ncbi.nlm.nih.gov Black Canyon Consulting (BCC) is hiring Platform Systems Engineers of all levels to join our team at the National Center for Biotechnology Information (NCBI). Our team is dedicated to building cutting-edge tools and systems. Our mission is to empower developers across NCBI to build, deploy, and manage software, data, and web services that make a real difference in the lives of millions of Americans. Your contributions will play a crucial role in modernizing government technology infrastructure, fostering innovation, and ultimately making a tangible impact on communities across the country and globally. This is your chance to be part of a mission-driven team that\u2019s shaping the future of digital government. Tech: Linux, k8s, Service Mesh, Kafka, GitLab, ArgoCD, Elastic APM, Python, C++ DevEx Eng: https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/... Sr DevEx Eng: https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/... Plaform Eng Manager: https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/...",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49928997",
+    "id": "opp_6897c093166f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T01:35:26Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "BCC - Platform Systems Engineers",
+    "updated_at": "2026-10-02T04:34:03+00:00",
+    "url": "https://news.ycombinator.com/item?id=49928997",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
     }
   },
   "opp_68c470641119": {
@@ -53042,6 +53820,138 @@
       "probability_low": 4.0
     }
   },
+  "opp_8f04c2670ed5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 57.69,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ecoATM Gazelle",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:06:51+00:00",
+    "description": "Company Overview (Who are we? Why should you join us?) At ecoATM the proof of our success is in our staggering growth, extraordinary impact on protecting the planet, and providing a work culture unlike any other. We are a technology company and a pioneer of device re-commerce. Through our 7,000 automated kiosks and online marketplace Gazelle.com, we enable people all over the world to join the mobile device re-use revolution, a revolution that will get billions of used smartphones out of the e-waste cycle and into the hands of people who don\u2019t have affordable access to the empowerment of the latest mobile technology. At ecoATM we know our employees are our greatest strength and the key to our continued growth and success. When you join our team, you will enjoy more than just a job, you will be empowered to develop and utilize your unique talents and skills to build a rewarding career while making a lasting, positive impact on the planet. Our Values and Leadership Behaviors ecoATM is looking for a driven, relationship-savvy B2B Device Sales Manager to grow and manage our wholesale device business. You'll be the connector between our device inventory and a global network of buyers \u2014 moving fast, negotiating smart, and building long-term partnerships that scale. What You'll Do Meet or exceed quarterly sales quotas Sell devices across multiple categories: wholesale auction repair stock, carrier trade in stock, and fully functional Drive velocity by matching the right inventory \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ecoatm-gazelle/jobs/device-sales-manager",
+    "id": "opp_8f04c2670ed5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:06:51+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "device-sale",
+      "sales-manager",
+      "b2b-sales",
+      "wholesale-sales",
+      "business-development",
+      "device-sales-manager",
+      "mobile-device-sales-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Device Sales Manager",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/ecoatm-gazelle/jobs/device-sales-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8fc2b1f42bd7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -61675,6 +62585,140 @@
       ],
       "probability_high": 16.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_a2f4482c2a2e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wunderkind",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:01:59+00:00",
+    "description": "About Wunderkind : Wunderkind is a performance marketing solution that uses AI and data to help brands acquire and retain customers through one-to-one, personalized messages across websites, email, text, and ads, guaranteeing a lift in revenue. Founded in 2010, Our goal is to scale a brand\u2019s ability to create and grow customer relationships through websites, email, text, and ads. We believe individuals should have the freedom to choose the kind of internet they want. An internet that fosters genuine relationships with brands. An internet that treats humans like real people instead of \u201cweb traffic.\u201d We also believe in empowering brands to treat their customers as individuals, satisfying their unique needs with tailored experiences and thoughtful communication. By expertly personalizing, automating, and scaling beautiful one-to-one experiences, Wunderkind helps brands acquire new customers at scale and keep them loyal for life. Role Overview Are you a master translator who can take complex, deeply technical product blueprints and turn them into high-converting, value-driven GTM narratives? Do you love the science of learning but hate the slow, traditional bottlenecks of old-school L&D? We are looking for a Director, GTM Enablement to bridge the gap between our Product engine and our commercial teams (primarily Sales & Customer Success). As a team of one, you won't just be managing a process; you will be architecting a scalable, AI-augmented enablement engine. You will partner \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wunderkind/jobs/director-gtm-enablement",
+    "id": "opp_a2f4482c2a2e",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:01:59+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 66.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 66.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "sales-enablement",
+      "gtm-enablement",
+      "revenue-enablement",
+      "enablement-manager",
+      "technical-enablement",
+      "gtm-strategy-director",
+      "sales-enablement-director",
+      "director-of-global-enablement"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Director, GTM Enablement",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/wunderkind/jobs/director-gtm-enablement",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_a2fed9f748b6": {
@@ -70423,6 +71467,152 @@
       "probability_low": 26.0
     }
   },
+  "opp_bb2709c602d4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Glen Recruiters",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-30T13:17:10+00:00",
+    "description": "An occupational therapy company for children is looking for a dedicated, self-motivated and experienced Virtual Assistant with excellent graphic design skills to join their dynamic and highly talented team. The role would include creating resources for a target market of mothers & children. These resources would be used at home and in the school environment. Core Tasks Creating multiple e-books Creating online downloadable worksheets which are illustrated / designed to meet the paediatric market Create flyers and posters according to company's branding specifications Design and layout of newsletters Preparation of annual reports Preparation of certificates, personalised cards and other materials for children Web research, writing and curating content for 2 blog posts a week General day-to-day assistance to the owner of the company Other administrative and ad hoc tasks as may be delegated Key Strengths and Skills Excellent command of the English language both written and verbal Bachelor's Degree course preferred but not necessary At least 3-4 years experience in a VA Design role Proficient with creating beautiful graphic design work and ability to conceptualise designs based on company's branding / brief Proven ability to complete illustrations & artwork on a given deadline Exceptional web research and content writing skills Experience and proven proficiency in the use of Photoshop and Indesign or similar programs High attention to detail, initiative and resourceful Ability \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/glen-recruiters/jobs/virtual-assistant-with-graphic-design-skills",
+    "id": "opp_bb2709c602d4",
+    "is_demo": false,
+    "match_score": 35.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T03:02:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.6,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 43.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"a va design role proficient with creating beautiful graphic design wor\"; \"ability to conceptualise designs based on company'\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 43.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "web research",
+      "virtual-assistant",
+      "graphic-designer",
+      "executive-assistant",
+      "administrative-assistant",
+      "creative-assistant",
+      "virtual-assistant-creative-services",
+      "creative-virtual-assistant",
+      "remote-graphic-designer",
+      "graphic-design-assistant",
+      "freelance-virtual-assistant",
+      "virtual-administrative-assistant",
+      "remote-graphic-design",
+      "graphic-assistant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Virtual Assistant with Graphic Design Skills",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/glen-recruiters/jobs/virtual-assistant-with-graphic-design-skills",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_bb6cc484e713": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -74727,6 +75917,145 @@
       "probability_low": 34.0
     }
   },
+  "opp_c5c4fa745cb9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 37.5,
+    "budget_min": 28.85,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Auvik Networks Inc.",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-01T03:01:55+00:00",
+    "description": "Why should you consider joining Auvik? You want to work at a company that is building impactful, relevant technology. Auvik\u2019s network management software helps IT teams by automating time-consuming tasks, streamlining operations, and mitigating risk. It\u2019s more important than ever to be able to remotely monitor and manage network infrastructure, and with Auvik, IT professionals have that essential visibility and control. You want to work with a leadership team who are transparent and trustworthy. Our senior leaders have a vision for Auvik. They are experienced, knowledgeable, approachable, and consistently working hard to drive success, both for the company and the team of people who make it happen. You want to work with a product customers love. People rave about what we\u2019ve built. Our customers are smart, aspirational, and highly technical. It pays to get the details right. You want regular opportunities for learning and growth. With ongoing feedback from leadership, you\u2019ll find that Auvik encourages you to be your very best. Our onboarding process is thorough and informative because we want to make sure you\u2019re prepared to have a great work experience. We also have programs designed to help you take the next steps you want for your career. You want the flexibility to manage your work, your way. We\u2019re a fully distributed team and we\u2019re prepared to continue to support working from home (or the space you choose!). We trust you to get the job done where you feel most comfortable \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 216.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/auvik-networks-inc/jobs/payroll-administrator-18-month-contract",
+    "id": "opp_c5c4fa745cb9",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:01:56+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [],
+    "score": 57.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $216 on $216 (100% margin). $46 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $58 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "payroll-administrator",
+      "payroll-accountant",
+      "payroll-specialist",
+      "payroll-coordinator",
+      "finance-administrator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Payroll Administrator (18 Month Contract)",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/auvik-networks-inc/jobs/payroll-administrator-18-month-contract",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_c656af15b092": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -76692,6 +78021,129 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_c8f8a65e0bf9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Location: San Jose, CA Remote: Open Willing to relocate: Yes Technologies: Python, TypeScript, React, Next.js, PostgreSQ",
+    "competition_score": 85.2,
+    "confidence": 50.0,
+    "created_at": "2026-10-02T04:34:03+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Location: San Jose, CA Remote: Open Willing to relocate: Yes Technologies: Python, TypeScript, React, Next.js, PostgreSQL, REST APIs, OAuth2, S3, Docker, AWS, GCP, Cloudflare, LLM APIs (OpenAI, Anthropic), MCP servers, speech-to-text, real-time voice AI, RAG, Stripe R\u00e9sum\u00e9/CV: https://www.linkedin.com/in/meeradatey/ Email: [contact removed] Open to contract work.",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49928727",
+    "id": "opp_c8f8a65e0bf9",
+    "is_demo": false,
+    "match_score": 49.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T00:53:16Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.9,
+          "evidence": "Matched 3 profile skills: python, rest api, sql. Covers 18% of the 11 skills this listing names (missing: api, aws, docker, gcp)."
+        }
+      },
+      "final_score": 53.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 53.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "aws",
+      "gcp",
+      "docker",
+      "typescript",
+      "react",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Location: San Jose, CA Remote: Open Willing to relocate: Yes Technologies: Python, TypeScript, React, Next.js, PostgreSQ - contract role",
+    "updated_at": "2026-10-02T04:34:03+00:00",
+    "url": "https://news.ycombinator.com/item?id=49928727",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (78-100%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "85%",
+          "to": "91%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 100.0,
+      "probability_low": 78.0
     }
   },
   "opp_c910a33eb8b5": {
@@ -85034,6 +86486,154 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_e2cf50a9c779": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 91.35,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-01T03:04:47+00:00",
+    "description": "Cloud Solutions Architect \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Cloud Solutions Architect Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $140,000\u2013$190,000 Annually Experience Required: 13+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking a Cloud Solutions Architect to design and govern cloud-native solutions across compute, networking, data, identity, and security domains on a major cloud platform. The role partners closely with business stakeholders, security architects, and engineering teams to translate strategic objectives into pragmatic, scalable, and cost-effective cloud architectures aligned with enterprise standards. The ideal candidate brings strong breadth across modern cloud capabilities, depth in at least one major provider, and the architectural judgment to balance time-to-market, cost, security, and long-term maintainability. Required Qualifications Bachelor\u2019s or Master\u2019s degree in Computer Science, Information Systems, or a related field. Eight or more years of experience in software \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-solutions-architect-9906412106",
+    "id": "opp_e2cf50a9c779",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:04:47+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 58.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: aws, azure, gcp)."
+        }
+      },
+      "final_score": 58.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "gcp",
+      "azure",
+      "cloud-solutions-architect",
+      "cloud-architecture",
+      "solutions-architect",
+      "cloud-engineer",
+      "enterprise-architecture",
+      "cloud-solution-architect",
+      "cloud-infrastructure-solutions-architect",
+      "senior-cloud-solutions-architect",
+      "aws-cloud-solutions-architect",
+      "azure-cloud-solutions-architect",
+      "cloud-architect",
+      "cloud-systems-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cloud Solutions Architect",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-solutions-architect-9906412106",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e3d3076dc0cf": {
@@ -95894,6 +97494,155 @@
       "probability_low": 25.0
     }
   },
+  "opp_fb638a68c913": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "Legend",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-02T04:34:04+00:00",
+    "currency": "EUR",
+    "deadline": "2026-12-01T03:02:06+00:00",
+    "description": "About Legend At Legend , we're building next-level player experiences. With 20+ years of proven success we\u2019re the world's leading Sports and Gaming marketing company. Our people are our edge. 600+ sharp, ambitious Legend s across 22+ countries who move fast, learn quickly and win together. Here growth isn\u2019t a perk, it\u2019s the standard. You\u2019ll stretch, level-up and carve out a career as bold as the products we build. We celebrate wins and create experiences that people talk about for years - for our players & for each other. If you\u2019re ready to shape the future of player experience and enjoy the ride while you do it, this is where you\u2019ll thrive. The role: Legend are hiring a Product Manager to join the gaming division - and in particular to work on our Flagship iGaming site. The role demands a key eye for commercial competitiveness, thorough research on competitors, and the ability to spearhead innovation within an ever-evolving industry. Driving the delivery of active initiatives while maintaining and enhancing a crucial part of the our flagship websites function is essential to long-term success. You'll be working alongside phenomenal, industry-leading experts who share your drive for quality, business acumen, and passion to push boundaries. Together, we'll research competitors, identify gaps, and build cutting-edge solutions that engage new audiences, re-engage loyal customers, and deliver premium leads to our affiliate partners. Here, no idea is too bold\u2014we encourage \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/legend/jobs/product-manager-igaming-12-month-ftc",
+    "id": "opp_fb638a68c913",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T03:02:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 44.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"proven success we\u2019re the world's leading sports\"; \"gaming marketing company\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 44.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "product-manager",
+      "igaming-product-manager",
+      "digital-product-manager",
+      "product-owner",
+      "igaming-product-management",
+      "senior-product-manager-gaming",
+      "gaming-product-manager",
+      "games-product-manager",
+      "casino-product-management",
+      "product"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Product Manager - iGaming - 12 month FTC",
+    "updated_at": "2026-10-02T04:34:04+00:00",
+    "url": "https://himalayas.app/companies/legend/jobs/product-manager-igaming-12-month-ftc",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_fbb7824cf926": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -96741,6 +98490,129 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_fcbcf9ae6418": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Ambito \u2014 Founding AI Engineer / Equity Partner \u2014 Remote Ambito is a CRM-connected QBR generator for B2B sales teams. The",
+    "competition_score": 94.8,
+    "confidence": 60.0,
+    "created_at": "2026-10-02T04:34:03+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Ambito (ambito.io) \u2014 Founding AI Engineer / Equity Partner \u2014 Remote Ambito is a CRM-connected QBR generator for B2B sales teams. The product is live, with the sales module, template engine, and CRM integrations already built. We're looking for a founding AI engineer to make the product significantly smarter and broader. This is an equity-only role initially (10+ hrs/week), working directly with the founders and our existing technical partner. You'll work on: AI product features: Build a native assistant that can answer questions about customer data, surface trends, provide setup guidance, and help generate QBRs. Retrieval, tool use, structured-data queries, evals, and cost control. Customer Success: Extend the existing framework into account reviews, renewals, and customer health. Integrations: Harden and expand CRM/CS integrations (Salesforce, HubSpot, etc.). Product: Make the overall experience faster, simpler, and more AI-native where it actually helps. We're looking for someone who has shipped LLM features in production, not just demos, and is comfortable with retrieval, embeddings, tool calling, agent workflows, and evaluation. You should also be able to work across React, TypeScript, and Node (Firebase experience is a plus). You should think like a product engineer: turn varied customer requests into simple, flexible systems and work independently. Sales tech / RevOps / CS experience is a plus. Boston/MA is a plus. To apply: Send a short note with something you've \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261002T043402Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49929368",
+    "id": "opp_fcbcf9ae6418",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-02T02:45:47Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 13.8,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 44.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "typescript",
+      "react",
+      "node",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Ambito \u2014 Founding AI Engineer / Equity Partner \u2014 Remote Ambito is a CRM-connected QBR generator for B2B sales teams. The - contract role",
+    "updated_at": "2026-10-02T04:34:03+00:00",
+    "url": "https://news.ycombinator.com/item?id=49929368",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
     }
   },
   "opp_fd901594c5d5": {
