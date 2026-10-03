@@ -415,6 +415,145 @@
       "probability_low": 6.0
     }
   },
+  "opp_013360ea2e28": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 25.7,
+    "budget_min": 17.2,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Tenet Healthcare",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:38:40+00:00",
+    "description": "JOB SUMMARY The Accounts Receivable Senior Representative is responsible for all aspects of follow-up activity, to include taking appropriate steps to resolve accounts timely. This candidate should have an increased knowledge of the Revenue Cycle as it relates to the entire life of a patient account from creation to expected payment. Representative will need to effectively follow-up on claim submission and; remittance review for insurance collections, create and pursue disputed balances from both government and non-government entities. Basic knowledge of Commercial, Managed Care, Medicare and Medicaid insurance is preferable. . Participate and assist in special projects as well as provide A/R support to the team. Assist new or existing staff with training or techniques to increase production and quality as well as provide A/R support for the team members that may be absent or backlogged. An effective revenue cycle process is achieved with working as part of a dynamic team and the ability to adapt and grow in an environment where work assignments may change frequently while resolving more complex accounts with minimal or no assistance. Senior Representative must have the ability to work closely with management and team members working an inventory of collectible accounts that bring in revenue and possess the the following: Conduct telephone calls utilizing a professional demeanor when contacting payors and/or patients in order to obtain collection related information Basic \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 129.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tenet-healthcare/jobs/patient-account-sr-representative-remote",
+    "id": "opp_013360ea2e28",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T18:38:41+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 33.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $129 on $129 (100% margin). $28 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $34 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "medical-collections-representative",
+      "patient-accounts-representative",
+      "accounts-receivable-specialist",
+      "medical-collections-specialist",
+      "revenue-cycle-representative",
+      "patient-account-representative",
+      "patient-account-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Patient Account Sr Representative Remote",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/tenet-healthcare/jobs/patient-account-sr-representative-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0154d2e2ccc9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -28110,6 +28249,145 @@
       "probability_low": 15.0
     }
   },
+  "opp_4718b97a1a27": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 64.47,
+    "budget_min": 31.83,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-02T18:38:25+00:00",
+    "description": "Job Title: Formateur en essais cliniques/Clinical Trial Educator, Canada (French Speaking) Job Location: Kirkland, Quebec, Canada Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Formateur en essais cliniques Le formateur en essais cliniques (FEC) fournira des informations et une formation sur les crit\u00e8res d\u2019inclusion et d\u2019exclusion des essais cliniques aux coordinateurs d\u2019essais et aux professionnels de la sant\u00e9. Le formateur en essais cliniques donnera des formations internes dans le but d\u2019accro\u00eetre le nombre de patients recrut\u00e9s. Le FEC travaille en partenariat avec les associ\u00e9s de recherche clinique (ARC) et d\u2019autres \u00e9quipes m\u00e9dicales de terrain pour une ex\u00e9cution optimale des essais, en \u00e9laborant des plans de recrutement sur mesure. Ce poste exige \u00e9galement que le formateur en essais cliniques travaille avec les m\u00e9decins r\u00e9f\u00e9rents et d\u00e9veloppe des r\u00e9seaux de r\u00e9f\u00e9rence pour soutenir les centres, en plus de collaborer avec les groupes de soutien dans le domaine th\u00e9rapeutique. Il s\u2019agit d\u2019un poste \u00e0 temps plein, sur le terrain, impliquant jusqu\u2019\u00e0 75 % de d\u00e9placements. Qualifications/Exp\u00e9rience : Baccalaur\u00e9at minimum requis Exp\u00e9rience en recherche clinique requise La capacit\u00e9 de communiquer couramment en anglais est requise La capacit\u00e9 de communiquer couramment en fran\u00e7ais est requise Permis d'infirmier ou infirmi\u00e8re autoris\u00e9(e), un atout CCRC, un atout Exp\u00e9rience en mati\u00e8re d\u2019engagement communautaire requise Exp\u00e9rience en mati\u00e8re de diversit\u00e9 et \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 238.72,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/formateur-en-essais-cliniques-clinical-trial-educator-canada-french-speaking",
+    "id": "opp_4718b97a1a27",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T18:38:25+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 62.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $239 on $239 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $64 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "clinical-trial-educator",
+      "clinical-research-coordinator",
+      "clinical-research-associate",
+      "clinical-trial-manager",
+      "healthcare-educator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Formateur en essais cliniques/Clinical Trial Educator, Canada (French Speaking)",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/formateur-en-essais-cliniques-clinical-trial-educator-canada-french-speaking",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_4722b1ad8459": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -38127,6 +38405,151 @@
       "probability_low": 4.0
     }
   },
+  "opp_5d80d5fe83d7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TASQ Staffing Solutions",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:39:08+00:00",
+    "description": "TASQ is currently seeking a senior/consultant application engineer to work remotely within the Philippines. **Work Arrangement:** Full-time remote position (must reside in the Philippines) **Job Highlights:** Our focus is on Azure technology, providing numerous opportunities to develop your skills in Microsoft and Azure within a specialized environment that emphasizes technical excellence and outstanding client service. Just six months with us can equate to years of experience elsewhere. **Microsoft Partnerships:** Our strong global ties with Microsoft give us access to cutting-edge Azure projects and direct collaboration opportunitiesan advantage rarely available elsewhere. **Compensation:** Competitive salary, allowances, standard benefits, along with quarterly and annual performance bonuses. **Work Environment:** Supportive company culture with flexible options for remote work. **Work Schedule:** 5 PM to 1 AM **Industry:** Information Technology **Qualifications:** Bachelor's degree in Computer Science, Engineering, Data Science, or a related field 3 to 5 years of application development experience, with proficiency in Python, C# .NET Framework, Angular, Microservices, React, and Node.js Relevant experience with major cloud platforms such as Azure (preferred), AWS, or GCP Passionate about developing front-end and cloud-native applications using PaaS, containers, serverless architectures, and modern JavaScript/TypeScript frameworks Enthusiastic about learning and adopting \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tasq-staffing-solutions/jobs/lead-senior-application-engineer-azure-wfh",
+    "id": "opp_5d80d5fe83d7",
+    "is_demo": false,
+    "match_score": 43.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T18:39:09+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 45.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.9,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 18% of the 11 skills this listing names (missing: aws, azure, data science, gcp)."
+        }
+      },
+      "final_score": 45.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "rest",
+      "aws",
+      "gcp",
+      "azure",
+      "javascript",
+      "typescript",
+      "react",
+      "node",
+      "data science",
+      "application-engineer",
+      "senior-application-engineer",
+      "software-engineer",
+      "cloud-engineer",
+      "azure-engineer",
+      "lead-azure-engineer",
+      "senior-azure-engineer",
+      "senior-.net-azure-developer",
+      "senior-azure-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Lead/Senior Application Engineer (Azure) - WFH",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/tasq-staffing-solutions/jobs/lead-senior-application-engineer-azure-wfh",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_5da2a25fce22": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -44019,6 +44442,139 @@
       "probability_low": 60.0
     }
   },
+  "opp_6bd249d6798e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Sensient Technologies",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:38:02+00:00",
+    "description": "Sensient Technologies , we are experts in the science, art and innovation of color and flavor. We are market savvy and visionary. We are problem solvers. We are looking to welcome a Senior Sales Account Manager for our Food Colors Latam business. Reporting to the Sales Director, you will have the responsibility to direct sales activities for the Andean region in order to achieve planned profit and exceed sales objectives. **This role is home based in either Colombia or Costa Rica. What you'll do: You will drive impact in Sales across 9 countries in the Andean region, by understanding the market landscape, identifying growth opportunities, new customer prospects, key market segments, customers, market dynamics, trends, opportunities, gaps, and timelines. Develop and execute account business plans that outline customer strategies, requirements, sales forecasts, and customer satisfaction, with focus on natural colors conversion. You will manage a network of distribution partners by ensuring proper engagement, training, as well as execution and accountability. Collaborate and work closely with all departments, R&D, Manufacturing, Purchasing, QC/QA, and Finance located in the Mexican HQ, to ensure superior service for food, beverage and pharma customers and prospects. Grow and manage a pipeline of projects focused in natural colors, consistently following up to bring them to the finish line successfully. You will bring: B2B experience in technical sales, ideally having managed \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sensient-technologies/jobs/senior-sales-account-manager-andean",
+    "id": "opp_6bd249d6798e",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T18:38:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "sales-account-manager",
+      "sales-manager",
+      "b2b-sales-manager",
+      "technical-sales-manager",
+      "account-manager",
+      "senior-account-manager",
+      "senior-enterprise-account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Sales Account Manager, Andean",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/sensient-technologies/jobs/senior-sales-account-manager-andean",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6bff5e750809": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -47466,6 +48022,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_72cec6c0a76c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 63.46,
+    "budget_min": 46.15,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Symbotic",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:38:17+00:00",
+    "description": "Who we are With its A.I.-powered robotic technology platform, Symbotic is changing the way consumer goods move through the supply chain. Intelligent software orchestrates advanced robots in a high-density, end-to-end system \u2013 reinventing warehouse automation for increased efficiency, speed and flexibility. What we need We are seeking a highly organized, proactive, and detail-oriented Paralegal to support our legal team. You will play a critical role in managing the administrative and operational pillars of a fast-paced legal department, focusing on contract management, intellectual property management and corporate governance. This is a unique opportunity to work in-house at a company at the intersection of cutting-edge automation and logistics. What we do Exol\u2122 is the Robotic Logistics Platform\u2122 built for tomorrow. A pioneering warehousing-as-a-service , an independently managed joint venture between Symbotic and Softbank , we offer automated warehousing operations. We specialize in the efficient movement of goods across wholesale, retail, and general merchandising sectors. The Legal Team is a core part of our organization. We are strategic partners who ensure the company operates within the law, manages complex risks, and protects Exol\u2019s interests as we scale our Robotic Logistics Platform\u2122. What you\u2019ll do Contract Lifecycle Management: Assist the legal team in the drafting, formatting, and administrative management of complex agreements, including Master Services \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 346.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/symbotic/jobs/paralegal-exol",
+    "id": "opp_72cec6c0a76c",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T18:38:17+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 56.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $346 on $346 (100% margin). $74 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $92 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: machine learning, rest)."
+        }
+      },
+      "final_score": 56.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "automation",
+      "machine learning",
+      "paralegal",
+      "corporate-governance",
+      "contract-management",
+      "legal-operations",
+      "intellectual-property",
+      "legal-paralegal",
+      "senior-paralegal",
+      "paralegal-support",
+      "legal"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Paralegal (Exol)",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/symbotic/jobs/paralegal-exol",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_72e9f5439de0": {
@@ -51582,6 +52275,142 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_7d74c1924831": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Stantec",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:35:57+00:00",
+    "description": "As a major contributor on our professional Architecture team, you will work independently to assist clients through the planning and creation of fiscally responsible, award-winning designs. Your experience ensures that you are quite familiar with construction plans, specifications, estimates, client guidelines and building codes. You will be innovative and creative, working with prototype designs and/or developing unique concepts from sustainable products with green architecture sensibility as your goals. You will lead the development of integrated design proposals, continuous updating of a building information model, preparing a variety of output / drawings throughout the project, while leading and mentoring others and collaborating with team members to contribute to the final deliverables as required under instruction from the Project Leader. Key Responsibilities Responsible for multiple projects of varied complexity. Engage in the development of design through sketches, modeling, diagrams, massing studies, and other visual formats. Utilize BIM technologies in development of project models and complete construction documents Independently performs a variety of assignments requiring skills in all conventional aspects of architectural designs for projects. Conduct thorough inspections of buildings and structures to ensure compliance with building codes and standards. Assess the existing condition of building components based on factors like age, functionality, appearance, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/stantec/jobs/architect",
+    "id": "opp_7d74c1924831",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T18:35:58+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "architect",
+      "design-architect",
+      "project-architect",
+      "architectural-design",
+      "building-design",
+      "building-architect",
+      "architect-and-design",
+      "architectural-designer",
+      "architecte",
+      "architecture",
+      "architecture-expert"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Architect",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/stantec/jobs/architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -90986,6 +91815,152 @@
         }
       ],
       "probability_high": 24.0,
+      "probability_low": 0.0
+    }
+  },
+  "opp_db1dc3cebcdc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 300,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "The Wilkinson Firm",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T20:42:50+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T18:38:38+00:00",
+    "description": "Engagement: Independent consultant, 1099 hourly. Rate range: $150-300/hr based on experience and scope. Location: Remote with state focus (NC, SC, GA, TN, FL). Reports to: HR Advisory Division Lead, dotted line to Founder. About The Wilkinson Firm TWF is a workforce strategy and staffing firm. Year 2 of operations. Our HR Advisory practice serves behavioral health and mental health providers across the Southeast. We are building a senior clinical bench - operators who have led clinical functions at scale and want to put their expertise to work in a portfolio-career model that respects their time. Who we want Former Clinical Directors, Medical Directors, Chief Clinical Officers, VP Clinical Services, or Executive Directors at CMHCs, FQHCs, IDD agencies, hospital BH service lines, MSOs, or state BH authorities. You have led clinical organizations, owned clinical P&L, navigated CARF surveys, Medicaid SPA mechanics, CMS Conditions of Participation, and clinical workforce strategy. You have walked the line between clinical integrity and operational pressure. What you would do Senior clinical advisory on TWF's most complex HR Advisory engagements Co-design workforce models for BH client systems facing turnover, burnout, supervision gaps Walk client systems through CARF prep, Medicaid SPA mechanics, supervision compliance Open senior clinical relationships that become enterprise TWF accounts (referral fees apply) Become the named clinical voice for one or more TWF client \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T204249Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1125.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-wilkinson-firm/jobs/clinical-director-behavioral-health-consulting-atlanta-ga",
+    "id": "opp_db1dc3cebcdc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T18:38:39+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 48.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $240 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 48.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 48.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "clinical-director",
+      "behavioral-health-director",
+      "clinical-consultant",
+      "mental-health-consultant",
+      "healthcare-consultant",
+      "integrated-behavioral-health-director",
+      "behavioral-health-medical-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Director - Behavioral Health (Consulting) - Atlanta, GA",
+    "updated_at": "2026-10-03T20:42:50+00:00",
+    "url": "https://himalayas.app/companies/the-wilkinson-firm/jobs/clinical-director-behavioral-health-consulting-atlanta-ga",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
       "probability_low": 0.0
     }
   },
