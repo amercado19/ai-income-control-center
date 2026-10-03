@@ -1357,6 +1357,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_02195f68a43e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 38.46,
+    "budget_min": 28.85,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Empire Assets",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-03T15:52:49+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Application URL https://empireground.com/work/remoteok Empire Assets is a young and rapidly developing company working in the field of digital markets and analytics. We bring together enterprising people who want to master modern approaches to trading, analysis and decision-making in a dynamic market environment. We are currently looking for a\u00c2 Junior Crypto Analyst & Trader \u00c2 , a novice specialist who is ready to complete training, perform real trading operations and develop under the guidance of experienced mentors. Your Responsibilities Execution and support of trading operations on digital markets. Tracking asset dynamics and market trends. Maintaining internal records on transactions and statistics. Analyzing market data, news, and charts for decision-making. Work with analytical tools and participate in discussions with a team of traders. The gradual formation and improvement of your own trading strategy. What We Offer Working for a young and growing international company. Remote format \u00e2\u0080\u0094 you can work from anywhere in the world. Flexible schedule \u00e2\u0080\u0094 up to 20 hours per week, convenient to combine with study or main activity. Learning from scratch \u00e2\u0080\u0094 all processes and trading tools are mastered with a mentor. The opportunity for professional growth and transition to more advanced levels. Ideal Candidate Profile Genuine interest in crypto markets, blockchain technology, or financial trading \u00e2\u0080\u0094 curiosity is more important than prior experience. Readiness to learn \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 288.5,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137460",
+    "id": "opp_02195f68a43e",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-02T12:53:01+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 56.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $288 on $288 (100% margin). $61 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $96 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: statistics. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 56.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "statistics",
+      "analytics",
+      "crypto",
+      "finance",
+      "trader",
+      "remote",
+      "part time",
+      "full time",
+      "web3",
+      "bitcoin",
+      "ethereum",
+      "blockchain",
+      "defi",
+      "work from home",
+      "anywhere",
+      "junior",
+      "analyst",
+      "exec"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Junior Crypto Analyst & Trader",
+    "updated_at": "2026-10-03T15:52:49+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-junior-crypto-analyst-trader-empire-assets-1137460",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_024a38a64a7b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -15306,6 +15451,147 @@
       "probability_low": 15.0
     }
   },
+  "opp_2984d4b22264": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.06,
+    "budget_min": 39.26,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Children's Hospital of Philadelphia",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:24:28+00:00",
+    "description": "SHIFT: Day (United States of America) Seeking Breakthrough Makers Children\u2019s Hospital of Philadelphia (CHOP) offers countless ways to change lives. Our diverse community of more than 20,000 Breakthrough Makers will inspire you to pursue passions, develop expertise, and drive innovation. At CHOP, your experience is valued; your voice is heard; and your contributions make a difference for patients and families. Join us as we build on our promise to advance pediatric care\u2014and your career. CHOP does not discriminate on the basis of race, color, sex, national origin, religion, or any other legally protected categories in any employment, training, or vendor decisions or programs. CHOP recognizes the critical importance of a workforce rich in varied backgrounds and experiences and engages in ongoing efforts to achieve that through equally varied and non-discriminatory means. A Brief Overview Reporting to the Coding Operations and Compliance Manager, the Coding Auditor Specialist plays a key role in ensuring the accuracy and integrity of our coding processes. In this role, you\u2019ll review inpatient and outpatient coded accounts to confirm that diagnoses, procedures, and DRG assignments are complete, accurate, and fully supported by documentation. Your expertise helps ensure appropriate reimbursement and reflects the true complexity of our patients\u2019 care. You\u2019ll bring a strong working knowledge of MS-DRG, APR-DRG, ICD-10-CM/PCS, CPT, and HCPCS, along with a passion for quality and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 294.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/children-s-hospital-of-philadelphia/jobs/coding-auditor-specialist",
+    "id": "opp_2984d4b22264",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T14:24:29+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 65.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $294 on $294 (100% margin). $63 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $79 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 65.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "medical-coding",
+      "health-information-management",
+      "coding-audit",
+      "revenue-cycle-management",
+      "clinical-documentation-integrity",
+      "coding-auditor",
+      "healthcare-coding-auditor",
+      "medical-coding-auditor",
+      "coding-compliance-auditor",
+      "clinical-coding-auditor",
+      "senior-coding-audit-analyst",
+      "coding-quality-auditor",
+      "medical-coding-quality-auditor",
+      "coding-compliance-specialist",
+      "inpatient-coding-auditor"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Coding Auditor Specialist",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/children-s-hospital-of-philadelphia/jobs/coding-auditor-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_2997b559f6e5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -22148,6 +22434,135 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_3807b062c49d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Securitize",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:20:38+00:00",
+    "description": "Securitize , the leader in tokenizing real-world assets with $3.7B+ AUM (as of May 5, 2025), is bringing the world on-chain through tokenized funds in partnership with top-tier asset managers, such as Apollo, BlackRock, Hamilton Lane, KKR, and others. Securitize , through its subsidiaries, is a SEC-registered broker dealer, digital transfer agent, fund administrator, and operator of a SEC-regulated Alternative Trading System (ATS). Securitize is a global, fully remote team consisting of top talent from the blockchain and financial services industries. Having raised $170M overall to date, we are backed by some of the largest names in finance and technology, including BlackRock, Morgan Stanley, Blockchain Capital, MUFG, Sumitomo Mitsui Trust Bank, Sony Finance, Banco Santander, Coinbase, among others. Securitize has also been recognized as a 2025 Forbes Top 50 Fintech company. Before applying, we encourage you to visit us to learn more: Website | X/Twitter | LinkedIn We are a publicly traded company focused on the tokenization of securities and other real-world assets. Our platform operates at the intersection of financial services, blockchain technology, and regulatory compliance, enabling the issuance and management of digital representations of traditional financial instruments. We operate in a highly regulated environment and work closely with regulators, auditors, and external counsel. Role Overview We are seeking a Legal Operations Manager to support the day-to-day \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/securitize/jobs/legal-operations-manager",
+    "id": "opp_3807b062c49d",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T14:20:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 50% of the 4 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 54.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "automation",
+      "legal-operations-manager",
+      "paralegal",
+      "compliance-specialist",
+      "legal-coordinator",
+      "corporate-paralegal",
+      "legal-manager",
+      "legal-ops-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Legal Operations Manager",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/securitize/jobs/legal-operations-manager",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_385c6bf7cc93": {
@@ -48576,6 +48991,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_765c41e9012e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Your Personal AI",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:22:32+00:00",
+    "description": "We\u2019re looking for Danish speakers to join a quick and simple recording project. All you need is a smartphone and a partner who also speaks Danish. Together you\u2019ll record natural conversations that help train next-generation AI language systems. How It Works Partner with a friend or family member who speaks Danish Record 7 conversations (~20 minutes each) through our app Talk naturally about everyday topics (hobbies, travel, work, family, etc.) Each of you records from a separate quiet location Why This Project? \u2714 Work from home with no special equipment \u2714 Quick \u2013 finish in a single sitting \u2714 Fun \u2013 just talk naturally with someone you know \u2714 Contribute to AI development for Danish How to Apply Click Apply , share your and your partner\u2019s email, and you\u2019ll get full setup instructions within 24 hours. Limited slots available \u2013 apply today! Requirements Native or fluent Danish skills Clear speech and stable internet Smartphone with microphone About 2 hours of free time Highlights Earn $140 per pair in just 2 hours! Record 7 short Danish conversations with a partner from home. Both get $70 each \u2013 easy, flexible, and remote. Originally posted on Himalayas",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/your-personal-ai/jobs/danish-conversation-recording-140-per-pair-remote-2-hours",
+    "id": "opp_765c41e9012e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T14:22:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 22.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 22.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 34.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "voice-recording",
+      "data-annotation",
+      "ai-training",
+      "data-collection",
+      "linguistics",
+      "danish-language-services",
+      "danish-speaking",
+      "danish-speech-data-collection"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Danish Conversation Recording \u2013 $140 per Pair (Remote | 2 Hours)",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/your-personal-ai/jobs/danish-conversation-recording-140-per-pair-remote-2-hours",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_767b09fcdbcb": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -58873,6 +59422,146 @@
       "probability_low": 15.0
     }
   },
+  "opp_919161309c49": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 34.19,
+    "budget_min": 27.35,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Children's Hospital of Philadelphia",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:28:29+00:00",
+    "description": "SHIFT: Day (United States of America) Seeking Breakthrough Makers Children\u2019s Hospital of Philadelphia (CHOP) offers countless ways to change lives. Our diverse community of more than 20,000 Breakthrough Makers will inspire you to pursue passions, develop expertise, and drive innovation. At CHOP, your experience is valued; your voice is heard; and your contributions make a difference for patients and families. Join us as we build on our promise to advance pediatric care\u2014and your career. CHOP does not discriminate on the basis of race, color, sex, national origin, religion, or any other legally protected categories in any employment, training, or vendor decisions or programs. CHOP recognizes the critical importance of a workforce rich in varied backgrounds and experiences and engages in ongoing efforts to achieve that through equally varied and non-discriminatory means. A Brief Overview This role will be responsible for reviewing medical record documentation including procedure reports and assigning appropriate CPT and ICD-10 codes. This role is also responsible for timely charge submissions and or data entry of the coded services. What you will do Systematically review and analyze patient medical records to determine all appropriate diagnosis and procedures performed, and to produce coded abstract for physician billing. Submission of coded services for billing and or data entry of the coded services for claim submission in accordance with departmental productivity and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 205.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/children-s-hospital-of-philadelphia/jobs/certified-medical-coder-abstractionist",
+    "id": "opp_919161309c49",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T14:28:29+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [],
+    "score": 57.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $205 on $205 (100% margin). $44 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $55 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "data entry",
+      "medical-coding",
+      "health-information-management",
+      "medical-billing",
+      "clinical-documentation",
+      "certified-professional-coder",
+      "medical-coder",
+      "cpc-certified-professional-coder",
+      "cpc-certified-coder",
+      "professional-medical-coder",
+      "medical-coding-professional",
+      "certified-coding-specialist",
+      "ccs-certified-coder",
+      "medical-abstractor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Certified Medical Coder Abstractionist",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/children-s-hospital-of-philadelphia/jobs/certified-medical-coder-abstractionist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_923a40d238f2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -68944,6 +69633,146 @@
       "probability_low": 15.0
     }
   },
+  "opp_a9013c67f12b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TowardJobs",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:24:15+00:00",
+    "description": "Earn at Home Panelist Program - Customer Service Rep - Data Entry Clerk - Work from Home & Part-time We are presently looking for on-line support in our work at home Panelist Program. This is a legit opportunity for someone who takes pleasure in sharing point of views concerning products, services and also trends in todays market area. As a Team Member, you will certainly be doing numerous work such as online data entry, performing e-mail response, reviews, studies and also various other online jobs. This work at home work opportunity is extremely rewarding and will certainly help shape the marketplace and affect brand-new products coming to market. In some cases you will even get to see items before the general public and even take part in evaluating them online. Entry Level Abilities Strong outgoing personality with remarkable communication skills and also great work principles. Data entry and also strong organizational abilities. Effective listening and analytical abilities, as well as the ability to summarize info as well as offer services. Experience with computer and have at the very least a typical working degree typing capacity. You need to be professional and positive and also possess a high degree of self-motivation as well as have the capability to function independently in your job. Outstanding time management and also administrative abilities with a keen focus to detail. Other Needs: This is an online work from home position, so you will certainly be required to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/towardjobs/jobs/work-at-home-data-entry-clerk-part-time",
+    "id": "opp_a9013c67f12b",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T14:24:15+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "data entry",
+      "data-entry",
+      "market-research",
+      "customer-service",
+      "administrative-assistant",
+      "remote-work",
+      "part-time-data-entry",
+      "part-time-work-from-home",
+      "data-entry-jobs",
+      "data-entry-clerk",
+      "data-entry-associate",
+      "entry-level-data-entry",
+      "data-entry-specialist",
+      "data-entry-agent"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Work at home Data Entry Clerk - Part Time",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/towardjobs/jobs/work-at-home-data-entry-clerk-part-time",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_a90e24d513e1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -75150,6 +75979,132 @@
       "probability_low": 26.0
     }
   },
+  "opp_b7b111dadf64": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Dautom",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:25:54+00:00",
+    "description": "Client Introduction : In this role, you will have the opportunity to work closely with one of our esteemed clients. This client is a global leader in the Banking Industry, known for its commitment to quality and innovation. They have chosen Dautom as their trusted partner for their upcoming projects. Job Purpose Support of Infrastructure services and ensure maximum availability for Banking Business Services. Knowledge, Skills and Experience Good Knowledge of workload Automation & Scheduler Tools Good knowledge on Windows & Unix operating systems . Good knowledge on Networking concepts and Administration. Good knowledge on backup and storage systems. Good knowledge on ORACLE & SQL platforms. Basic Business application concepts. Good Knowledge of CLOUD concepts. Experience in troubleshooting, coordination, and reporting. Incident, problem and change management concepts. Experience 6 - 7 years. Key Result Areas Experienced in datacenter operations and application deployment. Support Job Schedulers & File Transfer tools Administration. Support Enterprise Monitoring and backup Tools. Prompt reporting of production issues with impact analysis and taking necessary action for rectification. Operating Environment, Framework and Boundaries, Working Relationships Execute operation activities on different systems as defined in SOPs. Execute EOD, BOD and intraday batches as per SOP. Job Schedulers & File Transfer tools Administration. Tracking of DC operations service tickets. Monitoring \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dautom/jobs/data-center-operations-specialist-offshore",
+    "id": "opp_b7b111dadf64",
+    "is_demo": false,
+    "match_score": 88.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T14:25:55+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 62.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 21.4,
+          "evidence": "Matched 4 profile skills: automation, excel, reporting, sql. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 62.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 62.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "automation",
+      "data-center-operations",
+      "data-center-technician",
+      "infrastructure-operations",
+      "it-operations-specialist",
+      "data-center-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Center Operations Specialist( Offshore)",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/dautom/jobs/data-center-operations-specialist-offshore",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_b7c28c6f8dcc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -77087,6 +78042,131 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_bf881bd5e695": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Cesna Recruitment",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:19:39+00:00",
+    "description": "(Japanese Bilingual) Sales Professionals Recruitment Consultant Location: NJ, USA Work Arrangement: Remote Schedule: Monday to Friday, 9:00 AM \u2013 6:00 PM Join Cesna Group | A Global Recruitment Leader Cesna Group is a multinational recruitment firm delivering excellence in talent solutions worldwide. With a strong network across Asia-Pacific, Europe, and the United States, we are driven by a mission to foster diverse, inclusive, and equitable workplaces\u2014both within our company and for the organizations we serve. We are seeking Bilingual Japanese Sales Recruitment Consultants . We welcome candidates from all backgrounds and experiences. Key Responsibilities Source candidates through headhunting, job boards, social media, and internal databases Conduct candidate interviews (screening, phone, virtual, and on-site) Manage the end-to-end interview process between candidates and clients Advise clients on hiring strategies and talent acquisition needs Present and promote qualified candidates to clients Extend offers to selected candidates and close placements Build and maintain client relationships through business development Promote Cesna Group\u2019s services to new and existing clients Negotiate terms of business with clients Requirements What Makes a Great Recruiter at Cesna Group Experienced in B2B sales field Strategic thinker who works effectively under pressure MBA preferred Passionate about performance, achievement, and teamwork Strong interpersonal and communication skills \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cesna-recruitment/jobs/japanese-bilingual-sales-professionals-recruitment-consultant",
+    "id": "opp_bf881bd5e695",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-03T14:19:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "recruitment-consultant",
+      "staffing-consultant",
+      "sales-recruiter",
+      "sales-recruitment",
+      "recruitment-sales",
+      "multilingual-recruiter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "(Japanese Bilingual) Sales Professionals Recruitment Consultant",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/cesna-recruitment/jobs/japanese-bilingual-sales-professionals-recruitment-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_c0110bc4da68": {
@@ -96147,6 +97227,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_eb5687e712d1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Pearl Homes",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-02T14:28:04+00:00",
+    "description": "About Pearl Founded in 2013, Pearl is a ratings and standards company building the national standard for home performance. Pearl SCORE\u2122 rates every single-family home in the U.S. across five key pillars \u2014 Safety, Comfort, Operations, Resilience, and Energy \u2014 so homebuyers, homeowners, and real estate professionals can understand how a home performs in daily life. Today, the value of a home is judged by its location, size, and aesthetics\u2014 but these factors overlook the home\u2019s most important function: safeguarding the comfort, well-being, and finances of the people inside. Most American homes underperform in these regards because home performance is simply not on our radar. We can\u2019t see it, quantify it, or put a value on it. Pearl aims to change that by making home performance a central part of how we view and value our homes. We are not a home inspector, a contractor, a real estate platform, or a green-certification program \u2014 we rate homes against a transparent, evidence-based standard so that home performance becomes visible, measurable, and valuable in the real estate market. As a Certified B Corporation, we're accountable not only to our shareholders, but also to the homeowners and communities we serve. For more information, visit . About the role This is a hands-on program management role. The program manager will work closely with the people doing the work: building project plans alongside engineering managers, product managers, marketers, BD, customer success, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 432.67,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pearl-homes/jobs/program-manager-ops",
+    "id": "opp_eb5687e712d1",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T14:28:05+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 54.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 54.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 66.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "operations",
+      "project-management",
+      "project-coordinator",
+      "operations-program-manager",
+      "program-operations-manager",
+      "program-manager",
+      "operations-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Program Manager (Ops)",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/pearl-homes/jobs/program-manager-ops",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_eb91b55bffd1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -98308,6 +99530,146 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_ef61848e379c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 400,
+    "budget_min": 200,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Your Personal AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-03T15:52:48+00:00",
+    "currency": "DKK",
+    "deadline": "2026-12-02T14:24:38+00:00",
+    "description": "Earn money recording your voice in Danish! Join our language data collection project and help build better AI systems. We need native Danish speakers to record audio samples using their own smartphones - work whenever suits you best. Project Description: Help create advanced language technology by providing Danish voice recordings. This remote opportunity lets you work from anywhere quiet, setting your own hours. Simply use your phone to record sentence samples following our guidelines. Ideal Candidates: Danish as first language Natural speaking voice Own a working smartphone Have quiet recording environment Can work independently How It Works: Receive recording instructions and materials Use your phone to capture audio samples Upload completed recordings online Work at times that suit your schedule Get paid for completed work Flexible paid work opportunity - perfect for extra income! Start recording and earning today. No prior experience necessary, full guidance provided. Requirements Must speak native Danish Access to smartphone with recording capability Quiet indoor space for recording Internet connection for file uploads Self-motivated to complete tasks Highlights Danish speakers wanted for paid voice recording. Work from home using your phone. Set your own hours. Easy remote work! Originally posted on Himalayas",
+    "discovered_by_run": "20261003T155247Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1500.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/your-personal-ai/jobs/remote-danish-voice-recorder-position-smartphone-based-work",
+    "id": "opp_ef61848e379c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-03T14:24:39+00:00",
+    "profit_score": 91.2,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 33.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.8,
+          "evidence": "Estimated net $1,500 on $1,500 (100% margin). $320 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $400 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 45.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "voice-recording",
+      "data-collection",
+      "language-services",
+      "ai-training",
+      "remote-audio-jobs",
+      "voice-recording-specialist",
+      "entry-level-danish-audio-transcription-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Danish Voice Recorder Position \u2013 Smartphone-Based Work",
+    "updated_at": "2026-10-03T15:52:48+00:00",
+    "url": "https://himalayas.app/companies/your-personal-ai/jobs/remote-danish-voice-recorder-position-smartphone-based-work",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_ef95c4dad1af": {
