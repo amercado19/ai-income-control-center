@@ -17636,6 +17636,159 @@
       "probability_low": 4.0
     }
   },
+  "opp_2bf42fb51775": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 51.44,
+    "budget_min": 41.83,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Owens & Minor",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-04T22:46:24+00:00",
+    "description": "Owens & Minor is a global healthcare solutions company providing essential products, services and technology solutions that support care delivery in leading hospitals, health systems and research centers around the world. For over 140 years, Owens & Minor has delivered comfort and confidence behind the scenes, so healthcare stays at the forefront, helping to make each day better for the hospitals, healthcare partners, and communities we serve. Powered by more than 14,000 teammates worldwide, Owens & Minor exists because every day, everywhere, Life Takes Care\u2122. Global Reach with a Local Touch 140+ years serving healthcare Over 14,000 teammates worldwide Serving healthcare partners in 80 countries Manufacturing facilities in the U.S., Honduras, Mexico, Thailand and Ireland 40+ distribution centers Portfolio of 300 propriety and branded product offerings 1,000 branded medical product suppliers 4,000 healthcare partners served Benefits Comprehensive Healthcare Plan - Medical, dental, and vision plans start on day one of employment for full-time teammates. Educational Assistance - We offer educational assistance to all eligible teammates enrolled in an approved, accredited collegiate program. Employer-Paid Life Insurance and Disability - We offer employer-paid life insurance and disability coverage. Voluntary Supplemental Programs \u2013 We offer additional options to secure your financial future including supplemental life, hospitalization, critical illness, and other insurance \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 543.79,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/owensminor/jobs/procurement-analyst-iii-hr-it-general-labor-benefits",
+    "id": "opp_2bf42fb51775",
+    "is_demo": false,
+    "match_score": 2.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-05T22:46:24+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 46.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $544 on $544 (100% margin). $88 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $139 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.9,
+          "evidence": "Matched 2 profile skills: dashboard, excel. Covers 33% of the 6 skills this listing names (missing: analytics, api, power bi, tableau)."
+        }
+      },
+      "final_score": 46.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 6 hard requirement(s) with nothing in the operator profile behind them: \"owens & minor has delivered comfort\"; \"confidence behind the scenes\"; \"so healthcare stays at the forefront\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 46.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "dashboard",
+      "tableau",
+      "power bi",
+      "analytics",
+      "procurement-analyst",
+      "indirect-procurement-specialist",
+      "strategic-sourcing-analyst",
+      "supply-chain-analyst",
+      "category-analyst",
+      "senior-procurement-analyst",
+      "sourcing-and-procurement-analyst",
+      "procurement-operations-analyst",
+      "senior-purchasing-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Procurement Analyst III \u2013 HR, IT, General Labor & Benefits",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://himalayas.app/companies/owensminor/jobs/procurement-analyst-iii-hr-it-general-labor-benefits",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_2c627f5ac567": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -44146,6 +44299,144 @@
       "probability_low": 4.0
     }
   },
+  "opp_66c34c7fdeed": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bixal",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-04T22:29:31+00:00",
+    "description": "Important Notice for Applicants: At Bixal , we are committed to ensuring a transparent and secure application process. Official communication will only be sent from an email address ending in @bixal.com or from @bixal.na.teamtailor-mail.com. Any messages from other sources should be treated with caution. About Bixal Bixal is a mission-driven organization that partners with leading federal agencies to design and deliver people-centered digital solutions. We are a diverse group of strategists, designers, technologists, and data scientists who believe in using design and technology to make government services more accessible and effective for all. Independent Consultant Opportunity Opportunity Overview Bixal supports a large, federally funded public information and communications program that serves families and professionals across the country. The program's digital ecosystem includes a high-traffic public website, mobile applications, an online professional community, and a customer support center, reaching millions of visitors each year. A significant share of the audience is Spanish-speaking, and the program is committed to delivering accurate, high-quality, and culturally responsive information in both English and Spanish across every channel. Bixal is seeking a detail-oriented, culturally fluent Spanish Content Translator to support this program. This role is central to ensuring Spanish-speaking users receive the same high-quality, accurate, and accessible information as \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bixal/jobs/content-translator-6459233826",
+    "id": "opp_66c34c7fdeed",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-05T22:29:31+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 39.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "pdf",
+      "translation",
+      "interpretation",
+      "spanish-language-services",
+      "content-localization",
+      "language-services",
+      "content-translator",
+      "content-translation",
+      "translator",
+      "content-localisation",
+      "caption-translator",
+      "marketing-translator",
+      "language-translation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Content Translator",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://himalayas.app/companies/bixal/jobs/content-translator-6459233826",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_66f961501257": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -45375,6 +45666,132 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_69d42f1a5f02": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "David Kennedy Recruitment",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-04T22:29:35+00:00",
+    "description": "David Kennedy Recruitment is working with a leading Outsourcing/BPO consultancy who is seeking to onboard a Danish speaking Customer Service Representative to join their team in Porto. Position: Customer Service Representative Location: Porto, Portugal Work model: Remote Employment type: Fixed term (6 months) with possibility of extension / permanent contract DUTIES AND RESPONSIBILITIES: Handle inbound calls to assist customers with inquiries Sell products tailored to customer needs Cross-sell and upsell products and associated products Provide customer support for post-booking and booking management Support travel agents with bookings and ensure smooth booking management Offer comprehensive customer information on destinations, boats, documentation, pricing, and other related inquiries REQUIREMENTS: Native / fluent in Danish (C2) both verbal and written. Fluent in English (minimum B2 level) Previous experience in customer service or sales, preferably in the travel or hospitality industry Strong communication skills with the ability to engage and build rapport over the phone Ability to manage multiple inquiries and provide accurate information efficiently Experience in upselling and cross-selling products or services Customer-focused mindset with a commitment to delivering high-quality service Proficiency in booking systems or travel management tools will be considered as an advantage Strong attention to detail and problem-solving mindset Ability to effectively communicate, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/david-kennedy-recruitment/jobs/customer-service-representative-danish-245906061",
+    "id": "opp_69d42f1a5f02",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-05T22:29:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer-service",
+      "danish-language-customer-support",
+      "entry-level-customer-service",
+      "bpo-customer-service",
+      "multilingual-customer-support",
+      "travel-customer-service",
+      "danish-speaking-customer-service-representative",
+      "nordic-language-customer-service-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Service Representative (Danish)",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://himalayas.app/companies/david-kennedy-recruitment/jobs/customer-service-representative-danish-245906061",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_69dffde5bfe4": {
@@ -53736,6 +54153,148 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_78267e947364": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1500.0,
+    "budget_min": 750.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (16 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Saya membutuhkan sebuah aplikasi komunikasi pribadi yang fokus pada keamanan dan kemudahan penggunaan. Fungsi utama yang saya perlukan adalah: \u2022 Pesan teks real-time \u2022 Pesan suara berkualitas tinggi \u2022 Enkripsi menyeluruh (end-to-end) untuk setiap pesan Silakan rancang antarmuka yang sederhana\u2014cukup daftar percakapan, kolom pesan, dan tombol rekam suara sudah memadai untuk versi awal. Kecepatan pengiriman dan kemudahan koneksi antar-pengguna menjadi prioritas, jadi optimalkan performa jaringan dan kompresi audio sesuai kebutuhan. Saya terbuka pada platform apa pun (mobile, web, atau hybrid) selama hasil akhirnya stabil dan aman. Sertakan dokumentasi setup, panduan build, serta petunjuk cara menambahkan fitur lanjutan di masa depan. Prototipe fungsional dengan kode bersih dan terkomentar akan menjadi tolok ukur penerimaan.",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.39,
+    "estimated_cost": 0.0,
+    "estimated_hours": 14.78,
+    "estimated_net_revenue": 1012.5,
+    "estimated_non_ai_effort": 7.39,
+    "estimated_platform_fee": 112.5,
+    "external_id": "40751940",
+    "id": "opp_78267e947364",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-05T22:00:40+00:00",
+    "profit_score": 76.3,
+    "risk_flags": [],
+    "score": 43.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (7.4h AI / 7.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 13.5,
+          "evidence": "Estimated net $1,012 on $1,125 (90% margin). $110 per effective hour vs $85 target (9.2 effective h = 7.4h human + 7.4h AI discounted). Leverage: $137 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.2,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 43.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "mobile app development",
+      "cloud computing",
+      "software architecture",
+      "agile development",
+      "web development",
+      "documentation",
+      "audio processing",
+      "encryption",
+      "database management",
+      "performance tuning"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Aplikasi Obrolan Pribadi Terenkripsi",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://www.freelancer.com/projects/agile-development/Aplikasi-Obrolan-Pribadi-Terenkripsi",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "16 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_788ed80223cf": {
@@ -69288,6 +69847,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_9d8d9bdd24db": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "MaFi Games",
+    "competition_score": 85.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-05T23:50:27+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "MaFi Games | Senior SWE/Game dev | Contract preferred | Remote | C# Hi, I\u2019m the co-founder of MaFi Games, an indie studio behind the game Captain of Industry. We\u2019re a small but passionate team building the best factory simulation game we can, and we need more hands! We\u2019re looking for an experienced software engineer to join our team and help us speed up the development. While experience in game dev is a plus, what matters to us most is strong technical ability and computer science fundamentals, e.g. experience with technically demanding programs, 3D graphics, simulation, or performance optimization. Some reasons you may enjoy working with us: * A multicultural, collaborative, and innovative work environment where your voice is heard. * Fully remote work with flexible working hours and vacation schedule. * Long-term, full-time collaboration (not a fixed-term contract). * A high-quality C# codebase, code reviews, tests. * Interesting technical challenges and a lot of ownership over your work. * Work with a talented team on a popular video game with a wonderful community. For an example of some of our technical work see https://www.captain-of-industry.com/post/cd-31 . We\u2019ve also built a unique signal-free train system https://www.captain-of-industry.com/post/cd-46 . If you\u2019re interested, you can find detailed information, requirements, and application instructions here: https://coigame.com/jobs-swe-hn Thanks! P.S. We\u2019re also looking for 2D and 3D game asset artists, in case you \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_49966852",
+    "id": "opp_9d8d9bdd24db",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-05T16:18:23Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "MaFi Games - contract role",
+    "updated_at": "2026-10-05T23:50:27+00:00",
+    "url": "https://news.ycombinator.com/item?id=49966852",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
+    }
+  },
   "opp_9db71817c105": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -82077,6 +82770,134 @@
       ],
       "probability_high": 82.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_ba83a43ce3b3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bemobi",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-04T22:30:06+00:00",
+    "description": "Na Bemobi valorizamos o esp\u00edrito inovador e colaboramos para que pessoas potencializem o seu melhor e, juntos, identificamos afinidades e oportunidades. Esta oportunidade \u00e9 para atuar na Agenda Edu, uma das solu\u00e7\u00f5es Bemobi , que re\u00fane em uma \u00fanica plataforma solu\u00e7\u00f5es para simplificar a rotina das institui\u00e7\u00f5es de ensino, facilitando a comunica\u00e7\u00e3o, os pagamentos e a gest\u00e3o escolar. Se voc\u00ea procura desenvolvimento, desafios e um \u00f3timo ambiente de trabalho, est\u00e1 no lugar certo! Atuar em Leads gerados pelo time de pr\u00e9 vendas; Apresentar solu\u00e7\u00f5es para escolas, alinhando as necessidades identificadas com as solu\u00e7\u00f5es que a Agenda Edu pode proporcionar; Cumprir padr\u00e3o de comunica\u00e7\u00e3o/abordagem Agenda Edu; Acompanhar escolas em negocia\u00e7\u00e3o (follow up); Realizar negocia\u00e7\u00f5es com potenciais escolas; Atualizar informa\u00e7\u00f5es de atividades no CRM de vendas. Conhecimento de CRM e vendas B2B; No\u00e7\u00e3o do mercado educacional; M\u00e1quina de vendas; T\u00e9cnica de negocia\u00e7\u00e3o; Experi\u00eancia com HubSpot; Vendas para mercado educacional K12; Disponibilidade para viagens (dura\u00e7\u00e3o de 1 semana). Informa\u00e7\u00f5es adicionais Para essa vaga, nossos benef\u00edcios s\u00e3o: Vale refei\u00e7\u00e3o (cart\u00e3o flex\u00edvel); Aux\u00edlio Home Office; Plano de Sa\u00fade e Odontol\u00f3gico (Amil); Day Off na semana do anivers\u00e1rio; Descontos em cursos de gradua\u00e7\u00e3o e p\u00f3s-gradua\u00e7\u00e3o; Descontos em passagens a\u00e9reas e hospedagens; TotalPass. Originally posted on Himalayas",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bemobi/jobs/consultor-a-comercial-junior-agenda-edu-4542953142",
+    "id": "opp_ba83a43ce3b3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-05T22:30:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "vendas-b2b",
+      "consultoria-comercial",
+      "vendas-educacional",
+      "inside-sales",
+      "commercial-sales",
+      "asesor-de-ventas-educativas-junior",
+      "consultor-comercial",
+      "analista-comercial-junior",
+      "consultor-de-vendas",
+      "consultor-de-ventas"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultor(a) Comercial J\u00fanior | Agenda Edu",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://himalayas.app/companies/bemobi/jobs/consultor-a-comercial-junior-agenda-edu-4542953142",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_baa8f71dc2b3": {
@@ -95962,6 +96783,155 @@
     "title": "Senior Compliance Corrections Specialist",
     "updated_at": "2026-09-18T20:33:59+00:00",
     "url": "https://himalayas.app/companies/centene-corporation/jobs/senior-compliance-corrections-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_d8aae04244ea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 117.93,
+    "budget_min": 117.93,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Teladoc Health",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-05T23:50:28+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-04T22:30:05+00:00",
+    "description": "Join the team leading the next evolution of virtual care. At Teladoc Health , you are empowered to bring your true self to work while helping millions of people live their healthiest lives. Here you will be part of a high-performance culture where colleagues embrace challenges, drive transformative solutions, and create opportunities for growth. Together, we\u2019re transforming how better health happens. Summary of Position Working as part of a care team for Teladoc Health Medical Group, the Primary Care Physician provides best in class virtual patient care via video and telephonic appointments. This unique opportunity will contribute to shaping the evolution of virtual primary care as an industry standard to make primary care accessible, affordable and effective for all. Teladoc will function as your primary employer, excluding the opportunity to work for competing telehealth companies. This is a full-time 40 hours per week role with shifts varying Monday \u2013 Saturday, including some evenings. Shifts will be scheduled based upon the needs of the business. Essential Duties and Responsibilities Work with a healthcare team to provide patients with exceptional primary care services virtually via video and phone communication channels, within the standard of care for primary care patients. Order laboratory and radiology tests and refer patients to specialists when appropriate. Be accessible to the Care Team to solve problems and keep the entire panel well cared for in a timely manner. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261005T235026Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1179.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/teladoc-health/jobs/staff-physician-primary-care-telemedicine-4745628540",
+    "id": "opp_d8aae04244ea",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-05T22:30:05+00:00",
+    "profit_score": 87.4,
+    "risk_flags": [],
+    "score": 63.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.1,
+          "evidence": "Estimated net $1,179 on $1,179 (100% margin). $248 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $393 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 63.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "telemedicine-physician",
+      "virtual-care-physician",
+      "primary-care-physician",
+      "telehealth-provider",
+      "remote-healthcare-provider",
+      "telemedicine-primary-care-physician",
+      "telehealth-primary-care-physician",
+      "telemedicine-family-medicine-physician",
+      "telehealth-physician",
+      "remote-primary-care-physician",
+      "primary-care-telemedicine",
+      "telehealth-internal-medicine-provider",
+      "telemedicine-clinician"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Staff Physician, Primary Care Telemedicine",
+    "updated_at": "2026-10-05T23:50:28+00:00",
+    "url": "https://himalayas.app/companies/teladoc-health/jobs/staff-physician-primary-care-telemedicine-4745628540",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
