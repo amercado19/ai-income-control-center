@@ -5552,6 +5552,152 @@
       "probability_low": 15.0
     }
   },
+  "opp_0c07daaf4b58": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 60.1,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Attain Partners",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:32:01+00:00",
+    "description": "Attain Partners is an innovative consulting firm dedicated to disrupting the status quo to change the world and improve the lives of those we touch. From strategy to technology and everywhere in between, our experts use their unique skills to advance the important missions of education, nonprofit, healthcare, and state and local government clients. People are at the center of all we do, and that\u2019s why we empower career growth, provide industry-leading benefits packages, encourage a flexible work environment, and foster a culture of inclusion to support the needs of our team. We share a collective passion for our mission and our people. Guided by our seven core values, The Attain Way, our vision is the foundation of our culture\u2014to be and attain the best. We are seeking a strategic thinker and consultant with experience in Enterprise Resource Planning (ERP) and Finance transformation be a key contributor to engagements across business process assessment, technology strategy, organizational readiness, and software implementation advisory. This role is ideal for someone who is looking to apply their ERP and Finance transformation project experience to a broader strategic context, helping clients navigate complex decisions, align technology with mission, and drive meaningful change. This is not an implementer role, it\u2019s about shaping the vision and guiding the journey. As such, your ERP and Finance experience is valued, but your broader strategic thinking, and ability to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 601.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/attain-partners/jobs/senior-consultant-erp-finance",
+    "id": "opp_0c07daaf4b58",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T21:32:02+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [],
+    "score": 45.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $601 on $601 (100% margin). $127 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "analytics",
+      "erp-consultant",
+      "finance-consultant",
+      "management-consultant",
+      "technology-consultant",
+      "erp-finance-consultant",
+      "senior-erp-consultant",
+      "senior-sap-finance-consultant",
+      "sap-erp-senior-consultant",
+      "senior-sap-erp-consultant",
+      "senior-sap-financial-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Consultant - ERP Finance",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/attain-partners/jobs/senior-consultant-erp-finance",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0c473a68876a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -35188,6 +35334,141 @@
       "probability_low": 0.0
     }
   },
+  "opp_4ce80407f224": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Workstate",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:40:06+00:00",
+    "description": "Workstate seeks a Senior COBOL Developer to join our team for an 18-month modernization project! In this role, you will convert a legacy RPG II codebase to COBOL on IBM z/OS in preparation for a cloud migration to Google Cloud Platform using the Raincode mainframe rehosting platform. If you are a strong COBOL engineer who enjoys working with data and delivering high-quality results for clients, you'll fit right in at Workstate . We aim to engage consultants who can motivate and galvanize our clients, while diving deeply into the work at hand and envisioning future projects. Our consultants are skilled decision-makers, committed to championing client visions and driving quality results. This position is fully remote and available to people residing in Colombia or Argentina with the right to work in that country. Requirements The ideal candidate will have 6+ years of professional COBOL development experience on IBM z/OS mainframes. Beyond that, we're looking for some of the following skills, but not necessarily all: Strong SQL and data skills, especially DB2 for z/OS (embedded SQL, query tuning, data modeling) JCL, TSO/ISPF and batch processing VSAM, QSAM/sequential files and GDGs Mainframe utilities such as DFSORT/SYNCSORT and IDCAMS CICS Legacy modernization, code conversion or mainframe migration projects Mainframe rehosting or emulation platforms (Raincode, Micro Focus/Rocket Enterprise Server) or GCP Source control and change management tools (Git, Endevor, ChangeMan) \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/workstate/jobs/senior-cobol-developer-z-os-latam-remote",
+    "id": "opp_4ce80407f224",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T21:40:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: sql."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "gcp",
+      "cobol-developer",
+      "mainframe-developer",
+      "mainframe-engineer",
+      "senior-software-developer",
+      "z-os-developer",
+      "senior-cobol-developer",
+      "senior-mainframe-developer",
+      "cobol-programmer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior COBOL Developer (z/OS) - LATAM Remote",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/workstate/jobs/senior-cobol-developer-z-os-latam-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_4d3c7c4af06d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -40633,6 +40914,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_5a1ca14a2be5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Madiff",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:32:23+00:00",
+    "description": "This is a remote position; Design, build and maintain C++ code; Work on and suggest improvements on extensions and modules of the existing products; Be proactive in finding solutions to problems; Mentor and help develop the team. Requirements Computer Sciences or Equivalent degree; 5+ years of experience with C++; Knowledge of Machine Learning Techniques; Experience in software development lifecycle; Knowledge and experience in working with cloud service provides (AWS); Database experience (MongoDB, MySQL); Knowledge of container technologies (Docker); Drive and motivation to learn technologies. Benefits Attractive and transparent remuneration system; Stable employment; Professional development in an international environment; Additional benefits package; The ability to implement your own ideas; Good work atmosphere. Originally posted on Himalayas",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/madiff/jobs/c-developer-remote",
+    "id": "opp_5a1ca14a2be5",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T21:32:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: sql. Covers 20% of the 5 skills this listing names (missing: aws, docker, machine learning, mysql)."
+        }
+      },
+      "final_score": 46.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "mysql",
+      "aws",
+      "docker",
+      "machine learning",
+      "c++-developer",
+      "c++-engineer",
+      "software-developer",
+      "software-engineer",
+      "remote-mid-level-c++-developer",
+      "c++-software-engineering-jobs",
+      "c-c++-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "C++ Developer - Remote",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/madiff/jobs/c-developer-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_5a4600365ed1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -42319,6 +42737,129 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_5cb9c043ff55": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "PROLOGA",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:39:48+00:00",
+    "description": "kurzbeschreibung Gestalte mit uns die Zukunft \u2013 Willkommen in unserem Talentpool bei PROLOGA Manchmal passt eine ausgeschriebene Stelle nicht genau zu deinen Talenten \u2013 aber das hei\u00dft nicht, dass du nicht perfekt in unser Team passt! Bei PROLOGA sind wir st\u00e4ndig auf der Suche nach Menschen, die genauso wie wir die Zukunft gestalten m\u00f6chten. Menschen, die mit ihren Ideen und ihrer Leidenschaft in der Welt der IT, Softwareentwicklung oder anderen Bereichen unserer Firma etwas bewegen wollen. Wenn du bereit bist, die digitale Landschaft zu ver\u00e4ndern, freuen wir uns darauf, dich kennenzulernen \u2013 auch ohne konkrete Stellenausschreibung. deine aufgaben Was bietet dir unser Talentpool? Wenn du dich initiativ bei uns bewirbst, wirst du Teil unseres Talentpools \u2013 einer exklusiven Gruppe von Talenten, die wir bei passenden neuen Positionen direkt ansprechen. So verpasst du keine Chance, dein Know-how bei PROLOGA einzubringen. Sobald sich eine M\u00f6glichkeit ergibt, die zu deinen F\u00e4higkeiten und Interessen passt, wirst du von uns als Erste/r kontaktiert. Du hast aber nicht nur die M\u00f6glichkeit, auf zuk\u00fcnftige Stellenangebote zu warten: Wir sch\u00e4tzen den offenen Austausch und freuen uns auf inspirierende Gespr\u00e4che, die vielleicht ganz neue Wege er\u00f6ffnen \u2013 denn oft entstehen die besten Ideen, wenn man gemeinsam nach vorn blickt. Bist du bereit f\u00fcr deine n\u00e4chste Herausforderung? Wir sind immer neugierig auf Menschen, die die Zukunft der IT aktiv mitgestalten wollen. Wenn du glaubst, dass du \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/prologa/jobs/bewerberpool",
+    "id": "opp_5cb9c043ff55",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T21:39:49+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "software-developer",
+      "it-consultant",
+      "talent-pool",
+      "initiativbewerbung",
+      "entry-level-talent"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Bewerberpool",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/prologa/jobs/bewerberpool",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_5cdce2e618cf": {
@@ -94671,6 +95212,149 @@
       "probability_low": 15.0
     }
   },
+  "opp_c6bb29b2d0cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120,
+    "budget_min": 120,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "SteadyMD",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:33:37+00:00",
+    "description": "About SteadyMD : Recognized by Forbes as a Top 100 Best Startup Employer, SteadyMD is at the forefront of telehealth, facilitating modern healthcare services. Our comprehensive platform, supported by a clinician workforce licensed across all 50 states, streamlines telehealth for healthcare organizations. Our clinicians enjoy the flexibility of online care in various domains, including urgent care, primary care, and mental health therapy. At SteadyMD , we value diversity and inclusivity, striving to create a welcoming environment for clinicians from all backgrounds. You could have the opportunity to provide care on a number of programs that fit your interest and experience: Weight Loss Urgent Care Primary Care Functional Medicine Just to name a few! Position Overview: Role: Physician for Virtual Patient Care Location: Fully Remote Compensation: Approximately $120/hour Important Note:This is a 1099 contractor opportunity, provided that, this classification and rate of pay are subject to change based on the clinicians state of residence, applicable state employment and worker classification regulations, and the clinicians availability and involvement with SteadyMD , to ensure compliance with state-specific labor and wage requirements. Responsibilities Include: Deliver patient care across SteadyMD 's programs, including but not limited to: urgent care, weight management, lab review, remote patient monitoring and primary care. Conduct evaluations via video, phone (both scheduled \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 900.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/steadymd/jobs/physician-4065830129",
+    "id": "opp_c6bb29b2d0cf",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T21:33:38+00:00",
+    "profit_score": 84.1,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 55.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.5,
+          "evidence": "Estimated net $900 on $900 (100% margin). $192 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $240 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 55.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 67.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "physician",
+      "telemedicine-physician",
+      "virtual-care-physician",
+      "urgent-care-physician",
+      "telehealth-provider",
+      "specialist-physician",
+      "medical-practitioner",
+      "clinical-physician"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Physician",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/steadymd/jobs/physician-4065830129",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c700a8f4bbea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -97153,6 +97837,140 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_ca288404b22a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "spreadsheet",
+    "client": "Freelancer.com client (25 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We run a large-scale operation with thousands of monthly transactions recorded in Tally. What I need now is a streamlined tax and bank-reconciliation workflow built around reliable bank-statement import, followed by deep, tailor-made reporting inside Tally. Core objectives \u2022 Set up (or refine) the bank-statement import so daily statements drop straight into Tally, map to the correct ledgers, and prepare each entry for one-click reconciliation. \u2022 Build automatic reconciliation rules that cope with multiple accounts and high volumes without manual touch-ups. \u2022 Create extensively customised Tally reports that show tax liabilities, GST break-ups, ageing, and any other views we agree on, ready for management review and statutory filing. Acceptance criteria 1. A working import template (CSV/Excel or any supported format) demonstrated with live data. 2. Reconciliation completing with no unmatched items on a supplied sample month. 3. At least three customised tax/MIS reports delivered as .tdl and installed, plus a short user guide. I already have the licences and full access to Tally; you bring the TDL skills and reconciliation know-how to make it all click. If you have done similar large-business roll-outs, please share a brief outline when you respond.",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.73,
+    "estimated_cost": 0.0,
+    "estimated_hours": 6.37,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 0.64,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40756133",
+    "id": "opp_ca288404b22a",
+    "is_demo": false,
+    "match_score": 88.1,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-07T22:32:11+00:00",
+    "profit_score": 76.8,
+    "risk_flags": [],
+    "score": 77.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 12.7,
+          "evidence": "90% of estimated effort is AI-carryable (5.7h AI / 0.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 8.0,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 13.6,
+          "evidence": "Estimated net $450 on $500 (90% margin). $217 per effective hour vs $85 target (2.1 effective h = 0.6h human + 5.7h AI discounted). Leverage: $703 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 27.3,
+          "evidence": "Matched 4 profile skills: automation, csv, excel, reporting. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 77.8,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 77.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "excel",
+      "csv",
+      "visual basic",
+      "accounting",
+      "software architecture",
+      "financial analysis",
+      "tax reporting",
+      "bank reconciliation",
+      "automation"
+    ],
+    "source": "freelancer_com",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Tally Bank Import & Report Customization",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://www.freelancer.com/projects/accounting/Tally-Bank-Import-Report-Customization",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (6-30%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "25 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "12%",
+          "to": "18%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "18%",
+          "to": "18%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 30.0,
+      "probability_low": 6.0
     }
   },
   "opp_ca9011eb7f51": {
@@ -105262,6 +106080,153 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_def739454721": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 52.88,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Turner & Townsend",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-07T22:51:14+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T21:40:10+00:00",
+    "description": "As a T&T| CBRE Construction Project Manager you will be responsible for providing consulting services to an assigned market or client account to help achieve the company's strategic business objectives. This is a remote role for someone in the Pacific Time Zone. We are looking for a construction project manager to support our financial retail banking client on their projects. This person will support a large volume on projects consisting of HVAC, roofing, and parking lot upgrades, etc. There is no travel required for this role. What You\u2019ll Do: Manage all areas of project management for singular real estate projects. This includes planning, design, construction, occupancy, and closeout. Work directly with clients to prepare all elements of the project. This includes the scope of work, project delivery resource requirements, cost estimates & budget, work plan schedule & milestones, quality control, and risk identification. Define the project delivery resources from pre-qualified lists or through the project qualification process. Conduct a standard request for proposals, complete bid evaluations, and recommend resources to clients. Implement project documentation governance that is aligned with company and client requirements. Ensure project data integrity and documentation is accurate, timely, and coordinated. Direct the project delivery team by providing guidance and direction to achieve goals. Create action plans to meet objectives, budget, and schedule. Track the progress \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T225112Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 396.6,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/turner-townsend/jobs/copy-of-high-volume-retail-banking-construction-project-manager-hvac-roofing",
+    "id": "opp_def739454721",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T21:40:11+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 64.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $397 on $397 (100% margin). $85 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $106 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 64.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "construction-project-manager",
+      "project-manager",
+      "senior-project-manager",
+      "construction-manager",
+      "project-management",
+      "senior-construction-and-real-estate-project-manager",
+      "hvac-project-manager",
+      "retail-construction-project-manager",
+      "project-manager-construction",
+      "commercial-construction-project-manager",
+      "senior-construction-project-leader",
+      "senior-program-manager-construction",
+      "retail-construction-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Copy of High Volume Retail Banking Construction Project Manager (HVAC, Roofing,",
+    "updated_at": "2026-10-07T22:51:14+00:00",
+    "url": "https://himalayas.app/companies/turner-townsend/jobs/copy-of-high-volume-retail-banking-construction-project-manager-hvac-roofing",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_df0a5e6183b1": {
