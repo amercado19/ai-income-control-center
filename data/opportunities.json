@@ -4568,6 +4568,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_0a7c285ebda1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 2.4,
+    "budget_min": 2.4,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Leevin Ireland",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "BRL",
+    "deadline": "2026-12-06T03:42:32+00:00",
+    "description": "Sobre a empresa: O Leevin Group atua no setor de acomoda\u00e7\u00f5es para estudantes, tanto de curto quanto de longo prazo. Fundada em 2018, em Dublin, com o objetivo de oferecer aos estudantes servi\u00e7os de hospedagem confi\u00e1veis e com \u00f3timo custo-benef\u00edcio. Nossa miss\u00e3o \u00e9 proporcionar a todos os nossos clientes uma experi\u00eancia \u00fanica e satisfat\u00f3ria durante sua estadia na Irlanda. Estamos em busca de um(a) Community & Customer Experience Junior para apoiar diretamente a gest\u00e3o da nossa comunidade de moradores e fortalecer a experi\u00eancia do cliente dentro das propriedades. Essa posi\u00e7\u00e3o atua como ponto de contato entre residentes e time de CX, garantindo comunica\u00e7\u00e3o clara, organiza\u00e7\u00e3o de processos e resposta dentro de SLA, al\u00e9m de apoiar na preven\u00e7\u00e3o de conflitos e refor\u00e7o educativo das regras da casa. Principais responsabilidades: \u2022 Atuar como ponto de contato comunit\u00e1rio entre moradores e CX; \u2022 Garantir respostas dentro do SLA; \u2022 Refor\u00e7ar House Rules e License Agreement de forma educativa; \u2022 Orientar residentes sobre processos (maintenance, cleaning, replacement, notice etc.); \u2022 Monitorar conflitos e atuar preventivamente; \u2022 Identificar padr\u00f5es recorrentes de reclama\u00e7\u00f5es; \u2022 Manter registros organizados (Freshdesk / DM); \u2022 Trabalhar em conjunto com Property Management, Sales e Collections; Hard skills: Flu\u00eancia em ingl\u00eas; Experi\u00eancia m\u00ednima de 1 ano em customer experience, suporte a h\u00f3spedes ou community management; Capacidade de gerenciar m\u00faltiplos canais simultaneamente (chat, e-mail, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 18.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/leevin-ireland/jobs/customer-experience-pj-brasil",
+    "id": "opp_0a7c285ebda1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:42:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $18 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-experience-specialist",
+      "community-manager",
+      "customer-support",
+      "client-services",
+      "customer-experience",
+      "atendimento-ao-cliente",
+      "customer-service-customer-experience",
+      "customer-service"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Experience - PJ - Brasil",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/leevin-ireland/jobs/customer-experience-pj-brasil",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_0ac5fc888215": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -43732,6 +43865,146 @@
       "probability_low": 26.0
     }
   },
+  "opp_618e87789a65": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Caixa M\u00e1gica Software",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:39:24+00:00",
+    "description": "Overview: One of the biggest banks in the European Union is seeking a DevOps Application Manager to work on a program composed by different referential products focused on third party people/entity into the bank. Those products are connected to some external providers (public & market-data). Those referential data are the golden sources for the bank. Those applications ensure high data quality and consistency across various referentials data sources and reducing discrepancies in reporting. What will you do? Design, secure, scale back-end architectures Deep knowledge in Spring framework Industrialize the solution according to CI/CD best practices Participate in the validation phase with end-users Implement the data exposure solution (API...) What are we looking for? University degree, or equivalent by experience, in Information Technology and/or Computer Science, or other related fields. Appetence for multi-hat roles (Technical Business Analyst/Developer/Tech Lead) Experience in third party data, data governance/management is a plus Proficiency in JAVA spring programming language Advanced SQL (PostgreSQL) Mastery of good programming practices (CI/CD, micro service, unit testing, versioning, etc.) Experience with cloud environments (AWS, IBM, etc.) and containerization using Docker Agile Methodologies and tools (Jira, Confluence, ALM) Fluent in English French notions is a plus What can you expect from us? A permanent job contract for a long term project; Tech equipment + SIM \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/caixa-magica-software/jobs/devops-application-manager",
+    "id": "opp_618e87789a65",
+    "is_demo": false,
+    "match_score": 55.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:39:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.5,
+          "evidence": "Matched 3 profile skills: ci/cd, reporting, sql. Covers 29% of the 7 skills this listing names (missing: api, aws, docker, postgres)."
+        }
+      },
+      "final_score": 51.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 51.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "aws",
+      "docker",
+      "ci/cd",
+      "devops-engineer",
+      "application-manager",
+      "java-developer",
+      "backend-engineer",
+      "technical-lead",
+      "devops-manager",
+      "devops-management",
+      "devops-team-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DevOps Application Manager",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/caixa-magica-software/jobs/devops-application-manager",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_62275cf1a6d7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -46083,6 +46356,131 @@
       "probability_low": 3.0
     }
   },
+  "opp_6775c8563a79": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "documentation",
+    "client": "Xperteez Technology",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:36:09+00:00",
+    "description": "Role Title: Manufacturing Design Engineer Role Type: Contractor Location: Remote We are engaging Manufacturing Design Engineer experts to contribute to a customer\u2019s project focused on advanced mechanical design for manufacturing. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Participants will leverage proficiency in FreeCAD or similar parametric CAD platforms to design, document, and validate production-ready components and assemblies. This opportunity is ideal for professionals passionate about precision engineering, technical documentation, and advancing the future of intelligent design tools. Required Skills FreeCAD Parametric CAD modeling Mechanical Design 3D CAD Modeling Assembly Design Engineering Drawings CAD Validation & Quality Assurance Technical Documentation Design for Manufacturing Scope of Work Create and modify detailed parametric 3D CAD models of mechanical parts and assemblies using FreeCAD or comparable software. Develop comprehensive engineering drawings, including GD&T and tolerance stack-ups, suitable for manufacturing handoff. Design for a variety of manufacturing processes, such as sheet metal fabrication, CNC machining, plastics, and injection molding. Perform CAD validation and quality assurance reviews to ensure model accuracy and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.87,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.38,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.51,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/xperteez-technology/jobs/manufacturing-design-engineer-freecad-remote-contract",
+    "id": "opp_6775c8563a79",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T03:36:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 44.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "manufacturing-design-engineering",
+      "mechanical-design-engineer",
+      "cad-designer",
+      "mechanical-engineer",
+      "product-design-engineer",
+      "manufacturing-designer",
+      "design-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manufacturing Design Engineer (FreeCAD) | Remote - Contract",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/xperteez-technology/jobs/manufacturing-design-engineer-freecad-remote-contract",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_67b494357db0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -46363,6 +46761,140 @@
       ],
       "probability_high": 65.0,
       "probability_low": 47.0
+    }
+  },
+  "opp_67f86e0573c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Studio Science",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:37:11+00:00",
+    "description": "Studio Science is seeking a motivated, collaborative, and detail-oriented Salesforce Project Manager to support our enterprise Salesforce clients. In this role you'll provide project and account management support to assigned projects and be accountable for overall delivery, and scope, schedule, and budget management across multiple, parallel engagements. The ideal candidate should be an innovative and detail-oriented problem solver, committed to a growth mindset, with a strong background in complex or custom technology implementation, ready to utilize this experience to deliver extraordinary technology consulting services and cloud-based solutions that drive customer satisfaction and client retention. Responsibilities Project Management (approx. 75%) Develop, document, and maintain project management deliverables, including project plans; budget, scope and timeline status reports; and issue and risk tracking and mitigation logs Develop project strategies and plans in collaboration with project and delivery leaders, and identify the methods and tools required for the project Forecast project resources and communicate resourcing needs throughout the project lifecycle Monitor project budgets against plans and work with the client and project team to resolve variances in a timely manner Manage day-to-day project and team operations to ensure all project deliverables are met and drive toward successful project completion Identify, socialize and implement the most effective \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/studio-science/jobs/senior-salesforce-project-manager",
+    "id": "opp_67f86e0573c0",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T03:37:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 48.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "project-manager",
+      "salesforce-project-manager",
+      "it-project-manager",
+      "technical-project-manager",
+      "salesforce-project-lead",
+      "senior-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Salesforce Project Manager",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/studio-science/jobs/senior-salesforce-project-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_681675634249": {
@@ -49039,6 +49571,157 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_6bf23e513cab": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 140.38,
+    "budget_min": 106.73,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:32:58+00:00",
+    "description": "Job Title: Senior Director, Patient Reported Outcomes Job Location: Remote (US) Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: BeOne continues to grow at a rapid pace with challenging and exciting opportunities for experienced professionals. When considering candidates, we look for scientific and business professionals who are highly motivated, collaborative, and most importantly, share our passionate interest in fighting cancer. General Description: The Senior Director, Patient Reported Outcomes (PRO), is a senior scientific and strategic leader accountable for developing and executing integrated evidence-generation strategies that demonstrate the humanistic value of BeOne Medicines therapies. The role provides enterprise-level PRO leadership across one or more assets, indications, therapeutic areas, or regions and ensures that high-priority evidence needs are represented in integrated evidence plans, medical strategies, clinical development plans, and value and access strategies. The Senior Director influences portfolio and asset decisions, leads complex global humanistic programs, governs scientific quality and investment, and builds organizational capability through people leadership, matrix leadership, and external scientific engagement. Working across Clinical Development, Medical Affairs, Global Value, Access and Pricing, Biostatistics, Data Science, Patient-Reported Outcomes, Regulatory, Safety, Publications, Legal, Compliance, Privacy, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1067.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/senior-director-patient-reported-outcomes",
+    "id": "opp_6bf23e513cab",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:32:58+00:00",
+    "profit_score": 86.3,
+    "risk_flags": [],
+    "score": 67.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.9,
+          "evidence": "Estimated net $1,067 on $1,067 (100% margin). $225 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $356 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: excel, statistics. Covers 33% of the 6 skills this listing names (missing: api, aws, data science, rest)."
+        }
+      },
+      "final_score": 67.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "data science",
+      "statistics",
+      "senior-director",
+      "health-economics-director",
+      "health-outcomes-research-director",
+      "heor-director",
+      "evidence-generation-director",
+      "medical-outcomes-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Director, Patient Reported Outcomes",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/senior-director-patient-reported-outcomes",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_6bff5e750809": {
@@ -53450,6 +54133,138 @@
       ],
       "probability_high": 17.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_74927e32b125": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 62.5,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Jerry",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:35:38+00:00",
+    "description": "About us: Jerry .ai is a Series C, YC-backed tech startup with 5M+ customers and $240M in funding. Founded in 2017, product launched in 2019, and achieved profitability in 2024. Why we exist: Your car, home, and motorcycle aren't just purchases, they're the physical embodiment of the life you've worked hard to build. Yet the experience of owning them is stuck in the 90s. Every step of the journey \u2014 buying, insuring, maintaining, repairing, selling \u2014 is fragmented, complicated, and expensive. Imagine having a trusted friend in your pocket who takes care of everything: they find you the right car or home at the right price, lock in the best insurance rate without you lifting a finger, remind you before that service appointment turns into an expensive repair, and help you sell at the best price when the time is right. That friend is Jerry . We are building the first AI-powered advisor to manage all your physical assets. We started with your car in 2019, now we\u2019re expanding into new verticals (e.g. home, motorcycle, RV, boat). Why we\u2019re hiring: Our next chapter is about accelerating growth \u2013 from 5M to 50M customers by 2030. This year alone, we launched 5 new products \u2013 home insurance, property tax, motorcycle insurance, car repair shop bids, and roadside assistance. Each of these new businesses comes with its own operational complexity, distinct customer pain points, and its own path to scale. As our business expands, we have a growing list of ideas but not enough people to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 625.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jerry/jobs/product-manager-in-training-yc-cofounder-ceo-led",
+    "id": "opp_74927e32b125",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:35:39+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 45.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $625 on $625 (100% margin). $132 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $208 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "product-management-trainee",
+      "junior-product-manager",
+      "entry-level-product-manager",
+      "early-careers-product-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Product Manager-in-Training (YC cofounder/CEO-led)",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/jerry/jobs/product-manager-in-training-yc-cofounder-ceo-led",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_74d5b5464c5d": {
@@ -67313,6 +68128,140 @@
       ],
       "probability_high": 76.0,
       "probability_low": 56.0
+    }
+  },
+  "opp_92637f24c68b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "GIST Research",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:33:49+00:00",
+    "description": "Project Manager \u2013 International Governance, Peace & Stabilisation Programmes Location: UK, Remote with travel to the Middle East (around 10% of time on project sites) Contract: Part time or full time, permanent or freelance About GIST Research GIST is a global research, advisory, and programme delivery firm operating in complex and high-risk environments across Africa, the Middle East, and Asia. We work with governments, international organisations, and NGOs to design and deliver practical, high-impact solutions. Our teams combine strong analytical expertise with on the ground access in hard-to-reach areas, enabling us to respond effectively to local challenges. Our work spans conflict analysis, institutional strengthening, and innovative approaches to aid delivery in fragile settings. We prioritise long-term partnerships and local knowledge, working closely with trusted experts to deliver sustainable results. GIST is known for its independence, integrity, and ability to turn insight into action. About the Role We are looking for an experienced Project Manager with a background in international development, governance, or stabilisation programming to manage delivery of complex, donor-funded programmes across the Middle East (mainly Iraq, Jordan, Syria, Lebanon), including fragile and conflict-affected settings (FCAS). This is not a generalist PM role . You will bring hands-on experience managing donor-funded programmes , including financial oversight and technical reporting, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gist-research/jobs/project-manager-international-governance-peace-stabilisation-programmes",
+    "id": "opp_92637f24c68b",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:33:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: forecasting, reporting."
+        }
+      },
+      "final_score": 57.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "forecasting",
+      "project-manager",
+      "program-manager",
+      "international-development-manager",
+      "governance-manager",
+      "peacebuilding-manager",
+      "international-development-program-manager",
+      "political-project-manager",
+      "senior-programme-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager - International Governance, Peace & Stabilisation Programmes",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/gist-research/jobs/project-manager-international-governance-peace-stabilisation-programmes",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_932d284a99e8": {
@@ -99288,6 +100237,140 @@
       "probability_low": 25.0
     }
   },
+  "opp_d593092b46f9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 110.58,
+    "budget_min": 96.15,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Order.co",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:37:25+00:00",
+    "description": "Order.co is the System of Action for the Office of the CFO, transforming the way businesses purchase and pay into an intuitive, B2C-like shopping experience. Order.co leverages embedded AI agents and embedded financial products to reinvent the way businesses connect with their vendors. End users enjoy a seamless, zero-training buying experience, while finance and procurement leaders gain a single platform to orchestrate how the business \u201cshould operate\u201d. The result is an all-in-one solution that serves as a gravitational pull for spend and data, automating and eliminating procurement and finance workflows from requisition to reconciliation along the way. Order.co is on the cutting edge of B2B Agentic Commerce, poised to be the market leader in creating a more predictive, prescriptive, and personalized experience for users. Founded in 2016 and headquartered in New York City, Order.co oversees nearly half a billion in annualized spend across hundreds of customers like WeWork, SoulCycle, Lume, and [solidcore]. Order.co has raised $75M in funding from industry-leading investors like MIT, Stage 2 Capital, Rally Ventures, 645 Ventures, and more. Order.co has been proudly named a 50 to Watch by Spend Matters and a Best Place to Work by BuiltIn and Inc. Magazine. The Role As Director, Engineering Operations, you will build and run the operating system that helps Product and Engineering translate strategy into measurable business and customer impact. You will create clarity across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 692.28,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/order-co/jobs/director-engineering-operations",
+    "id": "opp_d593092b46f9",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-07T03:37:26+00:00",
+    "profit_score": 80.8,
+    "risk_flags": [],
+    "score": 71.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 14.9,
+          "evidence": "Estimated net $692 on $692 (100% margin). $240 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $481 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 71.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "engineering-operations-manager",
+      "technical-program-manager",
+      "engineering-operations-director",
+      "chief-of-staff",
+      "director-of-engineering",
+      "engineering-operations-vp",
+      "vp-of-engineering-operations"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Director, Engineering Operations",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/order-co/jobs/director-engineering-operations",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d63802f9e522": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -102627,6 +103710,142 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_deb7b8baebce": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "FunkyCorp",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-07T04:51:03+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-06T03:35:20+00:00",
+    "description": "Localization quality controllers (LQCs) support FunkyCorp project managers on localization projects. They ensure localized content reads naturally in their native language and meets our high standards. FunkyCorp is looking for dedicated individuals who are passionate about translation, detail-oriented, and motivated by a challenge. What you\u2019ll do: Assist in the creation of a terminology list and style guide that aligns with content strategy and clearly defines target-language-specific rules Manage the terminology list and style guide Review content that has been translated and proofread ensuring it is: Consistent with the terminology list and style guide Contextually accurate\u2014some words/sentences may need to be translated differently depending on the context. For example, \u201csubject\u201d can be translated differently in French depending on the context: \u201csujet\u201d, \u201cobjet\u201d, \u201cmati\u00e8re\u201d. Free from mistranslations, grammatical errors, spelling mistakes and unnatural sentence structure/phrasing. Evaluate and report to the project manager on translation quality, raising issues and providing feedback where necessary Answer target-language-specific questions from translators and proofreaders Participate irregular meetings with the project manager and other LQCs Screen proofread the demo version of the localized site before the official launch checking for incorrectly displayed text, corrupted characters, image issues and high-level contextual inaccuracies You have: 3+ years of professional \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261007T045101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/funkycorp/jobs/localization-quality-controller-korean-project-based-freelance-position",
+    "id": "opp_deb7b8baebce",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-07T03:35:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "localization-quality-controller",
+      "quality-assurance",
+      "translation",
+      "localization-specialist",
+      "quality-control-specialist",
+      "freelance-korean-language-quality-assurance-specialist",
+      "freelance-localization-qa",
+      "localization-qa-specialist",
+      "localization-qa-tester",
+      "localization-quality-analyst",
+      "localization-quality-assurance-tester"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Localization Quality Controller - Korean - Project-based Freelance Position",
+    "updated_at": "2026-10-07T04:51:03+00:00",
+    "url": "https://himalayas.app/companies/funkycorp/jobs/localization-quality-controller-korean-project-based-freelance-position",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_ded27a21c0cf": {
