@@ -2335,6 +2335,148 @@
       "probability_low": 4.0
     }
   },
+  "opp_045eae8b5c8e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:32:50+00:00",
+    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Vault CRM is an industry-leading product purpose-built for life sciences, with more than 80% market share, transforming how pharmaceutical, biotech, and medtech companies engage with healthcare professionals worldwide. This is an opportunity to build on a foundation of market leadership while driving the next wave of innovation in AI-powered customer engagement. Vault CRM delivers: A unified suite that integrates CRM with campaign management, contact centers, sales planning, events management, and more which enables customers to break down silos and enables smarter, more connected workflows. Next-generation AI \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 576.9,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/senior-product-manager-vault-crm-suite",
+    "id": "opp_045eae8b5c8e",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-08T12:32:51+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 60.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $577 on $577 (100% margin). $121 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $192 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 60.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "product-manager",
+      "technical-product-manager",
+      "product-management",
+      "crm-product-manager",
+      "senior-product-management",
+      "crm-product-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Product Manager - Vault CRM Suite",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/senior-product-manager-vault-crm-suite",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_04680f158cf5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18907,6 +19049,132 @@
       "probability_low": 49.0
     }
   },
+  "opp_2b3cf5e0769e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Abnormal",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-10-08T12:59:08+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote - USA About the Role Abnormal AI is looking for a Director of Renewals to own the strategy, performance, and operating model for our global renewals function. Reporting to the VP of Customer Success, you will lead the renewals organization and own revenue retention across Abnormal's multi-product behavioral security platform. You will build the renewals engine that makes retention and cross-product expansion predictable at scale, set the standard for how Abnormal renews and expands its customers, and turn customer obsession into measurable retention outcomes. What you will do Own Abnormal's renewals strategy and operating model end to end: define the renewal motion, the segmentation approach, the playbooks, and the systems that enable the function to scale ahead with company growth. Lead, mentor, and develop a high-performing team of Renewal Managers/Specialists, setting clear goals and KPIs for renewal bookings, gross renewal retention, Upsell, and forecast accuracy. Manage and improve the full renewal lifecycle: engage early, negotiate terms, secure commitments, and collaborate with cross-functional teams (Customer Success, Sales, Ops, Finance) to ensure contract execution. Drive a data-driven renewal process: monitor pipeline health, identify at-risk accounts, implement preservation strategies, and report on renewal metrics (retention rates, forecast variance, etc.). Partner with Customer Success and Sales to identify expansion opportunities during \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/abnormal-director-renewals",
+    "id": "opp_2b3cf5e0769e",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Thu, 08 Oct 2026 07:31:21 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: forecasting, reporting."
+        }
+      },
+      "final_score": 50.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "forecasting"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Abnormal: Director, Renewals",
+    "updated_at": "2026-10-08T12:59:08+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/abnormal-director-renewals",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_2b40ce557f03": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -19745,6 +20013,156 @@
     "title": "Social Media Specialist",
     "updated_at": "2026-09-18T15:59:51+00:00",
     "url": "https://himalayas.app/companies/creative-chaos/jobs/social-media-specialist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_2ce3e19c4f87": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "goFLUENT",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:30:49+00:00",
+    "description": "About goFLUENT For over 20 years, goFLUENT has helped organizations worldwide develop language and communication skills through innovative learning solutions that combine technology, engaging content, and live instruction. Today, more than 1,000 international companies across 100+ countries trust goFLUENT to help their employees communicate confidently, collaborate globally, and succeed in an increasingly connected workplace. Join our global team as a Conversation Class Trainer (English) and help business professionals from diverse industries build the communication skills they need to thrive in their careers. Empower Global Professionals Through Language Deliver engaging online lessons to professionals from leading companies around the world. Every day brings a new opportunity; you could be teaching executives, managers, engineers, doctors, lawyers, scientists, or other industry experts who rely on strong communication skills to succeed in today's global workplace. What You'll Do Deliver live online Language group lessons to business professionals Facilitate engaging lessons using our established and proven teaching methodology Create an interactive and supportive virtual learning environment that encourages learner participation What We're Looking For Bachelor's degree or equivalent Experience in language teaching or corporate training is preferred Excellent spoken and written proficiency in English Comfortable teaching through video conferencing platforms Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gofluent/jobs/conversation-class-trainer-english-5229760559",
+    "id": "opp_2ce3e19c4f87",
+    "is_demo": false,
+    "match_score": 35.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-08T12:30:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 28.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.6,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 28.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"gofluent has helped organizations worldwide develop language\"; \"communication skills through innovative learning solutions that combin\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 40.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "language-trainer",
+      "english-trainer",
+      "online-language-instructor",
+      "language-teacher",
+      "english-conversation-teacher",
+      "conversational-english-instructor",
+      "profesor-de-conversaci\u00f3n",
+      "conversational-english",
+      "english-proficiency-trainer",
+      "online-english-trainer",
+      "education"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Conversation Class Trainer (English)",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/gofluent/jobs/conversation-class-trainer-english-5229760559",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -21185,6 +21603,152 @@
       ],
       "probability_high": 21.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_2f731e20ed43": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 93.7,
+    "budget_min": 37.45,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:31:14+00:00",
+    "description": "Job Title: Attorney 1, Securities Job Location: Durham, North Carolina, United States of America Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Title: Attorney 1 Overview: IQVIA is seeking a mid-level attorney to join our corporate in-house team. The Attorney 1 will report directly to the Assistant General Counsel, Securities and work closely with our Finance, Treasury, Investor Relations, and Sustainability teams to prepare SEC filings and provide counsel on issues related to SEC compliance, governance matters, capital markets transactions, joint ventures, sustainability reporting requirements, legal entity management and general corporate law. The ideal candidate will be intellectually curious, proactive, and eager to assume increasing responsibility in a collaborative and fast-paced environment. This is a high visibility role with exposure to senior management and strong growth opportunities. Key Responsibilities: Assist with public company securities law compliance and preparation of SEC filings, including 10-Ks, 10-Qs, Proxy Statements, 8-Ks, and \u201833 Act registration statements. Assist with preparing materials for board and committee meetings, including drafting resolutions, consents, certificates and minutes. Assist with the annual meeting of stockholders. Assist with various corporate governance initiatives relating to the company\u2019s board of directors, including director and officer questionnaires, maintenance of corporate records, as well \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 280.88,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/attorney-1-securities-2507634028",
+    "id": "opp_2f731e20ed43",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-08T12:31:15+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 59.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $281 on $281 (100% margin). $60 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $75 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: excel, reporting. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 59.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "securities-attorney",
+      "corporate-lawyer",
+      "in-house-counsel",
+      "securities-compliance",
+      "corporate-governance-attorney",
+      "securities-lawyer",
+      "securities-counsel",
+      "securities-law-counsel",
+      "corporate-and-securities-counsel",
+      "securities-law",
+      "legal"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Attorney 1, Securities",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/attorney-1-securities-2507634028",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_2f81d1d08445": {
@@ -44559,6 +45123,148 @@
       "probability_low": 55.0
     }
   },
+  "opp_5fc8cd8e7b48": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 131.47,
+    "budget_min": 73.56,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Autodesk",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:32:29+00:00",
+    "description": "Job Requisition ID # 26WD100769 The Director of Worldwide Marketing Data Strategy & Analytics , you will lead the strategy, measurement frameworks, data foundations, and analytical capabilities that enable Autodesk to understand and optimize Enterprise marketing\u2019s impact on customer and business outcomes. You will lead a global team of data strategists and analysts responsible for transforming complex data into actionable insights, predictive intelligence, and decision-support capabilities across the enterprise marketing funnel and broader go-to-market ecosystem. This role reports to the Senior Director of Worldwide Marketing Business Insights & Analytics and plays a critical role in advancing Autodesk \u2019s journey toward audience-centric customer experiences and data-driven commercial decision-making. You will partner closely with Marketing and Go-to-Market leadership and across analytics and technology domains, including Sales, Data Science, Data Engineering, and Marketing Technology. Key Responsibilities Lead Marketing Data & Analytics Strategy: Own the end-to-end strategy, execution, and adoption of marketing analytics, measurement frameworks, and intelligence capabilities, partnering with Marketing leadership to translate business priorities into scalable analytical solutions for Enterprise Marketing. Lead a Global Analytics Team: Recruit, develop, and lead a high-performing global team of data strategists and analysts, providing strategic direction, hands-on guidance, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 551.7,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/autodesk/jobs/director-of-worldwide-marketing-data-strategy-and-analytics",
+    "id": "opp_5fc8cd8e7b48",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-08T12:32:30+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 60.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $552 on $552 (100% margin). $118 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $147 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: statistics. Covers 33% of the 3 skills this listing names (missing: analytics, data science)."
+        }
+      },
+      "final_score": 60.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data science",
+      "statistics",
+      "analytics",
+      "marketing-analytics-director",
+      "data-strategy-director",
+      "analytics-director",
+      "marketing-data-director",
+      "analytics-strategy-director",
+      "director-of-data-analytics",
+      "director-of-data-and-analytics"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director of Worldwide Marketing Data Strategy and Analytics",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/autodesk/jobs/director-of-worldwide-marketing-data-strategy-and-analytics",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_606d308ea2f3": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -55442,6 +56148,139 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_72ca1ef794b9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "DHD Consulting",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:32:59+00:00",
+    "description": "Job Summary: We seek an experienced Senior Associate / Manager to provide exceptional tax advisory and compliance services. This position focuses on U.S. individual and corporate tax consulting, cross-border tax planning, tax-efficient strategies using financial products, and advanced estate planning through trusts. It also involves practice management and collaboration with multidisciplinary professionals. Key Responsibilities: Prepare and review U.S. individual and corporate tax returns. Provide tax consulting for clients, including U.S. residents, businesses, and cross-border clients entering or operating in the U.S. Develop tax-efficient strategies leveraging real estate, insurance, and financial products. Design advanced tax and estate planning solutions using Domestic and Offshore Trusts. Collaborate with attorneys, financial planners, and real estate agents for integrated client solutions. Guide clients on asset relocation and immigration through tax-efficient strategies. Qualifications: Bachelors degree in Accounting, Finance, or related field; CPA required. 5+ years of U.S. tax compliance and cross-border advisory experience. Bilingual fluency in Korean and English. Open to learning and applying knowledge in related legal and financial fields. Strong attention to detail, problem-solving, and communication skills. Originally posted on Himalayas",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dhd-consulting/jobs/senior-associate-manager",
+    "id": "opp_72ca1ef794b9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-08T12:33:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "tax-manager",
+      "tax-advisor",
+      "tax-consultant",
+      "senior-tax-associate",
+      "tax-professional",
+      "senior-associate",
+      "senior-associate-(legal)",
+      "associate-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Associate / Manager",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/dhd-consulting/jobs/senior-associate-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_72cec6c0a76c": {
@@ -71213,6 +72052,154 @@
       "probability_low": 26.0
     }
   },
+  "opp_954ffa73f974": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 91.35,
+    "budget_min": 60.1,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Bluprintx",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:34:31+00:00",
+    "description": "Strategic Advisor, Change Management Advisory | United States (Remote) | Full-Time | NAM Who We Are: Front Office Transformation Experts Bluprintx (BPX) is a global, AI-powered consultancy built to design and deliver the intelligent front office for CMO and CRO executives. We are private equity-backed and scaling fast, with 300 active customers across 10 countries and more than 1,750 implementations. We connect people, technology, and AI to turn fragmentation into performance, partnering with global leaders to modernize how marketing, CRM, content, AI & Data connect. At BPX, we hire operators and specialists who thrive at the intersection of commercial strategy and technical execution. What We Do: Cutting Complexity Across the Front Office We help the world's most ambitious companies, including Uber Eats, BNY, and Xerox, untangle the operational complexity that slows enterprise growth. As a Gold Adobe Solution Partner and Salesforce Summit Partner, we deliver strategy and implementation across the full front office. Our proprietary methodology builds sustainable enabled ecosystems that maximize ROI and accelerate speed to market. By embedding AI into commercial workflows, we help clients move faster and stay ahead. The Role You'll be the senior advisor our clients turn to when a transformation has to land with people, not just in platforms. The seat has two halves. First, you'll set change management strategy at enterprise level, working directly with C-suite and senior \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 432.72,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bluprintx/jobs/strategic-advisor-change-management",
+    "id": "opp_954ffa73f974",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-08T12:34:32+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 76.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $150 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: automation, dashboard, excel. Covers 75% of the 4 skills this listing names (missing: api)."
+        }
+      },
+      "final_score": 76.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 76.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "automation",
+      "dashboard",
+      "change-management-consultant",
+      "change-management-strategist",
+      "strategic-advisor",
+      "organizational-change-consultant",
+      "digital-transformation-consultant",
+      "change-management-advisor",
+      "senior-change-management-consultant",
+      "strategic-advisory-specialist",
+      "lead-change-management-consultant",
+      "strategic-consultant",
+      "change-strategist",
+      "senior-change-management-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Strategic Advisor, Change Management",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/bluprintx/jobs/strategic-advisor-change-management",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_95d63f071a53": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -77282,6 +78269,132 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_9fae2c063048": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "GFN",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:31:33+00:00",
+    "description": "Die GFN GmbH begleitet als Bildungsanbieter mit IT-Spezialisierung deutschlandweit Menschen bei ihrer Weiterbildung und beruflichen Neuorientierung. F\u00fcr Kurse im Bereich K\u00fcnstliche Intelligenz, u.a. in den Bereichen KI-Data-Analyst (m/w/x), KI-Engineering - KI in der Softwareentwicklung , KI im Projektmanagement, suchen wir bundesweit Trainer/Dozenten (m/w/x) auf freiberuflicher Basis. Aufgaben Wissensvermittlung u. a. zu den folgenden Themen: Grundlagen des KI-Engineerings KI-Agenten, Werkzeuge und Kontrolle Frameworks und Multi-Agent-Systeme Testen, Sicherheit und Qualit\u00e4t Oberfl\u00e4che, Daten und Betrieb KI-gest\u00fctzte Softwareentwicklung Verantwortungsvolle KI und Architektur, Datenschutz Schutz personenbezogener Daten Praxisprojekt Qualifikation Unterrichtserfahrung in der Erwachsenenbildung , idealerweise im gef\u00f6rderten Bildungsbereich Nachgewiesene p\u00e4dagogisch-didaktische Eignung durch die Ausbildereignungspr\u00fcfung der IHK (AEVO) oder die Bereitschaft, einen solchen Nachweis noch zu erbringen. Einschl\u00e4gige Praxiserfahrung im KI-Engineering und mit den genannten Programmierungsprachen Weiterbildungsnachweise/Zertifizierung in Programmierung Weiterbildungsnachweise/Zertifizierung im Bereich K\u00fcnstliche Intelligenz Keine Scheu vor heterogenen Gruppen Die Bereitschaft, sich kontinuierlich weiterzubilden Benefits Neben einer sinnstiftenden T\u00e4tigkeit im gef\u00f6rderten Bildungsbereich kannst Du unter anderem von folgenden Vorteilen profitieren: Fr\u00fchzeitige Auftragsplanung und die \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gfn/jobs/dozenten-trainer-m-w-x-fur-weiterbildungen-zum-zur-ai-engineer-m-w-x",
+    "id": "opp_9fae2c063048",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-08T12:31:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "dozent",
+      "trainer",
+      "erwachsenenbildung",
+      "it-trainer",
+      "bildungsreferent",
+      "ai-trainer-jobs",
+      "ai-training-jobs",
+      "ai-training-and-development-jobs"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Dozenten/Trainer (m/w/x) f\u00fcr Weiterbildungen zum/zur AI Engineer (m/w/x)",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/gfn/jobs/dozenten-trainer-m-w-x-fur-weiterbildungen-zum-zur-ai-engineer-m-w-x",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_9fb09936691c": {
@@ -87755,6 +88868,148 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_b564d5faf0b8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "CloudPSO Inc",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:30:41+00:00",
+    "description": "This is a remote position. Location: United States Employment type: Full-time Working hours: 40 hours per week, Monday\u2013Friday, aligned with Eastern Time About the role: CloudPSO is seeking a Senior Full-Stack Engineer to develop and support an existing operational platform for alternative investment managers. You will work alongside a Technical Lead to build features, improve reliability and support customer deployments. The platform includes configurable interfaces, data ingestion, normalization, scheduling, calculations and reporting. Each customer has an isolated application and PostgreSQL database. We are looking for an engineer who can independently investigate problems, deliver maintainable code and understand how changes affect customer data and operations. Responsibilities Develop and maintain frontend features, backend services and APIs. Build and improve data-ingestion workflows involving APIs, SFTP, object storage and uploaded files. Implement data validation, normalization and useful error reporting. Maintain scheduled jobs with attention to retries, duplicate processing, time zones and business calendars. Write and optimize SQL and implement reviewed database migrations. Preserve versioned records, historical snapshots and audit trails. Implement server-side access controls and secure data handling. Create unit and integration tests for business-critical workflows. Investigate application and production issues, documenting causes and fixes. Participate in code \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cloudpso-inc/jobs/senior-full-stack-engineer",
+    "id": "opp_b564d5faf0b8",
+    "is_demo": false,
+    "match_score": 64.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-08T12:30:42+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.8,
+          "evidence": "Matched 4 profile skills: ci/cd, reporting, scheduled jobs, sql. Covers 33% of the 6 skills this listing names (missing: api, aws, postgres, postgresql)."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "aws",
+      "ci/cd",
+      "full-stack-engineer",
+      "full-stack-developer",
+      "software-engineer",
+      "backend-engineer",
+      "front-end-developer",
+      "senior-full-stack-engineering",
+      "senior-fullstack-developer",
+      "senior-full-stack-development",
+      "\u00bfsenior-fullstack-engineering",
+      "senior-full-stack-engineer-(react-node.js)",
+      "senior-frontend-full-stack-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Full-Stack Engineer",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/cloudpso-inc/jobs/senior-full-stack-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_b5afad49431c": {
@@ -116724,6 +117979,152 @@
       "probability_low": 26.0
     }
   },
+  "opp_f02c92b65651": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:30:42+00:00",
+    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Professional Services is provided to our R&D customers for implementing Veeva applications on Veeva\u2019s development cloud platform. We aim to be our customers' trusted partners and ensure they leverage the additional value Veeva applications offer. Our Professional Services Team comprises of more than 1300+ consultants & senior consultants across the globe. Due to the rapid growth of our client portfolio, we are growing our team every year and opening many career opportunities for our new and existing employees. We hire people from industry, tech, and consulting, which adds diversity to our team. Veeva is looking \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/senior-consultant-veeva-safety-project-management",
+    "id": "opp_f02c92b65651",
+    "is_demo": false,
+    "match_score": 56.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-08T12:30:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.7,
+          "evidence": "Matched 2 profile skills: csv, excel. Covers 40% of the 5 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 52.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "csv",
+      "api",
+      "rest",
+      "aws",
+      "senior-consultant",
+      "safety-consultant",
+      "pharmacovigilance-consulting",
+      "project-manager",
+      "professional-services-consultant",
+      "senior-pharmacovigilance-project-manager",
+      "veeva-consultant",
+      "senior-pharmacovigilance-systems-manager",
+      "senior-life-sciences-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Consultant - Veeva Safety Project Management",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/senior-consultant-veeva-safety-project-management",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_f075922d1892": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -117543,6 +118944,141 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_f3137f5c8fc4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Veeva Systems",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-08T12:59:07+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-07T12:32:59+00:00",
+    "description": "Veeva is building the industry cloud for Life Sciences through software, data, AI, and business consulting working together. Learn more about our products, vision, values, and status as a Public Benefit Corporation (PBC) on our website. Consulting is changing, and we\u2019re not like other firms. Launched in 2019, Veeva Business Consulting has grown quickly and organically to over 500 global experts who combine deep domain knowledge with innovative technology to help Life Sciences companies work in a more efficient and connected way. We are growing aggressively as we look towards 2030. We are seeking great people to help shape the future of the industry with the world\u2019s leading software, data, AI, and expertise at their back. The Role As a Principal Consultant in our R&D Business Consulting practice , you will help customers bring treatments to patients faster by transforming how they work with Technology, Data, and AI. You will focus on reshaping operating models, driving organizational change, and measuring tangible business value. R&D Business Consulting supports biopharma, medtech, animal and consumer health customers with solving business problems across the R&D value chain but also specifically within Clinical, Pharmacovigilance, and Regulatory domains. You will be part of a global team delivering meaningful and high-impact projects with a variety of organisations from Top 20 Pharma to small/mid-sized organisations. What You'll Do Project Mastery: Act as the Lead for Veeva \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261008T125905Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/principal-business-consultant-r-d-clinical",
+    "id": "opp_f3137f5c8fc4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-08T12:32:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "business-consultant",
+      "management-consultant",
+      "life-sciences-consultant",
+      "r&d-consultant",
+      "principal-consultant",
+      "senior-r&d-business-consultant",
+      "senior-life-sciences-consultant",
+      "senior-research-and-development-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Business Consultant - R&D - Clinical",
+    "updated_at": "2026-10-08T12:59:07+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/principal-business-consultant-r-d-clinical",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
