@@ -5430,6 +5430,160 @@
       "probability_low": 4.0
     }
   },
+  "opp_0b1e9b4d5414": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TheHiveCareers",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T20:59:42+00:00",
+    "description": "Job Title: Information Security Risk Manager (Risk Advisor) Job Type: Full-Time/Contract - 2 years (renewable) Location: Trinidad and Tobago/Fully Remote Role Summary: Provide Information Security & Technology Risk Management consulting services to Project teams based on Risk Management processes and procedures. Participate in Project meetings, Security Reviews, Walkthroughs, and Risk Assessments. Key Responsibilities: Review and interpret requirements documentation, architecture diagrams and solution designs to help determine the feasibility of a project and its security risk. Assess business needs against potential risks and provide your recommendations to enhance our information security landscape Assess applications, infrastructure, business units, business processes and external suppliers for information security risks, identifying the potential threats and exposures Examine and interpret requirements documents, architecture diagrams, solution designs and other written and verbal information to determine if a project, application, infrastructure or external supplier presents security risk to premium bank. Work with third party teams and internal development groups to interpret and review results from penetration tests on internet-facing applications as needed. Work with the required teams to ensure that code scans are completed for all new or modified code deployments Track to completion, issues raised during the risk management reviews (TRA / ISA / PEN test / CIRA, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/thehivecareers/jobs/information-security-risk-manager",
+    "id": "opp_0b1e9b4d5414",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T20:59:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 15.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 15.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 27.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "information-security-risk-manager",
+      "risk-manager",
+      "security-risk-analyst",
+      "it-risk-manager",
+      "information-security-consultant",
+      "it-security-risk-manager",
+      "cybersecurity-risk-manager",
+      "information-security-and-risk-management",
+      "information-security-grc-manager"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Information Security Risk Manager",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/thehivecareers/jobs/information-security-risk-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0b6285274c4d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -27837,6 +27991,152 @@
       "probability_low": 55.0
     }
   },
+  "opp_3b23555c011c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30.88,
+    "budget_min": 30.88,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Mary's Meals International",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "GBP",
+    "deadline": "2026-12-08T20:58:09+00:00",
+    "description": "Salary: (UK) \u00a364,226 plus benefits (Our pay philosophy ensures consistency across locations and salaries. The starting salary for this opportunity plus benefits depends on location of the candidate). The role: We are recruiting for a values-driven leader to join Mary's Meals International (MMI) as Director of Programme Management. Reporting to our Chief Programmes Officer, you will lead the management, performance and governance of Mary's Meals programmes globally, ensuring effective delivery, strong stewardship and alignment with organisational priorities across our growing movement. Working closely with Country Directors in our Programme Affiliates, our partner organisations and colleagues across MMI, you will provide leadership across programme performance, planning, budgets, risk management, grants and organisational effectiveness. Acting as a key link between Programmes and other functions, you will ensure programmes are well coordinated, well governed and positioned to deliver sustainable impact at scale. As a key member of the Programmes leadership team, you will help shape organisational strategy, drive programme performance and lead major programme initiatives that support Mary's Meals' future growth and impact. You will: Lead the performance, governance and stewardship of Mary's Meals programmes globally, ensuring delivery aligns with organisational priorities and quality standards. Provide leadership, support and direction to the Programme Management team, Country \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 231.6,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mary-s-meals-international/jobs/director-of-programme-management-remote",
+    "id": "opp_3b23555c011c",
+    "is_demo": false,
+    "match_score": 76.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T20:58:09+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 62.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $232 on $232 (100% margin). $49 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $62 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.1,
+          "evidence": "Matched 2 profile skills: excel, reporting. Domain overlap: grants."
+        }
+      },
+      "final_score": 62.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "programme-director",
+      "director-of-program-management",
+      "international-development-director",
+      "development-director",
+      "program-management-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director of Programme Management - Remote",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/mary-s-meals-international/jobs/director-of-programme-management-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "20%",
+          "to": "28%",
+          "why": "Mentions 'grants', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "28%",
+          "to": "34%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "34%",
+          "to": "24%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
+    }
+  },
   "opp_3b29e4d981c0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -35646,6 +35946,137 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_4a177bcf6aed": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AFCA",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T20:59:07+00:00",
+    "description": "Flexible, meaningful work. Expert impact when it matters most. After a distinguished legal career, you may be looking for a role that allows you to continue applying your expertise in a meaningful way, while creating space for other professional interests, board appointments, consulting work, family commitments, or simply a greater sense of balance. At AFCA , we are seeking Sessional Ombudsmen, Banking & Finance to join our highly regarded decision-making team on a per-engagement basis . This unique appointment offers the opportunity to remain intellectually challenged and professionally engaged, while contributing to outcomes that have a genuine impact on consumers, small businesses and the financial services sector. Use your expertise where it matters most As a Sessional Ombudsman, you will be called upon to assist with complex and significant disputes within banking and finance. Drawing on AFCA 's extensive specialist resources, research capability and dispute resolution framework, you will work collaboratively with experienced Ombudsmen, lawyers and industry experts to deliver independent, fair and balanced decisions. This is an opportunity to focus on what you do best: applying sound judgement, analysing complex legal issues and helping resolve matters of significance. This is a Board appointed, 3 year term role and can be performed fully remotely. Who we're looking for We're seeking accomplished senior lawyers, former Partners, barristers, executive legal leaders and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/afca/jobs/sessional-ombudsman-banking-and-finance-236802446",
+    "id": "opp_4a177bcf6aed",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T20:59:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "legal",
+      "financial-services",
+      "ombudsman",
+      "dispute-resolution",
+      "banking-and-finance"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sessional Ombudsman, Banking and Finance",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/afca/jobs/sessional-ombudsman-banking-and-finance-236802446",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4a27d4eb1020": {
@@ -53038,6 +53469,153 @@
       ],
       "probability_high": 93.0,
       "probability_low": 69.0
+    }
+  },
+  "opp_6aa90bc5f683": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 91.35,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T20:57:40+00:00",
+    "description": "Cloud Solutions Architect \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Cloud Solutions Architect Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $100,000\u2013$190,000 Annually Experience Required: 12+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary: We are seeking a Cloud Solutions Architect to design and govern cloud-native solutions across compute, networking, data, identity, and security domains on a major cloud platform. The role partners closely with business stakeholders, security architects, and engineering teams to translate strategic objectives into pragmatic, scalable, and cost-effective cloud architectures aligned with enterprise standards. The ideal candidate brings strong breadth across modern cloud capabilities, depth in at least one major provider, and the architectural judgment to balance time-to-market, cost, security, and long-term maintainability. Key Responsibilities Design end-to-end cloud solutions covering compute, networking, storage, identity, data, and observability layers. Lead solution architecture \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 360.6,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-solutions-architect-1053581858",
+    "id": "opp_6aa90bc5f683",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T20:57:40+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $361 on $361 (100% margin). $77 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $96 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: aws, azure, gcp)."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "gcp",
+      "azure",
+      "cloud-solutions-architect",
+      "solutions-architect",
+      "cloud-architect",
+      "enterprise-architect",
+      "technical-architect",
+      "cloud-solution-architect",
+      "cloud-infrastructure-solutions-architect",
+      "senior-cloud-solutions-architect",
+      "aws-cloud-solutions-architect",
+      "azure-cloud-solutions-architect",
+      "cloud-systems-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cloud Solutions Architect",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-solutions-architect-1053581858",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_6ac6b9e2b3b5": {
@@ -84455,6 +85033,135 @@
       "probability_low": 1.0
     }
   },
+  "opp_a685e8f50c6d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EWOR GmbH",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T21:04:05+00:00",
+    "description": "We are looking to hire ambitious entrepreneurs to start and scale their own startups. We are serial entrepreneurs, for example Paul M\u00fcller (founder Adjust, \u20ac1.2B exit) and Petter Made (founder SumUp, \u20ac8B) who are eager to support outlier personalities and serial entrepreneurs to build \u20ac1B+ companies. Our offer: A salary while you build your startup as you will directly be employed by us. Alternatively, you can opt for up to \u20ac500k in funding. 1:1 sparring with unicorn founders on a weekly basis Community : Access to the top 0.1% of founders, peers and investors Team building : Hiring top notch talent supported through our network (over 50,000 professionals) Distribution : Support in reaching product-market-fit and building up a sales force / marketing machine Funding support for securing a multi-million euro funding round within 12 months (on average, EWOR Fellows raise > \u20ac2M after our Grand Pitch) One of our fellows set a record for Europe\u2019s largest pre-seed round by a first-time founder, securing a \u20ac12M pre-seed investment. Tasks You will own, build, and run your startup in fields such as B2B You will embark on an extensive personal development journey crafted by unicorn founders and follow a fully customised programme enhancing your goal, time, and energy management You will receive support in hiring through our network to over 50,000 professionals and advice as well as best practices from serial entrepreneurs You will receive intensive coaching to make your startup ready \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ewor-gmbh/jobs/b2b-co-founder-cpto-100-remote-m-f-d-3584573631",
+    "id": "opp_a685e8f50c6d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T21:04:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "chief-technology-officer",
+      "chief-product-officer",
+      "co-founder",
+      "startup-founder",
+      "product-manager",
+      "remote-founder-and-head-of-product",
+      "co-founder-and-cto",
+      "remote-chief-product-officer",
+      "co-founder-and-cpo",
+      "remote-co-founder"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "B2B Co-Founder / CPTO (100 % remote) (m/f/d)",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/ewor-gmbh/jobs/b2b-co-founder-cpto-100-remote-m-f-d-3584573631",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a6eaa32e320a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -92073,6 +92780,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_b6d5c7d2a19d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Tidal Financial Group",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T21:00:28+00:00",
+    "description": "The Tidal Financial Group is a leading ETF investment technology platform dedicated to creating, operating, and growing ETFs. We combine expertise and innovative partnership approaches to offer comprehensive, value-generating ETF solutions. Our platform offers best-in-class strategic guidance, product planning, trust and fund services, legal support, operations support, marketing and research, and sales and distribution services. About the role As a Tax Management Associate, you will be an integral team member with the focus of helping support the day-to-day tax related operations and reporting of exchange-traded funds. Within this role and throughout Tidal Financial Group , we stress partnering with our clients in all aspects of servicing to ensure success in the ETFs they bring to market as well as their overall business success. We take pride in doing the right thing each and every day for our clients, partners and each Tidal team member. Our fund administration leadership team, which the tax management group is a part of, is committed to a team atmosphere that stresses fun, enjoyment, teaching and development to help continued succession as a professional and leader. What you'll do Assisting the VP of Tax Management in overseeing of overall Tax Administration Services and being integral in the growth of the firm\u2019s tax services and value-added offerings. Partnering with Fund Administration leadership and the VP of Tax Management in the continued build-out of tax \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tidal-financial-group/jobs/tax-management-associate",
+    "id": "opp_b6d5c7d2a19d",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T21:00:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: excel, reporting. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "tax-associate",
+      "tax-analyst",
+      "fund-tax-specialist",
+      "etf-specialist",
+      "fund-administration",
+      "associate-accountant-tax",
+      "associate-tax-analyst",
+      "tax-senior-associate",
+      "u.s.-tax-associate",
+      "personal-financial-services-tax-associate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Tax Management Associate",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/tidal-financial-group/jobs/tax-management-associate",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_b6e18dabeaea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -93051,6 +93889,145 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_b7d311aba7ff": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.2,
+    "budget_min": 1.2,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Svetness Personal Training",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T21:01:21+00:00",
+    "description": "About Svetness Svetness is a nationwide in-home personal training company helping clients achieve their fitness, health, and wellness goals by matching them with certified personal trainers in their local area. We are growing and looking for a fast, organized, and proactive Personal Trainer Recruiting Specialist / Talent Sourcer to help us source, screen, and schedule qualified personal trainers across the United States. About the Role This is a high-volume recruiting and sourcing role focused on building a strong pipeline of personal trainer candidates. The main responsibility is to source personal trainers through platforms such as Indeed, LinkedIn, Greenhouse, and other recruiting channels, conduct initial phone screens, and schedule qualified candidates for interviews with our onboarding team. Our clients are actively waiting to be matched with trainers, so speed, organization, communication, and follow-up are critical. The right candidate must be comfortable working in a fast-paced environment and moving candidates quickly through the pipeline. Responsibilities Source personal trainer candidates through Indeed, LinkedIn, Greenhouse, and other recruiting platforms. Review candidate profiles, resumes, certifications, experience, location, and availability. Conduct initial phone screens with trainer candidates. Confirm candidate interest, certifications, location coverage, availability, and overall fit. Schedule qualified candidates for interviews with the onboarding team. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 9.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/svetness-personal-training/jobs/personal-trainer-recruiting-specialist-talent-sourcer",
+    "id": "opp_b7d311aba7ff",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T21:01:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $9 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "trainer-recruitment",
+      "talent-sourcing",
+      "recruitment",
+      "fitness-industry",
+      "staffing",
+      "personal-trainer-recruitment",
+      "talent-sourcing-specialist",
+      "talent-acquisition-sourcer",
+      "talent-recruiter",
+      "recruiting-sourcer",
+      "talent-acquisition-specialist",
+      "human-resources-recruiter",
+      "talent-sourcer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Personal Trainer Recruiting Specialist / Talent Sourcer",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/svetness-personal-training/jobs/personal-trainer-recruiting-specialist-talent-sourcer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_b837811cfa10": {
@@ -116778,6 +117755,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_e907f150cbba": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 33,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "MRO Corp",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T21:01:41+00:00",
+    "description": "Overview As the healthcare industry shifts to value-based care, quality data abstraction has become critical in identifying positive, patient outcomes. In fact, medical record abstraction is the preferred data collection method for clinical research, quality improvement, performance measurement, disease surveillance, and other secondary data uses. Our Senior Clinical Data Specialists use Q-Centrix proprietary technology to contribute to healthcare\u2019s most exciting advancements. Job Summary: The Infection Prevention Senior Clinical Data Specialist delivers quality solutions to hospital partners across the country. They approach each hospital engagement as an opportunity to apply their clinical expertise with precision to advance patient outcomes and research. Join our team of Senior Clinical Data Specialists! Responsibilities Main Duties/Responsibilities: Our SCDS are staffed with multiple hospital partners to... Apply specialized, clinical knowledge to hospital partners: categorize, code, summarize, interpret and calculate registry/case information from nuanced, patient medical records. Ensure quality submission of all data in specified registries or measure data repositories, maintaining a high accuracy threshold. Prioritize, organize, and meet tight deadlines for multiple concurrent tasks and team requests; uses tact and judgement to manage expectations, flag obstacles and propose solutions in a timely manner. Navigate new technical systems: electronic medical records (EMR) \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mro-corp/jobs/senior-clinical-data-specialist-infection-prevention-part-time",
+    "id": "opp_e907f150cbba",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T21:01:42+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 57.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "clinical-data-specialist",
+      "infection-prevention-specialist",
+      "clinical-data-analyst",
+      "healthcare-data-specialist",
+      "infection-control-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Clinical Data Specialist Infection Prevention - Part-Time",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/mro-corp/jobs/senior-clinical-data-specialist-infection-prevention-part-time",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_e92c93171511": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -117614,6 +118729,146 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_eb2b03583feb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 57.93,
+    "budget_min": 29.33,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "AbbVie",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-09T22:23:11+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T21:00:57+00:00",
+    "description": "Purpose : Advance AbbVie 's pipeline by striving for excellence in clinical research, turning science into medicine for our patients and leveraging new advanced capabilities to drive industry leading performance. Partners with the investigator and site staff for meaningful and effective engagements positioning AbbVie as the choice in clinical trials. Focus on site clinical research that ensures appropriate conduct of the trial while driving improvement in data integrity, compliance, overall study performance and customer experience. Responsibilities : Considered as the primary point of contact for the investigative site. High level of competency or experience in providing contextual information on the clinical trials, connects stakeholder to the investigative sites and strengthens AbbVie \u2019s positioning. Aligns, trains and motivates the site staff and principal investigator on the goals of the clinical trial program, protocol and patient treatment principles for the trial ensuring a trusted partnership. Conducts site evaluation, site training, routine, and site closure monitoring activities with compliance to the protocol and monitoring plans, in accordance with applicable regulations, Good Clinical Practices (GCPs), ICH Guidelines, AbbVie Standard Operating Procedures (SOPs), and quality standards, ensuring safety and protection of study subjects. Advanced understanding of site engagement and ability to customize site engagement strategy for assigned study (ies). Gather \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T222309Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 140.78,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/abbvie/jobs/clinical-research-associate-ii-5440439141",
+    "id": "opp_eb2b03583feb",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T21:00:58+00:00",
+    "profit_score": 42.3,
+    "risk_flags": [],
+    "score": 64.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.8,
+          "evidence": "Estimated net $141 on $141 (100% margin). $67 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $117 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 64.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "gcp",
+      "clinical-research-associate",
+      "cra",
+      "clinical-monitor",
+      "clinical-research-professional",
+      "clinical-trial-associate",
+      "clinical-research-associate-ii"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Research Associate II",
+    "updated_at": "2026-10-09T22:23:11+00:00",
+    "url": "https://himalayas.app/companies/abbvie/jobs/clinical-research-associate-ii-5440439141",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_eb5687e712d1": {
