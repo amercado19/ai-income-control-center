@@ -6136,6 +6136,149 @@
       "probability_low": 10.0
     }
   },
+  "opp_0c58d6d3fd17": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 33.65,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T02:55:51+00:00",
+    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Love consulting, but tired of the travel? Looking for an opportunity to do something new, exciting, and with a clear value proposition for your customer? Veeva Systems is looking for a Managed Services Consultant in our Quality team who has a passion for helping customers achieve their business vision. The Managed Services Consultant is a member of our Professional Services team who provides remote, ongoing, ad-hoc consulting services to our live QMS, Quality Docs (document management), and Training (LMS) customers. In this role, you can build long-term relationships and partner with customer administrators at \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 336.5,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/senior-consultant-post-implementation",
+    "id": "opp_0c58d6d3fd17",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T02:55:53+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 56.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $336 on $336 (100% margin). $71 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $112 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 56.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "managed-services-consultant",
+      "professional-services-consultant",
+      "quality-consultant",
+      "implementation-consultant",
+      "technical-consultant",
+      "senior-consultant",
+      "consultant-senior"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Consultant - Post-Implementation",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/senior-consultant-post-implementation",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0c9923096b88": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11976,6 +12119,145 @@
       "probability_low": 4.0
     }
   },
+  "opp_1c1d1832fba4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 87.82,
+    "budget_min": 56.9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wikimedia Foundation",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T02:57:52+00:00",
+    "description": "COMMUNICATIONS LEAD, WIKIMEDIA ENTERPRISE (CONTRACT) Contract terms: 40 hours/week, initial 6-month contract, with potential to extend based on organizational needs Reports to: Communications Manager (dotted line to President of Wikimedia Enterprise) Summary The Wikimedia Foundation is the nonprofit that operates Wikipedia and the other Wikimedia free knowledge projects. Our mission is to bring free educational content to the world. Wikimedia Enterprise is the Wikimedia Foundation 's commercial product for large-scale reusers and distributors of Wikimedia content. Through Enterprise agreements, companies gain improved, commercial-grade access to Wikimedia content at a volume and scale they need, while directly supporting the Wikimedia Foundation 's free knowledge mission. As AI systems increasingly scrape Wikipedia at scale, Wikimedia Enterprise has become critical to a sustainable model for Wikimedia projects and the open knowledge ecosystem. We're looking for an experienced communications lead to serve as the primary communications partner to the Wikimedia Enterprise team \u2014 shaping external messaging, media relations, and thought leadership to drive organic demand for Wikimedia Enterprise services, while ensuring narrative and strategic alignment with the Foundation's broader communications priorities. This role sits in the Media Relations team, within the Foundation\u2019s Communications Department, with a dotted line to the President of Wikimedia Enterprise. Responsibilities \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 426.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wikimedia-foundation/jobs/communications-lead-wikimedia-enterprise-contract",
+    "id": "opp_1c1d1832fba4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T02:57:53+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 66.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $427 on $427 (100% margin). $91 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $114 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "communications-lead",
+      "communications-manager",
+      "public-relations-lead",
+      "media-relations-specialist",
+      "corporate-communications"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Communications Lead, Wikimedia Enterprise (Contract)",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/wikimedia-foundation/jobs/communications-lead-wikimedia-enterprise-contract",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_1c883c040528": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -16732,6 +17014,142 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_26abff06ae2c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "EUR",
+    "deadline": "2026-12-08T03:04:12+00:00",
+    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Veeva is looking for a highly motivated individual with life science industry experience within the Clinical Operations (Clinical Trials) domain to drive customer success with our Veeva Clinical Operations products family in Europe. As part of the European and broader Global Product Expert teams, your experience will play a key role in the Product organization. You will: Build and foster highly engaged Users Communities; regularly communicating with them in a range of forums to provide clear and impactful communication that drives shared understanding & education, promotes product adoption, and delivers customer \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/product-expert-clinical-operations-4098587943",
+    "id": "opp_26abff06ae2c",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T03:04:13+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 58.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 58.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "product-expert",
+      "clinical-operations-specialist",
+      "product-manager",
+      "subject-matter-expert",
+      "product-consultant",
+      "clinical-product-specialist",
+      "clinical-product-consultant",
+      "clinical-product-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Product Expert - Clinical Operations",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/product-expert-clinical-operations-4098587943",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_26e4f387d2e0": {
@@ -29103,6 +29521,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_3f75410d49fe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105.77,
+    "budget_min": 45.19,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Veeva Systems",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "EUR",
+    "deadline": "2026-12-08T03:00:18+00:00",
+    "description": "Veeva is building the industry cloud for Life Sciences through software, data, AI, and business consulting working together. Learn more about our products, vision, values, and status as a Public Benefit Corporation (PBC) on our website. Consulting is changing, and we\u2019re not like other firms. Launched in 2019, Veeva Business Consulting has grown quickly and organically to over 500 global experts who combine deep domain knowledge with innovative technology to help Life Sciences companies work in a more efficient and connected way. We are growing aggressively as we look towards 2030. We are seeking great people to help shape the future of the industry with the world\u2019s leading software, data, AI, and expertise at their back. The Role As a Principal Consultant in our Commercial Business Consulting practice, you won\u2019t just advise on the future of Life Sciences - you\u2019ll be building it. We help our customers bring treatments to patients faster by fundamentally transforming their operating models, powered by the industry\u2019s most advanced technology, AI and data. Unlike traditional firms, we move beyond \"slides and theory\" to deliver tangible, scalable execution that others simply cannot replicate. What You\u2019ll Do Project Mastery: Act as the Lead for Veeva BC\u2019s largest and most complex global projects, maintaining full accountability for excellence across multiple teams Strategic Growth: Lead and own Business Development for Commercial BC , focusing on architecting and winning key deals \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 338.92,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/principal-business-consultant-commercial-3950996300",
+    "id": "opp_3f75410d49fe",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T03:00:19+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 62.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $339 on $339 (100% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "principal-consultant",
+      "management-consultant",
+      "business-consultant",
+      "strategy-consultant",
+      "life-sciences-consultant",
+      "commercial-consultant",
+      "commercial-consulting",
+      "lead-business-consultant",
+      "senior-business-consultant",
+      "commercial-strategy-consultant",
+      "commercial-advisory"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Business Consultant - Commercial",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/principal-business-consultant-commercial-3950996300",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_3fe43de9476a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -38360,6 +38922,141 @@
       "probability_low": 43.0
     }
   },
+  "opp_51df8dd7a21e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 79.81,
+    "budget_min": 50.0,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Peraton",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T03:03:49+00:00",
+    "description": "Responsibilities Join Peraton in advancing the safety, efficiency, and modernization of the National Airspace System (NAS) through the FAA\u2019s Brand New Air Traffic Control System (BNATCS) contract. As a trusted partner to the Federal Aviation Administration, Peraton helps deliver the systems and services that keep our nation\u2019s skies safe and connected. We\u2019re looking for innovative professionals who thrive in mission-critical environments and are passionate about shaping the future of air traffic management. This is your chance to make an impact on one of the world\u2019s most vital transportation infrastructures, working alongside leaders in aviation, engineering, data science, and systems integration. At Peraton , you won\u2019t just support the mission \u2014 you\u2019ll define it. Do you want to play a critical role in shaping the future of America\u2019s skies? As the Air Traffic Training SME you\u2019ll design, deliver, and oversee innovative training programs that keep our National Airspace System (NAS) safe, efficient, and ready for the challenges of tomorrow. This is more than just a training role\u2014it\u2019s a leadership opportunity to influence how the next generation of air traffic professionals are prepared. You\u2019ll bring together your expertise in instructional design, FAA air traffic control procedures, and large-scale training program management to ensure personnel perform at their highest level. This role is ideal for a training professional ready to step into leadership, expand their influence, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 500.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peraton/jobs/air-traffic-training-sme-part-time-on-call",
+    "id": "opp_51df8dd7a21e",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T03:03:50+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 62.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $500 on $500 (100% margin). $105 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $167 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: api, data science)."
+        }
+      },
+      "final_score": 62.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "data science",
+      "training-specialist",
+      "instructional-designer",
+      "technical-trainer",
+      "air-traffic-training-sme",
+      "training-program-manager",
+      "aviation-training-specialist",
+      "air-traffic-control-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Air Traffic Training SME (Part-Time / On-Call)",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/peraton/jobs/air-traffic-training-sme-part-time-on-call",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_520088cb0fff": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -42456,6 +43153,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5a5932426e43": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T03:00:33+00:00",
+    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Veeva\u2019s Solution Consultants are an integral part of our sales team, partnering with Market Strategies and Account Partners as product experts in the sales cycle. As a Solution Consultant, you will provide product and process expertise in the form of consultative discussions, demonstrations, tailored presentations and conference room pilots with Veeva\u2019s customers and prospects. This involves working to understand the business challenges of each customer, tailoring an event to show how our software meets those needs, and articulating complex technical concepts clearly, and effectively addressing customer questions \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/solution-consultant-taiwan-quality",
+    "id": "opp_5a5932426e43",
+    "is_demo": false,
+    "match_score": 41.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T03:00:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "solution-consultant",
+      "sales-engineer",
+      "solutions-consultant",
+      "pre-sales-consultant",
+      "quality-consultant",
+      "quality-consulting",
+      "quality-management-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Solution Consultant - Taiwan Quality",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/solution-consultant-taiwan-quality",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_5a9fd0bd04a4": {
@@ -70183,6 +71009,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_8cf3670e3231": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Pareto Publishing",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T03:02:35+00:00",
+    "description": "Pareto Publishing is a fast\u2011growing e\u2011mail\u2011marketing company with an engaged subscriber base of 8 million+ . One of our main projects is helping financial services brands (banking, investing, insurance, and more) reach the right audience at scale. To accelerate our expansion in the United States, we\u2019re looking for a driven Senior Sales Manager who can sell our advertising and technology solutions to enterprise\u2011level clients across the finance space! :) Key Responsibilities \ud83d\udd11 Develop and execute go\u2011to\u2011market strategies that grow ad\u2011sales and technology\u2011services revenue. Identify, engage, and nurture high\u2011value client relationships (publishers, fintechs, banks, insurers, asset managers, agencies). Collaborate cross\u2011functionally with Marketing, Product, and Client Success to deliver outstanding campaign performance. Requirements \ud83d\udccb 3+ years of B2B sales success in advertising, martech, or related tech solutions (finance vertical strongly preferred). Proven ability to build executive\u2011level relationships and exceed revenue targets. Self\u2011starter who thrives on autonomy and accountability. Existing network in financial services (banking, investing, insurance) highly desirable. Experience in Public Relations or Investor Relations is a plus. What to Expect \ud83d\ude80 Uncapped commission on every dollar of booked revenue. Monthly & quarterly bonuses after the probation period. Annual / semi\u2011annual incentives (paid trips, additional PTO). The chance to pitch game\u2011changing solutions to a network \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pareto-publishing/jobs/senior-sales-manager",
+    "id": "opp_8cf3670e3231",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T03:02:36+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sales-manager",
+      "b2b-sales",
+      "financial-services-sales",
+      "advertising-sales",
+      "enterprise-sales",
+      "senior-sales-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Sales Manager",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/pareto-publishing/jobs/senior-sales-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8d375aa4fdd6": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -90557,6 +91514,157 @@
       "probability_low": 4.0
     }
   },
+  "opp_b73534ccd65d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 28,
+    "budget_min": 25,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "IntellaTriage",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T03:01:00+00:00",
+    "description": "We are seeking a compassionate registered nurse (RN) to join our growing team! In this role, you will provide critical after-hours support, triaging hospice patients and family needs over the phone wit professionalism and empathy. You will help ensure timely interventions and coordination of care for patients receiving hospice services. Built around a mission to improve the lives of nurses and patients, IntellaTriage has been providing after-hours nurse triage for hospice and home health providers since 2008. Utilizing best-in-class technology, IntellaTriage provides round-the-clock direct access to licensed, registered nurses using client-customized protocols for patient-centered, compassionate care. We are growing rapidly and excited to support our clients\u2019 nursing staff in the field by leveraging our remote team of nurses to manage after-hours care delivery. Our triage nurses become an extension of our clients\u2019 care team, and they trust us to support them and their patients during their non-core hours. Learn more at www.intellatriage.com. Why Join Us Base pay at $25 an hour with multiple opportunities to increase the hourly rate with a potential to earn up to $28 an hour within your first 6 months of hire 3 weeks of paid remote training Supportive clinical team Work from home allows you to create a comfortable and personalized workspace Shorter shifts that provide a better work-life balance and reduce potential for burnout Working remotely gives you more time to spend \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 187.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/intellatriage/jobs/remote-hospice-triage-rn-pt-3-30p-11p-rotating-sat-sun-9-30a-4p-cst-42716303",
+    "id": "opp_b73534ccd65d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T03:01:00+00:00",
+    "profit_score": 20.1,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.7,
+          "evidence": "Estimated net $188 on $188 (100% margin). $40 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $50 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "hospice-nurse",
+      "triage-nurse",
+      "registered-nurse",
+      "telephone-triage-nurse",
+      "telehealth-nurse",
+      "weekend-hospice-triage-rn",
+      "hospice-triage-rn",
+      "remote-hospice-nurse",
+      "hospice-triage-nurse",
+      "remote-triage-nurse",
+      "hospice-registered-nurse"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Hospice Triage RN PT 3:30p-11p + rotating Sat & Sun 9:30a-4p CST",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/intellatriage/jobs/remote-hospice-triage-rn-pt-3-30p-11p-rotating-sat-sun-9-30a-4p-cst-42716303",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_b76808eed9ec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -91234,6 +92342,139 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_b837811cfa10": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Prisma International, Inc.",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T02:53:58+00:00",
+    "description": "About Prisma International, Inc. - Prisma is a dynamic and growing language services provider committed to delivering exceptional translation solutions to clients worldwide. We pride ourselves on our dedication to linguistic excellence and client satisfaction. We are expanding our independent contractor team and seeking experienced US-based Translators to join us. TRANSLATOR Job Posting - Prisma International We are seeking experienced, professional Translators to join our independent contractor team. You will be providing written translation from English into your native (target) language. To be considered for hire, you must meet all minimum requirements listed in this job ad. NOTE: Qualified candidates must reside in the United States and provide a three-year history of experience completing written translations to state and/or federal government agencies. Other minimum requirements are stated below. Translation project assignments are assigned on an as-needed basis according to your availability. TARGET LANGUAGES: Albanian, Amharic, Bosnian, Chuukese, Danish, Finnish, German, Haitian Creole, Hindi, Hmong, Italian, Japanese, Karen, Khmer, Korean, Laotian, Norwegian, Oromo, Portuguese (BR & PT), Somali, Swahili, Swedish, Tagalog, Thai, Tibetan, Tigrinya, Turkish, Ukrainian, and Vietnamese. I f your language specialty is not listed above, you are welcome to apply. You must meet all requirements to be considered. MINIMUM REQUIREMENTS - You must meet ALL of the following \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/prisma-international-inc/jobs/translator-us-based-only",
+    "id": "opp_b837811cfa10",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T02:53:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "pdf",
+      "translator",
+      "language-services",
+      "written-translation",
+      "english-translator",
+      "remote-translator",
+      "contract-translator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Translator - US-Based Only",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/prisma-international-inc/jobs/translator-us-based-only",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_b996d2a83499": {
@@ -124751,6 +125992,152 @@
       "probability_low": 26.0
     }
   },
+  "opp_facd49e3a52f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 96.15,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Veeva Systems",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T03:00:47+00:00",
+    "description": "Veeva is building the industry cloud for Life Sciences through software, data, AI, and business consulting working together. Learn more about our products, vision, values, and status as a Public Benefit Corporation (PBC) on our website. Consulting is changing, and we\u2019re not like other firms. Launched in 2019, Veeva Business Consulting has grown quickly and organically to over 500 global experts who combine deep domain knowledge with innovative technology to help Life Sciences companies work in a more efficient and connected way. We are growing aggressively as we look towards 2030. We are seeking great people to help shape the future of the industry with the world\u2019s leading software, data, AI, and expertise at their back. The Role As a Senior Consultant in R&D, you will help customers bring treatments to patients faster by transforming how they work with Technology, Data, and AI. You will focus on reshaping operating models, driving organizational change, and measuring tangible business value. R&D is a broad area that includes several distinct practices: Clinical Operations, Clinical Data Management, Regulatory, and Pharmacovigilance. You will focus in one of these practices based on your background, interests, and needs of the business. You will build credibility, depth, and relationships in that practice, but staffing will remain fungible across R&D and movement between practices is always permitted. What You'll Do Project Leadership: Act as the Lead for small-scale \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veeva-systems/jobs/senior-business-consultant-life-sciences-r-d",
+    "id": "opp_facd49e3a52f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-09T03:00:47+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 41.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 41.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "business-consultant",
+      "life-sciences-consultant",
+      "r&d-consultant",
+      "senior-consultant",
+      "management-consultant",
+      "senior-r&d-business-consultant",
+      "senior-life-sciences-consultant",
+      "senior-business-consultant",
+      "senior-business-process-consultant",
+      "senior-research-and-development-consultant",
+      "senior-business-transformation-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Business Consultant - Life Sciences R&D",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/veeva-systems/jobs/senior-business-consultant-life-sciences-r-d",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_fb5a41b64880": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -125311,6 +126698,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_fbd2ffe1f73b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "documentation",
+    "client": "Rolling Arrays",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-09T05:04:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T02:57:58+00:00",
+    "description": "Role Summary: Supports implementation projects under close supervision, learning requirements gathering, module configuration, and quality documentation. Key Responsibilities: Requirements Support: Assist senior consultants in gathering and documenting business requirements from client SMEs. Prepare structured notes and action items from requirement workshops. Configuration & Testing: Perform basic module configuration under supervision. Execute test scripts and document results accurately. Documentation: Maintain configuration workbooks, training materials, and meeting minutes. Ensure project documentation is complete and up to date. Client Interaction: Participate in client calls and workshops with senior guidance. Respond to basic client queries under supervision. Team Collaboration: Contribute to shared project goals and team activities. Proactively seek feedback and apply learnings from senior team members. Functional Competency: Understands basic HR system structure and terminology. Behavioural Competency: Attention to Detail: Learning to identify/correct minor errors with supervision. Communication: Communicates reactively; lacks clarity at times. Task Ownership: Completes tasks when closely monitored. Learning Agility: Learns when directed and applies instructions slowly. Client Orientation: Follows instructions without understanding client impact. Communication: Communicates reactively; lacks clarity at times. Team Collaboration: Participates in team discussions \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261009T050417Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.87,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.38,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.51,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rolling-arrays/jobs/sap-sf-hrta-associate-consultant-ph",
+    "id": "opp_fbd2ffe1f73b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-09T02:57:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 44.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "react",
+      "sap-consultant",
+      "successfactors-consultant",
+      "associate-consultant",
+      "hr-consultant",
+      "hris-consultant",
+      "sap-hr-consultant",
+      "sap-hr-functional-consultant",
+      "sap-human-resources-consultant",
+      "sap-hcm-consultant",
+      "sap-hris-consultant",
+      "sap-hcm-functional-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAP SF (HRTA) - Associate Consultant (PH)",
+    "updated_at": "2026-10-09T05:04:19+00:00",
+    "url": "https://himalayas.app/companies/rolling-arrays/jobs/sap-sf-hrta-associate-consultant-ph",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_fc1778c17a10": {
