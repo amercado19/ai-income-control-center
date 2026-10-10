@@ -24553,6 +24553,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_30db0b8b2e1b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Grupo Botic\u00e1rio",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:42:27+00:00",
+    "description": "Um dos maiores grupos de beleza do mundo, o Grupo Botic\u00e1rio \u00e9 uma empresa brasileira presente em mais de 40 pa\u00edses. \u00c9 dono das marcas O Botic\u00e1rio, Eudora, Quem Disse, Berenice?, Vult, O.U.i, TRUSS, e do marketplace Beleza na Web, al\u00e9m de atuar com produtos licenciados como Australian Gold, Bio Oil, Nuxe, e Pampers e sua divis\u00e3o para o mercado B2B. Essa intera\u00e7\u00e3o entre diferentes marcas, ativos, plataformas, rede de franqueados, representantes, distribuidores, varejistas, sellers e fornecedores formam o ecossistema de beleza do Grupo Botic\u00e1rio que oferece, ainda, solu\u00e7\u00f5es digitais de gest\u00e3o de neg\u00f3cio para o varejo brasileiro por meio da sua marca Mooz. S\u00e3o mais de 19 mil colaboradores diretos, com mais de 4 mil lojas em 1.780 cidades brasileiras. Escrever e testar c\u00f3digos de modo incremental, \u00e1gil e bem documentado; Fazer excelentes code-reviews e ajudar os colegas nas decis\u00f5es de design; Testar, fazer deploy e acompanhar seu c\u00f3digo em produ\u00e7\u00e3o - de forma cont\u00ednua; Interagir com colegas das \u00e1reas pares para evoluir nosso ecossistema; Trabalhar em projetos estrat\u00e9gicos do Grupo Botic\u00e1rio ; Manter nossa plataforma de pagamentos identificando problemas, causas e impactos gerados; Evoluir e decidir, junto com o time, o futuro de nossa plataforma de pagamentos. O que buscamos em voc\u00ea (Requisitos): Experi\u00eancia elaborando, implementando e colocando solu\u00e7\u00f5es de software em produ\u00e7\u00e3o; Conhecimento em Java/Kotlin e SpringBoot; Interesse e conhecimento em estruturas de dados; \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/grupo-boticario/jobs/pessoa-desenvolvedora-full-stack-kotlin-react-dev-ii-produtos-digitais-financ",
+    "id": "opp_30db0b8b2e1b",
+    "is_demo": false,
+    "match_score": 36.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T10:42:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.8,
+          "evidence": "Matched 1 profile skills: excel. Covers 17% of the 6 skills this listing names (missing: api, docker, kubernetes, react)."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "docker",
+      "kubernetes",
+      "react",
+      "full-stack-developer",
+      "backend-engineer",
+      "software-engineer",
+      "kotlin-developer",
+      "react-developer",
+      "engenheiro-de-software-full-stack",
+      "desenvolvedor-full-stack"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Pessoa Desenvolvedora Full-stack Kotlin/React - Dev II (Produtos Digitais Financ",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/grupo-boticario/jobs/pessoa-desenvolvedora-full-stack-kotlin-react-dev-ii-produtos-digitais-financ",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_3108eb1c1305": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -30228,6 +30359,151 @@
       ],
       "probability_high": 45.0,
       "probability_low": 25.0
+    }
+  },
+  "opp_3f52101a5dc5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90.38,
+    "budget_min": 54.23,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "The Cigna Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:47:47+00:00",
+    "description": "POSITION SUMMARY The Customer & Client Experience (C&CE) team is responsible for the servicing of Cigna customers across multiple lines of business, including US Employer, Pharmacy Benefit Management, Individual and Family Plans, and more. C&CE owns the delivery of exceptional customer experiences while operating Cigna\u2019s call centers effectively and efficiently for the business. The Senior Strategy & Analytics Advisor will be responsible for leading critical analytical work that supports C&CE strategic priorities. This role is part of a Business Analyst team that provides direct support to the Workforce & Footprint Strategy team in the C&CE organization, including driving strategic improvements in customer experience and operating efficiency, as well as supporting improvements in the associate experience through better capabilities and tools. They will work closely with leadership and their teams to deeply understand the business problems at hand, develop analytical models/insights and build compelling business case presentations that positively influence go forward strategy. Senior Advisors are expected to independently structure workstreams, solve problems, and seek additional opportunities across stakeholder domains. Senior Advisors can expect to lead impactful projects across domains or functions, perform hands-on analysis, present to executive (VP+) audiences, and help drive overall business strategy. This role will be highly visible, and the individual will be a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 406.72,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-cigna-group/jobs/senior-strategy-analytics-advisor-c-ce-evernorth-remote",
+    "id": "opp_3f52101a5dc5",
+    "is_demo": false,
+    "match_score": 85.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T10:47:47+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 74.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $407 on $407 (100% margin). $87 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $108 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 31.4,
+          "evidence": "Matched 4 profile skills: forecasting, python, sql, statistics. Covers 67% of the 6 skills this listing names (missing: analytics, aws)."
+        }
+      },
+      "final_score": 74.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 74.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "aws",
+      "forecasting",
+      "statistics",
+      "analytics",
+      "business-analyst",
+      "strategy-analyst",
+      "analytics-consultant",
+      "strategy-consultant",
+      "data-analyst",
+      "remote-bi-and-analytics-lead",
+      "senior-data-and-analytics-consultant"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Senior Strategy & Analytics Advisor, C&CE - Evernorth - Remote",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/the-cigna-group/jobs/senior-strategy-analytics-advisor-c-ce-evernorth-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_3f6cfd60b16f": {
@@ -59613,6 +59889,150 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_7328a15daf2d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80.45,
+    "budget_min": 55.9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "MultiCare Health System",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:42:15+00:00",
+    "description": "Join a team that shares your calling At MultiCare, you\u2019re more than just a job title \u2014 you\u2019re part of a team built on trust that cares for each other, our patients and our communities. Belonging here means living our mission and values every day. If your purpose and passions align with ours, you\u2019ll find a place to grow, do meaningful work and build a career you love in a community that feels like home. FTE: 1.0, Shift: Day, Schedule: Day Position Summary The Senior Project Manager is responsible for successful delivery of large scale, highly complex projects and programs with senior-level internal and/or external sponsors and stakeholders within approved budget, schedule, scope, and quality standards. The Senior Project Manager oversees a project delivery resources/team to ensure the use of standardized project management methodologies, processes and tools; provides leadership, direction, mentorship; coaches and ensures the professional development/expertise of internal and 3rd party team members; serves as an expert resource; manages the daily activities of assigned projects; identifies potential issues, evaluates solutions and makes recommendations; assesses change requests to determine project impacts; reports overall program status to key project leadership and implements communication plans. Requirements Bachelor\u2019s in Business Administration or a related field; Master\u2019s Degree preferred Project Management Professional (PMP) Certification required or the ability to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 419.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/multicare-health-system/jobs/project-manager-sr",
+    "id": "opp_7328a15daf2d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T10:42:16+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 44.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $419 on $419 (100% margin). $89 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $112 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "senior-project-manager",
+      "project-manager",
+      "healthcare-project-manager",
+      "program-manager",
+      "it-project-manager",
+      "senior-manager-project-management",
+      "sr.-project-management-office-manager",
+      "senior-services-project-manager",
+      "senior-technical-project-manager",
+      "senior-project-planning-manager",
+      "senior-it-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager Sr",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/multicare-health-system/jobs/project-manager-sr",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_73ed7dc9d6ad": {
@@ -89752,6 +90172,148 @@
       "probability_low": 4.0
     }
   },
+  "opp_af96e46436f4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:41:22+00:00",
+    "description": "AI Governance Engineer- Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: AI Governance Engineer Location: 100% Remote (United States) Position Type: Full-time, Direct W2 Salary Range: $100,000\u2013$150,000 Annually Experience : 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking an AI Security Engineer to lead the design and implementation of security controls, threat models, and incident response capabilities specifically tailored to AI and machine learning systems. The role addresses the unique security challenges posed by LLMs, model APIs, training data pipelines, and AI-powered applications, including prompt injection, model abuse, data exfiltration, and supply chain risks. The ideal candidate has strong security engineering fundamentals and a deep understanding of how modern AI systems work in practice, with hands-on experience designing defenses for both AI-powered applications and the AI infrastructure that supports them. Required Qualifications Bachelor\u2019s or Master\u2019s degree in Computer Science, Cybersecurity, or a related discipline. Six or more \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 480.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-governance-engineer",
+    "id": "opp_af96e46436f4",
+    "is_demo": false,
+    "match_score": 62.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T10:41:23+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 68.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $481 on $481 (100% margin). $101 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.1,
+          "evidence": "Matched 3 profile skills: data pipeline, excel, python. Covers 40% of the 5 skills this listing names (missing: api, aws, machine learning)."
+        }
+      },
+      "final_score": 68.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "aws",
+      "machine learning",
+      "ai-security-engineer",
+      "ai-governance-engineer",
+      "security-engineer",
+      "machine-learning-security-specialist",
+      "senior-ai-governance-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "AI Governance Engineer",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-governance-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_afa24a81f52a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -101924,6 +102486,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_c6bc70f90ce0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Reputation",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:41:05+00:00",
+    "description": "About Reputation Reputation , founded in Silicon Valley in 2013, is the industry's sole platform that uses an AI-powered product stack to help companies measure, manage, and scale their real-time reputation performance everywhere, effectively functioning as a business's eyes and ears across all customer feedback channels to uncover predictive insights. This market leadership is reinforced by significant funding from top-tier firms like Bessemer Venture Partner, Kleiner Perkins, and Marlin Equity Partners, driving substantial annual recurring revenue from Global Fortune 1000 companies, major automotive OEMs, healthcare systems, and top property management firms, with trust from over 250 partners including Google and Meta. Recognized recently as America\u2019s Greatest Midsized Workplaces by Newsweek which rewards excellence and career development, and attracts player-coaches, team-oriented collaborators, and individuals who value perseverance and hustle. Your Role at Reputation Reputation is seeking a Financial Analyst to join our FP&A team on a remote contract basis . This role will support key financial planning and analysis activities across the business, including forecasting, budgeting, headcount tracking, and sales compensation analysis. The ideal candidate is analytical, detail-oriented, and comfortable partnering with business leaders to turn financial data into clear insights and actionable recommendations. This position reports to the Director of Finance Operations and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/reputation/jobs/financial-analyst-contract",
+    "id": "opp_c6bc70f90ce0",
+    "is_demo": false,
+    "match_score": 87.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T10:41:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 61.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 32.2,
+          "evidence": "Matched 3 profile skills: excel, financial modeling, forecasting. Covers 100% of the 3 skills this listing names. Domain overlap: budgeting."
+        }
+      },
+      "final_score": 61.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "financial modeling",
+      "financial-analyst",
+      "fp&a-analyst",
+      "business-finance-analyst",
+      "fp&a-specialist",
+      "contract-financial-analyst",
+      "contract-finance-analyst",
+      "financial-analyst-jobs",
+      "financial-analysis-specialist",
+      "finance"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Financial Analyst (Contract)",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/reputation/jobs/financial-analyst-contract",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (41-57%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "45%",
+          "to": "53%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "53%",
+          "to": "59%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "59%",
+          "to": "49%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 57.0,
+      "probability_low": 41.0
+    }
+  },
   "opp_c700a8f4bbea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -107465,6 +108164,133 @@
       "probability_low": 10.0
     }
   },
+  "opp_d21e363e803d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EWOR GmbH",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:46:52+00:00",
+    "description": "We are looking to hire ambitious entrepreneurs to start and scale their own startups. We are serial entrepreneurs, for example Paul M\u00fcller (founder Adjust, \u20ac1.2B exit) and Petter Made (founder SumUp, \u20ac8B) who are eager to support outlier personalities and serial entrepreneurs to build \u20ac1B+ companies. Our offer: A salary while you build your startup as you will directly be employed by us. Alternatively, you can opt for up to \u20ac500k in funding. 1:1 sparring with unicorn founders on a weekly basis Community : Access to the top 0.1% of founders, peers and investors Team building : Hiring top notch talent supported through our network (over 50,000 professionals) Distribution : Support in reaching product-market-fit and building up a sales force / marketing machine Funding support for securing a multi-million euro funding round within 12 months (on average, EWOR Fellows raise > \u20ac2M after our Grand Pitch) One of our fellows set a record for Europe\u2019s largest pre-seed round by a first-time founder, securing a \u20ac12M pre-seed investment. Tasks You will own, build, and run your startup in fields such as B2B You will embark on an extensive personal development journey crafted by unicorn founders and follow a fully customised programme enhancing your goal, time, and energy management You will receive support in hiring through our network to over 50,000 professionals and advice as well as best practices from serial entrepreneurs You will receive intensive coaching to make your startup ready \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ewor-gmbh/jobs/b2b-co-founder-cco-100-remote-m-f-d-355101749",
+    "id": "opp_d21e363e803d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T10:46:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "co-founder",
+      "chief-commercial-officer",
+      "entrepreneur",
+      "startup-founder",
+      "ceo",
+      "co-founder-jobs",
+      "remote-co-founder",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "B2B Co-Founder / CCO (100 % remote) (m/f/d)",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/ewor-gmbh/jobs/b2b-co-founder-cco-100-remote-m-f-d-355101749",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_d29799156731": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -112187,6 +113013,144 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_dca7fbea1d71": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "SupportYourApp",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-10T12:03:56+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T10:43:24+00:00",
+    "description": "We are looking for a proactive and experienced Senior Full-Stack Developer to join our partner company, a healthcare technology platform used by clinics to manage scheduling, clinical records, invoicing, and more. In this role, you will ship features end to end, own production health, and build AI-powered capabilities that help clinic staff work smarter. The ideal candidate is passionate about writing clean, secure, and performant code, enjoys working directly with stakeholders, and is eager to raise the engineering bar for the whole team. Excited? Let\u2019s see what it takes \ud83d\udc9b What you will do: Ship features end to end in Django/DRF, PostgreSQL, and React/TypeScript, covering scheduling, clinical records, invoicing, and reports; Maintain the Playwright end-to-end test suite for both API and UI, keeping it green with the help of AI agents; Build AI features, including an MCP server that gives AI agents per-user access to the platform and a staff assistant on AWS Bedrock with EU data residency; Plan and ship releases, including scoping, QA sign-off, migration and deploy order, feature flags, and rollback; Own production health across ECS services, RDS, Celery workers, and the real-time server, leading the fix and the post-mortem when something breaks; Build and maintain the integrations clinics depend on: UAE health exchanges, Stripe, SMS, WhatsApp, email, imaging and 3D scans, and country-specific tax and invoicing rules; Keep each clinic's data isolated and safe through \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T120354Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/supportyourapp/jobs/fluent-english-senior-full-stack-developer-python-django-react-2326942343",
+    "id": "opp_dca7fbea1d71",
+    "is_demo": false,
+    "match_score": 43.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T10:43:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.5,
+          "evidence": "Matched 2 profile skills: python, sql. Covers 18% of the 11 skills this listing names (missing: api, aws, django, playwright)."
+        }
+      },
+      "final_score": 49.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "django",
+      "playwright",
+      "aws",
+      "terraform",
+      "typescript",
+      "react",
+      "senior-fullstack-developer",
+      "full-stack-developer",
+      "python-developer",
+      "django-developer",
+      "react-developer",
+      "senior-full-stack-developer-(javascript-python)",
+      "senior-full-stack-engineer-(javascript-python)",
+      "full-stack-developer-(javascript-python)",
+      "senior-fullstack-web-application-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "(fluent English) Senior Full-Stack Developer (Python/Django/React)",
+    "updated_at": "2026-10-10T12:03:56+00:00",
+    "url": "https://himalayas.app/companies/supportyourapp/jobs/fluent-english-senior-full-stack-developer-python-django-react-2326942343",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_dcbfe5e2165b": {
