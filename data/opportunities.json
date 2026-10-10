@@ -9602,6 +9602,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_14636913a223": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 25,
+    "budget_min": 25,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Military, Veterans and Diverse Job Seekers",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:44:06+00:00",
+    "description": "KEY REQUIREMENTS (DO NOT APPLY UNLESS YOU SPECIFICALLY POSSESS THE BELOW EXPERIENCE) At least 1 year of experience working in each of 3 different industries At least 1 year of experience managing someone elses email At least 1 year of experience dealing directly with clients, candidates, and/or customers by email, phone, and Zoom (or similar platform) You have used software platforms such as Dropbox, Google Suite, Trello, Slack, Wordpress, Zoom, and/or Helpscout You love working remotely and do it effectively You have at least 3 years of experience and are proficient in Excel Experience managing a LinkedIn profile for someone else Proven success in working independently Data entry experience You are great at getting on with a wide range of people and communicating effectively with them (including hosting meetings on Zoom or similar) You are good with details A bonus: Previous experience in recruitment, including experience using LinkedIn to find candidates Virtual Assistant - Recruitment Salary $25 / hour Contractor 15-25 hours per week, depending on the level of work Normally 5 days a week Virtual Assistant the role We are growing and need more admin help, particularly in North America. Once we have trained you in our systems, you will be responsible for all the admin on specific campaigns. You will also manage the email for one of the managers. It's very important to us that all team enjoy the work and working with us. New team members, even in part-time roles, often end \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 70.25,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/military-veterans-and-diverse-job-seekers/jobs/virtual-assistant-recruitment",
+    "id": "opp_14636913a223",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T20:44:07+00:00",
+    "profit_score": 39.6,
+    "risk_flags": [],
+    "score": 66.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.3,
+          "evidence": "Estimated net $70 on $70 (100% margin). $77 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $251 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "data entry",
+      "virtual-assistant",
+      "recruitment-assistant",
+      "administrative-assistant",
+      "hr-assistant",
+      "executive-assistant",
+      "virtual-assistant-recruitment",
+      "virtual-assistant-recruiting",
+      "virtual-assistant-recruiter",
+      "virtual-assistant-placement",
+      "virtual-recruiter",
+      "virtual-recruitment"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Virtual Assistant - Recruitment",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/military-veterans-and-diverse-job-seekers/jobs/virtual-assistant-recruitment",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_146ce1d8538f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11983,6 +12128,144 @@
       ],
       "probability_high": 69.0,
       "probability_low": 51.0
+    }
+  },
+  "opp_1a3c6612d871": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 62.5,
+    "budget_min": 45.67,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Blue Mantis",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:47:37+00:00",
+    "description": "The Project Manager is responsible for managing billable customer projects from startup through closure, achieving measurable customer satisfaction and business outcomes. This role works directly with clients, internal delivery teams, practice leaders, vendors, and other stakeholders to ensure project deliverables align with approved scope, schedule, budget, acceptance criteria, and client objectives. The Project Manager provides disciplined governance, proactive communication, financial oversight, risk management, and issue resolution across multiple concurrent technology services engagements. Key Responsibilities Manage customer projects from startup through closure using established PMO methodology, internal tools, and required governance processes. Confirm project objectives, scope, deliverables, milestones, acceptance criteria, roles, and responsibilities with internal and external stakeholders. Develop and maintain project plans, schedules, forecasts, status reports, meeting records, and required project documentation. Lead client-facing kickoff, progress, governance, and closeout meetings; communicate timely and accurate project information to stakeholders. Maintain RAID logs, including risks, issues, actions, and decisions; assign owners, monitor due dates, remove obstacles, and escalate concerns as appropriate. Coordinate and manage the activities of internal teams, external partners, vendors, and customer resources across projects involving multiple technologies, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 342.53,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blue-mantis/jobs/project-manager-remote-boston-ma-area-pmo",
+    "id": "opp_1a3c6612d871",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T20:47:38+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 40.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $343 on $343 (100% margin). $73 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $91 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "project-manager",
+      "it-project-manager",
+      "technical-project-manager",
+      "pmo-manager",
+      "program-manager",
+      "remote-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager - Remote Boston MA Area (PMO)",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/blue-mantis/jobs/project-manager-remote-boston-ma-area-pmo",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_1acb7a8df446": {
@@ -20607,6 +20890,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2bda9ff61076": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Cresta",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:47:09+00:00",
+    "description": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta \u2019s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world\u2019s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world\u2019s leading investors, including a16z, Greylock, and Sequoia. Cresta \u2019s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu, founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta . About the role: As the Sales Enablement Manager, EMEA you will play a critical role in standing up and scaling Cresta \u2019s newly formed EMEA GTM team . Your primary focus will be accelerating ramp, driving consistent execution, and building the foundation for high-performing international GTM motions. This is a highly hands-on, builder role. You will work directly with Account Executives and regional sales leaders to deliver practical, field-driven enablement that improves day-to-day \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cresta/jobs/sales-enablement-manager-international",
+    "id": "opp_2bda9ff61076",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T20:47:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 35.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 35.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 47.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "sales-enablement-manager",
+      "sales-enablement",
+      "sales-management",
+      "international-sales",
+      "b2b-sales",
+      "global-sales-enablement",
+      "sales-enablement-program-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Enablement Manager, International",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/cresta/jobs/sales-enablement-manager-international",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_2bf42fb51775": {
@@ -68157,6 +68575,148 @@
       "probability_low": 21.0
     }
   },
+  "opp_8473eeabc2ed": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (18 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Saya ingin menghadirkan sebuah aplikasi seluler yang membantu petani bertransaksi secara lebih cepat dan transparan. Fokus utama versi pertama ini adalah: \u2022 Marketplace hasil pertanian \u2013 petani dapat memasang produk, menetapkan harga, dan memantau stok langsung dari ponsel. \u2022 Fitur pembayaran online terintegrasi sehingga proses jual-beli berlangsung tanpa perlu tatap muka. \u2022 Dasbor sederhana untuk memeriksa riwayat transaksi, status pesanan, serta laporan penjualan harian. Teknis yang saya perlukan: \u2013 Aplikasi Android (React Native atau Flutter dipersilakan) lengkap dengan UI/UX ramah pengguna berbahasa Indonesia. \u2013 Backend ringan (Firebase, Supabase, atau NodeJS + MongoDB) yang mampu menangani otentikasi, listing produk, keranjang, dan gateway pembayaran. \u2013 Dokumentasi instalasi server, build aplikasi, dan panduan singkat penggunaan untuk tim lapangan. \u2013 Ketersediaan kode sumber (Git repository) agar kami dapat menambahkan fitur informasi cuaca ataupun kontrol irigasi di fase berikutnya. Berikan estimasi waktu pengerjaan, teknologi pilihan Anda, dan contoh aplikasi serupa yang pernah Anda kerjakan.",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40761158",
+    "id": "opp_8473eeabc2ed",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-10T19:29:28+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 38.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.5,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 38.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "react",
+      "node",
+      "graphic design",
+      "mobile app development",
+      "android",
+      "html5",
+      "node.js",
+      "backend development",
+      "react native",
+      "flutter"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Aplikasi Mobile Petani Modern",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://www.freelancer.com/projects/react-native/Aplikasi-Mobile-Petani-Modern",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "18 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_8492fc987919": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -68715,6 +69275,135 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_859c0314cff7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Equifax",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:44:14+00:00",
+    "description": "Synopsis of the Role This Account Executive position is responsible for the direct sale of Equifax Breach Services products and solutions across Canada. The role focuses on driving revenue by managing and expanding strategic referral partner networks across cyber law firms, insurance carriers, and incident response partners, as well as converting corporate opportunities. We are seeking a motivated sales professional with a strong desire to continuously learn, adapt, and build deep expertise within the rapidly evolving cybersecurity and breach response industry. Due to the high-urgency, time-sensitive nature of cyber breach mitigation, this position requires flexibility to work varying or non-standard hours depending on business needs, emergent incident response activities, and client requests. What you will do Generate revenue to meet and exceed sales quotas through strategic client acquisition and partner expansion across Canada. Develop, scale, and manage high-value strategic referral channels, focusing on cyber law firms (\"breach coaches\"), cyber insurance carriers/brokers, and forensic incident response partners. Proactively immerse yourself in industry trends, emerging privacy legislation, and technical breach mitigation practices to serve as a knowledgeable resource for clients and partners. Drive sales for the complete suite of Equifax Breach Services, including credit and identity monitoring ( Equifax Complete\u2122 Premier), 24/7 Level 1 FAQ call center support, digital \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/equifax/jobs/account-executive",
+    "id": "opp_859c0314cff7",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T20:44:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "forecasting",
+      "account-executive",
+      "sales-executive",
+      "b2b-sales-representative",
+      "business-development-manager",
+      "sales-manager",
+      "customer-account-executive",
+      "client-account-executive",
+      "business-account-executive",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Account Executive",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/equifax/jobs/account-executive",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_864e1e15b552": {
@@ -78047,6 +78736,158 @@
     "title": "API Sales Development Representative - Healthcare",
     "updated_at": "2026-09-19T20:11:15+00:00",
     "url": "https://himalayas.app/companies/vonage/jobs/api-sales-development-representative-healthcare-6708995761",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_986702546c89": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AIDA Recruitment",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:43:53+00:00",
+    "description": "We are looking for a Senior Performance Test Engineer to join our customer's engineering team and take ownership of performance testing across a modern AWS-based microservices platform. \ufeff\ufeff Location: Remote ( Ukraine) Contract: B2B, Full-time (160 hours/month) Working Hours: 10:00\u201319:00 Methodology: Scrum In this role, you will design and implement scalable performance testing strategies, establish performance benchmarks, and work closely with Platform Engineering, DevX, SDET, and product teams to ensure applications remain reliable, scalable, and production-ready. You'll play a key role in identifying bottlenecks, analyzing system behavior, and driving performance improvements across the platform. Responsibilities Design and develop comprehensive performance test suites for microservices and shared platform components running on AWS. Define performance KPIs, baselines, and acceptance thresholds to support release readiness and platform reliability. Integrate performance testing into CI/CD pipelines and collaborate with DevX, Platform Engineering, SDET, and product teams. Execute non-functional testing, including load, stress, spike, endurance, and scalability testing. Analyze application logs, metrics, and observability data to identify performance bottlenecks and system degradations. Establish and maintain performance baselines for both microservices and legacy applications to enable long-term benchmarking. Investigate production-like issues and customer-reported \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aida-recruitment/jobs/senior-performance-ta-engineer",
+    "id": "opp_986702546c89",
+    "is_demo": false,
+    "match_score": 80.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-10T20:43:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 60.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 29.8,
+          "evidence": "Matched 5 profile skills: automation, ci/cd, excel, forecasting, python. Covers 50% of the 10 skills this listing names (missing: api, aws, docker, grafana)."
+        }
+      },
+      "final_score": 60.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "aws",
+      "docker",
+      "kubernetes",
+      "ci/cd",
+      "automation",
+      "grafana",
+      "forecasting",
+      "performance-test-engineer",
+      "automation-testing",
+      "qa-engineer",
+      "quality-assurance-engineer",
+      "senior-performance-engineer",
+      "senior-performance-test-engineer",
+      "performance-testing-engineer",
+      "performance-engineer",
+      "performance-analysis-engineer",
+      "r&d-performance-testing-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Performance TA Engineer",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/aida-recruitment/jobs/senior-performance-ta-engineer",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -89744,6 +90585,138 @@
       "probability_low": 15.0
     }
   },
+  "opp_ae827a7213fe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "CapsLock",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:44:06+00:00",
+    "description": "Description CapsLock is a global IT marketing company that pioneers unique, scalable customer acquisition solutions for B2C clients. We solve complex sales challenges across a wide range of industries, primarily for large North American partners. By integrating our expertise in Digital Marketing, IT, Design, AI-driven analytics, proprietary MarTech, and sales consulting we deliver powerful, data-informed customer acquisition solutions. At CapsLock , people, technology, and forward-thinking innovation lie at the heart of everything we do. Our core values guide our approach to building and refining an internal product ecosystem that powers profitable acquisition models, flexible scaling, and optimized operations. Our diverse, global team, fluent in over 10 languages, thrives on open collaboration and the exchange of new ideas, pushing boundaries to ensure our clients\u2019 success. Role overview Our Design department is scaling its AI visual production capabilities - and we're looking for a Senior AI Creative Designer who will produce high-quality visual creatives with the primary goal of improving conversion rates . We\u2019re looking for a designer who is deeply engaged with the fast-moving AI landscape, proactively tests new tools, features, and approaches, and is driven to continuously improve how AI is used in day-to-day creative work.This role sits at the intersection of creative storytelling, generative AI, and performance marketing - creating visual assets that capture attention \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/capslock/jobs/senior-ai-creative-designer-7747049918",
+    "id": "opp_ae827a7213fe",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T20:44:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "analytics",
+      "ai-creative-designer",
+      "creative-designer",
+      "ai-designer",
+      "visual-designer",
+      "digital-designer",
+      "senior-creative-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior AI Creative Designer",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/capslock/jobs/senior-ai-creative-designer-7747049918",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_ae8d3660531b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -97453,6 +98426,138 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_bee44fd6143f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AlphaHire",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-10T21:17:18+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T20:45:02+00:00",
+    "description": "AlphaGov delivers public-sector consulting for cities, counties, school systems, special districts, utilities, and related agencies. Our work spans classification and compensation, organizational and operational studies, research and program evaluation, economic and workforce analysis, surveys and community research, and applied data and infrastructure research. We engage experienced practitioners as project-based collaborators. Engagements are remote-first with occasional client travel. When you authorize it, AlphaGov may name you as an expert collaborator or key personnel on proposals that match your expertise. We build ready teams for live pursuits \u2014 not speculative staffing banks. AlphaGov is engaging a Law Enforcement Staffing Study Analyst for current staffing and deployment studies with city and county police and sheriff's agencies. You will turn calls-for-service and workload data into defensible staffing recommendations that agency leaders and elected officials can use. We confirm scope, schedule, and fee with you before any engagement begins. What you'll do Extract and clean CAD/RMS data to analyze calls for service, workload, response times, and unit availability Build patrol workload and staffing models, including shift relief factors and proactive-time targets Evaluate shift schedules, beat or zone design, and deployment against demand by hour and day of week Assess investigative caseloads, supervisory spans of control, and civilianization opportunities Compare \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261010T211716Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/alphahire/jobs/law-enforcement-staffing-study-analyst",
+    "id": "opp_bee44fd6143f",
+    "is_demo": false,
+    "match_score": 88.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-10T20:45:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 21.4,
+          "evidence": "Matched 4 profile skills: excel, forecasting, python, sql. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 58.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "law-enforcement-analyst",
+      "public-sector-consultant",
+      "government-analyst",
+      "police-staffing-analyst",
+      "staffing-analyst",
+      "public-safety-hr-analyst",
+      "law-enforcement-data-specialist",
+      "staffing-and-resource-forecasting-analyst",
+      "workforce-planning-analyst",
+      "staff-analyst",
+      "workforce-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Law Enforcement Staffing Study Analyst",
+    "updated_at": "2026-10-10T21:17:18+00:00",
+    "url": "https://himalayas.app/companies/alphahire/jobs/law-enforcement-staffing-study-analyst",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_bf7769f6f221": {
