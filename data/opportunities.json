@@ -40141,6 +40141,155 @@
       "probability_low": 15.0
     }
   },
+  "opp_4e1cf999220e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 60.1,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "DomainTools",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:42:15+00:00",
+    "description": "The Mission Cyberattack runs on internet infrastructure. DomainTools maps it, and has for over 25 years. The world's most advanced security teams rely on DomainTools to identify malicious infrastructure before it's used against them. We're not a company coasting on legacy. We're in an active growth phase: shipping new products, expanding our intelligence platform well beyond our DNS roots, and positioning at the center of where cybersecurity is heading in the age of AI. Today, DomainTools delivers a comprehensive internet intelligence platform covering domains, IPs, hostnames, SSL certificates, passive DNS, real-time threat feeds, and AI-native integrations, with visibility into 97% of the internet. Our Iris platform, DNSDB, real-time threat feeds, and MCP Server are the intelligence backbone for security teams at Fortune 500 companies, U.S. federal agencies, and the world's most sophisticated SOCs. We're not chasing a category. We define it, and we're accelerating. The Opportunity DomainTools is at an inflection point. Strong product-market fit. A platform expanding rapidly in capability and scope. A market shifting decisively toward AI-native security operations, where agentic SOC workflows are moving from concept to production and where the retirement of legacy threat intelligence platforms is creating a window of competitive opportunity that favors us. This role owns how that intelligence is positioned, launched, and sold. You'll sit at the intersection of Product, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 601.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/domaintools/jobs/senior-product-marketing-manager",
+    "id": "opp_4e1cf999220e",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-11T20:42:15+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 47.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $601 on $601 (100% margin). $127 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: sql. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 47.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 59.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "rest",
+      "analytics",
+      "product-marketing-manager",
+      "marketing-manager",
+      "b2b-marketing-manager",
+      "cybersecurity-marketing",
+      "senior-product-marketing"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Product Marketing Manager",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/domaintools/jobs/senior-product-marketing-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_4e441e4e77ae": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -80306,6 +80455,146 @@
       "probability_low": 26.0
     }
   },
+  "opp_990d7bda3b84": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 42.79,
+    "budget_min": 37.26,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Walker Sands",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:40:34+00:00",
+    "description": "Walker Sands is one of the fastest-growing integrated B2B marketing agencies in the world. We are looking for a high-impact Sr. Manager, SEO + GEO to help fuel that continued growth. Total compensation for this role is expected to be between $77,500 - $89,000 per year. As an agency, we exist to accelerate growth\u2014for our clients, our people and the B2B industry. We partner with B2B technology and services companies, from high-growth Silicon Valley businesses to global Fortune 500 brands, to drive meaningful business results. At Walker Sands , curiosity sparks new ideas, collaboration makes the work stronger, and people are at the center of everything we do. Walker Sands is looking for a Senior Manager who loves digging into how search works and helping clients get found. Search engine optimization (SEO) and generative engine optimization (GEO) are part of our agency DNA. Our GEO work includes optimizing for AI-generated answers, an area you may know as answer engine optimization (AEO). We do innovative, cutting-edge work in Search and AI, exploring how they intersect with earned, owned, shared, and paid media. You\u2019ll bring deep expertise to B2B client programs, collaborating on strategy and getting hands-on with technical audits, optimization, and measurement. We\u2019re looking for someone who enjoys investigating difficult questions and testing new approaches. As a Senior Manager, you\u2019ll be a core member of account SEO and GEO teams and a subject matter expert who helps define \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 279.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/walker-sands/jobs/sr-manager-seo-geo",
+    "id": "opp_990d7bda3b84",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-11T20:40:34+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [],
+    "score": 39.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $279 on $279 (100% margin). $60 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $75 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "analytics",
+      "seo-manager",
+      "digital-marketing-manager",
+      "content-strategy-manager",
+      "marketing-manager",
+      "senior-seo-manager",
+      "senior-seo-strategist",
+      "seo-strategy-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr. Manager, SEO + GEO",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/walker-sands/jobs/sr-manager-seo-geo",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_995de32c5129": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -108150,6 +108439,137 @@
       "probability_low": 6.0
     }
   },
+  "opp_ca47c1f34dd3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NMC Recruiting",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:41:22+00:00",
+    "description": "Overview Our client is seeking Life Insurance Agents to join their dynamic team. This role offers an exciting opportunity to leverage your sales expertise and insurance knowledge to help clients secure their financial futures. The ideal candidate will possess strong communication skills and a customer-focused approach. As a licensed agent, you will be responsible for providing tailored insurance solutions that meet individual needs. This is a remote, work from home position. You must hold a valid Life Insurance License. What You'll Do Engage with qualified, inbound leads (no cold calling required!) Review existing coverage and offer tailored recommendations Present personalized insurance solutions via phone consultations Clearly communicate policy benefits, terms, and coverage options in easy-to-understand language Complete digital applications and maintain accurate client records Use provided tools to manage and track all client interactions Focus on building trust and helping clients make confident insurance decisions Requirements Active Life Insurance License (required) Current E&O Insurance (required) Previous experience in sales or client service is a plus Excellent phone communication and relationship-building skills Self-motivated with ability to work independently from home Reliable internet connection and quiet home office space Available Monday-Friday (flexible hours within business schedule) Compensation Package Independent Contractor (1099) Position 100% \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nmc-recruiting/jobs/life-insurance-agent-dayton-oh",
+    "id": "opp_ca47c1f34dd3",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-11T20:41:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "life-insurance-agent",
+      "insurance-sales-agent",
+      "insurance-agent",
+      "licensed-insurance-producer",
+      "sales-agent",
+      "life-insurance-advisor",
+      "life-insurance-sales-agent",
+      "life-insurance-producer",
+      "life-insurance-professional",
+      "life-insurance-specialist",
+      "life-insurance",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Life Insurance Agent - Dayton OH",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/nmc-recruiting/jobs/life-insurance-agent-dayton-oh",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_ca9011eb7f51": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -120634,6 +121054,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_e5589bc5a7cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "DeVry University",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:40:21+00:00",
+    "description": "DeVry University strives to close our society\u2019s opportunity gap and address emerging talent needs by preparing learners to thrive in careers shaped by continuous technological change. Through innovative programs, relevant partnerships, and exceptional care, we empower students to meaningfully improve their lives, communities, and workplaces. Our colleague experience is an area of obsessive focus. At DeVry University , we care about you. Because, only through you can we deliver our unique Care Formula to our learners and partners. DeVry University is evaluating opportunities to expand its workforce-aligned education portfolio and is seeking an experienced vocational education leader to advise Product, Strategy, and Academics. Initial work will focus on assessing the feasibility of a potential electrical technician/electrician-focused program and developing recommendations related to market demand, program design, delivery model, operating requirements, and financial viability. Subject to the outcome of the feasibility assessment and institutional approval, the engagement may extend into detailed program design and launch planning. This is a hands-on advisory engagement for someone who has personally designed, launched, and scaled comparable programs and who understands both the academic architecture and operating economics of running one. The selected consultant will assess industry standards, licensure pathways, and employer demand and develop recommendations for a potential \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/devry-university/jobs/vocational-education-program-consultant-1099",
+    "id": "opp_e5589bc5a7cf",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-11T20:40:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "education-consultant",
+      "program-consultant",
+      "education-specialist",
+      "workforce-development-consultant",
+      "training-consultant",
+      "professional-education-consultant",
+      "education-services-consultant",
+      "education-and-training-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Vocational Education Program Consultant (1099)",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/devry-university/jobs/vocational-education-program-consultant-1099",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e5a97142cfec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -125546,6 +126100,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_ed454c008523": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "MWDN",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:37:59+00:00",
+    "description": "Description MWDN is a global IT outstaffing company with 23+ years of experience that connects exceptional tech talent with leading companies across Israel, the USA, Great Britain, and Western Europe. We offer opportunities to work on international products in a stable and professional environment. Why does MWDN rock? Here\u2019s what you can expect when you join MWDN : Security: We carefully vet our clients to minimize risks and ensure reliability and timely payments - no fraud or unpleasant surprises. Career support: If a project isn\u2019t the right fit, we support you and actively help find new opportunities that match your skills and career goals. Legal assistance: We provide guidance on legal matters, including opening and managing your independent contractor or sole proprietorship status, taxes, and related processes. Professional development: We offer English courses and professional growth opportunities, as well as team-building events. Why choose us? MWDN is ranked among the top 5 IT employers in our region according to DOU. We take pride in our transparency and strong commitment to our team. Curious to learn more? See what our employees say about working with us on DOU. What is your new project? Domain: AI-powered sales co-pilot Location: Israel, USA Company size: up to 10 employees Founded in: 2025 What makes this project exciting? Join a forward-thinking technology company building intelligent systems that transform how people interact with digital experiences. Focused on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mwdn/jobs/technical-support-engineer-8257162429",
+    "id": "opp_ed454c008523",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-11T20:38:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "technical-support-engineer",
+      "support-engineer",
+      "it-support-engineer",
+      "technical-support-specialist",
+      "it-support-specialist",
+      "senior-technical-support-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Technical Support Engineer",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/mwdn/jobs/technical-support-engineer-8257162429",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_ed4d7a4453a0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -128115,6 +128800,130 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_f0e2122d187f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TUC Sweden",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:44:13+00:00",
+    "description": "Utbildning: Informationss\u00e4kerhetssamordnare Utbildningskod: INFD26LIN Utbildningsnummer: YH03090-2026-1 Ort: Link\u00f6ping Studieform: Distans Studietakt: Helfart Kurs: Verksamhetsstyrning och s\u00e4kerhetskultur Antal YH-po\u00e4ng: 25 yhp Max antal deltagare: 45 stycken L\u00e4rarledd tid vid distansutbildning: Vecka:6-10 N\u00e4rtr\u00e4ff: Nej Antal timmar l\u00e4rarledd tid via videol\u00e4nksystem: 30 stycken Totalt antal timmar: 30 stycken J\u00e4mnt f\u00f6rdelat \u00f6ver perioden enligt \u00f6verenskommelse med Utbildningsledare Utbildningsledare: Irina R\u00f6nnqvist I l\u00e4nkarna nedan finns viktig information att ta del av inf\u00f6r ans\u00f6kan om kursansvar hos oss p\u00e5 TUC Yrkesh\u00f6gskola. Praktisk information - Ans\u00f6ka om kursansvar Praktisk information - Uppdraget att utbilda p\u00e5 TUC PRELIMIN\u00c4R KURSPLAN Verksamhetstyrning och s\u00e4kerhetskultur 25 yhp.pdf Originally posted on Himalayas",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tuc-sweden/jobs/infd26lin-verksamhetsstyrning-och-sakerhetskultur-25yhp-v6-10-vt27-linkopin",
+    "id": "opp_f0e2122d187f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-11T20:44:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "pdf",
+      "kursansvarig",
+      "l\u00e4rare",
+      "utbildningssamordnare",
+      "business-operations-management",
+      "security-culture"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "INFD26LIN, Verksamhetsstyrning och s\u00e4kerhetskultur, 25yhp, v6-10, VT27, Link\u00f6pin",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/tuc-sweden/jobs/infd26lin-verksamhetsstyrning-och-sakerhetskultur-25yhp-v6-10-vt27-linkopin",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_f14a665dbb1a": {
@@ -131383,6 +132192,152 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_f87c2839d80f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:38:18+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Telemetry Engineer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $100,000\u2013$150,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking a Telemetry Engineer to design, implement, and manage enterprise observability platforms that provide actionable insights through metrics, logs, traces, and alerting. The ideal candidate has hands-on experience with modern observability tools, SRE practices, and monitoring solutions for large-scale cloud environments. Required Qualifications Bachelor's degree in Computer Science or a related field. 5+ years of experience in SRE, Platform Engineering, or Observability. Strong experience with Prometheus, Grafana, OpenTelemetry , and Datadog, New Relic, or Splunk . Proficiency in Go, Python, or Java . Experience with distributed tracing, structured logging, Linux, containers, and CI/CD. Strong understanding of SRE principles, SLOs, and incident management . Preferred Qualifications Experience with Thanos, Mimir, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 625.04,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/telemetry-engineer",
+    "id": "opp_f87c2839d80f",
+    "is_demo": false,
+    "match_score": 20.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-11T20:38:19+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 53.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $625 on $625 (100% margin). $101 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.7,
+          "evidence": "Matched 2 profile skills: ci/cd, python. Covers 50% of the 4 skills this listing names (missing: aws, grafana)."
+        }
+      },
+      "final_score": 53.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"sponsorship: u\"; \"platform engineering\"; \"or observability\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 53.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "aws",
+      "ci/cd",
+      "grafana",
+      "telemetry-engineer",
+      "site-reliability-engineer",
+      "observability-engineer",
+      "platform-engineer",
+      "sre-engineer",
+      "telemetry-engineering",
+      "observability-telemetry-engineer",
+      "telemetry-platform-engineering",
+      "metrics-engineer",
+      "telemetry",
+      "opentelemetry-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Telemetry Engineer",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/telemetry-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_f8d9d473860a": {
@@ -135438,6 +136393,148 @@
       ],
       "probability_high": 87.0,
       "probability_low": 65.0
+    }
+  },
+  "opp_fd5c26b13874": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.88,
+    "budget_min": 45.19,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Delfina",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-11T21:36:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-10T20:44:44+00:00",
+    "description": "\u2013 This employment opportunity is through Delfina Medical Group \u2013 Objective: Delfina Medical Group is hiring a full-time, Spanish and English based bilingual Registered Dietitian and Lactation Consultant to support patients through pregnancy and postpartum. This is a 100% virtual position. The role combines direct patient care with building and maintaining clinical protocols, and grows over time to include additional state licensure and support for other dietitians as the team expands. About Us: Delfina Medical Group and Delfina Care Inc. provide a leading pregnancy care data platform and clinical services to improve maternal and child health outcomes. \u200d About You: We are looking for a clinician who is passionate about patient engagement in nutrition, lactation, and lifestyle, and who is comfortable using technology to support better care. This is a combined role for someone who holds both Registered Dietitian and IBCLC credentials. Responsibilities: A) Nutrition and Lactation Care Provide perinatal nutrition and lactation care for pregnancy and postpartum. Provide 1:1 and group dietitian and and lactation visits by video, phone, and app. Manage nutrition care for the pregnancy and postpartum journey including gestational diabetes and for Type 1 and Type 2 diabetes in pregnancy. Teach and lead group lactation support and education classes. Create breastfeeding and chestfeeding protocols and safety measures for a telemedicine platform. B) Protocols and Patient Content Build \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261011T213652Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 338.92,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/delfina/jobs/registered-dietitian-and-lactation-consultant-full-time",
+    "id": "opp_fd5c26b13874",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-11T20:44:45+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 39.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $339 on $339 (100% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "registered-dietitian",
+      "lactation-consultant",
+      "nutritionist",
+      "clinical-dietitian",
+      "telehealth-dietitian",
+      "registered-dietitian-nutritionist",
+      "pediatric-dietitian",
+      "lactation-consulting",
+      "healthcare"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Registered Dietitian and Lactation Consultant (Full Time)",
+    "updated_at": "2026-10-11T21:36:54+00:00",
+    "url": "https://himalayas.app/companies/delfina/jobs/registered-dietitian-and-lactation-consultant-full-time",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_fd901594c5d5": {
