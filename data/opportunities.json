@@ -2056,6 +2056,136 @@
       "probability_low": 12.0
     }
   },
+  "opp_02a3cfa6d6a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T09:06:12+00:00",
+    "description": "Role Title: Hospitalist Physician Role Type: Contractor Location: Remote micro1 is engaging Hospitalist Physicians to contribute their medical expertise to a customer project focused on inpatient care and documentation standards. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. Scope of Work Review medical records, including FHIR data and clinical notes for AI Training. Check whether clinical information and claims are supported by the medical record. Review inpatient documentation, including HPI, PMH, assessments, and plans. Follow clear guidelines and apply the same standards consistently. Identify missing, incorrect, or inconsistent information in medical records. Share feedback to help improve AI models and data quality. Communicate clearly with the project team about your work and findings. Preferred Qualifications MD or DO, board certified in Internal Medicine, Pediatrics, or Hospital Medicine. Current or recent inpatient/hospitalist experience (within the last 2 years). Strong understanding of inpatient documentation and hospital workflows. Comfortable reviewing clinical notes and raw medical record data. Strong attention to detail and ability to follow clear guidelines consistently. Experience with chart review, clinical documentation improvement, utilization review, or medical coding/QA is a plus. Experience working across different \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hospitalist-physician-7660750873",
+    "id": "opp_02a3cfa6d6a8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T13:30:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "physician-hospitalist",
+      "hospitalist",
+      "hospital-medicine-physician",
+      "hospital-medicine",
+      "internal-medicine-physician"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Hospitalist Physician",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hospitalist-physician-7660750873",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_034af0db8ddc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5141,6 +5271,137 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_09d7dd3ae8e5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "Freelance Latin America",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:30:18+00:00",
+    "description": "We are seeking an experienced SEO Strategist to join a U.S.-based digital marketing team that partners with clients across multiple industries. This role goes beyond traditional SEO, combining technical expertise, content strategy, and AI-driven search optimization to help businesses strengthen their online visibility and achieve measurable growth. If you're passionate about organic search, emerging AI search technologies, and delivering strategic recommendations that drive business results, we'd love to hear from you. Duties / Task to perform Develop and execute comprehensive SEO and GEO (Generative Engine Optimization) strategies tailored to client objectives. Conduct technical SEO audits and translate findings into clear, actionable implementation plans. Perform keyword research, search intent analysis, semantic clustering, and content strategy development. Optimize websites for traditional search engines as well as AI-powered search experiences. Identify opportunities through technical SEO, structured data, schema markup, and entity optimization. Analyze competitors across traditional search and AI-generated search results. Develop backlink acquisition strategies and support digital PR initiatives. Collaborate with content, UX, and development teams to improve website performance and conversions. Support business development by participating in discovery sessions, proposal development, and strategic recommendations. Prepare executive-level reports that connect SEO \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/freelance-latin-america/jobs/seo-strategist",
+    "id": "opp_09d7dd3ae8e5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T13:30:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 39.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 39.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "seo-strategy",
+      "seo",
+      "digital-marketing",
+      "content-strategy",
+      "growth-marketing",
+      "seo-strategist",
+      "search-strategist",
+      "seo-ranking-strategist",
+      "search-ranking-strategist",
+      "search-marketing-strategist",
+      "serp-strategist",
+      "seo-content-strategist",
+      "organic-search-strategist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SEO Strategist",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/freelance-latin-america/jobs/seo-strategist",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_0a17edd7c480": {
@@ -9204,6 +9465,140 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_1282b0e3d842": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Intetics",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:30:14+00:00",
+    "description": "Intetics Inc., \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0430 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f, \u0449\u043e \u043d\u0430\u0434\u0430\u0454 \u043f\u043e\u0441\u043b\u0443\u0433\u0438 \u0437 \u0440\u043e\u0437\u0440\u043e\u0431\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u043e\u0433\u043e \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f \u043d\u0430 \u0437\u0430\u043c\u043e\u0432\u043b\u0435\u043d\u043d\u044f, \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u0440\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u0435\u043d\u0438\u0445 \u043a\u043e\u043c\u0430\u043d\u0434, \u043e\u0446\u0456\u043d\u043a\u0438 \u044f\u043a\u043e\u0441\u0442\u0456 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u0438\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0456\u0432 \u0442\u0430 all-things-digital \u0440\u0456\u0448\u0435\u043d\u044c, \u0448\u0443\u043a\u0430\u0454 Incident Editorial Specialist \u0434\u043e \u043d\u0430\u0448\u043e\u0457 \u043a\u043e\u043c\u0430\u043d\u0434\u0438. \u041f\u0440\u0438\u0454\u0434\u043d\u0443\u0439\u0442\u0435\u0441\u044c \u0434\u043e \u043d\u0430\u0448\u043e\u0457 \u0440\u0435\u0434\u0430\u043a\u0446\u0456\u0439\u043d\u043e\u0457 \u043a\u043e\u043c\u0430\u043d\u0434\u0438 \u043d\u0456\u0447\u043d\u043e\u0457 \u0437\u043c\u0456\u043d\u0438 \u0442\u0430 \u043f\u0440\u0430\u0446\u044e\u0439\u0442\u0435 \u0437 \u0440\u0435\u0434\u0430\u0433\u0443\u0432\u0430\u043d\u043d\u044f\u043c \u0434\u043e\u0440\u043e\u0436\u043d\u0456\u0445 \u0456\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u0456\u0432 \u0443 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u0447\u0430\u0441\u0456 \u0434\u043b\u044f \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0456\u0447\u043d\u043e\u0457 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0438. \u041f\u043e\u043f\u0435\u0440\u0435\u0434\u043d\u0456\u0439 \u0434\u043e\u0441\u0432\u0456\u0434 \u043d\u0435 \u043f\u043e\u0442\u0440\u0456\u0431\u0435\u043d - \u043c\u0438 \u043d\u0430\u0434\u0430\u0454\u043c\u043e \u043f\u043e\u0432\u043d\u0435 \u043d\u0430\u0432\u0447\u0430\u043d\u043d\u044f. \u0426\u0435 \u0447\u0443\u0434\u043e\u0432\u0430 \u043c\u043e\u0436\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0440\u043e\u0437\u043f\u043e\u0447\u0430\u0442\u0438 \u043a\u0430\u0440\u2019\u0454\u0440\u0443 \u0432 IT \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0430\u0442\u0438 \u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u043d\u0430 \u043c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0438\u0445 \u043f\u0440\u043e\u0454\u043a\u0442\u0430\u0445. \u0426\u0435 \u0447\u0430\u0441\u0442\u043a\u043e\u0432\u0430 \u0437\u0430\u0439\u043d\u044f\u0442\u0456\u0441\u0442\u044c \u0443 \u0432\u0456\u0434\u0434\u0430\u043b\u0435\u043d\u043e\u043c\u0443 \u0444\u043e\u0440\u043c\u0430\u0442\u0456 (11:00-16:00). \u0412\u0438 \u043f\u0440\u0430\u0446\u044e\u0432\u0430\u0442\u0438\u043c\u0435\u0442\u0435 \u0437 \u0434\u0430\u043d\u0438\u043c\u0438 \u0430\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e, \u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u044e\u0447\u0438 \u0447\u0456\u0442\u043a\u0456 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0442\u0430 \u0437\u0431\u0435\u0440\u0456\u0433\u0430\u044e\u0447\u0438 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0456\u044e \u043f\u0456\u0434 \u0447\u0430\u0441 \u0437\u043c\u0456\u043d. Requirements \u0420\u0456\u0432\u0435\u043d\u044c \u0430\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u043e\u0457 \u0432\u0456\u0434 B1+ \u0412\u0438\u0441\u043e\u043a\u0430 \u0443\u0432\u0430\u0436\u043d\u0456\u0441\u0442\u044c \u0434\u043e \u0434\u0435\u0442\u0430\u043b\u0435\u0439, \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u043e \u0432 \u0443\u043c\u043e\u0432\u0430\u0445 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u0441\u0443 \u0412\u043f\u0435\u0432\u043d\u0435\u043d\u0430 \u0440\u043e\u0431\u043e\u0442\u0430 \u0437 \u043a\u0456\u043b\u044c\u043a\u043e\u043c\u0430 \u0432\u043a\u043b\u0430\u0434\u043a\u0430\u043c\u0438/\u0432\u0456\u043a\u043d\u0430\u043c\u0438, \u0448\u0432\u0438\u0434\u043a\u0438\u0439 \u043d\u0430\u0431\u0456\u0440 \u0442\u0435\u043a\u0441\u0442\u0443 \u041f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0456\u0441\u0442\u044c, \u0437\u043e\u0441\u0435\u0440\u0435\u0434\u0436\u0435\u043d\u0456\u0441\u0442\u044c \u0456 \u043d\u0430\u0434\u0456\u0439\u043d\u0456\u0441\u0442\u044c - \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e \u0432\u0430\u0436\u043b\u0438\u0432\u0456 \u0434\u043b\u044f \u043d\u0456\u0447\u043d\u043e\u0457 \u0440\u043e\u0431\u043e\u0442\u0438 What you will do: - \u041c\u043e\u043d\u0456\u0442\u043e\u0440\u0438\u043d\u0433 \u0442\u0430 \u043e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0457 \u043f\u0440\u043e \u0434\u043e\u0440\u043e\u0436\u043d\u044c\u043e-\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0456 \u043f\u0440\u0438\u0433\u043e\u0434\u0438 \u0443 \u0432\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0445 \u0440\u0435\u0433\u0456\u043e\u043d\u0430\u0445 - \u0420\u043e\u0431\u043e\u0442\u0430 \u0437 \u0434\u0430\u043d\u0438\u043c\u0438 \u0432 \u0440\u0435\u0436\u0438\u043c\u0456 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0447\u0430\u0441\u0443 \u0437 \u043a\u0456\u043b\u044c\u043a\u043e\u0445 \u0434\u0436\u0435\u0440\u0435\u043b - \u0417\u0430\u043f\u0438\u0441 \u0432\u0430\u0436\u043b\u0438\u0432\u0438\u0445 \u0434\u0435\u0442\u0430\u043b\u0435\u0439, \u0442\u0430\u043a\u0456 \u044f\u043a \u043c\u0456\u0441\u0446\u0435\u0437\u043d\u0430\u0445\u043e\u0434\u0436\u0435\u043d\u043d\u044f, \u043d\u0430\u043f\u0440\u044f\u043c\u043e\u043a \u0442\u0430 \u0456\u043d\u0448\u0456. - \u041e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f \u0456\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u0456\u0432 \u0443 \u043c\u0456\u0440\u0443 \u0437\u043c\u0456\u043d\u0438 \u0443\u043c\u043e\u0432 - \u0417\u0430\u043a\u0440\u0438\u0442\u0442\u044f \u0456\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u0456\u0432 \u043f\u0456\u0441\u043b\u044f \u0457\u0445 \u0432\u0438\u0440\u0456\u0448\u0435\u043d\u043d\u044f \u0442\u0430 \u043f\u0456\u0434\u0442\u0432\u0435\u0440\u0434\u0436\u0435\u043d\u043d\u044f Originally posted on Himalayas",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/intetics/jobs/1105-incident-editorial-specialist-part-time-11-00-16-00-6985985085",
+    "id": "opp_1282b0e3d842",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:30:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "gis",
+      "editorial-specialist",
+      "incident-management",
+      "data-entry",
+      "real-time-data-processing",
+      "incident-editorial-specialist",
+      "editorial-content-assistant",
+      "part-time-content-specialist",
+      "part-time-editor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "1105 | Incident Editorial Specialist Part-time (11:00-16:00)",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/intetics/jobs/1105-incident-editorial-specialist-part-time-11-00-16-00-6985985085",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_1365d38638bc": {
@@ -19133,6 +19528,139 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_277ef181128c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "Highmark Health",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:36:49+00:00",
+    "description": "Company : United Concordia Dental Job Description : Applicants must be authorized to work in the U.S. independently. At this time, we do not offer visa sponsorship for this role. The Summer 2027 UCD Business PMO Undergraduate Internship provides students with an opportunity to gain hands-on experience supporting strategic business, automation, and artificial intelligence initiatives within the UCD Business Project Management Office (PMO). This internship is designed to develop the next generation of diverse business and technology professionals through direct exposure to project management, process automation, analytics, and AI-driven business transformation efforts. As a member of the UCD Business PMO team, the intern will contribute to a high-impact summer project supporting the organization's Automation and Artificial Intelligence portfolio. Working alongside project leaders, business stakeholders, and technical teams, the intern will assist in identifying opportunities to enhance efficiency, streamline processes, and support the implementation of innovative solutions that drive business value. The internship provides hands-on exposure to project management practices, AI use case development, business process improvement, automation technologies, and data analytics. Interns will have the opportunity to work with tools such as Microsoft Power Automate and Power BI while gaining practical experience supporting automation initiatives, business intelligence reporting, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/highmark-health/jobs/summer-2027-ucd-business-pmo-undergraduate-internship",
+    "id": "opp_277ef181128c",
+    "is_demo": false,
+    "match_score": 75.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T13:36:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 18.2,
+          "evidence": "Matched 4 profile skills: automation, dashboard, python, reporting. Covers 50% of the 6 skills this listing names (missing: analytics, aws, power bi)."
+        }
+      },
+      "final_score": 57.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 57.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "aws",
+      "automation",
+      "dashboard",
+      "power bi",
+      "analytics",
+      "business-analyst-intern",
+      "project-management-intern",
+      "data-analytics-intern",
+      "pmo-intern",
+      "business-intelligence-intern",
+      "project-management-internship",
+      "business-operations-internship",
+      "project-manager-intern",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Summer 2027 UCD Business PMO Undergraduate Internship",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/highmark-health/jobs/summer-2027-ucd-business-pmo-undergraduate-internship",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "50%",
+          "to": "56%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
     }
   },
   "opp_278f596037c1": {
@@ -55443,6 +55971,125 @@
       "probability_low": 4.0
     }
   },
+  "opp_6871358f506a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 58500.0,
+    "budget_min": 58500.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Huntress",
+    "competition_score": 35.0,
+    "confidence": 75.0,
+    "created_at": "2026-10-13T13:45:21+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote US What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That\u2019s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection. Huntress now secures more than 5M endpoints and 16M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other. Reports to: SDR Manager Location: Remote US Compensation Range: $58,500 base with on target earnings at $78,000 plus equity What You'll Do: Huntress is looking for a talented and passionate Sales Development Representative (SDR) to help fuel our continued growth. In this role, you will open doors for the Account Executive team by building relationships with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 216.95,
+    "estimated_cost": 0.0,
+    "estimated_hours": 433.9,
+    "estimated_net_revenue": 58500.0,
+    "estimated_non_ai_effort": 216.95,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/huntress-sales-development-representative-service-provider",
+    "id": "opp_6871358f506a",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "Tue, 13 Oct 2026 07:30:39 +0000",
+    "profit_score": 100.0,
+    "risk_flags": [],
+    "score": 48.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (216.9h AI / 216.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 17.7,
+          "evidence": "Estimated net $58,500 on $58,500 (100% margin). $216 per effective hour vs $85 target (271.2 effective h = 216.9h human + 216.9h AI discounted). Leverage: $270 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 6.5,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Budget >= $2,000 attracts stronger competition (-10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 48.3,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 48.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "rest"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Huntress: Sales Development Representative - Service Provider",
+    "updated_at": "2026-10-13T13:45:21+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/huntress-sales-development-representative-service-provider",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_6897c093166f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -66598,6 +67245,153 @@
       "probability_low": 15.0
     }
   },
+  "opp_78d278237417": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 78.31,
+    "budget_min": 41.3,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Baker Tilly",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:30:12+00:00",
+    "description": "Overview Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world\u2019s leading financial centers \u2013 New York, London, San Francisco, Los Angeles, Chicago and Boston. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP ( Baker Tilly ) provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to its clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP, trading as Baker Tilly , are independent members of Baker Tilly International, a worldwide network of independent accounting and business advisory firms in 141 territories, with 43,000 professionals and a combined worldwide revenue of $5.2 billion. Visit bakertilly.com or join the conversation on LinkedIn, Facebook and Instagram. Please discuss the work location status with your Baker Tilly talent acquisition professional to understand the requirements for an opportunity you are exploring. Baker Tilly is an equal opportunity/affirmative action employer. All qualified applicants \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 309.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/baker-tilly/jobs/fedramp-senior-consultant",
+    "id": "opp_78d278237417",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:30:12+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 57.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $310 on $310 (100% margin). $66 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $83 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 57.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "fedramp-assessment",
+      "cybersecurity-consulting",
+      "risk-advisory",
+      "compliance-consulting",
+      "information-security-assessment",
+      "senior-fedramp-consultant",
+      "fedramp-security-consultant",
+      "fedramp-consulting",
+      "fedramp-compliance-specialist",
+      "fedramp-security-specialist",
+      "fedramp-compliance-engineer",
+      "fedramp-compliance-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "FedRAMP Senior Consultant",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/baker-tilly/jobs/fedramp-senior-consultant",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_796a244c1c2b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -66739,6 +67533,139 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_79c91e854cf4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Sendery",
+    "competition_score": 85.2,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:18+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Sendery ( https://sendery.co ) | iOS Engineer | Tokyo, Japan (no visa support, remote available) | Contract Sendery is a transactional email platform built for teams. We provide developers, designers, and operations with the tools they need to manage their product emails without needing development work. We're currently looking for a capable iOS Engineer to join our team on a contract basis to start as we build out our mobile stack. The ideal candidate has 5+ years experience building iOS apps from zero to production (Swift, SwiftUI, UIKit, and modern iOS frameworks), and has worked in a startup environment in the past. Positive experience with AI coding tools is a plus. We're based in Japan and have preference for someone who is already in the country, but we are also considering candidates on a similar timezone, or Pacific time. To apply, please contact [contact removed] with your resume and github.",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50066343",
+    "id": "opp_79c91e854cf4",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T03:40:30Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 39.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 39.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Sendery - iOS Engineer",
+    "updated_at": "2026-10-13T13:45:18+00:00",
+    "url": "https://news.ycombinator.com/item?id=50066343",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (60-82%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "60%",
+          "to": "65%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "65%",
+          "to": "71%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 82.0,
+      "probability_low": 60.0
     }
   },
   "opp_7a7dd90d80e0": {
@@ -69033,6 +69960,155 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_7e504c7df8f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Freelance Latin America",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:30:00+00:00",
+    "description": "We are seeking an experienced Senior Account Manager to join a fast-growing, U.S.-based digital marketing organization. In this client-facing role, you will own strategic relationships, guide cross-functional teams, and ensure exceptional delivery across multiple client accounts. If you thrive in a fast-paced agency environment and enjoy turning marketing performance into meaningful business conversations, we'd love to hear from you. Duties / Task to perform Serve as the primary point of contact for a portfolio of client accounts across multiple industries. Build and maintain trusted relationships with client stakeholders and internal teams. Lead performance reviews, strategic planning sessions, and client presentations. Manage day-to-day account communications and operational priorities. Coordinate internal specialists to ensure projects are delivered on time and meet client expectations. Monitor campaign performance across paid media, SEO, creative, web development, and digital marketing initiatives. Identify risks early and collaborate with delivery teams to implement effective solutions. Maintain accurate project documentation and account records using project management tools. Develop strategic account growth plans and review business opportunities with clients regularly. Identify opportunities for upselling and expanding client services to support long-term business growth. Represent the organization professionally in every client interaction. Requirements 5+ years of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/freelance-latin-america/jobs/senior-account-manager",
+    "id": "opp_7e504c7df8f8",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:30:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "senior-account-manager",
+      "digital-marketing",
+      "account-management",
+      "performance-marketing",
+      "client-relations",
+      "senior-account-management",
+      "key-account-manager",
+      "account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Account Manager",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/freelance-latin-america/jobs/senior-account-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
     }
   },
   "opp_7f95730ff717": {
@@ -72602,6 +73678,143 @@
       ],
       "probability_high": 78.0,
       "probability_low": 58.0
+    }
+  },
+  "opp_86a8995584ab": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Uvik Software",
+    "competition_score": 80.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Tallinn, Harju County, Estonia Location: USA & LATAM | Remote Employment Type: Contractor, Full-time What You\u2019ll Do: Design, develop, and maintain backend services and RESTful APIs using Python, Flask, or FastAPI Build clean, maintainable, and scalable solutions following Python best practices and PEP8 Work with SQL databases, particularly PostgreSQL Develop unit and integration tests using Pytest Create and maintain API documentation using Swagger/OpenAPI, Insomnia, or similar tools Integrate Large Language Models (LLMs) and AI-powered functionality into backend applications Work with Git-based development workflows and participate in code reviews Debug, troubleshoot, and improve existing backend systems Contribute to CI/CD processes and development automation Collaborate with engineers and other team members in an Agile environment Communicate effectively with an international team in English What We Offer: Paid vacation and sick leave Equipment for comfortable work, if required 50% coverage of professional courses Competitive compensation based on your skills and experience Reliable and always-on-time payments A supportive international team Straightforward processes without unnecessary bureaucracy 100% remote, full-time cooperation What We\u2019re Looking For: 2\u20133+ years of commercial Python development experience Strong knowledge of Python fundamentals Hands-on experience with Flask and/or FastAPI Experience developing and integrating REST APIs Practical experience with SQL \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://www.python.org/jobs/8174/",
+    "id": "opp_86a8995584ab",
+    "is_demo": false,
+    "match_score": 76.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 63.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 14.4,
+          "evidence": "Small, on-stack board; applying is a direct link with far fewer applicants than an aggregator. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.2,
+          "evidence": "Matched 6 profile skills: automation, ci/cd, pytest, python, rest api, sql. Covers 33% of the 12 skills this listing names (missing: api, docker, fastapi, flask)."
+        }
+      },
+      "final_score": 63.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "fastapi",
+      "flask",
+      "docker",
+      "kubernetes",
+      "ci/cd",
+      "automation"
+    ],
+    "source": "python_jobs",
+    "status": "SKIP",
+    "title": "Python Backend Engineer, Uvik Software",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://www.python.org/jobs/8174/",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (53-71%)",
+      "factors": [
+        {
+          "effect": "70%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "70%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "70%",
+          "to": "60%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+12%",
+          "factor": "Strong skill alignment",
+          "from": "60%",
+          "to": "72%",
+          "why": "6 profile skills named: automation, ci/cd, pytest, python, rest api, sql."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "72%",
+          "to": "62%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 71.0,
+      "probability_low": 53.0
     }
   },
   "opp_86d5f00ed564": {
@@ -83789,6 +85002,139 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_99fdba7381dd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 36.06,
+    "budget_min": 31.25,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Advision Development",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:30:28+00:00",
+    "description": "About Advision Development We are a growing company in the sports technology sector with a product that has achieved product-market fit. We are now investing in our core infrastructure to support future growth, and this role is central to that effort. About the Role Advision Development is looking for a strategic, detail-oriented SEO Innovation Content Specialist with a strong background in sports, sports betting, and iGaming to join our growing SEO innovation team. You\u2019ll play a key role in driving organic growth through smart SEO strategies, high-quality content execution, and editorial leadership across various websites and experiments we conduct. This role combines on-page SEO acumen with content editorial skills\u2014perfect for someone who can identify ranking opportunities, create keyword-driven content briefs, and help build topical authority in the U.S. sports betting and online casino space. _____ _ Key Responsibilities Conduct keyword research and competitive analysis to identify ranking gaps and high-intent search opportunities Develop and execute innovative SEO content strategies for sports betting and online casino verticals Write, edit, and optimize content for clarity, search intent, and accuracy Build and manage content briefs, templates, and editorial guidelines that support SEO goals Collaborate with internal writers and freelance contributors to ensure content quality and consistency Oversee the publishing process and maintain SEO optimized practices across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 234.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/advision-development/jobs/seo-innovation-content-specialist-sports-igaming-focus",
+    "id": "opp_99fdba7381dd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:30:28+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 34.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $234 on $234 (100% margin). $50 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $62 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "seo",
+      "content-strategy",
+      "content-marketing",
+      "sports-marketing",
+      "igaming",
+      "seo-content-specialist",
+      "content-seo-specialist",
+      "seo-content-strategist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SEO Innovation Content Specialist (Sports & iGaming Focus)",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/advision-development/jobs/seo-innovation-content-specialist-sports-igaming-focus",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_9a2aeb1eceae": {
@@ -100972,6 +102318,138 @@
       "probability_low": 32.0
     }
   },
+  "opp_b8cc5d9bbe30": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Novalink Solutions  LLC",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:29:57+00:00",
+    "description": "This is a remote position. Summary Job Title: Account Manager \u2013 IT Staffing Location: USA Client: Novalink Solutions Applicants must reside and be authorized to work in the USA Novalink Solutions is looking for a results-driven Account Manager to join our growing team! If you have a strong background in IT staffing, recruitment, and client relationship management, this is your chance to work with a global consulting and engineering services firm Required Qualifications and Skills: Proven experience in account management, sales, or recruitment (Minimum 2 years). Strong communication and interpersonal skills with a focus on relationship building. Excellent organizational and multitasking abilities. Proficiency in CRM systems (Zoho or similar tools.) and recruitment tools. Ability to manage multiple accounts and competing priorities in a fast-paced environment. Strong analytical skills, with the ability to assess data and provide actionable insights. High attention to detail and commitment to quality. Experience with managing offshore teams is a plus. Experience in managing and evaluating Individual Consultant Records (NICRs), including updates, creation, and termination. Preferred Qualifications: 2 years\u2019 experience in IT staffing recruitment. Knowledge of job portals, social media platforms, and lead generation tools. Ability to work independently and as part of a cross-functional team. Good manager and team player with great flexible attitude. Employers have access to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/novalink-solutions-llc/jobs/accounts-manager",
+    "id": "opp_b8cc5d9bbe30",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T13:29:57+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "account-management",
+      "it-staffing",
+      "recruitment",
+      "sales",
+      "accounts-manager",
+      "accounting-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Accounts Manager",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/novalink-solutions-llc/jobs/accounts-manager",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b996d2a83499": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -102609,6 +104087,150 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_bca50a4ec505": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "My VA Support, Inc.",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:29:55+00:00",
+    "description": "This is a remote position. Only LATAM-based candidates (bilingual in Spanish and English) We are looking for a proactive, organized, and results-driven Marketing & Business Development Assistant to support the growth of GOA-TECH, MyVA Support, and Reach Voters . In this role, you will be responsible for managing marketing-generated leads from initial contact through qualification, appointment scheduling, and ongoing follow-up. You'll play a key role in ensuring every opportunity is properly nurtured, documented, and moved through the sales pipeline. This position is ideal for someone who enjoys combining sales, business development, relationship building, and CRM management in a fast-paced environment. Responsibilities Respond promptly to inbound marketing-generated leads. Qualify prospects through phone calls, emails, and virtual meetings. Schedule discovery calls between qualified prospects and leadership. Maintain consistent follow-up with active leads until they are closed or disqualified. Manage and update CRM records with complete and accurate information. Track sales opportunities throughout the pipeline. Document meeting notes, conversations, and next steps. Follow up on proposals and maintain communication with prospects. Collaborate closely with the Marketing and Leadership teams. Participate in pipeline review meetings and contribute ideas for improving lead conversion. Ensure no qualified opportunities are lost due to lack of follow-up. Requirements 2+ years of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/my-va-support-inc/jobs/marketing-business-development-assistant",
+    "id": "opp_bca50a4ec505",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:29:55+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "marketing",
+      "business-development",
+      "lead-generation",
+      "sales",
+      "appointment-setting",
+      "business-development-assistant",
+      "sales-and-marketing-assistant",
+      "marketing-assistant",
+      "business-development-associate",
+      "business-development-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Marketing & Business Development Assistant",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/my-va-support-inc/jobs/marketing-business-development-assistant",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_bd542fb6d369": {
@@ -106469,6 +108091,128 @@
       "probability_low": 4.0
     }
   },
+  "opp_c3cb2a947e90": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "BayApps, Inc.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:29:53+00:00",
+    "description": "This is a remote position. This is a contract role for a Kantata/Mavenlink Implementation Consultant at BayApps, Inc . You will be responsible for analyzing business processes, identifying opportunities for improvement, and providing strategic recommendations to enhance overall efficiency and productivity. You will collaborate with cross-functional teams, stakeholders, and leadership to gather requirements, document specifications, and ensure successful project delivery. This is a remote position that offers flexibility and the opportunity to work with a diverse and global team. Your key responsibilities will include the following. Design and build scalable techno-functional solutions for Professional Services Automation. Develop, debug, support, maintain and test Kantata/Mavenlink functionality, managed applications and connected applications for project management, resource management, time and expense management, project billing, project accounting, reporting and analytics. Develop solutions per best practices. Participate in key phases of the software development lifecycle, including solution design, configuration, code development, testing, deployment and production support. Translate business requirements to solution design, develop design options & recommendations, review design and code, and manage issues and risks. Design, build and maintain integrations between Salesforce and Kantata/Mavenlinkand between Kantata/Mavenlinkand Oracle EBS for billing, revenue and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bayapps-inc/jobs/kantata-mavenlink-implementation-consultant",
+    "id": "opp_c3cb2a947e90",
+    "is_demo": false,
+    "match_score": 79.1,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T13:29:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 62.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.2,
+          "evidence": "Matched 3 profile skills: automation, excel, reporting. Covers 67% of the 3 skills this listing names (missing: analytics)."
+        }
+      },
+      "final_score": 62.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 62.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "analytics",
+      "implementation-consultant",
+      "business-analysis",
+      "salesforce-consulting",
+      "erp-consulting",
+      "professional-services-automation-(psa)",
+      "senior-implementation-consultant",
+      "software-implementation-consultant",
+      "technical-implementation-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Kantata/Mavenlink Implementation Consultant",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/bayapps-inc/jobs/kantata-mavenlink-implementation-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (43-59%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 59.0,
+      "probability_low": 43.0
+    }
+  },
   "opp_c3e2a9968477": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -107409,6 +109153,148 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_c59bf20a8347": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 163.46,
+    "budget_min": 115.38,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Fortrea",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-13T13:45:19+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-12T13:29:58+00:00",
+    "description": "Senior Medical Director, Rheumatology - US Remote Based Raising CRO standards for innovation and delivery to help bring life-changing treatments to patients faster. Fortrea is seeking a dedicated US remote based Medical Director or Senior Medical Director with deep expertise in Rheumatology along with background in innovative therapies, including cell and gene therapy . The incumbent will provide medical leadership and oversight across all phases of development, including early-phase innovation and late-phase global programs. Responsible for supporting the development activities of proposed and ongoing projects in their area of expertise, as well as medical monitoring to assigned clinical studies. The (Senior) Medical Director will serve as a key medical representative in client interactions, business \u2011 development discussions, and proposal presentations. The role will further foster and enhance relationships with global clinical operations teams and provide leadership as the Leading Physician for Phase I\u2013IV clinical trials). We are particularly interested in candidates who have led or supported rheumatology clinical programs and who are comfortable serving as the study physician, providing medical monitoring oversight (e.g., safety review, contribution to protocol development, including study design, endpoints and eligibility criteria) and working collaboratively with other project team members. In addition to strong scientific leadership, the role is expected to be highly \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 1153.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fortrea/jobs/sr-medical-director-rheumatology-us-remote",
+    "id": "opp_c59bf20a8347",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-13T13:29:58+00:00",
+    "profit_score": 87.4,
+    "risk_flags": [],
+    "score": 48.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.1,
+          "evidence": "Estimated net $1,154 on $1,154 (100% margin). $243 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $385 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 48.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 48.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "medical-director",
+      "rheumatologist",
+      "clinical-development-director",
+      "medical-affairs-director",
+      "medical-monitor",
+      "global-medical-affairs-director-rheumatology",
+      "remote-medical-affairs-director",
+      "remote-medical-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr. Medical Director, Rheumatology - US Remote",
+    "updated_at": "2026-10-13T13:45:19+00:00",
+    "url": "https://himalayas.app/companies/fortrea/jobs/sr-medical-director-rheumatology-us-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_c59d02f111eb": {
@@ -115950,6 +117836,135 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_d45e9e33d0b7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Irash Tech",
+    "competition_score": 94.8,
+    "confidence": 60.0,
+    "created_at": "2026-10-13T13:45:18+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused development agency based in Hyderabad, India. We build web apps (Next.js, React, Node), mobile apps (React Native/Expo) and AI automation (LLM integrations, RAG, document processing, n8n/Python workflows) for startups and small businesses. I'm the founder, an engineer with 7+ years in full-stack and AI, and I handle scoping and delivery. I'm looking for people anywhere in the world who can find and close clients in their own market. - 15% of project value on every client you close, paid within 14 days of client payment - 12 months of commission on repeat work from clients you bring - Commission-only, no base salary. Non-exclusive, so it works alongside your other work - You own the client relationship and negotiation; final quotes are approved by us Good fit: you know founders, SMBs or agencies that need software built, and you've sold software, dev or digital services before. Apply: https://www.irashtech.com/careers/business-development-manag... Or email [contact removed] with a short note on one deal you've closed.",
+    "discovered_by_run": "20261013T134517Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50068986",
+    "id": "opp_d45e9e33d0b7",
+    "is_demo": false,
+    "match_score": 34.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-13T09:31:19Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 13.8,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.4,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 50% of the 4 skills this listing names (missing: node, react)."
+        }
+      },
+      "final_score": 55.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"in full-stack\"; \"i handle scoping\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 55.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "automation",
+      "react",
+      "node",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Irash Tech - Business Development Manager",
+    "updated_at": "2026-10-13T13:45:18+00:00",
+    "url": "https://news.ycombinator.com/item?id=50068986",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (69-93%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "75%",
+          "to": "81%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 93.0,
+      "probability_low": 69.0
     }
   },
   "opp_d46edfeef28b": {
