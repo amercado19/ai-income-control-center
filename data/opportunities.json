@@ -23956,6 +23956,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_2cf146bdb075": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 77.93,
+    "budget_min": 62.36,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "agilon health",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:17:01+00:00",
+    "description": "Company: AHI agilon health , inc. Job Posting Location : Remote - USA Job Title: \u200b Actuarial Manager, Medicare Value-Based Care Job Description: \u200b Candidates must be legally authorized to work in the United States without employer sponsorship, now or in the future. agilon health partners with primary care physicians to transform how care is delivered to seniors, taking on full-risk, total-cost-of-care arrangements. The actuarial team's work sits at the center of that model. The Actuarial Manager, Medicare Value-Based Care is a senior individual contributor on the Markets actuarial team who will own the monthly results process for agilon's ACO REACH/ACO LEAD and MSSP populations, support payer settlement reconciliations, and produce supplemental exhibits for the month-end close. Operating in a consulting-style capacity, the Manager will also deliver high-priority analyses and project work, both individually and leading analysts from across the team, without direct people-management responsibility. This role is ideal for an experienced actuary who enjoys variety: roughly 40% of time is dedicated to CMS value-based program results, 40% to ad hoc projects and analyst coaching, and the remaining 20% to annual payer financial settlement work and select MA close deliverables. The Manager will also help incorporate AI support into the team's processes and co-lead project management across the actuarial organization. This is a fully remote position with minimal required trav el. This \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 467.7,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/agilon-health/jobs/actuarial-manager-medicare-value-based-care",
+    "id": "opp_2cf146bdb075",
+    "is_demo": false,
+    "match_score": 87.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:17:02+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 77.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $468 on $468 (100% margin). $100 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $125 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 32.4,
+          "evidence": "Matched 4 profile skills: automation, excel, forecasting, sql. Covers 100% of the 4 skills this listing names."
+        }
+      },
+      "final_score": 77.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 77.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "automation",
+      "forecasting",
+      "actuarial-manager",
+      "actuary",
+      "medicare-actuary",
+      "health-actuary",
+      "value-based-care-actuary",
+      "senior-actuarial-manager",
+      "actuary-manager",
+      "actuarial-services-manager"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Actuarial Manager, Medicare Value-Based Care",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/agilon-health/jobs/actuarial-manager-medicare-value-based-care",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_2d127de78e1f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -30342,6 +30486,138 @@
     "title": "Vice President of Business Development",
     "updated_at": "2026-09-14T12:05:22+00:00",
     "url": "https://himalayas.app/companies/onmed/jobs/vice-president-of-business-development",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_372eeec82436": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 27,
+    "budget_min": 23,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Devoted Health",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:14:18+00:00",
+    "description": "Job Description A bit about this role: We want to help members navigate the healthcare system in a better and safer way. The Transitions of Care (TOC) Team supports members who are newly discharged from the hospital (and in some cases prior to discharge). You\u2019ll serve as an advocate for these members, coordinating care and ensuring they have the necessary resources and support to achieve better health outcomes. As a TOC Associate your goal will be to support members in safely recovering at home and to prevent hospital readmissions. Our ideal TOC Associate is caring, compassionate, energetic, and genuinely enjoys connecting with people. Your Responsibilities and Impact will include: Calling (inbound/outbound) patients to check in after discharge to see how they are doing, and that they have received the assistance they need. Work with affiliated vendors to coordinate services and care for members, to include transportation, DME, meals, home health care and more as appropriate. Assisting with scheduling of post discharge TOC APP, PCP, and Specialist visits. Collaborate with patients, providers, and caregivers to ensure a positive outcome. Working hand in hand with the other members of the TOC team to address patient needs towards team based goals. This may include interdisciplinary huddles. Participating in and assisting with pilot programs. Coordinating with medical providers and facilities to access necessary discharge records. Following escalation processes to the clinical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 172.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/devoted-health/jobs/transitions-of-care-medical-assistant-member-outreach",
+    "id": "opp_372eeec82436",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:14:19+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $172 on $172 (100% margin). $37 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $46 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "medical-assistant",
+      "care-coordinator",
+      "patient-navigator",
+      "care-manager",
+      "member-outreach-specialist",
+      "member-outreach",
+      "transitions-of-care"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Transitions of Care Medical Assistant - Member Outreach",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/devoted-health/jobs/transitions-of-care-medical-assistant-member-outreach",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -43346,6 +43622,154 @@
       "probability_low": 32.0
     }
   },
+  "opp_4dee68afdde5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 69.71,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Blavity Inc.",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:17:01+00:00",
+    "description": "Blavity, Inc. is a venture-funded media and technology company, founded in 2014 around a simple idea: enable Black millennials to tell their own stories. Today, we are home to the largest network of platforms and lifestyle brands serving the multifaceted lives of Black millennials & Gen Z through original content, video, unique experiences, and product solutions. Blavity Inc. has evolved into a market leader for Black media, reaching 250 million users per month through our growing brand portfolio, including Blavity, AfroTech, Talent Infusion, Travel Noire, HealthStack, and Blavity House Party. Our Blavity, Inc. employee community is composed of passionate, energetic, and culturally conscious individuals working together to deliver value to each other, the company, and our clients. We are always searching for new additions to our community that will help us continue to scale, contribute meaningfully to our culture, and advance our strategic direction. Job Summary: Blavity Inc. is seeking a dynamic, results-driven Accounts Director to join our high-performing Media and Experiential Sales team. This hybrid role is designed for a leader who excels not only at deeply cultivating and expanding relationships with our existing clients but also at helping build new agency-level relationships. The ideal candidate is a master of both the \"hunt\" and the \"farm,\" leveraging their deep product knowledge and exceptional rapport-building skills to drive significant revenue growth across the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 195.89,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blavity-inc/jobs/senior-account-director-blavity-media-group",
+    "id": "opp_4dee68afdde5",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:17:02+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 73.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $196 on $196 (100% margin). $215 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $700 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, forecasting."
+        }
+      },
+      "final_score": 73.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "account-director",
+      "sales-director",
+      "media-sales-director",
+      "advertising-sales-director",
+      "senior-account-executive",
+      "senior-account-director",
+      "group-account-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Account Director, Blavity Media Group",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/blavity-inc/jobs/senior-account-director-blavity-media-group",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_4e062183bcaf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -55485,6 +55909,144 @@
       "probability_low": 26.0
     }
   },
+  "opp_63140c80d7e6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "HelloKindred",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "GBP",
+    "deadline": "2026-12-14T15:16:13+00:00",
+    "description": "Anticipated Contract End Date/Length: 6 months Work Set Up: Remote (100% remote) Our client in the Information Technology and Services industry is looking for a Senior DevOps / Automation Engineer (IBM Z & Hybrid Platform) to lead automation and DevOps modernisation across IBM Z and distributed platforms. This role will involve designing and implementing production-grade automation, CI/CD pipelines, compliance controls, observability solutions, and secure orchestration capabilities across a global enterprise environment. The ideal candidate will bring extensive DevOps engineering experience, strong technical leadership skills, and hands-on expertise in enterprise automation and platform integration. The successful candidate will drive engineering best practices, strengthen governance and compliance, and mentor engineers in delivering resilient, secure, auditable, and scalable automation solutions across complex enterprise environments. Responsibilities Provide technical leadership, mentor engineers, conduct design reviews, and promote DevOps engineering best practices. Design and develop production-grade automation using Python and YAML, incorporating testing, logging, error handling, and operational resilience. Develop and maintain enterprise-scale automation workflows using Ansible Automation Platform (AAP) across IBM Z and distributed platforms. Build idempotent, restartable, and state-aware workflows with appropriate failure handling, retry logic, and operational \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hellokindred/jobs/ibm-z-dev-ops-automation-engineer",
+    "id": "opp_63140c80d7e6",
+    "is_demo": false,
+    "match_score": 89.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T15:16:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 60.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 21.7,
+          "evidence": "Matched 6 profile skills: automation, ci/cd, dashboard, excel, python, sql. Covers 55% of the 11 skills this listing names (missing: api, grafana, postgres, postgresql)."
+        }
+      },
+      "final_score": 60.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 60.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "excel",
+      "api",
+      "rest",
+      "ci/cd",
+      "automation",
+      "dashboard",
+      "grafana",
+      "devops-engineer",
+      "automation-engineer",
+      "platform-engineer",
+      "site-reliability-engineer",
+      "infrastructure-engineer",
+      "ibm-z-os-engineer",
+      "devops-automation-engineer",
+      "ibm-z-mainframe-specialist",
+      "it-automation-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "IBM Z Dev/Ops / Automation Engineer",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/hellokindred/jobs/ibm-z-dev-ops-automation-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_631a69cc00a7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -57312,6 +57874,144 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_668eb6390368": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 26.92,
+    "budget_min": 21.63,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Global Healthcare Exchange (GHX)",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:12:07+00:00",
+    "description": "A Customer Support Analyst Level II works within the Customer Support Center to meet the needs of GHX's important customers. The CSA-II will develop a strong working knowledge of our leading edge GHX Internet B2B exchange system and growth products, the Customer Support knowledge base, and Customer Support administrative tools. With this knowledge and tools, the CSA-II will answer customer's questions, assist customers in using the functions of the system, and help them when they have problems in using or connecting to the system. Extensive collaborative troubleshooting and problem solving may be required at times. CSA-II will perform these activities with the help of guidelines to assure efficiency, reliability, and quality. The CSA-II works on problems of diverse scope where analysis of situations requires technical expertise and the use of logical diagnostic skills. Principle Duties and Responsibilities: Acts as a primary point of contact at GHX for its customers who reach out to GHX via telephone, email, and the GHX Community Web Portal. Works directly with customers to help meet their needs and solve their problems, including systems, specific products, and general information. Works cooperatively with other team members and departments to develop effective and timely solutions for customers. Utilizes Customer Relationship Management System \u2018Salesforce\u2019 to record and research customer information and to record all the customer's questions, problems, and solutions. Uses \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 162.22,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/global-healthcare-exchange-ghx/jobs/customer-support-analyst-ii",
+    "id": "opp_668eb6390368",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:12:09+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 62.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $162 on $162 (100% margin). $35 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $43 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 67% of the 3 skills this listing names (missing: analytics)."
+        }
+      },
+      "final_score": 62.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "analytics",
+      "customer-support-analyst",
+      "technical-support-specialist",
+      "service-desk-analyst",
+      "customer-service",
+      "support-analyst",
+      "client-support-analyst",
+      "customer-service-analyst",
+      "technical-support-analyst",
+      "b2b-support-analyst",
+      "customer-care-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Support Analyst II",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/global-healthcare-exchange-ghx/jobs/customer-support-analyst-ii",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_66c34c7fdeed": {
@@ -92656,6 +93356,144 @@
       "probability_low": 21.0
     }
   },
+  "opp_9e9ceb456eae": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.67,
+    "budget_min": 0.38,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "One World Global Services",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:13:55+00:00",
+    "description": "WE ARE HIRING EXPERIENCED INTERPRETERS PER MINUTE!!! LANGUAGE: SOMALI/SWAHILI Requirements: 90% English proficiency Steady wired internet connection USB Wired headset Windows 10 or MacOS WHAT WE OFFER YOU: Fully remote position with a clear schedule Full-time or part-time position Immediate availability to start working after onboarding Monthly payments Per minute or fixed Rate. YOUR RESPONSIBILITIES: Answer calls professionally, acting according to the Interpreter\u2019s code of conduct. Be aware of the specific vocabulary of the industry the interpreter works with (healthcare and medical one, specifically). Go into internal professional training. Communicate and report to your team leader. YOUR BACKGROUND AND EXPERIENCE: Proficiency/Bilingual/Native level of English and target language. 2+ years of interpreting experience (Desirable). High emotional intelligence and tolerance of diverse cultures. High level of communication, listening, note-taking, and memory retention skills. WHAT WE OFFER YOU: Fully remote position with a clear schedule Full-time or part-time position Immediate availability to start working after onboarding Internal training Originally posted on Himalayas",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 2.85,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/one-world-global-services/jobs/somali-swahili-interpreter",
+    "id": "opp_9e9ceb456eae",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:13:56+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $3 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "interpreters",
+      "medical-interpreter",
+      "somali-interpreter",
+      "swahili-interpreter",
+      "somali-language-interpreter",
+      "african-language-interpreter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Somali/Swahili :Interpreter",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/one-world-global-services/jobs/somali-swahili-interpreter",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_9eb80e1c715f": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -98092,6 +98930,145 @@
     "title": "Blockchain Developer",
     "updated_at": "2026-09-28T04:14:02+00:00",
     "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/blockchain-developer-4532528590",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_a7507981fc4c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 35,
+    "budget_min": 28,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Health Advocate Solutions, Inc.",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:17:01+00:00",
+    "description": "Why is Health Advocate a great place to work? For starters, Health Advocate employees enjoy helping people every single day. Employees are given the training they need to do their jobs well, and they work with supervisors and staff who are supportive and friendly. Employees have room to grow, and many of Health Advocate's supervisors are promoted from within the company. Join our award winning team! 2025: Stevie\u00ae Awards for Sales & Customer Service: Customer Service Department of the Year \u2013 Healthcare, Pharmaceuticals, and Related Industries, Bronze Winner 2024: Excellence in Customer Service Awards: Organization of the Year (Small) Stevie\u00ae Awards for Sales & Customer Service: Customer Service Department of the Year \u2013 Healthcare, Pharmaceuticals, and Related Industries, Bronze Winner Best in Biz Awards: Most Customer-Friendly Company of the Year \u2013 Medium and large category (Silver) As part of Teleperformance in the US, we were also named #95 in the 2024 \u2018Fortune 100 Best Companies to Work For\u00ae\u2019 in the USA by Great Places to Work (GPTW\u00ae) About the role The EAP Care Manager is a mental health professional who provides telephonic and/or live chat support to members accessing the Employee Assistance Program (EAP). This role delivers brief clinical assessment, crisis intervention, solution-focused support, referral coordination, and workplace consultation services. The Care Manager ensures high-quality member experience while adhering to clinical best practices, confidentiality \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 210.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/health-advocate-solutions-inc/jobs/eap-care-manager-2-7403028388",
+    "id": "opp_a7507981fc4c",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:17:02+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [],
+    "score": 57.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $210 on $210 (100% margin). $45 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $56 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "eap-care-manager",
+      "care-manager",
+      "behavioral-health-case-manager",
+      "mental-health-case-manager",
+      "clinical-care-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "EAP Care Manager 2",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/health-advocate-solutions-inc/jobs/eap-care-manager-2-7403028388",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -107827,6 +108804,143 @@
       "probability_low": 32.0
     }
   },
+  "opp_b8cc16f32566": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Intetics",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:17:01+00:00",
+    "description": "Intetics Inc., \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0430 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f, \u0449\u043e \u043d\u0430\u0434\u0430\u0454 \u043f\u043e\u0441\u043b\u0443\u0433\u0438 \u0437 \u0440\u043e\u0437\u0440\u043e\u0431\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u043e\u0433\u043e \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f \u043d\u0430 \u0437\u0430\u043c\u043e\u0432\u043b\u0435\u043d\u043d\u044f, \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u0440\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u0435\u043d\u0438\u0445 \u043a\u043e\u043c\u0430\u043d\u0434, \u043e\u0446\u0456\u043d\u043a\u0438 \u044f\u043a\u043e\u0441\u0442\u0456 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u0438\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0456\u0432 \u0442\u0430 all-things-digital \u0440\u0456\u0448\u0435\u043d\u044c, \u0448\u0443\u043a\u0430\u0454 Data Entry Specialist \u0434\u043e \u043d\u0430\u0448\u043e\u0457 \u043a\u043e\u043c\u0430\u043d\u0434\u0438. \u041f\u043e\u0441\u0430\u0434\u0430 Data Entry Specialist \u043f\u0435\u0440\u0435\u0434\u0431\u0430\u0447\u0430\u0454 \u0440\u0443\u0447\u043d\u0435 \u0432\u043d\u0435\u0441\u0435\u043d\u043d\u044f \u0442\u0430 \u043e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0457 \u0432 \u0431\u0430\u0437\u0456 \u0434\u0430\u043d\u0438\u0445 \u0434\u043b\u044f \u043c\u043e\u0431\u0456\u043b\u044c\u043d\u043e\u0433\u043e \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u043d\u043a\u0443, \u044f\u043a\u0438\u0439 \u0434\u043e\u043f\u043e\u043c\u0430\u0433\u0430\u0454 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\u043c \u0437\u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0438 \u0442\u0430 \u043f\u043e\u0440\u0456\u0432\u043d\u044e\u0432\u0430\u0442\u0438 \u0432\u0430\u0440\u0456\u0430\u043d\u0442\u0438 \u043f\u0430\u0440\u043a\u0443\u0432\u0430\u043d\u043d\u044f \u0432 \u043c\u0456\u0441\u0442\u0430\u0445 \u0421\u0428\u0410 \u0442\u0430 \u0404\u0432\u0440\u043e\u043f\u0438. \u041f\u043e\u043f\u0435\u0440\u0435\u0434\u043d\u0456\u0439 \u0434\u043e\u0441\u0432\u0456\u0434 \u043d\u0435 \u043f\u043e\u0442\u0440\u0456\u0431\u0435\u043d \u2014 \u043c\u0438 \u043d\u0430\u0434\u0430\u0454\u043c\u043e \u043f\u043e\u0432\u043d\u0435 \u043d\u0430\u0432\u0447\u0430\u043d\u043d\u044f. \u0426\u0435 \u0447\u0443\u0434\u043e\u0432\u0430 \u043c\u043e\u0436\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0440\u043e\u0437\u043f\u043e\u0447\u0430\u0442\u0438 \u043a\u0430\u0440\u2019\u0454\u0440\u0443 \u0432 IT \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0430\u0442\u0438 \u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u043d\u0430 \u043c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0438\u0445 \u043f\u0440\u043e\u0454\u043a\u0442\u0430\u0445. \u0426\u0435 \u043f\u043e\u0432\u043d\u0430 \u0437\u0430\u0439\u043d\u044f\u0442\u0456\u0441\u0442\u044c \u0443 \u0432\u0456\u0434\u0434\u0430\u043b\u0435\u043d\u043e\u043c\u0443 \u0444\u043e\u0440\u043c\u0430\u0442\u0456 \u0437 \u0433\u043d\u0443\u0447\u043a\u0438\u043c part-time \u0433\u0440\u0430\u0444\u0456\u043a\u043e\u043c: \u0412\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u0447\u0438\u043d\u0430\u0442\u0438 \u0440\u043e\u0431\u043e\u0442\u0443 \u043a\u043e\u043b\u0438 \u0432\u0430\u043c \u0437\u0440\u0443\u0447\u043d\u043e: \u0437 7:00 \u0434\u043e 11:00 \u0437\u0430 \u041a\u0438\u0454\u0432\u043e\u043c \u0456 \u043f\u0440\u0430\u0446\u044e\u0432\u0430\u0442\u0438 \u043f\u0440\u043e\u0442\u044f\u0433\u043e\u043c 6,5 \u0433\u043e\u0434\u0438\u043d. \u0412\u0438 \u043f\u0440\u0430\u0446\u044e\u0432\u0430\u0442\u0438\u043c\u0435\u0442\u0435 \u0437 \u0434\u0430\u043d\u0438\u043c\u0438 \u0430\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e, \u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u044e\u0447\u0438 \u0447\u0456\u0442\u043a\u0456 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0442\u0430 \u0437\u0431\u0435\u0440\u0456\u0433\u0430\u044e\u0447\u0438 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0456\u044e \u043f\u0456\u0434 \u0447\u0430\u0441 \u0440\u043e\u0431\u043e\u0442\u0438. Requirements \u0420\u0456\u0432\u0435\u043d\u044c \u0430\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u043e\u0457 \u043c\u043e\u0432\u0438 \u2014 Intermediate \u0430\u0431\u043e \u0432\u0438\u0449\u0435. \u0417\u043d\u0430\u043d\u043d\u044f \u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0445 \u0456\u043d\u043e\u0437\u0435\u043c\u043d\u0438\u0445 \u043c\u043e\u0432 \u0431\u0443\u0434\u0435 \u043f\u0435\u0440\u0435\u0432\u0430\u0433\u043e\u044e. \u041b\u043e\u0433\u0456\u0447\u043d\u0435 \u043c\u0438\u0441\u043b\u0435\u043d\u043d\u044f \u0442\u0430 \u0432\u043c\u0456\u043d\u043d\u044f \u0448\u0432\u0438\u0434\u043a\u043e \u043f\u0440\u0438\u0439\u043c\u0430\u0442\u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u043d\u0456 \u0440\u0456\u0448\u0435\u043d\u043d\u044f. \u0412\u0438\u0441\u043e\u043a\u0430 \u0448\u0432\u0438\u0434\u043a\u0456\u0441\u0442\u044c \u0456 \u0442\u043e\u0447\u043d\u0456\u0441\u0442\u044c \u043d\u0430\u0431\u043e\u0440\u0443 \u0442\u0435\u043a\u0441\u0442\u0443. What you will do: \u2014 \u0410\u043d\u0430\u043b\u0456\u0437 \u0456 \u0432\u043d\u0435\u0441\u0435\u043d\u043d\u044f \u0434\u0430\u043d\u0438\u0445 \u0456\u0437 \u0440\u0456\u0437\u043d\u0438\u0445 \u0434\u0436\u0435\u0440\u0435\u043b (\u043d\u0430\u043f\u0440\u0438\u043a\u043b\u0430\u0434, \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0456\u0439, \u0432\u0435\u0431\u0441\u0430\u0439\u0442\u0456\u0432 \u0442\u0430 \u043c\u0430\u0442\u0435\u0440\u0456\u0430\u043b\u0456\u0432, \u043d\u0430\u0434\u0430\u043d\u0438\u0445 \u043a\u043b\u0456\u0454\u043d\u0442\u043e\u043c). \u2014 \u041e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f \u0442\u0430 \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u0430 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043d\u0438\u0445 \u043a\u043b\u0456\u0454\u043d\u0442\u0430. \u2014 \u041f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044f \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u044c\u043e\u0433\u043e \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044e \u044f\u043a\u043e\u0441\u0442\u0456 \u0432\u0438\u043a\u043e\u043d\u0430\u043d\u043e\u0457 \u0440\u043e\u0431\u043e\u0442\u0438. Originally posted on Himalayas",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/intetics/jobs/1176-data-entry-part-time",
+    "id": "opp_b8cc16f32566",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T15:17:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data entry",
+      "data-entry-specialist",
+      "data-entry-clerk",
+      "administrative-assistant",
+      "office-administrator",
+      "part-time-data-entry",
+      "data-entry-jobs",
+      "data-entry-associate",
+      "data-entry-agent",
+      "entry-level-data-entry",
+      "data-entry-assistant",
+      "data-entry"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "1176 | Data Entry (\u0431\u0435\u0437 \u0434\u043e\u0441\u0432\u0456\u0434\u0443) Part-time",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/intetics/jobs/1176-data-entry-part-time",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b8cc5d9bbe30": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -111428,6 +112542,141 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_c05830a29f6b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Squad",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T15:12:21+00:00",
+    "description": "Team Summary We are a small frontend team building a web platform for ML data annotation. Our frontend work is an active balance of greenfield feature development and the continuous evolution of our established data-annotation tools. Whether architecting a new visual editor from scratch or modernizing an existing codebase, we hold all work to the same standard: architecture docs as the source of truth, small reviewed PRs, strict linting/type checks a dedicated component book for every UI element, and an AI-assisted workflow. Job Summary We are looking for an intern with solid TypeScript fundamentals who is eager to learn Svelte and modern frontend conventions. In this role you'll start with well-scoped tasks: UI components, component book entries, tests, small bug fixes in legacy projects under a mentor's review, and grow toward owning small features end to end. You will work with a modern stack (Svelte 5, TypeScript, Tailwind, Bun), practice AI-assisted development as a standard workflow, and ship to production behind strict quality gates in a team small enough for your work to make an immediate impact. Responsibilities and Duties Implement small UI components and pages in Svelte 5 / TypeScript following the design system Add component book entries and write unit/browser tests for new and existing components Fix well-scoped bugs in the new platform and in legacy projects Integrate simple REST endpoints under guidance Participate in code review (receive feedback, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gosquad/jobs/intern-frontend-engineer",
+    "id": "opp_c05830a29f6b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T15:12:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 38.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "typescript",
+      "react",
+      "html",
+      "css",
+      "front-end-developer",
+      "frontend-engineer",
+      "web-developer",
+      "ui-engineer",
+      "software-engineer",
+      "frontend-engineering-intern",
+      "intern-frontend-developer",
+      "frontend-developer-intern",
+      "frontend-development-intern",
+      "frontend-intern",
+      "frontend-development-internship",
+      "javascript-development-intern"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Intern Frontend Engineer",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://himalayas.app/companies/gosquad/jobs/intern-frontend-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_c05d2790fdec": {
@@ -142653,6 +143902,134 @@
           "from": "30%",
           "to": "36%",
           "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_f29802b130a4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 33.65,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "iMerit Technology",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T16:29:45+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Remote | Independent Contractor | Get certified for future project opportunities Prove your skills. Get certified. Be ready for what comes next. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available. What You Will Do As part of the certification process, you will demonstrate your ability to: Annotate short video clips by identifying objects, actions and events. Evaluate video quality, relevance and accuracy against established guidelines. Assess the clarity and plausibility of movements. Apply instructions consistently and identify potential quality issues. What You Bring Strong attention to detail and analytical thinking. Strong written English and the ability to follow detailed instructions independently. A commitment to accuracy and consistency. No previous AI or robotics experience required. What the Work Looks Like You may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible. Why Get Certified Now Completing certification in advance allows you to demonstrate your qualifications and be considered for relevant independent contractor engagements when opportunities become \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137513",
+    "id": "opp_f29802b130a4",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-14T14:44:21+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "data annotation",
+      "ai training"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "AI Trainer",
+    "updated_at": "2026-10-15T16:29:45+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-ai-trainer-imerit-technology-1137513",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
         },
         {
           "effect": "-10%",
