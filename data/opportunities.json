@@ -13783,6 +13783,146 @@
       "probability_low": 51.0
     }
   },
+  "opp_19ef12ca41af": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "data_pipeline",
+    "client": "Gulf Coast Automation Group",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:07:16+00:00",
+    "description": "Job Title: Snowflake Administrator Primary Location: remote Position Type: contract Overview TalentFish is casting a line for a Snowflake Administrator to support a large healthcare system implementing - Snowflake enterprise data platform. This role will be responsible for Snowflake administration, platform configuration, performance tuning, security, and integration with Informatica, Epic healthcare data systems. The ideal candidate will have worked as a Snowflake implantation as an Administrator for a large healthcare system, Will have advanced SQL skills, and experience supporting enterprise data environments utilizing Informatica. Healthcare experience is required, particularly working with Epic data. What You Bring to the Role. (Ideal Experience) Snowflake Administration: 3+ years of hands-on experience administering Snowflake environments, including platform configuration, virtual warehouses, databases, schemas, security, performance optimization \u2013 Snowflake implementation. SQL Expertise: Strong SQL skills, including complex queries, troubleshooting, query optimization, and performance tuning. Informatica Integration: Experience supporting Informatica ETL/ELT pipelines, data ingestion, and integration with Snowflake. Healthcare / Epic Experience: Experience working with hospital data environments, preferably integrating Epic Clarity, Caboodle, or other Epic data sources into Snowflake. Data Security & Governance: Experience with role-based access control (RBAC), data \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 500.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gulf-coast-automation-group/jobs/snowflake-administrator",
+    "id": "opp_19ef12ca41af",
+    "is_demo": false,
+    "match_score": 31.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T19:07:18+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 57.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $500 on $500 (100% margin). $114 per effective hour vs $85 target (4.4 effective h = 2.5h human + 7.5h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 11.5,
+          "evidence": "Matched 2 profile skills: etl, sql. Covers 67% of the 3 skills this listing names (missing: snowflake)."
+        }
+      },
+      "final_score": 57.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"hands-on experience administering snowflake environments\"; \"including platform configuration\"; \"virtual warehouses\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 57.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "snowflake",
+      "etl",
+      "snowflake-administrator",
+      "database-administrator",
+      "data-engineer",
+      "platform-administrator",
+      "data-administrator",
+      "snowflake-administration"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Snowflake Administrator",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/gulf-coast-automation-group/jobs/snowflake-administrator",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_1a3c6612d871": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -49888,6 +50028,147 @@
       "probability_low": 4.0
     }
   },
+  "opp_59237f7ac96d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Paired",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:09:07+00:00",
+    "description": "About Paired Paired is a global staffing and recruiting agency that specializes in pairing remote work with top-tier talent! We are dedicated to connecting talented individuals with remarkable companies in need of their skills. Our goal is to create fulfilling job opportunities for professionals around the world. Our client We are looking for a highly experienced Creative Strategist to join agrowing DTC e-commerce brand, This is not an entry-level role. We are specifically looking for someone with strong experience working with larger DTC/e-commerce brands who can integrate into the role quickly without requiring heavy training or onboarding. We want someone who can bring new ideas, systems, experience, and insights into the company. Why Our Client? We offer: Strong compensation structure Significant opportunity for growth Freedom and flexibility A transparent and open work culture A tight-knit team environment The ability to help shape systems and processes as the company grows The more value you provide, the more opportunity there is to grow financially and professionally with the company. We are looking for someone who wants to build something long-term and become a major part of the brand\u2019s growth What We're Looking For We need someone who deeply understands: Customer psychology Product positioning Direct response marketing Creative strategy Consumer behavior Trend analysis Data interpretation Scaling ads through creative You should know how to turn: customer psychology \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/paired-so/jobs/head-of-creative-strategy-for-a-us-dtc-company",
+    "id": "opp_59237f7ac96d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T19:09:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "creative-strategist",
+      "dtc-marketer",
+      "performance-marketer",
+      "digital-advertising-specialist",
+      "social-media-strategist",
+      "creative-strategy-director",
+      "creative-strategy-lead",
+      "senior-creative-strategist",
+      "marketing"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Head of Creative Strategy for a US DTC Company",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/paired-so/jobs/head-of-creative-strategy-for-a-us-dtc-company",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_59b34619f32d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -60678,6 +60959,135 @@
     "title": "Coupa Administrator with Oracle Payables Expertise - LATAM Remote",
     "updated_at": "2026-09-29T21:59:02+00:00",
     "url": "https://himalayas.app/companies/workstate/jobs/coupa-administrator-with-oracle-payables-expertise-latam-remote-1083757407",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_6a380110c14c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "bswift",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:10:32+00:00",
+    "description": "Want to be a bswift er? At bswift we\u2019ve been transforming benefits administration since 1996, making it simpler, smarter, and more human. Our state-of-the-art, cloud-based technology and services empower employees to understand, manage, and love their benefits. From downtown Chicago, and remotely across the country, we serve thousands of companies and millions of people nationwide, reducing administrative burdens and freeing HR teams to focus on creating thriving, people-first workplaces. We\u2019re looking for motivated and goal-driven individuals who share our passion for delivering excellence and creating solutions that make a difference. The reward is a fun, flexible and creative environment with ample opportunity for professional and personal growth. If you love the bswift values of pursue excellence, embrace accountability, deliver superior service, and be a great place to work, we want to hear from you! ABOUT US bswift is a leading benefits administration company that specializes in providing tailored solutions for our clients. Our mission is to simplify the complex world of employee benefits and deliver exceptional service to our clients. WHAT YOU\u2019LL DO The Channel Operations leader is responsible for driving Channel Partner engagement, retention, product activation, operational excellence, and team performance. This role oversees budget planning, staffing strategy, client success initiatives, operational processes, collaboration with the sales team to drive new logos and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bswift/jobs/svp-channel-partner",
+    "id": "opp_6a380110c14c",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T19:10:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "svp-channel-partner",
+      "channel-partner-manager",
+      "partnership-director",
+      "channel-operations-director",
+      "business-development-director",
+      "vp-channel-sales",
+      "vp-of-channel-management",
+      "vp-of-channels-and-alliances",
+      "vp-of-global-channel-partnerships"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SVP, Channel Partner",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/bswift/jobs/svp-channel-partner",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -79307,6 +79717,136 @@
       "probability_low": 26.0
     }
   },
+  "opp_87f983537261": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "qa_review",
+    "client": "Pole To Win International",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:14:07+00:00",
+    "description": "About the company Side (formerly PTW) is a global video game development and services provider, offering technical and creative solutions to many of the largest developers and studios around the world. Founded in Japan in 1994, Side has grown to become a global force in the video games industry, with over 40 studios in 15 countries worldwide and offices across North America, Europe, South America, and Asia. Our industry-leading services include codev, art production, localization, audio production, quality assurance, localization QA, player support, community management, and datasets. For more information, visit About the role As Localization QA Game Tester, you will work within our Localization Quality Assurance team and be the very first person to see the localized game in its entirety \u2013 translated text, images and the rest of the user interface collectively. You\u2019ll get to experience the project in the way it will be consumed by the end users. You will work in a multilingual project team ensuring that the game is free from grammatical errors, cultural inconsistencies and ultimately ensuring that the game is accurately localized into the target language. Key Responsibilities: Collaborate with a global project team. Identify and correct spelling, grammar, punctuation, and other language errors. Ensure adherence to console manufacturer guidelines. Log details of errors and issues, providing improvement suggestions. Ensure accurate translation within context and maintain \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 1.83,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.15,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.32,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pole-to-win-international/jobs/lqa-game-tester-polish-freelance-remote",
+    "id": "opp_87f983537261",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T19:14:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (1.8h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "localization-qa-tester",
+      "game-tester",
+      "qa-tester",
+      "localization-tester",
+      "lqa-tester",
+      "game-qa-tester",
+      "freelance-localization-qa",
+      "freelance-qa-tester",
+      "remote-game-tester",
+      "freelance-qa-testing"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "LQA Game Tester (Polish) - Freelance Remote",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/pole-to-win-international/jobs/lqa-game-tester-polish-freelance-remote",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_8826c98467fa": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -92705,6 +93245,138 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_9e21da9d6b7d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "JC Davis Ventures LLC dba JC Davis Power",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:08:25+00:00",
+    "description": "At JC Davis Ventures, LLC dba JC Davis Power, we keep work moving with smart, reliable solutions that allow our people and our partners to stay safe, focused, and ahead. Powering a jobsite shouldn't be a hassle. But too often, crews are left waiting, equipment breaks down, vendors go dark, and deadlines slip. We started JC Davis Power to fix all of that. We're a full-service jobsite operations partner, delivering and maintaining temporary power, climate control, and tower lighting. All with one reliable crew. No handoffs. No confusion. We show up, solve problems, and do the work the right way. Whether you're supporting customers in the field, building systems behind the scenes, or helping drive the business forward, you'll be part of a team that values reliability, accountability, and getting the job done. Simple - Reliable - Done Right! The Role Every job site we support depends on equipment, fuel, parts, and subcontractors; each tied to an invoice that must be accurate.. As our Accounts Payable Analyst, you will manage the full payables cycle from invoice intake and three-way matching to payment runs, vendor reconciliations, and month-end close. This is more than processing. You will be the person who spots the coding error before it distorts job costs, who reconciles the vendor statement nobody else wants to touch, and who tells us what our spend is doing. As the business grows, you will help build the payables process that scales with it. What You'll Do Process the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jc-davis-ventures-llc-dba-jc-davis-power/jobs/accounts-payable-analyst",
+    "id": "opp_9e21da9d6b7d",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T19:08:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "accounts-payable-analyst",
+      "accounts-payable-specialist",
+      "ap-analyst",
+      "financial-analyst",
+      "accounting-analyst",
+      "accounts-payable-associate",
+      "accounts-payable-accountant",
+      "remote-accounts-payable-analyst",
+      "accounts-payable-administrator",
+      "accounts-payable-technician",
+      "accounts-payable-coordinator",
+      "accounts-payable-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Accounts Payable Analyst",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/jc-davis-ventures-llc-dba-jc-davis-power/jobs/accounts-payable-analyst",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_9e6922440507": {
@@ -125408,6 +126080,149 @@
       "probability_low": 10.0
     }
   },
+  "opp_d443d4fb4e67": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 21.9,
+    "budget_min": 21.9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Welo Global",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:10:56+00:00",
+    "description": "Description Are you detail-oriented and passionate about language quality? We are looking for translators to join an ongoing project, helping ensure accuracy, consistency, and high standards of translated customer-facing content. This role involves intermittent work, with tasks assigned on an ad hoc basis throughout the year depending on client needs. Volumes and timing may vary. What you\u2019ll do Edit and review machine-translated customer service content with a high level of accuracy and consistency. Evaluate MT output quality and apply severity ratings when required, following project guidelines. Produce high-quality human translations as reference data for model training and quality evaluation. Follow provided style guides, tone rules, and terminology requirements. Identify and report recurring MT quality issues and batch-level trends. Project details Language: Catalan (Spain) Content type: Customer service content (general) Project duration: 1-2 hrs weekly ( This role involves intermittent work) Hourly rate: $21.9 Requirements Native proficiency in the Catalan language and strong English skills. Experience in translation, localization, or MT post-editing. Familiarity with machine translation quality evaluation and error identification. Strong attention to detail and a quality-focused mindset. Ability to work independently in an online environment. Originally posted on Himalayas",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 164.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/welo-global/jobs/alpheratz-project-catalan-spain-translation-quality-rater",
+    "id": "opp_d443d4fb4e67",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-15T19:10:57+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 35.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $164 on $164 (100% margin). $35 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $44 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "translation-quality-rater",
+      "post-editor",
+      "machine-translation-evaluator",
+      "translator",
+      "localization-specialist",
+      "catalan-language-reviewer",
+      "translation-quality-evaluator",
+      "translation-quality-assessor",
+      "translation-quality-reviewer",
+      "translation-quality-assessment",
+      "translation-quality-evaluation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Alpheratz Project - Catalan (Spain) Translation Quality Rater",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/welo-global/jobs/alpheratz-project-catalan-spain-translation-quality-rater",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_d45e9e33d0b7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -126247,6 +127062,144 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_d56a7e36f94f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Clinisys",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-15T21:01:46+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-14T19:07:25+00:00",
+    "description": "Building an AI\u2011first organisation is central to Clinisys \u2019 purpose and the impact we deliver. As a global provider of intelligent diagnostic informatics solutions, we build AI\u2011enabled, cloud\u2011based platforms to enhance diagnostic workflows across healthcare, life sciences, and public health. By applying intelligent technology thoughtfully and responsibly, we help laboratories and testing environments operate more effectively, generate meaningful insights at scale, and ultimately support healthier and safer communities. Operating across more than 30 countries, Clinisys expects all colleagues\u2014regardless of role or function \u2014 to work confidently with AI\u2011enabled tools, apply digital and analytical thinking, and continuously adapt as technologies evolve , must drive an AI first sense of purpose and urgency. Clinisys has built an unrivalled reputation for deploying complex diagnostic networks and academic centres \u2013 and is the only provider to repetitively deliver to all disciplines end-to-end \u2013 at scale. Fostering healthier communities. Role Summary As a Solution Architect , you will work closely with healthcare and laboratory customers to design, configure and deploy Clinisys LIMS solutions across the UK and Ireland. Acting as a trusted advisor and technical subject matter expert, you will help optimise laboratory workflows, deliver successful implementations and support customers through solution design, testing and go-live. Key Responsibilities Lead the design and deployment of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261015T210143Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/clinisys/jobs/solution-architect",
+    "id": "opp_d56a7e36f94f",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-15T19:07:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: azure, rest)."
+        }
+      },
+      "final_score": 52.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "azure",
+      "automation",
+      "solutions-architect",
+      "technical-architect",
+      "it-consultant",
+      "implementation-consultant",
+      "healthcare-it-specialist",
+      "it-solution-architect",
+      "it-solutions-architect",
+      "strategic-solution-architect",
+      "technical-solution-architect",
+      "technical-solutions-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Solution Architect",
+    "updated_at": "2026-10-15T21:01:46+00:00",
+    "url": "https://himalayas.app/companies/clinisys/jobs/solution-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_d58eb2beae65": {
