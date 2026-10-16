@@ -2466,6 +2466,144 @@
       "probability_low": 20.0
     }
   },
+  "opp_041e8c19423d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 110.58,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Tech Talent International",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-15T15:47:51+00:00",
+    "description": "Software International (SI) supplies technical talent to a variety of clients ranging from Fortune 100/500/1000 companies to small and mid-sized organizations in Canada/US. We have a Permanent or 12 month renewable contract as a Senior Mainframe System Programmer - Capacity Management with our large consulting client, working on a long term project for one of Canada's largest banks. This could be an indefinite contract or a permanent role. Role: Senior Mainframe System Programmer - Capacity Management Type: Permanent or Long Term Contract Duration: 12 months to start + possible multiple extensions or a permanent role Salary or Rate: approximately $180,000 - $230,000 + bonus as permanent employee or $100 - $130/hr + C2C - depending on overall experience Location: Remote, Toronto, ON, Canada As a Sr. Mainframe System Programmer, Capacity Management, you are responsible for providing technical direction and subject matter expertise to ensure stable, reliable environments for complex sharing initiatives in compliance with established controls, standards, policies, and procedures. You will collaborate with and advise senior management, utilizing your solid understanding of business dynamics to analyze and protect test environment integrity and mitigate risks, present alternative solutions, and recommend solutions using available resources for complex initiatives with key dependencies. You will provide technical leadership, interpret complex information, and coordinate client, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 649.05,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tech-talent-international/jobs/senior-mainframe-system-programmer-capacity-management",
+    "id": "opp_041e8c19423d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:47:52+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 43.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $649 on $649 (100% margin). $138 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $173 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "mainframe-systems-programmer",
+      "capacity-manager",
+      "systems-programmer",
+      "mainframe-administrator",
+      "infrastructure-engineer",
+      "senior-mainframe-systems-programmer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Mainframe System Programmer - Capacity Management",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/tech-talent-international/jobs/senior-mainframe-system-programmer-capacity-management",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_044769b25ebf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5839,6 +5977,156 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_0a6e981d35b4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 95,
+    "budget_min": 85,
+    "budget_type": "HOURLY",
+    "category": "reporting",
+    "client": "Tech Talent International",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-15T15:47:39+00:00",
+    "description": "Software International (SI) supplies technical talent to a variety of Fortune 100/500/1000 and other companies in Canada/US. We are currently hiring for a SAP SuccessFactors Consultant - Report Writing for our global SAP consulting client. Location: US , EST - remote Rate: $85-95/hr CAD C2C Start Date: ASAP Duration: 3 months initially + potential extensions Number of roles: 2 In this role, you will be working with a core entitity of SAP Global on a large, US based project. Reporting consultant will support the development of story reports in SAP SuccessFactors. Support design and build of new reporting requirements from approved change requests, and changes to completed reports. Support the Customer during testing and resolution of any issues during testing phases. Support the deployment of the new reports in Production. Originally posted on Himalayas",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.7,
+    "estimated_net_revenue": 399.5,
+    "estimated_non_ai_effort": 0.94,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tech-talent-international/jobs/sap-successfactors-consultant-report-writing",
+    "id": "opp_0a6e981d35b4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:47:40+00:00",
+    "profit_score": 76.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 57.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.8h AI / 0.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 14.0,
+          "evidence": "Estimated net $400 on $400 (100% margin). $212 per effective hour vs $85 target (1.9 effective h = 0.9h human + 3.8h AI discounted). Leverage: $425 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 57.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 69.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sap-successfactors-consultant",
+      "sap-consultant",
+      "report-writer",
+      "successfactors-analyst",
+      "business-intelligence-consultant",
+      "sap-successfactors-consulting",
+      "successfactors-consultant",
+      "sap-successfactors",
+      "sap-successfactors-implementation",
+      "successfactors-implementation-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAP SuccessFactors Consultant - Report Writing",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/tech-talent-international/jobs/sap-successfactors-consultant-report-writing",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_0a7c285ebda1": {
@@ -17970,6 +18258,148 @@
       ],
       "probability_high": 69.0,
       "probability_low": 51.0
+    }
+  },
+  "opp_22b5732dc4b0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (25 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Summary We are looking for participants who identify as Asian (including East Asian, South Asian and Southeast Asian backgrounds) for a paid face video recording project. The recordings help test face recognition systems across a diverse range of people. No experience is needed, just a device with a camera and the ability to follow simple on-screen instructions. What You Will Do You'll record 20 short videos (about 1\u20132 minutes each) using our web-based recording tool. The full set takes around 2\u20133 hours and can be spread over a few days. In each video you either follow 11 simple prompts (tilt your head, nod, open your mouth, move closer\u2026) or follow a dot around the screen with your nose. Before each video you fill in a few details about yourself and your surroundings. You'll be assigned one of two tasks during onboarding: 1. Paper Mask: record 10 videos of your face as normal, then 10 wearing a printed paper mask of a face. You'll send a short test video first so we can check the mask with you. 2. Replay: record 10 videos of your face as normal on your own, then join a scheduled video call where our team records the other 10 while you follow their instructions. What You Need - You are 18 or older. We welcome all ages, including participants over 60. - A smartphone, tablet, laptop or desktop with a working camera. - A stable internet connection. Variety Across Your Videos - Indoors, outdoors in daylight, and after dark. - Normal light, bright light, dim light, and light from \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40771249",
+    "id": "opp_22b5732dc4b0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-16T12:27:04+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 38.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.5,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 38.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "video services",
+      "video upload",
+      "face recognition",
+      "video production",
+      "video editing",
+      "video processing",
+      "video game coaching",
+      "video streaming",
+      "video ads",
+      "video conferencing"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Face Video Recording Project: Asian",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://www.freelancer.com/projects/face-recognition/Face-Video-Recording-Project-Asian",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "25 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_22d51bbc53ca": {
@@ -30773,6 +31203,138 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_35c192ee7dee": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 45,
+    "budget_min": 40,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Somnio Software",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:47:30+00:00",
+    "description": "Qu\u00e9 es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. B\u00e1sicamente son un intermediario entre el cliente final y nosotros. C\u00f3mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso est\u00e1n hablando de EUR 47/h, aunque todav\u00eda hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate m\u00e1s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h \u2014 pensada para que Deazy tenga margen c\u00f3modo y nos priorice y abrir la cuenta Si la relaci\u00f3n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambi\u00e9n somos fuertes en React Native, React, , Python y AI Highlights Tienen un proyecto de React Native de aprox 40 horas por mes, para soporte. Con ingles, perfil fuerte que abra la cuenta. Originally posted on Himalayas",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 300.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/somnio-software/jobs/sr-react-native-deazy",
+    "id": "opp_35c192ee7dee",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:47:31+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [],
+    "score": 62.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $300 on $300 (100% margin). $64 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $80 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 62.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "react",
+      "react-native-developer",
+      "mobile-application-developer",
+      "senior-mobile-developer",
+      "senior-react-native-engineer",
+      "senior-react-native-mobile-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr REACT NATIVE (Deazy)",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/somnio-software/jobs/sr-react-native-deazy",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_35c8e702708a": {
@@ -54289,6 +54851,146 @@
       "probability_low": 34.0
     }
   },
+  "opp_5e71b857344c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AmerisourceBergen",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:47:42+00:00",
+    "description": "Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywhere. Apply today! Job Details At least two years of experience in global pharmacovigilance (not case processing), including specifically PVA management. Process owner PVA management. Oversight and coordination of timely preparation of authority relevant documents Conceptualization and development of templates, project specific documents and processes . Qualification: Bachelor's degree in life sciences, pharmacy, medicine, nursing, public health, epidemiology, regulatory affairs, or a related field, or equivalent experience required. Experience & Skills: 4+ years of experience in pharmacovigilance, drug safety, epidemiology, risk management, scientific consulting, regulatory affairs, or a related field required. Certification in pharmacovigilance, drug safety preferred. Certification in regulatory affairs, clinical safety preferred. Certification in quality management, auditing preferred. What Cencora offers \u200bBenefit offerings outside the US may vary by country and will be aligned to local market practice. The eligibility and effective date may differ for some benefits and for team members covered under collective \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/amerisourcebergen/jobs/senior-manager-qppv-office",
+    "id": "opp_5e71b857344c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T15:47:42+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 20.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 20.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "pharmacovigilance-specialist",
+      "regulatory-affairs-specialist",
+      "drug-safety-specialist",
+      "qa-specialist",
+      "regulatory-compliance-specialist",
+      "senior-manager",
+      "pv-officer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Manager QPPV Office",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/amerisourcebergen/jobs/senior-manager-qppv-office",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_5ea92202f923": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -55329,6 +56031,148 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5fed3c49a993": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (16 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Summary We are looking for participants who identify as Native Hawaiian or Pacific Islander for a paid face video recording project. The recordings help test face recognition systems across a diverse range of people. No experience is needed, just a device with a camera and the ability to follow simple on-screen instructions. What You Will Do You'll record 20 short videos (about 1\u20132 minutes each) using our web-based recording tool. The full set takes around 2\u20133 hours and can be spread over a few days. In each video you either follow 11 simple prompts (tilt your head, nod, open your mouth, move closer\u2026) or follow a dot around the screen with your nose. Before each video you fill in a few details about yourself and your surroundings. You'll be assigned one of two tasks during onboarding: 1. Paper Mask: record 10 videos of your face as normal, then 10 wearing a printed paper mask of a face. You'll send a short test video first so we can check the mask with you. 2. Replay: record 10 videos of your face as normal on your own, then join a scheduled video call where our team records the other 10 while you follow their instructions. What You Need - You are 18 or older. We welcome all ages, including participants over 60. - A smartphone, tablet, laptop or desktop with a working camera - A stable internet connection Variety Across Your Videos - Indoors, Outdoors in daylight, and after dark - Normal light, bright light, dim light, and light from behind or one side - Some videos with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40771247",
+    "id": "opp_5fed3c49a993",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-16T12:24:37+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 38.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.5,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 38.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "video services",
+      "video upload",
+      "face recognition",
+      "video production",
+      "video editing",
+      "video processing",
+      "video post-editing",
+      "video streaming",
+      "video conferencing",
+      "ai research"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Face Video Recording Project: Native Hawaiian/Pacific Islander",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://www.freelancer.com/projects/face-recognition/Face-Video-Recording-Project-Native-40771247",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "16 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_606d308ea2f3": {
@@ -66471,6 +67315,138 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_6f509a14bbfc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Red Carrot",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:49:32+00:00",
+    "description": "Marketing Manager Level: Journeyman | Work Location: Remote (DMV Area) ABOUT THE ROLE Red Carrot is seeking a Marketing Manager to lead marketing and communications teams supporting our federal government clients. This role manages client relationships and provides leadership and coaching for direct reports, while developing and managing large-scale integrated marketing programs. The role oversees client relationships, creative development, consumer outreach, and stakeholder engagement, and requires strong project management and writing skills along with a high level of attention to detail. KEY RESPONSIBILITIES Direct marketing objectives, programs, and policies for all client products and services Translate the marketing vision into integrated business plans, tactics, projects, and deliverables Execute market research, digital, creative, communications, and implementation planning Develop budgets and resources to execute marketing plans Review, edit, and implement strategic plans, creative briefs, client presentations, and other written communications Deliver insights on emerging trends and digital/social strategies for engaging multicultural and general market audiences Review creative concepts to ensure marketing and creative work is on-strategy and on-brand before client delivery Establish success metrics and KPIs, and facilitate reporting against campaign goals and outcomes Develop strong client relationships, ensure compliance with the Scope of Work, and oversee \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/red-carrot/jobs/marketing-manager-485280765",
+    "id": "opp_6f509a14bbfc",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T15:49:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "analytics",
+      "marketing-manager",
+      "marketing-communications-manager",
+      "brand-manager",
+      "digital-marketing-manager",
+      "marketing-strategist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Marketing Manager",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/red-carrot/jobs/marketing-manager-485280765",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_6fc213a71a3f": {
@@ -80441,6 +81417,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_87a1616fd830": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "BetterMe",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:47:24+00:00",
+    "description": "About us: BetterMe \u2014 an all-in-one well-being ecosystem empowering millions to become better \u2014 physically, mentally, and emotionally. We build what makes people better and keep challenging ourselves to inspire others. We are looking for a Post-Production Producer to manage photo and video post-production, mainly for e-commerce, with the flexibility to support other content areas. Your main focus will be retouching: building a strong network of contractors and making sure every visual meets our quality standards. As our needs evolve, you will also work with AI creators and help bring AI tools into our workflows to keep production fast, efficient, and high-quality. Your impact: Building a contractor pool and communicating with post-production specialists (video editors, retouchers, colorists, VFX artists), as well as AI creators. Matching the right specialist to each specific task. Managing video and photo materials end-to-end, from intake to final delivery. Reviewing materials in detail and providing feedback to specialists. Writing briefs and working with technical specifications. Making both technical and creative decisions to optimize processes. Coordinating timelines, budgets, and resources across the entire post-production process. Evaluating the visual quality of materials in detail and their alignment with creative goals. About you: 1+ year of experience producing post-production processes (photo/video). English level: Intermediate or higher. Ability to handle large \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/betterme/jobs/post-production-producer-5433710748",
+    "id": "opp_87a1616fd830",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T15:47:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "post-production-producer",
+      "video-producer",
+      "content-producer",
+      "production-coordinator",
+      "post-production-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Post-Production Producer",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/betterme/jobs/post-production-producer-5433710748",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_87b3f4c00748": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -82633,6 +83739,148 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_8a052898cdfb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 43.27,
+    "budget_min": 31.25,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:49:52+00:00",
+    "description": "Job Title: Associate DevOps Engineer Job Location: Boston, MA Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role Nitro is an AI-native data platform that democratizes life sciences data for non-technical commercial teams, turning fragmented HCP/HCO, prescription, and industry data into decisions the field can act on. Our team is seeking an Associate DevOps Engineer to support our business consulting team\u2019s AWS and Kubernetes analytics infrastructure as part of the broader NitroAI Team. You'll work alongside the team keeping this platform reliable and secure, with real ownership over the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 312.5,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/associate-devops-engineer",
+    "id": "opp_8a052898cdfb",
+    "is_demo": false,
+    "match_score": 32.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:49:52+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 53.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $312 on $312 (100% margin). $66 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $104 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 12.1,
+          "evidence": "Matched 1 profile skills: ci/cd. Covers 11% of the 9 skills this listing names (missing: airflow, analytics, api, aws)."
+        }
+      },
+      "final_score": 53.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "airflow",
+      "api",
+      "rest",
+      "aws",
+      "kubernetes",
+      "terraform",
+      "ci/cd",
+      "analytics",
+      "ocr",
+      "devops-engineer",
+      "cloud-engineer",
+      "site-reliability-engineer",
+      "infrastructure-engineer",
+      "associate-cloud-engineer",
+      "junior-devops-engineer",
+      "associate-cloud-systems-engineer",
+      "associate-platform-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Associate DevOps Engineer",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/associate-devops-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_8a205a880a26": {
@@ -111398,6 +112646,132 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_b8de1bf43594": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Hex Technologies",
+    "competition_score": 45.3,
+    "confidence": 60.0,
+    "created_at": "2026-10-16T16:14:53+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: NYC or Remote (EST or CST) About the role: Hex\u2019s legal function has gone from zero to a fully operating system in under a year. Now we need someone to own and scale the operating layer so it holds as the company grows. This is a builder role. You\u2019ll run contract operations end to end: CLM administration, workflow optimization, template and playbook maintenance, enablement and training for the revenue team, and first-pass review and redlining of standard agreements against our playbook. Beyond contracts, you\u2019ll build structured intake for every legal workstream across the company, own the legal governance record (privacy registers, AI inventory, compliance calendars), manage outside counsel relationships, and own the legal tech stack. We sit at the nexus of data, AI, and collaboration, which means our legal operations have to be as thoughtful as our product. We use AI tooling across legal operations, and you\u2019ll work the same way: building agents and automations to move faster, not as a side project but as the default way things get done here. If you see a manual workflow and instinctively want to build it away, you\u2019ll feel right at home. What you will do: Drive CLM adoption and enablement so the revenue team self-serves on standard deals Own workflow optimization, templates, and playbooks as deal structures and products evolve First-pass review and redlining of standard agreements; draft from templates as volume requires Build and own structured intake for legal \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/hex-technologies-legal-ops",
+    "id": "opp_b8de1bf43594",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Thu, 01 Oct 2026 07:30:56 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "automation"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Hex Technologies: Legal Ops",
+    "updated_at": "2026-10-16T16:14:53+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/hex-technologies-legal-ops",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (17-39%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "-7%",
+          "factor": "Ageing listing",
+          "from": "35%",
+          "to": "28%",
+          "why": "About 15 days old."
+        }
+      ],
+      "probability_high": 39.0,
+      "probability_low": 17.0
     }
   },
   "opp_b996d2a83499": {
@@ -144811,6 +146185,153 @@
       "probability_low": 4.0
     }
   },
+  "opp_eebe7b52ee80": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 74.52,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "The Redesign Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:49:41+00:00",
+    "description": "About The Redesign Group The Redesign Group is a global technology and cybersecurity Solution Provider leveraging design thinking, interdependent subject matter expertise, and emerging technology solutions to help organizations achieve meaningful transformation. Our globally diverse team members, partnerships with strategic technology manufacturers, and cybersecurity services position us to be a business partner that\u2019s ready for what\u2019s next. We live by our core values of operating in the service of others, being problem solvers, and focusing on long term partnerships. You\u2019ll excel at Redesign if you thrive in a rewarding environment that moves quickly, challenges you to grow and fosters collaboration. We seek candidates with a hands-on customer-first approach, robust interpersonal and communication skills, strong work ethic and excellent time management. While teamwork is expected, the ability to work independently in a fast-paced environment is crucial. Job Description The Director, Brand & Communications will lead the strategy and execution of The Redesign Group \u2019s brand, creative, content, corporate communications, social media, and digital experience. This role is responsible for strengthening Redesign\u2019s brand, visibility, and reputation while ensuring the company tells a clear, differentiated, and compelling story across every channel and touchpoint. The Director will set strategy and standards across the function while remaining closely connected to the work, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 432.67,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-redesign-group/jobs/director-brand-communications",
+    "id": "opp_eebe7b52ee80",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:49:42+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 60.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 60.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "communications-director",
+      "brand-director",
+      "marketing-director",
+      "director-of-communications",
+      "director-of-brand-marketing",
+      "brand-and-communications-director",
+      "marketing-and-communications-director",
+      "director-of-marketing-and-communications",
+      "director-of-marketing-communications",
+      "pr-and-communications-director",
+      "marketing-communications-director",
+      "brand-and-media-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director, Brand & Communications",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/the-redesign-group/jobs/director-brand-communications",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_eed9eaeeb59a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -150952,6 +152473,146 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_f88ddf277750": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 84.13,
+    "budget_min": 74.52,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Short Elliott Hendrickson, Inc",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T16:14:52+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T15:47:09+00:00",
+    "description": "Imagine being an employee-owner of a company guided by engaged and empowered team members like yourself. Where a culture of respect, flexibility, and accountability aren't just ideals - they're our foundation, and diverse backgrounds and perspectives are valued as drivers of innovation and growth. Join us, as together, we are Building a Better World for All of Us\u00ae. You belong at SEH SEH is currenting searching for a Business Development Leader to join our talented Sales team! Why our employee-owners love SEH: \"I was on vacation last week and had zero concerns that my colleagues would help out with anything that came into my inbox!\" \u2013 GIS Analyst \"What company has a CEO who cares enough to seek out one-on-one conversations ranging from 'How are you?' to 'What do you think would help the company?' SEH, that's who. \" \u2013 Civil Engineering Technician \"Having the feeling that my voice matters and believing that SEH truly cares about the employees is so satisfying!\" \u2013 Sr Financial Analyst \"It feels good having colleagues and supervisors that provide support and resources for growth and learning!\" \u2013 Civil Engineer \"This is the first company I've worked for with a true entrepreneurial spirit.\" \u2013 Sr Mechanical Engineer Why you\u2019ll love SEH: Collaborate on amazing projects of varying size and complexity that positively impact communities Being 100% employee-owned means we all share in the company\u2019s success Career development through continued education, licensure/certification, skills, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T161450Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 558.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/short-elliott-hendrickson-inc/jobs/business-development-leader",
+    "id": "opp_f88ddf277750",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T15:47:09+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 66.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $559 on $559 (100% margin). $119 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $149 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "business-development-manager",
+      "strategic-account-manager",
+      "sales-leader",
+      "client-development-manager",
+      "business-development-director",
+      "business-development-leader",
+      "business-development-leadership",
+      "business-development-lead",
+      "lead-business-developer",
+      "business-development-team-lead",
+      "senior-business-development-lead",
+      "head-of-business-development",
+      "director-business-development",
+      "business-development"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Business Development Leader",
+    "updated_at": "2026-10-16T16:14:52+00:00",
+    "url": "https://himalayas.app/companies/short-elliott-hendrickson-inc/jobs/business-development-leader",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f8d9d473860a": {
