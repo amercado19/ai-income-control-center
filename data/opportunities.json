@@ -16207,6 +16207,142 @@
       "probability_low": 15.0
     }
   },
+  "opp_1ecf216b472f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 45.67,
+    "budget_min": 36.06,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Compass Group USA",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:02:35+00:00",
+    "description": "Position Title: ASSOCIATE DIRECTOR OF BUSINESS DEVELOPMENT - NORTH CAROLINA - SOUTHEAST - REMOTE Reports To: REGINA BROOKS Salary: $75000 - $95000 + Commission With people as our core and a deep commitment to exceptional hospitality, CCL Hospitality Group has a philosophy rooted in caring for the individuals who care for our guests. Our most significant competitive advantage is our team members. We constantly strive to strengthen our service culture. Every team member knows they matter and owns a stake in our success, delivering hospitality excellence. With four distinct operating companies \u2013 Morrison Living, Unidine, Coreworks, and The Hub, we are shaping the industry\u2019s future leaders with a culture of service focused on elevated hospitality for community living across the country. Join us and discover how we drive mutual success that leaves lasting impressions. Job Summary CCL Hospitality is seeking an Associate Director of Business Development, who shares our values, wants to work with a team of great individuals, and who is committed to being part of our success. Reporting to the Regional Vice President of Sales, the Associate Director of Business Development will support our sales team and play a key role in the growth of the CCL Hospitality portfolio in the national market. This position is supporting the sales team for Behavioral Health prospects nationally. While this position is a remote position, travel is required 20-50% of the time. The ideal candidate will live \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 360.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/compass-group-usa/jobs/associate-director-of-business-development-north-carolina-southeast-remote",
+    "id": "opp_1ecf216b472f",
+    "is_demo": false,
+    "match_score": 62.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:02:36+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 64.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $361 on $361 (100% margin). $76 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.1,
+          "evidence": "Matched 3 profile skills: excel, financial modeling, reporting. Covers 40% of the 5 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 64.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "financial modeling",
+      "business-development-director",
+      "sales-director",
+      "business-development-manager",
+      "sales-manager",
+      "account-executive",
+      "associate-director-of-business-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "ASSOCIATE DIRECTOR OF BUSINESS DEVELOPMENT - NORTH CAROLINA - SOUTHEAST - REMOTE",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/compass-group-usa/jobs/associate-director-of-business-development-north-carolina-southeast-remote",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (38-54%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "50%",
+          "to": "56%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "56%",
+          "to": "46%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 54.0,
+      "probability_low": 38.0
+    }
+  },
   "opp_1eebebc2559b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -25355,6 +25491,151 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2e4f4e2139f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Welo Global",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:02:55+00:00",
+    "description": "Overview Are you passionate about languages, writing, and quality evaluation? We are launching an exciting language evaluation project and are looking for Spanish LATAM-speaking experts to join our team. What you will do: Identify realistic search-related failures where an AI model provides inadequate responses. Create search queries, test them, document what went wrong, and write instructions and evaluation criteria for correct answers. Common issues: local relevance, source quality, outdated information, language mismatches, incomplete answers, and region-specific inapplicability. Testing multiple queries before finding failures is expected. Project Details: Start Date: ASAP Duration: Ongoing Project. Commitment: 20 hours per week. Job Type: Freelance contract. Location: Remote Rate: $30 per hour. Requirements: Research skills \u2014 ability to find and verify information from multiple sources; comfort navigating different websites, databases, and documentation Critical thinking \u2014 Can spot contradictions between sources, identify outdated information, and recognize when something doesn't apply to a specific locale/context Attention to detail \u2014 Can catch nuances in language, local variations (prices, regulations, requirements), and edge cases Problem-solving mindset \u2014 Comfortable iterating and testing when things don't work; doesn't get frustrated by trial-and-error Domain knowledge \u2014 Ideally someone with background in research, quality assurance, compliance, or similar work \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 144.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/welo-global/jobs/msr-project-spanish-latam-culture-expert",
+    "id": "opp_2e4f4e2139f8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:02:55+00:00",
+    "profit_score": 42.9,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 27.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.9,
+          "evidence": "Estimated net $144 on $144 (100% margin). $69 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 27.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 39.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "qa-specialist",
+      "content-evaluator",
+      "language-specialist",
+      "ai-trainer",
+      "research-analyst",
+      "spanish-cultural-expert",
+      "language-and-culture-specialist",
+      "culture-specialist",
+      "language-and-cultural-specialist",
+      "spanish-language-expert",
+      "cultural-specialist",
+      "bilingual-cultural-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "MSR Project - Spanish (LATAM) Culture Expert",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/welo-global/jobs/msr-project-spanish-latam-culture-expert",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_2e572f685349": {
@@ -35544,6 +35825,148 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_4189f80d5d07": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 83.56,
+    "budget_min": 60.77,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Solventum",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:02:44+00:00",
+    "description": "At Solventum , we improve lives by helping healthcare professionals do their best work. Join a team using innovation and insight to make a real impact on the future of healthcare. All roles listed are with Solventum , and we\u2019re committed to protecting your personal information\u2014learn more in our Privacy Policy: Job Description: At Solventum , we enable better, smarter, safer healthcare to improve lives. As a new company with a long legacy of creating breakthrough solutions for our customers\u2019 toughest challenges, we pioneer game-changing innovations at the intersection of health, material and data science that change patients' lives for the better while enabling healthcare professionals to perform at their best. Because people, and their wellbeing, are at the heart of every scientific advancement we pursue. We partner closely with the brightest minds in healthcare to ensure that every solution we create melds the latest technology with compassion and empathy. Because at Solventum , we never stop solving for you. The Impact You\u2019ll Make in this Role As an Infection Prevention Specialist, Peri-op , you will have the opportunity to tap into your curiosity and collaborate with some of the most innovative and diverse people around the country. We seek an experienced sales rep to manage a sales territory focused on customer support, growth and strong relationships. The ideal candidate will demonstrate a strong track record of selling, territory management and portfolio growth. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 455.78,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/solventum/jobs/infection-prevention-specialist-peri-op-ann-arbor-mi",
+    "id": "opp_4189f80d5d07",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:02:45+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 43.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $456 on $456 (100% margin). $97 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $122 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "data science",
+      "analytics",
+      "medical-device-sales",
+      "sales",
+      "healthcare-sales",
+      "territory-sales",
+      "clinical-sales-representative",
+      "infection-prevention-specialist",
+      "infection-control-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Infection Prevention Specialist, Peri-op (Ann Arbor, MI)",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/solventum/jobs/infection-prevention-specialist-peri-op-ann-arbor-mi",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_418b9648e014": {
@@ -71061,6 +71484,151 @@
       "probability_low": 0.0
     }
   },
+  "opp_777a7dd52237": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 26.78,
+    "budget_min": 26.78,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Cira Apps Limited",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-15T02:07:30+00:00",
+    "description": "About Cira Apps Limited Cira Apps is a SaaS company building solutions that enhance Microsoft 365 productivity for iPhone and Android business users. Our flagship product, CiraSync, helps more than 12,000 companies automate contact and calendar management\u2014driving measurable productivity gains and cost savings across the enterprise. We\u2019re a B2B provider trusted by organizations from 10 to 10,000 employees. Our team is smart, humble, and relentlessly focused on customer delight\u2014our current NPS is 65, and our customers love our products. Our CRM is Salesforce. The Role We\u2019re growing and have a high volume of inbound sales inquiries, including active trial prospects. We\u2019re hiring high\u2011energy, dynamic Sales Development Representatives who can confidently manage inbound activity and, overtime, outbound prospecting. You\u2019ll engage prospects worldwide via email, phone, and video, rapidly assess business needs, present the right solution, and own the entire sales cycle from qualification to close. This is a full\u2011time, remote role covering both US and European time zones. This posting is for a current job opening. What You\u2019ll Do Become an expert with lead generation tools to build targeted prospect lists. Proactively prospect freemium accounts with relevant, human touches. Qualify prospects using targeted, relevant questions; nurture them and understand needs prior to an initial sales meeting. Schedule discovery calls for our Customer Success Team and consistently meet/exceed monthly \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 200.85,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cira-apps-limited/jobs/sales-development-representative-6631820338",
+    "id": "opp_777a7dd52237",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:07:31+00:00",
+    "profit_score": 20.1,
+    "risk_flags": [],
+    "score": 57.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.7,
+          "evidence": "Estimated net $201 on $201 (100% margin). $43 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $54 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "sales-development-representative",
+      "sdr",
+      "business-development-representative",
+      "inside-sales-representative",
+      "sales",
+      "sales-business-development-representative",
+      "sales-development-associate",
+      "sales-development-specialist",
+      "entry-level-sales-development-representative",
+      "b2b-sales-development-representative",
+      "sales-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Development Representative",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/cira-apps-limited/jobs/sales-development-representative-6631820338",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_779d7f8911b4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -102557,6 +103125,141 @@
       "probability_low": 4.0
     }
   },
+  "opp_ac6c409cadc4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.72,
+    "budget_min": 0.72,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Terac",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:05:18+00:00",
+    "description": "What We're Researching We are running a paid study on accounting workflows to understand how financial professionals manage their daily tasks. The goal is to evaluate the efficiency of current software tools and identify areas where standard processes can be improved. Your feedback will help shape better solutions for core accounting operations. How It Works During this remote session, you will walk us through a typical workflow for managing financial records or tax preparation. You will discuss how you utilize specific features within your primary accounting software to complete these tasks. We will ask you to react to different scenarios and describe the challenges you face during busy reporting periods. Finally, you will provide feedback on potential workflow improvements and software integrations. Who This Is For We are looking for mid-level accounting professionals who regularly handle financial reporting, tax preparation, or bookkeeping. We welcome CPAs, staff accountants, tax associates, and corporate bookkeepers. Candidates should have practical experience relying on industry-standard platforms like QuickBooks, UltraTax, or CCH ProSystem fx to complete their core work. What You'll Do Walk us through your typical process for managing financial data. Describe how you utilize your primary accounting software in your day-to-day work. Evaluate specific workflow scenarios and provide professional feedback. Discuss common bottlenecks you encounter during critical reporting \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 5.18,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/terac/jobs/accounting-professionals-evaluation-of-core-workflows",
+    "id": "opp_ac6c409cadc4",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:05:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 59.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $5 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 59.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "react",
+      "accounting-process-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Accounting Professionals: Evaluation of Core Workflows",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/terac/jobs/accounting-professionals-evaluation-of-core-workflows",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_aca68bd3eb9b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -106529,6 +107232,134 @@
     "title": "Sr Statistical Programmer",
     "updated_at": "2026-09-27T04:12:34+00:00",
     "url": "https://himalayas.app/companies/syneos-health-india-private-limited/jobs/sr-statistical-programmer-7704250128",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_b3b07a7a134a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Staples",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:03:37+00:00",
+    "description": "Staples is business to business. You\u2019re what binds us together. Our world class sales and sales support teams work directly with businesses of all sizes to offer products and services to meet our customers\u2019 unique needs. We are committed to understanding our customers and use best-in-class sales tools and technology to find the best solutions. We\u2019re constantly discovering new ways to reach our goals, taking time to develop our skills and investing in our career growth, so we can enjoy lucrative opportunities and grow our careers both within and beyond sales. The B2B Sales Consultant hunts within defined territory to prospect and win net new small to medium business customers. B2Bs are also responsible to ramp and onboard net new won accounts to further expanding our customer base. It is a high velocity sales position that leverages a prioritized call list to drive prospect engagement remotely by phone, video, face to face, and utilizing digital tools. This is a remote position with a regional focus. This position supports customers in Florida (Miami/Fort Lauderdale). While the role primarily supports working from home, the individual performing this role would live within or adjacent to this region. What you'll be doing: Exhibit effective appointment setting skills and set the required number of appointments each week with the correct decision makers. Effective Selling Skills: Utilizing professional selling skills, discover prospects incremental and programmatic needs, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/staples/jobs/territory-sales-representative-florida-2994267741",
+    "id": "opp_b3b07a7a134a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T02:03:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "territory-sales-representative",
+      "b2b-sales-consultant",
+      "sales",
+      "business-development-representative",
+      "account-executive",
+      "territory-sales-specialist",
+      "territory-sales-associate",
+      "territory-sales-manager",
+      "area-sales-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Territory Sales Representative - (Florida)",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/staples/jobs/territory-sales-representative-florida-2994267741",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -112503,6 +113334,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_bf77f24609e5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90,
+    "budget_min": 45,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:02:35+00:00",
+    "description": "Job Title: Computational Biology & Bioinformatics Expert (PhD) Job Type: Contractor Location: Remote (Worldwide) Job Summary: In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. Key Responsibilities: Design, evaluate, and critique advanced computational chemistry workflows to support AI benchmarking initiatives. Provide expert-level insights on molecular simulations, electronic structure methods, and cheminformatics pipelines. Assess and optimize simulation parameters and scientific software configurations for accuracy and reproducibility. Analyze data from molecular dynamics, quantum chemistry, and drug discovery projects, providing actionable recommendations. Leverage domain knowledge to guide the development and validation of chemistry-related AI models and tools. Communicate complex scientific concepts clearly, both in writing and verbally, to technical and non-technical collaborators. Document findings, methodologies, and best practices to ensure knowledge transfer across the customer\u2019s team. Required Skills and Qualifications: PhD in chemistry, computational chemistry, or closely related field, or equivalent industry/research experience. Professional written and spoken English (C1 or higher) Deep expertise with computational chemistry methods and simulation-heavy environments is desirable. Proficiency with industry-standard tools such as \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 337.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/computational-biology-bioinformatics-expert-phd",
+    "id": "opp_bf77f24609e5",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:02:36+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 66.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $338 on $338 (100% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 67% of the 3 skills this listing names (missing: react)."
+        }
+      },
+      "final_score": 66.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "react",
+      "computational-biologist",
+      "bioinformatics-scientist",
+      "bioinformatics-research-scientist",
+      "bioinformatics-specialist",
+      "bioinformatics-domain-expert",
+      "senior-bioinformatics-scientist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Computational Biology & Bioinformatics Expert (PhD)",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/computational-biology-bioinformatics-expert-phd",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_bf881bd5e695": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -114263,6 +115228,153 @@
     "title": "Collibra: CPS Solution Architect",
     "updated_at": "2026-09-28T13:11:01+00:00",
     "url": "https://weworkremotely.com/remote-jobs/collibra-cps-solution-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_c18e39422e26": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "goFLUENT",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:03:14+00:00",
+    "description": "About goFLUENT For over 20 years, goFLUENT has helped organizations worldwide develop language and communication skills through innovative learning solutions that combine technology, engaging content, and live instruction. Today, more than 1,000 international companies across 100+ countries trust goFLUENT to help their employees communicate confidently, collaborate globally, and succeed in an increasingly connected workplace. Join our global team as a Corporate Czech and English Trainer and help business professionals from diverse industries build the communication skills they need to thrive in their careers. Empower Global Professionals Through Language Deliver engaging online lessons to professionals from leading companies around the world. Every day brings a new opportunity; you could be teaching executives, managers, engineers, doctors, lawyers, scientists, or other industry experts who rely on strong communication skills to succeed in today's global workplace. What You'll Do Deliver live online language lessons to business professionals in one-on-one and small-group settings. Evaluate and assess Czech Proficiency and Speaking Tests Facilitate engaging lessons using our established and proven teaching methodology. Create an interactive and supportive virtual learning environment that encourages learner participation. What We're Looking For Bachelor's degree or equivalent Experience in language teaching or corporate training is preferred Excellent spoken and written Czech \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gofluent/jobs/corporate-czech-trainer-4438532385",
+    "id": "opp_c18e39422e26",
+    "is_demo": false,
+    "match_score": 35.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T02:03:15+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 28.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.6,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 28.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"gofluent has helped organizations worldwide develop language\"; \"communication skills through innovative learning solutions that combin\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 40.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "language-trainer",
+      "czech-trainer",
+      "english-trainer",
+      "corporate-trainer",
+      "online-instructor",
+      "corporate-language-trainer",
+      "czech-language-tutor",
+      "czech-language-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Corporate Czech Trainer",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/gofluent/jobs/corporate-czech-trainer-4438532385",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -136711,6 +137823,147 @@
       "probability_low": 60.0
     }
   },
+  "opp_e69c204d901e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 13,
+    "budget_min": 12,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "St. Olaf College",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:06:52+00:00",
+    "description": "Job Title: Upward Bound Virtual Tutor (WS-ST1) Classification: Student Employee (non-exempt) Name and Address of Employer: St. Olaf College , 1520 St. Olaf Ave, Northfield, MN 55057 The student worker works remotely on campus, providing tutoring to Upward Bound students via Zoom. Concurrent One-on-One Zoom Tutoring Mondays, Tuesdays, Wednesdays, and/or Thursdays from 3:00 - 5:00 pm Virtual Study Hall on Zoom Mondays and Wednesdays from 6:00 - 8:00 pm Department Name: TRIO Upward Bound Unit Number (5 digits): 11398 Length of Position: See Employment Authorization Contact Person/Supervisor: Senior Academic Advisor of TRIO Upward Bound Wage Range: $12.00-13.00/hour Description of the Position: (Purpose of the Position): Provide academic support to Upward Bound students during virtual sessions via Zoom. Transferable Skills: Responsibility Self-Motivation Problem solving Organization Interpersonal Duties and Responsibilities: Provide virtual academic support to Upward Bound (UB) students. Tutor UB students in a variety of academic subject areas based on students\u2019 coursework and assignments. Assist UB students with understanding course material, completing assignments, developing study skills, and preparing for quizzes and exams. Provide a welcoming, respectful, and supportive virtual learning environment for UB students. Follow tutoring schedules, program expectations, and guidance provided by UB staff. Maintain required program documentation, including tutoring logs, attendance \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 90.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/st-olaf-college/jobs/upward-bound-virtual-tutor-ws-st1",
+    "id": "opp_e69c204d901e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:06:53+00:00",
+    "profit_score": 16.8,
+    "risk_flags": [],
+    "score": 33.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.1,
+          "evidence": "Estimated net $90 on $90 (100% margin). $19 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $24 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "tutor",
+      "virtual-tutor",
+      "academic-tutor",
+      "tutor-virtual",
+      "virtual-tutoring",
+      "online-tutor",
+      "remote-tutor",
+      "education"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Upward Bound Virtual Tutor (WS-ST1)",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/st-olaf-college/jobs/upward-bound-virtual-tutor-ws-st1",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_e6ed7e5a6420": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -144994,6 +146247,149 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_f3058bf24813": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-16T03:35:00+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T02:04:02+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: SAP Data Integration Consultant Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $100,000\u2013$150,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking an experienced SAP Data Integration Consultant to design, execute, and support large-scale data migration initiatives within SAP S/4HANA environments. This role focuses on the full data migration lifecycle \u2014 extraction, transformation, validation, reconciliation, and cutover \u2014 to ensure accurate, complete, and compliant migration of enterprise data from legacy systems into SAP. Required Qualifications 6+ years of SAP data migration experience. Strong hands-on experience with SAP LTMC and S/4HANA migration tools. Experience with SAP SLT replication scenarios. Working knowledge of SAP LVM for system refresh and landscape management. Strong understanding of SAP master and transactional data structures. Experience performing data validation and reconciliation processes. Strong SQL and data analysis \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261016T033459Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 480.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/sap-data-integration-consultant-4732969140",
+    "id": "opp_f3058bf24813",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T02:04:03+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 71.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $481 on $481 (100% margin). $101 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: etl, sql. Covers 67% of the 3 skills this listing names (missing: aws)."
+        }
+      },
+      "final_score": 71.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "etl",
+      "aws",
+      "sap-consultant",
+      "data-integration-consultant",
+      "sap-data-migration-consultant",
+      "sap-technical-consultant",
+      "data-migration-specialist",
+      "senior-sap-data-integration-consultant",
+      "sap-data-integration-architect",
+      "senior-sap-integration-consultant"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "SAP Data Integration Consultant",
+    "updated_at": "2026-10-16T03:35:00+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/sap-data-integration-consultant-4732969140",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_f3137f5c8fc4": {
