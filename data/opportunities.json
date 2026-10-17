@@ -9338,6 +9338,147 @@
       "probability_low": 26.0
     }
   },
+  "opp_0df3183b9475": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 17.31,
+    "budget_min": 11.54,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Mission Inbox",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:05:36+00:00",
+    "description": "Location: Fully Remote (Global) Compensation: $24k to $36k USD Yearly Position Type: Full-Time Contract Role Overview We are seeking a highly technical, impact-driven Senior Systems Engineer to own, scale, and protect our core email transmission infrastructure. In this role, your golden rule will be Reputation Above All . You are not just managing email lists or monitoring dashboards; you will architect and maintain the high-availability server infrastructure, Mail Transfer Agents (MTAs), and automated defensive systems that ensure our legitimate traffic hits the inbox while bad actors are ruthlessly contained. The ideal candidate bridges the gap between deep Linux systems administration, network engineering, and advanced email deliverability strategy. You will have a massive impact on the company by safeguarding our global IP/domain reputation, minimizing blast radiuses, and ensuring zero-downtime mail operations across our entire infrastructure network. Core Responsibilities 1. Infrastructure Management & High Availability MTA Optimization: Maintain and configure core MTAs ( Postfix , Postal ) and IMAP/POP3 servers ( Dovecot ), ensuring graceful reloads over restarts to prevent dropping active connections. Traffic Routing & Load Balancing: Utilize HAProxy and network routing protocols (like BGP via FRRouting ) to distribute outbound traffic and architect high-volume failover mechanisms. Redundancy & Failover: Administer backend infrastructure databases ( PostgreSQL replica \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 150.02,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mission-inbox/jobs/senior-systems-engineer-email-deliverability-infrastructure",
+    "id": "opp_0df3183b9475",
+    "is_demo": false,
+    "match_score": 64.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:05:38+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 59.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $150 on $150 (100% margin). $24 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $38 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.7,
+          "evidence": "Matched 3 profile skills: automation, dashboard, sql. Covers 43% of the 7 skills this listing names (missing: node, postgres, postgresql, rest)."
+        }
+      },
+      "final_score": 59.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "rest",
+      "automation",
+      "dashboard",
+      "node",
+      "senior-systems-engineer",
+      "systems-engineer",
+      "infrastructure-engineer",
+      "email-systems-engineer",
+      "devops-engineer",
+      "email-deliverability-engineer",
+      "email-infrastructure-engineer",
+      "senior-infrastructure-engineer",
+      "email-infrastructure-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Systems Engineer - Email Deliverability & Infrastructure",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/mission-inbox/jobs/senior-systems-engineer-email-deliverability-infrastructure",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_0e183c8a6727": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12789,6 +12930,145 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_174bb5228119": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Pavago",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:01:57+00:00",
+    "description": "Customer Success & Client Retention Specialist \u2013 Remote | Part-Time Position Type: Part-Time, Remote Schedule: Less than 30 hours/week Location: Remote \u2014 Open Worldwide About the Role At Pavago , one of our clients is hiring a Customer Success & Client Retention Specialist to strengthen client relationships, improve the customer experience, and reduce churn. This role is focused on what happens after a client comes onboard \u2014 making sure customers see value, stay engaged, receive proactive support, and have compelling reasons to continue the relationship. You\u2019ll work closely with leadership, sales, and operations to improve the customer journey from onboarding through long-term retention. If you have experience in Customer Success, Account Management, Client Retention, or Customer Experience and enjoy building lasting client relationships, this could be a strong fit. What You\u2019ll Own Customer Success & Relationship Management Build and maintain strong relationships with existing clients Serve as a trusted point of contact throughout the customer lifecycle Conduct proactive client check-ins and follow-ups Understand client goals, concerns, and expectations Identify potential issues before they become reasons for churn Ensure clients consistently receive a responsive and professional experience Client Retention & Churn Reduction Develop and execute strategies to improve client retention Identify customers who may be disengaged or at risk of leaving Investigate the reasons behind \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pavago/jobs/customer-success-client-retention-expert-9566882062",
+    "id": "opp_174bb5228119",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:01:57+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "customer-success-specialist",
+      "client-retention-specialist",
+      "account-manager",
+      "customer-success-manager",
+      "customer-success-professional",
+      "customer-success-consultant",
+      "customer-retention-specialist",
+      "client-success-consultant",
+      "customer-success-and-retention",
+      "customer-success-strategist",
+      "customer-success-consulting",
+      "client-success-consulting",
+      "customer-success"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success & Client Retention Expert",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/pavago/jobs/customer-success-client-retention-expert-9566882062",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_17739606164f": {
@@ -46699,6 +46979,133 @@
       "probability_low": 45.0
     }
   },
+  "opp_4d54fde7d0a6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Kodland",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About\u00c2 the\u00c2 Company: Kodland\u00c2 is\u00c2 an\u00c2 international\u00c2 online\u00c2 coding\u00c2 and\u00c2 digital\u00c2 skills\u00c2 school\u00c2 that\u00c2 helps\u00c2 children\u00c2 aged\u00c2 5\u00c2 to\u00c2 17\u00c2 take\u00c2 their\u00c2 first\u00c2 steps\u00c2 into\u00c2 the\u00c2 world\u00c2 of\u00c2 programming\u00c2 and\u00c2 technology. About\u00c2 the\u00c2 Role: Are\u00c2 you\u00c2 a\u00c2 passionate\u00c2 programmer\u00c2 who\u00c2 loves\u00c2 coding\u00c2 and\u00c2 computer\u00c2 games?\u00c2 Would\u00c2 you\u00c2 like\u00c2 to\u00c2 help\u00c2 children\u00c2 create\u00c2 their\u00c2 first\u00c2 projects\u00c2 and\u00c2 take\u00c2 their\u00c2 first\u00c2 steps\u00c2 into\u00c2 the\u00c2 programming\u00c2 world\u00c2 by\u00c2 teaching\u00c2 them\u00c2 Python?\u00c2 If\u00c2 so,\u00c2 this\u00c2 opportunity\u00c2 is\u00c2 perfect\u00c2 for\u00c2 you! Responsibilities: Deliver\u00c2 fun\u00c2 and\u00c2 interactive\u00c2 Python\u00c2 Programming\u00c2 lessons\u00c2 using\u00c2 provided\u00c2 materials. Develop\u00c2 your\u00c2 own\u00c2 skills\u00c2 under\u00c2 the\u00c2 guidance\u00c2 of\u00c2 experienced\u00c2 Kodland\u00c2 teachers. Share\u00c2 feedback\u00c2 about\u00c2 lessons\u00c2 with\u00c2 the\u00c2 Kodland\u00c2 team. Regularly\u00c2 report\u00c2 on\u00c2 student\u00c2 progress\u00c2 and\u00c2 help\u00c2 improve\u00c2 the\u00c2 learning\u00c2 experience. Be\u00c2 a\u00c2 positive\u00c2 representative\u00c2 of\u00c2 Kodland\u00c2 and\u00c2 contribute\u00c2 creative\u00c2 ideas\u00c2 to\u00c2 support\u00c2 students. Attend\u00c2 all\u00c2 training\u00c2 and\u00c2 support\u00c2 sessions\u00c2 provided\u00c2 throughout\u00c2 the\u00c2 hiring\u00c2 process. Join\u00c2 our\u00c2 team\u00c2 today\u00c2 and\u00c2 experience\u00c2 the\u00c2 joy\u00c2 of\u00c2 teaching\u00c2 with\u00c2 Kodland!\u00c2 \u00f0\u009f\u0092\u0099 Please\u00c2 note:\u00c2 This\u00c2 is\u00c2 a\u00c2 part-time\u00c2 freelance\u00c2 position.\u00c2 There\u00c2 is\u00c2 no\u00c2 fixed\u00c2 or\u00c2 guaranteed\u00c2 income. Requirements: Intermediate\u00c2 level\u00c2 Python\u00c2 experience. Availability\u00c2 of\u00c2 at\u00c2 least\u00c2 10\u00c2 hours\u00c2 per\u00c2 week. You\u00c2 love\u00c2 teaching\u00c2 and\u00c2 connecting\u00c2 with\u00c2 children\u00c2 and\u00c2 young\u00c2 people. You\u00c2 speak\u00c2 English\u00c2 fluently\u00c2 (C1) Willing\u00c2 to\u00c2 work\u00c2 \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137534",
+    "id": "opp_4d54fde7d0a6",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-16T16:00:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "teaching",
+      "education",
+      "customer support",
+      "dev",
+      "testing",
+      "part time",
+      "non tech",
+      "digital nomad"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "APAC Python",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-apac-python-kodland-1137534",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_4dc985224640": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -68028,6 +68435,156 @@
       "probability_low": 32.0
     }
   },
+  "opp_6cc4ab12e840": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 74.52,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:03:53+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: AI Interaction Engineer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $140,000\u2013$155,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary: We are looking for a AI Interaction Engineer to define and lead the strategy, patterns, and tooling for designing prompts, agentic workflows, and LLM-based application architectures across the organization. The role combines deep practical mastery of modern LLMs with the discipline of building reusable design patterns, evaluation frameworks, and developer tooling that scale across many teams and use cases. The ideal candidate has shipped LLM-powered products in production, is fluent in prompt design patterns and agent architectures, and brings strong judgment about when and how to apply different LLM techniques responsibly. Key Responsibilities Six or more years of software engineering experience, with significant time on LLM-based applications. Demonstrated experience shipping LLM-powered products to production. Deep \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-interaction-designer-4531917756",
+    "id": "opp_6cc4ab12e840",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:03:54+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 64.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 40% of the 5 skills this listing names (missing: analytics, api, aws)."
+        }
+      },
+      "final_score": 64.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "aws",
+      "analytics",
+      "ai-engineer",
+      "machine-learning-engineer",
+      "prompt-engineer",
+      "llm-engineer",
+      "ai-interaction-engineer",
+      "ai-interaction-designer",
+      "ai-interaction-design",
+      "ai-ux-ui-designer",
+      "ai-interface-design",
+      "ai-ux-design",
+      "ai-experience-design",
+      "interaction-designer",
+      "human-ai-interaction-design"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Interaction Designer",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/ai-interaction-designer-4531917756",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_6cdd5f4fcd2d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -72873,6 +73430,148 @@
           "from": "45%",
           "to": "35%",
           "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_743442b1d9c9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "QAD, Inc.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:01:45+00:00",
+    "description": "Job Description We are seeking an experienced and seasoned technology professional to join us as a Senior Technical Solution Architect within our Presales / Sales Engineering organization. In this highly customer-facing role, you will lead and sustain advanced technical exchanges with key prospects and global enterprise customers, translating complex requirements into robust, secure, and scalable integration solutions. You will specialize in Application-to-Application (A2A), Business-to-Business (B2B) or EDI, and Business-to-Government (B2G) integrations, driving technical win strategies and bridging enterprise platforms with next-generation cognitive systems. If you are a deep integration expert skilled in customer engagement, modern enterprise middleware, API strategies, and AI Agent integration layers, this is the perfect opportunity to drive significant impact across our presales engagements and global enterprise sales cycle. In addition, you will serve as the technical authority during presales discoveries, architectural workshops, and solution demonstrations, partnering closely with sales leadership and business consultants. You will be providing customer-driven feedback to Product R&D as well. Key Responsibilities Lead Technical Discovery & Customer Exchanges: Conduct deep-dive technical discovery sessions, lead advanced architectural exchanges with prospective clients, and articulate complex enterprise integration strategies to key business and technical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/qad-inc/jobs/senior-technical-architect",
+    "id": "opp_743442b1d9c9",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-17T19:01:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: etl, excel. Covers 33% of the 6 skills this listing names (missing: api, aws, azure, rest)."
+        }
+      },
+      "final_score": 54.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "etl",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "azure",
+      "technical-architect",
+      "solutions-architect",
+      "sales-engineer",
+      "pre-sales-architect",
+      "integration-architect",
+      "senior-technical-solutions-architect",
+      "senior-architect",
+      "senior-lead-architect",
+      "senior-it-architect",
+      "senior-application-architect",
+      "senior-systems-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Technical Architect",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/qad-inc/jobs/senior-technical-architect",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
         },
         {
           "effect": "-15%",
@@ -83407,6 +84106,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_8579aabfc6fc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Clinglobal",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:01:34+00:00",
+    "description": "Clinical Project Manager (Animal Health) - United States of America Clinaxelis part of a group of Animal Health Contract Research Organizations servicing the global animal health industry. We're actively seeking aNorth Americanbased Clinical Project Manager to join our expanding field clinical trials team. This role provides the flexibility to work remotely, with occasional office visits required. This position presents an exciting opportunity for professional growth and development in the Animal Health industry. Primary Job Purpose Coordinate Field Clinical Trials (FCT) processes and resources, including data management, Monitors, QA support, legal, finance teams, study Investigators, laboratories, and couriers. Manage communication with the Sponsor and ensure FCT's quality and timely completion per company SOPs, policies, practices, and Sponsor's expectations. Job Specific Duties and Responsibilities Coordinate FCT across all their phases (e.g., feasibility assessment, quotation, set up, live phase, close-out, reporting, and study master file compilation), liaise with the responsible team members for the services performed within the group, and manage the relationship with external partners and vendors. Ensure projects complete their life cycle and deliverables meet the agreed timelines, quality, and cost. Report to management and Sponsors on the status of projects, including budgets and timelines, through the implementation and coordination of regular project review \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 230.78,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/clinglobal/jobs/clinical-project-manager-animal-health",
+    "id": "opp_8579aabfc6fc",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:01:35+00:00",
+    "profit_score": 62.9,
+    "risk_flags": [],
+    "score": 69.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.6,
+          "evidence": "Estimated net $231 on $231 (100% margin). $110 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $192 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 69.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "gcp",
+      "clinical-project-manager",
+      "clinical-trial-manager",
+      "animal-health-manager",
+      "clinical-research-manager",
+      "field-clinical-manager",
+      "senior-clinical-project-manager",
+      "clinical-research-project-manager",
+      "clinical-trial-project-manager",
+      "clinical-trials-project-manager",
+      "senior-project-manager-clinical-trials"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Clinical Project Manager (Animal Health)",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/clinglobal/jobs/clinical-project-manager-animal-health",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8587e0feae48": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -92693,6 +93528,149 @@
       "probability_low": 15.0
     }
   },
+  "opp_9265ea4254a5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120.19,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Sanctuary Computer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "We are hiring a Head of Technology for the garden3d creative collective, to lead engineering at Sanctuary Computer and garden3d in the era of agentic computer code. Original job posting link About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy & Gagosian. We\u00e2\u0080\u0099re the software team behind innovative products like The Light Phone & Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse studio culture. We work on projects that bring value to our world, and we balance deep care for the work we do with a genuine curiosity about life outside of our jobs. Sanctuary Computer - Development At Sanctuary Computer we\u00e2\u0080\u0099re building a different type of technology shop \u00e2\u0080\u0093 one that prioritizes close collaboration between the client and the craftsperson. Our projects range from design-forward websites, to robust web apps, to native mobile development. XXIX - Design When we started XXIX in 2013, we set out to create a different kind of design studio and we\u00e2\u0080\u0099ve \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137537",
+    "id": "opp_9265ea4254a5",
+    "is_demo": false,
+    "match_score": 36.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-16T17:55:35+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.4,
+          "evidence": "Matched 1 profile skills: excel. Covers 17% of the 6 skills this listing names (missing: ocr, postgres, react, rest)."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "postgres",
+      "excel",
+      "rest",
+      "typescript",
+      "react",
+      "ocr",
+      "dev",
+      "engineer",
+      "senior",
+      "full stack",
+      "front end"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Head of Technology",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-head-of-technology-sanctuary-computer-1137537",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_932d284a99e8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -94134,6 +95112,140 @@
       ],
       "probability_high": 21.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_96815ade4d1b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 74.38,
+    "budget_min": 42.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Parsons Corporation",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T18:59:35+00:00",
+    "description": "In a world of possibilities, pursue one with endless opportunities. Imagine Next!At Parsons, you can imagine a career where you thrive, work with exceptional people, and be yourself. Guided by our leadership vision of valuing people, embracing agility, and fostering growth, we cultivate an innovative culture that empowers you to achieve your full potential. Unleash your talent and redefine what\u2019s possible. Job Description: Parsons is looking for a talented Document Control Specialist to join our team! In this role you will support clients document control organization by administering document workflows, record repositories, turnover document tracking, and retention processes for selected projects. What You\u2019ll Be Doing Administer existing document control systems and procedures, including document organization, tracking, transfer, version control, approval processes, storage and retrieval standards, and record retention compliance. Work within the clients current document control organization and systems unless directed otherwise. Support project-wide document control protocols for transmitting, receiving, tracking, and storing project documents. Assist in administration of existing flowcharts, standard operating procedures, and document management systems and recommend process improvements where appropriate. Support the clients separate document management system as an independent repository to help preserve direct access to project records. Maintain a turnover document \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 318.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parsons-corporation/jobs/document-control-specialist-remote-us",
+    "id": "opp_96815ade4d1b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T18:59:36+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 39.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $319 on $319 (100% margin). $68 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $85 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "document-control-specialist",
+      "document-controller",
+      "records-specialist",
+      "document-management-specialist",
+      "document-control-coordinator",
+      "document-qa-specialist",
+      "junior-document-management-specialist",
+      "documentation-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Document Control Specialist - Remote, US",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/parsons-corporation/jobs/document-control-specialist-remote-us",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_9690f550f28c": {
@@ -103405,6 +104517,133 @@
     "title": "Remote Financial Customer Service Representative",
     "updated_at": "2026-10-17T15:08:53+00:00",
     "url": "https://himalayas.app/companies/scale-with-tars-llc/jobs/remote-financial-customer-service-representative",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_a2833839dfdf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Scale With TARS LLC",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:04:42+00:00",
+    "description": "This is a remote position. What You'll Do Answer inbound calls from motorists requesting roadside assistance Verify customer information, vehicle details, and service eligibility Dispatch towing companies and roadside service providers Coordinate services such as towing, jump starts, tire changes, lockout assistance, and fuel delivery Provide real-time updates on service arrival times and request status Reassure customers and remain calm during stressful situations Document service requests accurately while navigating multiple systems Deliver compassionate, professional customer service from start to finish Hours Available 365 days a year 7 days a week 24 hours a day Important: We are unable to accept applications from individuals living outside the United States, including those using VPNs or mailing addresses within the U.S. Before applying, please verify that your state is eligible: State Eligibility List Requirements Laptop or Computer Windows 11 USB Headset Ethernet Internet Connection Benefits Choose your hours Work Remotely From Home Get paid via direct deposit twice a month Originally posted on Himalayas",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/scale-with-tars-llc/jobs/roadside-assistance-representative",
+    "id": "opp_a2833839dfdf",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-17T19:04:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer-service",
+      "roadside-assistance",
+      "call-center-representative",
+      "dispatch-coordinator",
+      "roadside-assistance-specialist",
+      "roadside-assistance-coordinator",
+      "roadside-assistance-dispatcher",
+      "emergency-support-representative",
+      "emergency-road-service-dispatcher"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Roadside Assistance Representative",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/scale-with-tars-llc/jobs/roadside-assistance-representative",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -124482,6 +125721,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_c466c566a357": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Builders FirstSource",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:04:39+00:00",
+    "description": "PURPOSE Leads complex, enterprise-wide strategic programs and transformation initiatives critical to achieving corporate objectives. Partners with executive and senior leadership to translate strategic priorities into executable roadmaps, align cross-functional teams, accelerate decision-making, and drive realization of intended business outcomes. The Principal Program Manager operates across business, technology, deployment, change management, and support organizations, driving integrated execution and accountability across teams without direct authority. ESSENTIAL DUTIES AND RESPONSIBILITIES Scope of role: Leads enterprise strategic programs and cross-functional initiatives from strategy through execution, operational readiness, adoption, and value realization. Serves as a trusted advisor to IT Delivery Leadership and brings structure, transparency, and forward momentum to complex transformation priorities. Delivery and Execution Establish integrated delivery strategies, governance, milestones, and operating rhythms for complex enterprise transformation initiatives. Drive execution across multiple concurrent business and technology workstreams, ensuring dependencies, risks, decisions, and commitments are actively managed. Maintain an integrated view of program critical path, organizational readiness, major dependencies, and barriers to successful delivery. Hold workstream leaders accountable for commitments and proactively drive corrective action when execution is at risk. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/builders-firstsource/jobs/principal-program-manager-it-transformation",
+    "id": "opp_c466c566a357",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-17T19:04:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "program-manager",
+      "it-program-manager",
+      "transformation-manager",
+      "enterprise-program-manager",
+      "transformation-program-manager",
+      "digital-transformation-program-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Program Manager, IT Transformation",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/builders-firstsource/jobs/principal-program-manager-it-transformation",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c4d10da3cd39": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -136000,6 +137370,147 @@
     "title": "Promo Team Lead \u2013 Spanish",
     "updated_at": "2026-09-16T11:00:25+00:00",
     "url": "https://himalayas.app/companies/pocketfm/jobs/promo-team-lead-spanish",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_d65013243c94": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100.96,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Riot Platforms",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:00:47+00:00",
+    "description": "About Riot Platforms Riot\u2019s (NASDAQ: RIOT) vision is to be the world\u2019s most trusted platform for powering and building digital infrastructure. Riot\u2019s mission is to empower the future of digital infrastructure by positively impacting the sectors, networks, and communities that we touch. We believe that the combination of an innovative spirit and strong community partnership allows us to achieve best-in-class execution and create successful outcomes. Who we are At Riot, we\u2019re building the future of digital infrastructure. Our team members have unparalleled opportunities to work on groundbreaking initiatives. Through technical excellence and strategic execution, Riot has positioned itself as a leader in the industry driving advancements that continue to set new benchmarks in digital infrastructure. We are trailblazers. Problem solvers. People who thrive in fast paced environments, communicate clearly, and bring relentless focus to efficiency and execution. About the role Riot is seeking an experienced Senior Director of Solutions Engineering to lead technical pre-sales and solution design for our data center customers. Partnering closely with Sales, this role owns the technical evaluation stage on priority AI and Hyperscale opportunities, translating complex customer requirements into scalable, standards-based solutions, proposals, and cost estimates. As a member of the team, you will develop and put in place the templates, tools, and processes the function runs on. You will \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 649.05,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/riot-platforms/jobs/senior-director-solutions-engineering",
+    "id": "opp_d65013243c94",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:00:48+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 68.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $649 on $649 (100% margin). $138 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $173 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 68.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "solutions-engineer",
+      "sales-engineer",
+      "pre-sales-engineer",
+      "technical-sales-engineer",
+      "solutions-architect",
+      "senior-director-of-solutions-engineering",
+      "director-of-solutions-engineering-(apac)",
+      "vp-of-solutions-engineering"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Director, Solutions Engineering",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/riot-platforms/jobs/senior-director-solutions-engineering",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -147904,6 +149415,157 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_ea3595cd0fdd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.88,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-17T20:16:08+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T19:04:53+00:00",
+    "description": "Java Developer \u2013 Windchill \u2013 Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Java Developer \u2013 Windchill Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $80,000\u2013$110,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary We are seeking an experienced Java Developer \u2013 Windchill focused on deep, low-level Windchill customizations using Java, PTC APIs, and PTC\u2019s customization frameworks. This role suits engineers who enjoy working close to the platform, extending its behavior through services, listeners, and processors while preserving a clean and upgrade-friendly customization layer. The ideal candidate will bring strong Java fundamentals, deep familiarity with the Windchill platform internals, and a disciplined, performance-aware engineering style. In this role you will work closely with cross-functional partners \u2014 product, design, engineering, operations, and business stakeholders \u2014 to translate ambiguous requirements into well-engineered solutions, and will be expected to raise the bar through code \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T201606Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 384.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/java-developer-windchill-4983211106",
+    "id": "opp_ea3595cd0fdd",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T19:04:54+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 68.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 19 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $385 on $385 (100% margin). $81 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $128 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 3 profile skills: ci/cd, excel, sql. Covers 50% of the 6 skills this listing names (missing: api, aws, html)."
+        }
+      },
+      "final_score": 68.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "api",
+      "aws",
+      "ci/cd",
+      "html",
+      "java-developer",
+      "windchill-developer",
+      "software-developer",
+      "backend-engineer",
+      "plm-developer",
+      "windchill-java-developer",
+      "windchill-application-developer",
+      "windchill-engineer",
+      "windchill-backend-developer",
+      "windchill-integration-developer",
+      "windchill-plm-engineer",
+      "windchill-development",
+      "windchill-customization-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Java Developer \u2013 Windchill",
+    "updated_at": "2026-10-17T20:16:08+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/java-developer-windchill-4983211106",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_ea4312fc743f": {
