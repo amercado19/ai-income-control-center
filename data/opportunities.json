@@ -8519,6 +8519,156 @@
       "probability_low": 4.0
     }
   },
+  "opp_0cf7b464d381": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 750.0,
+    "budget_min": 250.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (22 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T10:17:30+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Saya ingin membangun sebuah aplikasi web untuk blog/website pribadi. Fokusnya sederhana: saya butuh platform tempat saya bisa menulis, mengedit, dan mempublikasikan artikel dengan mudah, lengkap dengan antarmuka admin yang ramah pengguna. Ruang lingkup pekerjaan: \u2022 Desain dan pengembangan front-end responsif sehingga blog nyaman diakses lewat desktop maupun perangkat mobile. \u2022 Sistem manajemen konten dasar \u2014 tulis, edit, hapus, dan kategorikan posting, termasuk pengunggahan gambar. \u2022 Halaman statis seperti Tentang dan Kontak yang bisa saya ubah sendiri. \u2022 Fitur pencarian artikel, permalink SEO-friendly, serta dukungan meta tag dasar. \u2022 Panel admin terlindung login dengan hak akses tunggal (hanya saya). \u2022 Kode bersih, terdokumentasi, dan mudah saya pelajari; sertakan panduan instalasi di shared hosting atau VPS standar. Teknologi: Saya terbuka menggunakan stack populer seperti Laravel, Node.js/Express, Django, atau framework sejenis\u2014silakan sarankan pilihan terbaik Anda. Pastikan alat apa pun yang dipakai memiliki komunitas luas dan update berkelanjutan. Kriteria penerimaan: \u2022 Aplikasi berjalan lancar di browser modern. \u2022 Semua fitur di atas berfungsi tanpa error. \u2022 Source code, database schema, serta petunjuk instalasi lengkap tersedia saat serah terima. Bila Anda berpengalaman membangun aplikasi web skala ringan dan terbiasa menulis dokumentasi jelas, saya menantikan solusi Anda.",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.63,
+    "estimated_cost": 0.0,
+    "estimated_hours": 9.26,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 4.63,
+    "estimated_platform_fee": 50.0,
+    "external_id": "40772587",
+    "id": "opp_0cf7b464d381",
+    "is_demo": false,
+    "match_score": 41.3,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-17T09:05:09+00:00",
+    "profit_score": 49.7,
+    "risk_flags": [],
+    "score": 51.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (4.6h AI / 4.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 8.8,
+          "evidence": "Estimated net $450 on $500 (90% margin). $78 per effective hour vs $85 target (5.8 effective h = 4.6h human + 4.6h AI discounted). Leverage: $97 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 5.6,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 12.8,
+          "evidence": "Matched 1 profile skills: python. Covers 25% of the 4 skills this listing names (missing: django, html, node)."
+        }
+      },
+      "final_score": 51.3,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 51.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "django",
+      "node",
+      "php",
+      "python",
+      "website design",
+      "html",
+      "node.js",
+      "laravel",
+      "web development",
+      "frontend development",
+      "content management system (cms)"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "PT bangunan",
+    "updated_at": "2026-10-17T10:17:30+00:00",
+    "url": "https://www.freelancer.com/projects/web-development/bangunan",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (1-25%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "22 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "2%",
+          "to": "7%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "7%",
+          "to": "13%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "13%",
+          "to": "13%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 25.0,
+      "probability_low": 1.0
+    }
+  },
   "opp_0d137986371e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -10312,6 +10462,133 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_128184503768": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Collibra",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-17T10:17:32+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote, USA Joining Collibra\u2019s Professional Services Team At Collibra Public Sector, our Professional Services team relies on Federal Solution Architects to deliver on customer expectations for the services we sell, working directly with customer key projects stakeholders throughout the entire customer journey. Ensuring growth, adoption and renewal, Federal Solution Architects act as customer champions, ensuring customers are onboarded and realizing value rapidly. Managers, Professional Services at Collibra are responsible for Supporting federal customer engagements by delivering mission-aligned architectural design and execution of Collibra products that adhere to Collibra Public Sector\u2019s Delivery Models, Engagement Processes, Methodologies, and Artifacts, while ensuring compliance with applicable government regulations and security standards (e.g., FedRAMP, FISMA, GovCloud). Providing federal agencies with tailored data governance strategies that incorporate best practices, enable knowledge transfer, and drive measurable business and mission outcomes. Partnering cross-functionally with Collibra Sales, Customer Engineering, Product, Support, and Executive teams to ensure alignment with federal acquisition cycles and stakeholder priorities. Identifying opportunities to expand Collibra\u2019s footprint within agencies by aligning product capabilities to evolving agency mandates, modernization efforts, and compliance requirements. Meeting or exceeding utilization \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/collibra-manager-professional-services",
+    "id": "opp_128184503768",
+    "is_demo": false,
+    "match_score": 71.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Sat, 17 Oct 2026 07:30:50 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.3,
+          "evidence": "Matched 4 profile skills: automation, etl, excel, python. Covers 44% of the 9 skills this listing names (missing: api, aws, azure, kubernetes)."
+        }
+      },
+      "final_score": 58.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "etl",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "azure",
+      "kubernetes",
+      "automation"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Collibra: Manager, Professional Services",
+    "updated_at": "2026-10-17T10:17:32+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/collibra-manager-professional-services",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_1282b0e3d842": {
@@ -19712,6 +19989,158 @@
       "probability_low": 56.0
     }
   },
+  "opp_245b1e711298": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 57.69,
+    "budget_min": 45.67,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Intelligent Technical Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:30:34+00:00",
+    "description": "Job Summary The Security Advisor (Senior Cybersecurity Compliance Consultant) delivers active security practice management engagements, serving as the assigned security officer (vCISO) for a portfolio of client organizations. The role combines hands-on compliance delivery with client relationship ownership, risk management, and ongoing security advisory work. The role requires subject matter expertise across regulatory compliance frameworks, strong client-facing communication, and organizational discipline to manage a high volume of concurrent engagements. This position sits at the senior end of the practice: it carries the most complex and highest-regulatory-risk engagements in the portfolio and sets the technical standard for the practice's compliance deliverables. Reports to: Security Practice Management Team Lead (Cybersecurity Department) Direct Reports: None Works with: Practice coordinators, security engineers, SOC personnel, and department leadership supporting assigned engagements Job Responsibilities 1. Client Advisory & vCISO Delivery: Serve as the assigned security officer (vCISO) for a portfolio of client engagements: lead recurring meeting cadences, act as the primary point of contact for clients' cybersecurity concerns and provide regular updates and reports on the status of security initiatives, including performance metrics, findings, and recommendations for improvement. Build strong client relationships, understand each client's unique regulatory and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 342.53,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/intelligent-technical-solutions/jobs/senior-cybersecurity-compliance-consultant-us-remote",
+    "id": "opp_245b1e711298",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:30:34+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 58.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $343 on $343 (100% margin). $73 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $91 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, react)."
+        }
+      },
+      "final_score": 58.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "react",
+      "cybersecurity-compliance",
+      "vciso",
+      "security-advisory",
+      "compliance-consulting",
+      "infosec",
+      "senior-cybersecurity-consultant",
+      "cybersecurity-compliance-specialist",
+      "cybersecurity-compliance-consultant",
+      "cybersecurity-risk-and-compliance-analyst",
+      "compliance-and-security-sr.-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Cybersecurity Compliance Consultant (US Remote)",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/intelligent-technical-solutions/jobs/senior-cybersecurity-compliance-consultant-us-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_248b9e3b1212": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -24286,6 +24715,150 @@
     "title": "AI Trainer - Freelance Data Annotator",
     "updated_at": "2026-09-17T03:54:37+00:00",
     "url": "https://himalayas.app/companies/toloka-ai/jobs/ai-trainer-freelance-data-annotator-4856180755",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_2b5b34a403f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Affect",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:31:47+00:00",
+    "description": "Affect is transforming behavioral health care by combining mobile technology with counseling and medical services, offering 100% virtual treatment. We break down barriers to care, making it more accessible and effective for our members. Our innovative approach integrates a smartphone app with a dedicated care team to deliver real-time, data-driven treatment for better outcomes and lower costs. About the Role: As a PMHNP, you will lead member care alongside a team of counselors, therapists, peer support specialists, and case managers. You\u2019ll provide evidence-based treatment for individuals with substance use disorders and mental health disorders. We do not prescribe controlled substances other than Suboxone for the treatment of Opioid Use Disorder. Affect provides extensive training on evidence-based approaches to treatment, though medication decisions are ultimately made at the provider\u2019s discretion in collaboration with the member. You must hold an active, unrestricted license in New Mexico We have a full-time and part-time opportunity in New Mexico! Key Responsibilities: Conduct initial and follow up telehealth evaluations Deliver care for both substance use and mental health conditions. Prescribe medications as appropriate and answer member questions. Complete documentation in our EHR (Healthie). Collaborate with your care team and attend occasional scheduled team meetings. Requirements: Active and verifiable PMHNP license (Medicaid enrollment is a plus) in the state(s) \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/affect/jobs/new-mexico-psychiatric-mental-health-nurse-practitioner-pmhnp-telehealth-a",
+    "id": "opp_2b5b34a403f8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:31:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "psychiatric-mental-health-nurse-practitioner",
+      "nurse-practitioner",
+      "psychiatric-nurse-practitioner",
+      "pmhnp",
+      "remote-psychiatric-nurse-practitioner",
+      "psychiatric-mental-health-np",
+      "telehealth-psychiatric-provider",
+      "telemedicine-psychiatric-provider",
+      "mental-health-nurse-practitioner",
+      "psychiatric-np"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "New Mexico | Psychiatric Mental Health Nurse Practitioner \u2013 PMHNP \u2013 Telehealth A",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/affect/jobs/new-mexico-psychiatric-mental-health-nurse-practitioner-pmhnp-telehealth-a",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -66752,6 +67325,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_6d37e706f1c3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Precision Medicine Group",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:31:00+00:00",
+    "description": "Are you looking to work with a dynamic team of industry\u2011leading professionals in the HEOR space? Are you passionate about keeping complex, evidence\u2011driven projects running smoothly and delivered to the highest standard? Our Evidence Synthesis & Decision Modelling team at Precision AQ is hiring a Project / Portfolio Manager to support global HEOR programs, with a particular focus on Joint Clinical Assessment (JCA) submissions , systematic literature reviews, statistical analyses, and economic models. This is a highly visible, client\u2011facing role, partnering with senior scientific leaders to ensure projects are well\u2011planned, well\u2011run, and delivered on time and to expectation. About you: You are an experienced project manager with a strong understanding of HEOR\u2011related deliverables and consulting environments. You thrive in coordinating complex, multi\u2011workstream projects and enjoy working closely with both internal teams and external clients. You have experience managing timelines and workloads across multiple concurrent projects, translating high\u2011level objectives into clear, actionable plans, and proactively identifying and resolving risks to delivery. You are confident interacting with clients, supporting project governance, leading project management discussions, and acting as a trusted point of contact for organization, planning, and progress tracking.You are detail\u2011oriented, highly organized, and comfortable working with scientific and technical teams delivering literature \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/precision-medicine-group/jobs/project-manager-evidence-synthesis-1080403726",
+    "id": "opp_6d37e706f1c3",
+    "is_demo": false,
+    "match_score": 72.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-17T08:31:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.7,
+          "evidence": "Matched 2 profile skills: excel, statistics. Covers 67% of the 3 skills this listing names (missing: analytics)."
+        }
+      },
+      "final_score": 55.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "statistics",
+      "analytics",
+      "project-management",
+      "heor",
+      "evidence-synthesis",
+      "portfolio-management",
+      "health-economics",
+      "senior-clinical-project-manager",
+      "senior-project-manager-clinical-trials",
+      "clinical-project-manager",
+      "project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager, Evidence Synthesis",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/precision-medicine-group/jobs/project-manager-evidence-synthesis-1080403726",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_6d39c9f6bb54": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -84315,6 +85032,144 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_89017583a682": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.08,
+    "budget_min": 45.67,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Distro",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:30:36+00:00",
+    "description": "Ready to take your sales career to the next level? Join a recognized leader in Human Capital Management (HCM) solutions, helping businesses streamline HR, payroll, employee benefits, and workforce management. Named one of FORTUNE\u00ae Magazine's Most Innovative Companies for two consecutive years, this organization supports over 740,000 business clients across the U.S. and Europe. Why You'll Love This Opportunity: Negotiable Base Salary (95k - 100k) + Uncapped Commissions 9-Month Guaranteed Ramp-Up Top Performers Earnings Annually Comprehensive Medical, Dental & 401(k) Benefits Fantastic onboarding and training What You'll Do: \u2022 Prospect and develop new business opportunities \u2022 Build relationships with business owners and decision-makers \u2022 Partner with brokers, COIs, and referral partners to generate leads \u2022 Consult with clients on HR, payroll, benefits, and HCM solutions \u2022 Drive revenue growth within your assigned territory #HireFinder Originally posted on Himalayas",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 342.53,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/distro/jobs/b2b-sales-executive-hcm-solutions-tx-la-ny-co-ma-or",
+    "id": "opp_89017583a682",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:30:36+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 39.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $343 on $343 (100% margin). $73 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $91 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "b2b-sales",
+      "hcm-sales",
+      "outside-sales",
+      "territory-sales",
+      "saas-sales",
+      "hcm-sales-executive",
+      "hr-solutions-sales",
+      "human-capital-management-sales",
+      "b2b-sales-executive",
+      "hr-technology-sales",
+      "sales-executive",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "B2B Sales Executive - HCM Solutions (TX, LA, NY, CO, MA, OR)",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/distro/jobs/b2b-sales-executive-hcm-solutions-tx-la-ny-co-ma-or",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_891542e49861": {
@@ -117213,6 +118068,146 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_bd6ed66c6f56": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 40.87,
+    "budget_min": 36.06,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "PerfectServe",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:30:39+00:00",
+    "description": "What is PerfectServe ? PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in 2019. PerfectServe now has 400+ employees, 30,000+ customers \u2014 spanning medical practices, hospitals, and health systems \u2014 and $100 million+ in annual revenue. PerfectServe \u2019s mission is to accelerate speed to care by optimizing provider schedules and routing communications \u2014 including messages, pages, calls, and alerts \u2014 to the right place at the right time in any care setting. By facilitating real-time information sharing, building better schedules, and automating important clinical workflows, we believe we can help our customers advance patient care and improve the well-being of their clinicians. Leading analyst firms like Gartner\u00ae and KLAS Research have consistently validated our approach: In 2026, PerfectServe was named highest in execution and furthest in vision in the Gartner Magic Quadrant\u2122 for Clinical Communication and Collaboration \u2014 the clear segment leader. PerfectServe also received two Best in KLAS awards in 2026 \u2014 one for physician scheduling and another for ambulatory clinical communications. That makes for 11 Best in KLAS awards over the past 9 years. At PerfectServe , you'll have a unique opportunity to join a collaborative team with decades of experience that finds new ways to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 270.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/perfectserve/jobs/customer-field-marketing-manager-us-remote",
+    "id": "opp_bd6ed66c6f56",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:30:39+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [],
+    "score": 39.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $270 on $270 (100% margin). $58 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $72 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-marketing",
+      "field-marketing",
+      "event-marketing",
+      "marketing-manager",
+      "b2b-saas-marketing",
+      "remote-marketing-manager",
+      "field-marketing-manager",
+      "customer-marketing-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer & Field Marketing Manager - US Remote",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/perfectserve/jobs/customer-field-marketing-manager-us-remote",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_bdb4a5ed8e1a": {
@@ -158862,6 +159857,152 @@
       "probability_low": 15.0
     }
   },
+  "opp_fbe2d21a4f0b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Energy Vault",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:31:26+00:00",
+    "description": "Our Company Welcome to Energy Vault \u00ae (NYSE:NRGV) , a global energy storage and power infrastructure company focused on owning, operating, and enabling resilient, dispatchable energy assets. Energy Vault \u2019s focus is to deliver reliable, flexible power that supports the evolving needs of modern grids, communities, and large energy users. Since 2024, the Company has centered its strategy on an Independent Power Producer (IPP) model, developing, building, owning, and operating critical energy assets around the world. Energy Vault operates globally, with headquarters in Westlake Village, California and Lugano, Switzerland, and regional development across North America, Europe, Asia, and Australia. The Company partners with utilities, grid operators, and large energy consumers to deliver infrastructure that strengthens grid reliability, enables renewable integration, and supports long-term energy security. By combining asset ownership with advanced technologies and integration expertise, Energy Vault is building the next generation of critical energy infrastructure, delivering dependable power when and where it matters most. Learn more at , explore recent updates in our Newsroom, and connect with us on LinkedIn, X, Facebook, Instagram, Vimeo, or YouTube. Our Values We Commit: To Building a Better Future for Earth and All Its Beings. We Innovate: Cutting Edge Solutions to Accelerate the Unique Energy Aspirations of Our Clients. We Connect: To Build Genuine Relationships. We \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/energy-vault/jobs/senior-manager-epc-estimation",
+    "id": "opp_fbe2d21a4f0b",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:31:28+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 48.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 48.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "cost-estimator",
+      "construction-estimator",
+      "epc-estimator",
+      "project-estimator",
+      "estimating-manager",
+      "senior-construction-estimating-manager-electrical",
+      "senior-cost-estimator",
+      "senior-estimator",
+      "senior-construction-estimator",
+      "senior-estimation-engineer",
+      "cost-estimation-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Manager, EPC Estimation",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/energy-vault/jobs/senior-manager-epc-estimation",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_fc1778c17a10": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -159833,6 +160974,156 @@
       ],
       "probability_high": 87.0,
       "probability_low": 65.0
+    }
+  },
+  "opp_fcbfe7f1ca61": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 78.37,
+    "budget_min": 73.56,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Tebra",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-17T10:17:31+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T08:30:44+00:00",
+    "description": "Tebra only initiates contact with candidates via email from an official Tebra email address (@, @, or @) or through our applicant tracking system, Greenhouse. We will only ask you to provide sensitive personal information through our official application portal \u2014 not via social media or text message. We do not conduct interviews via instant messaging. About the Role As a Senior Full Stack Engineer, you will primarily design and build backend services while possessing the adaptability to support frontend development when necessary. You will evolve the core API layer and downstream services, delivering secure, performant REST APIs . You will lead technical design reviews , improve service reliability , and collaborate across the stack to ship features end-to-end. While your focus is on the backend, you may step into frontend codebases (Angular/React) to unblock delivery and ensure a cohesive user experience. Your Area of Focus Own and evolve platform APIs and services, ensuring low-latency, resilient endpoints for client applications. Design and implement Spring Boot microservices using modern patterns (contract-first APIs, layered architecture, DTO mappers, caching). Integrate with platform services (appointments, patients, messaging, authentication) via service/domain contracts and RESTful clients. Improve reliability and performance with caching (e.g., Ehcache, Redis, etc.), connection management, and efficient data access. Implement observability (structured logging, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261017T101728Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 735.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tebra/jobs/senior-software-engineer",
+    "id": "opp_fcbfe7f1ca61",
+    "is_demo": false,
+    "match_score": 38.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-17T08:30:44+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 60.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $736 on $736 (100% margin). $155 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $245 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.3,
+          "evidence": "Matched 2 profile skills: automation, rest api. Covers 11% of the 9 skills this listing names (missing: api, aws, css, html)."
+        }
+      },
+      "final_score": 60.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "automation",
+      "javascript",
+      "typescript",
+      "react",
+      "html",
+      "css",
+      "software-engineer",
+      "backend-engineer",
+      "full-stack-engineer",
+      "java-developer",
+      "api-developer",
+      "senior-software-developer",
+      "senior-software-engineer-jobs",
+      "senior-engineer",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Software Engineer",
+    "updated_at": "2026-10-17T10:17:31+00:00",
+    "url": "https://himalayas.app/companies/tebra/jobs/senior-software-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_fd5c26b13874": {
