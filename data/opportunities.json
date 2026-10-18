@@ -41372,6 +41372,134 @@
       "probability_low": 26.0
     }
   },
+  "opp_450e8a274098": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Ready",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-18T10:33:16+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-17T10:09:45+00:00",
+    "description": "\ud83d\ude80 L\u00edder T\u00e9cnico WSO2 Estamos en b\u00fasqueda de un/a L\u00edder T\u00e9cnico WSO2 con experiencia s\u00f3lida en plataformas de integraci\u00f3n y middleware, arquitectura de soluciones y liderazgo de equipos t\u00e9cnicos. La persona ser\u00e1 responsable de liderar la implementaci\u00f3n y coordinaci\u00f3n de componentes de integraci\u00f3n, as\u00ed como el dise\u00f1o y despliegue de arquitecturas orientadas a servicios, APIs y microservicios. Buscamos un perfil con capacidad para combinar liderazgo t\u00e9cnico, gesti\u00f3n de equipos y proyectos de TI , asegurando la correcta ejecuci\u00f3n de iniciativas de integraci\u00f3n y la aplicaci\u00f3n de buenas pr\u00e1cticas de arquitectura, seguridad y gesti\u00f3n de riesgos tecnol\u00f3gicos. \ud83d\udd11 Responsabilidades Liderar t\u00e9cnica y funcionalmente equipos especializados en integraci\u00f3n, arquitectura e infraestructura. Coordinar equipos de desarrollo e infraestructura para la implementaci\u00f3n y evoluci\u00f3n de soluciones tecnol\u00f3gicas. Dise\u00f1ar e implementar arquitecturas orientadas a servicios ( SOA ), Web Services ( SOAP/REST ), APIs y microservicios. Liderar la implementaci\u00f3n, configuraci\u00f3n y despliegue de plataformas de middleware basadas en WSO2 . Trabajar con componentes como WSO2 API Manager, WSO2 Identity Server y WSO2 Enterprise Integrator . Coordinar proyectos de TI relacionados con integraci\u00f3n y plataformas tecnol\u00f3gicas. Participar en la planificaci\u00f3n de proyectos, gesti\u00f3n de riesgos, control de costos, control de cambios y elaboraci\u00f3n de procedimientos. Evaluar y gestionar riesgos tecnol\u00f3gicos asociados a las \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/joinready/jobs/lider-tecnico-wso2",
+    "id": "opp_450e8a274098",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-18T10:09:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: ci/cd. Covers 20% of the 5 skills this listing names (missing: api, docker, kubernetes, rest)."
+        }
+      },
+      "final_score": 48.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "docker",
+      "kubernetes",
+      "ci/cd",
+      "technical-lead",
+      "solutions-architect",
+      "integration-specialist",
+      "middleware-engineer",
+      "wso2-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "L\u00edder T\u00e9cnico WSO2",
+    "updated_at": "2026-10-18T10:33:16+00:00",
+    "url": "https://himalayas.app/companies/joinready/jobs/lider-tecnico-wso2",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_45279761a2ec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -70373,6 +70501,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_6e52a402eca7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Improvado",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-18T10:33:16+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-17T10:09:07+00:00",
+    "description": "About Improvado Improvado is an AI-powered marketing data platform built for mid-market and enterprise teams. We help companies automate complex marketing data workflows, unify data at scale, and surface insights through BI and AI. Brands like Genentech, T-Mobile, Activision, and H&R Block rely on us to simplify analytics and improve marketing performance. We\u2019re a fast-growing Series A startup backed by $34M in funding and driven by a team that moves fast, stays curious, and cares about high-quality execution. About the role Improvado is a marketing data platform for enterprise brands and agencies. You will own how our revenue runs and how it is measured. That covers Salesforce and the GTM tools, the path from signed contract to paid invoice, the revenue data model, and the reports leadership decides from. You work closely with the analytics team: you don\u2019t have to build the data models yourself, but you must read them, spot what is wrong and say what to change. You work through AI agents daily, doing the work of a bigger team. What you will do Salesforce and GTM stack Own Salesforce configuration, release process and user access, plus the integrations around it (Gong, Clay, Lemlist, enrichment, e-signature, lead routing). Keep CRM data clean with guardrails that block mistakes. Manage licences and vendor renewals. Maintain the Salesforce manual and RevOps SOPs, and train new hires. Contract to cash Own ARR and bookings logic (new, upsell, downsell, churn, renewals) and keep \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/improvado/jobs/revops-manager-8682648697",
+    "id": "opp_6e52a402eca7",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-18T10:09:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 3 profile skills: automation, dashboard, sql. Covers 50% of the 6 skills this listing names (missing: analytics, api, dbt)."
+        }
+      },
+      "final_score": 57.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 57.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "dbt",
+      "api",
+      "automation",
+      "dashboard",
+      "analytics",
+      "revops-manager",
+      "sales-operations-manager",
+      "revenue-operations-manager",
+      "crm-administrator",
+      "sales-operations",
+      "revops-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "RevOps Manager",
+    "updated_at": "2026-10-18T10:33:16+00:00",
+    "url": "https://himalayas.app/companies/improvado/jobs/revops-manager-8682648697",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_6e82c260ddad": {
@@ -107556,6 +107821,141 @@
       "probability_low": 15.0
     }
   },
+  "opp_a5c9d1fdb4ef": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Curtins",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-18T10:33:17+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "<p><span>At Curtins, we're an employee-owned engineering consultancy driven by a simple ambition: to create a better built environment for everyone.</span></p><p class=\"MsoNormal\"><span>For over 65 years, we've delivered practical, innovative and sustainable solutions that make a positive impact on communities across the UK and Ireland. From major regeneration schemes and commercial developments to education, healthcare and residential projects, our work helps shape the places where people live, learn, work and thrive.</span></p><p class=\"MsoNormal\">As a Graduate Transport Planner, you'll work alongside experienced planners, engineers and consultants, contributing to a wide range of projects while developing the technical and professional skills you need to build your career.</p><p class=\"MsoNormal\">Whether you're interested in transport assessments, active travel &amp; sustainable mobility, highways or public transport, we'll give you the experience, guidance and support to find the areas that interest you most and develop your expertise in development planning.</p><h4><span><strong>What you'll be doing</strong></span></h4><p><span>You will support the planning and development process, helping clients bring projects forward from initial concept through to planning approval.</span></p><p class=\"MsoNormal\"><span>Your responsibilities will include:</span></p><ul><li class=\"MsoNormal\"><p><span>Assisting with the preparation of Transport Assessments and Transport \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137542",
+    "id": "opp_a5c9d1fdb4ef",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-17T08:00:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "hr",
+      "education",
+      "consulting",
+      "technical",
+      "customer support",
+      "marketing",
+      "travel",
+      "medical",
+      "engineer"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Graduate Transport Planner",
+    "updated_at": "2026-10-18T10:33:17+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-graduate-transport-planner-curtins-1137542",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_a5cc5925133c": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -139117,6 +139517,163 @@
       "probability_low": 21.0
     }
   },
+  "opp_d705c8425993": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "primion Technology GmbH",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-18T10:33:16+00:00",
+    "currency": "EUR",
+    "deadline": "2026-12-17T10:05:07+00:00",
+    "description": "Protect what matters. Primion Technology is a global solution provider and market leader in Converged Security Solutions and Workforce Management . For more than 30 years, we have supported around 4,000 satisfied customers worldwide who rely on our certified solutions every day. From consulting and planning to development, installation, maintenance, and support, a team of over 470 dedicated experts works passionately to meet the highest standards. As a Solution Manager \u2013 Workforce Optimization & Compliance (m/f/d) , you will be responsible for the strategic and functional development of our workforce management solutions. You will design future\u2011proof, compliant, and efficient solutions for workforce planning, shift optimization, and personnel cost control, ensuring their seamless integration into HR, ERP, and access control systems. You will act as the domain owner for Workforce within our solution stack and serve as the central interface between Product Management, R&D, Legal, Sales, and our customers. Sounds like the right mission for you? Then join our team and apply today for this 100% remote position as Solution Manager \u2013 Workforce Optimization & Compliance (m/f/d) ! Your Responsibilities Strategic Responsibility Further development of our workforce management portfolio Definition of target architectures and solution components Development of SaaS and vertical solution concepts Compliance & Regulation Ensuring compliance with working time laws, collective agreements, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/primion-technology-gmbh/jobs/solution-manager-workforce-optimization-compliance-m-f-d",
+    "id": "opp_d705c8425993",
+    "is_demo": false,
+    "match_score": 10.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-18T10:05:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 26.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 2.5,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: analytics, api, aws, rest)."
+        }
+      },
+      "final_score": 26.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"we have supported around 4\"; \"000 satisfied customers worldwide who rely on our certified solutions \".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 38.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "analytics",
+      "product-manager",
+      "solution-manager",
+      "product-owner",
+      "workday-consultant",
+      "hris-solutions-manager",
+      "solution-implementation-manager",
+      "solutions-delivery-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Solution Manager \u2013 Workforce Optimization & Compliance (m/f/d)",
+    "updated_at": "2026-10-18T10:33:16+00:00",
+    "url": "https://himalayas.app/companies/primion-technology-gmbh/jobs/solution-manager-workforce-optimization-compliance-m-f-d",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_d7338bc4427a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -142563,6 +143120,129 @@
       "probability_low": 15.0
     }
   },
+  "opp_dc644a695dc2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "PlanetScale",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-18T10:33:17+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote - NA, APAC, EMEA PlanetScale is growing rapidly and reinventing the database space. The PlanetScale platform offers both Postgres and Vitess clusters. Vitess, an open-source database clustering system for horizontal scaling of MySQL, enables businesses to efficiently handle large-scale data workloads \u2014 without sacrificing developer experience. Our customers entrust us with what is often their most precious digital asset, their data, so the stakes couldn't be higher. We're looking for a Software Engineer to join our core engineering team and help us build the next generation of database infrastructure. What's the job to be done? You will advise and handle support requests from enterprise customers on the PlanetScale platform. You will become a customer-facing subject-matter expert for enterprise customers on the PlanetScale platform. You will identify product gaps in a customer-specific context and work with Technical Account Management, Engineering and Sales Engineering teams to prioritize and escalate them. You will be part of an on call rotation for high priority issues. These attributes best describe you\u2026 You are comfortable in front of customers, empathetic but understanding when to push back to help customers become successful on their own. You have excellent debugging and troubleshooting skills; with a mix of enough experience and intuition to zero in on root-causes for bugs that can leave others stumped. You are comfortable stepping outside your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/planetscale-enterprise-support-engineer",
+    "id": "opp_dc644a695dc2",
+    "is_demo": false,
+    "match_score": 53.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Sun, 18 Oct 2026 07:30:58 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.0,
+          "evidence": "Matched 3 profile skills: excel, python, sql. Covers 25% of the 12 skills this listing names (missing: api, aws, azure, gcp)."
+        }
+      },
+      "final_score": 48.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "mysql",
+      "excel",
+      "api",
+      "aws",
+      "gcp",
+      "azure",
+      "kubernetes",
+      "node"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "PlanetScale: Enterprise Support Engineer",
+    "updated_at": "2026-10-18T10:33:17+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/planetscale-enterprise-support-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (43-59%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 59.0,
+      "probability_low": 43.0
+    }
+  },
   "opp_dc7ac3fe6b5b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -145607,6 +146287,142 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_e103f5eeafe9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 7,
+    "budget_min": 6,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Winning Assistants",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-18T10:33:16+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-17T10:03:29+00:00",
+    "description": "Job Post: Healthcare Billing Specialist (ASC Billing) Position Code: GJ-MHS Position Type: Full-Time (40 hours per week) Work Hours: 9:00 AM \u2013 5:00 PM PDT Work Days: Monday to Friday Salary: Starting at $6 - 7 per hour (depending on experience) We are seeking a detail-oriented and experienced Healthcare Billing Specialist specializing in Ambulatory Surgery Center (ASC) billing to support accurate claims processing, efficient revenue cycle management, and timely reimbursement for U.S. healthcare providers. In this role, you will primarily handle ASC medical billing , including surgical claims submission, insurance verification, payer follow-ups, denial management, appeals, and accounts receivable. You will ensure claims are accurately processed according to ASC-specific billing requirements, coding guidelines, and payer policies. The ideal candidate has strong hands-on experience with ASC billing workflows , outpatient surgical procedures, CPT/HCPCS codes, modifiers, and reimbursement processes . Experience with home health billing, Notices of Admission (NOAs), and ALORA software is an added advantage. Beyond billing responsibilities, you will also provide administrative, executive, and patient communication support to help maintain efficient daily operations. If you are a proactive medical billing professional who enjoys resolving complex claims, improving reimbursement outcomes, and supporting healthcare providers, we'd love to hear from you! Key Responsibilities ASC \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 45.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/winning-assistants/jobs/healthcare-billing-specialist-asc-billing",
+    "id": "opp_e103f5eeafe9",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-18T10:03:29+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $45 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 55.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "healthcare-billing-specialist",
+      "medical-billing-specialist",
+      "asc-billing-specialist",
+      "revenue-cycle-specialist",
+      "medical-billing-coordinator",
+      "healthcare-billing-associate",
+      "healthcare-billing-coordinator",
+      "medical-claims-billing-specialist",
+      "hospital-billing-specialist",
+      "healthcare-revenue-cycle-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Healthcare Billing Specialist (ASC Billing)",
+    "updated_at": "2026-10-18T10:33:16+00:00",
+    "url": "https://himalayas.app/companies/winning-assistants/jobs/healthcare-billing-specialist-asc-billing",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e135f6a339d4": {
@@ -166702,6 +167518,149 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_fe3d4bf8be6a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "DeVry University",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-18T10:33:16+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-17T10:01:47+00:00",
+    "description": "DeVry University strives to close our society\u2019s opportunity gap and address emerging talent needs by preparing learners to thrive in careers shaped by continuous technological change. Through innovative programs, relevant partnerships, and exceptional care, we empower students to meaningfully improve their lives, communities, and workplaces. Opportunity: DeVry University focuses on developing long-term relationships with superior instructors who have high professional standards, excellent communication skills, enthusiasm and a commitment to providing the finest practitioner-focused education. We are seeking primarily industry professionals to teach and share their knowledge and experience with undergraduate and graduate students in a variety of fields. Courses meet once or twice a week for eight weeks. Face-to-face interaction is blended with technology (such as online discussions and online assignments) for an enhanced learning environment. Faculty are responsible for facilitating student learning by teaching courses and programs in accordance with DeVry University requirements. Faculty develop course syllabi and lesson plans and apply teaching techniques to best achieve course and programmatic objectives. All DeVry instructors will participate in a comprehensive faculty training program and ongoing faculty development activities to ensure the highest quality instruction. As you explore this opportunity, we invite you to view this brief video highlighting how our faculty \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261018T103315Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/devry-university/jobs/online-visiting-professor-of-cloud-computing-6645830232",
+    "id": "opp_fe3d4bf8be6a",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-18T10:01:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, azure)."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "azure",
+      "adjunct-professor",
+      "online-instructor",
+      "faculty",
+      "university-professor",
+      "academic",
+      "remote-visiting-professor",
+      "cloud-computing-instructor",
+      "online-adjunct-professor",
+      "cloud-computing-trainer",
+      "cloud-instructor",
+      "online-faculty",
+      "online-computer-science-instructor",
+      "cloud-computing-mentor",
+      "online-adjunct-faculty",
+      "remote-faculty"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Online Visiting Professor of Cloud Computing",
+    "updated_at": "2026-10-18T10:33:16+00:00",
+    "url": "https://himalayas.app/companies/devry-university/jobs/online-visiting-professor-of-cloud-computing-6645830232",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
