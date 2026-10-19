@@ -40709,6 +40709,153 @@
       "probability_low": 15.0
     }
   },
+  "opp_430f5b75aab2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 27,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "MRO Corp",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-19T12:26:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-18T11:00:00+00:00",
+    "description": "Overview The Trauma Registrar (SCDS - Senior Clinical Data Specialist) delivers quality solutions to hospital partners across the country. They approach each hospital engagement as an opportunity to apply their clinical expertise with precision to advance patient outcomes and research. Find your purpose by joining the Q-Centrix team to make a meaningful impact! Responsibilities Apply specialized, clinical knowledge to hospital partners: categorize, code, summarize, interpret and calculate registry/case information from nuanced, patient medical records. Ensure quality submission of all data in specified registries or measure data repositories, maintaining a high accuracy threshold. Prioritize, organize, and meet tight deadlines for multiple concurrent tasks and team requests; uses tact and judgement to manage expectations, flag obstacles and propose solutions in a timely manner. Navigate new technical systems: electronic medical records (EMR) and registry/case entry tools; use team resources to troubleshoot technical issues with systems and applications with a focus on solutions. Contribute to team best practices, data dictionaries, abstraction guidelines, and other business rule documents; identifies process improvement opportunities to help streamline tasks and processes. Keeps up to date on mandated regulatory/publicly reported data requirements as specified by federal, state, payer and other agencies. Any or other additional responsibilities as assigned Qualifications Two \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261019T122634Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 202.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mro-corp/jobs/trauma-registrar-pt",
+    "id": "opp_430f5b75aab2",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-19T11:00:01+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [],
+    "score": 59.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $202 on $202 (100% margin). $43 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $54 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 59.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "trauma-registrar",
+      "clinical-data-specialist",
+      "health-information-specialist",
+      "medical-records-specialist",
+      "trauma-data-analyst",
+      "trauma-registry-specialist",
+      "trauma-registry"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Trauma Registrar - PT",
+    "updated_at": "2026-10-19T12:26:36+00:00",
+    "url": "https://himalayas.app/companies/mro-corp/jobs/trauma-registrar-pt?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_431c3139cbea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -94761,6 +94908,167 @@
       "probability_low": 38.0
     }
   },
+  "opp_905ea6f86f19": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.96,
+    "budget_min": 31.73,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Peraton",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-19T12:26:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-18T11:06:25+00:00",
+    "description": "Responsibilities Peraton is seeking a Lead Security Analyst to join our team of qualified, diverse professionals supporting the Health State and Local Sector. The ideal candidate will lead security analysis, compliance oversight, and risk management efforts across a complex, mission critical environment. This role plays a pivotal part in ensuring secure and compliant solutions, guiding vulnerability management activities, and supporting major modernization efforts for the Centers for Medicare & Medicaid Services (CMS). The Lead Security Analyst will help shape and maintain a robust security posture, ensuring that all program capabilities adhere to CMS and Federal security standards. Lead Security Analyst\u2019s responsibilities shall include, but are not limited to: Leading all security analysis, compliance, and oversight activities for the Program.\u2022 Conducting comprehensive security assessments, including evaluation of system architecture, data flows, interfaces, and inherited controls.\u2022 Developing, maintaining, and enforcing program-wide security policies, procedures, and documentation consistent with Federal and CMS security requirements.\u2022 Managing the program\u2019s vulnerability assessment program, including vulnerability scanning, analysis, reporting, and coordination of remediation activities.\u2022 Leading the development of risk mitigation strategies and providing recommendations to address findings from scans, assessments, POA&Ms, and audits.\u2022 Preparing and supporting all \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261019T122634Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 237.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peraton/jobs/information-assurance-and-security-lead-associate",
+    "id": "opp_905ea6f86f19",
+    "is_demo": false,
+    "match_score": 87.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-19T11:06:25+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 57.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $238 on $238 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 32.4,
+          "evidence": "Matched 4 profile skills: automation, dashboard, excel, reporting. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 57.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 69.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "dashboard",
+      "security-analyst",
+      "cybersecurity-analyst",
+      "information-security-analyst",
+      "security-lead",
+      "compliance-analyst",
+      "lead-information-security-analyst",
+      "information-security-lead",
+      "senior-information-assurance-manager",
+      "lead-cybersecurity-specialist",
+      "senior-information-security-consultant",
+      "it-security-lead",
+      "senior-information-security-analyst",
+      "cyber-information-assurance-analyst"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Information Assurance and Security, Lead Associate",
+    "updated_at": "2026-10-19T12:26:36+00:00",
+    "url": "https://himalayas.app/companies/peraton/jobs/information-assurance-and-security-lead-associate?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_9077417e5d63": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -111558,6 +111866,148 @@
       ],
       "probability_high": 43.0,
       "probability_low": 23.0
+    }
+  },
+  "opp_a86eeea8fbe6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 27,
+    "budget_min": 27,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "FTI Consulting Inc",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-19T12:26:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-18T11:04:12+00:00",
+    "description": "Who We Are FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world\u2019s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations. At FTI Consulting, you\u2019ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you\u2019ll be an integral part of a focused team where you can make a real impact. You\u2019ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you. Are you ready to make your impact? About the Opportunity: Acuity Managed Review is seeking reviewers for upcoming document review projects. These are work from home opportunities but candidates must be based in one of the following states: Florida and Tennessee. Reviewers should expect to work 40 hours per week in a fast-paced, deadline-driven work environment. No relocation assistance is provided and the position is not eligible for visa sponsorship. Compensation rates are competitive. At FTI, we like to get to know our document reviewers and have them work on multiple projects over time. To become a member of one of our document review teams, please apply. Primary \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261019T122634Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 202.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fti-consulting-inc/jobs/acuity-document-reviewer-fl-tn",
+    "id": "opp_a86eeea8fbe6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-19T11:04:13+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 19.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $202 on $202 (100% margin). $43 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $54 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 19.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 31.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "analytics",
+      "document-reviewer",
+      "document-review-attorney",
+      "litigation-support-specialist",
+      "ediscovery-specialist",
+      "legal-document-reviewer",
+      "document-review-specialist",
+      "document-review-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Acuity Document Reviewer - FL/TN",
+    "updated_at": "2026-10-19T12:26:36+00:00",
+    "url": "https://himalayas.app/companies/fti-consulting-inc/jobs/acuity-document-reviewer-fl-tn?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_a8b461b55b1b": {
@@ -140301,6 +140751,145 @@
       "probability_low": 21.0
     }
   },
+  "opp_d44830d720a9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 39.42,
+    "budget_min": 24.52,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Peraton",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-19T12:26:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-18T10:52:26+00:00",
+    "description": "Responsibilities SafeGuard Services (SGS), a subsidiary of Peraton , performs data analysis, investigation, and medical review to detect, prevent, deter, reduce, and make referrals to recover fraud, waste, and abuse. The Fraud Investigator is expected to perform high level complex investigations of medical professional service providers and develop cases for future action, including referral to law enforcement, education, over payment recovery and other administrative actions. Will work with internal resources and external agencies to develop cases and corrective actions as well as respond to requests for data and support. An investigator uses good judgment and may work independently with minimum supervision and direction. The investigator also may work as part of a team as there may be times when the investigator needs to work with state and/or federal investigators and other personnel. An investigator handles multiple caseload assignments concurrently; organizes and analyzes complex evidentiary patterns; interviews and obtains statements from witnesses and others. Investigators may also be required to complete complex investigative reports that apply regulations or rules to the program(s) affected by the behavior being investigated. There may also be times when the investigator will need to apply federal or state laws. Investigators are expected to research and understand the relevant offenses being investigated; conduct efficient and effective investigations concerning \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261019T122634Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 183.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peraton/jobs/fraud-investigator-4977063930",
+    "id": "opp_d44830d720a9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-19T10:52:27+00:00",
+    "profit_score": 20.1,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.7,
+          "evidence": "Estimated net $184 on $184 (100% margin). $39 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $49 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "react",
+      "fraud-investigator",
+      "healthcare-investigator",
+      "compliance-investigator",
+      "claims-investigator",
+      "insurance-investigator",
+      "fraud-investigation",
+      "insurance-fraud-investigator",
+      "fraud-and-abuse-investigator",
+      "financial-crime-investigator",
+      "financial-crimes-investigator",
+      "healthcare-fraud-investigator",
+      "fraud-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Fraud Investigator",
+    "updated_at": "2026-10-19T12:26:36+00:00",
+    "url": "https://himalayas.app/companies/peraton/jobs/fraud-investigator-4977063930?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d45e9e33d0b7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -151769,6 +152358,142 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_e651a2004da8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 61.98,
+    "budget_min": 39.47,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Cardinal Health",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-19T12:26:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-18T11:07:52+00:00",
+    "description": "What Clinical Operations contributes to Cardinal Health Clinical Operations is responsible for providing clinical specialties support and expertise in the areas of advice and consulting, research and patient care to internal business units and external customers. Clinical Operations is responsible for supporting the timely and quality sale, installation and monitoring of Cardinal Health products and services; may also provide product and service education to facilitate technology adoption and workflow change management. The Clinical Operations & Analytics Consultant serves as the technical and analytical resource supporting CardinalASSIST and related pharmacy solutions. This individual collaborates with Clinical Operations Consultants, Product Management, IT teams, and customer stakeholders to design, develop, automate, and maintain reporting and analytics solutions. The position emphasizes business intelligence, dashboard development, data analysis, automation, interface coordination, and performance measurement rather than direct account management responsibilities. Responsibilities: Develop, maintain, and enhance operational dashboards, scorecards, and performance metrics. Design and automate recurring business reports to reduce manual effort and improve accuracy. Develop and support Power BI, Tableau, and other business intelligence reporting platforms. Create executive-level and customer-facing performance reporting. Analyze operational data to identify trends, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261019T122634Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 513.11,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cardinal-health/jobs/clinical-operations-and-analytics-consultant",
+    "id": "opp_e651a2004da8",
+    "is_demo": false,
+    "match_score": 70.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-19T11:07:53+00:00",
+    "profit_score": 51.0,
+    "risk_flags": [],
+    "score": 67.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.4,
+          "evidence": "Estimated net $513 on $513 (100% margin). $83 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $132 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.0,
+          "evidence": "Matched 4 profile skills: automation, dashboard, reporting, sql. Covers 43% of the 7 skills this listing names (missing: analytics, power bi, rest, tableau)."
+        }
+      },
+      "final_score": 67.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "rest",
+      "automation",
+      "dashboard",
+      "tableau",
+      "power bi",
+      "analytics",
+      "analytics-consultant",
+      "health-data-analyst",
+      "business-intelligence-analyst",
+      "clinical-operations-analyst",
+      "reporting-analyst",
+      "clinical-operations-consultant",
+      "clinical-operations-consulting",
+      "clinical-operations-analytics",
+      "healthcare-analytics-consultant",
+      "clinical-operations-data-analyst",
+      "healthcare-operations-consulting"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Clinical Operations and Analytics Consultant",
+    "updated_at": "2026-10-19T12:26:36+00:00",
+    "url": "https://himalayas.app/companies/cardinal-health/jobs/clinical-operations-and-analytics-consultant?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_e6836c26eb1d": {
