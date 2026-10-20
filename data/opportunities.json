@@ -1640,6 +1640,166 @@
       "probability_low": 15.0
     }
   },
+  "opp_020d45d507af": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 53.25,
+    "budget_min": 35.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Aurrera Health Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:27:25+00:00",
+    "description": "Department: Status: Benefits Eligible: Yes Hou rs Per Week: 40 Schedule Details/Additional Information: Pay Range: $35.50 - $53.25 Looking for full time RNs - Position is 100% remote **Candidate MUST have 2+ years' acute care experience (ED, Urgent Care, some ICU and Med/Surg will be considered) is required within the last 4 years to be considered.** 2+ years of ED and/or Urgent Care experience highly preferred. Due to complex requirements, remote work is NOT permitted from the following states: CA, CO, CT, HI, MA, MD, MN, NJ, NY, OR, RI, VT, WA Schedule: Full time position Start times days: 8a-10a or PM 12p-2p (or later) CST 8 hour or 10 hour shifts are available for different shifts MUST be available to work every 4th weekend and holiday rotation. Major Responsibilities: Uses the nursing process and guidance of established protocols to assess the needs of the patient telephonically including the patient, guardian, or family in the conversation when necessary. Determines most appropriate level of care needed, provides detailed education, establishes a plan of care including interventions, and communicates follow up instructions to the patient. Escalates and collaborates with the appropriate on call provider when additional guidance is needed. Prioritizes patient interactions by acuity and need considering all available information and resources. Applies evidence-based practice to deliver patient care. Implements strategies to reduce patient risk and increase patient safety. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 266.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aurrera-health-group/jobs/triage-registered-nurse-rn-patient-access-and-care-team-pact-6041439493",
+    "id": "opp_020d45d507af",
+    "is_demo": false,
+    "match_score": 13.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T20:27:25+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 30.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $266 on $266 (100% margin). $57 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $71 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 4.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 30.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 4 hard requirement(s) with nothing in the operator profile behind them: \"2+ years' acute care experience (ed\"; \"urgent care\"; \"med/surg will be considered) is required within the last 4 years to be\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 42.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "triage-registered-nurse",
+      "registered-nurse",
+      "remote-nursing",
+      "telephonic-nursing",
+      "patient-access-nurse",
+      "rn-triage-nurse",
+      "patient-triage-nurse",
+      "rn-nurse-triage",
+      "registered-nurse-triage",
+      "clinical-triage-rn",
+      "triage-rn",
+      "clinical-triage-nurse",
+      "centralized-triage-rn"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Triage Registered Nurse (RN) Patient Access and Care Team (PACT)",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/aurrera-health-group/jobs/triage-registered-nurse-rn-patient-access-and-care-team-pact-6041439493?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_02195f68a43e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -12083,6 +12243,140 @@
       ],
       "probability_high": 34.0,
       "probability_low": 12.0
+    }
+  },
+  "opp_140099437c4a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "DBOS",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:33:50+00:00",
+    "description": "Note: Only applicants residing in Metro Manila will be prioritized for this role Position Overview We are seeking a highly organized, proactive, and detail-oriented Virtual Executive Assistant to support the day-to-day administration and operational functions of a growing field services business. This role serves as the central point of coordination for administrative processes, scheduling, communications, payroll support, reporting, and general business operations. Key Responsibilities Executive & Administrative Support Manage and maintain executive inboxes, prioritizing communications and ensuring timely responses. Organize, monitor, and reduce email backlog while maintaining inbox efficiency. Draft, respond to, and follow up on client, supplier, and internal communications. Coordinate meetings, appointments, and calendar schedules. Develop and maintain administrative systems, procedures, and business documentation. Provide general executive and administrative support as required. Operations Scheduling & Workforce Coordination Schedule and coordinate rectification works, maintenance jobs, and service appointments. Allocate work efficiently across technicians and subcontractors based on availability, capability, geographic location, and job complexity. Optimize scheduling to maximize technician productivity and minimize travel downtime. Coordinate work distribution across Melbourne-based staff and subcontractors nationwide. Monitor job progress and assist with rescheduling, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dbos/jobs/virtual-operations-assistant",
+    "id": "opp_140099437c4a",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T20:33:51+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "virtual-assistant",
+      "executive-assistant",
+      "operations-coordinator",
+      "administrative-coordinator",
+      "dispatch-coordinator",
+      "virtual-office-assistant",
+      "virtual-team-assistant",
+      "virtual-operations",
+      "virtual-administrative-assistant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Virtual Operations Assistant",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/dbos/jobs/virtual-operations-assistant?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_14117daa2742": {
@@ -32909,6 +33203,135 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_322575df902c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Jobs on a Ship",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:42:45+00:00",
+    "description": "This is a remote position. Job Description Are you a charismatic person who can adapt to difficult situations during live productions? Are you thoughtful, can you remain composed under pressure, and can you solve urgent problems? Are you someone who can work better together to provide the smoothest and best productions with pride? Are you someone who loves delivering great service and experiences, and delivers excellence? Key Responsibilities of an Assistant Manager Production \u2013 Automation: Provide the management of automated operation Stage design for large shows, cabarets, bands, various musical programmes and much more Coordinate with others to ensure a complete and seamless production Deputise for the Production Manager when required Ensure all work is carried out in accordance with the company\u2019s health and safety guidelines and regulations. Requirements The following experiences are essential: Experience of operating, maintaining and repairing stage automation systems Supervising a small team Good knowledge of health and safety within production and experience of working with risk assessments It takes great passion and real dedication to maintain our position at the top. That\u2019s why people are at the heart of our journey delivering the highest standards to our valued customers. With support to help you reach your potential and attractive company benefits. Join us on our journey, apply now. We are working hard to build a flexible and inclusive culture. As part of our \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jobs-on-a-ship/jobs/asst-production-manager-stage",
+    "id": "opp_322575df902c",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T20:42:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 45.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 45.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 57.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "assistant-production-manager",
+      "stage-management",
+      "live-event-production",
+      "stage-automation",
+      "production-management",
+      "production-coordination",
+      "stage-operations",
+      "production-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Asst. Production Manager - Stage",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/jobs-on-a-ship/jobs/asst-production-manager-stage?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (43-59%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 59.0,
+      "probability_low": 43.0
     }
   },
   "opp_32bcaa660b8b": {
@@ -77985,6 +78408,139 @@
       "probability_low": 15.0
     }
   },
+  "opp_740d48675ec1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Agencyhires",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-19T20:38:32+00:00",
+    "description": "We are hiring an experienced Klaviyo Specialist for our client, a growing retention email marketing agency that has generated over $30 million in revenue for subscription eCommerce brands. This role is for someone who knows Klaviyo inside out, has experience managing multiple agency accounts, and can independently execute high-performing email campaigns and flows. A Day in This Role You start your day inside Klaviyo, reviewing campaigns and automated flows across your client accounts. One brand needs its subscription cancellation flow updated. Another has an abandoned cart flow that needs testing, while a third has a campaign scheduled to go live. You check the segmentation, triggers, links, and tracking to make sure everything is working before launch. Throughout the day, you collaborate with the CSM, Project Manager, Designer, and Copywriter to keep campaigns moving. You end the day knowing your work has helped multiple eCommerce brands run stronger retention email programs. Must-Have Requirements Please apply only if you meet all five requirements: 2+ years of hands-on Klaviyo experience working with eCommerce brands generating $1M+ in monthly revenue. Subscription eCommerce experience , including cancellation and downgrade flows, and integrations with Skio, Loop, Recharge, Ordergroove, or similar platforms. Agency experience managing multiple client accounts simultaneously. Freelance-only or in-house-only experience is not sufficient. Experience managing 5+ accounts \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/agencyhires/jobs/client-success-manager-klaviyo-manager",
+    "id": "opp_740d48675ec1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T20:38:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer-success-manager",
+      "customer-success-account-manager",
+      "senior-client-success-manager",
+      "growth-customer-success-manager",
+      "client-success-lead",
+      "customer-success-operations-manager",
+      "client-success-director",
+      "sr.-manager-of-customer-success"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Klaviyo Specialist",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/agencyhires/jobs/client-success-manager-klaviyo-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_743442b1d9c9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -84511,6 +85067,154 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_7cf0933d364b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.5,
+    "budget_min": 21.11,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Abbott",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:27:21+00:00",
+    "description": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic medicines. Our 122,000 colleagues serve people in more than 160 countries. JOB DESCRIPTION: Working at Abbott At Abbott , you can do work that matters, grow, and learn, care for yourself and family, be your true self and live a full life. You\u2019ll also have access to: Career development with an international company where you can grow the career you dream of. Employees can qualify for free medical coverage in our Health Investment Plan (HIP) PPO medical plan in the next calendar year An excellent retirement savings plan with high employer contribution Tuition reimbursement, the Freedom 2 Save student debt program and FreeU education benefit - an affordable and convenient path to getting a bachelor\u2019s degree. A company recognized as a great place to work in dozens of countries around the world and named one of the most admired companies in the world by Fortune. A company that is recognized as one of the best big companies to work for as well as a best place to work for diversity, working mothers, female executives, and scientists. Heart Failure In Abbott \u2019s Heart Failure (HF) business, we\u2019re developing solutions to diagnose, monitor and manage heart failure, allowing people to restore their health and get on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 211.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/abbott/jobs/territory-manager-cardiomems-indianapolis",
+    "id": "opp_7cf0933d364b",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T20:27:21+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [],
+    "score": 57.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $211 on $211 (100% margin). $44 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $70 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 40% of the 5 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 57.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "forecasting",
+      "analytics",
+      "territory-manager",
+      "medical-device-sales",
+      "cardiology-sales",
+      "heart-failure-sales",
+      "healthcare-sales",
+      "cardiac-specialty-account-manager",
+      "healthcare-territory-manager",
+      "cardiovascular-medical-device-sales-specialist",
+      "cardiomems-specialist",
+      "territory-sales-manager",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Territory Manager CardioMEMS - Indianapolis",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/abbott/jobs/territory-manager-cardiomems-indianapolis?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_7d583aaffead": {
@@ -133973,6 +134677,139 @@
       "probability_low": 0.0
     }
   },
+  "opp_c59636f041f3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 45.67,
+    "budget_min": 40.87,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Waterfield-Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:34:12+00:00",
+    "description": "Client Success Manager Company Overview Waterfield Tech helps companies plan, deploy, and run the Customer Experience (CX) stack and operation as one system \u2013 combining tech and talent with shared KPI accountability so customer outcomes and economics improve together. We value our people\u2014their diversity, their dedication, and their commitment to Client satisfaction. We encourage each other. We understand the value of hard work and the importance of a healthy balance. We\u2019re all on the same page\u2026 even though we may get there from different perspectives. All in all, it\u2019s a pretty cool place to be and we\u2019re growing our global team of engineers, sales professionals, and creative souls. Position Summary The Client Success Manager (CSM) plays a central role in ensuring that Waterfield\u2019s clients achieve meaningful, measurable outcomes from their investment in our solutions. This role is responsible for driving customer adoption, value realization, and long-term account growth. The CSM serves as the primary day-to-day point of contact for client stakeholders and acts as the quarterback of the ongoing customer experience. This includes overseeing and coordinating support activities, ensuring issues are addressed in a timely manner, and serving as a trusted escalation point when needed. By maintaining a deep understanding of each client\u2019s environment, goals, and challenges, the CSM ensures alignment between client needs and Waterfield\u2019s capabilities. In partnership with account \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 306.52,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/waterfield-technologies/jobs/client-success-manager",
+    "id": "opp_c59636f041f3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T20:34:12+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 39.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $307 on $307 (100% margin). $65 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $82 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "customer-success-manager",
+      "account-manager",
+      "customer-success-account-manager",
+      "client-success-relationship-manager",
+      "client-success-specialist",
+      "client-success-partner",
+      "client-success-consultant",
+      "client-success-lead"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Client Success Manager",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/waterfield-technologies/jobs/client-success-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c59a1971001d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -135609,6 +136446,145 @@
       ],
       "probability_high": 57.0,
       "probability_low": 41.0
+    }
+  },
+  "opp_c6d77f03d16f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "MAKERZ",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:26:34+00:00",
+    "description": "Job brief We've got an exciting #freelance role for a #socialmedia manager to join our team. 5 years experience - ideally within the #hospitality industry and/or a #creative agency. Experience delivering content for #instagram and #tiktok as well as running Ads on #META Flexible work schedule & Remote working (occasional travel to location for shoot or events) Starting asap on a rolling contract. If you're available & interested, please get in touch: Responsibilities Develop marketing and campaign strategies. Measure and report digital marketing campaigns (ROI, CTR, etc.) Leverage partnerships. Manage social media profiles. Come up with insights by studying trends. Identify opportunities.conversion and employ best practices when performing digital marketing and associated responsibilities on behalf of the company. Originally posted on Himalayas",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/makerz/jobs/nyc_freelance-social-media-manager-6363245638",
+    "id": "opp_c6d77f03d16f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T20:26:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 20.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 20.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "social-media-manager",
+      "digital-marketing-manager",
+      "social-media-marketing-manager",
+      "content-marketing-manager",
+      "freelance-social-media-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "NYC_FREELANCE SOCIAL MEDIA MANAGER",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/makerz/jobs/nyc_freelance-social-media-manager-6363245638?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_c700a8f4bbea": {
@@ -150673,6 +151649,147 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_dd127cba7ace": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "Tectu",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:35:38+00:00",
+    "description": "At Tectu , you can make a real impact! As a Data Engineer you will play a lead role in delivering data and business strategies, solutions and processes to support the data oriented projects. The ideal candidate is passionate about delivering cutting edge solutions to support the changing business needs and technology landscape. You will be working closely with others on our Product and Engineering teams to define and deliver these solutions. If you are data obsessed, passionate about technology, self-motivated and a disciplined freelancer, we would love to speak with you. The ideal candidate has both a willingness and desire to work in a dynamic environment, is able to apply Agile methodologies in day-to-day activities, and who enjoys working both independently with little oversight and in a team environment. About the Role At Tectu , we work with various customers, providing advanced tech solutions to solve different problems and needs. As a Data Engineer at Tectu , your day will most likely vary according to which projects youre involved in, but generally youll be performing the following activities: Owning major projects from inception to production deployment, shipping at a rapid pace Architecting, designing and developing simple, yet flexible solutions for a variety of customers Designing and building data infrastructure such as data ingestion, pipelines, warehouses, and data lakes that are efficient architectures and capable of storing and analyzing large quantities of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tectu/jobs/data-engineer-freelancer",
+    "id": "opp_dd127cba7ace",
+    "is_demo": false,
+    "match_score": 58.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T20:35:41+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 14.2,
+          "evidence": "Matched 3 profile skills: etl, python, sql. Covers 33% of the 9 skills this listing names (missing: airflow, analytics, api, aws)."
+        }
+      },
+      "final_score": 54.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "bigquery",
+      "airflow",
+      "etl",
+      "api",
+      "rest",
+      "aws",
+      "analytics",
+      "data-engineer",
+      "data-engineering-consultant",
+      "analytics-engineer",
+      "big-data-engineer",
+      "freelance-data-engineer",
+      "freelance-data-engineering",
+      "contract-data-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Engineer (Freelancer)",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/tectu/jobs/data-engineer-freelancer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_de375ce284b6": {
@@ -167404,6 +168521,167 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_f509f78c4c64": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 53.25,
+    "budget_min": 35.5,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Aurrera Health Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-20T21:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T20:27:38+00:00",
+    "description": "Department: Status: Part time Benefits Eligible: Yes Hou rs Per Week: 32 Schedule Details/Additional Information: Pay Range: $35.50 - $53.25 Schedule: Part-time, either 3 (10 hour) shifts or 4 (8 hour) shifts. Day hours available. Every fourth weekend and holiday rotation. **Candidate MUST have 2+ years' acute care experience (ED, Urgent Care, some ICU and Med/Surg will be considered) is required within the last 4 years to be considered.** 2+ years of ED and/or Urgent Care experience highly preferred. Due to complex requirements, remote work is NOT permitted from the following states: CA, CO, CT, HI, MA, MD, MN, NJ, NY, OR, RI, VT, WA Schedule: Part time position (30 or 32 hours) Start times mornings 8a,9a or 10a, PMs 12p, 1p, 2p or later 8 hour or 10 hour shifts are available for different shifts MUST be available to work every 4th weekend and holiday rotation Major Responsibilities: Uses the nursing process and guidance of established protocols to assess the needs of the patient telephonically including the patient, guardian, or family in the conversation when necessary. Determines most appropriate level of care needed, provides detailed education, establishes a plan of care including interventions, and communicates follow up instructions to the patient. Escalates and collaborates with the appropriate on call provider when additional guidance is needed. Prioritizes patient interactions by acuity and need considering all available information and resources. Applies \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T212059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 266.25,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aurrera-health-group/jobs/triage-registered-nurse-rn-patient-access-and-care-team-pact",
+    "id": "opp_f509f78c4c64",
+    "is_demo": false,
+    "match_score": 13.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T20:27:38+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 30.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $266 on $266 (100% margin). $57 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $71 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 4.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 30.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 4 hard requirement(s) with nothing in the operator profile behind them: \"2+ years' acute care experience (ed\"; \"urgent care\"; \"med/surg will be considered) is required within the last 4 years to be\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 42.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "triage-registered-nurse",
+      "telephonic-nursing",
+      "patient-access",
+      "acute-care-nursing",
+      "registered-nurse",
+      "rn-triage-nurse",
+      "patient-triage-nurse",
+      "rn-nurse-triage",
+      "registered-nurse-triage",
+      "clinical-triage-rn",
+      "triage-rn",
+      "clinical-triage-nurse",
+      "centralized-triage-rn",
+      "triage-nurse"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Triage Registered Nurse (RN) - Patient Access and Care Team (PACT)",
+    "updated_at": "2026-10-20T21:21:01+00:00",
+    "url": "https://himalayas.app/companies/aurrera-health-group/jobs/triage-registered-nurse-rn-patient-access-and-care-team-pact?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_f50d0932db74": {
