@@ -1785,6 +1785,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_022d90df3f5f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Fireblaze AI School",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "INR",
+    "deadline": "2026-12-19T15:17:39+00:00",
+    "description": "Category: Education Location: Conduct training sessions on Cloud Computing concepts, architecture, and security . Teach AWS, Azure, and Google Cloud (GCP) , covering key services and best practices. Provide hands-on labs, real-time projects, and practical demonstrations . Train students in cloud automation, DevOps integration, and cost optimization . Guide learners on cloud certifications (AWS Certified Solutions Architect, Azure Fundamentals, GCP Associate, etc.). Assess student progress through assignments, quizzes, and live projects . Develop course materials, assignments, and case studies for interactive learning. Stay updated with the latest cloud trends, security updates, and industry demands . Provide guidance and career mentorship to students. Collaborate with the placement team to help students prepare for job interviews. Requirements Proven experience with GCP services: Cloud Functions, Cloud Run, Cloud Build, and Cloud Storage. Strong understanding of GCP networking, IAM policies, and security configurations. Strong in Python programming language and basic in Unix shell scripting. Familiarity with CI/CD principles and Bitbucket Cloud integration. Experience with Cloud Logging, Monitoring, and resource optimization. Details Originally posted on Himalayas",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fireblaze-ai-school/jobs/cloud-computing-engineer-trainer",
+    "id": "opp_022d90df3f5f",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T15:17:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 3 profile skills: automation, ci/cd, python. Covers 50% of the 6 skills this listing names (missing: aws, azure, gcp)."
+        }
+      },
+      "final_score": 54.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "aws",
+      "gcp",
+      "azure",
+      "ci/cd",
+      "automation",
+      "cloud-computing-trainer",
+      "technical-trainer",
+      "cloud-instructor",
+      "cloud-engineer",
+      "devops-trainer",
+      "cloud-computing-instructor",
+      "cloud-certification-trainer",
+      "cloud-technology-training",
+      "cloud-infrastructure-training",
+      "microsoft-cloud-training-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cloud Computing Engineer (Trainer)",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/fireblaze-ai-school/jobs/cloud-computing-engineer-trainer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_024a38a64a7b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -77567,6 +77701,145 @@
       "probability_low": 4.0
     }
   },
+  "opp_73d10fa91d08": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 9.62,
+    "budget_min": 7.21,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "PLN",
+    "deadline": "2026-12-19T15:02:45+00:00",
+    "description": "\ud83c\udf0d Hello World! We are The Codest - International Tech Software Company with tech hubs in Poland delivering global IT solutions and projects. Our core values lie in \u201cCustomers and People First\u201d approach that prioritises the needs of our customers and a collaborative environment for our employees, enabling us to deliver exceptional products and services. Our expertise centers on web development, cloud engineering, DevOps and quality. After many years of developing our own product - Yieldbird, which was honored as a laureate of the prestigious Top25 Deloitte awards, we arrived at our mission: to help tech companies build impactful product and scale their IT teams through boosting IT delivery performance. Through our extensive experience with product development challenges, we have become experts in building digital products and scaling IT teams. But our journey does not end here - we want to continue our growth. If you\u2019re goal-driven and looking for new opportunities, join our team! What awaits you is an enriching and collaborative environment that fosters your growth at every step. Project description: Our client is one of the largest e-commerce platforms in Europe, used by millions of users every day. The company connects sellers - from small businesses to global brands - with customers, offering a vast product selection, fast delivery, and a well-crafted shopping experience. The primary objective is to natively integrate partner ecosystems directly into the Purchaser's core, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 72.1,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/android-developer",
+    "id": "opp_73d10fa91d08",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T15:02:45+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $72 on $72 (100% margin). $15 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $24 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: dashboard. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "dashboard",
+      "android-developer",
+      "mobile-application-developer",
+      "android-engineer",
+      "software-developer",
+      "kotlin-developer",
+      "android-development",
+      "android-sdk-developer",
+      "android-studio-developer",
+      "android-mobile-development",
+      "native-android-developer",
+      "android-app-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Android Developer",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/codest-ltd-company-no-12590542-vat-number-gb363431020/jobs/android-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_73ed7dc9d6ad": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -82755,6 +83028,146 @@
       ],
       "probability_high": 82.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_7a16bb36ea2c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Huzzle",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T15:18:14+00:00",
+    "description": "About Huzzle At Huzzle , we connect exceptional talent with top opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our clients include fast-growing startups, digital agencies, SaaS companies, and tech-enabled businesses across industries such as MarTech, FinTech, EdTech, and eCommerce. Unlike traditional outsourcing agencies, we place you directly with innovative companies where you become a valued member of the team. About the Company Our client is a high-growth data intelligence and strategic research consultancy that helps organizations turn complex information into measurable business value. Specializing in data activation and platform implementation, the team bridges the gap between technical architecture and commercial strategy. They serve high-stakes industries including financial services, healthcare, and retail by building governed data solutions that drive confident, evidence-led decision-making. Operating with a senior-led model, the firm prioritizes business outcomes over technology checklists, utilizing deep expertise in research design and engineering to solve critical challenges. The team is built on a culture of platform honesty and bounded delivery, moving away from traditional staffing pyramids toward a more focused, impactful approach. This is an opportunity to join a specialized group of practitioners dedicated to transforming how modern enterprises utilize data to achieve clarity and results. Role Type: Full-time \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/huzzle/jobs/account-executive-digital-marketing-agency",
+    "id": "opp_7a16bb36ea2c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T15:18:16+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "account-executive",
+      "sales-executive",
+      "digital-marketing-sales",
+      "b2b-sales-executive",
+      "inside-sales-executive",
+      "digital-account-executive",
+      "marketing-account-executive",
+      "advertising-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Account Executive - Digital Marketing Agency",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/huzzle/jobs/account-executive-digital-marketing-agency?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_7a7dd90d80e0": {
@@ -110056,6 +110469,139 @@
       "probability_low": 26.0
     }
   },
+  "opp_a273864feeba": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Taraki",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T15:12:34+00:00",
+    "description": "\ufeffOur client \ufeffElits Digital Media \ufeffis looking for \ufeffBusiness Developer \ufeffto work \ufeffremotely. Position Overview : We are hiring a Business Development Executive (Remote) with strong experience in Upwork bidding and lead generation . This role is strictly commission-based with high earning potential for top performers. Key Responsibilities: Find and bid on relevant projects on Upwork daily Write strong, customized proposals to win clients Identify client needs and communicate effectively Maintain Upwork profile visibility and response rate Follow up with potential clients and convert leads into sales Coordinate with PM/team after project closure Maintain daily reporting of bids and wins Requirements : \ufeff Proven experience in Upwork bidding and client acquisition Strong English communication and writing skills Understanding of digital services/agency work Ability to close deals independently Target-driven and self-motivated Compensation:Commission-based only Attractive percentage per closed project (to be discussed based on experience) High earning potential for consistent performers Work Mode: Remote Flexible working hours (result-oriented role) Originally posted on Himalayas",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/taraki/jobs/business-developer-elits-digital-media-8884995362",
+    "id": "opp_a273864feeba",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-20T15:12:36+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "business-developer",
+      "business-development-executive",
+      "lead-generation-specialist",
+      "sales-executive",
+      "client-relationship-manager",
+      "digital-business-development",
+      "business-development-professional",
+      "sales-executive-business-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Developer - Elits Digital Media",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/taraki/jobs/business-developer-elits-digital-media-8884995362?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_a2833839dfdf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -116218,6 +116764,155 @@
       "probability_low": 15.0
     }
   },
+  "opp_ab2b5a18e521": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Shockingly Different Leadership",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T15:17:32+00:00",
+    "description": "Who is SDL? At Shockingly Different Leadership , we are changing the way companies scale up their teams during peak periods of work! SDL is a global strategic human capital consultancy which provides the best consulting expertise, on an on-demand, project, or flexible basis. We hire the best proven experts across the globe and add a high dose of empathy to \"meet clients where they are\", no matter how ambiguous or complicated their initiative. Our clients deserve a partner who co-creates with them to deliver great work that achieves \"shockingly different\" results! Description of Contract Opportunity SDL has an ongoing need for Interim Finance Executives for our clients. All positions require an experienced Finance leader to oversee the Finance function during a period of company transition and advise the executive team on Finance matters. Throughout the duration of the project the Finance leader may be asked to accomplish tasks such as: support and coordinate the organization's finance infrastructure and strategy establishing policies and procedures setting up internal control systems/risk systems, supporting urgent issues, managing complex finance workstreams audit preparation and planning lead Finance-related change management efforts leading the hiring for open positions in the Finance function The consultant will work closely with the CEO, C-Suite leaders and the Finance staff These contract positions are usually full-time for 3-12 months. Sporadically, we also have \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/shockingly-different-leadership/jobs/interim-contract-finance-leader-ongoing-recruitment-can-be-located-anywhere",
+    "id": "opp_ab2b5a18e521",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T15:17:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 37.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 37.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 49.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "director-of-finance",
+      "finance-leader",
+      "finance-executive",
+      "chief-financial-officer",
+      "finance-transformation-consultant",
+      "interim-finance-leadership",
+      "remote-commercial-finance-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Interim Contract Finance Leader (ongoing recruitment; can be located anywhere)",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/shockingly-different-leadership/jobs/interim-contract-finance-leader-ongoing-recruitment-can-be-located-anywhere?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_ab94b7b5d0dc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -120395,6 +121090,150 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_b226e184f6ab": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Black Pen Recruitment",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-20T16:29:44+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-19T15:20:36+00:00",
+    "description": "Our client specialises in inbound multichannel customer support across multiple verticals from their quality, strategically located centres in Fiji, South Africa and Peru and via their work from home colleagues in Namibia. As an international, award-winning, multilingual contact centre, they know that our staff and the relationships they have with their clients are their greatest and most valuable assets. Because of this, they work tirelessly to embody their client's brands. They call this client experience: Our people, your brand. Job Type: Full Time/Permanent Location : Cape Town Work Place: Fully Remote Your Profile You are a cheerful, friendly, and communicative person who enjoys talking to people and is motivated to achieve challenging goals. Ideally, you bring: Native Swiss German speaker Experience in inbound telephony (customer service, support hotline) Experience in outbound telephony (sales, B2C/B2B appointment setting) A persuasive personality with strong potential and drive for outbound sales success Quick understanding and confidence with common IT tools Loyalty, reliability, and an efficient, precise working style Enjoyment and genuine interest in the job Stable internet connection (ideally fiber optic) Personal Qualities (for Home Office) Self-organization: Ability to structure work independently and meet deadlines Discipline and self-motivation: Staying productive without constant supervision Sense of responsibility: Acting proactively when customer issues \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261020T162943Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/black-pen-recruitment/jobs/swiss-german-speaking-inbound-outbound-customer-communication-specialist-bpo-312697195",
+    "id": "opp_b226e184f6ab",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-20T15:20:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "customer-service",
+      "call-center-representative",
+      "inbound-customer-service",
+      "outbound-sales-representative",
+      "bpo-agent",
+      "bilingual-swiss-german-english-customer-support-specialist",
+      "multilingual-swiss-customer-support-specialist",
+      "bilingual-german-english-customer-support-specialist",
+      "german-speaking-customer-service-representative",
+      "kundenservice-(inbound)",
+      "inbound-customer-service-representative"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Swiss German Speaking Inbound & Outbound Customer Communication Specialist (BPO/",
+    "updated_at": "2026-10-20T16:29:44+00:00",
+    "url": "https://himalayas.app/companies/black-pen-recruitment/jobs/swiss-german-speaking-inbound-outbound-customer-communication-specialist-bpo-312697195?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_b2ac4e0e3caf": {
