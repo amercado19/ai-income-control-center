@@ -22824,6 +22824,165 @@
       "probability_low": 15.0
     }
   },
+  "opp_23ba5dff5c73": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Plan Left",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:45+00:00",
+    "description": "Overview We are hiring a Senior Full-stack Developer. You will build and ship new products across a portfolio of companies. You work from the backlog alongside your team, and you manage your own day-to-day work. You also help our digital marketing agency with technical needs from time to time. The work happens in TypeScript and JavaScript stacks, with AWS and mobile app releases as part of the work. About Us New products here start on Lovable and similar platforms so we can test them fast. The ones that work get taken over with time, which means moving the code, the infrastructure, and the app store accounts into our own hands. As our first hire, you are how that handoff begins, and you set the technical foundation the rest of the team builds on. What You Will Do Build and Ship Production Code. You write and own full-stack code in React, TypeScript, and Node.js, and you take products from AI-generated prototypes into production. Make Sure Stakeholders Never Find a Bug. You test your work before it reaches a stakeholder. That means writing automated tests, testing on web and on real iOS and Android devices, and releasing only when it holds up. Rapid AI Prototyping and Development. You use our AI-assisted workflows (Lovable, Cursor, and emerging AI agents) to spin up and validate feature prototypes quickly. Then you carry them into full engineering production, including the call on when a product has outgrown its starter platform and needs to move to our own codebase and AWS \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/plan-left/jobs/full-time-senior-full-stack-developer",
+    "id": "opp_23ba5dff5c73",
+    "is_demo": false,
+    "match_score": 31.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:03:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 42.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 11.7,
+          "evidence": "Matched 1 profile skills: sql. Covers 9% of the 11 skills this listing names (missing: analytics, api, aws, javascript)."
+        }
+      },
+      "final_score": 42.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 42.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "aws",
+      "javascript",
+      "typescript",
+      "react",
+      "node",
+      "analytics",
+      "senior-fullstack-developer",
+      "full-stack-developer",
+      "software-engineer",
+      "mobile-application-developer",
+      "senior-full-stack-development",
+      "full-stack-engineer",
+      "senior-fullstack-web-application-developer",
+      "senior-full-stack-engineering",
+      "senior-full-stack-developer-(react-node.js)"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Full Time Senior Full-Stack Developer",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/plan-left/jobs/full-time-senior-full-stack-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_23d7ccccaf39": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -27849,6 +28008,141 @@
       ],
       "probability_high": 67.0,
       "probability_low": 49.0
+    }
+  },
+  "opp_2b2c23ebab91": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Dartmouth-Hitchcock Health",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:34+00:00",
+    "description": "Responsibilities 100% Remote Emergency Radiologist (FL, MO, WA, CT, MA, NH, VT, ME) Evening and Overnight Shifts, Full and Part Time options, Huge salary upside Dartmouth Health\u2019s Department of Radiology is seeking fully Remote Evening and Overnight Emergency Teleradiologists (FL, MO, WA, CT, MA, NH, VT, ME) . This is a high-paying job with plenty of time off to travel and live life, offering a vibrant and fulfilling career, and being part of a thriving department. Fully remote Evening and Overnight Emergency Radiologists have no on-site responsibilities, though they are valued members of our department helping us cover multiple Dartmouth Health facilities located throughout New Hampshire and Vermont. Dartmouth Radiology is a leading, nationally known radiology enterprise covering all modalities and all radiology subspecialties. Position Summary Dartmouth Health is seeking a remote evening and nighttime radiologist to join our Emergency Radiology imaging division. Evening and overnight work consists of a standard emergency radiology case mix, comprised mostly of straight -forward x-rays, CTs, and Ultrasounds. We have limited overnight and evening MRs acquired as well. Our evening and overnight coverage is a team model, so candidates with specific strengths or weakness can often be accommodated. We cover the Dartmouth Hitchcock Medical Center, which is a level I Trauma Center and has a Comprehensive Stroke Center, as well as imaging from other surrounding facilities. The \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dartmouth-hitchcock-health/jobs/remote-evening-and-overnight-emergency-teleradiologists-fl-mo-wa-ct-ma-nh",
+    "id": "opp_2b2c23ebab91",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:03:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "radiologist",
+      "senior-emergency-radiologist",
+      "teleradiologist",
+      "night-shift-radiologist",
+      "radiology-physician",
+      "remote-emergency-radiologist",
+      "remote-overnight-radiologist",
+      "teleradiology-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Evening and Overnight Emergency Teleradiologists (FL, MO, WA, CT, MA, NH,",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/dartmouth-hitchcock-health/jobs/remote-evening-and-overnight-emergency-teleradiologists-fl-mo-wa-ct-ma-nh?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_2b3cf5e0769e": {
@@ -72680,6 +72974,143 @@
       "probability_low": 4.0
     }
   },
+  "opp_696a59e64ff7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "C10 Labs",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:02:53+00:00",
+    "description": "AI Nexus NYC | C10 Labs New York, NY | Flexible, Part-Time Mentor Engagement About C10 Labs C10 Labs is an AI-native venture fund and venture platform that partners with exceptional founders to build and scale category-defining AI companies. Through AI Nexus NYC, C10 Labs connects early-stage companies with experienced investors, operators, researchers, corporate leaders, and industry experts who can help accelerate product development, customer adoption, strategic partnerships, and fundraising. We are expanding our mentor network and seeking experienced energy leaders who want to help founders build commercially viable AI solutions for one of the world\u2019s most important and complex industries. The Opportunity C10 Labs is seeking experienced founders, executives, investors, operators, engineers, and subject-matter experts to serve as Energy Mentors for AI Nexus NYC. Mentors will support founders building AI-enabled products across utilities, power generation, grid infrastructure, renewable energy, energy storage, industrial operations, energy markets, and related sectors. Energy startups must navigate complex customer environments, long sales cycles, regulatory requirements, operational risks, integration challenges, and significant capital needs. The most effective mentors will help founders understand these realities while identifying practical paths to pilots, customer adoption, strategic partnerships, and investment. This is an opportunity to apply your industry \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/c10-labs/jobs/mentor-energy",
+    "id": "opp_696a59e64ff7",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:02:54+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 47.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "analytics",
+      "energy-mentor",
+      "startup-mentor",
+      "energy-industry-advisor",
+      "energy-consultant",
+      "venture-capital-advisory",
+      "mentor",
+      "mentorship",
+      "industry-mentor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Mentor | Energy",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/c10-labs/jobs/mentor-energy?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6972ebd18c88": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -73892,6 +74323,151 @@
       ],
       "probability_high": 93.0,
       "probability_low": 69.0
+    }
+  },
+  "opp_6a7ae6fa5e20": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.6,
+    "budget_min": 50.16,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Center for Elders' Independence",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:02:43+00:00",
+    "description": "Senior Business Systems Engineer The Center for Elders\u2019 Independence is a PACE (Program of All-Inclusive Care for the elderly) organization (PO) that uses an interdisciplinary team approach for care planning and implementing purposeful high quality, affordable, and integrated health care services to the elderly. Our elderly meet PACE requirements as prescribed by CMS and are referred to as participants. Our PO includes Adult Day Health Centers and primary care clinics, promoting participant autonomy, quality of life and the ability for individuals to live in their communities THE POSITION: We are seeking a Senior Business Systems Engineer to provide senior, hands-on technical and operational support across CEI\u2019s enterprise business applications. The role supports systems used for Claims, Finance, Contracts, Enrollment, Outreach, provider payment, and related administrative functions. This position combines application support, systems analysis, configuration, data mapping, integration, testing, and production problem solving. The Senior Business Systems Engineer will also identify recurring support issues and redesign fragmented or manual processes into controlled, scalable, and maintainable system solutions. The annual pay range for the Senior Business Systems Engineer position at Center for Elders\u2019 Independence is $104,332 to $159,629. Placement within the range is determined based on job-related factors such as relevant experience, skills, abilities, internal equity, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 501.6,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/center-for-elders-independence/jobs/senior-business-systems-engineer",
+    "id": "opp_6a7ae6fa5e20",
+    "is_demo": false,
+    "match_score": 85.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:02:45+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 77.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $502 on $502 (100% margin). $106 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $167 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 31.4,
+          "evidence": "Matched 4 profile skills: automation, etl, python, sql. Covers 67% of the 6 skills this listing names (missing: api, javascript)."
+        }
+      },
+      "final_score": 77.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 77.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "etl",
+      "api",
+      "automation",
+      "javascript",
+      "business-systems-engineer",
+      "systems-analyst",
+      "enterprise-application-engineer",
+      "application-support-engineer",
+      "integration-engineer",
+      "senior-systems-engineer",
+      "systems-engineer"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Senior Business Systems Engineer",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/center-for-elders-independence/jobs/senior-business-systems-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_6aa245f1b24d": {
@@ -79372,6 +79948,269 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_6fdd3467199b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NetPartners International",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:46+00:00",
+    "description": "Business Partners Descripci\u00f3n de la empresa Consultora Descripci\u00f3n de la vacante \ufeff \u00a1CONVI\u00c9RTETE EN PARTNER COMERCIAL DE NETPARTNERS INTERNATIONAL ! \u00bfTienes experiencia comercial, una s\u00f3lida red de contactos empresariales y buscas nuevas oportunidades de negocio? En NetPartners International queremos sumar a nuestro equipo estrat\u00e9gico a Business Partners Independientes en Lima-Per\u00fa, con visi\u00f3n de negocio, iniciativa y capacidad para generar oportunidades comerciales en el sector tecnol\u00f3gico. Buscamos profesionales independientes que conozcan el mercado empresarial, tengan relaciones comerciales consolidadas y quieran impulsar su propio negocio comercializando servicios de tecnolog\u00eda. \u00bfQu\u00e9 servicios comercializar\u00e1s? Staffing TI: profesionales especializados para fortalecer los equipos de nuestros clientes. Mesa de Ayuda: servicios de soporte y atenci\u00f3n tecnol\u00f3gica. Bolsas de Horas: soluciones flexibles para atender necesidades de soporte y servicios TI. \u00bfQu\u00e9 perfil buscamos? Profesionales independientes que gestionan su propia actividad comercial Experiencia en ventas B2B y desarrollo de negocios. Cartera propia de contactos y relaciones empresariales activas. Capacidad para identificar oportunidades y generar reuniones comerciales. Autonom\u00eda, iniciativa y orientaci\u00f3n a resultados. Deseable experiencia en servicios tecnol\u00f3gicos, outsourcing o staffing TI. \u00bfQu\u00e9 te ofrecemos? Un s\u00f3lido portafolio de servicios tecnol\u00f3gicos para ofrecer a tu red de contactos. Un modelo de \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/netpartners-international/jobs/business-partners",
+    "id": "opp_6fdd3467199b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T21:03:47+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "business-development-manager",
+      "sales-partner",
+      "business-partner",
+      "technical-sales-consultant",
+      "business-partnership",
+      "partners",
+      "business-partnering",
+      "partnerships"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Partners",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/netpartners-international/jobs/business-partners?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_7022b81e5784": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "IESF AG",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:02:39+00:00",
+    "description": "We are seeking for a seasoned backend engineer with sharp web3 expertise. You will help design and scale the infrastructure that powers a multichain yield platform. If you enjoy building real systems rather than prototypes, you could be an excellent match. Core Tasks Take ownership of core backend systems for a multichain yield engine Shape how on chain yield products evolve in the coming years Join early and influence product, architecture and culture Your Profile: Three or more years of experience building and launching production web3 backend systems Strong experience integrating with protocols and smart contracts, including complex transaction flows and RPC interactions Solid understanding of EVM internals, smart contract design patterns and industry best practices Comfortable with tools such as Tenderly, ethers, viem and wagmi Able to push through technical challenges with creativity and persistence Comfortable working independently in an environment with shifting context Care deeply about building things that users trust Care about secure, fault tolerant and maintainable infrastructure Nice to Have Experience deploying smart contracts to mainnet and EVM compatible networks Solidity DeFi protocols development JavScript BE with NodeJS The Company offers: \u2022 Excellent remuneration and social benefits \u2022 Dynamic work environment \u2022 Friendly and open-minded team \u2022 And many more Our client is an US based company, operating within the crypto economy and is supported by top tier \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/iesf-ag/jobs/senior-web3-back-end-engineer",
+    "id": "opp_7022b81e5784",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T21:02:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, node)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "node",
+      "web3-backend-engineer",
+      "blockchain-engineer",
+      "backend-engineer",
+      "smart-contract-engineer",
+      "defi-engineer",
+      "senior-backend-engineering",
+      "blockchain-backend-engineer",
+      "senior-blockchain-engineer",
+      "senior-backend-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Web3 Back End Engineer",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/iesf-ag/jobs/senior-web3-back-end-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_708f62f8f3a8": {
@@ -92819,6 +93658,142 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_834417763481": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "EngiFlex",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:01+00:00",
+    "description": "\ud83d\udccb Taken en verantwoordelijkheden Voor een afgebakende analyseopdracht zoeken we een ICT Business Analyst die een onafhankelijk advies uitwerkt over de toekomst van een bestaand digitaal platform. Het gaat om een eenmalige opdracht ter beslissingsondersteuning. Structureel applicatiebeheer, productbeheer en ALM blijven buiten de opdracht en behoren tot de interne verantwoordelijkheden. De opdracht resulteert in een beknopt en onderbouwd adviesrapport, aangevuld met een korte toelichting aan de opdrachtgever. Binnen een beperkt analysevolume formuleer je een onafhankelijke technische en financi\u00eble evaluatie als basis voor de keuze tussen drie toekomstscenario's. Doel en deliverables Een technische en financi\u00eble analyse van de huidige situatie. Een inschatting van kosten en risico's per scenario. Een gemotiveerde aanbeveling, rekening houdend met doelstellingen en budgettaire haalbaarheid. In scope 1. Technische analyse Je brengt de voornaamste technische knelpunten, technische schuld en structurele oorzaken van terugkerende incidenten en hoge onderhouds- of supportkosten in kaart, inclusief relevante API's en koppelingen. Je beoordeelt de afhankelijkheid van een gedeelde back-end en de impact daarvan op mogelijke toekomstscenario's. Je maakt een high-level evaluatie van de stabiliteit, onderhoudbaarheid en risico's van het huidige platformmodel. Je signaleert UX- en rolgerelateerde drempels die een duidelijke impact hebben op kosten, adoptie of scenariohaalbaarheid, op basis \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/engiflex/jobs/ict-business-analyst-senior",
+    "id": "opp_834417763481",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T21:03:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 41.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "business-analyst",
+      "it-consultant",
+      "technical-business-analyst",
+      "platform-analyst",
+      "senior-it-business-analyst",
+      "senior-business-systems-analyst",
+      "senior-business-analyst",
+      "senior-business-analysis",
+      "senior-business-systems-analysis"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "ICT Business Analyst (Senior)",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/engiflex/jobs/ict-business-analyst-senior?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -107038,6 +108013,142 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_970a06b4d366": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Job Squad",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:38+00:00",
+    "description": "About the locations Whether you\u2019re drawn to the energy of Barcelona or the sunshine of Athens, this role lets you work remotely while staying connected to two of Europe\u2019s most vibrant cities. Both offer rich culture, Mediterranean charm, and an excellent quality of life, perfect for professionals looking to combine career growth with inspiring surroundings. *You need an EU passport to apply* Click here to read more about Barcelona or Athens. The job As a Dutch Account Executive, you will be part of an international sales team within Salescode \u2014 a global leader in building high-performing sales organisations for the tech industry. You\u2019ll manage the full B2B sales cycle, from prospecting and lead generation to negotiation and closing. Your goal? Build strong client relationships, drive growth, and deliver world-class results. Your daily work will include tasks like these: Managing the complete sales cycle from prospecting to closing deals Conducting product demos and presentations for senior stakeholders across industries Identifying and developing new business opportunities through outreach and networking Maintaining long-term client relationships and providing professional after-sales support Negotiating contracts and updating data in the CRM system Collaborating with internal and external teams to ensure accurate forecasting and reporting Using storytelling and consultative selling to build trust and close deals Travelling to client or team meetings a few times per year \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/job-squad/jobs/dutch-account-executive-remote-athens-or-barcelona",
+    "id": "opp_970a06b4d366",
+    "is_demo": false,
+    "match_score": 78.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:03:38+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.8,
+          "evidence": "Matched 3 profile skills: excel, forecasting, reporting."
+        }
+      },
+      "final_score": 57.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "account-executive",
+      "sales-executive",
+      "b2b-sales-representative",
+      "inside-sales-representative",
+      "demand-generation-specialist",
+      "account-executive-emea",
+      "account-executive-europe",
+      "remote-account-executive",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Dutch Account Executive - Remote (Athens or Barcelona)",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/job-squad/jobs/dutch-account-executive-remote-athens-or-barcelona?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_975450fa6ae9": {
@@ -123582,6 +124693,140 @@
       "probability_low": 26.0
     }
   },
+  "opp_ad3fe47d061a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 5.77,
+    "budget_min": 5.77,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "My Zoom Technologies Inc.",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:13+00:00",
+    "description": "This is a remote position. JOB DESCRIPTION Job Title : UI-UX Developer (Mobile Application) Company : OPIO LLC Department : Development & Engineering Reporting To : CTO / Team Leader Responsible For : Software Development Level : Grade 4 Scope and General Purpose: Software developers specialize in mobile Apps technology such as building apps for Apple\u2019s iOS . (iOS developer.) Core language(s) and development environment (eg Java, Objective-C & Swift for iOS), MySQL Database. MAIN DUTIES: 1> 3years with a good understanding of UI-UX development. 2> Requirements Summary \u00b7 Advanced Level of UI UX app design \u00b7 Advanced level of MySQL Database Advanced level in Maps in-app integration Advanced level in Sockets / SDK API's integration Benefits Job Types: Full-time, Part-time, Temporary Job Types: Full-time, Part-time, Temporary, Internship, Contract Pay: $1.00 - $12,000.00 per year Originally posted on Himalayas",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 57.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/my-zoom-technologies-inc/jobs/ui-ux-mobile-app-developer",
+    "id": "opp_ad3fe47d061a",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:03:14+00:00",
+    "profit_score": 15.2,
+    "risk_flags": [],
+    "score": 56.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.8,
+          "evidence": "Estimated net $58 on $58 (100% margin). $12 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $19 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: reporting, sql. Covers 33% of the 3 skills this listing names (missing: api, mysql)."
+        }
+      },
+      "final_score": 56.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "mysql",
+      "api",
+      "mobile-application-developer",
+      "ios-developer",
+      "ui-ux-designer",
+      "software-developer",
+      "ui-ux-developer",
+      "mobile-ui-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "UI- UX Mobile App Developer",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/my-zoom-technologies-inc/jobs/ui-ux-mobile-app-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_ad9fd8788ed9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -126787,6 +128032,137 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_b21c3612716a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "ModSquad",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:02:48+00:00",
+    "description": "We Could Use Someone Like You in Our Crew. ModSquad has partnered with multiple top-tier brands/clients across the globe and we need the best of the best in Customer Support! Do you have a Phones and Tickets Customer Support background? Do you enjoy work-from-home and flexible schedules? ModSquad is seeking Mod Contractors to join our network! If you want the chance to work gigs on the coolest of client projects...then ModSquad is the place for you!! Our clients are strictly Top Tier whose product offerings and services are hip, contemporary, and very current. You will instantly know who they are and very likely use them yourselves. Their customers expect the best service and support and that's where we come in. Our Mods bring super skills, a positive attitude, and a great vibe to project work every day. Mods assist and guide customers to the right answers, solve concerns and are the GPS for customers to understand and optimize the best use of a client's product or services. Project gigs are available now and more are on the horizon. Project Hours (all times Pacific): Monday - Saturday: 6:00 AM - 5:00 PM Orientation Begins: ASAP Language: English What We Are Looking For: Customer service-oriented mods Ability to follow a written workflow Available weekdays and weekends Has a friendly tone (a must!) Willingness to adjust for feedback and help the team Somebody who needs to take shifts whenever the project is in need of people WorkSpace Requirements: Dedicated laptop or \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/modsquad/jobs/remote-phones-and-tickets-customer-support-10-26-8794580702",
+    "id": "opp_b21c3612716a",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T21:02:49+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 22.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 22.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 34.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer-support-specialist",
+      "customer-service",
+      "technical-support-specialist",
+      "call-center-representative",
+      "customer-support"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote Phones and Tickets Customer Support 10.26",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/modsquad/jobs/remote-phones-and-tickets-customer-support-10-26-8794580702?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_b226e184f6ab": {
@@ -134932,6 +136308,163 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_bf614b8d3000": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:03:34+00:00",
+    "description": "Job Title: Sr Director & Head of Sales, IQVIA Language Solutions Job Location: Reading, Berkshire, United Kingdom Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Head of Sales Europe-based | Sales Leadership | Life Sciences & Healthcare The opportunity IQVIA Language Solutions is building the multilingual operating layer for global life sciences\u2014bringing together healthcare intelligence, AI-enabled workflows, specialist human expertise and the reach of IQVIA. We are moving beyond traditional translation to help customers manage critical content safely and efficiently across clinical, regulatory, safety, patient and commercial workflows. Join a growing, entrepreneurial commercial organization and shape how IQVIA takes this next generation of language solutions to market. As Head of Sales, you will set the sales strategy, own the team quota and build a disciplined, high-performing sales organization capable of winning complex enterprise business. You will lead from the front on strategic pursuits, develop exceptional sales talent and connect IQVIA Language Solutions more deeply into the broader IQVIA portfolio and customer base. This is a visible leadership role for a modern commercial leader who combines localization expertise, life sciences credibility and rigorous sales execution. You will have the platform to deliver meaningful growth today while building the team, operating model and executive relationships required for the future. What you \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/sr-director-head-of-sales-iqvia-language-solutions",
+    "id": "opp_bf614b8d3000",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:03:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 47.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: automation, excel, forecasting. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 47.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 59.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "forecasting",
+      "sales-director",
+      "head-of-sales",
+      "vice-president-of-sales",
+      "enterprise-sales-director",
+      "commercial-director",
+      "senior-sales-director",
+      "life-sciences-sales-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr Director & Head of Sales, IQVIA Language Solutions",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/sr-director-head-of-sales-iqvia-language-solutions?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
     }
   },
   "opp_bf7769f6f221": {
@@ -148622,6 +150155,154 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_cf47a040bb8b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 64.9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-22T21:17:36+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T21:02:38+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Real-Time Data Engineer Location: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $135,000\u2013$160,000 Annually Experience Required: 6+ years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary: We are seeking an experienced Real-time Data Engineer to architect, deploy, and operate large-scale Apache Kafka and Confluent platform environments supporting mission-critical event-driven workloads. In this role you will own the Kafka platform end-to-end, including cluster sizing, configuration, security, automation, observability, and developer enablement. The ideal candidate will combine deep Kafka internals knowledge with strong DevOps and SRE practices, and will partner with application teams to deliver a reliable, performant, and developer-friendly streaming platform. In this role you will work closely with cross-functional partners \u2014 product, design, engineering, operations, and business stakeholders \u2014 to translate ambiguous requirements into well-engineered solutions, and will be expected to raise the bar through \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T211734Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 486.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/real-time-data-engineer-234991059",
+    "id": "opp_cf47a040bb8b",
+    "is_demo": false,
+    "match_score": 71.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T21:02:38+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 71.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $487 on $487 (100% margin). $104 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $130 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.3,
+          "evidence": "Matched 4 profile skills: automation, excel, python, sql. Covers 44% of the 9 skills this listing names (missing: api, aws, azure, kubernetes)."
+        }
+      },
+      "final_score": 71.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "api",
+      "aws",
+      "azure",
+      "kubernetes",
+      "terraform",
+      "automation",
+      "real-time-data-engineering",
+      "data-engineer",
+      "streaming-data-engineer",
+      "kafka-engineer",
+      "platform-engineer",
+      "real-time-processing-engineer",
+      "data-streaming-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Real-Time Data Engineer",
+    "updated_at": "2026-10-22T21:17:36+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/real-time-data-engineer-234991059?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_cfa01f0c2389": {
