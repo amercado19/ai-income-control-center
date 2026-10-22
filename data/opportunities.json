@@ -18670,6 +18670,164 @@
       "probability_low": 4.0
     }
   },
+  "opp_1c5830fd0cea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 86.54,
+    "budget_min": 62.5,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:59:49+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. Job Title: Windchill Technical Developer L ocation: 100% Remote (U.S.) Position Type: Full-time, Direct W2 Salary Range: $130,000\u2013$180,000 Annually (based on experience) Experience Required: 10+ Years Sponsorship: U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. Job Summary Bright Vision Technologies is seeking a highly experienced Windchill Technical Developer with 10+ years of experience in designing, developing, and supporting enterprise Product Lifecycle Management (PLM) solutions using PTC Windchill . The ideal candidate will possess deep expertise in Java, Windchill Java APIs, PTC customization frameworks, workflows, lifecycle management, and platform extensions , with a proven ability to build scalable, upgrade-friendly, and high-performance PLM solutions. This role combines hands-on development with technical leadership, architecture guidance, and mentorship across enterprise Windchill implementations. Key Responsibilities Design, develop, and maintain advanced Java customizations within PTC Windchill , including custom services, listeners, processors, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 625.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/windchill-technical-developer-7719405098",
+    "id": "opp_1c5830fd0cea",
+    "is_demo": false,
+    "match_score": 36.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T10:59:51+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [],
+    "score": 59.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $625 on $625 (100% margin). $132 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $208 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.6,
+          "evidence": "Matched 6 profile skills: automation, ci/cd, dashboard, excel, github actions, sql. Covers 50% of the 12 skills this listing names (missing: api, aws, azure, html)."
+        }
+      },
+      "final_score": 59.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 4 hard requirement(s) with nothing in the operator profile behind them: \"sponsorship: u\"; \"designing\"; \"developing\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 59.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "azure",
+      "github actions",
+      "ci/cd",
+      "automation",
+      "dashboard",
+      "javascript",
+      "html",
+      "windchill-developer",
+      "plm-developer",
+      "java-developer",
+      "software-engineer",
+      "enterprise-application-developer",
+      "windchill-application-developer",
+      "windchill-engineer",
+      "windchill-java-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Windchill Technical Developer",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/windchill-technical-developer-7719405098?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_1c883c040528": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -65335,6 +65493,138 @@
       "probability_low": 26.0
     }
   },
+  "opp_60346f369958": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "RMG Talent",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:57:47+00:00",
+    "description": "This is a remote position. Business Development Manager \u2013 Japanese Market Overview A regulated global FX/CFD broker is hiring a Japanese-speaking Business Development Manager, fully remote, to build IB and affiliate networks and drive new client acquisition in Japan. Responsibilities Develop and manage IB and affiliate partnerships in the Japanese market Identify, recruit and onboard new partners, traders and IBs Generate leads through partner networks, affiliate channels and social media Build long-term partner relationships that drive trading activity Monitor and report on partner performance Track industry trends and competitor activity in Forex/CFD Requirements Native/fluent Japanese and English (C1) Proven BD, partnerships or sales experience in Forex/CFD Existing Japanese IB/affiliate/trading-community network highly preferred Good knowledge of MT4/MT5 or similar Target-driven with strong relationship skills; works independently What's offered Competitive base plus high, uncapped commission Fully remote and flexible Career growth in a fast-expanding global broker Position details Salary: Base salary + commission (uncapped) Location: Japan Work mode: Remote Job Type: Full time \u2013 Permanent (full-time or contractor) Experience: BD/Partnerships/Sales in Forex/CFD Skills: Business Development, IB/Affiliate Networks, Japanese, Forex/CFD, MT4/MT5 Industry: Forex/FX Originally posted on Himalayas",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rmg-talent/jobs/business-development-manager-japanese-market",
+    "id": "opp_60346f369958",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T10:57:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "business-development-manager",
+      "partnerships-manager",
+      "sales-manager",
+      "affiliate-marketing-manager",
+      "japanese-speaking-business-development-manager",
+      "japan-market-account-manager",
+      "japan-business-development"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development Manager \u2013 Japanese Market",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/rmg-talent/jobs/business-development-manager-japanese-market?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_606d308ea2f3": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -82284,6 +82574,155 @@
       "probability_low": 0.0
     }
   },
+  "opp_748733291a08": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 23,
+    "budget_min": 18,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "PeopleScout",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:58:45+00:00",
+    "description": "Overview: We are looking for an innovative and dedicated Recruiting Coordinator who enjoys a flexible remote position that gives invaluable experience across multiple assignments and industries. This is an hourly, assignment based, flex position. Location: Remote Responsibilities: Conduct pre-hire checks, schedule interviews as needed, and inputting requisition data in system and job ads on job boards Track and monitor confidential candidate information Maintain accurate candidate records and ensure applicant information and data tracking is up to date Communicate with candidates throughout the recruitment process (i.e., interview reminders and logistics, post-hire/pre-start engagement) Assist recruiters as needed with job requisition maintenance to internal / external sites, screening, reference calls, assessments, or other recruiting tasks Maintaining a high level of customer retention and satisfaction. Constantly accessing our candidate experience and identifying areas of improvement Build a relationship with the Talent Acquisition team supporting the client and participate in regularly scheduled calls regarding staffing activity Perform additional responsibilities as required Qualifications: Minimum of 1 year of experience scheduling and screening a high-volume number of applicants Ability to multi-task in a high-volume, fast paced environment Ability to work from a home office during standard Monday through Friday business times Detail oriented and highly organized \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 135.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peoplescout/jobs/recruiting-coordinator",
+    "id": "opp_748733291a08",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T10:58:45+00:00",
+    "profit_score": 18.4,
+    "risk_flags": [],
+    "score": 33.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.4,
+          "evidence": "Estimated net $135 on $135 (100% margin). $29 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $36 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "recruiting-coordinator",
+      "recruitment-coordinator",
+      "talent-acquisition-coordinator",
+      "recruiting-assistant",
+      "hr-coordinator",
+      "recruiting-coordination",
+      "recruitment-coordination",
+      "recruitment-support-coordinator",
+      "entry-level-recruitment-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Recruiting Coordinator",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/peoplescout/jobs/recruiting-coordinator?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_74927e32b125": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -90867,6 +91306,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_811b33da90ed": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Mozilla",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T11:00:58+00:00",
+    "description": "The role You will help the Firefox DOM Core team improve the health of the Session History area. You will write tests to improve the coverage; you will fix tests and/or problems to improve the Gecko correctness. Responsibilities Write Web-Platform tests to improve the coverage, and Gecko mochitests as needed Fix the problems and pass the tests to improve the Gecko correctness Work through code review with the relevant Gecko module owners and iterate to landing Definition of done Improved Session History test coverage and code correctness in Gecko, measured by passed test cases, allowing the team\u2019s senior engineers to focus on security, performance and strategic projects. Required qualifications Substantial experience in a browser-engine codebase or in automating for a browser-engine, ideally Firefox/Gecko. Solid Javascript and applying that language skill to write automated tests. Proficiency in and experience developing software in C++. Strong debugging skills in a mature larget codebase. Comfort working in the open: public bugs, code review, and upstream landing. Preferred Prior contributions to Gecko or another major browser engine. Familiarity with web standards and Web Platform Tests. Originally posted on Himalayas",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mozilla/jobs/senior-contract-c-javascript-software-engineer-firefox-browser-engine-8795679189",
+    "id": "opp_811b33da90ed",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T11:01:00+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "javascript",
+      "software-engineer",
+      "browser-engineer",
+      "c#-software-engineer",
+      "javascript-developer",
+      "firefox-engineer",
+      "senior-javascript-engineer",
+      "senior-software-engineer-c++",
+      "senior-c++-software-engineer",
+      "firefox-browser-engineering",
+      "senior-javascript-developer",
+      "firefox-desktop-engineering",
+      "senior-c++-programmer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Contract C++ / JavaScript Software Engineer Firefox (Browser Engine)",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/mozilla/jobs/senior-contract-c-javascript-software-engineer-firefox-browser-engine-8795679189?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_81b68c146c08": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -98284,6 +98861,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_8bf5b01c95d1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Brixio",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T11:00:35+00:00",
+    "description": "WFH Full-Stack Developer (Java / Angular) Are you a talented Full-Stack Developer with expertise in Java and Angular? If you're passionate about both front-end and back-end development, and can handle the integration between the two, this opportunity is perfect for you. Job Description: Position : Full-Stack Developer Type : Work from Home (WFH) Contract : 6 months (with potential for transition to regular employment with benefits) Key Skills : Strong proficiency in either front-end or back-end development Good understanding of the integration between front-end and back-end Experience in best-practices and feasibilities of technical solutions Ability to coordinate with other teams, particularly on security and related topics As a Full-Stack Developer, you'll be responsible for bridging the gap between front-end and back-end development. Whether you excel in creating interactive web applications with Angular or crafting robust server-side services with Java, your skills are essential. Your role includes understanding and managing the integration between the front-end and back-end components, ensuring they work together seamlessly to deliver a unified user experience. You should have experience in implementing best-practices and assessing the feasibility of technical solutions. Your insight into best-practices ensures code quality, maintainability, and scalability. Additionally, your ability to evaluate the feasibility of technical solutions is critical to deliver effective, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/brixio/jobs/full-stack-developer-java-angular",
+    "id": "opp_8bf5b01c95d1",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T11:00:36+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "full-stack-developer",
+      "java-developer",
+      "angular-developer",
+      "front-end-developer",
+      "backend-engineer",
+      "full-stack-java-developer",
+      "java-full-stack-developer",
+      "full-stack-java-engineer",
+      "java-full-stack-engineer",
+      "angular-full-stack-developer",
+      "mid-level-fullstack-engineer-(java-+-react-angular)",
+      "developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Full Stack Developer - Java / Angular",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/brixio/jobs/full-stack-developer-java-angular?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_8c2e90581938": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -104483,6 +105191,131 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_95c6cccfaac7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NetPartners International",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:58:00+00:00",
+    "description": "Consultor SAP WM Descripci\u00f3n de la empresa Empresa dedicada a la fabricaci\u00f3n y distribuci\u00f3n de productos m\u00e9dicos y de curaci\u00f3n. Opera en varias ciudades, incluyendo Ciudad de M\u00e9xico, Jiutepec, Cuernavaca y Monterrey Actividad: Fabrica y distribuye material de curaci\u00f3n y productos m\u00e9dicos. Ubicaciones: Ciudad de M\u00e9xico, Jiutepec, Cuernavaca y Monterrey Descripci\u00f3n de la vacante El consultor de SAP WM (Gesti\u00f3n de Almacenes) Especializado en configuraci\u00f3n del m\u00f3dulo SAP WM para optimizar las operaciones de almac\u00e9n de Materia Prima, Productos intermedio y producto final. Evalua y analiza los procesos y requisitos del proceso de producci\u00f3n. Experiencia en f\u00e1bricas y distribuci\u00f3n de productos m\u00e9dicos y de curaci\u00f3n. Dar capacitaci\u00f3n y soporte. Garantiza la eficiencia de los procesos de gesti\u00f3n de inventario, picking, embalaje y env\u00edo Pa\u00eds de Asignaci\u00f3n: M\u00e9xico Tipo de Proyecto: Soporte Inicio del Proyecto: 2025-09-22 Duraci\u00f3n del Proyecto: 1 a\u00f1o Modalidad de Trabajo: Remoto Idioma: espa\u00f1ol Originally posted on Himalayas",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/netpartners-international/jobs/consultor-sap-wm",
+    "id": "opp_95c6cccfaac7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T10:58:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sap-consultant",
+      "warehouse-management-consultant",
+      "sap-wm-consultant",
+      "supply-chain-consultant",
+      "sap-wm-consulting",
+      "sap-wm-ewm-consultant",
+      "sap-mm-wm-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultor SAP WM",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/netpartners-international/jobs/consultor-sap-wm?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_95d63f071a53": {
@@ -132289,6 +133122,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_bb6d0b56bb49": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Parexel",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:58:25+00:00",
+    "description": "When our values align, there's no limit to what we can achieve. At Parexel , we all share the same goal - to improve the world's health. From clinical trials to regulatory, consulting, and market access, every clinical development solution we provide is underpinned by something special - a deep conviction in what we do. Each of us, no matter what we do at Parexel , contributes to the development of a therapy that ultimately will benefit a patient. We take our work personally, we do it with empathy and we're committed to making a difference. About Parexel Parexel is a leading global clinical development partner delivering insights-driven clinical and consulting solutions to the life sciences industry. With 22,000+ employees worldwide, we partner with biopharmaceutical companies and research sites to design and deliver patient-focused clinical trials that broaden access and make research a care option for anyone, anywhere. We work with focus, agility, and shared purpose, moving with urgency to address patient needs and accelerate the delivery of new therapies. We embrace bold thinking, adapt quickly to change, and continually raise the bar for the speed and quality of clinical research. We are expanding our team and seeking talented individuals to help drive industry-leading innovation, With Heart . About the Role We are seeking a Chemistry, Manufacturing, and Controls (CMC) Strategy Senior Associate / Consultant (CMC Regulatory Affairs) to join our team in a remote capacity. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parexel/jobs/regulatory-affairs-consultant-cmc-us-eu-mature-biological-products",
+    "id": "opp_bb6d0b56bb49",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T10:58:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "regulatory-affairs-consultant",
+      "cmc-regulatory-consultant",
+      "regulatory-affairs-specialist",
+      "regulatory-strategy-consultant",
+      "life-sciences-consultant",
+      "principal-regulatory-affairs-consultant",
+      "regulatory-affairs-cmc-specialist",
+      "eu-regulatory-affairs-consultant",
+      "regulatory-affairs-senior-manager",
+      "senior-regulatory-affairs"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Regulatory Affairs Consultant - CMC US/EU - Mature Biological products",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/parexel/jobs/regulatory-affairs-consultant-cmc-us-eu-mature-biological-products?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_bbf92786a092": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -151232,6 +152202,128 @@
       "probability_low": 4.0
     }
   },
+  "opp_d665d24c3658": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NetPartners International",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:57:22+00:00",
+    "description": "Consultor SAP PM Descripci\u00f3n de la empresa E mpresa farmac\u00e9utica mexicana m\u00e1s importantes, se dedica a la investigaci\u00f3n, desarrollo, fabricaci\u00f3n, licenciamiento y comercializaci\u00f3n de medicamentos e insumos para la salud. Descripci\u00f3n de la vacante Certificado de SAP Experiencia en SAP ECC deseable experiencia en S/4 HANA Plant Maintenance o Mantenimiento de Planta) Experiencia en dise\u00f1ar planes de mantenimiento preventivo y correctivo, gestionar avisos y \u00f3rdenes de reparaci\u00f3n, y dar soporte t\u00e9cnico a los usuarios de la planta. Pa\u00eds de Asignaci\u00f3n: M\u00e9xico Tipo de Proyecto: Soporte AMS Inicio del Proyecto: 2026-09-14 Duraci\u00f3n del Proyecto: 1 a\u00f1o Modalidad de Trabajo: Remoto Idioma: espa\u00f1ol Originally posted on Himalayas",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/netpartners-international/jobs/consultor-sap-pm",
+    "id": "opp_d665d24c3658",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T10:57:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 31.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 31.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sap-consultant",
+      "sap-pm-consultant",
+      "sap-functional-consultant",
+      "erp-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultor SAP PM",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/netpartners-international/jobs/consultor-sap-pm?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_d6b0c1a9e167": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -158707,6 +159799,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_e139fb22acf1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 25,
+    "budget_min": 10,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "TELUS International AI Inc",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-11-21T10:59:14+00:00",
+    "description": "Interested? Click here to apply now! About the Role: At TELUS Digital, we help the world\u2019s biggest brands build smarter technology. As a E-commerce Product & Search Relevancy Expert , your mission is to help an AI learn how to suggest the perfect products to online shoppers. You will look at massive catalogs across various industries and decide which items belong together. You act as the \"human logic\" that ensures a customer sees a matching set or compatible accessories instead of a random, incorrect suggestion. What You\u2019ll Do: Create Pairs: Match products based on color, pattern, and style so they are visually consistent. Check Compatibility: Ensure products actually work together for the same use case. (Example: Matching the right technical gear for specific sub-disciplines like gravel biking vs. road cycling). Review Metadata: Look at gender, price segment, and seasonality to ensure recommendations are logically and commercially sound. Maintain Data Integrity: Keep a clean, structured list of matches that follow strict brand and category guidelines. Category Research: Quickly learn the nuances of new product domains to pick the best matches. (Example: Researching technical differences in skiing, cycling, or gym fitness gear). Qualification path Mandatory Qualifications: Experience: A proven track record in search relevancy, product categorization, or e-commerce content moderation and annotation. Education : A minimum of a Bachelor's in any field. Analytical Skills: The \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 75.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/telus-international-ai-inc/jobs/e-commerce-product-search-relevancy-expert-english-speakers-in-australia",
+    "id": "opp_e139fb22acf1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-22T10:59:14+00:00",
+    "profit_score": 15.7,
+    "risk_flags": [],
+    "score": 31.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.9,
+          "evidence": "Estimated net $75 on $75 (100% margin). $16 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $20 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 31.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "E-commerce Product & Search Relevancy Expert - English speakers in Australia",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/telus-international-ai-inc/jobs/e-commerce-product-search-relevancy-expert-english-speakers-in-australia?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-20%",
+          "factor": "Platform reputation required",
+          "from": "45%",
+          "to": "25%",
+          "why": "Asks for reviews, Job Success Score or completed-job counts. This account has none."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_e13e4e148bfe": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -163935,6 +165160,135 @@
           "from": "50%",
           "to": "35%",
           "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
+  "opp_e993f33ece02": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "DecisionPoint Corporation",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-22T11:19:42+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T10:58:01+00:00",
+    "description": "Overview DecisionPoint seeks a Senior Travel & Purchasing Coordinator to manage travel-authorization and purchasing-request documentation for the USMEPCOM ENLIST program. This role prepares and performs quality-control reviews of Travel Authorization Requests, Requests to Initiate Purchase, and Consent to Purchase requests while tracking Government concurrence, purchasing activity, travel status, costs, and supporting documentation. The Senior Travel & Purchasing Coordinator will work closely with program leadership, travelers, task leads, finance, procurement, subcontractors, and Government stakeholders to ensure requests are complete, accurate, timely, and compliant with applicable task order requirements. The successful candidate will maintain organized records, monitor approval workflows, support trip reporting, and provide accurate data for program reports and Task Order Management Portal dashboards. This position is remote, with preference given to candidates located in or near Chicago. Note: By applying to this position, you acknowledge and consent to having your resume included in an active competitive government contract bid. Duties & Responsibilities The Senior Travel & Purchasing Coordinator will: Prepare, review, and process Travel Authorization Requests, Requests to Initiate Purchase, and Consent to Purchase requests. Perform quality-control reviews to verify that requests are complete, accurate, adequately supported, and submitted using the required templates. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261022T111940Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/decisionpoint-corporation/jobs/travel-purchasing-coordinator-senior",
+    "id": "opp_e993f33ece02",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-22T10:58:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 3 profile skills: dashboard, excel, reporting. Covers 40% of the 5 skills this listing names (missing: aws, power bi, rest)."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "dashboard",
+      "power bi",
+      "travel-and-purchasing-coordinator",
+      "procurement-coordinator",
+      "travel-coordinator",
+      "purchasing-coordinator",
+      "administrative-coordinator",
+      "senior-purchasing-agent"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Travel & Purchasing Coordinator (Senior)",
+    "updated_at": "2026-10-22T11:19:42+00:00",
+    "url": "https://himalayas.app/companies/decisionpoint-corporation/jobs/travel-purchasing-coordinator-senior?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
         },
         {
           "effect": "+6%",
