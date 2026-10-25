@@ -19650,6 +19650,169 @@
       "probability_low": 1.0
     }
   },
+  "opp_1ac81fdb983e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 42,
+    "budget_min": 42,
+    "budget_type": "HOURLY",
+    "category": "pdf_extraction",
+    "client": "HireOps Staffing",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:43:29+00:00",
+    "description": "This is a contract assignment that will start right away and end on April 30th 2024 Review Nurse SUMMARY DESCRIPTION: The review nurse is responsible for medical record abstractions and overreads during the annual Healthcare Effectiveness Data and Information Set (HEDIS) survey. The review nurse is responsible for reviewing and accurately performing comprehensive review of medical records to abstract relevant clinical data during HEDIS. HEDIS abstractions are completed in accordance with NCQA guidelines and technical specifications. Additional responsibilities include but not limited to folder and file management, annotating medical records and saving completed documents with correct naming conventions on a shared drive as well as data entry into QSHR. ESSENTIAL FUNCTIONS: Abstract medical records Apply product/plan specific abstraction criteria/requirements during medical record review process Maintain defined productivity volumes Sustain accuracy rate of 95% during abstraction and data entry throughout the HEDIS survey Perform quality reviews of abstracted medical records as assigned Ensure open and honest communication with management/designee regarding development or assistance needed throughout project Escalate work related challenges/issues to Senior Director or designee Attend scheduled daily and ad-hoc meetings with HEDIS Project Manager, and /or Quality Management Specialist/ designee to discuss project status, open issues and productivity Comply with HIPAA, PHI, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.93,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.45,
+    "estimated_net_revenue": 144.9,
+    "estimated_non_ai_effort": 0.52,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hireops-staffing/jobs/hedis-review-nurse-remote-contract",
+    "id": "opp_1ac81fdb983e",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:43:29+00:00",
+    "profit_score": 60.8,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 45.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.8,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.2,
+          "evidence": "Estimated net $145 on $145 (100% margin). $116 per effective hour vs $85 target (1.2 effective h = 0.5h human + 2.9h AI discounted). Leverage: $279 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: data entry, ocr, pdf, rest)."
+        }
+      },
+      "final_score": 45.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 57.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "pdf",
+      "ocr",
+      "data entry",
+      "nurse-reviewer",
+      "hedis-review-nurse",
+      "clinical-data-reviewer",
+      "medical-records-reviewer",
+      "quality-review-nurse",
+      "hedis-nurse-reviewer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "HEDIS Review Nurse - Remote - Contract",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/hireops-staffing/jobs/hedis-review-nurse-remote-contract?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-16%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-20%",
+          "factor": "Platform reputation required",
+          "from": "45%",
+          "to": "25%",
+          "why": "Asks for reviews, Job Success Score or completed-job counts. This account has none."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "25%",
+          "to": "15%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "15%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "8%",
+          "to": "2%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 16.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_1acb7a8df446": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -47433,6 +47596,154 @@
       "probability_low": 15.0
     }
   },
+  "opp_4157561606f0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 38.46,
+    "budget_min": 19.23,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "TNT Growth",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:42:17+00:00",
+    "description": "Remote \u2014 International Hire ONLY | Contract Full-Time About TNT Growth TNT Growth is a performance-driven growth marketing agency that embeds directly into our clients' businesses to produce measurable outcomes across paid media, creative strategy, and analytics. We drive impact! About the Role We are looking for a senior Conversion Tracking & API Engineer who can independently own complex, production-grade tracking across browser, server, CRM, and ad-platform APIs. You combine deep backend and data-integration expertise with a practical understanding of paid-media measurement and strong client-facing communication. This is not a tag-only or passive back-end role. You will work directly with Growth Managers, Client Success, client engineering teams, and external platforms. You will own the path from consented browser and session capture through forms and CRM lifecycle events, event processing, ad-platform delivery, diagnostics, reconciliation, and monitoring. If you can build reliable systems, prove that they work end to end, and explain them clearly to non-engineers, this role was designed for you. What You'll Do Strong Communication Proactively flagging implementation gaps, risks, and unverified assumptions before a campaign goes live \u2014 and separating confirmed root cause from a working hypothesis Writing implementation and QA summaries that a Growth Manager without an engineering background can read, understand, and act on Responding to questions in Slack within a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 192.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tnt-growth/jobs/senior-conversion-tracking-api-engineer",
+    "id": "opp_4157561606f0",
+    "is_demo": false,
+    "match_score": 45.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:42:18+00:00",
+    "profit_score": 20.1,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.7,
+          "evidence": "Estimated net $192 on $192 (100% margin). $40 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $64 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 16.8,
+          "evidence": "Matched 2 profile skills: excel, sql. Covers 22% of the 9 skills this listing names (missing: analytics, api, postgres, postgresql)."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "excel",
+      "api",
+      "rest",
+      "webhook",
+      "typescript",
+      "analytics",
+      "web-conversion-engineer",
+      "api-engineer",
+      "backend-engineer",
+      "data-integration-engineer",
+      "marketing-technology-engineer",
+      "senior-api-engineer",
+      "senior-ads-api-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Conversion Tracking & API Engineer",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/tnt-growth/jobs/senior-conversion-tracking-api-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_4189f80d5d07": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -64237,6 +64548,136 @@
       "probability_low": 4.0
     }
   },
+  "opp_563700b3dfbe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Pureprofile",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:40:51+00:00",
+    "description": "ABOUT US Pureprofile \u2019s vision is to deliver more value from the world\u2019s information. We are a global data and insights organisation providing industry-leading online research solutions to agencies, marketers, researchers and brands & businesses. The Company, founded in 2000 and based in Surry Hills, Australia, now operates in North America, Europe and APAC and has delivered solutions for over 850 clients. ABOUT THIS ROLE Responsible for working closely with the Pureprofile Full Service client base, the Project Consultant will oversee and manage the entire campaign delivery process for a portfolio of clients. They will be tasked with demonstrating proactive client engagement and building a reputation for reliable and flawlessly executed projects that are always on time and to budget. CORE ACCOUNTABILITIES: Strategy Assisting on tasks where required which may include: Team process improvements Salesforce improvements to assist the team to work more efficiently and consistently on a daily basis Assisting with auditing for accreditation purposes Working with others in the business to enhance the offering / services of the delivery team Identifying systemic issues for review and continuous improvements Support sales team by attending meetings with clients and providing advice on operational best practices Operations Manage complete project operations and delivery, working directly with the end client and cross-functional teams internally to meet client and/ or consumer \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pureprofile/jobs/project-consultant-apac-project-management-role",
+    "id": "opp_563700b3dfbe",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-25T14:40:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "project-manager",
+      "project-consultant",
+      "research-project-manager",
+      "account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Consultant - APAC (Project Management role)",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/pureprofile/jobs/project-consultant-apac-project-management-role?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_56b486bd45df": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -66185,6 +66626,146 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_59bc24dbb935": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 3000.0,
+    "budget_min": 1500.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (15 bids so far)",
+    "competition_score": 10.2,
+    "confidence": 65.0,
+    "created_at": "2026-10-25T15:42:23+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "\u6211\u624b\u91cc\u7684 HPE Nimble CS3000 \u5b58\u50a8\u53ef\u4ee5\u6b63\u5e38\u4e0a\u7535\uff0c\u4f46\u751f\u4ea7\u4e1a\u52a1\u5df2\u51fa\u73b0\u5f02\u5e38\uff1a\u591a\u53f0\u4e3b\u673a\u548c\u865a\u62df\u673a\u65f6\u5e38\u63d0\u793a\u201c\u5b58\u50a8\u8def\u5f84\u4e22\u5931\u201d\uff0c\u8bfb\u5199\u4e2d\u65ad\u3002\u521d\u6b65\u6000\u7591\u662f NVRAM \u6a21\u5757\u6545\u969c\u3002\u867d\u7136\u6211\u8fd8\u80fd\u767b\u5f55\u7ba1\u7406\u754c\u9762\uff0c\u4f46\u76ee\u524d\u6ca1\u6709\u770b\u5230\u660e\u786e\u7684 NVRAM \u62a5\u9519\uff0c\u9700\u8981\u66f4\u6df1\u5165\u7684\u8bca\u65ad\u3002 \u6211\u9700\u8981\u4f60\uff1a \u2022 \u8fdc\u7a0b\u6392\u67e5\u5e76\u786e\u8ba4\u662f\u5426\u4e3a NVRAM \u6545\u969c\uff0c\u7cbe\u51c6\u5b9a\u4f4d\u95ee\u9898 \u2022 \u5236\u5b9a\u5e76\u6307\u5bfc\u6267\u884c\u4fee\u590d\u6216\u66f4\u6362\u65b9\u6848\uff0c\u5305\u62ec\u56fa\u4ef6\u3001\u786c\u4ef6\u4e0e\u64cd\u4f5c\u6b65\u9aa4 \u2022 \u5728\u5b9e\u65bd\u8fc7\u7a0b\u4e2d\u966a\u540c\u9a8c\u8bc1\uff0c\u786e\u4fdd\u8def\u5f84\u6062\u590d\u3001I/O \u6b63\u5e38\u3001\u5377\u53ef\u91cd\u65b0\u6302\u8f7d \u2022 \u63d0\u4ea4\u4e00\u4efd\u5b8c\u6574\u7684\u6545\u969c\u5206\u6790\u4e0e\u6062\u590d\u62a5\u544a\uff0c\u4f9b\u540e\u7eed\u5ba1\u8ba1\u548c\u5907\u67e5 \u73af\u5883\u6982\u8981\uff1a - \u578b\u53f7\uff1aHPE Nimble CS3000 - \u73b0\u72b6\uff1a\u53ef\u5f00\u673a\u3001\u6570\u636e\u8bbf\u95ee\u5f02\u5e38\uff1b\u4e3b\u673a/VM \u62a5\u5b58\u50a8\u8def\u5f84\u4e22\u5931 - \u7ba1\u7406\u63a5\u53e3\uff1aSSH \u4e0e GUI \u7686\u53ef\u4f7f\u7528 \u7406\u60f3\u4eba\u9009\u9700\u5177\u5907 HPE Nimble \u6df1\u5ea6\u8fd0\u7ef4\u4e0e NVRAM \u7ea7\u786c\u4ef6\u6545\u969c\u5904\u7406\u7ecf\u9a8c\uff0c\u719f\u6089 support bundle\u3001CLI\u3001\u56fa\u4ef6\u5347\u7ea7\u53ca\u7ec4\u4ef6\u66ff\u6362\u6d41\u7a0b\u3002\u5982\u9700\u73b0\u573a\u64cd\u4f5c\uff0c\u8bf7\u5148\u5217\u51fa\u6240\u9700\u5907\u4ef6\u548c\u9884\u4f30\u5de5\u65f6\u3002\u6211\u5e0c\u671b\u5c3d\u5feb\u6392\u671f\u5b8c\u6210\u4fee\u590d\uff0c\u4ee5\u6062\u590d\u4e1a\u52a1\u8fde\u7eed\u6027\u3002",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 12.9,
+    "estimated_cost": 0.0,
+    "estimated_hours": 25.81,
+    "estimated_net_revenue": 2025.0,
+    "estimated_non_ai_effort": 12.91,
+    "estimated_platform_fee": 225.0,
+    "external_id": "40784126",
+    "id": "opp_59bc24dbb935",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-10-24T06:19:28+00:00",
+    "profit_score": 87.0,
+    "risk_flags": [],
+    "score": 40.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (12.9h AI / 12.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 5.2,
+          "evidence": "Moderate description (>=300 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 15.4,
+          "evidence": "Estimated net $2,025 on $2,250 (90% margin). $125 per effective hour vs $85 target (16.1 effective h = 12.9h human + 12.9h AI discounted). Leverage: $157 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 1.9,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Budget >= $2,000 attracts stronger competition (-10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.1,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 40.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "php",
+      "linux",
+      "software architecture",
+      "technical support",
+      "ubuntu",
+      "virtualization",
+      "system administration",
+      "data recovery"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Nimble NVRAM \u6545\u969c\u4fee\u590d",
+    "updated_at": "2026-10-25T15:42:23+00:00",
+    "url": "https://www.freelancer.com/projects/data-recovery/Nimble-NVRAM",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "15 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_59d75e3d99a5": {
@@ -96608,6 +97189,145 @@
           "from": "26%",
           "to": "16%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_7d4075aaeea9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Connor Consulting",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:44:09+00:00",
+    "description": "Position Overview: Connor Consulting is a fast-growing, modern, international company comprised of top-caliber professionals. This role sits within the Software Publisher Services (SPS) line of business and is dedicated to a single, high-volume compliance program delivered on behalf of a global enterprise software publisher. This is a platform-led program rather than a traditional audit role. Licensees complete their own compliance review through a dedicated audit platform, and the Program Associate drives that process end to end. You will own a large portfolio of engagements over the course of the year, with a large number active at any given time, and you will be accountable for getting each one started, unstuck, and closed. The work is high-cadence and relationship-driven: daily outreach, structured follow-up, clear escalation, and disciplined tracking. It is a strong fit for someone from a compliance, audit support, renewals or customer success background who is energized by volume, ownership, and consistent execution. This is also a build role. The program is expanding, and the person who establishes the operating rhythm in the US will be positioned to add supporting staff and grow into a Manager role. Essential Duties & Responsibilities Own an assigned portfolio of active compliance engagements and drive each one from initial outreach through closure against defined cycle-time and service level targets. Conduct daily outreach and structured follow-up with licensee \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/connor-consulting/jobs/software-publisher-services-program-associate-senior-associate-2401715978",
+    "id": "opp_7d4075aaeea9",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-25T14:44:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "program-associate",
+      "compliance-associate",
+      "audit-compliance-analyst",
+      "software-licensing-compliance-associate",
+      "customer-success-associate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Software Publisher Services \u2013 Program Associate / Senior Associate",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/connor-consulting/jobs/software-publisher-services-program-associate-senior-associate-2401715978?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 28.0,
@@ -129558,6 +130278,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_a64f1134e83e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Oxford BioMedica  Limited",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:41:42+00:00",
+    "description": "Join Us in Changing Lives At OXB , our people are at the heart of everything we do. We\u2019re on a mission to enable life-changing therapies to reach patients around the world\u2014and we\u2019re looking for passionate individuals who embody our core values every day: Responsible, Responsive, Resilient, and Respectful . Following the expansion of our US footprint with the acquisition of a new commercial-scale viral vector facility in Durham, North Carolina we have some new opportunities to join us. We\u2019re currently recruiting for an Inside Sales Representative based in the East Coast to join our Business Development team . In this role, you will be responsible for generating new business opportunities and supporting revenue growth for OXB\u2019s CDMO services, playing a key part in advancing our mission and making a real difference. Your responsibilities in this role would be to: Generate and qualify new business opportunities through prospecting, inbound enquiries, marketing campaigns, referrals, and industry events. Identify and engage biotech and pharmaceutical companies with CDMO service requirements. Build strong relationships with prospective clients and understand their development, manufacturing, and commercial needs. Qualify opportunities by assessing project requirements, timelines, decision-makers, and fit with company capabilities. Coordinate introductory meetings between prospective clients and Business Development Directors to support pipeline progression. Maintain accurate CRM \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/oxford-biomedica-limited/jobs/inside-sales-representative-home-based-us",
+    "id": "opp_a64f1134e83e",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-25T14:41:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "forecasting",
+      "inside-sales-representative",
+      "sales-development-representative",
+      "business-development-representative",
+      "lead-generation-specialist",
+      "account-development-representative",
+      "inside-sales-associate",
+      "remote-inside-sales",
+      "us-inside-sales",
+      "remote-entry-level-sales-representative",
+      "inside-sales",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Inside Sales Representative (Home Based, US)",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/oxford-biomedica-limited/jobs/inside-sales-representative-home-based-us?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a679f328ddcd": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -129944,6 +130795,152 @@
     "title": "Blockchain Developer",
     "updated_at": "2026-09-28T04:14:02+00:00",
     "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/blockchain-developer-4532528590",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_a743e5a98fae": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105.77,
+    "budget_min": 67.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Sword Health",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:41:27+00:00",
+    "description": "At Sword, we\u2019re building AI to heal billions and unlock humanity\u2019s full potential. In doing so, we\u2019re pioneering AI Care, a fundamentally new approach to healthcare built for medical reasoning, safety, and real-time treatment, not generic technology applied after the fact. As both a clinical-centric frontier AI lab and an applied AI platform, Sword is reimagining how care is delivered at scale, removing traditional barriers like appointments, waiting rooms, and stigma so more people can access the care they need\u2014and ultimately get back to lives lived in full. Since 2020, Sword has expanded across physical therapy, women\u2019s health, cardiometabolic, and mental health, and is now moving beyond the session to a fully AI-native, 24/7 care program that brings physical activity, therapeutic exercise, psychotherapy, nutrition, and behavior change into one connected experience. More than 700,000 members across three continents have completed over 10 million AI sessions, helping 1,000+ enterprise clients avoid more than $1 billion in unnecessary healthcare costs. Backed by 42 clinical studies, 44+ patents, and more than $500 million raised from leading investors including Khosla Ventures, General Catalyst, and Founders Fund, Sword is defining a new standard for healthcare. AI Proficiency at Sword AI fluency is a core expectation at Sword. Every candidate is assessed against our three-level framework \u2014 be ready to share real examples of how AI is already part of how you work. Explorer \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 504.83,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sword-com/jobs/field-enablement-lead",
+    "id": "opp_a743e5a98fae",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:41:27+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 66.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $505 on $505 (100% margin). $108 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "aws",
+      "sales-enablement-leader",
+      "revenue-enablement-leader",
+      "sales-enablement-manager",
+      "sales-enablement-specialist",
+      "field-enablement-lead",
+      "field-enablement-specialist",
+      "enablement-lead",
+      "senior-field-sales-enablement-specialist",
+      "field-enablement",
+      "field-excellence-lead",
+      "field-readiness-lead",
+      "field-execution-lead"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Field Enablement Lead",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/sword-com/jobs/field-enablement-lead?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -136930,6 +137927,149 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_b0a5217bdf79": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Ergomed",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:44:51+00:00",
+    "description": "Lead IT infrastructure projects, ensuring alignment with business objectives and best practices. Provide technical leadership in cloud adoption, migration strategies, and hybrid cloud environments. Optimize cloud costs, performance, and security through continuous assessment and innovation. Implement and enforce cloud governance, compliance, and security frameworks. Automate cloud infrastructure deployment and management using Infrastructure as Code (IaC) tools. Troubleshoot complex system and network issues, ensuring high availability and reliability. Collaborate with IT and application teams to improve infrastructure automation, deployment processes, and operational workflows. Develop and enforce IT policies, procedures, and best practices for cloud operations. Administer, configure, and support SharePoint Online, including site architecture, permissions, governance, security, lifecycle management, and integration with Microsoft 365 services. Provide Tier 3 administration and advanced technical support for the Microsoft 365 environment, including Exchange Online, Microsoft Teams, OneDrive for Business, identity and access management, security, compliance, and complex incident resolution. Participate in internal and external audits by providing IT technical support, required documentation, system evidence, and timely responses to audit inquiries. Mentor junior engineers and provide technical training to the IT team. Qualifications Bachelor's or Master\u2019s degree in Computer \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ergomedplc/jobs/senior-system-cloud-engineer-immediate-joiners-preferred",
+    "id": "opp_b0a5217bdf79",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-25T14:44:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 3 profile skills: automation, excel, python. Covers 50% of the 6 skills this listing names (missing: api, azure, terraform)."
+        }
+      },
+      "final_score": 57.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 57.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "azure",
+      "terraform",
+      "automation",
+      "systems-engineer",
+      "senior-cloud-engineer",
+      "cloud-infrastructure-engineer",
+      "microsoft-365-administrator",
+      "senior-cloud-systems-engineer",
+      "senior-engineer-cloud-and-devops-(p)",
+      "senior-cloud-infrastructure-engineer",
+      "senior-cloud-platform-engineer",
+      "senior-cloud-engineering",
+      "senior-systems-engineer",
+      "cloud-systems-engineer",
+      "cloud-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior System/Cloud Engineer (Immediate Joiners preferred)",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/ergomedplc/jobs/senior-system-cloud-engineer-immediate-joiners-preferred?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_b0dd4cda4c0e": {
@@ -174417,6 +175557,143 @@
       "probability_low": 26.0
     }
   },
+  "opp_e1f841d66187": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Unicorne",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:44:58+00:00",
+    "description": "Tu d\u00e9sires c\u00f4toyer des gens passionn\u00e9s? \u00c9voluer en tant que professionnel dans un environnement moderne qui favorise la conciliation travail-vie personnelle? Faire partie de l'\u00e9quipe Unicorne , c'est tout \u00e7a, et encore plus! T\u00e9l\u00e9travail, mentorat, horaires flexibles, formations pay\u00e9es, hackathon, une \u00e9quipe authentique et professionnelle\u2026 Voil\u00e0 notre quotidien et notre mission. Chez Unicorne , les d\u00e9fis ne manquent pas et on s'amuse en changeant le monde un compte AWS \u00e0 la fois. Nous accompagnons nos clients et partenaires dans leur utilisation de l'infonuagique, afin d'innover plus efficacement et atteindre des r\u00e9sultats tangibles. Que ce soit en d\u00e9veloppant des solutions SaaS compl\u00e8tes ou en optimisant des infrastructures AWS, nous travaillons avec des technologies de pointe \u00e0 tous les jours et g\u00e9n\u00e9rons diverses sources de revenus r\u00e9currents. Nous sommes \u00e0 la recherche d'un(e) repr\u00e9sentant(e) en prospection commerciale (SDR) pour collaborer \u00e9troitement avec le Vice-Pr\u00e9sident Croissance. Tu seras la premi\u00e8re ligne de contact avec nos prospects. Ton r\u00f4le : ouvrir des conversations qui comptent, cr\u00e9er des opportunit\u00e9s, et nourrir le pipeline de ventes. Tu seras coach\u00e9 pour devenir une machine \u00e0 qualifier, comprendre les besoins clients, et connecter avec les bons d\u00e9cideurs. Ton quotidien G\u00e9n\u00e9rer et qualifier des opportunit\u00e9s en faisant de la prospection active (cold calling, emails, LinkedIn) Effectuer un volume \u00e9lev\u00e9 d'appels quotidiens Identifier et cibler les bons comptes \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/unicorne/jobs/representant-e-en-prospection-commerciale-5073585116",
+    "id": "opp_e1f841d66187",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-25T14:44:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "sales-development-representative",
+      "business-development-representative",
+      "outbound-sales-representative",
+      "lead-generation-specialist",
+      "b2b-sales-representative",
+      "charg\u00e9-de-prospection",
+      "prospection-t\u00e9l\u00e9phonique",
+      "prospection-commerciale",
+      "sales-development-representative-french-speaker"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Repr\u00e9sentant(e) en prospection commerciale",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/unicorne/jobs/representant-e-en-prospection-commerciale-5073585116?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_e2188a6e9fcf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -174685,6 +175962,139 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_e2a8153424c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 148.94,
+    "budget_min": 53.46,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:42:31+00:00",
+    "description": "Job Title: Solution Sales Director, Patient Access Support Services Job Location: Northborough, Massachusetts, United States of America Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: The Solution Sales Director sits in the Patient Access and Support Services (PASS) Center of Excellence . Working with a wide variety of Pharmaceutical and MedTech clients , this is an individual contributor role that requires strong consultative selling skills. This role requires the ability to identify both existing and new client business challenges and strategically align IQVIA PASS solutions to address the access, affordability, adherence, and awareness barriers they face. This presents the opportunity to drive integrated sales across multiple account segments including large pharma, mid-size pharma, precommercial and MedTech clients. Responsibilities: Responsible for consultative sales approach aligned with client accounts to drive business growth across the PASS enterprise. Working across a broad range of clients, this role requires the ability to seamlessly navigate both strategic and transactional relationships. The ideal candidate will leverage a consultative approach to engage new prospects, uncover business challenges, and develop innovative solutions that strengthen and expand existing client partnerships. Identify opportunities for integrated sales across different account types including MedTech, Large Pharma, EBP and small/mid-size pharma. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 400.95,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/solution-sales-director-patient-access-support-services",
+    "id": "opp_e2a8153424c0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:42:32+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 66.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $401 on $401 (100% margin). $85 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $107 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "solution-sales-director",
+      "sales-director",
+      "account-director",
+      "pharmaceutical-sales-director",
+      "medical-device-sales-director",
+      "healthcare-sales-director",
+      "healthcare-solutions-sales"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Solution Sales Director, Patient Access Support Services",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/solution-sales-director-patient-access-support-services?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e2af670ad005": {
@@ -179322,6 +180732,139 @@
     "title": "Freelance: grabaci\u00f3n de tareas cotidianas para proyecto de IA",
     "updated_at": "2026-09-15T03:52:27+00:00",
     "url": "https://himalayas.app/companies/toloka-ai/jobs/freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-869131468",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_e850ebe199bf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Xplor",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:44:02+00:00",
+    "description": "About the opportunity Join our Finance Division as an International Record to Report Manager to make a real impact every day. We say that because we know that every conversation we have, every code line we write and every interface we design is another opportunity for us to enrich our customers\u2019 experiences. The R2R Manager owns the record-to-report process across our international entities and leads the team that delivers it. The role makes sure the books close accurately and on time, that technical accounting positions are sound and documented, and that audits, statutory accounts and controls run smoothly. Some of the other responsibilities include : Own the end-to-end R2R process, so accounts are complete, accurate and delivered within Group reporting deadlines. Run the close calendar and track close KPIs, such as on-time close, reconciliation completion and post-close adjustments. Make sure every balance sheet reconciliation is prepared, reviewed and approved, and that reconciling items are cleared promptly. Own accruals, prepayments and journals standards, including coding and cut-off, so the team applies them consistently across regions. Set the intercompany process, including monthly matching, elimination and loan balances. Own fixed asset and capex accounting policy, including useful lives and the go-forward procedure. Partner with FP&A to explain monthly business performance and variances. Prepare the short-term and long-term operational cash forecast and funding \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ourxplor/jobs/international-record-to-report-manager",
+    "id": "opp_e850ebe199bf",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:44:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, reporting."
+        }
+      },
+      "final_score": 55.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "record-to-report-manager",
+      "accounting-manager",
+      "financial-controller",
+      "finance-manager",
+      "accounting-and-reporting-manager",
+      "record-to-report-lead"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "International Record to Report Manager",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/ourxplor/jobs/international-record-to-report-manager?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -192019,6 +193562,150 @@
     "title": "Senior React Native Engineer",
     "updated_at": "2026-10-15T10:59:42+00:00",
     "url": "https://himalayas.app/companies/anovium/jobs/senior-react-native-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_f7442e062658": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Blue Acorn iCi",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-25T15:42:24+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-24T14:40:28+00:00",
+    "description": "Position Overview The Sr. Workfront Integration Consultant designs, implements, and optimizes enterprise work management solutions using Adobe Workfront and Workfront Fusion. The role translates business process requirements into scalable integrations, automations, and workflow solutions that improve adoption, operational efficiency, and measurable client outcomes. This consultant leads technical discussions and implementation activities for enterprise clients, integrating Workfront with Adobe and third-party applications across the content supply chain. The role partners with stakeholders and delivery teams throughout discovery, solution design, deployment, troubleshooting, and post-launch support, while providing technical guidance and mentoring. Location: Remote - United States Please note this is a contract role. Key Responsibilities Workfront Solutions & Integrations Design and configure enterprise business-process and work-management solutions using Adobe Workfront to support client objectives. Architect and implement integrations between Workfront and Adobe or third-party platforms using Workfront Fusion and relevant APIs. Oversee Fusion technical development, automation design, and enterprise-grade integration quality, scalability, and reliability. Lead technical solution design and implementation discussions, connecting near-term business problems with long-term value and adoption. Technical Delivery & Client Consulting Lead technical discussions with clients \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261025T154222Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blue-acorn-ici/jobs/sr-workfront-integration-consultant-remote-contract",
+    "id": "opp_f7442e062658",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-25T14:40:28+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: automation. Covers 20% of the 5 skills this listing names (missing: analytics, api, graphql, rest)."
+        }
+      },
+      "final_score": 46.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "graphql",
+      "automation",
+      "analytics",
+      "integration-consultant",
+      "technical-consultant",
+      "systems-integration-consultant",
+      "workflow-consulting",
+      "business-process-consultant",
+      "senior-integrations-consultant",
+      "senior-integration-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr. Workfront Integration Consultant (Remote, Contract)",
+    "updated_at": "2026-10-25T15:42:24+00:00",
+    "url": "https://himalayas.app/companies/blue-acorn-ici/jobs/sr-workfront-integration-consultant-remote-contract?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
