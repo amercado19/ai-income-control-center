@@ -3460,6 +3460,149 @@
       "probability_low": 4.0
     }
   },
+  "opp_044e211f9001": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 43.27,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Atomic HR",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:43:49+00:00",
+    "description": "Company Overview: Our client is a publicly traded cloud storage company with two flagship products: a personal computer backup solution and a cloud object storage platform often compared to Amazon S3 \u2014 but chosen for its pricing and a no-egress-fees policy that has made it a go-to for cost-conscious builders. They run their own physical data centers (4 in the U.S., plus Netherlands and Canada), and their engineering culture is unusually transparent \u2014 they publish deep technical blog posts and hardware reliability reports that the industry actually reads. They're expanding globally, with active hiring across LATAM, India, and the Philippines. This isn't a company that abstracts away the hard parts; they own the stack, and it shows. Your Role: The Storage Platform team owns the foundational durable storage layer that every product is built on top of. Their job \u2014 and yours \u2014 is to make sure data doesn't get lost, performance holds at scale, and the architecture is ready for the next decade of growth. This is an open-ended, ambiguous, systems-close-to-the-metal role: you'll be investigating unclear symptoms, optimizing for specific hardware behaviors, improving throughput, and helping redesign components that general-purpose tools can no longer handle well. You'll be fully embedded with the U.S. team \u2014 not a satellite \u2014 which means deep collaboration, clear communication, and real ownership. You'll: Build and evolve a storage platform operating at cloud scale \u2014 we're talking \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 180.3,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/atomic-hr/jobs/senior-software-engineer-storage-platform-remote",
+    "id": "opp_044e211f9001",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-26T11:43:50+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $38 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $48 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "software-engineer",
+      "storage-platform-engineer",
+      "distributed-systems-engineer",
+      "systems-engineer",
+      "backend-engineer",
+      "senior-storage-engineer",
+      "senior-c++-storage-engineer",
+      "senior-storage-engineering",
+      "remote-senior-distributed-systems-engineer",
+      "senior-infrastructure-software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Software Engineer \u2014 Storage Platform \ud83d\udda5\ufe0f\u2699\ufe0f REMOTE",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/atomic-hr/jobs/senior-software-engineer-storage-platform-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_045eae8b5c8e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6805,6 +6948,148 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_085cea439ac8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Rimini Street, Inc",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:39:05+00:00",
+    "description": "About Rimini Street, Inc . Rimini Street, Inc . (Nasdaq: RMNI), a Russell 2000\u00ae Company, is a global leader in end-to-end third-party enterprise software support, managed services and Agentic AI ERP innovation solutions, dedicated to helping clients realize extraordinary business outcomes. Our comprehensive portfolio of unified solutions help run, manage, support, customize, configure, connect, protect, monitor, and optimize enterprise application, database and technology software, enabling our clients to achieve better business outcomes, significantly reduce costs and reallocate resources towards strategic projects. The Company has signed thousands of contracts with Fortune Global 100, Fortune 500, midmarket, public sector and government organizations who selected Rimini Street as their trusted, proven mission-critical enterprise software solutions provider and achieved better operational outcomes, realized billions of US dollars in savings and funded AI and other innovation investments. Position Summary We are looking for a Sr. Manager, Demand Marketing, EMEA to lead the planning, localisation and execution of integrated demand marketing programmes across EMEA. This role sits at the intersection of global campaigns, regional marketing, digital execution, client marketing and sales. The successful candidate will take global priorities and propositions and turn them into high-performing, locally relevant programmes that create engagement, generate qualified demand, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rimini-street-inc/jobs/sr-manager-demand-marketing-emea",
+    "id": "opp_085cea439ac8",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-26T11:39:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "demand-generation-manager",
+      "regional-marketing-manager",
+      "b2b-marketing-manager",
+      "marketing-campaign-manager",
+      "senior-demand-generation-manager",
+      "senior-b2b-demand-generation-manager",
+      "senior-revenue-marketing-manager",
+      "emea-marketing-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr. Manager, Demand Marketing - EMEA",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/rimini-street-inc/jobs/sr-manager-demand-marketing-emea?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_08754dd7a848": {
@@ -16435,6 +16720,142 @@
       ],
       "probability_high": 38.0,
       "probability_low": 16.0
+    }
+  },
+  "opp_16ae5374e516": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 60,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Inabia Software & Consulting Inc.",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:39:07+00:00",
+    "description": "Hello, Job Title : Oracle APEX & Forms Developer Client: Pennsylvania Department of Environmental Protection (DEP) Requisition:814659 Work: Remote \u2013 Candidate must reside within a 2-hour radius of Harrisburg, Pennsylvani Hours: 37.5 hours per week Rate: $60/hr Visa Requirements: H-1B, Green Card (GC), or U.S. Citizen Position Overview The Pennsylvania Department of Environmental Protection (DEP) is seeking an experienced Oracle APEX & Forms Developer to support the modernization of legacy Oracle Forms applications and their migration to Oracle APEX using Oracle Database 19c. The selected candidate will be responsible for analyzing existing applications, developing modern Oracle APEX solutions, optimizing PL/SQL code, and ensuring application security, performance, and maintainability. The role requires strong Oracle database development expertise, experience with legacy application modernization, and the ability to work collaboratively within an Agile/Scrum environment. Key Responsibilities Analyze existing Oracle Forms applications, including architecture, database structures, business logic, and integrations. Migrate and modernize legacy Oracle Forms applications to Oracle APEX. Design, develop, and maintain Oracle APEX applications and user interfaces. Develop and optimize PL/SQL stored procedures, functions, packages, and complex SQL queries. Work with Oracle Database 19c to support application development, enhancements, and maintenance. Perform data analysis, data \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 600.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/inabia-software-consulting-inc/jobs/oracle-apex-forms-developer",
+    "id": "opp_16ae5374e516",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-26T11:39:08+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [],
+    "score": 70.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $600 on $600 (100% margin). $126 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: excel, sql. Covers 50% of the 4 skills this listing names (missing: api, html)."
+        }
+      },
+      "final_score": 70.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 70.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "api",
+      "html",
+      "oracle-apex-developer",
+      "oracle-forms-developer",
+      "oracle-database-developer",
+      "pl-sql-developer",
+      "application-developer",
+      "oracle-apex-development",
+      "oracle-forms-reports-developer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Oracle APEX & Forms Developer",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/inabia-software-consulting-inc/jobs/oracle-apex-forms-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_16d4aec42b4d": {
@@ -32357,6 +32778,145 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_2c08b91838a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "YCP",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:48:51+00:00",
+    "description": "About YCP Group YCP is a Singapore-headquartered management consulting firm founded in 2011. Listed on the Tokyo Stock Exchange Growth Market (JDR listing, December 2021), YCP operates with 700+ professionals across 20+ offices globally. In Asia, YCP is present across 13+ cities including Tokyo, Singapore, Jakarta, Bangkok, Kuala Lumpur, Manila, Ho Chi Minh City, and Shanghai. The Management Service Division (MSD) delivers three core service offerings: Advisory (strategy consulting), PMO (project management), and Transaction (M&A advisory). With a track record of 3,000+ projects and 500+ clients across the Asia-Pacific, YCP combines deep local market knowledge with cross-border execution capability. YCP covers 13 industry sectors including Automotive & Mobility, Energy & Natural Resources, Healthcare, Consumer & Retail, Financial Services, Technology, Industrials, and Private Equity & Investors. Our core strengths lie in cross-border transactions, M&A, and digital transformation, underpinned by on-the-ground presence and networks that global firms cannot replicate. Why YCP Unparalleled autonomy and ownership \u2014 While many consulting environments follow a hierarchical progression before individuals lead engagements , at YCP , you own your scope, deliver under your own name, and build your reputation from day one. You define what you work on, how you deliver it, and what comes next. Accelerated path to Partner \u2014 Career progression in consulting is often time-bound and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ycp/jobs/my-management-service-division-analyst",
+    "id": "opp_2c08b91838a8",
+    "is_demo": false,
+    "match_score": 75.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-26T11:48:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 18.2,
+          "evidence": "Matched 3 profile skills: excel, python, sql. Covers 60% of the 5 skills this listing names (missing: analytics, tableau)."
+        }
+      },
+      "final_score": 55.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "tableau",
+      "analytics",
+      "management-consultant",
+      "strategy-consultant",
+      "consulting-analyst",
+      "financial-analyst",
+      "business-analyst",
+      "management-analyst",
+      "services-analyst",
+      "management-consulting-analyst",
+      "service-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "MY - Management Service Division, Analyst",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/ycp/jobs/my-management-service-division-analyst?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -65235,6 +65795,152 @@
       "probability_low": 32.0
     }
   },
+  "opp_563fcc45c579": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "AdvantixxRCM",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:48:30+00:00",
+    "description": "About AdvantixxRCM AdvantixxRCM is a healthcare revenue cycle management company supporting medical practices and healthcare organizations with accurate, compliant, and results-focused billing operations. Our services may include patient access, eligibility and authorization, charge entry, coding, claims submission, payment posting, accounts receivable follow-up, denial management, credentialing, reporting, and client support. We value integrity, accountability, accuracy, service, continuous improvement, and protection of confidential patient and client information. Team members must follow company policies, client requirements, applicable law, and HIPAA privacy and security standards. Revenue Cycle Operations Manager AdvantixxRCM is seeking a hands-on operations leader to build and manage compliant, scalable revenue-cycle workflows across billing, claims, A/R, denials, payment posting, eligibility, prior authorization, credentialing, reporting, and client service. This is a full-time U.S. employee role with remote work eligibility; final classification, schedule, work location, compensation, and benefits will be stated in the written offer. Responsibilities Lead daily RCM operations, capacity planning, work allocation, quality control, and client service. Establish SOPs, productivity and quality standards, dashboards, escalation paths, and audit routines. Monitor clean-claim rate, denials, days in A/R, A/R aging, net collection rate, timely filing, posting accuracy, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/advantixxrcm/jobs/revenue-cycle-operations-manager",
+    "id": "opp_563fcc45c579",
+    "is_demo": false,
+    "match_score": 78.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-26T11:48:31+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 46.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.8,
+          "evidence": "Matched 3 profile skills: dashboard, excel, reporting."
+        }
+      },
+      "final_score": 46.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 58.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "dashboard",
+      "revenue-cycle-operations-manager",
+      "revenue-cycle-manager",
+      "medical-billing-manager",
+      "healthcare-operations-manager",
+      "claims-operations-manager",
+      "revenue-cycle-management-manager"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Revenue Cycle Operations Manager",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/advantixxrcm/jobs/revenue-cycle-operations-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_56b486bd45df": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -67608,6 +68314,158 @@
       "probability_low": 15.0
     }
   },
+  "opp_59e96263979e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 84.13,
+    "budget_min": 72.12,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Nuix",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-25T11:40:47+00:00",
+    "description": "We're on a mission to be a Force For Good, through our People, Products and Purpose at Nuix . This extends to our People. We're fiercely passionate, love working at pace, thrive in ambiguity, live, and breathe outside of the box, and above all are good humans. We're determined to make a positive difference in the world, whether through our solutions which help the top companies, governments and agencies find the truth and combat illegal activities, or through our people who care about contributing and giving back both within, and outside, of Nuix . We are a Force For Good. We're selective about who comes on board, and you should be too. But if the above sounds like a match, get in touch today and get ready for the possibility of starting a once-in-a-career journey. This Role Is About Relationships Nuix is seeking an experienced Enterprise Account Executive whose greatest asset is not simply a history of exceeding sales quota, but the ability to build trusted relationships with senior decision makers across large corporate and regulated enterprises. As part of our GTM strategy focused on accelerating market penetration through trusted customer and partner relationships, we are looking for an executive who can engage senior stakeholders, understand complex business priorities, and develop strategic opportunities across the enterprise technology landscape. This is not a traditional territory-building role. It is a market expansion role focused on identifying, developing, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 721.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nuix/jobs/sales-executive-big-data-intelligence-software-commercial-sector-canada",
+    "id": "opp_59e96263979e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-26T11:40:48+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 30.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $721 on $721 (100% margin). $152 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $240 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 42.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "analytics",
+      "enterprise-account-executive",
+      "sales-executive",
+      "account-executive",
+      "enterprise-sales-executive",
+      "commercial-sales-executive",
+      "data-platform-sales-executive",
+      "account-executive-canada",
+      "saas-sales-executive",
+      "enterprise-sales-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Executive \u2013 Big Data Intelligence Software, Commercial Sector (Canada)",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/nuix/jobs/sales-executive-big-data-intelligence-software-commercial-sector-canada?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_59f30f3b6862": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -67708,6 +68566,137 @@
     "title": "B2B Senior Full-Stack Engineer (100 % remote) (m/f/d)",
     "updated_at": "2026-09-24T21:15:32+00:00",
     "url": "https://himalayas.app/companies/ewor-gmbh/jobs/b2b-senior-full-stack-engineer-100-remote-m-f-d",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_5a102f3ea65b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ping Identity",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-26T12:26:17+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: USA - Remote About Ping Identity: At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it. Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear. While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture. We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work. We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management. Position Summary As the Director of Partner Operations, you will lead the operational engine that powers our global partner ecosystem. You will be responsible for building and optimizing processes, tools, and programs that support all partner types\u2014resell, referral, delivery, technology, MSP, and cloud \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/ping-identity-director-partner-operations",
+    "id": "opp_5a102f3ea65b",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 26 Oct 2026 07:31:27 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 3 profile skills: dashboard, excel, forecasting. Covers 50% of the 6 skills this listing names (missing: analytics, aws, azure)."
+        }
+      },
+      "final_score": 51.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "azure",
+      "dashboard",
+      "forecasting",
+      "analytics"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Ping Identity: Director, Partner Operations",
+    "updated_at": "2026-10-26T12:26:17+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-partner-operations",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -168591,6 +169580,126 @@
       "probability_low": 4.0
     }
   },
+  "opp_d53084e21aa7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Ping Identity",
+    "competition_score": 45.3,
+    "confidence": 60.0,
+    "created_at": "2026-10-26T12:26:17+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: USA - Remote About Ping Identity: At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it. Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear. While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture. We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work. We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management. Ping Identity is seeking a strategic, commercially minded, and highly influential Director, Global Alliances \u2013 Accenture to own and accelerate our relationship with Accenture worldwide. This is a high-impact global leadership role\u2014not a regional partner-management position. You will serve as Ping\u2019s single \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/ping-identity-director-global-alliances-accenture",
+    "id": "opp_d53084e21aa7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 26 Oct 2026 07:31:16 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Ping Identity: Director, Global Alliances \u2013 Accenture",
+    "updated_at": "2026-10-26T12:26:17+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-global-alliances-accenture",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_d5449dadfb19": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -188915,6 +190024,151 @@
     "title": "Digital Media Advisor",
     "updated_at": "2026-10-04T20:58:43+00:00",
     "url": "https://himalayas.app/companies/icrossing/jobs/digital-media-advisor",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_ee1fa4a6e181": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "GPDQ",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-26T12:26:15+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-25T11:41:31+00:00",
+    "description": "Remote GP (Locum) \u2013 Weekend Sessions Flexible Hours | Private & Insurance Patients | Immediate Start Looking for flexible weekend GP work that fits around your existing commitments? GPDQ is expanding its remote GP team and is seeking experienced General Practitioners to support the delivery of consultations for private and insurance patients across the UK. This is an excellent opportunity for GPs looking to build a flexible portfolio career while working within a clinically supported and innovative healthcare environment. The Opportunity Remote GP role based within the UK Weekend-only sessions available Flexible working between 08:00 \u2013 22:00 Minimum commitment of 12 hours per weekend Immediate start available Supported by an experienced Service Delivery Team You\u2019ll be consulting with patients presenting with a wide range of acute primary care conditions while delivering high-quality, patient-centred care remotely. In addition to remote consultations, GPDQ offers access to a variety of wider workstreams, helping clinicians develop a broader and more varied portfolio career. Why Join GPDQ ? We understand the importance of flexibility, clinical autonomy, and meaningful work. As part of our clinical network, you\u2019ll benefit from: \u2714 Flexible working patterns \u2714 Fully remote working within the UK \u2714 Competitive hourly rates \u2714 Ongoing clinical support \u2714 Access to multiple workstreams across private, corporate, and NHS services Additional opportunities may include: Corporate GP \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261026T122613Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gpdq/jobs/remote-gp",
+    "id": "opp_ee1fa4a6e181",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-26T11:41:32+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "general-practitioner",
+      "remote-gp",
+      "locum-gp",
+      "primary-care-physician",
+      "telehealth-physician",
+      "remote-gp-prescriber",
+      "remote-doctor",
+      "telehealth-gp",
+      "remote-physician",
+      "online-gp",
+      "remote-care-physician",
+      "virtual-gp"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote GP",
+    "updated_at": "2026-10-26T12:26:15+00:00",
+    "url": "https://himalayas.app/companies/gpdq/jobs/remote-gp?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
