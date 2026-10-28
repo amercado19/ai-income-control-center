@@ -22200,6 +22200,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_1c10da79392d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 16,
+    "budget_min": 12,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T10:58:56+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Capture Your Cut\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Photograph or film finished haircuts and styling work, framed on the hair, faces avoided. Steps Frame the hair, not the face Shoot in good light from more than one angle Upload photos or short clips What gets rejected Do not include identifiable faces Do not use filters Do not upload work that is not yours to share Pay $0.40 per accepted photo or clip. At a typical pace of about 1.5 minutes per photo or clip, that is about $16 per hour. A 20-minute session of about 13 photos and clips pays \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 90.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/capture-your-cut-paid-data-task-remote-contract-2732397349",
+    "id": "opp_1c10da79392d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T10:58:57+00:00",
+    "profit_score": 16.8,
+    "risk_flags": [],
+    "score": 33.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.1,
+          "evidence": "Estimated net $90 on $90 (100% margin). $19 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $24 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "paid-data-tasks",
+      "remote-contract-data-task",
+      "remote-contract-data-contributor",
+      "data-collection-gig",
+      "freelance-data-collection",
+      "freelance-data-work",
+      "part-time-data-work",
+      "remote-data-work",
+      "data-collection-jobs"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Capture Your Cut (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/capture-your-cut-paid-data-task-remote-contract-2732397349?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_1c1d1832fba4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -41488,6 +41622,133 @@
       ],
       "probability_high": 23.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_33232910d3a6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 40,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:04:27+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Professional Domain Explainers\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Explain something from your job that you couldn't just find by searching. At least 300 words. Steps Verify your profession Pick something you understand from doing the job, not from reading about it Write at least 300 words explaining it clearly Include the nuance and exceptions a textbook would skip Submit What gets rejected Do not write about a field you do not work in Do not reproduce textbook content Do not write under 300 words Accepted: At least 300 words, genuinely from \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/professional-domain-explainers-paid-data-task-remote-contract-3865996382",
+    "id": "opp_33232910d3a6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T11:04:27+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 32.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "entry-level-domain-explainer",
+      "subject-matter-expert"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Professional Domain Explainers (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/professional-domain-explainers-paid-data-task-remote-contract-3865996382?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_3331aae83910": {
@@ -69190,6 +69451,147 @@
       "probability_low": 4.0
     }
   },
+  "opp_5847725723f5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 200,
+    "budget_min": 100,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "G2i",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:02:31+00:00",
+    "description": "Contract | Remote, worldwide | $100-$200/hour depending on experience and location | 10-20 hrs/week Please note that eligibility may vary depending on your location, as some regions may not be supported by the client. Check out this Loom video for more details: We're looking for highly experienced software engineer (SR+) to help evaluate the quality of interactions with modern coding agents such as OpenAI Codex and Claude Code. This is not a traditional engineering role. You won't be writing production code. You'll be evaluating something harder: whether the model thinks like a great engineer. What this role actually is You will assess how AI coding agents behave in real-world scenarios, focusing on: \u2022 Whether the response makes sense Whether the preamble and reasoning are useful Whether the output reflects strong engineering judgment Whether the interaction feels right to an experienced developer This role is about engineering taste. Syntax correctness is the easy part. What you'll be doing Evaluate AI-generated coding interactions end to end Judge whether outputs are useful, correct at a high level, and aligned with how a strong engineer would think Assess the quality of explanations and reasoning, not just the code Distinguish between levels of response quality (what makes something a 2 vs a 4) Give clear, opinionated feedback in writing on what worked, what didn't, and what felt off or misleading Help define what great looks like when working with tools like Cursor, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 750.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/g2i/jobs/senior-software-engineer-ai-training-united-states",
+    "id": "opp_5847725723f5",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T11:02:32+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 61.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $750 on $750 (100% margin). $160 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $200 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: python. Covers 33% of the 3 skills this listing names (missing: javascript, typescript)."
+        }
+      },
+      "final_score": 61.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "senior-ai-software-engineer",
+      "senior-software-ai-engineer",
+      "senior-ai-engineer",
+      "senior-ai-software-developer",
+      "senior-ai-ml-engineer-code-training-data",
+      "software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Software Engineer, AI Training - United States",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/g2i/jobs/senior-software-engineer-ai-training-united-states?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_587832746bac": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -72972,6 +73374,137 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_5c20e64a48df": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "Jumio",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Austria (remote) Machine Learning Engineer We\u2019re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You\u2019ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You\u2019ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating balanced training sets and generating synthetic data to address both quality and diversity gaps. Production Engineering: Own the path to production. Optimize models for low-latency inference (quantization, distillation, TensorRT/ONNX) and manage deployment on AWS. Mentor ML engineers, conduct code/design reviews, and drive technical best practices across the Computer Vision team. What We\u2019re Looking For Experience: Multiple years of industry experience in Machine Learning, with at least 3 years dedicated to Biometrics or Face Analysis. Deep expertise in computer vision and biometrics, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer",
+    "id": "opp_5c20e64a48df",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Thu, 08 Oct 2026 07:31:21 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 33% of the 6 skills this listing names (missing: airflow, aws, machine learning, rest)."
+        }
+      },
+      "final_score": 52.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "airflow",
+      "rest",
+      "aws",
+      "automation",
+      "machine learning"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Jumio: Machine Learning Engineer",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (1-25%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-7%",
+          "factor": "Ageing listing",
+          "from": "20%",
+          "to": "13%",
+          "why": "About 20 days old."
+        }
+      ],
+      "probability_high": 25.0,
+      "probability_low": 1.0
     }
   },
   "opp_5c5c59781ebc": {
@@ -106277,6 +106810,133 @@
       "probability_low": 15.0
     }
   },
+  "opp_820c3450defa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 9,
+    "budget_min": 7,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T10:58:10+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Plants Close Up\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Photograph plants, healthy or sick. Get close enough to see the leaves properly. Steps Find a plant matching the condition in the prompt Photograph close enough to see the leaves clearly Say what you observe Upload What gets rejected Do not photograph from across the garden Do not guess a diagnosis, just describe what you see Do not damage plants to create examples Accepted: Close enough that leaf or stem condition is visible; condition stated. Pay $0.15 per accepted photo. At a typical pace \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 52.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/plants-close-up-paid-data-task-remote-contract-5562483020",
+    "id": "opp_820c3450defa",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T10:58:11+00:00",
+    "profit_score": 14.7,
+    "risk_flags": [],
+    "score": 31.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.7,
+          "evidence": "Estimated net $52 on $52 (100% margin). $11 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $14 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 31.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data-annotation",
+      "image-classification"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Plants Close Up (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/plants-close-up-paid-data-task-remote-contract-5562483020?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8222e4b3bacc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -113503,6 +114163,135 @@
     "title": "Safety Project | Emotional Distress Role-Play Actor",
     "updated_at": "2026-10-01T22:26:00+00:00",
     "url": "https://himalayas.app/companies/vetto/jobs/safety-project-emotional-distress-role-play-actor-3695055069",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_8aaa36e06b24": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 22,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:01:14+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Speak in a Less Common Language\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Record yourself speaking your own language. Steps Select your language from the list, or add it Record yourself speaking the prompts, or talking freely Speak naturally in your own dialect Submit What gets rejected Do not record in a language you are learning Do not use a major world language here Do not use text-to-speech Accepted: Native or fluent speech in an under-resourced language, clearly audible. Pay $2.00 per accepted recording. At a typical pace of about 4 minutes per \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 165.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/speak-in-a-less-common-language-paid-data-task-remote-contract-652080422",
+    "id": "opp_8aaa36e06b24",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T11:01:15+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 34.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $165 on $165 (100% margin). $35 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $44 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "remote-language-jobs",
+      "remote-linguist",
+      "remote-language-specialist",
+      "multilingual-ai-data-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Speak in a Less Common Language (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/speak-in-a-less-common-language-paid-data-task-remote-contract-652080422?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -140201,6 +140990,141 @@
       "probability_low": 4.0
     }
   },
+  "opp_a9f6e0bd3995": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "WSH Experts Pte Ltd",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:05:08+00:00",
+    "description": "Job Roles & Responsibilities Attending briefings/ training's on the Authority\u2019s Central Based Care Services Preparing for and conducting Audits on Central Based Care Services Preparing for and conducting Assessments on Central Based Care Service Performing data entry, analyses and preparation of the reports Reviewing Central Based Care Service providers\u2019 improvement plans and critical rectifications Conducting factual investigations and responding to Central Based Care Service Service providers Requirements Job Requirements Degree/Diploma in Occupational Therapy/Physiotherapy Must be Full/Restricted registration with AHPC. Minimum 2 or more years of relevant working experience Ability to conduct audit and reviews,Investigation Good Communication Skills Computer literacy (Word, Excel, Office) - ability to learn other systems Originally posted on Himalayas",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wsh-experts-pte-ltd/jobs/physiotherapist-freelance",
+    "id": "opp_a9f6e0bd3995",
+    "is_demo": false,
+    "match_score": 41.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-28T11:05:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, data entry, rest)."
+        }
+      },
+      "final_score": 55.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "data entry",
+      "physiotherapist",
+      "occupational-therapist",
+      "healthcare-auditor",
+      "clinical-officer",
+      "online-physiotherapist",
+      "physiotherapy",
+      "freelance-therapist",
+      "remote-musculoskeletal-physiotherapist",
+      "contract-physical-therapist",
+      "remote-physiotherapy",
+      "physical-therapist",
+      "musculoskeletal-therapist",
+      "healthcare"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Physiotherapist(Freelance)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/wsh-experts-pte-ltd/jobs/physiotherapist-freelance?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_aa02c931a2b5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -140704,6 +141628,141 @@
     "title": "Virtual Medical Receptionist",
     "updated_at": "2026-09-25T21:13:06+00:00",
     "url": "https://himalayas.app/companies/go-lean-health/jobs/virtual-medical-receptionist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_aa97aff0c588": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 16,
+    "budget_min": 12,
+    "budget_type": "HOURLY",
+    "category": "data_cleaning",
+    "client": "Kled AI",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:00:23+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Capture Your Chores\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Film everyday cleaning (vacuuming, mopping, wiping) with the activity and the room in frame, faces out. Steps Prop or hold the phone so it sees the activity and the room Clean as you normally would Keep faces out of frame Upload the clip What gets rejected Do not film faces Do not cut the clip Do not stage a clean room Pay $1.30 per accepted clip. At a typical pace of about 5 minutes per clip, that is about $16 per hour. A 20-minute session of about 4 clips pays about $5.20. No fixed cap; \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.04,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.38,
+    "estimated_net_revenue": 40.56,
+    "estimated_non_ai_effort": 0.34,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/capture-your-chores-paid-data-task-remote-contract-5916383166",
+    "id": "opp_aa97aff0c588",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T11:00:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 34.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (3.0h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $41 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "paid-data-tasks",
+      "remote-contract-data-task",
+      "remote-task-work",
+      "data-collection-gig",
+      "freelance-data-collection",
+      "remote-data-work",
+      "data-collection-jobs",
+      "freelance-data-work",
+      "freelance-content-capture",
+      "remote-data-entry"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Capture Your Chores (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/capture-your-chores-paid-data-task-remote-contract-5916383166?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -190025,6 +191084,133 @@
       "probability_low": 26.0
     }
   },
+  "opp_e7b77739f95f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 16,
+    "budget_min": 12,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T10:59:55+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Correct This Text\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Paste in something you wrote badly first, then your improved version, an email, a message, a caption, an application. Then say what you changed. Steps Paste an early draft of something you wrote Paste your improved version Explain what you changed and why it is better Submit What gets rejected Do not submit pairs that differ only by a typo Do not skip the explanation Do not fabricate a bad draft Accepted: A before version, an after version, and a written reason for the changes. Pay $1.60 per \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 90.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/correct-this-text-paid-data-task-remote-contract-4241999370",
+    "id": "opp_e7b77739f95f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T10:59:56+00:00",
+    "profit_score": 16.8,
+    "risk_flags": [],
+    "score": 31.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.1,
+          "evidence": "Estimated net $90 on $90 (100% margin). $19 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $24 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 31.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 31.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "text-correction-specialist",
+      "correcci\u00f3n-de-textos"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Correct This Text (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/correct-this-text-paid-data-task-remote-contract-4241999370?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e7dd2f96e690": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -191559,6 +192745,160 @@
       "probability_low": 4.0
     }
   },
+  "opp_e91399be46e4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100.96,
+    "budget_min": 81.73,
+    "budget_type": "HOURLY",
+    "category": "reporting",
+    "client": "Oklo",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T10:59:40+00:00",
+    "description": "Thanks for your interest in Oklo ! We are searching for a Director of SEC Reporting and Technical Accounting to join our growing team. Position Description: The Director of SEC Reporting and Technical Accounting will own the preparation of Oklo \u2019s annual and quarterly financial statement and oversee all technical accounting-related analyses and memos. Reporting to the VP of Accounting and Controller, this role will also oversee the development of Oklo \u2019s suite of accounting policies and SOX controls as the Company expands its operations. The Director will work closely with the internal audit department and be a primary contact for the Company\u2019s external auditors. The role will also be a key partner to peers within Oklo \u2019s finance team and across the organization, providing internal training and education on areas of accounting impacting Oklo today and in the future. This role will be a key resource to Corporate Development, Procurement and Business Unit Leaders, providing expert accounting advice as contracts and other transactions are being structured. The Director will play a critical role in optimizing Oklo \u2019s accounting processes, policies and reporting, enabling the business to grow at pace. Specific responsibilities may include: Prepare the financial statements and footnotes for Oklo \u2019s Form 10-K and Form 10-Q, including all supporting schedules, and related reporting packages. Partner with key stakeholders across the Company to prepare the MD&A. Lead Disclosure \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.7,
+    "estimated_net_revenue": 384.13,
+    "estimated_non_ai_effort": 0.94,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/oklo/jobs/director-of-sec-reporting-and-technical-accounting",
+    "id": "opp_e91399be46e4",
+    "is_demo": false,
+    "match_score": 44.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T10:59:40+00:00",
+    "profit_score": 75.4,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 48.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.8h AI / 0.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.9,
+          "evidence": "Estimated net $384 on $384 (100% margin). $204 per effective hour vs $85 target (1.9 effective h = 0.9h human + 3.8h AI discounted). Leverage: $409 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 16.3,
+          "evidence": "Matched 2 profile skills: excel, reporting. Covers 20% of the 5 skills this listing names (missing: api, aws, react, rest)."
+        }
+      },
+      "final_score": 48.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 60.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "react",
+      "accounting-director",
+      "director-of-accounting",
+      "sec-reporting",
+      "director-of-technical-accounting",
+      "financial-reporting-director",
+      "director-of-financial-reporting",
+      "director-of-regulatory-reporting",
+      "director-of-external-financial-reporting",
+      "corporate-accounting-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director of SEC Reporting and Technical Accounting",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/oklo/jobs/director-of-sec-reporting-and-technical-accounting?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_e92c93171511": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -192206,6 +193546,133 @@
     "title": "Associate General Counsel - Product - Partnerships",
     "updated_at": "2026-10-21T21:22:11+00:00",
     "url": "https://himalayas.app/companies/ionq-com/jobs/associate-general-counsel-product-partnerships?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_e9d75768d168": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 24,
+    "budget_min": 18,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Kled AI",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-28T12:18:21+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-27T11:04:21+00:00",
+    "description": "ABOUT KLED Kled is building the largest opt-in human data network in the world. We are not a labeling firm. We are not a task marketplace. We are a consumer application where people upload their real photos, videos, and documents and get paid continuously. We then filter, standardize, and license that data to frontier AI labs and enterprises that need fresh, rights-aware training data. Since launching our mobile app in 2026, we have: \u2022 Reached #1 on the App Store (Finance) with 0 paid marketing \u2022 Scaled to 600,000+ active data contributors \u2022 Processed 5M uploads per day \u2022 Raised $15M+ from investors behind SpaceX, Airbnb, Coinbase, xAI, OpenAI, Anthropic, Spotify, Lyft, Uber, and more Our mission is to let anyone download the app and earn a real living wage from uploading their data. This listing is for one paid task in the Kled app: \"Fake Trading App Screens\". There is no interview and no minimum hours: download the app, open the task, and you are paid per accepted submission. What you will do Screenshot fake trading apps and crypto scams. Include the fake numbers they're showing you. Steps Screenshot the fake platform or message Include any balances or returns being claimed Note the platform and scam type Upload What gets rejected Never deposit money to get a screenshot No legitimate exchange screenshots Do not crop out the claimed returns Accepted: Full screenshot including the interface and any numbers claimed. Pay $0.40 per accepted screenshot. At a typical pace of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261028T121819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 135.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kled-ai/jobs/fake-trading-app-screens-paid-data-task-remote-contract-5354984038",
+    "id": "opp_e9d75768d168",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-28T11:04:22+00:00",
+    "profit_score": 18.4,
+    "risk_flags": [],
+    "score": 32.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.4,
+          "evidence": "Estimated net $135 on $135 (100% margin). $29 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $36 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "paid-data-tasks",
+      "remote-contract-data-contributor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Fake Trading App Screens (Paid Data Task, Remote, Contract)",
+    "updated_at": "2026-10-28T12:18:21+00:00",
+    "url": "https://himalayas.app/companies/kled-ai/jobs/fake-trading-app-screens-paid-data-task-remote-contract-5354984038?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
