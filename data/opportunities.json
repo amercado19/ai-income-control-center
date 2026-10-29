@@ -4434,6 +4434,146 @@
       "probability_low": 0.0
     }
   },
+  "opp_0534a7f82118": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "ZoomInfo Technologies LLC",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-29T12:27:55+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote-US ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You\u2019ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won\u2019t just contribute. You\u2019ll make things happen fast. We are seeking a highly experienced, hands-on Principal Data Engineer to define and evolve the architecture, engineering standards, and operating model for our enterprise data platform. This role is for a technical leader who excels at complex system design: translating business and analytical needs into scalable, reliable, secure, and maintainable data products. The Principal Data Engineer will lead critical architectural decisions across data ingestion, storage, transformation, orchestration, governance, observability, and consumption, while raising the engineering bar through mentorship, design reviews, and pragmatic best practices. You will work across engineering, analytics, platform, security, and business stakeholders to create systems that make trusted data accessible, timely, and actionable at scale. What You\u2019ll Do Lead Data Architecture and System Design Own the technical vision and architecture for scalable, resilient, and cost-effective data platforms and pipelines. Design end-to-end data systems spanning batch and streaming ingestion, transformation, data modeling, storage, orchestration, serving \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-data-engineer",
+    "id": "opp_0534a7f82118",
+    "is_demo": false,
+    "match_score": 80.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Thu, 29 Oct 2026 07:30:52 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 59.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.6,
+          "evidence": "Matched 6 profile skills: automation, ci/cd, etl, excel, python, sql. Covers 40% of the 15 skills this listing names (missing: airflow, analytics, aws, azure)."
+        }
+      },
+      "final_score": 59.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 59.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "mysql",
+      "snowflake",
+      "bigquery",
+      "dbt",
+      "airflow",
+      "etl",
+      "excel",
+      "aws",
+      "gcp",
+      "azure",
+      "ci/cd",
+      "automation",
+      "analytics"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "ZoomInfo Technologies LLC: Principal Data Engineer",
+    "updated_at": "2026-10-29T12:27:55+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-data-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_053df0ddbb1b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29078,6 +29218,153 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_25d025375ce6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:37:06+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Psychiatry Expert Type: Contract Compensation: $150/hour Location: Remote Role Responsibilities Evaluate how large language models reason through advanced psychiatric cases. Design expert-level diagnostic and reasoning challenges that current models fail. Develop gold-standard answers with clear clinical reasoning. Emphasize edge cases, nuanced differentials, and risk assessment. Collaborate directly with research teams at a leading AI lab. Provide feedback on common failure modes in model reasoning. Qualifications Must-Have Completed psychiatry residency: ACGME , AOA , or national equivalent. Medical degree : MD or DO . Active board certification in psychiatry: ABPN , FRCPC , MRCPsych , FRANZCP , or recognized national equivalent. Active, unrestricted medical license. 3+ years of independent practice after residency. Practice in an accredited or government-licensed setting. Based in the US , UK , Europe , or Australia . Preferred 10+ direct patient-contact hours per week , current. Psychiatry-Specific Subspecialty depth in Addiction , Child/Adolescent , Forensic , Geriatric , or Consultation-Liaison . OSCE development or examiner experience. Faculty appointment in a department of psychiatry, current or within 2 years. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/board-certified-psychiatrist-fully-remote-upto-150-hr-722909522",
+    "id": "opp_25d025375ce6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:37:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "psychiatry",
+      "ai-evaluation",
+      "medical-consulting",
+      "clinical-ai",
+      "psychiatric-assessment",
+      "remote-psychiatrist",
+      "remote-senior-psychiatrist",
+      "telehealth-psychiatrist",
+      "remote-psychiatric-consultant",
+      "telemedicine-psychiatrist",
+      "remote-psychiatric-medical-director",
+      "remote-psychiatry",
+      "telepsychiatrist",
+      "remote-consultation-liaison-psychiatrist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Board-Certified Psychiatrist - Fully Remote | Upto $150/hr",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/board-certified-psychiatrist-fully-remote-upto-150-hr-722909522?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_25d8879c6bdb": {
@@ -73601,6 +73888,141 @@
       "probability_low": 8.0
     }
   },
+  "opp_5aea5062b6f3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TSMG",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:37:06+00:00",
+    "description": "We are seeking a motivated Junior Team Lead to support and oversee projects related to autonomous vehicles (AV) and advanced driver-assistance systems (ADAS). The role involves coordinating test teams, ensuring project milestones are met, and leveraging knowledge of the local environment and regulations to drive effective field operations and high-quality data collection. This is an excellent opportunity for an early-career professional to develop leadership skills while contributing to cutting-edge automotive innovation. Primary Responsibilities Assist in planning and execution of AV/ADAS testing projects, including timelines, resource allocation, and reporting. Supervise and guide small field and testing teams, ensuring adherence to safety standards, test protocols, and deadlines. Use knowledge of the local market, infrastructure, and regulations to support site selection and optimize test operations. Monitor testing quality and data accuracy, troubleshoot operational issues, and escalate challenges to senior management when needed. Coordinate with internal teams (engineering, safety, operations, project management) to align fieldwork with project objectives. Contribute to training sessions for test operators and field staff, providing feedback to improve performance and safety compliance. Prepare status updates, safety logs, and project documentation for management and regulatory review. Requirements 1\u20132 years of experience in project coordination, automotive testing, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/tsmg/jobs/junior-team-lead-av-emea-market-3214535405",
+    "id": "opp_5aea5062b6f3",
+    "is_demo": false,
+    "match_score": 42.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-29T11:37:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 47.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.4,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 47.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"project coordination\"; \"\u2026 [excerpt - see source link for the full posting]\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 47.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "team-lead",
+      "project-coordinator",
+      "operations-coordinator",
+      "automotive-project-management",
+      "test-lead",
+      "junior-av-team-lead",
+      "av-systems-team-lead-emea",
+      "junior-team-lead",
+      "audio-visual-team-lead",
+      "junior-team-leader"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Junior Team Lead (AV) - EMEA market",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/tsmg/jobs/junior-team-lead-av-emea-market-3214535405?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_5b11383538ce": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -75154,6 +75576,137 @@
       "probability_low": 26.0
     }
   },
+  "opp_5cbaa4b3849a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "Jumio",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-29T12:27:55+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: India (remote) Machine Learning Engineer IV \u2013 (Computer Vision) We\u2019re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You\u2019ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You\u2019ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating balanced training sets and generating synthetic data to address both quality and diversity gaps. Production Engineering: Own the path to production. Optimize models for low-latency inference (quantization, distillation, TensorRT/ONNX) and manage deployment on AWS. Mentor ML engineers, conduct code/design reviews, and drive technical best practices across the Computer Vision team. What We\u2019re Looking For Strong industry experience in Machine Learning, dedicated to Biometrics or Face Analysis. Deep expertise in computer vision and biometrics, especially face \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-computer-vision",
+    "id": "opp_5cbaa4b3849a",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Sat, 10 Oct 2026 07:30:40 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 33% of the 6 skills this listing names (missing: airflow, aws, machine learning, rest)."
+        }
+      },
+      "final_score": 52.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "airflow",
+      "rest",
+      "aws",
+      "automation",
+      "machine learning"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Jumio: Machine Learning Engineer - IV (Computer Vision)",
+    "updated_at": "2026-10-29T12:27:55+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-computer-vision",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (1-25%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-7%",
+          "factor": "Ageing listing",
+          "from": "20%",
+          "to": "13%",
+          "why": "About 19 days old."
+        }
+      ],
+      "probability_high": 25.0,
+      "probability_low": 1.0
+    }
+  },
   "opp_5cdce2e618cf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -75295,6 +75848,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5d3164c5054e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 264.42,
+    "budget_min": 240.38,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Radiology Partners",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:57:51+00:00",
+    "description": "General information Press space or enter keys to toggle section visibility Job Title Remote General Radiologist | Flexible Scheduling Options | No Call | FL License City Remote Work Location Type Remote State FL Employment Type Full-time (30+ hrs/week)/FULLTIME Description & Requirements Press space or enter keys to toggle section visibility Position Description & Requirements PositionSummary Mori, Bean and Brooks (MBB), a RadiologyPartners practice, has been the leader in diagnostic imaging and image-guidedinterventions in Jacksonville, Floridasince 1968. We provide exclusive diagnostic and interventional radiology services toseven hospitals in two hospital systems, including Baptist-MD Anderson Cancer Centerand 14 outpatient imaging centers.Our affiliated business office provides practice support,billingand coding services, and PACS/RIS IT services. Please visit us at MBBisseeking a full-timeRemoteGeneralRadiologistwith flexible schedule options including daytime , evening , overnight and weekend-only shifts. The ideal candidate will be comfortablereadinga broad range ofdiagnosticstudiesincluding STAT,inpatient, andoutpatientand body imaging.Experiencewithcancer imaginga PLUS. Why This Role Stands Out \u2714100% Remote Schedule \u2013 Work anywhere in the US \u2714Daytime, Evening,andOvernightOptions \u27144 Day Work WeekandWeekends-OnlyOptionsAvailable \u2714Ability to focus on Emergency or Outpatient Only \u2714Up to 12Weeks PTOas Partner \u27141 yearPartnership Trackor 1099 Pay-Per-Click Options \u2714$50k \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1802.85,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/radpartners-avature/jobs/remote-general-radiologist-flexible-scheduling-options-no-call-fl-license",
+    "id": "opp_5d3164c5054e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:57:52+00:00",
+    "profit_score": 93.9,
+    "risk_flags": [],
+    "score": 49.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 17.3,
+          "evidence": "Estimated net $1,803 on $1,803 (100% margin). $384 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $481 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 49.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 49.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "general-radiologist",
+      "diagnostic-radiology",
+      "remote-radiology",
+      "radiology-physician",
+      "telemedicine-radiology",
+      "remote-general-radiologist",
+      "remote-general-diagnostic-radiologist",
+      "remote-radiologist",
+      "remote-diagnostic-radiologist",
+      "senior-remote-radiologist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Remote General Radiologist | Flexible Scheduling Options | No Call | FL License",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/radpartners-avature/jobs/remote-general-radiologist-flexible-scheduling-options-no-call-fl-license?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_5d80d5fe83d7": {
@@ -100188,6 +100876,145 @@
       "probability_low": 4.0
     }
   },
+  "opp_765971e4b882": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:37:07+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Voice Actor: CX Agent Voice Cloning (Spanish - Latin America) Type: Contract Compensation: $50\u2013$150/hour Location: Remote Commitment: 5\u201310 hours/week Role Responsibilities Record high-quality voice samples across diverse scripts such as conversational, narrative, and instructional. Deliver clear, natural, and expressive speech with strong control over tone, pacing, and pronunciation. Maintain consistency in voice, accent, and delivery across recording sessions. Follow detailed recording guidelines including environment, microphone setup, and file formatting. Perform multiple takes with variation in emotion, emphasis, and style when required. Qualifications Must-Have Native Latin American Spanish speaker currently based in Latin America with the ability to speak neutral, internationally intelligible Spanish . Proven experience in voice acting, dubbing, narration, podcasting, or broadcasting . Access to a professional or near-professional recording setup . Strong command of intonation, diction, and emotional range . Ability to follow scripts precisely while maintaining natural delivery. Reliable availability for 5\u201310 hours per week over the project duration. Your voice may be cloned for the client's CX AI Agent. Your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/latin-american-voice-actor-fully-remote-upto-150-hr-5281391094",
+    "id": "opp_765971e4b882",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:37:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "voice-acting",
+      "voice-over",
+      "spanish-voice-actor",
+      "audio-production",
+      "ai-voice-cloning",
+      "latin-american-spanish-voice-actor",
+      "spanish-voice-talent",
+      "remote-voice-talent",
+      "spanish-language-voice-artist",
+      "spanish-language-voice-acting",
+      "spanish-voice-acting",
+      "remote-voice-over-work",
+      "bilingual-voice-actor",
+      "freelance-voice-actor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Latin American Voice Actor - Fully Remote | Upto $150/hr",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/latin-american-voice-actor-fully-remote-upto-150-hr-5281391094?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_765c41e9012e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -109232,6 +110059,148 @@
     "title": "Senior Back-end Engineer",
     "updated_at": "2026-10-03T04:16:36+00:00",
     "url": "https://himalayas.app/companies/pm-consulting/jobs/senior-back-end-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_82ba494fc042": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "WLG",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:53:33+00:00",
+    "description": "WLG is a technical recruitment agency that is looking for an IT Recruiter to join the cross-functional team to help in hiring for the best Tech international companies in the EU, the USA, and Scandinavia regions. WLG was founded under the belief that trust, autonomy, and transparency bring the best out of us to flourish and excel in our life. We cherish independence ownership, open communication, and an entrepreneurial spirit. We are looking for a driven individual, autonomous in work with advanced analytical skills to help us hire A-players and deliver a first-class customer experience. You will innovate, drive and deliver hiring solutions effectively and efficiently, seeking out opportunities and improvements across the entire recruitment process in the organization. Responsibilities: Screen and source qualified applicants and resumes. Coordinate the interview process with individuals and panels. Gather interview feedback and communicate with applicants during and after the interview process. Manage all stages of the recruitment process. Work with leadership to understand the hiring needs of the organization. Collaborate with hiring managers to understand team needs and facilitate candidate lifecycle processes. We are happy to hear from you if you have: 1-2 years experience as an IT Recruiter Previous experience in Direct Sourcing and/or volume hiring Strong organizational, multi-tasking, and time-management skills, Experience from a recruitment agency or hyper-growth \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wlg/jobs/it-recruiter-commission-based-5190581879",
+    "id": "opp_82ba494fc042",
+    "is_demo": false,
+    "match_score": 35.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-29T11:53:34+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.6,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 43.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"as an it recruiter previous experience in direct sourcing and/or volum\"; \"multi-tasking\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 43.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "it-recruiter",
+      "technical-recruiter",
+      "talent-acquisition-specialist",
+      "recruitment-consultant",
+      "it-technical-recruiter",
+      "it-recruitment",
+      "it-recruiting",
+      "commission-only-recruiter",
+      "commission-based-recruiting",
+      "tech-recruiter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "IT Recruiter (Commission-based)",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/wlg/jobs/it-recruiter-commission-based-5190581879?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -123553,6 +124522,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_92d2de2e8bf2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 62.5,
+    "budget_min": 33.65,
+    "budget_type": "HOURLY",
+    "category": "data_cleaning",
+    "client": "Walmart - Internal",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:56:32+00:00",
+    "description": "Position Summary... What you'll do... Role summary: As a Data Analyst II, you will combine technical expertise and business acumen to support testing, release validation, and cross-product quality assurance. You will identify and analyze data discrepancies before deployment, helping prevent issues that impact Suppliers, Merchants, and other business partners. Working closely with Product, Engineering, and Support teams, you will validate business-critical metrics, translate complex defects into actionable solutions, and drive resolution efforts. Success in this role requires strong analytical skills, attention to detail, adaptability in a fast-paced environment, and a passion for advancing automation through agentic AI and innovative testing practices. About the team: The Data Quality and Testing teams at Data Ventures ensure data integrity and system resilience through thorough validations and comprehensive testing frameworks. Leveraging advanced machine learning, anomaly detection, and automation, they proactively identify irregularities and validate global data pipelines. Their certification and monitoring processes support continuous quality assurance and timely issue resolution across Walmart\u2019s ecosystem. Collaborating with global stakeholders, these teams drive process enhancements, strengthen data governance, and accelerate innovation by delivering automated testing and data quality solutions that enable reliable, data-driven decision-making and support business \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.04,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.38,
+    "estimated_net_revenue": 113.74,
+    "estimated_non_ai_effort": 0.34,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/walmart-com/jobs/usa-data-analyst-ii",
+    "id": "opp_92d2de2e8bf2",
+    "is_demo": false,
+    "match_score": 70.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:56:32+00:00",
+    "profit_score": 59.7,
+    "risk_flags": [],
+    "score": 71.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (3.0h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 11.0,
+          "evidence": "Estimated net $114 on $114 (100% margin). $103 per effective hour vs $85 target (1.1 effective h = 0.3h human + 3.0h AI discounted). Leverage: $335 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.0,
+          "evidence": "Matched 5 profile skills: automation, data pipeline, python, sql, statistics. Covers 33% of the 12 skills this listing names (missing: analytics, aws, bigquery, data science)."
+        }
+      },
+      "final_score": 71.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "bigquery",
+      "playwright",
+      "aws",
+      "automation",
+      "tableau",
+      "power bi",
+      "machine learning",
+      "data science",
+      "statistics",
+      "analytics",
+      "data-analyst",
+      "data-quality-analyst",
+      "qa-analyst",
+      "software-test-analyst",
+      "data-analyst-ii"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "(USA) Data Analyst II",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/walmart-com/jobs/usa-data-analyst-ii?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_93069929744e": {
@@ -153086,6 +154190,151 @@
       "probability_low": 4.0
     }
   },
+  "opp_b5cf4865736c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 20,
+    "budget_min": 20,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ACLU",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:48:53+00:00",
+    "description": "The ACLU seeks an UndergraduateGraphic Design Intern in the Communications Department of the ACLU \u2019s National office in New York,NY . This internship is part-time and remote. Qualifying applicants must currently be matriculated undergraduate students or an equivalent combination of education and/or experience and must be based in the U.S. for the entire duration of the internship. The Team: The Comms Team is responsible for promoting the ACLU \u2019s mission, its brand and its programs through multi-faceted campaigns, digital communications, publications and digital platforms. What You\u2019ll Do: The Graphic Designintern will be responsible fora variety of branding and key issue projects including supporting the organization\u2019s digital asset management, the production of printed materials for a variety of purposes as well as graphics for the ACLU web site(s), multimedia and social media channels. Your Day to Day Website and multimedia graphics and design collateral Social media promotional design; memes Online advertising design support; buttons, banners Print project support Creative process coordination as directed by Digital Design lead What You\u2019ll Bring: Digital design and/or print experience on Mac (PC okay) Proficiency in Adobe InDesign, Photoshop and Illustrator Premiere, After Effects or video editing skills welcome Ability to handle multiple projects and meet deadlines in a fast-paced working environment. Future ACLU -ers Will: Be committed to advancing the mission of the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 150.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aclu/jobs/spring-2027-undergraduate-graphic-design-intern-communications-department",
+    "id": "opp_b5cf4865736c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:48:55+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 34.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $150 on $150 (100% margin). $32 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $40 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "aws",
+      "graphic-design-intern",
+      "graphic-designer",
+      "digital-design-intern",
+      "visual-designer",
+      "multimedia-designer",
+      "communications-intern",
+      "marketing-and-communications-intern",
+      "marketing-design-intern",
+      "graphic-design-internships",
+      "visual-design-intern",
+      "brand-design-intern"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Spring 2027 Undergraduate Graphic Design Intern, Communications Department",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/aclu/jobs/spring-2027-undergraduate-graphic-design-intern-communications-department?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_b5e3e6a6b25d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -153488,6 +154737,133 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_b6103316e529": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 3200.0,
+    "budget_min": 3200.0,
+    "budget_type": "FIXED",
+    "category": "api_integration",
+    "client": "Legion",
+    "competition_score": 45.2,
+    "confidence": 100.0,
+    "created_at": "2026-10-29T12:27:55+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote, Mexico Senior Integration Engineer Remote, Mexico JOB OVERVIEW Are you passionate about building large-scale applications leveraging public cloud services and integration design patterns? As an Integration Engineer, you will work on developing and maintaining Integration & Automation Solutions for Legion WFM customers. RESPONSIBILITIES AND DUTIES Integration Engineers provide leadership, facilitate analysis and design tasks, and support multiple Legion teams in developing an enterprise's solution architecture. Job responsibilities are grouped across four key areas: Technical Integrations, Customer-Centric Consulting, Legion Product Expertise, and a Commitment to One Another. Please note this role involves participation in on-call rotation. Technical Integrations Design and implement scalable integration architectures connecting Legion with HR, POS, Payroll, and other enterprise systems. Design, Build, and Test integrations using Workato Develop secure and efficient REST APIs within Legion's API-driven ecosystem. Ensure high-performance, reliable integrations using modern cloud platforms. Engage with architects and engineers for design collaboration and code reviews. Improve development practices and stay ahead of agile software engineering trends. Legion Product Expertise Gain and maintain deep knowledge of Legion's product and integration ecosystem. Identify, report, and prioritize product bugs and enhancements. Work with core engineering and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 19.97,
+    "estimated_cost": 0.0,
+    "estimated_hours": 28.53,
+    "estimated_net_revenue": 3200.0,
+    "estimated_non_ai_effort": 8.56,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/legion-senior-integration-engineer",
+    "id": "opp_b6103316e529",
+    "is_demo": false,
+    "match_score": 64.6,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "Thu, 29 Oct 2026 07:30:52 +0000",
+    "profit_score": 100.0,
+    "risk_flags": [],
+    "score": 72.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 9.9,
+          "evidence": "70% of estimated effort is AI-carryable (20.0h AI / 8.6h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 17.7,
+          "evidence": "Estimated net $3,200 on $3,200 (100% margin). $236 per effective hour vs $85 target (13.6 effective h = 8.6h human + 20.0h AI discounted). Leverage: $374 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 8.4,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%). Budget >= $2,000 attracts stronger competition (-10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 20.0,
+          "evidence": "Matched 4 profile skills: automation, ci/cd, rest api, sql. Covers 33% of the 9 skills this listing names (missing: api, aws, docker, postgres)."
+        }
+      },
+      "final_score": 72.9,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 72.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "aws",
+      "docker",
+      "ci/cd",
+      "automation"
+    ],
+    "source": "weworkremotely",
+    "status": "REVIEW",
+    "title": "Legion: Senior Integration Engineer",
+    "updated_at": "2026-10-29T12:27:55+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/legion-senior-integration-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_b6a270f4b546": {
@@ -192657,6 +194033,155 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_e592e8c433fa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 89.9,
+    "budget_min": 62.93,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Reworld Projects, LLC",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-29T12:27:54+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-28T11:58:29+00:00",
+    "description": "Who we are For more than 40 years, Reworld has been a leader in sustainable waste solutions, providing our customers with innovative solutions that help them achieve carbon-negative outcomes. Our Vision Reworld is leading the charge to a carbon-negative future through revolutionary sustainable materials management solutions that reduce, reuse, recycle and reimagine waste for the benefit of society and the environment. Our Business Reworld partners with businesses by offering cutting-edge engineering and innovative solutions, to help customers reduce, reuse, recycle and recover value from waste streams and meet or exceed their sustainability goals. Our Value Reworld's differentiator comes from our ecosystem of technology, facilities and partnerships, trusted by the world\u2019s largest organizations to reimagine waste management for a smarter, more sustainable world. All that we\u2019re missing is you. Apply today! About the role The Director, Area Asset Manager position will have responsibility for meeting and exceeding EBITDA and Free Cash Flow targets for the asset base under their direction. They will also lead asset management and development activities across a regional base of assets (primarily Energy-from-Waste facilities). The role entails direct oversight of revenue generating activities including service agreements, merchant waste as well as expense and capital items related to facility operations, improvements, and operational byproducts (residues). They will also have \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261029T122752Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 629.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/reworld-projects-llc/jobs/director-area-asset-manager",
+    "id": "opp_e592e8c433fa",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-29T11:58:30+00:00",
+    "profit_score": 71.1,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.1,
+          "evidence": "Estimated net $629 on $629 (100% margin). $132 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $210 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 42.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "asset-management-director",
+      "area-asset-manager",
+      "director-of-operations",
+      "facility-management-director",
+      "director-of-asset-management",
+      "area-director",
+      "portfolio-management-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director, Area Asset Manager",
+    "updated_at": "2026-10-29T12:27:54+00:00",
+    "url": "https://himalayas.app/companies/reworld-projects-llc/jobs/director-area-asset-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e5a97142cfec": {
