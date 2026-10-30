@@ -4034,6 +4034,144 @@
       "probability_low": 15.0
     }
   },
+  "opp_0479081c6329": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 111.3,
+    "budget_min": 66.63,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Fortive",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:37:10+00:00",
+    "description": "Job Description Regional Director Job Summary: The Regional Director\u2019s primary responsibility is to sell Provation Clinical Documentation software solutions (Provation MD & Provation Apex) to healthcare facilities that perform Gastroenterology (GI) procedures. Duties & Responsibilities: Achieve Sales Quota Develop and execute sales strategies to open, advance, and close Provation Apex customer migration and new sales opportunities in customer and prospect accounts Perform value-based selling of Provation Apex solution in a consultative, professional manner Meet target Sales Productivity Key Performance Indicators (KPI's) for assigned sales activities Lead & manage customer proposal & negotiations process consulting with sales leadership Strategically Manage Customer Relationships Identify key buying influencers within accounts to determine processes, budgets, and timelines Develop, build, and strengthen relationships with executive level stakeholders Actively facilitate customer engagements to understand each customer\u2019s unique organizational strategies, initiatives, and challenges Establish a scheduled, routine, and predictable customer communication cadence Listen and use critical thinking to evaluate each customer\u2019s current state of Provation. Provide recommendations to optimize and advance the use of Provation Communicate customer feedback on existing and new products to internal stakeholders including internal Product, Technology, and Commercial stakeholders Participate \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 499.72,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fortive/jobs/regional-sales-director-asc-healthcare",
+    "id": "opp_0479081c6329",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:37:11+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 66.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $500 on $500 (100% margin). $107 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $133 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 66.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "regional-sales-director",
+      "sales-director",
+      "healthcare-sales-director",
+      "saas-sales-director",
+      "enterprise-sales-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Regional Sales Director, ASC Healthcare",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/fortive/jobs/regional-sales-director-asc-healthcare?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0480ab9b95ec": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6371,6 +6509,129 @@
     "title": "AWS DevOps specialist - Full remote - in USD",
     "updated_at": "2026-09-22T11:08:15+00:00",
     "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/aws-devops-specialist-full-remote-in-usd-8834118478",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_0789c2acac6d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Paired",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:41:57+00:00",
+    "description": "Paired is a global staffing and recruiting agency that specializes in pairing remote work with top-tier talent. We admire the importance of innovative social media strategies and are committed to connecting talented individuals with great companies that need their unique skills. Our mission is to provide great jobs to talented people, no matter where they are located. We are seeking a highly creative and skilled In-House 3D Motion Graphics Artist to produce high-quality product animations for our brand. This role will be responsible for handling the entire 3D animation pipeline in-house\u2014from concept development to final delivery. The ideal candidate will collaborate closely with our marketing and design teams to create visually compelling animations that showcase our products across various digital platforms. Responsibilities : Own the end-to-end production of all in-house 3D product animations. Conceptualize, design, and animate high-quality motion graphics that enhance product storytelling. Collaborate with internal teams to create digital marketing, e-commerce, and promotional content. Ensure all animations align with brand guidelines, messaging, and visual identity. Oversee texturing, lighting, shading, and VFX enhancements to achieve photorealistic results. Optimize animations for different formats, including social media, web, and advertising placements. Keep up with the latest trends in 3D animation, AI-assisted tools, and motion design to improve workflow efficiency. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/paired-so/jobs/in-house-3d-motion-graphics-artist-us-based-remote",
+    "id": "opp_0789c2acac6d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-30T03:41:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 56.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 56.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "automation",
+      "motion-graphics-designer",
+      "3d-animator",
+      "visual-effects-artist",
+      "3d-generalist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "In-House 3D Motion Graphics Artist (US-Based, Remote)",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/paired-so/jobs/in-house-3d-motion-graphics-artist-us-based-remote?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -15188,6 +15449,131 @@
     "title": "Remote Clinical Pharmacist \u2013 New Jersey",
     "updated_at": "2026-10-24T20:24:17+00:00",
     "url": "https://himalayas.app/companies/pharmd-live/jobs/remote-clinical-pharmacist-new-jersey?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_13245210a2e5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Parexel",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:39:40+00:00",
+    "description": "When our values align, there's no limit to what we can achieve. At Parexel , we all share the same goal - to improve the world's health. From clinical trials to regulatory, consulting, and market access, every clinical development solution we provide is underpinned by something special - a deep conviction in what we do. Each of us, no matter what we do at Parexel , contributes to the development of a therapy that ultimately will benefit a patient. We take our work personally, we do it with empathy and we're committed to making a difference. Parexel FSP is looking for a Manager, Central Monitoring to join our team in Argentina! Job Overview The Manager, Central Monitoring is accountable for centralized monitoring activities for global and/or complex trials, analytical data review of key risk and/or operational performance data and presenting as an integral member of the Clinical Study team for clinical development studies. The reviews include interpretation of Key Risk Indicator (KRI) and/or Key Performance Indicator (KPI) data housed in an analytical tool as well as a comprehensive review of supplemental operational data/trends and issues to be interpreted, reported and presented to the study teams. The Manager, Central Monitoring , will be responsible for supporting several studies within a therapeutic area and program-level. They will work closely with other Central Monitors and Centralized Data Risk Analysts (CDRAs) to ensure effective identification, conduct and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/parexel/jobs/manager-central-monitoring-fsp",
+    "id": "opp_13245210a2e5",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-30T03:39:41+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: analytics, gcp)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "gcp",
+      "analytics",
+      "central-monitoring-manager",
+      "clinical-operations-manager",
+      "clinical-monitoring-manager",
+      "clinical-data-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manager, Central Monitoring - FSP",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/parexel/jobs/manager-central-monitoring-fsp?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -26110,6 +26496,142 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_214fc5976ffd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 69.74,
+    "budget_min": 51.92,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Linesight",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:41:57+00:00",
+    "description": "Overview As a Contracts Manager at Linesight , you will work with highly experienced, culturally diverse, and passionate teams nurturing a strong social dynamic and a shared sense of achievement. You will gain vast industry experience that will open doors for you, extend your skillset and expand your perspective. We will empower, support, and enable you to take real responsibility in your role so that you can take charge of your career progression with us. For us lasting trusted relationships are everything, both with our teams and our clients. The Opportunity In this role you will: Administer the tender process across multiple contracts from GCs to professional consultant appointments Track and manage tender process steps including bidder prequalification, tender issue, queries and responses, tender submissions, and post-tender queries and negotiation. Draft contracts and collate contract documentation Oversee post-contract management, including providing contract administration advice to the client, claims tracking, and producing and processing contract change orders Partner closely with the construction project management and cost management teams Work with the commercial team to advise the client on contract award We would love to hear from you if you: Have strong research skills and an in-depth understanding of legal agreements Have working experience with Ariba or similar tender management platforms Have a working knowledge of local and international contract laws and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 389.4,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/linesight/jobs/contracts-manager",
+    "id": "opp_214fc5976ffd",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:41:58+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 56.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $389 on $389 (100% margin). $83 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $104 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 56.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "contracts-manager",
+      "contract-administrator",
+      "tender-manager",
+      "contracts-specialist",
+      "commercial-contracts-manager",
+      "contract-manager",
+      "contracts-management-jobs",
+      "contracts-and-procurement-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Contracts Manager",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/linesight/jobs/contracts-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -37098,6 +37620,158 @@
       ],
       "probability_high": 21.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_2df74e557079": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 43.27,
+    "budget_min": 43.27,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Muir Tapes & Adhesives",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "CAD",
+    "deadline": "2026-12-29T03:38:00+00:00",
+    "description": "About Muir Tapes and Adhesives Muir Tapes and Adhesives (MTA) is a preferred supplier to automotive and industrial manufacturers across Canada. MTA began as 3M\u2019s original Canadian distributor and has grown over the past 65 years into a leading tape converter and specialty adhesive solutions provider. Today, we work with a diverse range of manufacturers, from key Tier 2 automotive suppliers to specialized industrial manufacturers, providing customized tape, adhesive, and converting solutions that help customers make things better. We are a customer-centric organization driven to succeed. Our culture is built around continuous improvement, accountability, collaboration, and ONE TEAM working together to achieve great results. If you're a driven manufacturing sales professional who enjoys winning new business, building customer relationships, and solving real production challenges, this is an opportunity to make a direct impact in a growing territory with strong earning potential. Outside Sales Account Manager \u2013 Automotive Location: Remote Territory: GTA Segment: Automotive Employment Type : Full-Time Starting Salary: $90,000 + commission + quarterly bonuses The Opportunity This is a true hunter/farmer role focused on: Growing revenue and margin within an assigned territory Winning new manufacturing and industrial customers Expanding existing customer relationships Managing opportunities from prospecting through close Building a strong pipeline and accurate sales forecasts \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 324.53,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/muir-tapes-adhesives/jobs/outside-sales-account-manager-automotive",
+    "id": "opp_2df74e557079",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:38:02+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 37.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $325 on $325 (100% margin). $69 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $87 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 37.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"into a leading tape converter\"; \"specialty adhesive solutions provider\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 49.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "sales-account-manager",
+      "account-manager",
+      "sales",
+      "territory-sales-manager",
+      "business-development-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Outside Sales Account Manager - Automotive",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/muir-tapes-adhesives/jobs/outside-sales-account-manager-automotive?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_2e011f001aaf": {
@@ -84497,6 +85171,168 @@
       "probability_low": 4.0
     }
   },
+  "opp_65ff27f9ad1a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105,
+    "budget_min": 80,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "RedBeard Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:41:58+00:00",
+    "description": "Job Title: Resident Solutions Architect (Databricks) Location: Fully Remote (in the US) *Some travel depending on end client needs/projects Number of openings: Many Experience: 10+ years Salary: $80-90/hr W2 or $95-105 C2C Start Date: Open roles, 2-4 week process (faster for strong candidates! Job Description: Core Responsibilities Some of the major responsibilities for an RSA are: Engage with customers on short- to mid-term professional services projects using the Databricks platform (data engineering, data science, cloud). Design and build reference architectures, help with production-level use cases and deployments of big data / AI applications. Collaborate with engagement/project managers, customer teams, and internal engineering/support teams to ensure technical delivery meets customer needs Provide escalated technical support or operational assistance for customer engagements, helping to resolve issues or unblock customers Work hands-on: write code (e.g., Python, Scala), work with distributed compute (Apache Spark), integrate across cloud ecosystems. Possibly scope new engagements, support sales or pre-sales (depending on region/team) by estimating effort, defining deliverables. Provide feedback to product/engineering from customer engagements (help improve platform, features Required Skills & Qualifications an RSA typically needs: Several years (often 8+ years) in data engineering, analytics, platform roles. Strong coding ability in Python or Scala, and comfortable \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 600.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/redbeard-solutions/jobs/resident-solutions-architect-databricks",
+    "id": "opp_65ff27f9ad1a",
+    "is_demo": false,
+    "match_score": 19.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:41:59+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [],
+    "score": 52.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $600 on $600 (100% margin). $128 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.0,
+          "evidence": "Matched 3 profile skills: ci/cd, etl, python. Covers 38% of the 8 skills this listing names (missing: analytics, aws, azure, data science)."
+        }
+      },
+      "final_score": 52.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"salary: $80-90/hr w2 or $95-105 c2c start date: open roles\"; \"2-4 week process (faster for strong candidates! job description: core \"; \"platform roles\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 52.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "etl",
+      "aws",
+      "gcp",
+      "azure",
+      "ci/cd",
+      "data science",
+      "analytics",
+      "resident-solutions-architect",
+      "solutions-architect",
+      "data-architect",
+      "cloud-architect",
+      "data-engineer",
+      "databricks-solutions-architect",
+      "databricks-solution-architect",
+      "senior-databricks-architect",
+      "databricks-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Resident Solutions Architect (Databricks)",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/redbeard-solutions/jobs/resident-solutions-architect-databricks?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_66434a5a86a9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -126311,6 +127147,138 @@
       "probability_low": 4.0
     }
   },
+  "opp_952bac705a54": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 21.63,
+    "budget_min": 19.23,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Arizona Department of Economic Security",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:41:46+00:00",
+    "description": "AHCCCS Arizona Health Care Cost Containment System Accountability, Community, Innovation, Leadership, Passion, Quality, Respect, Courage, Teamwork The Arizona Health Care Cost Containment System (AHCCCS), Arizona\u2019s Medicaid agency, is driven by its mission to deliver comprehensive, cost-effective health care to Arizonans in need. AHCCCS is a nationally acclaimed model among Medicaid programs and a recipient of multiple awards for excellence in workplace effectiveness and flexibility. AHCCCS employees are passionate about their work, committed to high performance, and dedicated to serving the citizens of Arizona. Among government agencies, AHCCCS is recognized for high employee engagement and satisfaction, supportive leadership, and flexible work environments, including remote work opportunities. With career paths for seasoned professionals in a variety of fields, entry-level positions, and internship opportunities, AHCCCS offers meaningful career opportunities in a competitive industry. Come join our dynamic and dedicated team. Executive Assistant Office of the Director (OOD) Job Location: Address: 150 North 18th Avenue Phoenix, Arizona 85007 All AHCCCS Employees must reside within the state of Arizona. Posting Details: Salary: $40,000 - $45,000 Grade: 19 FLSA Status: Non-Exempt This position will remain open until filled. Job Summary: The Executive Assistant will support and report to the Chief Compliance Officer (CCO) and provide administrative support to the Compliance \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 144.22,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/arizona-department-of-economic-security/jobs/executive-assistant",
+    "id": "opp_952bac705a54",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:41:48+00:00",
+    "profit_score": 18.4,
+    "risk_flags": [],
+    "score": 60.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.4,
+          "evidence": "Estimated net $144 on $144 (100% margin). $31 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $38 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: dashboard, excel. Covers 67% of the 3 skills this listing names (missing: rest)."
+        }
+      },
+      "final_score": 60.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "dashboard",
+      "executive-assistant",
+      "administrative-assistant",
+      "executive-support-specialist",
+      "administrative-support-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Executive Assistant",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/arizona-department-of-economic-security/jobs/executive-assistant?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_954ffa73f974": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -155963,6 +156931,140 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_b6c126ea80b9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "CIAL Dun & Bradstreet",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:42:13+00:00",
+    "description": "Why work with us? We are a fast-growing company that is revolutionizing the world of SaaS platform and data in Latin America! CIAL Dun & Bradstreet is the leading provider of business decisioning solutions and commercial data across Latin America and the Caribbean. Our solutions are designed to transform how businesses manage risk and make critical decisions about the companies they rely on. It\u2019s our people, not technology, that makes what we do possible. It\u2019s our people, not data, that turns information into insights. And it\u2019s our people, not algorithms, that help our clients make better informed decisions. We are innovative, agile, and inspired by SaaS solutions and data \u2013 and we are looking for people that share those values to join our mission to build stronger businesses! About Us Dunsguide, by CIAL Dun & Bradstreet, is transforming how Latin American businesses discover and evaluate potential partners. As the region's leading platform for customer prospecting and supplier discovery, we help companies make smarter, data-driven decisions about their business relationships. We're growing rapidly and expanding our suite of solutions that combine deep business intelligence with modern, intuitive tools. Sobre a posi\u00e7\u00e3o Voc\u00ea far\u00e1 parte da Squad New + AI, respons\u00e1vel por desenvolver a nova gera\u00e7\u00e3o de produtos de dados da CIAL, incluindo APIs, servi\u00e7os e iniciativas de IA aplicada. Procuramos algu\u00e9m com s\u00f3lida experi\u00eancia em Python e engenharia de software, que tenha interesse \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cial-dun-bradstreet/jobs/python-developer-ia",
+    "id": "opp_b6c126ea80b9",
+    "is_demo": false,
+    "match_score": 43.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-30T03:42:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 16 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.5,
+          "evidence": "Matched 2 profile skills: python, sql. Covers 18% of the 11 skills this listing names (missing: airflow, api, aws, azure)."
+        }
+      },
+      "final_score": 49.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "airflow",
+      "api",
+      "rest",
+      "fastapi",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes",
+      "python-developer",
+      "backend-engineer",
+      "software-engineer",
+      "data-engineer",
+      "ai-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Python Developer - IA",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/cial-dun-bradstreet/jobs/python-developer-ia?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_b6d5c7d2a19d": {
@@ -211972,6 +213074,146 @@
       "probability_low": 15.0
     }
   },
+  "opp_f62f1efcece4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 84.13,
+    "budget_min": 72.12,
+    "budget_type": "HOURLY",
+    "category": "data_pipeline",
+    "client": "BSC Analytics",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:38:22+00:00",
+    "description": "As a Senior Platform Engineer at BSC Analytics , you'll be part of a high-performing squad of four to five engineers tackling complex platform challenges for large-scale, highly regulated enterprises. Our work spans cloud migrations, modernization programs, Kubernetes platforms, and DevOps transformations across both Azure and AWS \u2014 which means no two engagements look exactly alike. If you thrive on learning, moving fast, and solving real-world problems across a mix of environments \u2014 both modern and legacy \u2014 this role is for you. Every week brings new opportunities to sharpen your technical skills, collaborate with top engineers, and grow your reputation as a trusted expert. You'll work on platforms that power mission-critical systems \u2014 all within a flexible, remote-first culture that values deep expertise, autonomy, and continuous learning. Key Responsibilities Collaborate closely with fellow engineers, product managers, and stakeholders to design, build, and support robust platform solutions Architect, deploy, and manage Kubernetes clusters on AWS and/or Azure Design and implement CI/CD pipelines that deliver high-quality code at speed Build automated infrastructure with Terraform and other IaC tools Lead cloud migration and modernization efforts, including re-platforming legacy workloads (Java, .NET, ETL, databases) to modern cloud-native services Automate scaling, deployment, and management of containerized applications Monitor, troubleshoot, and fine-tune system \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 721.2,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bsc-analytics/jobs/senior-engineer-aws-azure-terraform-kubernetes",
+    "id": "opp_f62f1efcece4",
+    "is_demo": false,
+    "match_score": 68.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-10-30T03:38:23+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 71.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $721 on $721 (100% margin). $165 per effective hour vs $85 target (4.4 effective h = 2.5h human + 7.5h AI discounted). Leverage: $288 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.3,
+          "evidence": "Matched 4 profile skills: ci/cd, etl, excel, github actions. Covers 40% of the 10 skills this listing names (missing: airflow, analytics, aws, azure)."
+        }
+      },
+      "final_score": 71.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "airflow",
+      "etl",
+      "excel",
+      "aws",
+      "azure",
+      "kubernetes",
+      "terraform",
+      "github actions",
+      "ci/cd",
+      "analytics",
+      "senior-platform-engineer",
+      "devops-engineer",
+      "senior-infrastructure-engineer",
+      "cloud-engineer",
+      "site-reliability-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Engineer (AWS, Azure, Terraform, Kubernetes)",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/bsc-analytics/jobs/senior-engineer-aws-azure-terraform-kubernetes?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_f6aaa779dfe9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -216638,6 +217880,131 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_fa1f26188d2f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Valenz",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-10-30T04:48:45+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-29T03:38:44+00:00",
+    "description": "V\u0101lenz Health\u00ae is the destination for employers, brokers, payers, and providers to reduce costs, improve quality, and elevate the healthcare experience. Through advanced technology and clinical expertise, Valenz creates a distinctly different approach to a complex healthcare system. With our solutions, we execute across the entire healthcare journey \u2014 from member experience to payment integrity, provider quality, and plan performance. With one of America\u2019s largest cost, quality and utilization datasets, we create greater transparency, flexibility, and cost containment \u2014 empowering members and employers with the information they need to make smarter, more cost-effective decisions. About This Opportunity: As a Healthcare Contracts and Licensing Paralegal, you\u2019ll manage healthcare licensing, regulatory filings, and contract administration activities to support our Legal team. You\u2019ll maintain required licenses and corporate filings, oversee contract workflows and records, and apply established agreement terms to support contract-related processes. You\u2019ll also collaborate with Legal and cross-functional business teams to ensure accurate documentation, timely regulatory compliance, and efficient contract administration. Things You\u2019ll Do Here: Manages healthcare licensing activities, including utilization management, third-party administrator, and other applicable licenses, permits, registrations, renewals, and amendments across applicable jurisdictions. Independently prepares, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261030T044843Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/valenz/jobs/healthcare-contracts-licensing-paralegal",
+    "id": "opp_fa1f26188d2f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-10-30T03:38:45+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "healthcare-paralegal",
+      "corporate-paralegal",
+      "legal-operations-specialist",
+      "compliance-paralegal",
+      "licensing-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Healthcare Contracts & Licensing Paralegal",
+    "updated_at": "2026-10-30T04:48:45+00:00",
+    "url": "https://himalayas.app/companies/valenz/jobs/healthcare-contracts-licensing-paralegal?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_fa2367f5949a": {
