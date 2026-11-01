@@ -847,6 +847,159 @@
       "probability_low": 4.0
     }
   },
+  "opp_014375166750": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Babyscripts",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:51+00:00",
+    "description": "About Babyscripts Babyscripts is a leading innovator in digital maternal health, transforming pregnancy and postpartum care through remote patient monitoring (RPM) and digital engagement. Our solutions enable OB providers and health systems to monitor patients in real time, improving access, early intervention, and overall outcomes in maternal-fetal health. About the Role We are seeking a Qualified Healthcare Provider (QHCP) \u2014 Nurse Practitioner, Physician Assistant, or Certified Nurse Midwife \u2014 to join our remote clinical operations team on a fractional or part-time basis. This role requires active licensure in the state of Texas, as the provider will support patients and clinical partners located in Texas. In this role, you will leverage your clinical expertise to review vitals data, assess patient communications, and document clinical summaries that support key customer and quality requirements. The QHCP will also participate in targeted patient outreach for elevated readings, symptoms, or follow-up coordination as part of our virtual maternal health model. This is an excellent opportunity for an experienced clinician seeking flexible, remote work while contributing meaningfully to a growing digital health company advancing maternal outcomes nationwide. Time Commitment: Approximately 10\u201320 hours per week, with flexibility based on business needs and case volume. Key Responsibilities Monitor patient data trends (e.g., blood pressure, weight, symptoms) and identify \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/babyscripts/jobs/nurse-practitioner-physician-assistant-certified-nurse-midwife",
+    "id": "opp_014375166750",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:42+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 50.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "nurse-practitioner",
+      "physician-assistant",
+      "certified-nurse-midwife",
+      "clinical-care-coordinator",
+      "telehealth-nurse-practitioner",
+      "physician-np-pa",
+      "women's-health-nurse-practitioner",
+      "primary-care-nurse-practitioner",
+      "family-nurse-practitioner-(fnp)",
+      "advanced-practice-clinician-nurse-practitioner-primary-care",
+      "family-nurse-practitioner",
+      "nurse-practitioner-aprn",
+      "primary-care-np-pa"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Nurse Practitioner / Physician Assistant / Certified Nurse Midwife",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/babyscripts/jobs/nurse-practitioner-physician-assistant-certified-nurse-midwife?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_0154d2e2ccc9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -8609,6 +8762,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_0977a144de7d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.38,
+    "budget_min": 40.58,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "DXC Technology",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:10+00:00",
+    "description": "Job Description: DXC Technology (NYSE: DXC) helps global companies run their mission\u2011critical systems and operations while modernizing IT, optimizing data architectures, and ensuring security and scalability across public, private, and hybrid clouds. The world\u2019s largest companies and public sector organizations trust DXC to deploy services across the Enterprise Technology Stack to drive new levels of performance, competitiveness, and customer experience. Key Responsibilities Warehouse Management Solution Design Lead requirement gathering workshops and fit-gap analysis with business stakeholders. Design and implement warehouse management solutions aligned with business requirements. Analyze current warehouse operations and recommend process improvements. Define warehouse structures and storage strategies. SAP WM Configuration & Support Configure and support: Warehouse Number Storage Types Storage Sections Storage Bins Quant Management Transfer Requirements (TR) Transfer Orders (TO) Putaway Strategies Picking Strategies Replenishment Processes Physical Inventory Processes Stock Transfers and Goods Movements Support warehouse monitoring and inventory accuracy initiatives. Inbound Logistics Management Configure and manage inbound delivery processes. Support goods receipt and putaway operations. Ensure seamless integration with SAP MM procurement processes. Optimize inventory receipt and storage activities. Outbound Logistics Management Configure outbound delivery and picking \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 304.35,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dxc-technology/jobs/sap-wm-consultant",
+    "id": "opp_0977a144de7d",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:39+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 66.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $304 on $304 (100% margin). $65 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $81 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, excel."
+        }
+      },
+      "final_score": 66.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "sap-wm-consultant",
+      "sap-ewm-consultant",
+      "sap-supply-chain-consultant",
+      "sap-functional-consultant",
+      "sap-wm-ewm-consultant",
+      "sap-wm-consulting",
+      "sap-mm-wm-consultant",
+      "sap-wm-ewm-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "SAP WM Consultant",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/dxc-technology/jobs/sap-wm-consultant?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_09d7dd3ae8e5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -11699,6 +11994,143 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_0cdf7c1ac2b2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AxisCare Home Care Software",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:44:10+00:00",
+    "description": "Job Description - Content Marketing Strategist Reports To: Marketing Manager Department: Marketing Location: Remote Position Type: Full-Time Position Summary AxisCare is seeking a strategic and creative Content Marketing Strategist to develop and execute content strategies that support integrated campaigns, organic growth, thought leadership, and broader marketing goals. This role will play a key part in developing integrated campaigns, with a strong understanding of how to create authoritative, discoverable content for traditional search and AI-powered answer engines. The ideal candidate is a strong writer and strategist who can turn business priorities and audience needs into content that drives results. Key Responsibilities Develop and execute content strategies and editorial plans based on audience needs, search behavior, industry trends, and marketing priorities to support integrated campaigns, organic growth, customer journeys, brand initiatives, and business goals Partner with the Marketing Manager and cross-functional teams to develop campaign themes, messaging, content plans, and supporting assets Collaborate with creative, SEO, Product Marketing, and other teams to bring content strategies and campaigns to life, applying SEO and GEO best practices to improve content discoverability and visibility Continuously evaluate content performance, search intent, content gaps, and business priorities to identify new content opportunities and optimize existing content for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/axiscare-home-care-software/jobs/content-marketing-strategist",
+    "id": "opp_0cdf7c1ac2b2",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "content-marketing-strategist",
+      "content-strategist",
+      "content-marketing-manager",
+      "seo-content-strategist",
+      "marketing-content-strategist",
+      "content-strategy-specialist",
+      "digital-content-strategist",
+      "brand-content-strategist",
+      "creative-content-strategist",
+      "content-marketing-consultant",
+      "content-marketing-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Content Marketing Strategist",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/axiscare-home-care-software/jobs/content-marketing-strategist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_0ce208aba94d": {
@@ -44094,6 +44526,147 @@
       ],
       "probability_high": 59.0,
       "probability_low": 43.0
+    }
+  },
+  "opp_324ad8066852": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 48.56,
+    "budget_min": 35.58,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Staples",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:41:41+00:00",
+    "description": "Must live in one of the following areas: Southern Texas including Houston and San Antonio - Remote Join Staples Furniture, a full-service company with a network of local distribution centers across the United States, committed to delivering personalized and environmentally responsible solutions. As part of the Staples family, we emphasize collaboration, innovation, and growth opportunities for professionals who thrive in a dynamic environment. What you\u2019ll be doing: Manage strategic accounts with regional, super-regional, and national footprints, ensuring exceptional service and growth. Lead weekly Customer Ownership Team calls to collaborate with support team members and address client needs. Visit customer locations to close furniture deals and introduce new products and service solutions. Identify and resolve account support weaknesses by developing value-added solutions with internal teams. Coordinate responses to high-priority account manager requests, including required site visits. Facilitate administrative work through Customer Success Consultants to maximize selling time. Communicate effectively with C-level executives, vendor partners, and internal customers. Develop and execute growth strategies for complex and high-touch accounts. What you bring to the table: Professionalism at every level and a positive, vibrant attitude. Self-discipline and a strong desire to succeed, with attention to detail. Creative and solutions-oriented mindset, consistently seeking ways to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 266.85,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/staples/jobs/key-account-executive-contract-furniture-draw",
+    "id": "opp_324ad8066852",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:38+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [],
+    "score": 62.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $267 on $267 (100% margin). $57 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $71 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "key-account-executive",
+      "account-executive",
+      "national-account-executive",
+      "furniture-sales",
+      "contract-furniture-sales",
+      "contract-furniture",
+      "furniture-industry-account-executive",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Key Account Executive - Contract Furniture - Draw",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/staples/jobs/key-account-executive-contract-furniture-draw?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_32bcaa660b8b": {
@@ -89348,6 +89921,154 @@
       "probability_low": 15.0
     }
   },
+  "opp_6807f63aeff5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": 50.0,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Freelancer.com client (18 bids so far)",
+    "competition_score": 30.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Saya ingin membangun sebuah sistem kustom yang memungkinkan pelanggan melakukan pemesanan atau mengajukan permintaan layanan secara online. Fokus utama proyek ini adalah: \u2022 Antarmuka pelanggan yang intuitif sehingga mereka dapat memilih layanan, mengisi detail, dan mengirimkan permintaan dalam beberapa langkah sederhana. \u2022 Dasbor admin untuk memantau, menyetujui, atau menjadwalkan permintaan, lengkap dengan pencarian dan filter cepat. \u2022 Notifikasi otomatis (email / WhatsApp) saat permintaan baru dibuat atau statusnya berubah. Kinerja, keamanan, dan kemudahan pemeliharaan menjadi prioritas. Saya terbuka dengan pilihan teknologi\u2014Laravel, Node.js, atau stack serupa\u2014selama solusi akhir responsif dan dapat diskalakan. Integrasi modul tambahan seperti akun login pelanggan atau pembayaran daring mungkin kami kembangkan di fase berikutnya, jadi struktur kode perlu modular. Sertakan dalam penawaran: \u2022 Rencana singkat arsitektur dan tools utama yang akan digunakan. \u2022 Perkiraan waktu penyelesaian tahap pengembangan inti (fitur pemesanan + dasbor admin). \u2022 Contoh proyek sejenis yang pernah Anda kerjakan. Saya menantikan solusi end-to-end yang siap dipasang di server kami, lengkap dengan dokumentasi singkat penggunaan dan panduan deploy.",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 337.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 37.5,
+    "external_id": "40797427",
+    "id": "opp_6807f63aeff5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T15:15:11+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 34.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $338 on $375 (90% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 5.4,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "node",
+      "php",
+      "website design",
+      "graphic design",
+      "html",
+      "node.js",
+      "laravel",
+      "web development",
+      "api"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Bangun Sistem Pemesanan Pelanggan",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://www.freelancer.com/projects/web-development/Bangun-Sistem-Pemesanan-Pelanggan",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-16%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-8%",
+          "factor": "18 existing bids",
+          "from": "20%",
+          "to": "12%",
+          "why": "Late to a contested project."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "12%",
+          "to": "2%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "2%",
+          "to": "8%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "8%",
+          "to": "8%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "8%",
+          "to": "2%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 16.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_6815c0e3e096": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -99201,6 +99922,157 @@
       "probability_low": 26.0
     }
   },
+  "opp_6ff69315ab4e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "GIGAKOM",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:41:54+00:00",
+    "description": "Senior Systems Solutions Architect \u2013 Cloud, Virtualization & AI (Remote \u2013 California) Full-Time, Part-Time, or Contract | Competitive Compensation + Professional Development About GigaKOM For more than 20 years, GigaKOM has delivered enterprise-level IT solutions to California K\u201312 school districts, higher education institutions, state and local government agencies, and commercial organizations. Through partnerships with leading manufacturers and technology providers, we design and deliver secure, scalable infrastructure solutions that support mission-critical environments. As organizations continue modernizing their infrastructure, cloud platforms, identity, and data capabilities, GigaKOM is expanding its architecture and consulting capabilities. We are seeking a Senior Systems Solutions Architect to design, support, and optimize enterprise environments across Microsoft cloud services, virtualization systems, enterprise infrastructure, and emerging AI-driven technologies. This role combines solution architecture, systems engineering, client consulting, and ongoing infrastructure support to help organizations modernize, secure, and optimize their IT environments. Location Remote \u2013 California This is a fully remote position supporting client environments across California. Position Overview The Senior Systems Solutions Architect is responsible for designing, implementing, and supporting modern enterprise infrastructure solutions that integrate cloud services, virtualization \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gigakom/jobs/senior-systems-solutions-architect-cloud-virtualization-ai-remote-califo",
+    "id": "opp_6ff69315ab4e",
+    "is_demo": false,
+    "match_score": 28.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:38+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 39.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 10.6,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 40% of the 5 skills this listing names (missing: analytics, aws, azure)."
+        }
+      },
+      "final_score": 39.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"gigakom has delivered enterprise-level it solutions to california k\u201312\"; \"higher education institutions\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 39.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "azure",
+      "automation",
+      "analytics",
+      "systems-solutions-architect",
+      "cloud-solutions-architect",
+      "enterprise-architect",
+      "cloud-infrastructure-solutions-architect",
+      "virtualization-infrastructure-architect",
+      "senior-systems-solutions-architect",
+      "senior-technical-solutions-architect",
+      "senior-systems-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Systems Solutions Architect \u2013 Cloud, Virtualization & AI (Remote \u2013 Califo",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/gigakom/jobs/senior-systems-solutions-architect-cloud-virtualization-ai-remote-califo?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_7022b81e5784": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -101261,6 +102133,146 @@
     "title": "Virtual B2B Business Development and Sales Specialist",
     "updated_at": "2026-09-16T20:59:19+00:00",
     "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/virtual-b2b-business-development-and-sales-specialist-4434652150",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_72899e7d0f05": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.38,
+    "budget_min": 40.58,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "DXC Technology",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:47+00:00",
+    "description": "Job Description: DXC Technology (NYSE: DXC) helps global companies run their mission\u2011critical systems and operations while modernizing IT, optimizing data architectures, and ensuring security and scalability across public, private, and hybrid clouds. The world\u2019s largest companies and public sector organizations trust DXC to deploy services across the Enterprise Technology Stack to drive new levels of performance, competitiveness, and customer experience. The SAP PP Senior Consultant will be responsible for leading manufacturing transformation initiatives, designing scalable SAP production planning solutions, driving SAP S/4HANA adoption, and partnering with business stakeholders to optimize planning and manufacturing processes across global enterprise environments. The candidate should possess a strong blend of functional expertise, consulting skills, and leadership capabilities to successfully deliver complex SAP programs. Key Responsibilities Business Process Consulting Analyze and understand complex manufacturing business requirements. Conduct workshops, fit-gap analysis, and business process assessments. Design and implement best-practice SAP PP solutions aligned with business objectives. Advise stakeholders on process optimization and digital manufacturing strategies. Provide industry-leading recommendations for planning and production processes. SAP PP Configuration and Implementation Configure and support SAP PP modules including: Demand Management Sales & Operations \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 304.35,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dxc-technology/jobs/sap-pp-senior-consultant",
+    "id": "opp_72899e7d0f05",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:42+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 64.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $304 on $304 (100% margin). $65 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $81 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 64.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 64.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "sap-pp-consultant",
+      "sap-consultant",
+      "sap-s-4hana-consultant",
+      "manufacturing-consultant",
+      "production-planning-consultant",
+      "senior-sap-pp-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAP PP Senior Consultant",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/dxc-technology/jobs/sap-pp-senior-consultant?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -106305,6 +107317,158 @@
       ],
       "probability_high": 27.0,
       "probability_low": 3.0
+    }
+  },
+  "opp_76852342e7f2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "GIGAKOM",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:18+00:00",
+    "description": "Marketing Lead \u2013 IT Solutions (Remote \u2013 California) Full-Time, Part-Time, or Contract | Competitive Compensation + Performance Incentives About GigaKOM For more than 15 years, GigaKOM has delivered enterprise-level IT solutions to California K\u201312 school districts, higher education institutions, state and local agencies, and commercial organizations. Through strong partnerships with leading manufacturers and distributors, we provide secure, scalable, and cost-effective technology solutions. As GigaKOM continues to expand its market presence and enter new verticals, we are seeking a Marketing Lead to drive brand growth, demand generation, and partner engagement across California and beyond. This role is ideal for a strategic and hands-on marketing professional who thrives in a fast-paced, growth-oriented environment and is passionate about building impactful marketing programs within the technology sector. Location Remote \u2013 California This is a fully remote position supporting marketing initiatives across California and national/international campaigns. Position Overview The Marketing Lead is responsible for developing and executing GigaKOM\u2019s overall marketing strategy, driving brand awareness, lead generation, partner marketing, and digital engagement. This is a high-impact, cross-functional leadership role that works closely with Sales, Leadership, and Technology Partners to position GigaKOM in the market, generate pipeline, and support revenue growth. The ideal candidate \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gigakom/jobs/marketing-lead-it-solutions",
+    "id": "opp_76852342e7f2",
+    "is_demo": false,
+    "match_score": 18.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 6.8,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: analytics, html)."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"gigakom has delivered enterprise-level it solutions to california k\u201312\"; \"higher education institutions\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "html",
+      "analytics",
+      "marketing-lead",
+      "marketing-manager",
+      "demand-generation-manager",
+      "partner-marketing-manager",
+      "b2b-marketing-manager",
+      "it-services-marketing-manager",
+      "lead-marketing-manager",
+      "marketing-team-lead",
+      "solutions-marketing-manager",
+      "solution-marketing-manager",
+      "marketing"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Marketing Lead \u2013 IT Solutions",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/gigakom/jobs/marketing-lead-it-solutions?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_768fb7f7320a": {
@@ -160598,6 +161762,143 @@
       "probability_low": 21.0
     }
   },
+  "opp_b3ab955c17c6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Nyman Associates, Inc.",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:26+00:00",
+    "description": "Job Title: Virtual School Psychologist Pay Range: $48-$57 per hour Job Description: 2026-2027 School Year | $48-$57/hr. | Part-Time | Remote-Indiana | School-Based | Indiana Department of Education School Psychologist License Required About the Role: Provide school psychology services to students in K-12 school settings. You'll conduct assessments, develop treatment plans, and deliver direct therapy to help students improve communication skills and access their education. This role collaborates closely with teachers, families, and multidisciplinary teams to maximize student outcomes Why Join Us: CEU/license reimbursement and tuition assistance Spread Pay options What You'll Do: Conduct comprehensive evaluations of cognitive, emotional, adaptive, and behavioral functioning using a range of standardized tests. Develop and consult on individualized education plans (IEPs) and 504 plans based on assessment data. Create evidence-based interventions and strategies. Provide crisis support during emergencies and offer training to school staff on mental health, behavior management, and instructional strategies. Maintain accurate, confidential records of assessments, interventions, and progress. Prepare detailed reports for IEP meetings, evaluations, and other necessary documentation. Actively participate in team meetings to review and plan student interventions. What we're looking for: Must Have: Department of Education School Psychologist Certification in the state where services are \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nyman-associates-inc/jobs/virtual-school-psychologist",
+    "id": "opp_b3ab955c17c6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "school-psychologist",
+      "virtual-school-psychologist",
+      "consultant-psychologist",
+      "remote-school-psychologist",
+      "school-psychology"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Virtual School Psychologist",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/nyman-associates-inc/jobs/virtual-school-psychologist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_b3b07a7a134a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -170302,6 +171603,148 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_bed41b0116ea": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.38,
+    "budget_min": 40.58,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "DXC Technology",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:26+00:00",
+    "description": "Job Description: DXC Technology (NYSE: DXC) helps global companies run their mission-critical systems and operations while modernizing IT, optimizing data architectures, and ensuring security and scalability across public, private, and hybrid clouds. The world\u2019s largest companies and public sector organizations trust DXC to deploy services across the Enterprise Technology Stack to drive new performance levels, competitiveness, and customer experience. Learn more about how we deliver excellence for our customers and colleagues at DXC.com. Key Responsibilities Analyze business requirements and provide end-to-end SAP SD solutions. Configure and support SAP SD processes including Sales, Shipping, Billing, Pricing, and Customer Master Data. Work closely with business users and integration teams to support EDI-related requirements. Design, configure, and troubleshoot IDoc interfaces for customer and third-party integrations. Support SAP S/4HANA implementation and enhancement projects. Perform unit testing, integration testing, UAT, and production support activities. Resolve IDoc and EDI issues and ensure smooth transaction processing. Collaborate with MM, FI, WM/EWM, and technical teams for cross-functional requirements. Required Skills 9-10 years of SAP SD experience. Strong expertise in Order-to-Cash (O2C) processes. Hands-on experience in: Sales Order Processing Delivery Processing Billing and Invoicing Pricing and Output Determination Customer Master Data Credit Management \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 405.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dxc-technology/jobs/sap-sd-consultant-with-edi",
+    "id": "opp_bed41b0116ea",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:39+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 69.6,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $406 on $406 (100% margin). $85 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $135 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 69.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "sap-sd-consultant",
+      "sap-functional-consultant",
+      "sap-consultant",
+      "edi-integration-specialist",
+      "erp-consultant",
+      "senior-sap-sd-consultant",
+      "sap-sd-functional-consultant",
+      "sap-edi-consultant"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "SAP SD Consultant with EDI",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/dxc-technology/jobs/sap-sd-consultant-with-edi?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_bee44fd6143f": {
@@ -209584,6 +211027,152 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_e9dc213bbdd7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Connect Centric",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T21:47:25+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T11:42:11+00:00",
+    "description": "At Connect Centric , we are more than just consultants\u2014we are partners committed to our clients' success. We take a hands-on approach, working closely with our clients to transform strategies into measurable, real-world outcomes. As a strategy execution team, we take full ownership of every initiative from start to finish, ensuring that our clients see tangible results, not just ideas. Position Description Connect Centric is seeking a Membership Data SME to lead a strategic data initiative for a national trade association. Over the next six months, you'll partner with the client's marketing and operations leadership to build foundational member data systems, establish sources of truth across disparate platforms, and create a roadmap for long-term data governance. You'll work across multiple enterprise systems (ERP, CRM, AMS, and supporting applications) to audit current state, identify inconsistencies, and define clear data requirements. Your expertise will directly shape how the organization understands and manages its member relationships. This is hands-on, practical work\u2014not a theoretical exercise. You'll lead the effort and actively partner with internal teams to turn strategy into actionable deliverables. What You Will Do Data Strategy and Requirements Definition Lead the design and development of a comprehensive data dictionary covering five core domains: Person/Contact, Organization/Account, Membership & Affiliation, Relationship & Engagement, and Reference & Master \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T214723Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/connect-centric/jobs/membership-data-sme",
+    "id": "opp_e9dc213bbdd7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T20:04:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "membership-data-consultant",
+      "data-governance-consultant",
+      "data-strategy-consultant",
+      "data-integration-consultant",
+      "data-management-consultant",
+      "data-sme",
+      "membership-administration"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Membership Data SME",
+    "updated_at": "2026-11-01T21:47:25+00:00",
+    "url": "https://himalayas.app/companies/connect-centric/jobs/membership-data-sme?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_e9f04e6a3184": {
