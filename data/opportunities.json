@@ -96440,6 +96440,135 @@
       "probability_low": 4.0
     }
   },
+  "opp_6e4aba50980e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.96,
+    "budget_min": 0.72,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Nearshore Business Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T04:53:53+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-31T04:15:07+00:00",
+    "description": "Job Title: Sales Development Representative (SDR)\ufeff Location: Remote - Latin America Preferred Type of Contract: Full Time \ufeff| Remote Salary Range: USD $1,500 - $2,000 Base Salary + Commission Language Requirements: Advanced/Fluent English Our client is seeking a skilled Sales Development Representative (SDR) with strong outbound sales experience to join their growing team. You will play a key role in generating new business opportunities by engaging prospective vendors, qualifying leads, and booking product demonstrations. Your work will directly impact pipeline growth and revenue by creating high-quality sales opportunities for the broader team. Key Responsabilities: Conduct high-volume outbound cold calls to prospective vendors using targeted prospect lists. Identify, qualify, and engage potential business partners through consultative conversations. Schedule product demonstrations with qualified prospects and conduct demos with support from the wider sales team. Maintain accurate records of prospect interactions and sales activities in the CRM. Follow up consistently with prospects to move opportunities through the sales pipeline. Collaborate with the sales and customer success teams to ensure a smooth handoff of qualified opportunities. Meet or exceed weekly and monthly activity, meeting, and pipeline generation targets. Must-Have Qualifications Proven experience in a Sales Development Representative (SDR), Business Development Representative (BDR), or similar outbound \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T045351Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 5.4,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nearshore-business-solutions/jobs/sales-development-representative-sdr",
+    "id": "opp_6e4aba50980e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T04:15:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $5 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sales-development-representative",
+      "business-development-representative",
+      "outbound-sales-representative",
+      "lead-generation-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Development Representative (SDR)",
+    "updated_at": "2026-11-01T04:53:53+00:00",
+    "url": "https://himalayas.app/companies/nearshore-business-solutions/jobs/sales-development-representative-sdr?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6e52a402eca7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -141051,6 +141180,151 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_9f0abc70eca6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 31.25,
+    "budget_min": 26.44,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Agile Defense",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-01T04:53:53+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-31T04:11:49+00:00",
+    "description": "About Agile Defense At Agile Defense we know that action defines the outcome and new challenges require new solutions. That\u2019s why we always look to the future and embrace change with an unmovable spirit and the courage to build for what comes next. Our vision is to bring adaptive innovation to support our nation's most important missions through the seamless integration of advanced technologies, elite minds, and unparalleled agility\u2014leveraging a foundation of speed, flexibility, and ingenuity to strengthen and protect our nation\u2019s vital interests. Requisition #: 1986 Job Title: Contracts Specialist Location: Remote Salary Range: $55,000 - $65,000 Job Description Responsible for the preparation and administration of government and commercial contracts. Ensures compliance with FAR/DFARS and company policies, advises program teams on contractual obligations, and supports risk assessment and resolution of contractual issues. Education and Background Bachelor's degree, with focus in Business Administration, Contracts Management, Finance, or related field preferred and a minimum 1 year in contracts, legal, or related profession. Years of Experience 1 year Required Skills Experience working with Federal Government contracts. Experience in reviewing and editing contract agreements including NDA and TA artifacts. Demonstrated ability to multi-task, effectively prioritize, and meet deadlines. Strong work ethic and collaborative team player. Excellent verbal and written communication \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T045351Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 264.4,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/agile-defense/jobs/contracts-specialist",
+    "id": "opp_9f0abc70eca6",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T04:11:50+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [],
+    "score": 48.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $264 on $264 (100% margin). $56 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $88 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 48.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"in contracts\"; \"or related profession\"; \"required skills experience working with federal government contracts\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 48.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "contracts-specialist",
+      "contract-administrator",
+      "government-contracts-specialist",
+      "contract-analyst",
+      "procurement-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Contracts Specialist",
+    "updated_at": "2026-11-01T04:53:53+00:00",
+    "url": "https://himalayas.app/companies/agile-defense/jobs/contracts-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_9f1fcc8da8ab": {
