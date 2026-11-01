@@ -29490,6 +29490,152 @@
       "probability_low": 15.0
     }
   },
+  "opp_24233623a57f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Stateside",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T23:47:34+00:00",
+    "description": "Category: Technology Location: LATAM-based | Remote in Costa Rica - Colombia - Mexico | High Impact \u200b Stateside is a nearshore staff augmentation partner helping high-growth U.S. tech companies scale with elite LATAM talent. We\u2019re looking for an Account Manager to own and grow relationships with our portfolio clients. You\u2019ll be their strategic ally\u2014ensuring value, unlocking growth, and driving long-term success. About us We don\u2019t do average. We move fast, think big, and play for the team. We own outcomes and celebrate wins. We challenge the status quo and take smart risks. We do what we love and grow through what we do. We\u2019re building a workplace where talent thrives, leadership is earned, and clients stay for the long haul. Requirements About You You\u2019re a Relationship-Builder. You build trust quickly, ask smart questions, and create real value. You\u2019re Revenue-Driven. You understand how to expand accounts and grow revenue with strategy and precision. You Thrive in Ambiguity. Entrepreneurial conditions are your playground\u2014you bring structure, clarity, and calm. You Deliver Results. You\u2019re committed to hitting your goals and KPIs and know how to execute consistently. You Communicate Like a Pro. You know how to make it land, whether it\u2019s harsh feedback or executive reporting. You\u2019re All In. You lead with curiosity, bring solutions, not problems, and show up with full accountability. What You\u2019ll Do Be the Voice of the Client: Own key client relationships\u2014understand their \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/stateside/jobs/senior-account-manager",
+    "id": "opp_24233623a57f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T12:25:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "account-manager",
+      "senior-account-manager",
+      "customer-success-manager",
+      "sales-manager",
+      "b2b-account-manager",
+      "senior-account-management",
+      "key-account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Account Manager",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/stateside/jobs/senior-account-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
   "opp_2439da9b832a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -43549,6 +43695,143 @@
       "probability_low": 21.0
     }
   },
+  "opp_315a51db05c5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "XKTalent Inc. - Rimutee",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T19:29:05+00:00",
+    "description": "En Rekluti estamos en b\u00fasqueda de un/a Desarrollador/a Salesforce Senior para integrarse a un proyecto internacional, colaborando en el desarrollo, personalizaci\u00f3n e integraci\u00f3n de soluciones sobre la plataforma Salesforce. Si cuentas con experiencia desarrollando aplicaciones escalables en Salesforce y te apasiona trabajar en proyectos desafiantes con equipos multidisciplinarios, \u00a1queremos conocerte! \ud83c\udf0e Modalidad: 100% Remoto (LATAM) \ud83d\udcb5 Pago en USD \ud83d\udcc4 Modalidad de contrataci\u00f3n: Contractor \ud83c\udfaf Principales responsabilidades Dise\u00f1ar, desarrollar y mantener soluciones sobre la plataforma Salesforce. Configurar y personalizar Salesforce de acuerdo con los requerimientos del negocio. Desarrollar componentes utilizando Apex, Lightning Web Components (LWC) y Visualforce cuando sea necesario. Dise\u00f1ar e implementar integraciones con sistemas externos mediante APIs REST y SOAP. Participar en el an\u00e1lisis de requerimientos y proponer soluciones t\u00e9cnicas alineadas con las mejores pr\u00e1cticas de Salesforce. Realizar pruebas, mantenimiento y optimizaci\u00f3n de las soluciones implementadas. Colaborar con equipos funcionales y t\u00e9cnicos bajo metodolog\u00edas \u00e1giles. \u2705 Requisitos M\u00e1s de 5 a\u00f1os de experiencia como Desarrollador/a Salesforce. Experiencia s\u00f3lida desarrollando con Apex y Lightning Web Components (LWC) . Conocimientos en configuraci\u00f3n y personalizaci\u00f3n de Salesforce. Experiencia desarrollando e integrando APIs REST y SOAP . Conocimientos en Salesforce Lightning Experience . Experiencia con \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rekluti/jobs/desarrollador-salesforce-senior",
+    "id": "opp_315a51db05c5",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:19+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: ci/cd. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 50.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "ci/cd",
+      "salesforce-developer",
+      "crm-developer",
+      "apex-developer",
+      "salesforce-engineer",
+      "senior-salesforce-platform-developer",
+      "remote-senior-salesforce-developer",
+      "salesforce-senior-consultant",
+      "senior-salesforce-crm-engineer",
+      "senior-salesforce-technical-lead"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DESARROLLADOR SALESFORCE SENIOR",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/rekluti/jobs/desarrollador-salesforce-senior?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_31f589609265": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -48344,6 +48627,140 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_3990ef3d6bdc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Resolve Tech Solutions, LLC",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T02:41:50+00:00",
+    "description": "Position Summary RTS is seeking an organized, proactive, and results-driven Project Manager to lead projects from planning through successful completion. The Project Manager will be responsible for coordinating project activities, managing timelines and deliverables, engaging stakeholders, identifying and resolving risks, and ensuring projects are delivered on time and in alignment with business objectives. This role requires strong communication, organization, problem-solving, and stakeholder management skills, as well as the ability to manage multiple priorities in a fast-paced environment. Key Responsibilities Lead projects from initiation through planning, execution, monitoring, and completion. Develop and maintain detailed project plans, timelines, milestones, and deliverables. Define project scope, objectives, requirements, roles, and responsibilities. Coordinate cross-functional teams and ensure project activities remain aligned with established goals and timelines. Facilitate project meetings, document decisions, and track action items through completion. Monitor project progress and proactively identify risks, issues, dependencies, and potential delays. Develop mitigation plans and escalate critical issues when appropriate. Provide regular project status updates to stakeholders and leadership. Manage stakeholder expectations and maintain clear communication throughout the project lifecycle. Track project performance against established milestones, KPIs, and success \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/resolve-tech-solutions-llc/jobs/project-manager",
+    "id": "opp_3990ef3d6bdc",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "project-manager",
+      "program-manager",
+      "project-coordinator",
+      "operations-manager",
+      "project-management",
+      "project-management-project-managers",
+      "project-program-manager",
+      "projektmanager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/resolve-tech-solutions-llc/jobs/project-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -57747,6 +58164,137 @@
     "title": "Freelance Transcribers - Multiple Languages (EU, AU & LATAM)",
     "updated_at": "2026-10-18T03:31:21+00:00",
     "url": "https://himalayas.app/companies/omilia/jobs/freelance-transcribers-multiple-languages-eu-au-latam",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_467b7c58bb86": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "XKTalent Inc. - Rimutee",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T19:29:08+00:00",
+    "description": "\ud83d\ude80 Especialista de Automatizaci\u00f3n | BPM \u2022 RPA \u2022 IA (Remoto LATAM) \ud83d\udccd Modalidad: 100% Remoto | Latinoam\u00e9rica \ud83d\udcb0 Salario: Competitivo en USD En ReKluti , nos encontramos en la b\u00fasqueda de un(a) Especialista de Automatizaci\u00f3n BPM/RPA/IA para incorporarse a una importante empresa multinacional de tecnolog\u00eda que lidera proyectos de transformaci\u00f3n digital e innovaci\u00f3n en Latinoam\u00e9rica. Buscamos un profesional con una s\u00f3lida capacidad para identificar oportunidades de automatizaci\u00f3n, evaluar su viabilidad t\u00e9cnica y de negocio, y construir un roadmap de iniciativas que generen impacto en la organizaci\u00f3n. \ud83c\udf93 Formaci\u00f3n Acad\u00e9mica Ingenier\u00eda en Sistemas, Software, Computaci\u00f3n, Tecnolog\u00edas de la Informaci\u00f3n o carreras afines. Deseables certificaciones en BPM, RPA, Inteligencia Artificial, Automatizaci\u00f3n o Gesti\u00f3n de Procesos. \ud83d\udcbc Experiencia M\u00ednimo 4 a\u00f1os de experiencia en automatizaci\u00f3n de procesos. Experiencia evaluando oportunidades de automatizaci\u00f3n mediante BPM/BPMS, RPA e Inteligencia Artificial . Experiencia analizando procesos de negocio y definiendo criterios de priorizaci\u00f3n. Capacidad para construir backlog de automatizaci\u00f3n y roadmap de iniciativas. Deseable experiencia previa en empresas multinacionales de tecnolog\u00eda, consultoras o compa\u00f1\u00edas de transformaci\u00f3n digital. \ud83d\ude80 Conocimientos T\u00e9cnicos BPM / BPMS. RPA (UiPath, Automation Anywhere, Power Automate o similares). Inteligencia Artificial aplicada a procesos. Integraci\u00f3n de datos y APIs. Modelamiento de procesos (BPMN). An\u00e1lisis \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rekluti/jobs/especialista-de-automatizacion-bpm-rpa-ia",
+    "id": "opp_467b7c58bb86",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 56.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 56.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "automation-specialist",
+      "bpm-specialist",
+      "rpa-developer",
+      "process-automation-engineer",
+      "digital-transformation",
+      "business-process-automation-specialist",
+      "process-automation-specialist",
+      "robotic-process-automation-specialist",
+      "business-process-automation-consultant",
+      "automatizaci\u00f3n-e-inteligencia-artificial",
+      "intelligent-automation-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Especialista de Automatizaci\u00f3n | BPM \u2022 RPA \u2022 IA",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/rekluti/jobs/especialista-de-automatizacion-bpm-rpa-ia?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -121617,6 +122165,149 @@
       "probability_low": 15.0
     }
   },
+  "opp_89720ba2cb7b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 55.29,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Jacuzzi Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T06:52:47+00:00",
+    "description": "About Jacuzzi Group Jacuzzi Group is a leading global manufacturer of hot tubs, swim spas, saunas, and pool equipment. More than four thousand global employees work across our portfolio of brands, including Jacuzzi, Sundance Spas, Hydropool Swim Spas and Hot Tubs, DreamMaker, and more. With a presence in the United States, Canada, Mexico, Italy, the United Kingdom, France, Brazil, Chile, and Australia, we have more than 65 years of experience delivering innovative wellness products to our consumers across our many brands. Position Overview Jacuzzi Group is seeking a Business Development Manager to drive new dealer and sales development in focus markets for the North America Spa Division (Sundance Spas) across the United States and Canada. Reporting to the Director of Business Development and partnering closely with regional sales teams, this role identifies distribution opportunities, increases dealer coverage, and drives incremental sales in new or underserved markets, directly supporting the division's growth objectives. This role can be performed remotely and requires travel up to 50% of the time seasonally. Who You Are You are a driven business developer who knows how to find, negotiate, and close new partnerships, and you understand what makes a retail dealer successful. You bring organizational discipline to your work, keeping your pipeline visible, forecasting accurately, and following through from first conversation to a successful dealer launch. You thrive in a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 414.68,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jacuzzi-group/jobs/business-development-manager",
+    "id": "opp_89720ba2cb7b",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-01T12:25:22+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 69.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $415 on $415 (100% margin). $88 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $111 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: forecasting, reporting."
+        }
+      },
+      "final_score": 69.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "forecasting",
+      "business-development-manager",
+      "sales-manager",
+      "dealer-development-manager",
+      "territory-sales-manager",
+      "field-sales-manager",
+      "sales-business-development-manager",
+      "b2b-business-development-manager",
+      "business-development-account-manager",
+      "business-development-team-manager",
+      "business-development"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Business Development Manager",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/jacuzzi-group/jobs/business-development-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "40%",
+          "to": "46%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "46%",
+          "to": "36%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_89947023d79a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -122569,6 +123260,140 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_8a38871fc63b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Wowza Media Systems",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T16:30:58+00:00",
+    "description": "We are seeking a driven and results-oriented Partnership Manager to play a pivotal role in building and managing strategic partnership across EMEA. This role offers an exciting opportunity to collaborate closely with Partners and develop model partnerships that showcase the strength and value of our combined offerings. You will be responsible for driving alignment across sales, marketing, and engineering teams to achieve ambitious sales targets and establish a successful partnership. The ideal candidate will excel in new partner acquisition, both through outbound sales activity and partner development, and will thrive in a fast-paced environment. We plan to hire someone for this position who permanently resides in EMEA. Key Responsibilities: 1. Partner Development and New Business Acquisition: Facilitate communication and collaboration between Wowza and partner teams. Lead outbound sales activities to identify and target new partners in the EMEA region, focusing on both strategic and regional opportunities. Track and measure the success of Partnership initiatives. Actively source, qualify, and close new partnerships to drive business growth, ensuring a robust pipeline of new partner accounts. Lead onboarding and training processes for new partners. 2. Engagement and Collaboration: Identify and qualify in-bound and outbound leads prioritizing new business opportunities with high-potential partners. Collaborate with the Partner & Wowza Sales Team to organize reseller roadshows \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wowza-media-systems/jobs/regional-channel-sales-manager",
+    "id": "opp_8a38871fc63b",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "channel-sales",
+      "business-development",
+      "enterprise-sales",
+      "regional-sales-management",
+      "channel-sales-manager",
+      "senior-channel-sales-manager",
+      "sales-channel-manager",
+      "partnerships-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Regional Channel Sales Manager",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/wowza-media-systems/jobs/regional-channel-sales-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -131940,6 +132765,146 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_958db5ffbc29": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "LINC Education",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T15:41:15+00:00",
+    "description": "Category: Education Location: MBIS4008-Business Process Modelling As an experienced online educator (LINC Fellow), the candidate will work as an independent contractor of LINC and serve a diverse international student body for Masters-level programs studying at premier Australian and Asian universities.Candidate must possess strong knowledge of business process management and process modelling techniques, particularly in analysing and improving organisational operations through conceptual frameworks and digital tools. They should be able to support students in process mapping, BPMN modelling, and qualitative and quantitative process analysis, while enabling practical problem-solving and continuous process improvement in business environments. Key Skills Required Business process management (BPM) Process modelling and BPMN Business process analysis Process mapping tools Qualitative and quantitative analysis Information technology in BPM Process improvement strategies Operational problem-solving Desired Candidate Profile Masters or Doctoral Qualifications in ICT-related field; At least 2+ years of corporate experience and 3+ years of teaching experience in the relevant fields is a MUST (Note: Experience and Knowledge in BPM or Systems Design); Empathetic, ambitious, warm and outgoing personality willing to work closely with people from diverse cultures; Proficient in English language; excellent oral and written communication Must possess a working laptop and have access to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/linc-education/jobs/business-process-modelling-online-facilitation",
+    "id": "opp_958db5ffbc29",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:20+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "online-educator",
+      "online-tutor",
+      "education-facilitator",
+      "academic-tutor",
+      "online-instructor",
+      "online-facilitation",
+      "business-process-modeling",
+      "virtual-facilitation",
+      "corporate-process-facilitation",
+      "process-modeling",
+      "business-process-designer",
+      "live-facilitation",
+      "virtual-facilitator",
+      "webinar-facilitation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Process Modelling- Online Facilitation",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/linc-education/jobs/business-process-modelling-online-facilitation?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -170311,6 +171276,131 @@
       "probability_low": 26.0
     }
   },
+  "opp_c019840c5251": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Interval",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "EUR",
+    "deadline": "2026-12-09T12:40:49+00:00",
+    "description": "This is a remote position. Wir suchen einen erfahrenen Cyber Defence Analyst / SOC Analyst f\u00fcr ein sechsmonatiges Freelance-Projekt bei einem internationalen Enterprise-Consulting-Unternehmen in Deutschland. Der Schwerpunkt liegt auf kontinuierlichem Security Monitoring, der Analyse und Bewertung von Sicherheitsvorf\u00e4llen sowie der initialen Incident Response innerhalb einer komplexen Enterprise-SOC-Umgebung. Das Projekt startet am 1. Februar 2027 und l\u00e4uft zun\u00e4chst bis zum 31. Juli 2027 , mit Option auf eine Verl\u00e4ngerung um weitere sechs Monate.Das Projekt wird \u00fcberwiegend remote durchgef\u00fchrt, mit gelegentlichen Vor-Ort-Eins\u00e4tzen in Deutschland. Ein Tagessatz ist auf Anfrage verf\u00fcgbar. Aufgaben Kontinuierliches Monitoring von SIEM-, SOAR-, EDR- und Netzwerk-Sicherheitsdaten Analyse, Qualifizierung und Priorisierung eingehender Security Alerts Unterscheidung zwischen False Positives und tats\u00e4chlichen Sicherheitsvorf\u00e4llen Durchf\u00fchrung initialer Incident-Response- und Containment-Ma\u00dfnahmen anhand bestehender Playbooks Analyse von Firewall-, DNS-, Proxy-, Authentication- und Endpoint-Logs Proaktives Threat Hunting anhand von Indicators of Compromise (IoCs) und Tactics, Techniques and Procedures (TTPs) Untersuchung von Angriffsmustern anhand des MITRE ATT&CK Frameworks Optimierung von SIEM-/EDR-Detection-Rules und Security Playbooks Dokumentation von Sicherheitsvorf\u00e4llen und Erstellung von Incident Reports Sicherstellung strukturierter Eskalationsprozesse und Schicht\u00fcbergaben \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/interval/jobs/cyber-defence-analyst-soc-freelance",
+    "id": "opp_c019840c5251",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "soc-analyst",
+      "cyber-defense-analyst",
+      "security-operations-analyst",
+      "cybersecurity-analyst",
+      "security-analyst",
+      "soc-security-analyst",
+      "cybersecurity-defense-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cyber Defence Analyst \u2013 SOC \u2013 Freelance",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/interval/jobs/cyber-defence-analyst-soc-freelance?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_c02a1df14e85": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -178127,6 +179217,153 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_c704dd52ef88": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NextGen Healthcare",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T18:28:42+00:00",
+    "description": "Job Description: The Senior Product Manager, Clinical Content owns the product strategy, roadmap, and delivery for one or more product areas within the Clinical Content portfolio. This individual applies strong product management fundamentals \u2014 discovery, prioritization, experimentation, and measurable KPIs \u2014 to define and execute a roadmap that maximizes customer value and business results. The Senior Product Manager partners closely with engineering, design, data, and go-to-market teams to bring the roadmap to life, and serves as a subject-matter expert and mentor to other product managers, contributing to the company's broader effort to modernize and scale the product management function around strong technology product management craft. For this role, the portfolio is the company's ambulatory EHR and practice management platform, spanning the clinical documentation, ordering, e-prescribing, scheduling, patient access, and revenue cycle workflows that physician practices and ambulatory organizations depend on daily; the Senior Product Manager therefore pairs strong product craft with domain fluency in ambulatory care delivery and healthcare interoperability. Own the product roadmap and backlog for one or more [Clinical Content product areas, from discovery through launch and post-launch iteration. Contribute to and help execute the product-led growth (PLG) strategy for the product portfolio, identifying opportunities to expand adoption and usage through the product \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nextgen-healthcare/jobs/senior-product-manager-clinical-content",
+    "id": "opp_c704dd52ef88",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: forecasting. Covers 33% of the 3 skills this listing names (missing: analytics, data science)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "data science",
+      "forecasting",
+      "analytics",
+      "senior-product-management",
+      "clinical-content",
+      "healthcare-product-management",
+      "ehr-product-management",
+      "practice-management",
+      "clinical-product-manager",
+      "clinical-solutions-product-manager",
+      "senior-content-strategy-product-manager",
+      "clinical-data-product-manager",
+      "clinical-product-lead",
+      "senior-scientific-content-manager",
+      "product-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Product Manager, Clinical Content",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/nextgen-healthcare/jobs/senior-product-manager-clinical-content?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_c711356fd34d": {
@@ -187523,6 +188760,132 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_d3cce2e52fa9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Palo Alto Networks",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-08T23:45:06+00:00",
+    "description": "Our Mission At Palo Alto Networks \u00ae, we\u2019re united by a shared mission\u2014to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you\u2019re ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you\u2019re in the right place. Who We Are In order to be the cybersecurity partner of choice, we must trailblaze the path and shape the future of our industry. This is something our employees work at each day and is defined by our values: Disruption, Collaboration, Execution, Integrity, and Inclusion. We weave AI into the fabric of everything we do and use it to augment the impact every individual can have. If you are passionate about solving real-world problems and ideating beside the best and the brightest, we invite you to join us! This role is remote, but distance is no barrier to impact. Our hybrid teams collaborate across geographies to solve big problems, stay close to our customers, and grow together. You will be part of a culture that values trust, accountability, and shared success where your work truly matters. Job Summary Your Career The Regional Sales Manager partners with our larger midsize and regional customers to secure their entire digital experience. You\u2019re motivated by the desire to solve critical challenges facing our customer\u2019s secure environment and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/palo-alto-networks/jobs/regional-sales-manager-kuwait",
+    "id": "opp_d3cce2e52fa9",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: excel, forecasting."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "regional-sales-manager",
+      "enterprise-sales-manager",
+      "account-manager",
+      "channel-sales-manager",
+      "business-development-manager",
+      "regional-sales-management-(emea)"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Regional Sales Manager, Kuwait",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/palo-alto-networks/jobs/regional-sales-manager-kuwait?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_d3e2483b0b75": {
@@ -199405,6 +200768,140 @@
       "probability_low": 0.0
     }
   },
+  "opp_e0fd5156dd14": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "LINC Education",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T09:31:30+00:00",
+    "description": "Category: Education Location: MGT5344-Total Quality Management (4CR) As an experienced online educator (LINC Fellow), the candidate will work as an independent contractor of LINC and serve a diverse international student body for Masters-level programs studying at premier Australian and Asian universities.Candidate must possess strong knowledge ofTotal Quality Management and quality improvement practices, with expertise in identifying quality issues, designing effective processes, and applying quality management principles across the supply chain. They should be able to support students in applying quality management tools and techniques, evaluating customer relationships and service quality, and developing process improvement strategies that enhance products, services, and organisational performance. Key Skills Required Total Quality Management (TQM) Quality management principles and theories Quality management tools and techniques Quality Function Deployment (QFD) Failure Mode and Effects Analysis (FMEA) Six Sigma Customer Relationship Management (CRM) Service quality models Quality planning and process improvement Supply chain quality management Desired Candidate Profile PG/Doctoral degree with distinction or first-class from a top university in India; At least 5 years of corporate experience and/or teaching experience in the relevant fields at a leading university or college (Note: Candidates with formal teaching experience at a university or college are preferred); \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/linc-education/jobs/total-quality-management-4cr-online-facilitation",
+    "id": "opp_e0fd5156dd14",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "online-instructor",
+      "academic-tutor",
+      "online-course-facilitator",
+      "teaching-fellow",
+      "online-facilitation",
+      "online-course-facilitation",
+      "online-learning-facilitation",
+      "virtual-facilitation"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Total Quality Management (4CR)- Online Facilitation",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/linc-education/jobs/total-quality-management-4cr-online-facilitation?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e103f5eeafe9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -209380,6 +210877,138 @@
       "probability_low": 15.0
     }
   },
+  "opp_eaf6a0a144e4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "LINC Education",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "AUD",
+    "deadline": "2026-12-08T17:09:59+00:00",
+    "description": "Category: Education Location: KINDLY NOTE: This position is eligible for only Australian-based candidates . Position Summary As an experienced online educator, the candidate will work as an independent contractor of LINC Education to offer online facilitation services for students studying in theBachelorofEducation(Primary) offered byVictoria University Online. The educator will be responsible for the day-to-day academic support and delivery responsibilities, as well as providing a high level of 1:1 student support. Additionally, the online educator (referred to as LINC Fellow) will receive specialized training and active mentorship from LINC\u2019s team to excel at online teaching. The program is offered in VU\u2019s revolutionary block mode, where students take one unit in 4-week blocks. LINC Education is looking for qualified educators for the following unit: Name of Units Timeline for the Units EEC1108-Literacy Across the Continuum 1 25th May 2026 - 21st June 2026 Details regarding the units are provided in Annexure 1 About LINC Education LINC Education (), based in Singapore, with teams in Australia, India, the UK, and the US, is a global pioneer in providing high-touch, high-quality educator-led online teaching services to globally ranked universities around the world. Our specialist services are highly sought after by university managements and faculty to retain and grow their online student enrolments. LINC\u2019s services are customized for each university and delivered using a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/linc-education/jobs/bachelor-of-education-online-facilitator",
+    "id": "opp_eaf6a0a144e4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:18+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "online-facilitation",
+      "online-educator",
+      "e-learning-specialist",
+      "academic-tutor",
+      "education-support-specialist",
+      "online-education-facilitator",
+      "online-learning-facilitator",
+      "online-course-facilitator",
+      "distance-learning-facilitator",
+      "virtual-classroom-facilitator",
+      "virtual-learning-facilitator",
+      "online-education-teacher"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Bachelor of Education- Online Facilitator",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/linc-education/jobs/bachelor-of-education-online-facilitator?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_eb011f4cf7e7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -217434,6 +219063,144 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_f30aed068685": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Virtasant",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-01T12:49:58+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-09T15:46:04+00:00",
+    "description": "Frontend Software Engineer Type: Remote Contract Location: Brazil, Mexico, Chile or Colombia Coverage: Pacific Time overlap required Job Description: We are looking for an experienced Frontend Software Engineer to build, maintain, and test features for a large-scale cloud management web console. This is a hands-on engineering role for someone with strong React and TypeScript experience who is comfortable working in a mature, shared codebase and owning frontend features from requirements through implementation, testing, deployment, and verification. A strong testing discipline is particularly important. Engineers are expected to write unit and integration tests alongside feature development rather than treating testing as a separate or optional activity. You will work closely with engineering and product stakeholders in a distributed environment, integrate frontend experiences with production REST APIs, and build interfaces using established design systems and shared components. Key Responsibilities: Frontend Engineering: Build, maintain, and improve production frontend features using React and TypeScript. Develop complex forms, configuration workflows, dashboards, and other interactive application experiences. Apply strong React fundamentals, including hooks, state management, component architecture, and reusable patterns. Translate product and UI/UX requirements into reliable, maintainable production interfaces. Work within an established design system and shared component \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261101T124956Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/virtasant/jobs/frontend-engineer",
+    "id": "opp_f30aed068685",
+    "is_demo": false,
+    "match_score": 64.7,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-01T12:25:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.7,
+          "evidence": "Matched 4 profile skills: ci/cd, dashboard, python, rest api. Covers 33% of the 9 skills this listing names (missing: api, javascript, node, react)."
+        }
+      },
+      "final_score": 57.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 57.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "ci/cd",
+      "dashboard",
+      "javascript",
+      "typescript",
+      "react",
+      "node",
+      "frontend-engineer",
+      "front-end-developer",
+      "software-engineer",
+      "web-developer",
+      "ui-engineer",
+      "web-frontend-engineer",
+      "front-end-software-engineer",
+      "frontend-web-software-engineer",
+      "react-frontend-engineer",
+      "frontend-vue.js-engineer",
+      "ui-ux-front-end-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Frontend Engineer",
+    "updated_at": "2026-11-01T12:49:58+00:00",
+    "url": "https://himalayas.app/companies/virtasant/jobs/frontend-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "45%",
+          "to": "50%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "50%",
+          "to": "56%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
     }
   },
   "opp_f3137f5c8fc4": {
