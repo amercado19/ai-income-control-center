@@ -8762,6 +8762,125 @@
       "probability_low": 15.0
     }
   },
+  "opp_096f0166d3c8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "myDataValue",
+    "competition_score": 85.2,
+    "confidence": 60.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "myDataValue | Founding Product Engineer | London (Canary Wharf) | HYBRID, 2 days/week in office | up to \u00a390k + up to 1% equity | https://www.mydatavalue.com/founding-product-engineer/ We build AI agents that run revenue for short-term rental and hotel operators on Booking.com and Airbnb: live prices, promotions and visibility on real portfolios, plus an MCP connector so customers work their accounts from Claude and ChatGPT. Our engineers no longer type most of the code. Claude Code and Codex do. The hard part is knowing what to build, how it should fit together, and whether what the agent wrote is actually right. You will talk to customers, own the architecture, write the briefs, and catch what the agent missed. We do not care which language you know. We care that you can do architecture (single source of truth, clear boundaries, the right layer for a fix) and that you already ship this way. Big bonus if you have worked on hotels, short-term rentals or dynamic pricing. Small team, paying customers, hard problems (private OTA APIs, PMS integrations, pricing decisions that move real money). Three interview stages, no take-home. Email me (CTO) directly: [contact removed]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50339269",
+    "id": "opp_096f0166d3c8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-02T16:28:01Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 43.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "myDataValue - Founding Product Engineer",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50339269",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
+    }
+  },
   "opp_0977a144de7d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -14906,6 +15025,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_1016bb65dbbc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 95.0,
+    "budget_min": 70.0,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ORFF Maestra",
+    "competition_score": 85.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "ORFF Maestra | Prototype Developer; Technical Product Lead | REMOTE (US only) | Contract, part-time | https://orffmaestra.com We're preparing a U.S. Department of Education SBIR Phase IA proposal to build an assessment reasoning platform for school speech-language pathologists. It implements TTL-MSM, a fully specified decision framework for one of the hardest calls in school eligibility evaluations: whether a student's communication profile reflects a disorder or a difference. Clinicians code each source of evidence, and a fixed rule combines them. The rules are written; the software isn't. The research lead is at Baylor University. Prototype Developer ($70\u201395/hr): build a browser-based web app from a written spec, with privacy designed in from the start so it's ready for FERPA-protected student data later. About 15\u201320 hrs/week for nine months if funded. Technical Product Lead ($75\u2013100/hr): the bridge between the clinical spec and the engineering. Scope the prototype, turn the spec into requirements, and keep the build on schedule. About 5\u20138 hrs/week for nine months if funded. Pre-award scoping (10\u201315 hrs for the developer, 5\u201310 for the lead) is unpaid, and funded work is contingent on award. U.S. citizens or permanent residents. Apply (structured application, about 30 minutes; replies within five business days): https://orffmaestra.com/developer https://orffmaestra.com/technical-lead",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "PART_TIME",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 525.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50339081",
+    "id": "opp_1016bb65dbbc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T16:18:25Z",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 50.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $525 on $525 (100% margin). $112 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 50.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 50.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "ORFF Maestra - Prototype Developer; Technical Product Lead [part-time]",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50339081",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
+    }
+  },
   "opp_103485ada1ad": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -20170,6 +20422,128 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_18055f72227d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "UNICEF",
+    "competition_score": 79.7,
+    "confidence": 60.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Remote, Remote Connectivity Credits is moving from MVP and pilots to a production-grade platform that supports multiple countries, internet providers, measurement systems and funding models. We're looking for a backend engineer to add dedicated capacity for that move. You will: Design, build, test and deploy backend services and APIs in Python (TypeScript also used) Build event-driven workflows and rules, e.g. turning measured connectivity performance into credits Integrate with measurement systems, partners and other platforms Own software quality: automated tests, CI/CD, deployment and operations Apply secure development practices Document your work and collaborate closely with the product and tech team, who set the architecture Most of the work is greenfield, with existing MVPs and prototypes as a starting point. You'll work independently once direction is agreed. This is a 6-month consultancy (contract), fully remote. Apply by 12 November 2026 via UNICEF's careers site with a CV, a cover letter (max 2 pages) and a financial proposal (template on the posting). Required: 3+ years of professional software development, mostly hands-on backend Backend services and APIs in Python and/or TypeScript Distributed or service-oriented systems: async processing, retries, idempotency, failure handling REST APIs, JSON integrations and relational data modelling Containers, CI/CD and automated testing Secure development: authentication, authorization, input validation, secrets \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://www.python.org/jobs/8195/",
+    "id": "opp_18055f72227d",
+    "is_demo": false,
+    "match_score": 34.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 11.6,
+          "evidence": "Small, on-stack board; applying is a direct link with far fewer applicants than an aggregator. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.4,
+          "evidence": "Matched 3 profile skills: ci/cd, python, rest api. Covers 40% of the 5 skills this listing names (missing: api, rest, typescript)."
+        }
+      },
+      "final_score": 50.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"professional software development\"; \"mostly hands-on backend backend services\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 50.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "api",
+      "rest",
+      "ci/cd",
+      "typescript"
+    ],
+    "source": "python_jobs",
+    "status": "SKIP",
+    "title": "Backend Software Engineering, UNICEF",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://www.python.org/jobs/8195/",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (51-69%)",
+      "factors": [
+        {
+          "effect": "70%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "70%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "70%",
+          "to": "60%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        }
+      ],
+      "probability_high": 69.0,
+      "probability_low": 51.0
     }
   },
   "opp_18151d1634a6": {
@@ -31522,6 +31896,131 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_2537a28c54e7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Yes. That\u2019s right. But fixed amount of hours per contract. Although we are flexible to move days back or forth between w",
+    "competition_score": 85.2,
+    "confidence": 0.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Yes. That\u2019s right. But fixed amount of hours per contract. Although we are flexible to move days back or forth between weeks.",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50340270",
+    "id": "opp_2537a28c54e7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-02T17:26:08Z",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNCLEAR_DELIVERABLES"
+    ],
+    "score": 18.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 0.0,
+          "evidence": "Thin description."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNCLEAR_DELIVERABLES."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 18.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Description is too thin to know what 'done' means.",
+          "name": "UNCLEAR_DELIVERABLES",
+          "points": 10.0
+        }
+      ],
+      "raw_total": 28.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Yes. That\u2019s right. But fixed amount of hours per contract. Although we are flexible to move days back or forth between w - contract role",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50340270",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
     }
   },
   "opp_2587b7647690": {
@@ -51909,6 +52408,143 @@
       "probability_low": 26.0
     }
   },
+  "opp_3c894e51acbc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 72.12,
+    "budget_min": 64.9,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Signal & Strand",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:22:19+00:00",
+    "description": "In a world of noise, we find the signal \u2014 the pulse of potential. We weave the strands of talent, vision, and purpose into organizations that endure. Blending intelligence with intuition, we honor the human art of connection at the heart of every great company. Remote (USA) | Base $135,000 to $150,000 plus commission | Target Year 1 OTE $300,000 ABOUT THE JOB Build a new market in the industry you already know. Our client is a fast-growing outsourcing company that builds dedicated remote teams for US businesses. Their people handle customer support, sales support, scheduling, admin, and back-office work inside the client\u2019s own systems, as part of the client\u2019s team. They became a known name in two niche industries by learning those businesses deeply, and the model worked well enough that they\u2019re now taking it into new markets, starting with an acquisition that opens the door to real estate. They\u2019re hiring one or two Vice Presidents of Business Development to lead that expansion. Each VP owns a vertical: Real Estate, Home Services and Construction, Waste Management and Environmental Services, or Hospitality. You\u2019ll build the go-to-market from the ground up: who to call, what to offer them, how to price and package it, and how to turn the first few clients into a reputation. You\u2019ll report to the Senior Vice President of Sales and work alongside Marketing and Customer Experience. This is a hands-on, entrepreneurial seat for someone who wants to build a market, not inherit one. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 486.75,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/signal-strand/jobs/vice-president-of-business-development-real-estate",
+    "id": "opp_3c894e51acbc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:22:21+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 43.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $487 on $487 (100% margin). $104 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $130 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "vice-president-of-business-development",
+      "business-development-executive",
+      "sales-director",
+      "national-sales-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Vice President of Business Development, Real Estate",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/signal-strand/jobs/vice-president-of-business-development-real-estate?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_3c9870da281c": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -53425,6 +54061,157 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_3e95ef12b3f1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "Onix",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:27:09+00:00",
+    "description": "About Onix : Onix is a trusted cloud consulting company and leading Google Cloud partner that helps companies get the most out of their technology with cloud-powered solutions, best-in-class services, and the Datametica Birds, data migration products that unleash AI potential. We are able to deliver exceptional results for our customers because of our 20+ year partnership with Google Cloud, depth of technology expertise, and IP-driven data and AI solutions. We offer solutions across a wide range of use cases and industries that are tailored to the unique needs of each customer. From advanced cloud security solutions to innovative AI capabilities and data migration products, we have you covered. Our global team of experts are the most reliable, talented and knowledgeable in the industry. Summary: Onix seeks an experienced Cloud Data Architect who will be vital in designing and implementing solutions that meet client business needs and support the overall cloud architecture. As a Cloud Data Architect, you will collaborate closely with business stakeholders, IT leaders, and technical teams to design and implement data architectures, including pipelines, migrations, schemas, security, and operations components. You will collaborate with cross-functional teams, including client executives, architects, engineers, and business stakeholders, to understand their requirements and translate them into robust cloud solutions. The ideal candidate will have hands-on experience with data \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/onix/jobs/cloud-data-architect",
+    "id": "opp_3e95ef12b3f1",
+    "is_demo": false,
+    "match_score": 16.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T00:27:09+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 4.0,
+          "evidence": "Matched 3 profile skills: etl, python, sql. Covers 33% of the 9 skills this listing names (missing: airflow, analytics, aws, bigquery)."
+        }
+      },
+      "final_score": 46.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"partnership with google cloud\"; \"depth of technology expertise\"; \"ai solutions\".",
+          "name": "Unmet stated requirements",
+          "points": 10.2
+        }
+      ],
+      "raw_total": 46.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "bigquery",
+      "airflow",
+      "etl",
+      "aws",
+      "gcp",
+      "terraform",
+      "analytics",
+      "cloud-data-architect",
+      "data-architect",
+      "cloud-solutions-architect",
+      "data-engineer",
+      "cloud-data-engineer",
+      "cloud-data-solutions-architect",
+      "cloud-data-architect-lead",
+      "cloud-architect",
+      "oracle-cloud-data-architect",
+      "salesforce-data-cloud-architect",
+      "cloud-data-architecture"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cloud Data Architect",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/onix/jobs/cloud-data-architect?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_3eb156ddf7c4": {
@@ -78068,6 +78855,136 @@
       ],
       "probability_high": 25.0,
       "probability_low": 1.0
+    }
+  },
+  "opp_5aa712d38679": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 150.0,
+    "budget_min": 150.0,
+    "budget_type": "FIXED",
+    "category": "api_integration",
+    "client": "Silkline",
+    "competition_score": 95.2,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Silkline | Software Engineer, Deployment Strategist | Chicago, Seattle | ONSITE | $150k-$225k + equity | https://silkline.ai PO #HN-2611 Supplier: you Line 1: Software Engineer qty 1 Line 2: Deployment Strategist qty 1 Need-by: yesterday Status: AWAITING SUPPLIER ACK Every hardware buyer knows this PO. It goes out, and then nothing happens: no ack, no ship date, just chasing over email while the spreadsheet and the ERP disagree. Silkline is the AI operating system for procurement at companies building satellites, launch vehicles, reactors, and robots (Machina Labs, Astranis, K2 Space, Castelion, Antares). We 5x'd our customer base, and our customers' parts can't wait. - Software Engineer/FDE: 5+ yrs full-stack, 0-1 product, fast with APIs (bonus: ERPs). TypeScript, React, Next.js, GraphQL, Trigger.dev. https://jobs.gem.com/silkline/am9icG9zdDrLwsEQTKKa02Ut_F9kgz... - Deployment Strategist (new): own customers from signed contract to go-live. Map ERP/PLM/MES data into Silkline, write the SQL, and find out why the PO isn't syncing. Two paths in: ERP/MES implementer or forward-deployed engineer. 4+ years; travel to customer sites. https://jobs.gem.com/silkline Both roles touch ITAR-controlled data: US persons only, no visa sponsorship. Small team, direct line to the founders (Isaac and me), plus a space-suited mascot named Silky. Be the supplier who actually acks. Apply above, or email [contact removed] with \"PO #HN-2611 ACK\" in the subject (mention HN).",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 4.27,
+    "estimated_cost": 0.0,
+    "estimated_hours": 6.1,
+    "estimated_net_revenue": 150.0,
+    "estimated_non_ai_effort": 1.83,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50344816",
+    "id": "opp_5aa712d38679",
+    "is_demo": false,
+    "match_score": 38.4,
+    "opportunity_class": "MID",
+    "posted_time": "2026-11-02T22:24:23Z",
+    "profit_score": 42.8,
+    "risk_flags": [],
+    "score": 64.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 21.6,
+          "awarded": 15.1,
+          "evidence": "70% of estimated effort is AI-carryable (4.3h AI / 1.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 9.8,
+          "awarded": 7.8,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 19.6,
+          "awarded": 8.4,
+          "evidence": "Estimated net $150 on $150 (100% margin). $52 per effective hour vs $85 target (2.9 effective h = 1.8h human + 4.3h AI discounted). Leverage: $82 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 14.7,
+          "awarded": 14.0,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.8,
+          "awarded": 9.8,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.5,
+          "awarded": 9.4,
+          "evidence": "Matched 1 profile skills: sql. Covers 20% of the 5 skills this listing names (missing: api, graphql, react, typescript)."
+        }
+      },
+      "final_score": 64.5,
+      "opportunity_class": "B - Mid-size project ($100-500)",
+      "penalties": [],
+      "raw_total": 64.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 21.57,
+        "clarity_of_requirements": 9.8,
+        "expected_profitability": 19.61,
+        "likelihood_of_winning": 14.71,
+        "risk": 9.8,
+        "skill_fit": 24.51
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "graphql",
+      "typescript",
+      "react"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Silkline - Software Engineer, Deployment Strategist",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50344816",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_5ac3d2c26480": {
@@ -104792,6 +105709,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_73ee9fc3c37b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 0.34,
+    "budget_min": 0.24,
+    "budget_type": "HOURLY",
+    "category": "data_pipeline",
+    "client": "Hire Hangar",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:24:32+00:00",
+    "description": "Join Hire Hangar and work with fast-growing global companies while building a long-term career. Job Title : Junior Recruitment Coordinator Location Remote Time Zone US Eastern Standard Time (EST) Role Overview We are seeking a driven and highly organised Junior Recruitment Coordinator to join our growing team. This role is ideal for an early-career recruiter who has come up through a fast-paced agency environment and is ready to take ownership of full-cycle sourcing and coordination across a diverse range of roles \u2014 from high-volume sales positions to specialised tech hires. You will work closely with internal stakeholders and be client-facing, supporting and participating in interviews and sitting in on client calls. The ideal candidate is proactive, communicates with confidence, and thrives in a metrics-driven, deadline-oriented environment. Key Responsibilities Source and pipeline candidates for high-volume roles across sales, operations, and technology functions using job boards, LinkedIn, Boolean search, and other sourcing channels Helping the recruiters with end-to-end workflows including scheduling, screening, and interview coordination Participate in candidate interviews and sit in on client-facing interviews as a representative of the recruitment function Liaise with internal hiring managers and team leads to understand role requirements, update pipelines, and provide regular progress reports Maintain accurate and up-to-date ATS records throughout the recruitment \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 2.4,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hire-hangar/jobs/junior-recruitment-coordinator-2767053026",
+    "id": "opp_73ee9fc3c37b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:24:34+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 34.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $2 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "recruitment-coordinator",
+      "entry-level-recruitment-coordinator",
+      "recruiting-coordinator",
+      "recruitment-support-coordinator",
+      "recruitment-assistant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Junior Recruitment Coordinator",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/hire-hangar/jobs/junior-recruitment-coordinator-2767053026?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_740d48675ec1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -113258,6 +114312,144 @@
       ],
       "probability_high": 35.0,
       "probability_low": 13.0
+    }
+  },
+  "opp_7ce549e5efec": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Blackbird",
+    "competition_score": 95.2,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Blackbird | Dev Shop | Remote (US only) | Contract Blackbird builds web, mobile, IoT products for startups and innovative companies. We work on interesting, greenfield projects, and rely on small, veteran teams who have lots of autonomy. Everyone is a remote contractor, and our work culture is low-drama and highly collaborative. No pointless meetings, no bureaucracy, no egos and lots of time spent building things. Projects typically range from 3-12 months and usually require full time hours (35/week). We\u2019re looking for senior full stack engineers / CTO consultants / data scientists. We value engineers who are strong technically as well as great communicators. We work with lots of freelancers who appreciate the steady, interesting work. Our typical stack is TypeScript, React, Postgres, and AWS although it will vary project to project. If you enjoy moving fast, working with great engineers, and building something from the ground up, you\u2019ll fit right in. If interested, reach out directly to me at vance [at] blackbird.us with your resume, link to your LinkedIn, and a small blurb on why you think you'd be a good fit. Must be based in the USA and have 5+ years of engineering experience.",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50342576",
+    "id": "opp_7ce549e5efec",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T19:44:39Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 36.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 17.1,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 36.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 36.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "postgres",
+      "rest",
+      "aws",
+      "typescript",
+      "react",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Blackbird - contract role",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50342576",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
     }
   },
   "opp_7ceb6ef14cb1": {
@@ -129065,6 +130257,275 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_8d81123e2d6d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105.0,
+    "budget_min": 105.0,
+    "budget_type": "FIXED",
+    "category": "automation",
+    "client": "Data Micro Technologies",
+    "competition_score": 85.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Data Micro Technologies | Multiple Roles (OT, Networking, Security) | Jacksonville, FL | ONSITE Data Micro Technologies provides specialized systems engineering, operational technology (OT), and infrastructure consulting. The interview process will not be long and drawn out. We want to fill these roles quickly. We are actively hiring for the following roles: 1. Automation Network Engineer (1-Year Contract | Onsite) Designing and maintaining isolated network environments for automation, virtualization (Proxmox SDN), and on-prem Kubernetes clusters. - Stack/Focus: SONiC (SonicNOS), Edgecore DCS202, SSE-C4632 100G switching, Linux administration, L2/L3 segmentation, GitOps workflows. - Requirements: 5\u20137 years experience in data center/industrial networking, container networking, and high-availability switch architectures. 2. Systems Engineer \u2013 Warehouse Automation & OT ($105k | 1-Year Contract-to-Hire | Onsite) Bridging warehouse-floor industrial automation with IT/OT infrastructure at the Deerwood campus and the new automated distribution center near JAX. Potential conversion to J&J Vision Staff Engineer. - Stack/Focus: Allen-Bradley/Rockwell (ControlLogix, FactoryTalk, ladder logic), WMS/WCS, conveyors, sortation, ASRS, and OT infrastructure. - Requirements: 5+ years in industrial automation/systems engineering with 3+ years in PLC/controls troubleshooting and automated material handling environments (FDA/cGMP a plus). 3. Senior Cyber Security Risk and Governance Analyst \u2013 OT \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.47,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.34,
+    "estimated_net_revenue": 105.0,
+    "estimated_non_ai_effort": 0.87,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50341800",
+    "id": "opp_8d81123e2d6d",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T18:58:56Z",
+    "profit_score": 41.2,
+    "risk_flags": [],
+    "score": 60.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.5h AI / 0.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.6,
+          "evidence": "Estimated net $105 on $105 (100% margin). $60 per effective hour vs $85 target (1.7 effective h = 0.9h human + 3.5h AI discounted). Leverage: $121 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 60.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"container networking\"; \"high-availability switch architectures\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 60.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "kubernetes",
+      "automation"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Data Micro Technologies - contract role",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50341800",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
+    }
+  },
+  "opp_8e1cdfc93b68": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 30,
+    "budget_min": 30,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:28:33+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: AI Chat Generalist Type: Contract Compensation: $30/hour Location: Remote Commitment: 10 hours/week Role Responsibilities Write short, realistic requests similar to those a real user would type. Collaborate with the AI assistant on tasks, guiding it, answering questions, and correcting errors. Evaluate the experience and deliverables, providing concise feedback on performance. Qualifications Must-Have Frequent use of AI chat assistants for personal and work-related questions. Clear writing skills in English . Compensation & Legal Hourly contractor Paid weekly via Stripe Connect Application Process (Takes 20\u201330 mins to complete) Upload resume AI interview based on your resume Submit form Resources & Support For details about the interview process and platform information, please check: For any help or support, reach out to: PS: Our team reviews applications daily. Please complete your AI interview and application steps to be considered for this opportunity. Originally posted on Himalayas",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 225.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/ai-chat-evaluator-fully-remote-up-to-30-hr",
+    "id": "opp_8e1cdfc93b68",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:28:35+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $225 on $225 (100% margin). $48 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $60 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "ai-chatbot-evaluator",
+      "ai-evaluation-specialist",
+      "ai-generalist",
+      "ai-quality-assurance-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Chat Evaluator - Fully Remote | Up to $30/hr",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/ai-chat-evaluator-fully-remote-up-to-30-hr?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_8e37c7a8c1b8": {
@@ -149825,6 +151286,138 @@
       "probability_low": 15.0
     }
   },
+  "opp_a3a9c8b0b870": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:21:01+00:00",
+    "description": "Job Title: Clinical Independent Rater - Romanian Speaker Job Location: London, Greater London, United Kingdom Job Location Type: Remote Job Contract Type: Part-time Job Seniority Level: Clinical Independent Rater - Romanian Speaking Location: Remote/Virtual Hours: Estimated 10\u201316 hours per month Role: Clinical Independent Rater for Clinical Trials About IQVIA IQVIA is a global leader in advanced analytics, technology solutions, and clinical research services, dedicated to driving healthcare forward. We partner with the world\u2019s leading pharmaceutical, biotechnology, and medical device companies to improve patient outcomes and accelerate innovation. Our team combines deep scientific expertise with cutting-edge technology to deliver high-quality data and insights that shape the future of clinical trials. Position Overview The CIR plays a key role in ensuring the integrity and reliability of clinical trial data. This position involves reviewing scales administered by raters to confirm standardized assessment practices. Responsibilities include evaluating assessment quality, engaging in live discussions with raters to provide guidance on methodology and scoring techniques, and supporting rater performance through functional assessments (e.g., mock interviews). Additional tasks may include assisting with communication materials and documentation. Key Responsibilities Participate in all required orientation, training, and calibration activities. Review case data and prepare for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/clinical-independent-rater-romanian-speaker-6879311606",
+    "id": "opp_a3a9c8b0b870",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:21:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "analytics",
+      "central-independent-rater",
+      "clinical-trial-rater",
+      "psychiatric-rater",
+      "clinical-assessor",
+      "psychological-assessment"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Independent Rater - Romanian Speaker",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/clinical-independent-rater-romanian-speaker-6879311606?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_a44ca67f0dc7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -150630,6 +152223,141 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_a5076701d999": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.0,
+    "budget_min": 50.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "REVNODE",
+    "competition_score": 85.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "REVNODE | Founding Sales (Founding AE) | Remote (US) | Part-time or Full-time | 1099 We build custom software solutions for all industries, for companies of all sizes. AI, embedded, sass, all of it. Business has been around for 11 years. Everything up to this point has been direct referral or through agencies. You'll be building out the sales department from zero. You will be supported to the best of my ability. This is a good role for someone who wants to build something from scratch and knows what they're doing. Expectation is that you own the entire relationship with the client, make sure they are happy, etc. Minimum contract size is $50k. Capability statement here: https://www.revnode.com/docs/capability_statement.pdf Commission only at 20%. Email [contact removed]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "PART_TIME",
+    "estimated_ai_effort": 2.06,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.12,
+    "estimated_net_revenue": 50.0,
+    "estimated_non_ai_effort": 2.06,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50342365",
+    "id": "opp_a5076701d999",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T19:32:53Z",
+    "profit_score": 14.7,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (2.1h AI / 2.1h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.8,
+          "evidence": "Moderate description (>=300 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.7,
+          "evidence": "Estimated net $50 on $50 (100% margin). $19 per effective hour vs $85 target (2.6 effective h = 2.1h human + 2.1h AI discounted). Leverage: $24 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "node",
+      "pdf",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "REVNODE - contract role [part-time]",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50342365",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (47-65%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "66%",
+          "to": "56%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 65.0,
+      "probability_low": 47.0
     }
   },
   "opp_a53142eb5c89": {
@@ -161039,6 +162767,134 @@
       "probability_low": 4.0
     }
   },
+  "opp_b0ce271e72c0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 65.0,
+    "budget_min": 65.0,
+    "budget_type": "FIXED",
+    "category": "automation",
+    "client": "Stratirus",
+    "competition_score": 95.2,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Stratirus (a Tennetech company) | AI Developer + Linux Admin (junior to mid) | REMOTE (US only, Central Time hours) | US work authorization required, no sponsorship | Full-time or part-time, contract or hire | $65k to $100k | No agencies Our optional take-home is a broken Ubuntu server: a service that won't stay up, a nightly report that hasn't gone out in days, and a disk that keeps filling. Fix it, write a script that heals a fresh box, and build a small read-only MCP tool so an AI agent can check on it. 60 to 90 minutes, unpaid, no LeetCode. If that sounds like fun, read on. We're a small and growing AI and Microsoft 365 consultancy in Franklin, TN. We build AI agents and automation for small and mid-sized businesses, and harden and run the systems underneath: Microsoft 365 tenants, SharePoint, and Linux boxes. We're AI-agnostic and use what fits the client, mostly Claude Code, the Microsoft 365 stack with Copilot and Copilot Studio, Gemini and Gemini Studio, and Oracle OBI. The role is about 60% agent development (MCP servers, Claude Code, Copilot Studio, Power Automate, Gemini) and 40% Ubuntu administration (systemd, Docker, patching, backups, monitoring). PeopleSoft experience is a plus. You'll work directly with clients, so explaining things clearly to a small-business owner matters as much as the code. Early-career and career-switchers welcome. We expect you to use AI every day. What we hire for is knowing when it's wrong, so one of our three application questions \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "PART_TIME",
+    "estimated_ai_effort": 3.25,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.06,
+    "estimated_net_revenue": 65.0,
+    "estimated_non_ai_effort": 0.81,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50340134",
+    "id": "opp_b0ce271e72c0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T17:19:04Z",
+    "profit_score": 15.2,
+    "risk_flags": [],
+    "score": 66.7,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (3.2h AI / 0.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 2.8,
+          "evidence": "Estimated net $65 on $65 (100% margin). $40 per effective hour vs $85 target (1.6 effective h = 0.8h human + 3.2h AI discounted). Leverage: $80 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 17.1,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 66.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "docker",
+      "automation",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "REVIEW",
+    "title": "Stratirus - AI Developer + Linux Admin [part-time]",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50340134",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "76%",
+          "to": "66%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
+    }
+  },
   "opp_b0dd4cda4c0e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -162540,6 +164396,137 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_b2264389d983": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.0,
+    "budget_min": 55.0,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "SadServers",
+    "competition_score": 95.2,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "SadServers | Software Engineer | REMOTE (Canada) | Part-time or Contract | $55 - $75/hr | https://sadservers.com I'm the founder of SadServers, a SaaS that provides hands-on challenges for Linux & DevOps/SRE engineers and assessments for hiring teams. It was launched (and quickly broken) here on HN four years ago and we've been growing steadily since then (about to pass 1M VMs served). Besides training and interviewing, companies use our platform to evaluate and/or train their SRE AI agents. I'm looking for a software engineer who can develop this offering, collaborating with customers and working on projects like our own benchmarking, see https://srebattle.com/ (WIP) for example. Our stack is Django REST (backend), Python (runners), Node/React/Vite (website). Please email [contact removed] with subject \"SRE AI Developer\". The hiring process for selected applicants is two steps: one video call and one paid mini-project.",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "PART_TIME",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 550.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50341345",
+    "id": "opp_b2264389d983",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T18:32:00Z",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 66.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $550 on $550 (100% margin). $116 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $183 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 17.1,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: python. Covers 20% of the 5 skills this listing names (missing: django, node, react, rest)."
+        }
+      },
+      "final_score": 66.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "rest",
+      "django",
+      "react",
+      "node",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "REVIEW",
+    "title": "SadServers - Software Engineer [part-time]",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50341345",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "76%",
+          "to": "66%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_b226e184f6ab": {
@@ -188092,6 +190079,138 @@
       "probability_low": 41.0
     }
   },
+  "opp_cd51b130c797": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:22:50+00:00",
+    "description": "Job Title: Customer Success Manager - Quality Job Location: Boston, MA Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role As a Customer Success Manager, you will be responsible for ensuring our customers\u2019 success with Veeva\u2019s Quality applications. You will serve as a liaison between Veeva and key customer stakeholders to foster collaboration, highlight value using our applications through proactive engagement and triage escalations. You will partner with global customers to understand their business goals, ways of working and challenges and then determine how they can further leverage \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 480.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/customer-success-manager-quality-3931858795",
+    "id": "opp_cd51b130c797",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:22:52+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 45.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $481 on $481 (100% margin). $101 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "customer-success-manager",
+      "customer-success-consultant",
+      "life-sciences-customer-success",
+      "account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success Manager - Quality",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/customer-success-manager-quality-3931858795?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_cd644955c8e7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -190639,6 +192758,141 @@
     "title": "Business Operations Coordinator",
     "updated_at": "2026-10-18T03:31:21+00:00",
     "url": "https://himalayas.app/companies/pavago/jobs/business-operations-coordinator-8612369586",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_d1461c879dbe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 47.02,
+    "budget_min": 35.0,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:28:33+00:00",
+    "description": "Job Title: Regional Clinical Trial Management Associate Job Location: Remote (US) Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: BeOne continues to grow at a rapid pace with challenging and exciting opportunities for experienced professionals. When considering candidates, we look for scientific and business professionals who are highly motivated, collaborative, and most importantly, share our passionate interest in fighting cancer. General Description: \u00b7 Supports the Regional Clinical Study Manager in regional study delivery and ensures that delegated components of clinical studies are executed per expected and specified quality standards, within timelines and budget. \u00b7 Supports the Clinical Research Associates and/or Study Start-up Specialists in country study delivery and ensures that delegated components of clinical studies are executed per expected and specified quality standards. \u00b7 Builds solid knowledge of clinical trials operations in the region under guidance of the Regional Clinical Study Manager. \u00b7 Supports the alignment of regional deliverables with overall study goals under the direction of the Regional Clinical Study Manager. \u00b7 Might participate in internal working groups, initiatives. \u00b7 Performs other tasks assigned by the line manager. Essential Functions of the job: Regional Trial Support & Collaboration \u00b7 Develops regional study management experience by supporting to oversee multiple aspects of clinical trial conduct including \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 350.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/regional-clinical-trial-management-associate-1019996229",
+    "id": "opp_d1461c879dbe",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T00:28:35+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 63.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $350 on $350 (100% margin). $74 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $117 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: data cleaning, excel. Covers 40% of the 5 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 63.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "data cleaning",
+      "clinical-trial-management-associate",
+      "clinical-research-associate",
+      "clinical-trial-coordinator",
+      "study-start-up-specialist",
+      "clinical-operations-associate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Regional Clinical Trial Management Associate",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/regional-clinical-trial-management-associate-1019996229?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -212768,6 +215022,130 @@
       "probability_low": 32.0
     }
   },
+  "opp_e94efb31fb92": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Location: Huntington Beach, CA, USA Remote: Yes Willing to relocate: No Technologies: C#/.NET, TypeScript, React, Postgr",
+    "competition_score": 85.2,
+    "confidence": 25.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Location: Huntington Beach, CA, USA Remote: Yes Willing to relocate: No Technologies: C#/.NET, TypeScript, React, PostgreSQL, Linux, AI-assisted development (Claude Code and similar) R\u00e9sum\u00e9/CV: https://aiwebcenter.com/about/resume/ Email: [contact removed] Fractional CTO and contract work: web apps that do real work (booking, ordering, portals, quoting), modernizing older systems, and shipping faster with AI coding tools without losing quality. Twelve working examples you can click through: https://aiwebcenter.com/work/examples/",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50344555",
+    "id": "opp_e94efb31fb92",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-02T22:06:30Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 5.7,
+          "evidence": "Moderate description (>=300 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: sql. Covers 20% of the 5 skills this listing names (missing: postgres, postgresql, react, typescript)."
+        }
+      },
+      "final_score": 46.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "postgres",
+      "postgresql",
+      "typescript",
+      "react",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Location: Huntington Beach, CA, USA Remote: Yes Willing to relocate: No Technologies: C#/.NET, TypeScript, React, Postgr - contract role",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50344555",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
+    }
+  },
   "opp_e993f33ece02": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -216870,6 +219248,132 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_ecf37dd64f50": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Sendery",
+    "competition_score": 85.2,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Sendery ( https://sendery.co ) | iOS Engineer | Tokyo, Japan (no visa support, US/Canada remote available) | Contract Sendery is a transactional email platform built for global teams. We provide developers, designers, and operations with the tools they need to manage their product emails without development overhead. We're currently looking for a capable iOS Engineer to join our team on a contract basis to start as we build out our mobile stack. The ideal candidate has 5+ years experience building iOS apps from zero to production (Swift, SwiftUI, UIKit, and modern iOS frameworks), and has worked in a startup environment in the past. Positive experience with AI coding tools is a plus. Applicants who take the time to use the platform and test it out and give their thoughts, will be given priority. We are only hiring applicants in the US, Canada, and Japan at the moment. To apply, please contact [contact removed] with your resume and github. Applicants who send to other public emails will be ignored.",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50345770",
+    "id": "opp_ecf37dd64f50",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-02T23:35:49Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 39.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 39.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Sendery - iOS Engineer",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50345770",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_ecf63d09e524": {
@@ -221681,6 +224185,268 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_f0f22a7e7f60": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Vivral",
+    "competition_score": 85.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T00:40:48+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Vivral (Nair Engineering) | ML, Systems (GPU), Hardware, and Embedded Engineers | Gainesville, FL (UF students) | Part-time | Equity Vivral is an AI health assistant that helps people understand their health. We run frontier-grade medical AI on ordinary computers instead of the cloud, so health support can reach remote, underserved communities. Already tested by researchers at UF, Michigan, and Princeton. We're hiring part-time student engineers (sophomores through PhD): Machine Learning (PyTorch, LLMs), Systems (CUDA/Triton, making large models run fast on everyday hardware), Hardware (FPGA, digital design), and Embedded (C/C++ firmware). Roles are built around class schedules and come with equity that vests over time. Apply (10 minutes): https://forms.gle/PrewX9oGEj7fCMR46 More: nairengineering.com",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "PART_TIME",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50344410",
+    "id": "opp_f0f22a7e7f60",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-02T21:56:10Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 34.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 34.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 34.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "machine learning",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Vivral - ML, Systems, Hardware, and Embedded Engineers [part-time]",
+    "updated_at": "2026-11-03T00:40:48+00:00",
+    "url": "https://news.ycombinator.com/item?id=50344410",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "76%",
+          "to": "66%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
+    }
+  },
+  "opp_f13a76d12700": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "dell",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T00:30:50+00:00",
+    "description": "Principal Engineer - AI & HPC Solutions Architect Dell Technologies is committed to empowering our customers with innovative products and services that enhance their performance and productivity. The Services Solutions Architecture team plays a pivotal role in delivering technical solutions that consistently meet client needs and expectations. As trusted consultants, we partner closely with our clients to understand their objectives and provide infrastructure solutions designed for scalability, efficiency, and future growth. We invite you to join our Services Solutions Architecture team as a Principal Engineer - AI & HPC Solutions Architect in Norway, where you will have the opportunity to excel professionally and make a significant contribution to the advancement of high-performance computing and AI infrastructure. What You'll Achieve As a member of the services delivery team, you will collaborate with Dell consultants, engineering teams, and client stakeholders to design and implement sophisticated AI and HPC cluster architectures. You will design, deploy, optimize, and support large-scale AI infrastructure environments, ensuring technical excellence and customer satisfaction throughout each phase of the engagement. You Will: Design and architect scalable, high-performance compute infrastructures for AI and HPC clusters. Lead the deployment and integration of AI infrastructure solutions utilizing NVIDIA, AMD, and Intel technologies. Deploy and manage orchestration tools \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dell/jobs/principal-engineer-ai-hpc-solutions-architect-5798792873",
+    "id": "opp_f13a76d12700",
+    "is_demo": false,
+    "match_score": 75.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T00:30:51+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 18.2,
+          "evidence": "Matched 3 profile skills: automation, excel, python. Covers 60% of the 5 skills this listing names (missing: kubernetes, terraform)."
+        }
+      },
+      "final_score": 53.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 53.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "kubernetes",
+      "terraform",
+      "automation",
+      "solutions-architect",
+      "ai-solutions-architect",
+      "hpc-solutions-architect",
+      "infrastructure-engineer",
+      "cloud-infrastructure-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Principal Engineer - AI & HPC Solutions Architect",
+    "updated_at": "2026-11-03T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/dell/jobs/principal-engineer-ai-hpc-solutions-architect-5798792873?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f14a665dbb1a": {
