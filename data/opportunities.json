@@ -21116,6 +21116,144 @@
       "probability_low": 32.0
     }
   },
+  "opp_191ffd829459": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:59:20+00:00",
+    "description": "Job Title: Senior Project Manager, eCOA Implementation Job Location: London, Greater London, United Kingdom Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Project Manager, eCOA Location: UK, home based We are seeking a Project Manager to manage delivery of eCOA projects to internal and external clients . Job Overview Validates the project scope, plans and schedules for moderately complex projects; adheres to metrics for project success and begins to suggest appropriate metrics; provides input to and applies standards (e.g. delivery process, roles and responsibilities, operational norms, compliance). Responsibility Manage day to day implementation of eCOA projects Manage internal staff to support customer projects and manage internal service projects Define and monitor project scope, budget, timelines, resources, quality and deliverables for the full project life cycle Ensure the project team adheres to high quality service and all applicable corporate and client policies and standards Regularly review project contract terms and conditions, and project plan to ensure that all assumptions are still valid Work in close collaboration with the internal or external project stakeholders to achieve the study goals Establish strong customer relationships and seek opportunities to increase customer satisfaction and deepen relationships Communicate effectively with customers to identify needs and propose solutions Keep customers well informed on status of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/senior-project-manager-ecoa-implementation-2395890764",
+    "id": "opp_191ffd829459",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:59:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "gcp",
+      "senior-project-manager",
+      "clinical-project-manager",
+      "ecoa-implementation",
+      "clinical-systems-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Project Manager, eCOA Implementation",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/senior-project-manager-ecoa-implementation-2395890764?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_19247b89b819": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -32742,6 +32880,142 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_26f03cb3a75a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 110.58,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "CAD",
+    "deadline": "2027-01-02T11:59:23+00:00",
+    "description": "Job Title: Director - Computer Systems Validation Job Location: Toronto, Canada Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors. As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities. The Role The Director of Computer Systems Validation Program provides support to the Quality, Regulatory and Compliance function in support of qualification of Veeva Vault technology. Primarily responsible for oversight of the assigned Validation teams to ensure on-time, on-budget delivery of computer system validation activities supporting general releases and patches/hot fixes. Plan and drive complex validation tasks (periodic review, new product introduction) across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 865.4,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/director-computer-systems-validation-4445660963",
+    "id": "opp_26f03cb3a75a",
+    "is_demo": false,
+    "match_score": 64.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:59:24+00:00",
+    "profit_score": 83.6,
+    "risk_flags": [],
+    "score": 71.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.4,
+          "evidence": "Estimated net $865 on $865 (100% margin). $182 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $288 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.7,
+          "evidence": "Matched 3 profile skills: automation, csv, excel. Covers 43% of the 7 skills this listing names (missing: api, aws, gcp, rest)."
+        }
+      },
+      "final_score": 71.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "csv",
+      "api",
+      "rest",
+      "aws",
+      "gcp",
+      "automation",
+      "it-validation-director",
+      "validation-director",
+      "quality-systems-director",
+      "software-validation-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Director - Computer Systems Validation",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/director-computer-systems-validation-4445660963?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_26f20ee7bc81": {
@@ -50358,6 +50632,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_39b32f9ada2b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Anywherenow",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:45:35+00:00",
+    "description": "Founded in 2010 in the Netherlands, AnywhereNow is a global leader in Enterprise Dialogue Management, with a vision to ensure every employee and customer feels heard, understood, and valued. Today, our team of approximately 240 employees spans 22 countries, supporting more than 2,000 organisations worldwide. We partner with leading enterprises including Mazda , the UN International Organization for Migration , The Adecco Group , and the University of Cape Town to deliver exceptional customer and employee experiences through the power of Microsoft Teams and AI-driven innovation. Driven by our commitment to innovation, customer focus, accountability, and continuous improvement, we help organisations modernise communication and customer engagement across complex enterprise environments. Our portfolio includes: Dialogue Cloud \u2013 our enterprise dialogue management platform built for Microsoft Teams. Deepdesk \u2013 AI-powered Agent Assist technology that helps service teams work faster and smarter. Tendfor \u2013 a customer engagement and contact centre solution designed for Microsoft Teams environments. Together, these solutions enable organisations to create more intelligent, efficient, and personalised experiences for both customers and employees. As we continue to accelerate our AI-first strategy, we're investing heavily in the next generation of agentic solutions, creating exciting opportunities for engineers who want to help shape the future of enterprise AI. Requirements About the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/anywhere-now/jobs/ai-engineer",
+    "id": "opp_39b32f9ada2b",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T11:45:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 39.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: automation, ci/cd. Covers 33% of the 6 skills this listing names (missing: api, azure, rest, webhook)."
+        }
+      },
+      "final_score": 39.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 51.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "azure",
+      "ci/cd",
+      "automation",
+      "webhook",
+      "ai-engineer",
+      "artificial-intelligence-engineer",
+      "machine-learning-engineer",
+      "software-engineer",
+      "cloud-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Engineer",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/anywhere-now/jobs/ai-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_39fb6a87b2e4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -65015,6 +65433,143 @@
     "title": "Senior Java Developer - CMS - Full Remote",
     "updated_at": "2026-09-30T12:05:50+00:00",
     "url": "https://himalayas.app/companies/gopro-consultancy-group-ltd/jobs/senior-java-developer-cms-full-remote-2706293914",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_4ba632213c0e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:45:30+00:00",
+    "description": "Job Title: Country Approval Specialist Job Location: Remote, United Kingdom Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Work Schedule Standard (Mon-Fri) Environmental Conditions Office Job Description Join Us as a Country Approval Specialist \u2013 Make an Impact at the Forefront of Innovation We have successfully supported the top 50 pharmaceutical companies and more than 750 biotechs, spanning 2,700 clinical trials across 100+ countries in the last 5 years. As part of our global team, you\u2019ll have the opportunity to participate in the management and preparation, review, and coordination of Country Submissions in line with the global submission strategy. As a Country Approval Specialist, you'll play a key role in ensuring that submissions are managed effectively and align with our strategic goals. What You\u2019ll Do: Prepares, reviews and coordinates, under guidance, local regulatory submissions (MoH, EC, additional special national local applications if applicable, e.g. gene therapy approvals, viral safety dossiers, import license) in alignment with global submission strategy. \u2022 Provides, under guidance local regulatory strategy advice (MoH &/or EC) to internal clients. \u2022 Provides project specific local SIA services and coordination of these projects. \u2022 May have contact with investigators for submission related activities. \u2022 Key-contact at country level for either Ethical or Regulatory submission-related activities. \u2022 Coordinates, under guidance, with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/country-approval-specialist-7601247811",
+    "id": "opp_4ba632213c0e",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:45:31+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "country-approval-specialist",
+      "regulatory-affairs-specialist",
+      "regulatory-submissions-specialist",
+      "clinical-trial-regulatory-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Country Approval Specialist",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/country-approval-specialist-7601247811?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -99567,6 +100122,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_6e250bc7597b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Location: Dorset, UK Remote: Yes Willing to relocate: No Technologies: Ruby on Rails, Python, TypeScript/Node, Go, Postg",
+    "competition_score": 85.2,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T13:47:00+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Location: Dorset, UK Remote: Yes (UK, US and EU time zones) Willing to relocate: No Technologies: Ruby on Rails, Python (FastAPI), TypeScript/Node, Go, PostgreSQL, AWS, Hotwire R\u00e9sum\u00e9/CV: https://wagnermatos.co.uk Email: [contact removed] Senior engineer, 15 years. I build complete products on a fixed scope and fixed price: one senior engineer accountable end to end, AI-accelerated. Recent work includes a clinical alerting platform used by NHS trusts, an edge-to-cloud analytics platform for Johnson & Johnson Medical, and the cloud platform behind a fielded detection-hardware fleet. Also open to contract engagements (Rails). Case studies and client testimonials on the site.",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50349800",
+    "id": "opp_6e250bc7597b",
+    "is_demo": false,
+    "match_score": 44.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T09:23:15Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 8.2,
+          "evidence": "Moderate description (>=300 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.8,
+          "evidence": "Matched 2 profile skills: python, sql. Covers 20% of the 10 skills this listing names (missing: analytics, api, aws, fastapi)."
+        }
+      },
+      "final_score": 50.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "fastapi",
+      "aws",
+      "typescript",
+      "node",
+      "analytics",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Location: Dorset, UK Remote: Yes Willing to relocate: No Technologies: Ruby on Rails, Python, TypeScript/Node, Go, Postg - contract role",
+    "updated_at": "2026-11-03T13:47:00+00:00",
+    "url": "https://news.ycombinator.com/item?id=50349800",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (69-93%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "75%",
+          "to": "81%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 93.0,
+      "probability_low": 69.0
+    }
+  },
   "opp_6e4445b79548": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -102070,6 +102754,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_70009fd37990": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Xperteez Technology",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:49:43+00:00",
+    "description": "Role Title: Registered Nurse Role Type: Contract Location: United States, Remote Compensation: $60-$70 USD per hour Required Skills: Inpatient clinical expertise Clinical documentation review Annotation of medical records Nursing judgment Evaluation of ai-generated clinical outputs Attention to detail Written and verbal communication Feedback provision Knowledge of inpatient workflows Collaboration with stakeholders In this role, you'll apply your inpatient clinical expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required. Your domain knowledge is what matters. Scope of Work: Annotate and review clinical content and inpatient documentation (nursing notes, progress notes, care plans, orders, lab results, and discharge summaries), ensuring accuracy, clinical soundness, and completeness. Evaluate AI-generated outputs for clinical accuracy, safety, and appropriateness across a range of inpatient populations and care scenarios. Apply bedside nursing judgment and knowledge of inpatient workflows, standards of care, and documentation practices to validate and enrich datasets. Collaborate with project stakeholders via written and verbal communication to clarify requirements and resolve ambiguities in clinical documentation. Provide high-quality feedback on guidelines and edge cases to improve project workflows and model understanding. Preferred \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/xperteez-technology/jobs/registered-nurse-remote-contract-6866000930",
+    "id": "opp_70009fd37990",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:49:44+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 44.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "registered-nurse",
+      "clinical-data-annotator",
+      "clinical-data-reviewer",
+      "ai-training-data-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Registered Nurse, Remote- Contract",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/xperteez-technology/jobs/registered-nurse-remote-contract-6866000930?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_7022b81e5784": {
@@ -112432,6 +113245,156 @@
       "probability_low": 4.0
     }
   },
+  "opp_7945bb0d34a7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 62.5,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "MarketBridge",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:46:43+00:00",
+    "description": "This is a remote role, required to work in EST hours. Who We Are Marketbridge is a leading integrated growth consulting and marketing services firm that accelerates performance from strategy through execution. We combine management consultancy with marketing agency expertise, all backed by marketing science, creative problem-solving, and technological know-how. Our integrated approach brings together teams, technology, data, strategies, processes, and plans to fuel sustainable revenue growth and build deeper, more resonant customer relationships. With a team of 300 professionals across global locations including Boston, D.C.,London, and Canada, Marketbridge partners with over 150 clients worldwide, including Amazon Web Services, AMD, MetLife, Flex and CERN. Who We're Looking For Marketbridge is seeking a Director, Marketing Analytics to lead the strategy, design, and evolution of the data and analytics capabilities that power modern marketing programs. This role sits at the intersection of marketing strategy, marketing technology, data operations, measurement, and business intelligence. The Director will help clients establish the connected data foundations required to activate audiences effectively, measure marketing performance accurately, and turn complex information into actionable business insight. The ideal candidate is equally comfortable discussing marketing objectives with senior client stakeholders and working with technical teams to implement and configure \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 414.68,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/market-bridge/jobs/director-marketing-analytics",
+    "id": "opp_7945bb0d34a7",
+    "is_demo": false,
+    "match_score": 85.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:46:44+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 74.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $415 on $415 (100% margin). $88 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $111 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 31.4,
+          "evidence": "Matched 4 profile skills: automation, etl, python, sql. Covers 67% of the 6 skills this listing names (missing: analytics, api)."
+        }
+      },
+      "final_score": 74.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 74.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "etl",
+      "api",
+      "automation",
+      "analytics",
+      "marketing-analytics",
+      "data-strategy",
+      "martech",
+      "business-intelligence",
+      "marketing-operations"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Director, Marketing Analytics",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/market-bridge/jobs/director-marketing-analytics?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_796a244c1c2b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -116820,6 +117783,133 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_7f9a8b666781": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We're building a marketplace where local ",
+    "competition_score": 85.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T13:47:00+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We're building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos. Currently in pilots in Mexico, Kenya, South Africa, Malawi. Looking for 1 dev to join a small tech team (3 people) working on this protocol and marketplace, which sits on top of a larger tech team of 30 people at UNICEF Digital Inclusion. Not your typical UN job or culture. https://jobs.unicef.org/en-us/job/596538/consultancy-connect... The rest of the team are in Barcelona/Geneva, but this role is remote. 6 month contract to start, with the aim to continue long term.",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50349615",
+    "id": "opp_7f9a8b666781",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T08:51:50Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 3.3,
+          "evidence": "Moderate description (>=300 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 15.3,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "remote"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We're building a marketplace where local - contract role",
+    "updated_at": "2026-11-03T13:47:00+00:00",
+    "url": "https://news.ycombinator.com/item?id=50349615",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "76%",
+          "to": "66%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_7fcbce4d3208": {
@@ -141631,6 +142721,130 @@
       ],
       "probability_high": 16.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_9a728aeca532": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "pdf_extraction",
+    "client": "Lifted (an Upwork Company)",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:56:42+00:00",
+    "description": "Review and annotate document images to accurately identify text, paragraphs, tables, and other document elements. Correct Optical Character Recognition (OCR) errors, including spelling mistakes, missing characters, formatting inconsistencies, and transcription inaccuracies. Create, review, and adjust bounding boxes to precisely capture text blocks, paragraphs, tables, and other document regions. Transcribe text exactly as it appears in source documents, preserving original characters, symbols, punctuation, diacritics, and formatting. Review and annotate tables, mathematical expressions, and LaTeX equations while maintaining structural and textual accuracy. Apply Markdown formatting consistently to represent document structures, including headings, lists, tables, and other elements. Process multilingual documents while preserving language-specific characters, writing systems, and special symbols. Follow project guidelines and annotation standards to ensure consistent, accurate, and reliable outputs. Identify discrepancies in annotated data and make corrections in accordance with established instructions. Maintain high levels of transcription accuracy and data quality while meeting project deadlines. Review complex document layouts and technical content to ensure the integrity of digitized information. Collaborate with project stakeholders and follow quality requirements throughout the document annotation process. Native or near-native proficiency in Afrikaans, Amharic, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.93,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.45,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.52,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/document-annotation-specialist-africa-1396369325",
+    "id": "opp_9a728aeca532",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T11:56:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 44.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "ocr",
+      "document-annotation-specialist",
+      "data-annotator",
+      "ocr-specialist",
+      "document-processing-associate",
+      "data-quality-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Document Annotation Specialist (Africa)",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/document-annotation-specialist-africa-1396369325?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_9a997c94b72e": {
@@ -198883,6 +200097,144 @@
       "probability_low": 4.0
     }
   },
+  "opp_d7ed7dc5e73e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 42,
+    "budget_min": 35,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Volga Partners",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-02T11:54:41+00:00",
+    "description": "Location: USA (Remote) Compensation: $35.00\u2013$42.00 USD per hour (depending on experience and qualifications) Schedule: On-Call | 0\u201320 hours per week based on project availability Help Shape the Future of AI in Finance, Audit & Risk Volga Partners is seeking experienced finance, audit, insurance, compliance, and legal professionals to join our growing network of on-call AI Evaluation Specialists supporting the development, training, and evaluation of next-generation artificial intelligence models. We're looking for professionals with real-world expertise who can evaluate AI-generated responses, apply critical thinking, and provide high-quality feedback within their area of specialization. Whether your background is in Investment Banking, FP&A, Fixed Income Research, Quantitative Finance, Claims Auditing, Forensic Auditing, Insurance Risk, Contract Compliance, or Commercial Disputes , this is an opportunity to apply your professional expertise in a unique and innovative way while working remotely on a flexible schedule. This opportunity is ideal for professionals seeking supplemental income, consulting work, flexible contract assignments, or exposure to cutting-edge AI technologies. Employment Type On-Call Temporary Contract Assignment This is an on-call, project-based contract opportunity supporting ongoing AI training and evaluation initiatives. Candidates selected for this opportunity will become part of Volga Partners ' on-call network of subject matter experts. As client \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 350.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/volga-partners/jobs/forensic-auditing-subject-matter-expert-ai-evaluation-specialist-on-call-618126708",
+    "id": "opp_d7ed7dc5e73e",
+    "is_demo": false,
+    "match_score": 74.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-03T11:54:43+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 68.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $350 on $350 (100% margin). $74 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $117 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 27.6,
+          "evidence": "Matched 4 profile skills: excel, financial modeling, forecasting, statistics. Covers 50% of the 8 skills this listing names (missing: analytics, api, machine learning, rest)."
+        }
+      },
+      "final_score": 68.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "machine learning",
+      "forecasting",
+      "statistics",
+      "analytics",
+      "financial modeling",
+      "ai-evaluation-specialist",
+      "forensic-auditing",
+      "financial-analysis",
+      "subject-matter-expert",
+      "audit-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Forensic Auditing Subject Matter Expert | AI Evaluation Specialist (On-Call)",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/volga-partners/jobs/forensic-auditing-subject-matter-expert-ai-evaluation-specialist-on-call-618126708?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d88b7420f685": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -211835,6 +213187,136 @@
       ],
       "probability_high": 80.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_e68f8418a7fd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Blue Ocean Corporation India PVT LTD",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-03T13:47:01+00:00",
+    "currency": "INR",
+    "deadline": "2027-01-02T11:43:43+00:00",
+    "description": "Deliver training programs on workplace health, safety, and environmental management practices. Conduct sessions on risk assessment, hazard identification, and safety compliance. Prepare learners for certifications such as NEBOSH and IOSH. Provide real-life case studies and industry-specific safety scenarios. Conduct safety drills, simulations, and emergency response exercises. Evaluate participant understanding through assessments and discussions. Ensure training aligns with regulatory and compliance standards. Guide learners on implementing safety practices in their workplaces. Stay updated with local and international HSE regulations. Submit detailed training reports and feedback. Requirements NEBOSH or IOSH certification (mandatory requirement). Minimum 5+ years of experience in HSE roles. Strong knowledge of workplace safety standards and regulations. Experience in industrial, construction, or corporate safety environments. Prior experience in delivering HSE training programs. Excellent communication and presentation skills. Ability to conduct practical and scenario-based training sessions. Strong attention to detail and compliance requirements. Ability to engage participants effectively. Availability for freelance assignments. Originally posted on Himalayas",
+    "discovered_by_run": "20261103T134659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blue-ocean-corporation-india-pvt-ltd/jobs/trainer-hse-health-safety-environment-freelance",
+    "id": "opp_e68f8418a7fd",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-03T11:43:44+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "ehs-trainer",
+      "safety-trainer",
+      "training-specialist",
+      "corporate-trainer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Trainer - HSE - Health, Safety & Environment (Freelance)",
+    "updated_at": "2026-11-03T13:47:01+00:00",
+    "url": "https://himalayas.app/companies/blue-ocean-corporation-india-pvt-ltd/jobs/trainer-hse-health-safety-environment-freelance?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e69c204d901e": {
