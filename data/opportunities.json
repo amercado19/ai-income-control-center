@@ -33656,6 +33656,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_26c2242b103b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 25.13,
+    "budget_min": 20.11,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Los-Angeles-Pacific-University",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-05T05:37:52+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-04T04:02:53+00:00",
+    "description": "Job Description The Collections Specialist oversees internal and external student accounts receivables for students navigating institutional financial obligations. Emphasizing proactive accounts receivable management and compliant collections, this role delivers exceptional, solution-oriented service to students and partners to promote student retention and fiscal responsibility across the university. Number of Open Positions :1 Application Materials: Please submit a PDF of your resume/CV and provide at least two professional references who have served as your supervisor. Upload these files under the Documents section, located after \"Links\" and before \"Questions\" in the application. Please note that the email address you provide will serve as your account username for all future notifications. For any questions, please contact us at . Compensation : This is a Full-time , Non-exempt position at Grade 6 , with a starting hourly range of $20.11 \u2013 $25.13 . Salary ranges listed here represent a good faith and reasonable estimate of the range of possible compensation at the time of posting. Actual compensation will depend on several factors, including but not limited to, the candidate\u2019s relevant experience and qualifications Primary work location: Remote: This position is classified as \"Remote\". The employee's home office is the primary work location and must be located in a state APU Global is registered in. The classification of this position is subject to change based on \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261105T053751Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 56.51,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/los-angeles-pacific-university/jobs/collections-specialist",
+    "id": "opp_26c2242b103b",
+    "is_demo": false,
+    "match_score": 38.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-05T04:02:54+00:00",
+    "profit_score": 39.1,
+    "risk_flags": [],
+    "score": 55.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.2,
+          "evidence": "Estimated net $57 on $57 (100% margin). $62 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $202 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 14.1,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: aws, data entry, google sheets, pdf)."
+        }
+      },
+      "final_score": 55.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "aws",
+      "pdf",
+      "data entry",
+      "collections-specialist",
+      "student-accounts-specialist",
+      "accounts-receivable-specialist",
+      "student-financial-aid-specialist",
+      "receivables-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Collections Specialist",
+    "updated_at": "2026-11-05T05:37:52+00:00",
+    "url": "https://himalayas.app/companies/los-angeles-pacific-university/jobs/collections-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_26e4f387d2e0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -147538,6 +147680,129 @@
       "probability_low": 15.0
     }
   },
+  "opp_9ad01b2900d9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "W&W Informatik GmbH",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-05T05:37:52+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-04T04:00:52+00:00",
+    "description": "Aufgaben Ihre wichtigsten Erfolgsziele Sie sichern einen kontinuierlichen Zufluss an Vermittlungsmandaten. Als selbst\u00e4ndiger Handelsvertreter (m/w/d) nach \u00a7 84 HGB etablieren Sie dazu eine klare Vertriebsstrategie, um sowohl selbst als auch gemeinsam mit Ihrem Team regelm\u00e4\u00dfig neue Objekte sowie Interessentinnen und Interessenten zu akquirieren, mit dem Ergebnis einer stabilen Pipeline an Vermittlungsmandaten, die planbare Ums\u00e4tze erm\u00f6glicht. Eigent\u00fcmerinnen und Eigent\u00fcmer sowie Interessentinnen und Interessenten durch einen professionellen Vermittlungsprozess f\u00fchren. Von der normierten Immobilienbewertung \u00fcber individuelle Vermarktungskonzepte bis zur Vertragsunterzeichnung schaffen Sie strukturierte Prozesse, die Effizienz, Qualit\u00e4t und Skalierbarkeit erm\u00f6glichen. Sie positionieren die Marke und das Team als f\u00fchrenden Immobilienanbieter in der Region. Sie analysieren Ihren Markt, erkennen Chancen fr\u00fchzeitig und entwickeln eigene Marketingma\u00dfnahmen, die Sie als Team in Ihrer Region eindeutig positionieren, um eine sp\u00fcrbare Reichweite und ein wachsendes Standing als verl\u00e4sslicher Immobilienanbieter zu erreichen. Ein tragf\u00e4higes Netzwerk aufbauen und pflegen . Sie erschlie\u00dfen gemeinsam mit Ihrem Team das W&W Netzwerk und etablieren ein umfangreiches Partnernetzwerk aus Eigent\u00fcmerinnen und Eigent\u00fcmern, Tippgeberinnen und Tippgebern, Dienstleisterinnen und Dienstleistern und lokalen Kontakten, das Ihr Gesch\u00e4ft langfristig tr\u00e4gt. Ausbau und Weiterentwicklung der Vertriebseinheit \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261105T053751Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/w-w-informatik-gmbh/jobs/immobilienmakler-m-w-d-als-verkaufsleitung-bundesweit-de",
+    "id": "opp_9ad01b2900d9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-05T04:00:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "verkaufsleitung",
+      "real-estate-sales-management",
+      "immobilienmakler",
+      "vertriebsleiter",
+      "regional-sales-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Immobilienmakler (m/w/d) als Verkaufsleitung (bundesweit, DE)",
+    "updated_at": "2026-11-05T05:37:52+00:00",
+    "url": "https://himalayas.app/companies/w-w-informatik-gmbh/jobs/immobilienmakler-m-w-d-als-verkaufsleitung-bundesweit-de?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_9ae54a81e572": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -162428,6 +162693,129 @@
       "probability_low": 15.0
     }
   },
+  "opp_a9419d43f34e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Flatcare",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-05T05:37:52+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-04T04:02:05+00:00",
+    "description": "Do zada\u0144 Specjalisty ds. Pozyskiwania Nieruchomo\u015bci nale\u017c\u0105: aktywny udzia\u0142 w spotkaniach wewn\u0119trznych firmy, tworzeniu nowych proces\u00f3w i optymalizacji aktualnych, telefoniczny kontakt z w\u0142a\u015bcicielami mieszka\u0144, pozyskiwanie mieszka\u0144 do bazy, dopasowywanie odpowiednich ofert do klienta, prowadzenie dokumentacji. Oczekujemy: otwarto\u015bci i czerpania rado\u015bci z kontaktu z drugim cz\u0142owiekiem, gotowo\u015bci na codziennie nowe wyzwania, wysokiej motywacji, samodzielno\u015bci i umiej\u0119tno\u015bci organizacji w\u0142asnej pracy, umiej\u0119tno\u015bci szybkiego podejmowania decyzji, pozytywnego nastawienia i du\u017co u\u015bmiechu. Je\u015bli nie masz do\u015bwiadczenia - nie martw si\u0119! Wszystkiego Ci\u0119 nauczymy. :) Je\u017celi jeste\u015b gotowy/-a, by zosta\u0107 Specjalist\u0105 ds. Pozyskiwania Nieruchomo\u015bci we Flatcare , aplikuj do naszej firmy, wysy\u0142aj\u0105c nam swoje CV. A tak wygl\u0105da rekrutacja do zespo\u0142u Flatcare : Pierwszym krokiem jest kr\u00f3tka rozmowa telefoniczna, dzi\u0119ki kt\u00f3rej wst\u0119pnie si\u0119 poznamy. Na pierwszej wideokonferencji lub spotkaniu w biurze, opr\u00f3cz mo\u017cliwo\u015bci zadania bardziej szczeg\u00f3\u0142owych pyta\u0144 przez obie strony, przeprowadzimy z Tob\u0105 kr\u00f3tk\u0105 scenk\u0119 sprzeda\u017cow\u0105. Drugie i ostatnie spotkanie/wideokonferencja to lu\u017ana rozmowa z CEO. Szanujemy czas ka\u017cdego z Was, dlatego o wyniku dajemy zna\u0107 na ka\u017cdym etapie rekrutacji. Informacje o przetwarzaniu danych osobowych https://docs.google.com/document/d/1DrsCsbWVDSJ6ZhLEMIROPskAWBHokCwlol7R-Lde27M/edit?usp=sharing Flatcare powsta\u0142o z ch\u0119ci zmiany zasad panuj\u0105cych na rynku nieruchomo\u015bci. Ka\u017cdego \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261105T053751Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/flatcare/jobs/specjalista-ds-pozyskiwania-nieruchomosci",
+    "id": "opp_a9419d43f34e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-05T04:02:05+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "property-acquisition-specialist",
+      "real-estate-agent",
+      "sales-specialist",
+      "real-estate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Specjalista ds. Pozyskiwania Nieruchomo\u015bci",
+    "updated_at": "2026-11-05T05:37:52+00:00",
+    "url": "https://himalayas.app/companies/flatcare/jobs/specjalista-ds-pozyskiwania-nieruchomosci?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a985397ddb55": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -167186,6 +167574,144 @@
     "title": "Director of Product Marketing",
     "updated_at": "2026-10-08T23:02:31+00:00",
     "url": "https://himalayas.app/companies/teladoc-health/jobs/director-of-product-marketing",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_af8fc2468682": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AFCA",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-05T05:37:52+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-04T03:52:57+00:00",
+    "description": "Join AFCA as a Sessional Ombudsman and make a meaningful impact in Investment and Advice (I&) disputes. The I&A decision-making team at AFCA , led by Lead Ombudsman, Shail Singh , plays a pivotal role in resolving complex complaints and working closely with regulatory, industry and consumer stakeholders to address key issues affecting the investment and advice sector. We are seeking an experienced Sessional Ombudsman to join our dynamic, highly collaborative team. This is an opportunity to contribute your expertise on a flexible, per\u2011engagement basis , supporting fair and timely dispute resolution. As part of our pool of skilled dispute\u2011resolution professionals, you\u2019ll have access to AFCA \u2019s resources, specialist teams, and ongoing support. Engagements vary based on your availability, ranging from one day a week for several months , to a few days per month , or longer-term arrangements. It\u2019s flexibility with purpose and allows you to pursue other interests or responsibilities. This role is ideally suited to a senior, legally qualified professional with deep I&A sector experience and a proven record of achievement. If you\u2019re at a stage in your career where you\u2019re looking to apply your judgement, experience and leadership to work that drives positive outcomes and strengthens the sector whilst still pursuing personal interests, we\u2019d love to hear from you. This is a Board\u2011appointed, fixed\u2011term position for three years , with the flexibility to work remotely if that suits your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261105T053751Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/afca/jobs/sessional-ombudsman-investment-advice-2151700176",
+    "id": "opp_af8fc2468682",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-05T03:52:58+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "ombudsman",
+      "legal-specialist",
+      "financial-compliance-officer",
+      "resolution-officer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sessional Ombudsman, Investment & Advice",
+    "updated_at": "2026-11-05T05:37:52+00:00",
+    "url": "https://himalayas.app/companies/afca/jobs/sessional-ombudsman-investment-advice-2151700176?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -234054,6 +234580,137 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_f35ce4c21bd0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Virtucruit",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-05T05:37:52+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-04T03:53:22+00:00",
+    "description": "We are seeking a proactive and results-driven Freelance Recruiter.The Recruiter will represent our company while working directly with the client\u2019s stakeholders, managing the full recruitment lifecycle and ensuring alignment with hiring goals, KPIs, and business priorities. Key Responsibilities Manage the full-cycle recruitment process for assigned roles Partner directly with client hiring managers to understand hiring needs, role requirements, and workforce planning Develop and execute sourcing strategies using job boards, LinkedIn, networking, referrals, and direct outreach Conduct candidate screening interviews and assessments Coordinate and schedule interviews between candidates and client stakeholders Provide market insights, talent availability data, and hiring recommendations Maintain accurate records in the ATS and ensure recruitment data integrity Track and report on recruitment KPIs (time-to-fill, pipeline activity, submission-to-interview ratio, offer acceptance rate, etc.) Ensure an excellent candidate experience aligned with the client\u2019s employer brand Operate autonomously while maintaining strong communication and transparency with both the client and internal leadership Qualifications Bachelor\u2019s degree in Human Resources, Business Administration, or related field 2+ years of experience in recruitment (agency or in-house) Experience working in a client-facing or embedded recruitment model is a plus Strong sourcing and headhunting capabilities Familiarity with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261105T053751Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/virtucruit/jobs/recruiter-4518728354",
+    "id": "opp_f35ce4c21bd0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-05T03:53:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "recruiter",
+      "talent-acquisition-specialist",
+      "technical-recruiter",
+      "agency-recruiter",
+      "contract-recruiter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Recruiter",
+    "updated_at": "2026-11-05T05:37:52+00:00",
+    "url": "https://himalayas.app/companies/virtucruit/jobs/recruiter-4518728354?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f37e3a6a5dc3": {
