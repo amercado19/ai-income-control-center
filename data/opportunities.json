@@ -92889,6 +92889,146 @@
       "probability_low": 21.0
     }
   },
+  "opp_5d9fb202ab3a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Edgewater Federal Solutions, Inc.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-09T05:06:15+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: United States URL: https://www.edgewaterit.com Overview Edgewater Federal Solutions is seeking an experienced Full-Stack Platform Engineer . The Full-Stack Platform Engineer provides senior technical leadership and hands-on engineering for a secure enterprise data analytics platform supporting a federal environment. The role designs and delivers scalable web applications, APIs, data integrations, cloud solutions, and secure development practices while guiding technical decisions and resolving complex platform issues. *Due to the nature of the work and contract - US Citizenship is required. *This is a remote role. Responsibilities Responsibilities include, but are not limited to the following: Lead architecture, design, and development of full-stack solutions using React, Node.js/Express, Python (Flask/FastAPI), REST APIs, and advanced SQL. Design and support cloud-based data integrations, ETL/ELT pipelines, Databricks or equivalent analytics services, and data quality capabilities. Establish secure engineering and DevSecOps practices, including CI/CD, automated security testing, containerization, infrastructure as code, and code reviews. Integrate AI/ML capabilities, including LLM APIs, RAG patterns, prompt engineering, and secure handling of sensitive data. Architect solutions within AWS using appropriate IAM, networking, secrets management, encryption, logging, and security controls. Provide technical leadership, mentor engineers, support production \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/edgewater-federal-solutions-inc-full-stack-platform-engineer",
+    "id": "opp_5d9fb202ab3a",
+    "is_demo": false,
+    "match_score": 66.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 09 Nov 2026 01:53:39 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.1,
+          "evidence": "Matched 5 profile skills: ci/cd, etl, python, rest api, sql. Covers 27% of the 15 skills this listing names (missing: analytics, api, aws, docker)."
+        }
+      },
+      "final_score": 55.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "etl",
+      "api",
+      "rest",
+      "fastapi",
+      "flask",
+      "aws",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "ci/cd",
+      "react",
+      "node",
+      "analytics"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Edgewater Federal Solutions, Inc.: Full-Stack Platform Engineer",
+    "updated_at": "2026-11-09T05:06:15+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/edgewater-federal-solutions-inc-full-stack-platform-engineer",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (45-61%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+12%",
+          "factor": "Strong skill alignment",
+          "from": "35%",
+          "to": "47%",
+          "why": "5 profile skills named: ci/cd, etl, python, rest api, sql."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "47%",
+          "to": "53%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 61.0,
+      "probability_low": 45.0
+    }
+  },
   "opp_5da2a25fce22": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -99176,6 +99316,145 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_635915b75f4f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 125.05,
+    "budget_min": 82.93,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Salesforce",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:10:53+00:00",
+    "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Sales Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce 's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce . Help Build the Strategic Ecosystem Powering Agentforce Agentforce is Salesforce 's defining bet on the agentic AI era \u2014 and the team behind it needs a world-class strategic ecosystem to match. This role plays a key role in our Next-Gen BD motion: the forward-deployed business development team that builds that ecosystem from scratch, incubating 0-to-1 partnerships and recruiting and scaling the next generation of AI-native partners whose agents and integrations will extend what Agentforce can do for customers. AgentExchange is the marketplace and platform at the center of this effort \u2014 where Salesforce 's most strategic agentic partnerships come to life. This is one of Salesforce \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 829.3,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/salesforce/jobs/senior-manager-ai-partnerships",
+    "id": "opp_635915b75f4f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-09T04:10:54+00:00",
+    "profit_score": 83.0,
+    "risk_flags": [],
+    "score": 47.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.3,
+          "evidence": "Estimated net $829 on $829 (100% margin). $175 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $276 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 47.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "ai-partnerships-manager",
+      "partnerships-manager",
+      "partnership-product-manager",
+      "business-development-manager",
+      "ecosystem-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Manager, AI Partnerships",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/salesforce/jobs/senior-manager-ai-partnerships?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_638e82d32f54": {
@@ -115595,6 +115874,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_70414ce0c353": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 24,
+    "budget_min": 20,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Vanguard College Prep",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:09:07+00:00",
+    "description": "About the Job Do you remember the teacher who went above and beyond to help you realize your potential? At Vanguard College Prep , we are looking for educators ready to pay that forward. Where other test prep companies hire part-time gig workers to teach 'hacks,' we hire full-time professionals to build lasting core skills. We don't run an assembly line; we treat every student as an individual, preparing them for top-tier colleges and beyond. Compensation: Base Pay: $20.00 \u2013 $24.00 / hour (40 hours/week) Health & Wellness: Comprehensive medical, dental, and vision insurance Time Off: Paid Time Off (PTO), paid sick days, plus fully paid winter vacations What You Will do: Teach and Inspire: Instruct small groups of students in their English core skills to promote long-term understanding of topics and top scores in their college readiness exams (ACT & SAT). Track Growth: Track your students\u2019 progress as they move through Vanguard\u2019s unique multi-phase curriculum, engaging students in individualized growth and improvement opportunities along the way. Manage and Model: Maintain and update student lesson schedules, hold them accountable for assignments, and model professionalism along with strong organizational skills through timely student communication. Innovate: Spearhead the development and creative execution of ever-evolving lesson plans and curriculum. Mentor: Guide middle and high school students with empathy and an innate understanding that the college application process \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 150.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/vanguard-college-prep/jobs/english-instructor-ft-remote-tx-7474532309",
+    "id": "opp_70414ce0c353",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-09T04:09:09+00:00",
+    "profit_score": 19.0,
+    "risk_flags": [],
+    "score": 57.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.5,
+          "evidence": "Estimated net $150 on $150 (100% margin). $32 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $40 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "english-teacher",
+      "test-preparation-instructor",
+      "academic-tutor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "English Instructor (FT) Remote - TX",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/vanguard-college-prep/jobs/english-instructor-ft-remote-tx-7474532309?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_708f62f8f3a8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -130956,6 +131364,137 @@
       "probability_low": 4.0
     }
   },
+  "opp_7e03863993d1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "GPC",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:08:12+00:00",
+    "description": "Medical Copywriter South Africa (Remote). 4 month FTC About Greenpark Greenpark is a global, award-winning digital agency specialising in omnichannel search and social. Our raison d\u2019etre is to create amazing content that people and algorithms love. How? Through data-led and performance-driven search and social content to help brands create meaningful connections that impact people's lives. Our unique expertise in Omnichannel Search & Insights, Creative Content and Performance Tech are delivered to our clients via an ad agency and in-house models. We do this for a global client portfolio including Unilever, Campari Group, AIA, Sanofi, Nestle, Lipton, Kimberley Clark, Straumann, Ricola, Globe Telecom, and more. Want the real inside scoop? Our Playbook gives you a peek into how we work, collaborate, and get things done at Greenpark. Check it out here. Our Values As a company, we strive and act together in our ambition to make a positive impact for the people and brands we serve, we do everything with kindness and respect at the core. \u2018We Strive\u2019, \u2018Acting Together\u2019, \u2018With Kindness\u2019 are the values that guide us. About the role This Copywriter should possess an understanding of pharmaceutical marketing and be able to communicate brand objectives to authentically connect with audiences. The Copywriter will need to translate complex details of various therapeutic areas (Oncology, CVRM, RIA, V&I and RDU) and thoroughly understand the products, their scientific position, brand \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/gpc/jobs/medical-copywriter-south-africa",
+    "id": "opp_7e03863993d1",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T04:08:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "medical-copywriter",
+      "copywriter",
+      "content-writer",
+      "medical-writer",
+      "healthcare-copywriter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Medical Copywriter (South Africa)",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/gpc/jobs/medical-copywriter-south-africa?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_7e102326f733": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -138213,6 +138752,135 @@
     "title": "Experienced Clinical Research Associate, IQVIA Biotech - Home based, Italy",
     "updated_at": "2026-11-04T23:19:43+00:00",
     "url": "https://himalayas.app/companies/iqvia/jobs/experienced-clinical-research-associate-iqvia-biotech-home-based-italy?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_868c5743b76f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "Sight Sea Travel Company",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:19:53+00:00",
+    "description": "Customer Service Representative We are seeking a detail-oriented and client-focused professional to design and coordinate personalized trip experiences for individuals, families, and groups. This role is centered on delivering seamless planning support, high-quality recommendations, and exceptional service from initial inquiry through final confirmation. What You'll Do: Consult with clients to understand preferences, budgets, and desired experiences Design customized itineraries including accommodations, activities, transportation, and special requests Research destinations, resorts, cruises, and curated experiences to match client needs Coordinate reservations and ensure all components of the itinerary are accurate and confirmed Communicate updates, options, and recommendations in a clear and timely manner Provide ongoing support before and during scheduled trips Build strong client relationships through consistent follow-up and service excellence What We're Looking For: Strong communication and interpersonal skills Highly organized with excellent attention to detail Comfortable managing multiple requests and timelines simultaneously Ability to research and present tailored recommendations Prior experience in hospitality, customer service, sales support, or concierge-style roles preferred Tech-savvy and comfortable using booking platforms and online tools Self-motivated with a professional and client-first mindset What We Offer: Structured onboarding and training resources \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sight-sea-travel-company/jobs/customer-service-representative-travel",
+    "id": "opp_868c5743b76f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-09T04:19:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 54.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 54.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "travel-customer-service-representative",
+      "travel-consultant",
+      "concierge-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Service Representative - Travel",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/sight-sea-travel-company/jobs/customer-service-representative-travel?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -175762,6 +176430,127 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_a8ded48129f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:20:16+00:00",
+    "description": "Role Title: Simulation Expert \u2014 Real-to-Sim 3D Environments & Assets Role Type: Contractor Location: Remote micro1 is engaging Simulation Experts \u2014 Real-to-Sim 3D Environments & Assets to contribute to a customer\u2019s project focused on advanced simulation and artificial intelligence training. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Key Responsibilities: Build and configure 3D assets and environments in simulation platforms (Isaac Sim, Gazebo, MuJoCo, or similar) Translate real-world objects and instruments into simulation, matching geometry, scale, material, and physical behavior Collaborate with scientists and subject-matter experts to validate accuracy of simulated environments Tune physical parameters (mass, friction, collision properties, joint dynamics) so simulated objects behave like their real counterparts Troubleshoot discrepancies between simulated and real-world behavior Qualifications: Hands-on experience with at least one robotics/physics simulation platform (Isaac Sim, Gazebo, MuJoCo, Unity, Unreal, PyBullet, etc.) Background in 3D modeling, CAD, or environment design Understanding of physics simulation (rigid body dynamics, materials, sensors) Strong collaboration skills working with scientific/technical stakeholders Attention to detail in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/simulation-expert-real-to-sim-3d-environments-assets",
+    "id": "opp_a8ded48129f8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T04:20:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "simulation-engineer",
+      "simulation-developer",
+      "simulation-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Simulation Expert \u2014 Real-to-Sim 3D Environments & Assets",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/simulation-expert-real-to-sim-3d-environments-assets?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_a9013c67f12b": {
@@ -255006,6 +255795,148 @@
       "probability_low": 4.0
     }
   },
+  "opp_f4d1e1a31103": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ingredion",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:20:47+00:00",
+    "description": "LOCATION: Mexico City or Gudalajara Remote REPORTS TO: Global CRM Manager Company Background: Ingredion is a Fortune 500 provider of ingredient solutions that helps nourish, comfort, sustain, and delight people around the world. Ingredion \u2019s wide range of ingredient solutions is strategically designed to address changing consumer trends and preferences. Our specialty portfolio includes starch-based texturizers, clean and simple ingredients, plant-based proteins, sugar reduction and specialty sweeteners, and food systems. Our innovative ingredient solutions are used by consumers in everyday products, from foods and beverages to paper and pharmaceuticals. And we do it all in a planet-friendly sustainable manner. We bring the potential of people, nature, and technology together to make life better. The Sr. Salesforce Business Analyst will lead high value projects related to Salesforce in an agile development environment, working with business stakeholders, technical staff, and partners to deliver solutions that improve sales and sales support productivity and effectiveness through automation, process improvement, user experience, and analytics. The Sr. Salesforce Business Analyst will evaluate enhancement requests from end users to determine need, feasibility, and offer recommendations to optimize platform functionality and gain consensus among key business stakeholders on harmonized functional requirements with suggested prioritization based on anticipated business impact. To \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ingredion/jobs/senior-analyst-salesforce-602463994",
+    "id": "opp_f4d1e1a31103",
+    "is_demo": false,
+    "match_score": 56.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T04:20:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.7,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 40% of the 5 skills this listing names (missing: analytics, api, aws)."
+        }
+      },
+      "final_score": 51.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "automation",
+      "analytics",
+      "salesforce-business-analyst",
+      "crm-analyst",
+      "senior-business-analyst",
+      "salesforce-administrator",
+      "crm-product-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Analyst, Salesforce",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/ingredion/jobs/senior-analyst-salesforce-602463994?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_f509f78c4c64": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -266770,6 +267701,140 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_fea74383c28e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "CINC",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-09T05:06:14+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T04:22:01+00:00",
+    "description": "About Real Geeks Real Geeks is a leading real estate technology company helping agents and teams build their brands, generate leads, nurture relationships, and grow their businesses. Our integrated platform combines IDX websites, CRM, marketing automation, AI-powered tools, and lead generation solutions to help real estate professionals build stronger, more sustainable businesses. We're a relatively small, fast-moving technology company with ambitious goals. We're looking for a marketing leader who can help us sharpen our positioning, elevate our brand, and accelerate growth. The Opportunity We're looking for a strategic, hands-on marketing leader to own and drive our marketing strategy. This is a high-impact leadership role for someone who knows how to turn great positioning into compelling campaigns, brand awareness into demand, product innovation into customer adoption, and marketing investments into measurable business results. You'll lead a small team of marketing professionals and work closely with our Sales, Product, and Training teams to ensure our messaging, campaigns, product launches, and customer experience are aligned. We don't need someone who simply manages marketing activities. We need a driver, a changemaker, and a builder. Someone who challenges the status quo, brings fresh ideas, sets a clear direction, and inspires others to execute. You'll need to think strategically, act decisively, and be comfortable getting into the details. We're a lean organization, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261109T050612Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cinc/jobs/head-of-marketing",
+    "id": "opp_fea74383c28e",
+    "is_demo": false,
+    "match_score": 82.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T04:22:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.9,
+          "evidence": "Matched 3 profile skills: automation, dashboard, excel. Covers 75% of the 4 skills this listing names (missing: rest)."
+        }
+      },
+      "final_score": 54.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "automation",
+      "dashboard",
+      "head-of-marketing",
+      "marketing-director",
+      "vp-of-marketing",
+      "demand-generation-director",
+      "product-marketing-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Head of Marketing",
+    "updated_at": "2026-11-09T05:06:14+00:00",
+    "url": "https://himalayas.app/companies/cinc/jobs/head-of-marketing?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_febda6467369": {
