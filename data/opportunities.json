@@ -5097,6 +5097,130 @@
       "probability_low": 3.0
     }
   },
+  "opp_04e3cfa3ec79": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 350,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 45.1,
+    "confidence": 65.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:31:10+00:00",
+    "description": "Role Title: Consulting Specialist - Executive Presentation Review Role Type: Contractor Location: Remote (US, UK and CAN) micro1 is engaging Consulting Specialists to contribute their advanced skills in presentation design, data visualization, and content editing to a customer's project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Prior management consulting experience is required for this role \u2014 at least two years in a client-facing role at a consulting firm. Scope of Work Reconstruct and enhance Microsoft PowerPoint slides to elevate clarity, visual appeal, and impact. Design compelling presentations that effectively communicate complex ideas through visual storytelling and data visualization. Edit and refine slide content to ensure precision, consistency, and audience engagement. Analyze provided materials and translate information into clear, concise, and visually engaging formats. Apply critical thinking to identify areas for improvement in slide structure, flow, and coherence. Collaborate virtually to deliver prompt feedback and high-quality presentation assets as part of a larger initiative. Contribute real-world examples and domain-specific insights to bolster the training and evaluation of AI models. Preferred Qualifications Proven expertise in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1125.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/consulting-specialist-1238616666",
+    "id": "opp_04e3cfa3ec79",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:31:10+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 68.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $240 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: data visualization."
+        }
+      },
+      "final_score": 68.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Consulting Specialist",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/consulting-specialist-1238616666?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_04ffbfa54504": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -6939,6 +7063,143 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_06f3d29e21a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "SAPSOL Technologies Inc.",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:18:08+00:00",
+    "description": "Position: 7089 - Senior Software Engineer Mode: Long term contract Remote-only Accepted? YES Profile: This is a senior backend individual contributor role. The team seeks a technically strong backend engineer who can design solutions and provide hands-on support. Process/Submission Rules: List Tech Stack Grid in Submission notes. Once a candidate is invited to interview, the team will either hold an initial 30-minute call with the manager, followed by a 1 to 1.5 hour interview with the team, or move straight to a technical interview with the team if the resume looks solid. Tech Stack Grid Technology Some Awareness (1) Novice (2) Intermediate (3) Advanced (4) Expert (5) Languages and runtime Node.js Development 4 TypeScript (JavaScript ES6+) 4 AWS compute and messaging AWS - Lambda 4 AWS - SNS/SQS 3 AWS CLI 3 AWS data and storage AWS - DynamoDB 4 AWS - S3 4 AWS - Athena 2 AWS - Glue 2 Infrastructure as code AWS CDK 4 Source control and CI/CD Git 4 GitHub Actions (CI/CD) 3 Architecture SaaS / multi-tenant application design 3 AI coding tools Claude Code (agentic coding) 3 GitHub Copilot 3 About the Role As a Senior Software Engineer, you will design, build, test, deploy and document backend solutions on AWS, including the infrastructure and delivery pipelines that run them. You will improve shared patterns and components and help the team move its systems forward. You will report to the Senior Director and work in agile teams that build and maintain highly visible, critical \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sapsol-technologies-inc/jobs/backend-software-engineer",
+    "id": "opp_06f3d29e21a8",
+    "is_demo": false,
+    "match_score": 61.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:18:09+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 22.5,
+          "evidence": "Matched 3 profile skills: ci/cd, github actions, sql. Covers 38% of the 8 skills this listing names (missing: api, aws, javascript, node)."
+        }
+      },
+      "final_score": 54.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 54.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "aws",
+      "github actions",
+      "ci/cd",
+      "javascript",
+      "typescript",
+      "node",
+      "software-engineer",
+      "backend-engineer",
+      "cloud-software-engineer",
+      "aws-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Backend Software Engineer",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/sapsol-technologies-inc/jobs/backend-software-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_071b4a3cf1aa": {
@@ -11351,6 +11612,147 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_0b3db448020d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 113.58,
+    "budget_min": 68.15,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:20:09+00:00",
+    "description": "Job Title: Associate Director - Real World Biostatistics - Remote in the US or the UK Job Location: Collegeville, Pennsylvania, United States of America Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: We create a place where people can grow, be their best, be safe, and feel welcome, valued and included. We offer a competitive salary, an annual bonus based on company performance, healthcare and wellbeing programs, pension plan membership, and shares and savings programme. We embrace modern work practices; our Performance with Choice programme offers a remote or hybrid working model, empowering you to find the optimal balance between remote and in-office work. Discover more about our company-wide benefits and life at GSK on our webpage Life at GSK | GSK Find out more about GSK and R&D: Our approach to R&D Associate Director - Real World Biostatistics As an Associate Director - Real World Biostatistics,you will lead the design and delivery of biostatistical methods and analyses for real-world data to support access and patient impact in the United States. The role advises on and applies advanced biostatistical methods and AI tools to real world data (RWD) to generate real world evidence (RWE) for informing trial design, regulatory submissions, reimbursement and safety signals. You will collaborate closely with diverse teams across medical affairs, epidemiology, health economics, market access, and external partners. We value candidates who are \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 511.13,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/associate-director-real-world-biostatistics-remote-in-the-us-or-the-uk",
+    "id": "opp_0b3db448020d",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:20:11+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 66.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $511 on $511 (100% margin). $109 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $136 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: excel, statistics. Covers 50% of the 4 skills this listing names (missing: aws, data science)."
+        }
+      },
+      "final_score": 66.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "data science",
+      "statistics",
+      "associate-director-of-biostatistics",
+      "biostatistics-director",
+      "real-world-evidence-director",
+      "senior-biostatistician",
+      "pharmacoepidemiology-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Associate Director - Real World Biostatistics - Remote in the US or the UK",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/associate-director-real-world-biostatistics-remote-in-the-us-or-the-uk?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_0b6285274c4d": {
@@ -17633,6 +18035,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_11c8716cbf0a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Extend Your Team",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "WHY JOIN EYT? \u00c2 Monthly Rate: Php80,000 - Php100,000 +$1,000 Sign-On Bonus \u00e2\u0080\u0094 Start in November or December 2026! \u00c2 New hires whose contractor start date falls within November or December 2026 are eligible for a $1,000 USD sign-on bonus. The bonus is paid in two installments at the 2-month and 4-month engagement milestones. Terms and conditions apply. \u00c2 Benefits That Work for You HMO Coverage \u00e2\u0080\u0094 Support for your health and peace of mind. $121 USD Monthly Meal Allowance \u00e2\u0080\u0094 A little extra to fuel your workday. 10 Days of Paid Time Off \u00e2\u0080\u0094 Time to recharge and attend to personal priorities. Annual Rate Increase \u00e2\u0080\u0094 Celebrate your contractor anniversary with a performance-based rate increase. Internet Allowance \u00e2\u0080\u0094 Extra support to stay connected. Work Devices and Accessories Provided \u00e2\u0080\u0094 The tools you need to get started. December Bonus \u00e2\u0080\u0094 A year-end reward for qualifying performance. Additional Maternity Leave \u00e2\u0080\u0094 Up to 6 weeks of paid leave, separate from your regular PTO.* \u00c2 Annual rate increases and December bonuses depend on meeting performance requirements and are not guaranteed. Maternity leave entitlement depends on tenure. Terms and conditions apply. \u00c2 \u00c2 About the Client \u00c2 We are reinventing consumer credit. We wildly reduce the cost of capital by using technology to easily tap into people's assets. Our first product is the world's cheapest credit card \u00e2\u0080\u0093 backed by home equity. Using many patented technologies, we sped up a process that usually takes 4-6 weeks and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137711",
+    "id": "opp_11c8716cbf0a",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T16:00:20+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: api, azure)."
+        }
+      },
+      "final_score": 48.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "azure",
+      "design",
+      "c sharp",
+      "amazon",
+      "customer support",
+      "dev",
+      "finance",
+      "c",
+      "c plus plus",
+      "math",
+      "microsoft",
+      "exec",
+      "ops",
+      "medical",
+      "backend",
+      "digital nomad"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "HIL Support Specialist",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_120bb619ad9d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -18022,6 +18560,143 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_12c824d1c6f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105.77,
+    "budget_min": 76.92,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:20:14+00:00",
+    "description": "Job Title: Associate Director, Device Regulatory Affairs Job Location: Remote, USA Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: About This Role: As the Associate Director of Device Regulatory Affairs, you will be at the forefront of leading regulatory strategies and execution for Class III medical device submissions across the United States, European Union, and United Kingdom. You will manage a team of 2 global regulatory affairs staff, ensuring that all regulatory plans, submission content, and approval strategies are meticulously developed and aligned with high-risk device programs. Your role is pivotal in serving as a senior regulatory representative in interactions with key health authorities, including FDA, EU notified bodies, and UK approved bodies, to ensure timely and compliant responses. Collaborating cross-functionally with teams such as Quality, Clinical, Medical Safety, Engineering, and Manufacturing, you will integrate regulatory requirements into product lifecycle planning and global commercialization strategies. Your contributions will be vital in maintaining compliance and facilitating market access for innovative medical devices. What You\u2019ll Do: Lead global regulatory strategy for Class III medical device programs, including developing integrated regulatory pathways and submission plans. Direct preparation, review, and execution of major regulatory submissions for Class III devices. Serve as a senior regulatory lead for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 576.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/associate-director-device-regulatory-affairs",
+    "id": "opp_12c824d1c6f8",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:20:16+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 68.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $577 on $577 (100% margin). $123 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $154 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 68.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "associate-director-regulatory-affairs",
+      "regulatory-affairs-director",
+      "medical-device-regulatory-manager",
+      "regulatory-affairs-lead"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Associate Director, Device Regulatory Affairs",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/associate-director-device-regulatory-affairs?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_12e030c34cc8": {
@@ -30786,6 +31461,129 @@
       "probability_low": 32.0
     }
   },
+  "opp_1f6912cb89c7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Direct Traffic Solutions",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:19:50+00:00",
+    "description": "Company Overview: We are a leading logistics provider offering reliable, efficient, and customer-oriented freight services nationwide. As we expand, we are looking for driven and motivated independent Freight Agents to join our dynamic team. This is an exciting opportunity for self-starters looking to grow their own business while partnering with a well-established industry leader. Job Description: As an Independent Freight Agent, you will act as the primary point of contact between shippers and carriers, responsible for managing all aspects of freight coordination. Your key role will involve: Sales and Lead Generation : Prospecting for new clients and maintaining relationships with existing customers. Freight Coordination : Matching loads with available carriers, negotiating rates, and ensuring timely delivery. Customer Service : Providing excellent service to both shippers and carriers, addressing inquiries, and resolving issues as they arise. Tracking and Reporting : Monitoring shipments, updating clients on status, and maintaining accurate records in our system. Key Responsibilities: Develop and maintain a network of shippers and carriers to ensure successful freight operations. Negotiate freight rates and terms with both customers and carriers. Ensure timely pickup and delivery of freight by coordinating with drivers and customers. Provide status updates and proactive communication to all stakeholders. Maintain accurate and up-to-date records in the CRM system. Stay \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/direct-traffic-solutions/jobs/freight-agent",
+    "id": "opp_1f6912cb89c7",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T21:19:51+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 52.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "freight-agent",
+      "freight-broker",
+      "logistics-coordinator",
+      "transportation-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freight Agent",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/direct-traffic-solutions/jobs/freight-agent?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_1fae38859cb5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -36860,6 +37658,144 @@
     "title": "HR Generalist",
     "updated_at": "2026-09-16T16:20:13+00:00",
     "url": "https://himalayas.app/companies/jerry/jobs/hr-generalist",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_261cf9aac2cc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 97.12,
+    "budget_min": 46.15,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Walmart - Internal",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:35:01+00:00",
+    "description": "Position Summary... What you'll do... Role summary: Join Walmart Connect as a Senior Product Marketing Manager to lead go-to-market strategy for Display and Advertising APIs. You\u2019ll partner with Product, Engineering, Partnerships, and GTM teams to drive adoption, technical enablement, and successful partner integrations. From alpha through scaled launch, you\u2019ll translate complex API capabilities into clear value propositions, use cases, documentation, and enablement. You\u2019ll also gather partner insights, identify integration friction, and help shape the roadmap across campaign management, targeting, creative, optimization, reporting, and measurement. About the team: The Brand Solutions Product Marketing team drives the commercialization of solutions that support Walmart Connect advertisers in building awareness, expanding reach, and enhancing engagement through comprehensive marketing strategies. Within this team, the Brand Scale group focuses on accelerating growth for enterprise and emerging advertisers by providing advanced tools and technology for efficient campaign onboarding and activation. Key initiatives include expanding API and technology integrations that empower partners and agencies to manage display advertising across campaign management, audience targeting, creative workflows, optimization, reporting, and measurement, ensuring effective and scalable marketing execution. What you'll do: Lead GTM strategy for Walmart Connect Display APIs from early testing \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 461.5,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/walmart-com/jobs/usa-manager-product-marketing",
+    "id": "opp_261cf9aac2cc",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:35:02+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 68.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $462 on $462 (100% margin). $97 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $154 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 68.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 68.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "product-marketing-manager",
+      "technical-product-marketing-manager",
+      "go-to-market-manager",
+      "product-marketing-lead"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "(USA) Manager, Product Marketing",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/walmart-com/jobs/usa-manager-product-marketing?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -80010,6 +80946,145 @@
       "probability_low": 13.0
     }
   },
+  "opp_506efc24acb8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.96,
+    "budget_min": 31.73,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Peraton",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:26:41+00:00",
+    "description": "Peraton Overview Peraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy. As the world\u2019s leading mission capability integrator and transformative enterprise IT provider, we deliver trusted, highly differentiated solutions and technologies to protect our nation and allies. Peraton operates at the critical nexus between traditional and nontraditional threats across all domains: land, sea, space, air, and cyberspace. The company serves as a valued partner to essential government agencies and supports every branch of the U.S. armed forces. Each day, our employees do the can\u2019t be done by solving the most daunting challenges facing our customers. Visit peraton.com to learn how we\u2019re keeping people around the world safe and secure. Responsibilities Peraton is seeking a Senior Jira / Jira Service Management (JSM) System Administrator to support the U.S. Geological Survey (USGS) Water Mission Area (WMA) under a federal IT services contract. In this role, you will serve as an embedded operations specialist responsible for the day-to-day administration, configuration, and user support of USGS's Jira and JSM platforms, the central issue-tracking and service-desk infrastructure for one of the nation's most critical scientific agencies. You will play a key role in supporting an enterprise-scale migration from Jira Data Center to Atlassian Government Cloud (AGC), maintaining high \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 237.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peraton/jobs/senior-jira-jsm-system-administrator",
+    "id": "opp_506efc24acb8",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:26:42+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 62.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $238 on $238 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 62.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "automation",
+      "systems-administrator",
+      "jira-administrator",
+      "it-systems-administrator",
+      "service-desk-administration",
+      "cloud-systems-administrator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Jira / JSM System Administrator",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/peraton/jobs/senior-jira-jsm-system-administrator?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_5084b1204463": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -86735,6 +87810,151 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_56603960cde7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "GT",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "GT was founded in 2019 by a former Apple, Nest, and Google executive. \u00c2 GT\u00e2\u0080\u0099s mission is to connect the world\u00e2\u0080\u0099s best talent with product careers offered by high-growth companies in the UK, USA, Canada, Germany, and the Netherlands. On behalf of the client, GT is looking for a Senior Agentic AI Engineer who is interested in solving complex matching and search problems at scale, applying ML and algorithms to hundreds of millions of real-world data records. \u00c2 About the Client Our client is a leading global management consultancy known for tackling some of the world\u00e2\u0080\u0099s most complex business challenges. With a focus on strategy, transformation, and performance improvement, the firm partners with major organizations across industries to drive lasting impact. Recognized consistently as a top workplace, it combines deep industry expertise with a collaborative, innovative culture. Its centralized European hub plays a key role in supporting operations across the EMEA region, ensuring excellence and efficiency at scale. \u00c2 About the Project & Role We are looking for a Senior AI Engineer to help design, build, and evolve an AI-powered conversational analytics platform that enables businesses to explore their data, generate insights and visualizations, and make data-driven decisions. The product helps users analyze promotional performance, answer complex analytical questions, build charts and tables, and generate evidence-based recommendations using LLMs, agentic workflows, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137710",
+    "id": "opp_56603960cde7",
+    "is_demo": false,
+    "match_score": 66.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T16:00:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.1,
+          "evidence": "Matched 4 profile skills: excel, pandas, python, sql. Covers 36% of the 11 skills this listing names (missing: analytics, api, azure, docker)."
+        }
+      },
+      "final_score": 55.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 55.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "pandas",
+      "sql",
+      "excel",
+      "api",
+      "rest",
+      "fastapi",
+      "azure",
+      "docker",
+      "react",
+      "analytics",
+      "design",
+      "sys admin",
+      "infosec",
+      "consulting",
+      "technical",
+      "recruiter",
+      "dev",
+      "testing",
+      "marketing"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Senior Agentic AI Engineer NDA",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_56b486bd45df": {
@@ -99687,6 +100907,140 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_617c2f7ee18b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 5000.0,
+    "budget_min": 3000.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Freelancer.com client (10 bids so far)",
+    "competition_score": 10.2,
+    "confidence": 65.0,
+    "created_at": "2026-11-10T22:56:04+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "I need a desktop program, compatible with Windows or Mac, to manage customers and their contact details. Essential Requirements: - User-friendly interface for easy navigation - Secure database to store customer information - Search and filter functionality - Ability to add, edit, and delete customer records - Backup and restore options Ideal Skills and Experience: - Experience in developing desktop applications - Strong database management skills - Knowledge of UI/UX design principles - Familiarity with security protocols for data protection Please provide examples of similar work done.",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 20.25,
+    "estimated_cost": 0.0,
+    "estimated_hours": 40.51,
+    "estimated_net_revenue": 3600.0,
+    "estimated_non_ai_effort": 20.26,
+    "estimated_platform_fee": 400.0,
+    "external_id": "40812368",
+    "id": "opp_617c2f7ee18b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "HIGH_VALUE",
+    "posted_time": "2026-11-10T22:55:26+00:00",
+    "profit_score": 91.0,
+    "risk_flags": [],
+    "score": 42.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 14.2,
+          "awarded": 7.1,
+          "evidence": "50% of estimated effort is AI-carryable (20.2h AI / 20.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 8.0,
+          "awarded": 6.8,
+          "evidence": "Moderate description (>=300 chars); 9 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 17.7,
+          "awarded": 16.1,
+          "evidence": "Estimated net $3,600 on $4,000 (90% margin). $142 per effective hour vs $85 target (25.3 effective h = 20.3h human + 20.2h AI discounted). Leverage: $178 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.6,
+          "awarded": 1.9,
+          "evidence": "Bidding marketplace with heavy competition - 200+ bids observed on popular projects and an hourly long tail at $2-8. Listings are pre-filtered to under 25 existing bids, but a new account with no platform history still starts behind. Budget >= $2,000 attracts stronger competition (-10%)."
+        },
+        "Risk": {
+          "available": 10.6,
+          "awarded": 10.6,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 31.0,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 42.4,
+      "opportunity_class": "C - High-value build ($500+)",
+      "penalties": [],
+      "raw_total": 42.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 14.16,
+        "clarity_of_requirements": 7.96,
+        "expected_profitability": 17.7,
+        "likelihood_of_winning": 18.58,
+        "risk": 10.62,
+        "skill_fit": 30.97
+      }
+    },
+    "skills": [
+      "rest",
+      ".net",
+      "c# programming",
+      "user interface / ia",
+      "software architecture",
+      "software development",
+      "ui / user interface",
+      "database management",
+      "desktop application"
+    ],
+    "source": "freelancer_com",
+    "status": "SKIP",
+    "title": "Desktop Program to Manage Customer Records",
+    "updated_at": "2026-11-10T22:56:04+00:00",
+    "url": "https://www.freelancer.com/projects/desktop-application/Desktop-Program-Manage-Customer-Records",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-24%)",
+      "factors": [
+        {
+          "effect": "20%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "20%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "20%",
+          "to": "5%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "5%",
+          "to": "11%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "0%",
+          "factor": "Applying costs credits",
+          "from": "11%",
+          "to": "11%",
+          "why": "Does not change the odds, but it does change whether the odds are worth paying for."
+        }
+      ],
+      "probability_high": 24.0,
+      "probability_low": 0.0
     }
   },
   "opp_618e87789a65": {
@@ -117909,6 +119263,143 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_70385604714e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75.42,
+    "budget_min": 47.14,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Convergint Federal Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:22:25+00:00",
+    "description": "Build a career where values meet worldwide opportunity. Job Description: For information about how we use your personal information, please see our Colleague & Applicant Privacy Notice, available on convergint.com/careers. Who You Are Convergint is looking for a full-time, enthusiastic, results driven and forward-thinking Senior Sales Trainer to join our amazing culture. In this role, you teach. You challenge. You make stronger selling habits stick. You know how to engage experienced AEs, make difficult skills achievable and turn proven methods into confident customer conversations. Your training combines clear instruction, realistic practice and feedback people can use. You bring energy, curiosity and follow-through. You want your work to make a lasting difference in how AEs sell. Who We Are Convergint\u2019s mission is to be our customers\u2019 best service provider. Our company was built upon a foundation of 10 Values and Beliefs, which guide our culture and our commitment to customers, colleagues and communities. We take pride in protecting lives and assets through our technology solutions and services. We invest in the selling skills that help our Account Executives deliver greater value to customers. What You'll Do with Our Training and Your Experience As Sales Trainer, you\u2019ll report directly to the leader of Global Sales Operations and work closely together to develop Account Executives worldwide. We bring deep selling experience and established methods. You bring exceptional \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 353.55,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/convergint-federal-solutions/jobs/senior-sales-trainer",
+    "id": "opp_70385604714e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:22:26+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 39.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $354 on $354 (100% margin). $75 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $94 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "sales-trainer",
+      "sales-enablement-specialist",
+      "sales-training-specialist",
+      "learning-and-development-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Sales Trainer",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/convergint-federal-solutions/jobs/senior-sales-trainer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_70414ce0c353": {
@@ -150548,6 +152039,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_8e621ce94bf9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 350,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 45.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:30:27+00:00",
+    "description": "Role Title: Finance Specialist - Executive Presentation Review Role Type: Contractor Location: Remote (US, UK or CAN micro1 is engaging Finance Specialist to contribute to a customer's project focused on elevating the quality, impact, and clarity of financial presentations and investor materials. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Reconstruct and enhance Microsoft PowerPoint slides to effectively convey complex financial data and insights. Design visually compelling presentations that integrate robust data visualization and storytelling techniques. Review, edit, and refine content for accuracy, readability, and alignment with best practices in financial communications. Translate quantitative analysis and valuation results into clear, investor-ready materials. Evaluate and provide feedback on presentation drafts with a focus on data integrity and persuasive messaging. Collaborate asynchronously to deliver high-quality input that supports project requirements and milestones. Preferred Qualifications Advanced knowledge of financial analysis, modeling, and valuation methodologies. Proficiency in Microsoft PowerPoint, with a portfolio of reconstructed or custom-designed presentations. Demonstrated expertise in data visualization and visual \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1125.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/finance-specialist-11476826",
+    "id": "opp_8e621ce94bf9",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:30:27+00:00",
+    "profit_score": 86.8,
+    "risk_flags": [],
+    "score": 72.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 16.0,
+          "evidence": "Estimated net $1,125 on $1,125 (100% margin). $240 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $300 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: data visualization, excel."
+        }
+      },
+      "final_score": 72.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 72.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Finance Specialist",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/finance-specialist-11476826?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_8e95293fc057": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -180478,6 +182102,138 @@
       "probability_low": 4.0
     }
   },
+  "opp_a9f44dd8df71": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Florida Institute of Technology",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:16:48+00:00",
+    "description": "The adjunct professor with the ABA Online program will support students\u2019 success in courses specific to ABA Online, including certificate and master\u2019s programs. The adjunct professor will conduct synchronous online instructional meetings; facilitate student learning through engagement and discussion; answer student questions about course content and processes during course meetings and via email; and respond to discussion board posts for their assigned courses. Adjunct faculty must hold current certification as a Board Certified Behavior Analyst (master's or doctoral level) and have several years of experience as a BCBA or BCBA-D. Course meetings are primarily conducted on weekday evenings; thus, flexible scheduling is required. Conduct all online meetings as scheduled and ensure they start and end on time. Present original materials that include frequent opportunities for active student responding. Content must be clear and accurate to supplement the pre-recorded lecture videos. Use teaching techniques that maintain student engagement and encourage student discussion and collaboration. Provide explanations, examples, and tips with an emphasis on difficult or complex concepts. Record online meetings. Adhere to all instructor duties outlined in the instructor guide. Maintain a positive classroom environment. Prepare for course meetings by reviewing and/or editing materials and planning opportunities for student engagement. Respond to student emails within 24 hours. Enter \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/florida-institute-of-technology/jobs/aba-online-adjunct-faculty",
+    "id": "opp_a9f44dd8df71",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T21:16:50+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 35.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: statistics."
+        }
+      },
+      "final_score": 35.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 47.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "statistics",
+      "adjunct-professor",
+      "online-instructor",
+      "faculty",
+      "behavior-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "ABA Online Adjunct Faculty",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/florida-institute-of-technology/jobs/aba-online-adjunct-faculty?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a9f6e0bd3995": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -188331,6 +190087,136 @@
       "probability_low": 21.0
     }
   },
+  "opp_b15b14a53391": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "robusta",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:19:05+00:00",
+    "description": "We are seeking a proactive and collaborative Scrum Master to support Agile teams in delivering high-quality products and solutions. The ideal candidate will have solid experience with Scrum methodologies, strong facilitation skills, and the ability to foster continuous improvement within cross-functional teams. Key Responsibilities Facilitate Scrum ceremonies, including Sprint Planning, Daily Stand-ups, Sprint Reviews, and Retrospectives. Coach development teams on Agile principles, Scrum practices, and continuous improvement. Identify and help remove impediments affecting team productivity and delivery. Collaborate with Product Owners to ensure effective backlog management and sprint planning. Monitor team performance using Agile metrics such as velocity, burndown charts, and sprint progress. Promote effective communication and collaboration between development teams and stakeholders. Support teams in maintaining transparency, accountability, and continuous delivery. Identify opportunities to improve Agile processes and team efficiency. Facilitate collaboration across distributed and remote teams. Requirements 3\u20135 years of experience in Scrum Master, Agile delivery, or related roles. Strong understanding of Agile methodologies, particularly Scrum and Kanban. Proven experience facilitating Scrum ceremonies and supporting Agile teams. Familiarity with Agile project management tools such as Jira, Azure DevOps, or Trello. Strong communication, facilitation, problem-solving, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/robusta/jobs/scrum-master-remote-3-months-octopus-by-rtg",
+    "id": "opp_b15b14a53391",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T21:19:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "azure",
+      "scrum-master",
+      "agile-delivery-lead",
+      "agile-project-manager",
+      "project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Scrum Master - Remote - 3 Months - Octopus by RTG",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/robusta/jobs/scrum-master-remote-3-months-octopus-by-rtg?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b17370b3d537": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -191758,6 +193644,127 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_b4d7e97817fe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 350,
+    "budget_min": 150,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T21:30:52+00:00",
+    "description": "Role Title: Data Science Specialist - Executive Presentation Review Role Type: Contractor Location: Remote (US, UK or CAN) micro1 is engaging Data Science Specialists to contribute to a customer's project focused on elevating the quality and impact of business presentations and analytical reporting. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. Scope of Work Reconstruct, redesign, and enhance data-driven presentations using Microsoft PowerPoint to ensure clarity and visual consistency. Create compelling visualizations that transform complex data into insights, supporting effective visual storytelling across various audiences. Edit content for accuracy, flow, and narrative impact while maintaining high standards of written communication. Apply advanced data analysis and statistical reasoning to interpret datasets and derive actionable conclusions for presentation materials. Develop analytics reports that summarize key findings, trends, and recommendations with precision and attention to detail. Critically review and refine existing slides and reports to align with best practices in data visualization and design. Collaborate on feedback cycles to iteratively improve deliverables based on project-specific requirements. Preferred Qualifications Expert-level \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 1950.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/data-science-specialist-4820105801",
+    "id": "opp_b4d7e97817fe",
+    "is_demo": false,
+    "match_score": 58.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T21:30:52+00:00",
+    "profit_score": 95.5,
+    "risk_flags": [],
+    "score": 73.0,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 17.6,
+          "evidence": "Estimated net $1,950 on $1,950 (100% margin). $316 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $500 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 21.6,
+          "evidence": "Matched 3 profile skills: data visualization, reporting, statistics. Covers 33% of the 3 skills this listing names (missing: analytics, data science)."
+        }
+      },
+      "final_score": 73.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "data science",
+      "statistics",
+      "analytics"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Data Science Specialist",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/data-science-specialist-4820105801?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_b5054a7aadd3": {
@@ -208673,6 +210680,153 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_c4a757c95ad3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "pdf_extraction",
+    "client": "Allara",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-10T22:56:05+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Allara is a comprehensive women\u00e2\u0080\u0099s health provider that specializes in expert, longitudinal care that supports women through every life stage. Trusted by thousands of women nationwide, Allara makes expert healthcare accessible by connecting patients with multidisciplinary care teams that have a deep understanding of hormonal, metabolic, and reproductive care. Allara provides ongoing support for hormonal conditions like PCOS, chronic conditions like insulin resistance, and life stages like perimenopause, helping patients see improved health outcomes . As one of the fastest-growing women\u00e2\u0080\u0099s health platforms in the U.S., Allara is bridging long-overlooked gaps in healthcare for women. The Opportunity We're hiring board-eligible Endocrinologists who want to focus on what matters most: delivering exceptional care to women who have historically been underserved. To learn more about our mission and clinical approach, visit allarahealth.com . Location: Fully remote within the U.S. Your Impact Conduct thorough patient assessments and develop personalized treatment plans via video visits Collaborate with a multidisciplinary care team to deliver the highest standards of care Complete required training(s) and uphold Allara's clinical policies, standards, and best practices Educate patients on preventative care and wellness using evidence-based strategies Maintain accurate, up-to-date patient records and complete charting in a timely manner Respond to patient questions and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.93,
+    "estimated_cost": 0.0,
+    "estimated_hours": 3.45,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.52,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137709",
+    "id": "opp_c4a757c95ad3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-09T16:00:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 17.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.8,
+          "evidence": "85% of estimated effort is AI-carryable (2.9h AI / 0.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 17.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 29.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "pdf",
+      "ocr",
+      "education",
+      "technical",
+      "customer support",
+      "video",
+      "medical",
+      "internship"
+    ],
+    "source": "remoteok",
+    "status": "REVIEW",
+    "title": "Telehealth Endocrinologist Evenings Fridays and or Weekends",
+    "updated_at": "2026-11-10T22:56:05+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-telehealth-endocrinologist-evenings-fridays-and-or-weekends-allara-1137709",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -250210,6 +252364,166 @@
           "from": "45%",
           "to": "35%",
           "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
+  "opp_ed20e0629811": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Knack",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-10T22:56:06+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: US URL: https://knack.com Location: US Based (Full-Time, Remote) or International Contractor (Full-Time, Remote) If US-Based: This will be a remote position based in the United States. Knack offers a complete benefits package to those working in the United States. Employees must be available during standard US business hours and maintain their primary work location within the US. Any extended time working outside the United States requires prior written approval. International Contractor: This is a full-time, remote position, but candidates must have four hours overlap with Eastern timezone. Role Overview Knack runs thousands of customer applications across multiple global regions, including dedicated private environments. As a Cloud Engineer, you\u2019ll own and evolve that infrastructure, harden it to meet SOC 2, HIPAA, and customer security requirements, and build the infrastructure behind our growing AI capabilities. We\u2019re an AI-forward team. You don\u2019t need to type every Terraform block, but you do need to understand what\u2019s happening, direct AI tools well, verify their work, and own the outcome. This role includes a weekly 24/7 on-call rotation. About Knack Knack is an AI-powered no-code software development platform enabling organizations to manage, analyze, and share business data. The no-code market is growing at over 30% annually and projected to be almost $200B by 2030. Founded in 2010, Knack has grown into a leading player in the no-code movement, enabling \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T225603Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/knack-cloud-engineer-1",
+    "id": "opp_ed20e0629811",
+    "is_demo": false,
+    "match_score": 84.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "Tue, 10 Nov 2026 22:32:18 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE"
+    ],
+    "score": 49.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): SECURITY_SENSITIVE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 31.2,
+          "evidence": "Matched 7 profile skills: automation, ci/cd, dashboard, etl, github actions, python, sql. Covers 47% of the 15 skills this listing names (missing: aws, docker, javascript, kubernetes)."
+        }
+      },
+      "final_score": 49.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 61.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "etl",
+      "rest",
+      "aws",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "github actions",
+      "ci/cd",
+      "automation",
+      "dashboard",
+      "javascript",
+      "typescript",
+      "node"
+    ],
+    "source": "weworkremotely",
+    "status": "REVIEW",
+    "title": "Knack: Cloud Engineer",
+    "updated_at": "2026-11-10T22:56:06+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/knack-cloud-engineer-1",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
         },
         {
           "effect": "+6%",
