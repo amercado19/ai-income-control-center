@@ -39087,6 +39087,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_2906d385153b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 17,
+    "budget_min": 17,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Ferrellgas",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:20:40+00:00",
+    "description": "Overview Ferrellgas was recently recognized by Newsweek as one of America\u2019s Most Trustworthy Companies for 2025 \u2014 and that trust starts with our people. We\u2019re currently hiring a Remote Part-Time Customer Service Specialist. You will not be in office, but we DO want you to be in a \"close\" vicinity to the recruiting area. In this role, you\u2019ll provide exceptional service through both inbound and outbound communications. You\u2019ll support customers and work closely with internal teams to ensure high-quality experience, while helping drive business growth. As part of a company focused on delivering exceptional service and value to our customers, your impact will matter - both to your team and our organization. Your talent and dedication won\u2019t go unnoticed - here, your impact matters. Why You\u2019ll Love Working Here At Ferrellgas we\u2019re committed to supporting our team with benefits that promote stability, growth, and work-life balance: Starting Pay: $17.00 hourly, depending on experience and qualifications Financial Security: 401(k) with a generous company match and Employee Stock Ownership Plan (ESOP). Paid Time Off (PTO): Take time to rest, recharge, and spend with family. Paid Training: We invest in your success with comprehensive, hands-on training. Exclusive Savings: Receive employee discounts, including propane savings. Responsibilities Answering phones, chat, social media, or email in a polite, courteous, and professional manner. Works with customers daily to sustain and improve \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 127.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ferrellgas/jobs/local-remote-customer-service-specialist-part-time-6039897999",
+    "id": "opp_2906d385153b",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T13:20:42+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 51.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $128 on $128 (100% margin). $27 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $34 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: data entry, rest)."
+        }
+      },
+      "final_score": 51.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 51.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "data entry",
+      "customer-service",
+      "customer-support-representative",
+      "client-services-associate"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "LOCAL Remote Customer Service Specialist Part-Time",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/ferrellgas/jobs/local-remote-customer-service-specialist-part-time-6039897999?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_295c08e62321": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -43352,6 +43483,134 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_2c807a6f0fdc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hire Overseas",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:09:39+00:00",
+    "description": "\ud83d\udcbc Senior Product Designer \ud83c\udf0d Open to Latin America and Nigeria \ud83c\udfe0 Remote About Our Client Our client is an early-stage GovTech startup building a modern planning and permitting platform for local governments. Their mission is to make more housing happen faster by making permitting unremarkable, tackling one of the biggest bottlenecks in a country short millions of homes. About the Role We're looking for a Senior Product Designer to design and deliver intuitive web experiences and native mobile apps for inspections and code enforcement products. You'll also scale design quality and judgment across the company as the second designer on the team. You'll join early, report directly to the CEO, and own design end to end across web and mobile without a design manager, a detailed spec, or a PM handing you a brief. If you've shipped 0-to-1 B2B products for complex workflows, use AI in your design work every day, and want to make the people around you better at design, this role is a strong fit. Responsibilities Design and deliver the Inspections MVP to live customers within 3 months of starting, and the Code Enforcement product within 5 months Design intuitive experiences for native mobile and dense desktop, from information architecture through visual detail Work from how inspectors, code enforcement officers, and planning staff actually do their jobs rather than from what similar products look like Take fuzzy problems, decide what makes the MVP and what waits, and move without \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hire-overseas/jobs/senior-product-designer-pcs947",
+    "id": "opp_2c807a6f0fdc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T13:09:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "product-designer",
+      "ux-designer",
+      "mobile-product-designer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Product Designer (PCS947)",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/hire-overseas/jobs/senior-product-designer-pcs947?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_2c8ac5e9cebd": {
@@ -75696,6 +75955,146 @@
       "probability_low": 15.0
     }
   },
+  "opp_4d43de686d2f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90.38,
+    "budget_min": 54.33,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Premier Inc.",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:28:19+00:00",
+    "description": "Director, GPO Delivery and Optimization What you will be doing: The Director Delivery and Optimization owns GPO contract delivery for Premier's larger, more complex named accounts. This role leads execution of the account's full supply chain workplan, builds and sustains supply chain level relationships, and manages contract performance across a broad category portfolio \u2014 ensuring members don't just sign contracts, they realize the value. The Director Delivery and Optimization operates autonomously, thinks critically under ambiguity, and is judged on results, not activity. Key Responsibilities Delivery Execution and Value Creation \u2013 50% Leads execution of the account's delivery workplan and manages complex, multi-category programs independently Partners with sourcing to build the account's opportunity funnel; aligns with internal partners (Rx, Food, Portfolio Advisors) on execution Oversees contract performance management across the account's full category portfolio, ensuring optimal utilization and value realization Owns the account's GPO portfolio lifecycle \u2014 tier activation, renewals/expirations, distributor contract audits, roster accuracy, admin fee revenue accuracy Leads change management for contract, tier, and category transitions Leverages advanced data analysis \u2014 through Premier's technology, AI, and Power BI partnerships \u2014 to synthesize analytics into strategic recommendations that drive measurable impact Employs analytical storytelling to communicate findings and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 706.29,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/premier-inc/jobs/director-gpo-delivery-and-optimization",
+    "id": "opp_4d43de686d2f",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T13:28:20+00:00",
+    "profit_score": 72.2,
+    "risk_flags": [],
+    "score": 61.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.3,
+          "evidence": "Estimated net $706 on $706 (100% margin). $114 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $181 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: analytics, api, power bi)."
+        }
+      },
+      "final_score": 61.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "power bi",
+      "analytics",
+      "supply-chain-director",
+      "delivery-director",
+      "sourcing-director",
+      "category-management-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Director, GPO Delivery and Optimization",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/premier-inc/jobs/director-gpo-delivery-and-optimization?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_4d54fde7d0a6": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -79609,6 +80008,134 @@
       ],
       "probability_high": 35.0,
       "probability_low": 13.0
+    }
+  },
+  "opp_5084b1204463": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70.0,
+    "budget_min": 50.0,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Current",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-10T14:29:04+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote (US) About the Role As a Freelance Marketo Email Specialist, you'll build, test, and launch email programs in Marketo for a range of client brands. This is a hands-on, execution-only contract role with no leadership or management responsibilities. You'll take approved briefs and turn them into working programs, building responsive templates and modules, setting up smart lists and flows, and making sure every send goes out right the first time. You know Marketo well enough to spot a broken token, a misfired trigger, or a segmentation gap before it reaches a subscriber. You'll take direction from our internal team, get up to speed fast, and deliver accurate builds on schedule with minimal oversight. Key Responsibilities Build and launch email programs in Marketo, including one-off sends, nurture streams, engagement programs, and triggered campaigns. Develop and maintain responsive email templates and modular components in HTML and CSS, using Marketo's template syntax, variables, and editable sections. Set up smart lists, smart campaigns, flow steps, and segmentations that match the targeting and logic in the brief. Use tokens, dynamic content, and snippets to personalize emails and keep programs easy to clone and reuse. QA every email before launch: rendering across clients and devices (e.g. Litmus or Email on Acid), links, tokens, personalization fallbacks, and list logic. Manage program structure, naming conventions, and folder organization so client \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/current-freelance-marketo-email-engineer",
+    "id": "opp_5084b1204463",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "Mon, 19 Oct 2026 07:31:25 +0000",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: css, html)."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "html",
+      "css"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Current: Freelance Marketo Email Engineer",
+    "updated_at": "2026-11-10T14:29:04+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/current-freelance-marketo-email-engineer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "30%",
+          "to": "15%",
+          "why": "About 22 days old; likely filled or abandoned."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "15%",
+          "to": "5%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 18.0,
+      "probability_low": 0.0
     }
   },
   "opp_50a68684780b": {
@@ -125716,6 +126243,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_76d13b2ec9d0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Rutherford International",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:08:59+00:00",
+    "description": "This is a remote position. Meta Description: Register your interest in advising SME CEOs through Rutherford International \u2019s Enterprise Advisory Board programme. Share your leadership and specialist expertise. Enterprise Advisory Board \u2014 Remunerated Adviser Evergreen Expression of Interest \u2014 Rutherford Talent Guild\u2122 Canada \u00b7 United States \u00b7 United Kingdom Owner-managed and founder-led businesses regularly face decisions that stretch the experience available within their teams: entering a new market, securing financing, planning succession or transforming operations. Rutherford International welcomes expressions of interest from experienced professionals who can provide relevant expertise, practical perspective and candid, independent challenge to an SME owner or CEO. This is an Evergreen Expression of Interest, not an advertisement for a current vacancy or advisory appointment. Who should register Executives, former business owners and senior specialists with demonstrated expertise in growth, financing, operations, technology, people, succession or transformation. Professionals who can adapt their experience to the resources and operating realities of an owner-managed business. Experienced advisers interested in serving individually or within a small advisory group. Professionals with the experience to chair an advisory group and encourage productive discussion. Professionals based in Canada, the United States and the United Kingdom may register. The adviser\u2019s contribution \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rutherford-international/jobs/enterprise-advisory-board",
+    "id": "opp_76d13b2ec9d0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T13:09:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "business-advisor",
+      "executive-advisor",
+      "management-consultant",
+      "advisory-board-member"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Enterprise Advisory Board",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/rutherford-international/jobs/enterprise-advisory-board?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_76d1d1d29541": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -133846,6 +134503,158 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_7f2e4876a325": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "CertiK",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-10T14:29:04+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications through cutting-edge security research, formal verification, and AI-powered technology. Founded in 2017 and headquartered in New York City, CertiK provides end-to-end security solutions including smart contract audits, penetration testing, on-chain monitoring, incident response, and compliance services for some of the largest projects in the digital asset ecosystem. Today, CertiK supports thousands of enterprise clients and Web3 projects globally, with a distributed international team spanning North America, Asia, and Europe. The company is backed by leading investors including Coatue, Goldman Sachs, Insight Partners, and Sequoia Capital, and has been recognized by organizations such as the World Economic Forum and CB Insights for its contributions to blockchain security innovation. About This Role We\u00e2\u0080\u0099re looking for a passionate and proactive Business Development professional to help expand CertiK\u00e2\u0080\u0099s presence in the Web3 ecosystem. You\u00e2\u0080\u0099ll connect with founders and decision makers, identify new business opportunities, build lasting relationships, and drive deals from initial conversations to closing. We value people who take initiative, stay curious, and are eager to learn and grow alongside our global team. \\n Responsibilities Research and open \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137707",
+    "id": "opp_7f2e4876a325",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-09T08:00:05+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "SECURITY_SENSITIVE",
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 9.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 3.7,
+          "evidence": "2 risk flag(s): SECURITY_SENSITIVE, UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 9.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Touches production systems or regulated data.",
+          "name": "SECURITY_SENSITIVE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        },
+        {
+          "evidence": "Security-sensitive work always goes to manual review.",
+          "name": "MANUAL_REVIEW_REQUIRED",
+          "points": 0.0
+        }
+      ],
+      "raw_total": 33.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "html",
+      "crypto",
+      "web3",
+      "blockchain",
+      "defi",
+      "infosec",
+      "consulting",
+      "technical",
+      "customer support",
+      "testing",
+      "senior",
+      "bus dev",
+      "sales",
+      "engineer"
+    ],
+    "source": "remoteok",
+    "status": "REVIEW",
+    "title": "Web3 Business Development",
+    "updated_at": "2026-11-10T14:29:04+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-web3-business-development-certik-1137707",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_7f95730ff717": {
@@ -206540,6 +207349,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_c37a1299485a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AlphaHire",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:12:19+00:00",
+    "description": "AlphaGov delivers public-sector consulting for cities, counties, school systems, special districts, utilities, and related agencies. Our work spans classification and compensation, organizational and operational studies, research and program evaluation, economic and workforce analysis, surveys and community research, and applied data and infrastructure research. AlphaGov is hiring a Senior Compensation Specialist to evaluate classification and total compensation for management and confidential employees. You will develop defensible pay structures, analyze compensation relationships and create tools that HR teams can maintain. What you\u2019ll do Review job descriptions and interview HR staff, supervisors and department leaders to document duties and organizational responsibilities. Apply a transparent job-evaluation methodology and recommend revisions to classifications and grade assignments. Select defensible public-sector comparators and normalize salary, benefits, retirement and paid-time-off comparisons across employers. Analyze internal equity, compression and pay inversion, including comparisons between management earnings and represented employee earnings with overtime. Recommend salary ranges, incumbent placement and operational pay-policy parameters supported by market evidence. Model immediate and phased implementation options, including payroll and retirement-related costs, in usable working spreadsheets. Develop salary-administration guidance, a classification-review \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/alphahire/jobs/senior-compensation-specialist",
+    "id": "opp_c37a1299485a",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-10T13:12:20+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "compensation-specialist",
+      "compensation-analyst",
+      "total-rewards-analyst",
+      "compensation-consultant",
+      "human-resources-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Compensation Specialist",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/alphahire/jobs/senior-compensation-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c38f5a5ad24c": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -260589,6 +261529,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_f72e8b89753d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Cloverleaf Care",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:41:01+00:00",
+    "description": "NOTE: This is a remote full-time position for international voice process located in Kenya - you can be located in any part of Kenya . Cloverleaf Care has an immediate opening for a Customer Service Operations Coordinator with 3+ years experience as a Customer Service Representative for our Operations group. This is a remote position ***located in Kenya - any part of Kenya***. We are a ***direct employer*** and not a recruitment agency. You will be working the US day shift (7:30PM - 4:30AM EAT, M-F) . This is a work from home position. HOW TO APPLY Please respond with a complete resume and cover letter using the 'Apply to Position' button on this page. Candidates must have a laptop or a desktop with a webcam, headset and high speed internet connection to appear for a video interview. Do NOT apply more than once for this position because it may result in your application being rejected. COMPENSATION Compensation will be based on experience, communication quality , assessment results, and fit for long-term healthcare operations work. OUR PROCESS After you apply, you will receive an email from our hiring system with a required follow-up questionnaire. Please complete this step to be considered. All application communication will come from our secure email address containing cloverleaf-care.breezy-mail.com . Please check your spam folder and mark our emails as \u201cnot spam\u201d if needed. Please apply only once and use the same email address throughout the hiring process. Do not email \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cloverleaf-care/jobs/customer-service-operations-coordinator-kenya-non-it-remote",
+    "id": "opp_f72e8b89753d",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T13:41:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 36.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 36.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"as a customer service representative for our operations group\"; \"a laptop or a desktop with a webcam\"; \"high speed internet connection to appear for a video interview\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 36.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "customer-service-operations-manager",
+      "customer-service-coordinator",
+      "operations-coordinator",
+      "customer-service"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Service Operations Coordinator - Kenya (Non-IT, Remote)",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/cloverleaf-care/jobs/customer-service-operations-coordinator-kenya-non-it-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_f7382b03e1ba": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -265768,6 +266852,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_faa5f188af86": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 79.33,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-10T14:29:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T13:43:14+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is an opportunity to contribute to technology initiatives in a collaborative environment with opportunities for professional growth. Job Title: Spring Boot Developer Location: Remote Position Type: Full-time, Direct W2 - [Not open to C2C or 1099] Salary Range: $115,000\u2013$165,000 Annually Experience Required: 4+ years Sponsorship: U.S. Citizens, Green Card holders, EAD holders, and H-1B transfer candidates are encouraged to apply. Bright Vision Technologies is unable to sponsor new H-1B visa petitions for this position. Job Summary Bright Vision Technologies is seeking a Spring Boot Developer to design, develop, test, and support enterprise software applications and services using the technology stack relevant to the project. The work spans implementation, API and data integration, code quality, release readiness, and production troubleshooting. The successful candidate will apply practical expertise in Java, Spring Boot, Spring MVC, JPA/Hibernate, REST APIs, SQL, Maven/Gradle, JUnit, and Git, work with cross-functional teams, and contribute to reliable, maintainable solutions through the delivery lifecycle. Key Responsibilities Design, develop, test, and maintain application components using the approved technology stack. Translate functional and technical requirements into maintainable code, APIs, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261110T142901Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 552.9,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/spring-boot-developer",
+    "id": "opp_faa5f188af86",
+    "is_demo": false,
+    "match_score": 62.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T13:43:15+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 69.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $553 on $553 (100% margin). $116 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $184 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.1,
+          "evidence": "Matched 3 profile skills: automation, rest api, sql. Covers 40% of the 5 skills this listing names (missing: api, aws, rest)."
+        }
+      },
+      "final_score": 69.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "rest",
+      "aws",
+      "automation",
+      "spring-boot-developer",
+      "java-developer",
+      "backend-engineer",
+      "software-engineer",
+      "enterprise-application-developer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Spring Boot Developer",
+    "updated_at": "2026-11-10T14:29:03+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/spring-boot-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_faada5362035": {
