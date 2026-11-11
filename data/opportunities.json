@@ -29054,6 +29054,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_1c482ba5ea23": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-16T03:42:04+00:00",
+    "description": "Hardware Expert (MSc. or PhD) Pay: $60\u2013$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you choose the hours and days you work, including weekends if desired micro1 is engaging experienced Hardware Engineers to contribute to AI training projects built around complex, real-world engineering problems. In this role, you will use your technical expertise to create, solve, and evaluate engineering challenges that require sound judgment, quantitative reasoning, and reproducible answers. We are looking for engineers who have personally owned meaningful technical work\u2014such as taking a hardware system into production, validating a model against test data, developing a rigorous verification approach, or diagnosing a difficult failure. We value engineers who can connect first-principles reasoning with practical constraints and produce work that can be independently verified. Scope of Work Create technically rigorous, self-contained hardware engineering problems based on realistic industry or research scenarios. Develop clear reference solutions using engineering calculations, simulations, scripts, experimental reasoning, or other appropriate methods. Use tools such as Python, MATLAB, Simulink, SPICE, Julia, C/C++, test automation platforms, or equivalent engineering software to validate results when relevant. Preferred Qualifications Bachelor\u2019s, Master\u2019s, or PhD degree in Electrical Engineering, Mechanical Engineering, Mechatronics, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hardware-expert-msc-or-phd",
+    "id": "opp_1c482ba5ea23",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: automation, python."
+        }
+      },
+      "final_score": 56.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "automation",
+      "hardware-engineer",
+      "hardware-specialist",
+      "electrical-hardware-engineer",
+      "computer-hardware-engineer",
+      "hardware-design-engineer",
+      "senior-hardware-engineer",
+      "hardware-testing-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Hardware Expert (MSc. or PhD)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hardware-expert-msc-or-phd?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (38-54%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "50%",
+          "to": "56%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "56%",
+          "to": "46%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 54.0,
+      "probability_low": 38.0
+    }
+  },
   "opp_1c5830fd0cea": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -29939,6 +30073,141 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_1da3cb15d25a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T23:52:43+00:00",
+    "description": "Aerodynamics Expert (MSc. or PhD) Pay: $80\u2013$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you can choose the hours and days you work, including weekends if desired We are looking for a highly skilled Aerodynamics Expert to contribute to an AI training project involving computational fluid dynamics, aerodynamic analysis, engineering simulation, and Python. The work involves creating, solving, reviewing, and validating engineering tasks that can be completed through programmatic, command-line-based workflows. A representative task may require analyzing an airfoil, preparing a computational domain and mesh, defining appropriate boundary conditions, running a CFD simulation, calculating lift and drag, and determining whether the resulting flow field is numerically and physically valid. What You\u2019ll Work On Solve and validate aerodynamic and fluid-dynamics problems. Translate physical requirements into computational models and solver-ready cases. Create or modify geometries, computational domains, and meshes. Define appropriate initial conditions, boundary conditions, fluid properties, and solver settings. Run CFD and aerodynamic-analysis workflows using command-line-accessible tools. Use Python to automate preprocessing, simulation execution, parameter sweeps, postprocessing, and validation. Required Qualifications An MS or PhD in Aerospace Engineering, or Mechanical Engineering with an aerodynamics, fluid dynamics, or \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/aerodynamics-expert-msc-or-phd",
+    "id": "opp_1da3cb15d25a",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: pandas, python. Covers 50% of the 4 skills this listing names (missing: api, numpy)."
+        }
+      },
+      "final_score": 56.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "pandas",
+      "numpy",
+      "api",
+      "aerodynamics-specialist",
+      "aerodynamics-engineer",
+      "aerothermodynamics-consultant",
+      "computational-fluid-dynamics-specialist",
+      "fluid-dynamics-scientist",
+      "computational-fluid-dynamics-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Aerodynamics Expert (MSc. or PhD)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/aerodynamics-expert-msc-or-phd?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_1db9e6d62bf8": {
@@ -68662,6 +68931,139 @@
       "probability_low": 15.0
     }
   },
+  "opp_4559c3a673b5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Nulogy",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T13:01:46+00:00",
+    "description": "YOUR MISSION Make Nulogy 's Product and Engineering organization run like a well-oiled machine, and make sure the rest of the company can see, trust, and act on what it builds. As a member of the Product Leadership Team, you will own the operating system behind how we plan, deliver, measure, and launch product. You will connect the voice of our customers and go-to-market teams to the roadmap, give leadership clear visibility into delivery and outcomes, and ensure every release lands with customers and colleagues who know exactly what changed and why it matters. KEY RESPONSIBILITIES Keep the trains running on time across Product and Engineering. Build and run an effective operating rhythm, including planning, roadmap reviews, and delivery check-ins, with one trusted view of every initiative's timeline, dependencies, and risks. Raise delivery predictability. Support and coach Product Managers and Engineering Managers to plan realistically, spot delivery risk early, and act on it. Close the loop between go-to-market and Product. Maintain a living log of product needs from new-logo and existing-customer opportunities, tied to pipeline and ARR, and track friction points across the customer lifecycle with Customer Success and Professional Services. Put the right data behind product decisions. Centralize data from our product, delivery, customer, and revenue systems so PMs and leaders can answer key questions without hunting for numbers. Build trust through KPIs, reporting, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nulogy/jobs/head-of-product-operations",
+    "id": "opp_4559c3a673b5",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-11T13:01:47+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: dashboard, reporting. Covers 33% of the 3 skills this listing names (missing: api, rest)."
+        }
+      },
+      "final_score": 51.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "dashboard",
+      "director-of-product-operations",
+      "product-operations-manager",
+      "program-operations-director",
+      "product-delivery-director",
+      "business-operations-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Head of Product Operations",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/nulogy/jobs/head-of-product-operations?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_4573614547ac": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -69466,6 +69868,144 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_45fc706658d5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 64.9,
+    "budget_min": 57.69,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "American Institutes for Research",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T13:00:41+00:00",
+    "description": "AIR\u2019s Employment & Economic Opportunity Program is seeking a Part-Time Senior Researcher tosupport project teams working on large-scale assessment contracts and related business development efforts, including the International Activities Support and NAEP Technical Support contracts. The Senior Researcher provides technical and project leadership across operational and analytic activities supporting NAEP and U.S. participation in major international large-scale assessments and surveys. Working closely with project leadership, clients, subcontractors, and international partners, the Senior Researcher will lead enhancements to online data tools such as the International Data Explorer (IDE); conduct technical reviews of assessment data, results, and documentation; oversee development, maintenance, and quality assurance activities; manage project schedules and deliverables; and contribute to research, external partnerships, and business development initiatives. Engagements are typically project- or pursuit-based, part-time, and may vary in duration and hours depending on project needs. This position has the flexibility to work remotely within the United States (U.S.) or from one of AIR\u2019s U.S. office locations. This does not include U.S. territories. About AIR: Established in 1946, with headquarters in Arlington, Virginia, AIR is a nonpartisan, not-for-profit institution that conducts behavioral and social science research and delivers technical assistance to solve some of the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 432.67,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/american-institutes-for-research/jobs/senior-researcher-employment-economic-opportunity-part-time",
+    "id": "opp_45fc706658d5",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:42+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 67.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $433 on $433 (100% margin). $92 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $115 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 67.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "senior-researcher",
+      "quantitative-researcher",
+      "survey-researcher",
+      "education-researcher",
+      "research-data-analyst"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Researcher, Employment & Economic Opportunity (Part-Time)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/american-institutes-for-research/jobs/senior-researcher-employment-economic-opportunity-part-time?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_460d8ecd0677": {
@@ -81341,6 +81881,138 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_508a3eabc4b0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-31T01:20:21+00:00",
+    "description": "Role Title: Music & Sound Annotation Expert Role Type: Contractor Location: Remote micro1 is engaging Music & Sound Annotation Experts to contribute to a customer's project at the forefront of music and audio technology. Your ears are the ground truth. You'll listen to short field recordings and document exactly what's audible \u2014 instruments, tempo, key, background sounds, crowd reactions \u2014 through a structured web platform built for this project. Later phases involve grading AI model answers against what you actually heard. What you'll do Listen to 30\u201390 second field recordings (headphones, your own quiet workspace) and complete structured annotations: which instruments are present, tempo and key, timestamps of background events (traffic, sirens, applause), scene details Compare paired recordings of the same song captured at different locations and judge what stayed the same and what changed In later phases: review AI model descriptions of clips and mark what's correct, wrong, or invented, with a brief written explanation Attend a paid onboarding/calibration session and a short weekly sync Who we're looking for (any of these backgrounds) Working or gigging musicians, session players, producers, or mixing engineers Music educators, ear-training instructors, band/choir directors, conservatory students or graduates Location sound recordists, sound designers, foley artists, or podcast/documentary audio editors Requirements 3+ years of hands-on music or audio experience Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/music-sound-annotation-expert-2823077045",
+    "id": "opp_508a3eabc4b0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-11T13:00:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "react",
+      "audio-data-annotation-specialist",
+      "audio-qa-annotation-specialist",
+      "audio-labeling-specialist",
+      "music-metadata-specialist",
+      "music-data-annotation",
+      "music-and-audio-evaluation-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Music & Sound Annotation Expert",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/music-sound-annotation-expert-2823077045?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_50a68684780b": {
@@ -114045,6 +114717,135 @@
           "from": "35%",
           "to": "41%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
+  "opp_6c7dc85175cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-21T19:26:50+00:00",
+    "description": "Role Title: Life Sciences Research Expert (Python) Pay: $60\u2013$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you choose the hours and days you work, including weekends if desired micro1 is seeking experienced life sciences researchers with strong, hands-on Python skills to contribute to projects focused on evaluating and improving advanced AI systems. In this role, you will apply your scientific expertise to create, solve, and review challenging research problems within biology and related fields. You will use Python to analyze scientific data, develop reproducible solutions, validate computational results, and identify errors in technical reasoning or code. Areas of Expertise We are particularly interested in candidates with expertise in one or more of the following: Medicine and biomedical science Computational biology Neuroscience Molecular and cellular biology Biotechnology and bioinformatics Genetics and genomics Ecology and evolutionary biology Biostatistics or biological data science Etc. Scope of Work Create and solve technically rigorous scientific problems within your area of expertise. Develop reproducible Python-based analyses, models, simulations, or data-processing workflows. Review scientific solutions and code for correctness, clarity, and completeness. Preferred Qualifications PhD, MD, or master\u2019s degree with substantial research experience in a relevant life sciences discipline. Strong scientific or \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/life-sciences-research-expert-python",
+    "id": "opp_6c7dc85175cf",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 3 profile skills: pandas, python, statistics. Covers 50% of the 6 skills this listing names (missing: data science, numpy, rest)."
+        }
+      },
+      "final_score": 58.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "pandas",
+      "numpy",
+      "rest",
+      "data science",
+      "statistics",
+      "scientific-python-developer",
+      "life-sciences-specialist",
+      "life-sciences-software-engineer",
+      "bioinformatics-research-scientist",
+      "biology-research-scientist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Life Sciences Research Expert (Python)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/life-sciences-research-expert-python?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 50.0,
@@ -152716,6 +153517,141 @@
       "probability_low": 21.0
     }
   },
+  "opp_8e9fcedfad8a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-15T19:35:19+00:00",
+    "description": "Senior ML Engineer (MSc. or PhD) Pay: $60\u2013$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible\u2014you choose the hours and days you work, including weekends if desired We are looking for highly skilled Machine Learning Experts to contribute to an AI training project involving model development, training and inference systems, numerical computing, performance optimization, and Python. The work involves creating, solving, reviewing, and validating challenging machine-learning engineering tasks. A representative task may require implementing or modifying a model, constructing a reproducible training or inference workflow, optimizing memory or throughput, debugging numerical or system-level failures, and verifying that the resulting implementation satisfies objective correctness and performance requirements. This is a very coding heavy role. Candidates but have experience using coding agents with python in their workflow. What You\u2019ll Work On Develop and validate machine-learning models, training pipelines, inference systems, and supporting infrastructure. Implement model components, data pipelines, evaluation systems, and numerical methods. Build reproducible programmatic workflows using Python and command-line tools. Required Qualifications A master\u2019s degree or PhD in Computer Science, Machine Learning, Artificial Intelligence, Applied Mathematics, Statistics, Engineering, or a closely related quantitative discipline. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/ml-engineer-msc-or-phd",
+    "id": "opp_8e9fcedfad8a",
+    "is_demo": false,
+    "match_score": 79.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 62.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 29.2,
+          "evidence": "Matched 3 profile skills: data pipeline, python, statistics. Covers 67% of the 3 skills this listing names (missing: machine learning)."
+        }
+      },
+      "final_score": 62.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "machine learning",
+      "statistics",
+      "ai-ml-engineer",
+      "machine-learning-engineer",
+      "ml-ai-research-engineer",
+      "ml-research-engineer",
+      "ai-ml-research-engineer",
+      "senior-ml-engineer",
+      "senior-ai-ml-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "ML Engineer (MSc. or PhD)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/ml-engineer-msc-or-phd?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_8eb8837d439b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -173359,6 +174295,152 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_a0fc90dae418": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "EngiFlex",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T13:00:10+00:00",
+    "description": "\ud83d\udccb Tasks and responsibilities An IT development team is seeking a full-stack web developer with strong technical expertise and at least 8 years of experience in software development. You will join an established, long-term software development project as technical lead. In this role, you will provide technical direction while continuing to contribute directly to the development work. Your main responsibilities will include: Define and maintain the technical architecture of software solutions, with attention to scalability, security, performance and maintainability. Translate business requirements into sound technical designs and suitable technology choices. Contribute directly to software development, especially for complex or critical components. Safeguard code quality and architectural consistency through code reviews, technical standards and development best practices. Guide developers, explain technical decisions and support knowledge sharing and continuous improvement. Identify technical risks, dependencies and technical debt, and drive suitable solutions. Work with the head of service and project managers to support successful project delivery. Participate actively in project teams, contributing to the design, development, testing and delivery of software solutions. Required technical skills Object-oriented programming, design patterns and n-tier architecture. Backend development with C#, .NET Framework 4.0, 4.5 and 4.8, .NET Core including .NET 10, .NET Core Web API \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/engiflex/jobs/full-stack-web-developer-and-technical-lead-employed-or-freelance",
+    "id": "opp_a0fc90dae418",
+    "is_demo": false,
+    "match_score": 32.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 44.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 11.9,
+          "evidence": "Matched 1 profile skills: sql. Covers 10% of the 10 skills this listing names (missing: api, azure, css, docker)."
+        }
+      },
+      "final_score": 44.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "rest",
+      "azure",
+      "docker",
+      "kubernetes",
+      "javascript",
+      "node",
+      "html",
+      "css",
+      "full-stack-developer",
+      "technical-lead",
+      "web-developer",
+      "software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Full-stack Web Developer and Technical Lead (Employed or freelance)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/engiflex/jobs/full-stack-web-developer-and-technical-lead-employed-or-freelance?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_a1337bb021ca": {
@@ -197507,6 +198589,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_b7a32dc5f0ca": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 90,
+    "budget_min": 45,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-08T11:20:57+00:00",
+    "description": "Role Title: STEM Expert \u2013 Chemistry & Computational Chemistry (PhD) Role Type: Contractor Location: Remote (Worldwide) Job Summary: In this role, you\u2019ll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. Key Responsibilities: Design, evaluate, and critique chemistry and computational chemistry problems, workflows, and reasoning chains to support AI benchmarking initiatives. Provide expert-level insights on reaction mechanisms, synthesis planning, spectroscopy analysis, molecular simulations, and electronic structure methods. Assess and optimize experimental protocols, simulation parameters, and software configurations for accuracy and reproducibility. Analyze chemical, spectroscopic, and simulation data and provide actionable recommendations. Leverage domain knowledge to guide the development and validation of chemistry-related AI models and tools. Communicate complex scientific concepts clearly, both in writing and verbally, to technical and non-technical collaborators. Document findings, methodologies, and best practices to ensure knowledge transfer across the customer\u2019s team. Areas of Expertise (we welcome applicants from any of the following): Organic synthesis & reaction mechanisms Inorganic & organometallic chemistry Physical & theoretical chemistry Analytical chemistry & spectroscopy Computational chemistry & molecular dynamics Cheminformatics & drug \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 337.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/stem-expert-chemistry-computational-chemistry-phd-9817779108",
+    "id": "opp_b7a32dc5f0ca",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:00:14+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 66.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $338 on $338 (100% margin). $72 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $90 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 67% of the 3 skills this listing names (missing: react)."
+        }
+      },
+      "final_score": 66.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "react",
+      "computational-chemistry-specialist",
+      "stem-expert",
+      "chemistry-expert",
+      "stem-specialist",
+      "chemistry-subject-matter-expert",
+      "computational-chemist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "STEM Expert \u2013 Chemistry & Computational Chemistry (PhD)",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/stem-expert-chemistry-computational-chemistry-phd-9817779108?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b7a4fecddac8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -214106,6 +215322,138 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_c6e8bd7b07fe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 144.23,
+    "budget_min": 96.15,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Thatch",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T13:02:32+00:00",
+    "description": "About Thatch For most people, health insurance is something that happens to them: a plan chosen by someone else, with little room to fit their life. Thatch is changing that. We help companies give every employee a real healthcare budget instead of a one-size-fits-all plan, so people can choose the coverage and care that works for them, and employers get predictable costs they can control. It\u2019s a simple idea, but making it real means solving hard problems across healthcare, payments, and technology, and we\u2019re just getting started. We look for people who like solving complex problems, use good judgment, and are comfortable working through ambiguity. People here care deeply about our customers, take real responsibility for what gets built, and are driven by doing work that matters. About the role We\u2019re looking for a consultative, strategic Account Executive to join our Mid-Market sales team at Thatch , owning a market within our West territory. Alongside our Broker partners, you will work with HR, finance, and executive stakeholders at companies with 100+ employees to solve complex healthcare challenges. This is an ideal role for someone who can run an exceptional sales process, influence high-level decisions, and help us build a category-defining business. Where this role is based This role covers the West territory . You\u2019ll own the market where you live. We\u2019re prioritizing candidates who are based in, and well networked in, the market they\u2019d cover. We\u2019re hiring reps who live \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 721.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/thatch/jobs/account-executive-mid-market-west-coast",
+    "id": "opp_c6e8bd7b07fe",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T13:02:32+00:00",
+    "profit_score": 72.7,
+    "risk_flags": [],
+    "score": 67.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.4,
+          "evidence": "Estimated net $721 on $721 (100% margin). $154 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $192 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 67.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "forecasting",
+      "account-executive",
+      "mid-market-account-executive",
+      "benefits-sales-consultant",
+      "healthcare-sales-consultant",
+      "insurance-sales-representative"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Account Executive - Mid Market, West Coast",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/thatch/jobs/account-executive-mid-market-west-coast?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -256229,6 +257577,128 @@
     "title": "NYS Certified Special Education Teachers - Remote Opportunities",
     "updated_at": "2026-09-23T10:58:14+00:00",
     "url": "https://himalayas.app/companies/itutor/jobs/nys-certified-special-education-teachers-remote-opportunities-6093138717",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_ef2914834c68": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Mc3 Partners",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-11T13:43:57+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T12:59:52+00:00",
+    "description": "Job Title Account Executive Location Remote Focus State and Local Public Sector Sales Job Summary The Account Executive's primary responsibilities include prospecting, qualifying, selling and closing new business to state and local public sector customers. The Account Executive brings strong leadership to the customer engagement and uses resources within organization to solve customer problems with the appropriate company products and services. Duties and Responsibilities Account and Customer Relationship Management Annual Revenue: Achieve or exceed quota targets for both On Premise and Cloud software, Services and Renewals, including Software License, Services Revenue and Subscription Revenue. Sales Strategies: Develop effective and specific account plans to ensure revenue target delivery and sustainable growth. Develop relationships in new and existing customers and leverage them to drive strategy through the organization. Trusted Advisor: Establish strong relationships based on knowledge of customer requirements and commitment to value (value of counsel and expertise, value of solutions, value of implementation expertise). Build a foundation on which to harvest future business opportunities, and maintain accurate account information and coaching. Customer Acumen: Actively understand each customer's technology footprint, strategic growth plans, technology strategy and competitive landscape. Review public information (e.g. new executive appointments, public records, vendor \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261111T134356Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mc3-partners/jobs/saas-account-executive",
+    "id": "opp_ef2914834c68",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-11T12:59:52+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "account-executive",
+      "saas-account-executive",
+      "public-sector-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAAS Account Executive",
+    "updated_at": "2026-11-11T13:43:57+00:00",
+    "url": "https://himalayas.app/companies/mc3-partners/jobs/saas-account-executive?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
