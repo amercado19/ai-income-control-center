@@ -44547,6 +44547,148 @@
       "probability_low": 15.0
     }
   },
+  "opp_2c4c4d11f20b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Description Ciklum",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:26:09+00:00",
+    "description": "Ciklum is looking for a Senior Account Director to join our team full-time in the US. We are a custom product engineering company that supports both multinational organizations and scaling startups to solve their most complex business challenges. With a global team of over 4,000 highly skilled developers, consultants, analysts and product owners, we engineer technology that redefines industries and shapes the way people live. About the role: As a Senior Account Director, become a part of a cross-functional development team engineering experiences of tomorrow. At Ciklum, we are always exploring innovations, empowering each other to achieve more, and engineering solutions that matter. We are a custom product engineering and digital transformation company supporting both multinational organizations and scaling startups to solve their most complex business challenges. With a global team of over 4,000 highly skilled developers, consultants, analysts, and product owners, we engineer technology that redefines industries and shapes the way people live. Ciklum is experiencing rapid growth, with the United States representing our primary strategic growth market. We are inviting experienced leadership professionals to drive high-impact digital transformations alongside premier West Coast technology companies, global retail brands, and innovative consumer financial platforms. As an Account Director, you will serve as a key commercial leader and B2C Subject Matter Expert across our US \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/description-ciklum/jobs/senior-account-director-8168948690",
+    "id": "opp_2c4c4d11f20b",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-12T22:26:10+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: ci/cd, forecasting. Covers 33% of the 6 skills this listing names (missing: analytics, api, azure, rest)."
+        }
+      },
+      "final_score": 50.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 50.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "azure",
+      "ci/cd",
+      "forecasting",
+      "analytics",
+      "account-director",
+      "sales-director",
+      "client-services-director",
+      "account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Account Director",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/description-ciklum/jobs/senior-account-director-8168948690?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_2c627f5ac567": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -49827,6 +49969,149 @@
       "probability_low": 32.0
     }
   },
+  "opp_3037e5ef8ebe": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 78.12,
+    "budget_min": 46.88,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "MAG Aerospace",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:25:01+00:00",
+    "description": "Position Summary MAG Aerospace is recruiting for a Senior Network Engineer who will Architect and manage secure, scalable enterprise network infrastructure that connects business operations across cloud and on-premises environments. You'll design robust network solutions that ensure seamless connectivity, security, and performance while supporting digital transformation initiatives and multi-tenant secure environments. Essential Duties and Responsibilities Primary Responsibilities Develop network monitoring, automation, and performance optimization strategies Configure and manage Microsoft Azure networking services (VNets, ExpressRoute, VPN Gateway, Network Security Groups) Evaluate, re-evaluate, understand, and support existing/legacy network requirements, including documenting and extending/revisiting implementations Design and implement enterprise network architectures for hybrid cloud environments Work with other IT cross-functional teams for collaboration where networkoperations could be impacted Deploy and maintain Fortinet security appliances (FortiGate firewalls, FortiAnalyzer, FortiManager) Configure and optimize Cisco enterprise networking equipment (switches, routers, wireless controllers) Implement network segmentation and microsegmentation strategies for secure multi-tenant environments Design and deploy software-defined WAN (SD-WAN) solutions Configure quality of service (QoS) for business-critical applications Secondary Responsibilities Support cybersecurity \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 351.6,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mag-aerospace/jobs/senior-network-engineer",
+    "id": "opp_3037e5ef8ebe",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-12T22:25:01+00:00",
+    "profit_score": 47.7,
+    "risk_flags": [],
+    "score": 60.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.8,
+          "evidence": "Estimated net $352 on $352 (100% margin). $75 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $94 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 33% of the 6 skills this listing names (missing: azure, docker, kubernetes, terraform)."
+        }
+      },
+      "final_score": 60.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "azure",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "automation",
+      "network-engineer",
+      "senior-network-engineer",
+      "cloud-network-engineer",
+      "network-security-engineer",
+      "network-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Network Engineer",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/mag-aerospace/jobs/senior-network-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_306872a47f81": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -52382,6 +52667,133 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_3171a98b02bb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Grupo Botic\u00e1rio",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:24:09+00:00",
+    "description": "Um dos maiores grupos de beleza do mundo, o Grupo Botic\u00e1rio \u00e9 uma empresa brasileira presente em mais de 40 pa\u00edses. \u00c9 dono das marcas O Botic\u00e1rio, Eudora, Quem Disse, Berenice?, Vult, O.U.i, Dr. JONES, TRUSS, e do marketplace Beleza na Web, al\u00e9m de atuar com produtos licenciados como Australian Gold, Bio Oil, Nuxe, e Pampers e sua divis\u00e3o para o mercado B2B. Essa intera\u00e7\u00e3o entre diferentes marcas, ativos, plataformas, rede de franqueados, representantes, distribuidores, varejistas, sellers e fornecedores formam o ecossistema de beleza do Grupo Botic\u00e1rio que oferece, ainda, solu\u00e7\u00f5es digitais de gest\u00e3o de neg\u00f3cio para o varejo brasileiro. S\u00e3o mais de 19 mil colaboradores diretos, com mais de 4 mil lojas em 1.780 cidades brasileiras. Conduzir a estrat\u00e9gia, sustenta\u00e7\u00e3o e evolu\u00e7\u00e3o cont\u00ednua dos produtos digitais da frente de Atra\u00e7\u00e3o Corporativa e Estrat\u00e9gica com postura de PM Builder, unindo a governan\u00e7a do sistema central de recrutamento \u00e0 capacidade de prototipar automa\u00e7\u00f5es \u00e1geis e aplicar Intelig\u00eancia Artificial para acelerar e qualificar o funil de contrata\u00e7\u00e3o; Governan\u00e7a & Evolu\u00e7\u00e3o do ATS Corporativo: Liderar o ciclo de vida e a parametriza\u00e7\u00e3o da plataforma central de recrutamento e sele\u00e7\u00e3o (ATS), desenhando r\u00e9guas de triagem, fluxos admissionais e integra\u00e7\u00e3o funcional com ferramentas de testes preditivos e comportamentais; Prototipa\u00e7\u00e3o R\u00e1pida & Ferramentas Low-Code (Perfil Builder): Desenvolver e sustentar solu\u00e7\u00f5es \u00e1geis, fluxos automatizados e pequenos produtos utilizando \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/grupo-boticario/jobs/product-manager-especialista-i-tech-colaborador",
+    "id": "opp_3171a98b02bb",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-12T22:24:09+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: analytics, api, rest, webhook)."
+        }
+      },
+      "final_score": 48.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "webhook",
+      "analytics",
+      "product-manager",
+      "technical-product-manager",
+      "recruitment-technology-product-manager",
+      "hr-technology-product-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Product Manager - Especialista I (Tech Colaborador)",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/grupo-boticario/jobs/product-manager-especialista-i-tech-colaborador?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_31f589609265": {
@@ -58634,6 +59046,145 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_39ec668053e8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 76.92,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Benifex",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "GBP",
+    "deadline": "2027-01-11T22:37:34+00:00",
+    "description": "Who are Benifex ? \ud83d\udc9a\ud83d\udc9c We are a fast-moving technology company, and one of the most successful providers of online reward and benefits solutions in the world. We believe that everyone deserves an exceptional experience at work, every day, and build workplace technology that makes this happen. Benifex \u2019s mission is to build remarkable experiences that employees love. Today Benifex supports more than five million employees in over 3,000 organisations across more than 100 countries. To help us on our quest to be the best, we need brilliant people on board and that\u2019s where you come in. \ud83d\ude80 Why should you apply? \ud83c\udf1f Take ownership of a significant revenue target with the opportunity to directly influence business growth and success Enjoy strong earning potential with a competitive base salary and commission. Be part of a collaborative, experienced team with opportunities for long-term career development Work in a highly consultative sales environment where you can leverage both your commercial expertise and relationship-building skills Play a key role in shaping and expanding strategic client relationships within a growing international business Base salary from \u00a380,000, base + uncapped commission (OTE up to 2xbase salary) Sunday Times Best Place to Work 2025 and Technology award winner Work for a profitable, fast-growing market leader in the online reward and benefits space **Please note we are unable to offer visa sponsorship and require people to be based in the UK or Ireland for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 288.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/benifex/jobs/global-ad-new-business",
+    "id": "opp_39ec668053e8",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-12T22:37:35+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 47.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $288 on $288 (100% margin). $62 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $77 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 47.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 59.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "account-director",
+      "sales-director",
+      "enterprise-account-executive",
+      "director-of-new-business"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Global AD New Business",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/benifex/jobs/global-ad-new-business?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -133643,6 +134194,131 @@
       "probability_low": 4.0
     }
   },
+  "opp_7a2c5d8b43f5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Is the 3-month contract about 20 hours a week? And would you take links to public work instead of the four Looms?",
+    "competition_score": 85.2,
+    "confidence": 0.0,
+    "created_at": "2026-11-12T23:17:00+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Is the 3-month contract about 20 hours a week? And would you take links to public work instead of the four Looms?",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50473116",
+    "id": "opp_7a2c5d8b43f5",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-12T19:46:06Z",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNCLEAR_DELIVERABLES"
+    ],
+    "score": 18.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 0.0,
+          "evidence": "Thin description."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNCLEAR_DELIVERABLES."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 18.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Description is too thin to know what 'done' means.",
+          "name": "UNCLEAR_DELIVERABLES",
+          "points": 10.0
+        }
+      ],
+      "raw_total": 28.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Is the 3-month contract about 20 hours a week? And would you take links to public work instead of the four Looms? - contract role",
+    "updated_at": "2026-11-12T23:17:00+00:00",
+    "url": "https://news.ycombinator.com/item?id=50473116",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
+    }
+  },
   "opp_7a600bd2c4d0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -176742,6 +177418,129 @@
       "probability_low": 15.0
     }
   },
+  "opp_a27adfbbda97": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "CIFOR-ICRAF",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:23:57+00:00",
+    "description": "Overall objective: to strengthen the quality, consistency, accessibilityand visibility of the GCF Knuckles Project\u2019s knowledge products andcommunication outputs, so that Project evidence and results reach and areunderstood by their intended audiences. Specific objectives: Ensure that written outputs of the Project team and partners are clear,accurate, consistent and of publishable standard through technical review,language editing and proofreading. Produce and edit timely, high-quality news, media, technical content andstorytelling content for the ICRAF Sri Lanka country office and Projectchannels. Uphold the Project\u2019s house style, terminology and ethical standards inall written communication. Summary of responsibilities 1. 2. 3. Working arrangements Work will be requested through short writtentask orders, each stating the product, purpose, audience, length or format,source materials, review points and deadline. The Consultant will confirmacceptance and feasibility of the deadline within [one (1)] working day.Products vary in size and complexity; the scope, effort and fee for each areagreed before work starts, using the unit rates in the Consultant\u2019s financialproposal. The Consultant will be responsible for the followingtasks: Technical review: review draft reports, briefs, papers, trainingmaterials and proposals from the Project team and partners for clarity, logic,completeness and internal consistency of data, figures, terminology andconclusions, and refer technical gaps \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/cifor-icraf/jobs/consultancy-technical-writer-and-editor-consultant",
+    "id": "opp_a27adfbbda97",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-12T22:23:58+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: cron."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "cron",
+      "technical-writer",
+      "editor",
+      "consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultancy - Technical Writer and Editor Consultant",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/cifor-icraf/jobs/consultancy-technical-writer-and-editor-consultant?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a2833839dfdf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -178355,6 +179154,150 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_a432ad56912c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "CodiLime",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:22:10+00:00",
+    "description": "Get to know us better CodiLime is a software and network engineering industry expert and the first-choice service partner for top global networking hardware providers, software providers and telecoms. We create proofs-of-concept, help our clients build new products, nurture existing ones and provide services in production environments. Our clients include both tech startups and big players in various industries and geographic locations (US, Japan, Israel, Europe). While no longer a startup - we have 250+ people on board and have been operating since 2011 we\u2019ve kept our people-oriented culture. Our values are simple: Act to deliver. Disrupt to grow. Team up to win. The project and the team You will join the team behind a leading network source-of-truth (NSoT) platform, used by thousands of organizations - from fast-growing tech companies to Fortune 500 enterprises - to model, document, and automate their network infrastructure. CodiLime engineers work within the platform's Observability team, which connects the network source of truth with what is actually running on the network. The team builds products for network discovery, network assurance (detecting drift between the intended and the actual state of the network), management of the agents that collect discovery and telemetry data, and a reliable pipeline that ingests this data into the platform. The platform is built AI-first, with its own Claude Code agent skills and MCP server, and that mindset carries over to how the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/codilime/jobs/senior-devops-engineer",
+    "id": "opp_a432ad56912c",
+    "is_demo": false,
+    "match_score": 72.1,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-12T22:22:11+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 19 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.5,
+          "evidence": "Matched 5 profile skills: automation, ci/cd, github actions, python, sql. Covers 36% of the 14 skills this listing names (missing: api, aws, docker, grafana)."
+        }
+      },
+      "final_score": 58.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "aws",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "github actions",
+      "ci/cd",
+      "automation",
+      "grafana",
+      "devops-engineer",
+      "site-reliability-engineer",
+      "platform-engineer",
+      "cloud-infrastructure-engineer",
+      "infrastructure-automation-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior DevOps Engineer",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/codilime/jobs/senior-devops-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -186550,6 +187493,145 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_abc1db770ab2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 57.69,
+    "budget_min": 38.46,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wanzek",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T23:17:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-11T22:29:51+00:00",
+    "description": "Overview Company Overview: Henkels & McCoy West works closely with clients from diverse markets to build enduring partnerships throughout the Western United States. Our team of seasoned professionals' designs, builds, manages, and maintains critical and sustainable infrastructure for the power, oil & gas pipeline, gas distribution, and communications industries. Building on a 100-year legacy of performance and service to utility, commercial, industrial, and government clients, H&M West brings together extensive knowledge and innovation to deliver infrastructure construction solutions that meet future energy needs today. H&M West is a purpose-driven company. Our core values guide our strategy, performance, and culture. We believe in maintaining an environment where team members can make an impact, grow, and thrive. A place where they find meaning and purpose in doing the important work of ensuring communities have the vital energy, light, and communications to prosper. Our culture is inclusive and welcoming. Our teams are empowered with abundant training, tools, and opportunities to follow their curiosity and ambitions. Everyone has an equal chance to advance. Everyone is supported, respected, and challenged to be their best. We\u2019re always looking for talented and dedicated people to join us and love where they work. Henkels & McCoy West is a proud subsidiary of MasTec (NYSE: MTZ), a Fortune 500 Company ranked by Energy News-Record as one of the leading contractors in the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T231659Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 288.45,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wanzek/jobs/estimator-ii",
+    "id": "opp_abc1db770ab2",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-12T22:29:51+00:00",
+    "profit_score": 46.7,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 24.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.6,
+          "evidence": "Estimated net $288 on $288 (100% margin). $62 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $77 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 24.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 36.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "estimator",
+      "construction-estimator",
+      "utility-construction",
+      "electrical-estimator",
+      "bid-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Estimator II",
+    "updated_at": "2026-11-12T23:17:01+00:00",
+    "url": "https://himalayas.app/companies/wanzek/jobs/estimator-ii?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_abfa0bfde219": {
