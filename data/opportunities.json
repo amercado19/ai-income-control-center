@@ -82180,6 +82180,123 @@
       "probability_low": 4.0
     }
   },
+  "opp_51165be98228": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 180.0,
+    "budget_min": 180.0,
+    "budget_type": "FIXED",
+    "category": "generic",
+    "client": "Erica Holloway",
+    "competition_score": 85.0,
+    "confidence": 65.0,
+    "created_at": "2026-11-12T00:11:02+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Erica Holloway | Talent Sourcer @ Footprint | NYC & SF, USA (onsite) [contact removed] - reach out, I'll respond https://www.linkedin.com/in/ericagholloway/ Footprint runs a B2B agentic AI platform for risk, compliance and fraud prevention. We launched in 2022, just raised series B (!!!) and opened our new SF office. The org is talent dense with electric energy and some of the sharpest people you'll find. Our team: https://www.linkedin.com/company/onefootprint/people/ We're hiring across the board in NYC and SF, but engineering is top priority. - ENGINEERING - We're looking for frontend, backend, FDEs, you name it. We aren't concerned with your years of experience. We care about your ownership, contributions and competence. If you know Rust like the back of your hand, love to build, and are local to NYC/SF, email me or drop me a LI message. COMPENSATION Backend/frontend: $180k - 160k FDE: $170k - 205k details in JD's here: https://jobs.ashbyhq.com/footprint?departmentId=035e1b0e-5df... Other roles - if you know someone, share: - GTM ICs and leadership (AEs, SDRs, Account Managers, Director of Sales) - Founding strategy/ops - Demand Gen",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.54,
+    "estimated_cost": 0.0,
+    "estimated_hours": 5.07,
+    "estimated_net_revenue": 180.0,
+    "estimated_non_ai_effort": 2.53,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50456061",
+    "id": "opp_51165be98228",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "MID",
+    "posted_time": "2026-11-11T17:34:59Z",
+    "profit_score": 43.9,
+    "risk_flags": [],
+    "score": 47.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 21.6,
+          "awarded": 10.8,
+          "evidence": "50% of estimated effort is AI-carryable (2.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 9.8,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); budget stated."
+        },
+        "Expected Profitability": {
+          "available": 19.6,
+          "awarded": 8.6,
+          "evidence": "Estimated net $180 on $180 (100% margin). $57 per effective hour vs $85 target (3.2 effective h = 2.5h human + 2.5h AI discounted). Leverage: $71 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 14.7,
+          "awarded": 12.5,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.8,
+          "awarded": 9.8,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.5,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 47.5,
+      "opportunity_class": "B - Mid-size project ($100-500)",
+      "penalties": [],
+      "raw_total": 47.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 21.57,
+        "clarity_of_requirements": 9.8,
+        "expected_profitability": 19.61,
+        "likelihood_of_winning": 14.71,
+        "risk": 9.8,
+        "skill_fit": 24.51
+      }
+    },
+    "skills": [],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Erica Holloway - contract role",
+    "updated_at": "2026-11-12T00:11:02+00:00",
+    "url": "https://news.ycombinator.com/item?id=50456061",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (65-87%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "85%",
+          "to": "70%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "70%",
+          "to": "76%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 87.0,
+      "probability_low": 65.0
+    }
+  },
   "opp_5139386e03a6": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -94855,6 +94972,144 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5bc26f3e538a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AI21",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T23:25:02+00:00",
+    "description": "Description AI21 is an AI lab building frontier models and AI systems for the enterprise since 2017, and the only Israeli foundation lab that has trained LLMs from scratch. Creator of the Jurassic and Jamba model families, AI21 today offers its lab-as-a-service for specialized intelligence: Forward-Deployed Researchers and a harness- and model-training platform that turn open foundations into models its customers own, delivered with the weights, recipes and evaluations that keep them theirs. Role and Responsibilities We are seeking a strategic Senior Account Executive (US Market) to lead our commercial engagements and opportunities in the US market. You will be responsible for sourcing, driving, and closing high-ACV deals for our Lab-as-a-Service offering with leading AI-native and traditional companies. This role requires a senior commercial hands-on leader, who thrives in complex technical and strategic sales involving both a platform and substantial professional services components. Working closely alongside executive leadership and R&D teams in Israel, you will establish our presence in the US market, build C-suite relationships, and establish the operational and strategic blueprint for scaling our global revenue engine. Requirements Senior Commercial Leadership: 8+ years of experience leading complex enterprise GTM, solution sales, or business development in high-growth B2B tech environments. Track Record of High-ACV Success: Proven history of consistently closing \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ai21/jobs/senior-account-executive-us-market",
+    "id": "opp_5bc26f3e538a",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-11T23:25:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 22.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 22.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 34.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "senior-account-executive",
+      "account-executive",
+      "enterprise-account-executive",
+      "solution-sales-executive",
+      "sales-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Account Executive \u2013 US Market",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/ai21/jobs/senior-account-executive-us-market?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_5bf787d2b46a": {
@@ -131196,6 +131451,143 @@
       "probability_low": 0.0
     }
   },
+  "opp_782760b8c50b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 177.88,
+    "budget_min": 142.31,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Freshworks",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T23:27:30+00:00",
+    "description": "Collaborating with our Enterprise customers across all of LATAM to identify and address their most critical business challenges. Supporting field sales and channel teams through discovery and product demonstrations for direct and partner-led opportunities. Gathering requirements effectively to clearly define customer problems. Building and presenting compelling demonstrations of Freshworks products. Articulating the value of Freshworks solutions to a variety of audiences. Embracing lifelong learning and continuously developing your skills. Build trusted relationships with partner presales across LATAM, serving as a technical resource throughout joint pursuits. Collaborate with partners on customer workshops, tailored demonstrations, solution design, and technical validation to connect Freshworks capabilities to customer outcomes. Deliver partner activation through hands-on sessions, demo coaching, and reusable assets that help partners independently position and demonstrate Freshworks solutions. Work with LATAM channel managers and field account teams to align technical support for joint account plans, partner-led opportunities, and regional events. 6-8 years of Solution Engineering experience. Experience supporting both direct sales and channel partners is preferred, including partner technical activation and joint customer engagements. Excellent soft skills and presentation abilities; you will rely on these daily! Proven capability to work on cross-functional teams to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 1067.33,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/freshworks/jobs/lead-solution-engineer",
+    "id": "opp_782760b8c50b",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T23:27:30+00:00",
+    "profit_score": 86.3,
+    "risk_flags": [],
+    "score": 71.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.9,
+          "evidence": "Estimated net $1,067 on $1,067 (100% margin). $228 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $285 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 71.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "solutions-engineer",
+      "sales-engineer",
+      "pre-sales-engineer",
+      "technical-account-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Lead - Solution Engineer",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/freshworks/jobs/lead-solution-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_782f38fad084": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -133254,6 +133646,141 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_7af4e09179a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "Business Financial Group",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "INR",
+    "deadline": "2027-01-10T23:25:14+00:00",
+    "description": "This is a remote position. Business Financial Group | Job Description Engagement: Part-time consulting engagement for a U.S. client Work arrangement: Remote, with availability for scheduled U.S. business-hour meetings Time commitment: 15-20 monthly hours; additional availability may be needed during initial stabilization Compensation: To be discussed based on experience and agreed scope About Business Financial Group Business Financial Group (BFG) provides accounting, tax, payroll, and financial advisory services to U.S. businesses. We are seeking an experienced Fractional CFO to support a client engagement delivered through a partner advisory firm. Role overview The Fractional CFO will strengthen the client\u2019s weekly cash flow visibility, improve forecasting reliability, and provide clear financial analysis for management decisions. This hands-on advisory role requires close coordination with the partner firm, BFG\u2019s Fractional Controller, and the client\u2019s accounting team. The professional will progressively assume leadership of recurring cash flow meetings under the partner firm\u2019s oversight. Key responsibilities Cash flow and liquidity oversight Review bank balances, expected customer collections, vendor payments, debt obligations, and other near-term cash commitments; identify liquidity risks and decisions requiring management attention. Prepare a concise, one-page weekly cash flow summary before the scheduled Monday review meeting, with practical recommendations and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/business-financial-group/jobs/fractional-cfo",
+    "id": "opp_7af4e09179a8",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T23:25:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 40% of the 5 skills this listing names (missing: google sheets, pdf, rest)."
+        }
+      },
+      "final_score": 55.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "rest",
+      "forecasting",
+      "pdf",
+      "fractional-cfo",
+      "chief-financial-officer",
+      "director-of-finance",
+      "senior-financial-advisor",
+      "financial-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Fractional CFO",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/business-financial-group/jobs/fractional-cfo?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_7b2eb1ec2cf7": {
@@ -210727,6 +211254,142 @@
       "probability_low": 4.0
     }
   },
+  "opp_c284b798db18": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 150,
+    "budget_min": 130,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "RevHealth",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T23:26:28+00:00",
+    "description": "In a world of big-box consolidated agencies, RevHealth stands apart\u2014proudly independent and intentionally different. That\u2019s not just our ownership\u2014it\u2019s our mindset. It empowers us to think fearlessly, make bold decisions, and tailor our approach to fit the unique needs of every client. We are a team of dreamers and doers, committed to crafting work that moves the industry, shapes conversations, and makes a meaningful difference in people\u2019s lives. Our mission is to be a modern partner for progressive clients. Interested in working for a dynamic agency that empowers its people to produce career-defining work? Join us at RevHealth , an independent pharmaceutical healthcare marketing and ad agency and bring your voice, your curiosity, and your craft to an environment that champions both your personal growth and cutting-edge client solutions. About the role RevHealth is seeking an experienced Freelance Brand Manager to lead brand direction for high-science ophthalmology work. The Brand Manager will partner with RevHealth \u2019s account and cross-functional teams to translate brand priorities into HCP promotional initiatives, including leave-behinds, CVAs, and advisory boards. What you'll do Brand Management consultant for our client\u2019s ophthalmology work, providing brand direction to RevHealth \u2019s account and cross-functional teams. Translate brand priorities into actionable guidance for HCP and Patient promotional initiatives and agency partners. Guide the development and delivery of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 975.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/revhealth/jobs/freelance-brand-manager",
+    "id": "opp_c284b798db18",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T23:26:29+00:00",
+    "profit_score": 85.2,
+    "risk_flags": [],
+    "score": 46.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.7,
+          "evidence": "Estimated net $975 on $975 (100% margin). $208 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $260 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 46.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 46.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "brand-manager",
+      "pharmaceutical-brand-management",
+      "marketing-brand-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance Brand Manager",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/revhealth/jobs/freelance-brand-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_c2c67f929592": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -227191,6 +227854,137 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_d391d7b23449": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Sponge",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T23:24:27+00:00",
+    "description": "Who we are Sponge exists to bring the world\u2019s boldest strategies to life through the people who deliver them, specialising in unlocking the \u2018human layer\u2019 of complex transformation. We\u2019ve been leading the industry for decades with our best-in-class digital learning capability and, combined with the emergent growth of our consulting services, we are succeeding in being the partner to our customers who are trying to bridge the critical gap between L&D and the business. This role is a rare and exciting opportunity for any passionate learning professional looking to be part of a dynamic, entrepreneurial team that gets to the heart of what L&D is truly trying to do: solve strategic business challenges through the lens of learning! So, what exactly is a Learning Experience Consultant? A Learning Experience Consultant (LExC) at Sponge is a learning leader who is customer-obsessed, thrives in ambiguity, and confidently crafts learning solutions that help strategically move the needle on an organisation\u2019s goals. With strong commercial acumen, senior stakeholder management, and a track record in strategic learning consultancy, they build and maintain meaningful partnerships with our customers who are some of the world\u2019s most prestigious brands. The role primarily holds a dual focus: on the sales side, an LExC drives our commercial momentum by supporting our strategic bids. On the execution side, LExCs are responsible for delivering our delivering our consultative engagements - the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sponge/jobs/learning-experience-consultant",
+    "id": "opp_d391d7b23449",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-11T23:24:27+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "learning-design-consultant",
+      "learning-consultant",
+      "l&d-consultant",
+      "learning-strategist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Learning Experience Consultant",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/sponge/jobs/learning-experience-consultant?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_d3c89d2008ec": {
@@ -276248,6 +277042,144 @@
       "probability_low": 32.0
     }
   },
+  "opp_fddcad7791cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "Addepto",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T00:11:04+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering startups, including Rolls Royce, Continental, Porsche, ABB, and WGU. With an exclusive focus on Artificial Intelligence and Big Data, Addepto helps organizations unlock the full potential of their data through systems designed for measurable business impact and long-term growth. The company's work extends beyond client engagements. Drawing from real-world challenges and insights, Addepto has developed its own product - ContextClue - and actively contributes open-source solutions to the AI community. This commitment to transforming practical experience into scalable innovation has earned Addepto recognition by Forbes as one of the top 10 AI consulting companies worldwide . As part of KMS Technology , a US-based global technology group, Addepto combines deep AI specialization with enterprise-scale delivery capabilities\u00e2\u0080\u0094enabling the partnership to move clients from AI experimentation to production impact, securely and at scale. We are looking for an experienced Data Engineer with strong skills in GCP, Snowflake, dbt, Python, SQL, and Data Analytics to join our team. You will work on international data engineering and analytics projects, focusing on building scalable data solutions, modernizing data warehouses, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137714",
+    "id": "opp_fddcad7791cf",
+    "is_demo": false,
+    "match_score": 71.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-10T16:00:04+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.5,
+          "evidence": "Matched 5 profile skills: ci/cd, etl, excel, python, sql. Covers 36% of the 14 skills this listing names (missing: airflow, analytics, bigquery, dbt)."
+        }
+      },
+      "final_score": 57.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "snowflake",
+      "bigquery",
+      "dbt",
+      "airflow",
+      "etl",
+      "excel",
+      "gcp",
+      "ci/cd",
+      "tableau",
+      "power bi",
+      "looker",
+      "analytics",
+      "design",
+      "saas",
+      "salesforce",
+      "education",
+      "consulting",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Data Engineer",
+    "updated_at": "2026-11-12T00:11:04+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-data-engineer-addepto-1137714",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_fde70d9ea304": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -276526,6 +277458,144 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_fe2553348edd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "Together Light Inc",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T23:25:45+00:00",
+    "description": "Business Administration Manager (Remote) Rate : Based on competency and experience Remote, Full-time (Contractor) Can you lead and coach multiple subteams while ensuring every project stays on schedule and within budget? Are you good at identifying process gaps and proposing strategic recommendations directly to management? Have you managed the development and implementation of reports, dashboards, and metrics to help support the business? Have you set up processes to ensure external vendors are managed properly and efficiently? Do you have experience managing HR and Operations and are you a process god? Can you ensure project timelines are met while overseeing the implementation of new software solutions? About the Role: The Virtual Business Administration Manager (VBAM) is a remote contractor position that oversees most shared services used throughout TLI. You will play a crucial role in leading several functional areas, including Business Intelligence (BI), 3rd Party Tech Support, General Administration (Human Resources), and Recruiting. Your goal is to ensure the efficiency, quality, and output of all operational support functions while directly coaching team leaders to meet company objectives. Qualifications: Proven Management Experience: 3-5 years of experience in a management or operations role, preferably in a remote, fast-paced environment. Ability to manage complex data projects (BI) and technical tool subscriptions while implementing long-term growth strategies. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/together-light-inc/jobs/business-administration-manager",
+    "id": "opp_fe2553348edd",
+    "is_demo": false,
+    "match_score": 28.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T23:25:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 10.6,
+          "evidence": "Matched 2 profile skills: dashboard, vba."
+        }
+      },
+      "final_score": 41.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"a management or operations role\"; \"preferably in a remote\"; \"fast-paced environment\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 41.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "vba",
+      "dashboard",
+      "business-administrator",
+      "business-operations-manager",
+      "operations-manager",
+      "shared-services-manager",
+      "virtual-administrative-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Administration Manager",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/together-light-inc/jobs/business-administration-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_fe3d4bf8be6a": {
@@ -278058,6 +279128,154 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_ffb272859235": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70.67,
+    "budget_min": 52.4,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Thrive Digital",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-12T00:11:03+00:00",
+    "currency": "CAD",
+    "deadline": "2027-01-10T23:26:28+00:00",
+    "description": "Strategics Analytics Manager (Marketing Measurement Partner) Job Details Role: Strategic Analytics Manager (Marketing Measurement Partner) Department : Data & Measurement Job Location: Remote (Canada) Role Type: Full-Time, Permanent Hours: Monday - Friday 9AM-5PM (in your timezone, flexible hours) Compensation: $109,000 - $147,000 CAD + Profit Sharing (after 1 year of employment) + Benefits Role Availability: This posting is for an existing vacancy at Thrive Digital As a company that values inclusion and diversity, Thrive seeks individuals of all backgrounds and experiences to apply for this position. We encourage anybody who is interested in this position to please apply! About Thrive Thrive is a leading full-funnel digital marketing agency supporting growth for some of North America\u2019s most ambitious companies. We evolve our services through disciplined learning, continuous improvement, and close partnership with our clients - regularly assessing what works, what doesn\u2019t, and where to raise the bar. Our mission is to help companies grow sustainably. To do that, we\u2019ve built deep expertise across performance marketing, brand marketing, digital design, and data and measurement, managing more than $5 billion USD in advertising spend over the past decade. Our work spans startups, scale-ups, and enterprise organizations, including Alo, Zoom, Slack, Uber, Asana, Masterclass, Snapchat, Change.org, and lululemon. Our culture values curiosity, accountability, and thoughtful \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261112T001101Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 393.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/thrive-digital/jobs/strategic-analytics-manager-marketing-measurement-partner-canada",
+    "id": "opp_ffb272859235",
+    "is_demo": false,
+    "match_score": 62.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-11T23:26:29+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 62.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $393 on $393 (100% margin). $84 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $105 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.2,
+          "evidence": "Matched 2 profile skills: python, sql. Covers 50% of the 4 skills this listing names (missing: analytics, rest)."
+        }
+      },
+      "final_score": 62.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "rest",
+      "analytics",
+      "strategic-analytics-manager",
+      "marketing-analytics-manager",
+      "marketing-measurement-manager",
+      "data-analytics-manager",
+      "marketing-analytics-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Strategic Analytics Manager (Marketing Measurement Partner) (Canada)",
+    "updated_at": "2026-11-12T00:11:03+00:00",
+    "url": "https://himalayas.app/companies/thrive-digital/jobs/strategic-analytics-manager-marketing-measurement-partner-canada?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-21%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "20%",
+          "to": "12%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "12%",
+          "to": "18%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "18%",
+          "to": "8%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 21.0,
+      "probability_low": 0.0
     }
   },
   "opp_ffe256427c16": {
