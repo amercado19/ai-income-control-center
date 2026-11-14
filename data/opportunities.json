@@ -19660,6 +19660,138 @@
       "probability_low": 26.0
     }
   },
+  "opp_131001fd4231": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 34.62,
+    "budget_min": 26.62,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Westinghouse Electric Company",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:51:22+00:00",
+    "description": "Are you interested in being part of an innovative team that supports Westinghouse\u2019s mission to provide clean energy solutions? At Westinghouse, we recognize that our employees are our most valuable asset and we seek to identify, attract and recruit the most qualified talent while recognizing and encouraging the value of diversity in the global workplace. About the role: As the Travel and Onboarding Coordinator on the Welding and Industrial Services team, you will be responsible for planning and booking travel, hotel, transportation, site safety specifics, drug and background clearances to ensure efficient business operations. Additionally, the role will include supporting Project Managers and Site Managers and reconciling the Corporate Travel Account. You will report to the Director of Industrial Projects. This is a remote role that can be performed from anywhere in the United States, though periodic travel (1-2 times per year) will be required to our Lawrenceville, GA office. Key Responsibilities: Coordinates mobilization efforts for four active field projects, preparing over 200 personnel ahead of project start dates and staggered workforce arrivals. Manages large-scale workforce mobilization logistics for 200+ employees across multiple job sites. Organizes rental vehicle assignments in alignment with employee drug testing schedules to ensure compliance and efficiency. Responds to widespread Transportation Security Administration (TSA) disruptions in March, including \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 266.2,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/westinghouse-electric-company/jobs/travel-and-onboarding-coordinator-lawrenceville-ga-us-30043",
+    "id": "opp_131001fd4231",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T20:51:23+00:00",
+    "profit_score": 46.1,
+    "risk_flags": [],
+    "score": 40.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.5,
+          "evidence": "Estimated net $266 on $266 (100% margin). $56 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $89 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "travel-coordinator",
+      "onboarding-coordinator",
+      "mobilization-coordinator",
+      "logistics-coordinator",
+      "travel-and-expense-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Travel and Onboarding Coordinator (Lawrenceville, GA, US, 30043)",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/westinghouse-electric-company/jobs/travel-and-onboarding-coordinator-lawrenceville-ga-us-30043?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_13160a44a34a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -37183,6 +37315,143 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_23dc8cabdab0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 82.88,
+    "budget_min": 39.47,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "CACI International Inc",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:40:08+00:00",
+    "description": "Job Title: AI EngineerJob Category: Information TechnologyTime Type: Full timeMinimum Clearance Required to Start: SecretEmployee Type: RegularPercentage of Travel Required: Up to 10%Type of Travel: Continental US* * * The Opportunity: Are you ready to revolutionize financial auditability and transportation logistics? We're seeking a successful, experienced Artificial Intelligence Software Engineer SME to join our team in implementing a cutting-edge software system that will transform how USTRANSCOM manages finances and supply chains. If you're passionate about leveraging technology to streamline operations and enhance transparency, this is your chance to make a significant impact. Join us in building the future of financial and logistical management! Responsibilities: Design, develop, and implement AI solutions in production environments Lead AI pilot programs from conception to execution Collaborate with cross-functional teams to integrate AI capabilities into existing systems Provide technical expertise and guidance on AI technologies and best practices Contribute to full-stack development projects Optimize AI models for performance and scalability Qualifications: Required: Demonstrated experience implementing AI solutions in live production systems Strong proficiency in multiple programming languages (e.g., Python, Java, C++, JavaScript) Expertise in cloud services, particularly Azure and AWS Extensive knowledge of API development and management understanding of both SQL \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 394.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/caci-international-inc/jobs/ai-engineer-4482773152",
+    "id": "opp_23dc8cabdab0",
+    "is_demo": false,
+    "match_score": 64.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T20:40:08+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 65.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $395 on $395 (100% margin). $83 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $132 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.7,
+          "evidence": "Matched 3 profile skills: excel, python, sql. Covers 43% of the 7 skills this listing names (missing: api, aws, azure, javascript)."
+        }
+      },
+      "final_score": 65.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 65.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "api",
+      "aws",
+      "azure",
+      "javascript",
+      "ai-engineer",
+      "machine-learning-engineer",
+      "artificial-intelligence-engineer",
+      "nlp-engineer",
+      "software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "AI Engineer",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/caci-international-inc/jobs/ai-engineer-4482773152?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_23eb7149534b": {
@@ -56846,6 +57115,143 @@
       "probability_low": 1.0
     }
   },
+  "opp_34cbc089d1b4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.88,
+    "budget_min": 40.87,
+    "budget_type": "HOURLY",
+    "category": "dashboard",
+    "client": "Foundation Finance Company Careers",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:44:53+00:00",
+    "description": "Business Intelligence Assistant Manager Duties: The Business Intelligence Assistant Manager is responsible for using data to help the Business Intelligence Manager and Director of Business Intelligence make informed decisions as well as manage a team of analysts tasked with generating the insights required to make strategic business decisions. Pay Range USD $85,000.00 - USD $110,000.00 /Yr. Essential Duties and Responsibilities include the following. Other duties may be assigned. Manage, develop, and lead a team of data professionals to collect, pipeline and analyze data to improve efficiency and productivity of analysts in support of business initiatives. Create reports and presentations to communicate data-driven recommendations, ensuring BI solutions can accommodate growing data volumes and business needs. Establish metrics to measure the return on investment of BI initiatives and those of the business. Support and upgrade reports, dashboards, and data sources, following data governance best practices and adhering to data privacy regulations. Support the appropriate tools and training to help teams interpret and use data. Work in alignment with internal and external business partners in adapting to meet the changing needs of the business, with a focus on continuous improvements directed towards automation when appropriate and viable. Lead performance reporting in data visualization tools and present results to cross-functional, non-executive teams. Collaborate with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 531.31,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/foundation-finance-company-careers/jobs/business-intelligence-assistant-manager",
+    "id": "opp_34cbc089d1b4",
+    "is_demo": false,
+    "match_score": 86.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T20:44:54+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 77.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $531 on $531 (100% margin). $86 per effective hour vs $85 target (6.2 effective h = 3.9h human + 9.1h AI discounted). Leverage: $136 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 32.0,
+          "evidence": "Matched 6 profile skills: automation, dashboard, data visualization, python, reporting, sql. Covers 50% of the 8 skills this listing names (missing: aws, power bi, react, tableau)."
+        }
+      },
+      "final_score": 77.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 77.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "aws",
+      "automation",
+      "dashboard",
+      "tableau",
+      "power bi",
+      "react",
+      "business-intelligence-manager",
+      "analytics-manager",
+      "data-manager",
+      "business-intelligence-lead"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Business Intelligence Assistant Manager",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/foundation-finance-company-careers/jobs/business-intelligence-assistant-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_34e2fb75fd64": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -66676,6 +67082,146 @@
       "probability_low": 4.0
     }
   },
+  "opp_40529c516ba4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 79.33,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:48:13+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is an opportunity to contribute to technology initiatives in a collaborative environment with opportunities for professional growth. Job Title: .NET Solutions Architect Location: Remote Position Type: Full-time, Direct W2 - [Not open to C2C or 1099] Salary Range: $115,000\u2013$165,000 Annually Experience Required: 8+ years Sponsorship: U.S. Citizens, Green Card holders, EAD holders, and H-1B transfer candidates are encouraged to apply. Bright Vision Technologies is unable to sponsor new H-1B visa petitions for this position. Job Summary Bright Vision Technologies is seeking a .NET Solutions Architect to design, develop, test, and support enterprise software applications and services using the technology stack relevant to the project. The work spans implementation, API and data integration, code quality, release readiness, and production troubleshooting. The successful candidate will apply practical expertise in C#, .NET/.NET Core, ASP.NET Core, Web API, Entity Framework Core, SQL Server, Git, and automated testing, work with cross-functional teams, and contribute to reliable, maintainable solutions through the delivery lifecycle. Key Responsibilities Design, develop, test, and maintain application components using the approved technology stack. Translate functional and technical requirements into maintainable \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 552.9,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/net-solutions-architect",
+    "id": "opp_40529c516ba4",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T20:48:13+00:00",
+    "profit_score": 70.0,
+    "risk_flags": [],
+    "score": 63.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.9,
+          "evidence": "Estimated net $553 on $553 (100% margin). $116 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $184 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: sql. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 63.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "api",
+      "aws",
+      "solutions-architect",
+      ".net-software-architect",
+      ".net-architect",
+      "enterprise-software-engineer",
+      "software-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": ".NET Solutions Architect",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/net-solutions-architect?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_405a4dbfc6f7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -67288,6 +67834,146 @@
       ],
       "probability_high": 34.0,
       "probability_low": 12.0
+    }
+  },
+  "opp_40fe68570df3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 74.57,
+    "budget_min": 51.49,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Ameresco",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:53:46+00:00",
+    "description": "Ameresco , Inc. (NYSE: AMRC) is a leading energy infrastructure company delivering integrated solutions that provide reliable power and modernize infrastructure. Since 2000, we have served as a trusted partner to public and private sector customers across North America, the UK and Europe, delivering over $15 billion in solutions and contracting more than 5 GW of energy resources . At Ameresco , we integrate energy resources and modernize the built environment through innovative infrastructure solutions that improve reliability, optimize performance, strengthen resilience, and support long-term sustainability. Join us in building the infrastructure that powers the future. Explore opportunities to make a meaningful impact while growing your career with a company at the forefront of energy innovation. Ameresco currently has an opening for a Senior Project Engineer to join our Military Housing (MHPI) team to develop and implement energy efficiency, geothermal, solar PV, controls, and distributed energy projects across privatized military family housing portfolios. This is a remote U.S. position with occasional travel to installations and partner offices. The Senior Project Engineer supports proposal, development, design, construction, commissioning, and operations of energy and infrastructure projects serving MHPI partners and military housing communities. The role bridges engineering, project management, and customer/partner coordination so projects meet guaranteed performance, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 386.18,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ameresco/jobs/senior-project-engineer-military-housing",
+    "id": "opp_40fe68570df3",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T20:53:47+00:00",
+    "profit_score": 48.8,
+    "risk_flags": [],
+    "score": 66.4,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 9.0,
+          "evidence": "Estimated net $386 on $386 (100% margin). $82 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $103 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 67% of the 3 skills this listing names (missing: aws)."
+        }
+      },
+      "final_score": 66.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "automation",
+      "senior-project-engineer",
+      "project-engineer",
+      "energy-engineer",
+      "mechanical-engineer",
+      "electrical-engineer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Senior Project Engineer - Military Housing",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/ameresco/jobs/senior-project-engineer-military-housing?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_4109eaa5206f": {
@@ -76942,6 +77628,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_49dc7896b659": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "data_pipeline",
+    "client": "KData Inc.",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:26:33+00:00",
+    "description": "This is a remote position. Data Architect \u2013 PBM Data Modernization Location: Remote (US Only) Industry: Pharmacy Benefit Management (PBM) Platform: Google Cloud Platform Role Overview We're looking for a Data Architect to lead data modeling and source-to-target mapping for a Pharmacy Benefit Manager (PBM) modernization program on Google Cloud. The role covers migrating legacy claims and eligibility data, and the IBM Cognos reporting built on it, into a new BigQuery-based enterprise data warehouse. It also ensures the future-state platform meets state-specific Medicaid reporting requirements, starting with the MVP. Key Responsibilities Define the semantic and logical data models for MVP and future-state reporting, covering pharmacy claims, member eligibility, prescriber, pharmacy network, formulary, rebates, and pricing domains. Own mapping execution end to end. Define source-to-target mappings, transformation rules, and business logic from legacy structures to the new warehouse. Inventory and analyze legacy IBM Cognos (Cognos Explorer / Cognos Analytics) reports, packages, and Framework Manager models. Reverse-engineer embedded business logic and calculations, and rationalize reports for redesign on the future-state platform. Set mapping standards, templates, naming conventions, and documentation practices. Direct the Data and Systems Analysts and review their work for quality and consistency. Lead gap analysis and drive each gap to a decision (build, defer, workaround, or \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.5,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 2.5,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kdata-inc/jobs/data-architect-pbm-data-modernization",
+    "id": "opp_49dc7896b659",
+    "is_demo": false,
+    "match_score": 40.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T20:26:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (7.5h AI / 2.5h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.9,
+          "evidence": "Matched 2 profile skills: reporting, sql. Covers 14% of the 7 skills this listing names (missing: airflow, analytics, bigquery, dbt)."
+        }
+      },
+      "final_score": 52.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "bigquery",
+      "dbt",
+      "airflow",
+      "gcp",
+      "looker",
+      "analytics",
+      "data-architect",
+      "data-model-architect",
+      "enterprise-data-architect",
+      "cloud-data-architect",
+      "healthcare-data-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Data Architect \u2013 PBM Data Modernization",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/kdata-inc/jobs/data-architect-pbm-data-modernization?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4a177bcf6aed": {
@@ -126766,6 +127589,130 @@
       "probability_low": 15.0
     }
   },
+  "opp_725352048229": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "Team Up Services",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "EUR",
+    "deadline": "2027-01-13T20:28:12+00:00",
+    "description": "Category: Marketing Location: We are looking for an Amazon Operations Specialist for our client, an e-commerce company operating through its US entity and selling branded products on Amazon.com, including wholesale products and private-label brands. The team is based in Cyprus and Germany. The company uses its own internal system, Octuno, to manage inventory, purchasing, supply chain, FBA planning, and pricing. The role focuses on managing day-to-day Amazon operations, including product and price monitoring, pricing optimization, purchase order processing, and FBA shipment coordination. As the business grows, the position may also expand into product research, identifying new brands and ASINs, and building relationships with US distributors. Your Duties As an Amazon Operations Specialist you will be responsible for: Monitor Amazon product listings, Buy Box status, FBA inventory levels, suppressed or suspended listings, and third-party sellers operating on the company's listings. Track competitors and market price developments using tools such as Keepa. Monitor pricing changes and adjust pricing strategies based on profit margins, Buy Box eligibility, and sales performance. Create and track purchase orders with suppliers. Record supplier payments and deliveries. Plan and coordinate FBA shipments, following them through until the goods are received at the warehouse. Maintain accurate records of operational activities in the internal system, Octuno. Prepare regular brief \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/team-up-services/jobs/amazon-operations-specialist",
+    "id": "opp_725352048229",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T20:28:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 58.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "amazon-operations-specialist",
+      "e-commerce-operations-specialist",
+      "marketplace-operations",
+      "amazon-marketplace-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Amazon Operations Specialist",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/team-up-services/jobs/amazon-operations-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_725bf979eb90": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -147160,6 +148107,134 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_842f3ce85266": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Sparq",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:37:40+00:00",
+    "description": "At Sparq , we help companies solve the right problems\u2014not just build more technology. We\u2019re a modern product engineering partner blending strategy, craftsmanship, and speed to help organizations modernize confidently in the age of AI. From data ecosystems to digital products and AI acceleration, we turn complexity into clarity and ideas into impact. If you\u2019re driven to build what\u2019s next, lead with empathy, and deliver excellence without ego, you\u2019ll feel right at home at Sparq . C2C is not available Must be authorized to work in the U.S. without sponsorship A Day in the Life: Lead the overall solution architecture and technical design of a React Native mobile application, ensuring seamless integration with the .NET backend, APIs, and Azure cloud services. Drive architectural decisions and establish development best practices across React Native, TypeScript, iOS, and Android platforms. Design and oversee secure REST APIs using OpenAPI standards, Azure API Management, and Microsoft Entra ID authentication with MSAL. Collaborate with security, IT, and engineering stakeholders to ensure mobile application security, scalability, and alignment with enterprise standards. Lead technical design discussions, conduct code reviews, and provide architectural guidance to engineers throughout the development lifecycle. Evaluate native versus cross-platform solutions through technical validation, including voice capture capabilities and testing on physical iOS and Android devices. Assess \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sparq/jobs/contractor-senior-lead-react-native-engineer",
+    "id": "opp_842f3ce85266",
+    "is_demo": false,
+    "match_score": 42.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T20:37:41+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.3,
+          "evidence": "Matched 2 profile skills: excel, rest api. Covers 17% of the 6 skills this listing names (missing: api, azure, react, rest)."
+        }
+      },
+      "final_score": 49.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "azure",
+      "typescript",
+      "react",
+      "senior-react-native-engineer",
+      "react-native-engineer",
+      "mobile-software-engineer",
+      "mobile-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "(Contractor) Senior Lead React Native Engineer",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/sparq/jobs/contractor-senior-lead-react-native-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_844e50c624a0": {
@@ -175400,6 +176475,141 @@
       "probability_low": 4.0
     }
   },
+  "opp_9d1c928f1f53": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Seismic",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T21:00:21+00:00",
+    "description": "Overview Seismic is seeking an experienced Contract Technical Recruiter to support hiring across our Product and Engineering organizations. This individual will play a key role in identifying, engaging, and attracting top technical talent to support our continued growth and product innovation. The ideal candidate is a proactive, hands-on recruiter with a strong track record of recruiting technical talent within a SaaS or technology environment. You are comfortable partnering with senior leaders and hiring managers, navigating competitive talent markets, and managing multiple searches simultaneously while delivering a high-quality candidate experience. Who you are: 7+ years of full-cycle recruiting experience, with a strong emphasis on technical recruiting. Demonstrated success recruiting Product and Engineering talent within a SaaS, software, or technology organization. Experience recruiting across multiple technical disciplines and levels, from individual contributors through senior and leadership positions. Strong sourcing capabilities and experience leveraging LinkedIn Recruiter and other talent identification tools. Ability to effectively assess technical backgrounds and understand the skills and competencies required across modern software development organizations. Proven ability to build credibility and influence with hiring managers and senior stakeholders. Excellent communication, organization, and relationship-building skills. Ability to manage multiple searches \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/seismic-change/jobs/technical-recruiter-contract",
+    "id": "opp_9d1c928f1f53",
+    "is_demo": false,
+    "match_score": 35.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T21:00:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 43.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 8.6,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 43.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"full-cycle recruiting experience\"; \"with a strong emphasis on technical recruiting\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 43.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "technical-recruiter",
+      "recruiter",
+      "talent-acquisition-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Technical Recruiter (Contract)",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/seismic-change/jobs/technical-recruiter-contract?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_9d5232c2ab83": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -189261,6 +190471,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_a93e0d43568b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Spot My Energy",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:59:41+00:00",
+    "description": "Deine Mission As Senior Python Engineer - ERP (d/f/m), you shape how our ERP grows. Odoo runs our invoicing, hardware logistics and energy market communication, and over the next year it becomes the source of truth for customer and contract data and takes over electricity billing. You design the data model and module architecture, build integrations with our platform and partners, and hold the quality bar for the team. You do not only ask \"How do we build this in Odoo\", but also \"Should this live in Odoo at all\". Deine Verantwortlichkeiten Designing and building custom Odoo modules, from data model to UI Making architecture decisions for a growing ERP, including what belongs in Odoo and what doesn\u2019t Driving the migration of customer, contract and metering processes from HubSpot into Odoo Building and maintaining integrations with our internal platform and external partners in logistics, metering and market communication Shipping features to production independently Setting technical standards for code reviews, automated tests, CI and code quality Reviewing code and pairing with our developers and our external Odoo partner Working closely with Finance and Ops to turn their needs into clear scope and reliable estimates Dein Profil You bring 5+ years of software development Several years working with Python and PostgreSQL You\u2019ve built integrations between systems (REST APIs, webhooks, batch jobs) that run reliably in production Git, CI and automated tests are part of your daily \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/spot-my-energy/jobs/senior-python-engineer-erp-d-f-m",
+    "id": "opp_a93e0d43568b",
+    "is_demo": false,
+    "match_score": 55.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T20:59:42+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.5,
+          "evidence": "Matched 3 profile skills: python, rest api, sql. Covers 29% of the 7 skills this listing names (missing: api, postgres, postgresql, rest)."
+        }
+      },
+      "final_score": 54.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "postgres",
+      "postgresql",
+      "api",
+      "rest",
+      "webhook",
+      "senior-python-engineer",
+      "erp-engineer",
+      "odoo-developer",
+      "backend-engineer",
+      "software-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Python Engineer - ERP (d/f/m)",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/spot-my-energy/jobs/senior-python-engineer-erp-d-f-m?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_a9419d43f34e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -192525,6 +193865,138 @@
       ],
       "probability_high": 44.0,
       "probability_low": 24.0
+    }
+  },
+  "opp_acb322832c85": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "qa_review",
+    "client": "Company",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-14T22:03:38+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T20:40:08+00:00",
+    "description": "UPSTARS \u2013 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430 IT-\u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f, \u0437 \u044f\u043a\u043e\u044e \u0437\u043b\u0456\u0442\u0430\u044e\u0442\u044c \u0456 \u043b\u044e\u0434\u0438, \u0456 \u0431\u0440\u0435\u043d\u0434\u0438. \u041d\u0430\u0448 \u043e\u0441\u043d\u043e\u0432\u043d\u0438\u0439 \u0444\u043e\u043a\u0443\u0441 \u2013 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0456 \u0440\u0456\u0448\u0435\u043d\u043d\u044f \u0442\u0430 B2B-\u043f\u043e\u0441\u043b\u0443\u0433\u0438 \u0434\u043b\u044f \u043c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0438\u0445 \u043a\u043b\u0456\u0454\u043d\u0442\u0456\u0432. \u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0454\u043c\u043e \u0437\u0456\u0440\u043a\u043e\u0432\u0456 \u043f\u0440\u043e\u0454\u043a\u0442\u0438 \u0443 \u0441\u0444\u0435\u0440\u0456 iGaming, \u044f\u043a\u0456 \u043e\u0442\u0440\u0438\u043c\u0443\u044e\u0442\u044c \u0432\u0438\u0437\u043d\u0430\u043d\u043d\u044f \u0442\u0430 \u043d\u0430\u0439\u0432\u0438\u0449\u0456 \u043e\u0446\u0456\u043d\u043a\u0438 \u043f\u0440\u043e\u0444\u0456\u043b\u044c\u043d\u0438\u0445 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0456\u0432 \u2728 \u0406 \u0442\u0430\u043a, \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u0443\u0432\u0430\u0442\u0438 \u043b\u0435\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0442\u0430 \u043f\u0440\u043e\u0437\u043e\u0440\u0438\u0439 \u0440\u0438\u043d\u043e\u043a \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u2013 \u0446\u0435 \u043c\u0430\u0441\u0442 \u0445\u0435\u0432, \u0442\u043e\u043c\u0443 \u0442\u0440\u0435\u0442\u0456\u043c\u0438 \u0432 \u043a\u0440\u0430\u0457\u043d\u0456 \u043e\u0442\u0440\u0438\u043c\u0430\u043b\u0438 B2B-\u043b\u0456\u0446\u0435\u043d\u0437\u0456\u044e \u043d\u0430 \u043d\u0430\u0434\u0430\u043d\u043d\u044f \u043f\u043e\u0441\u043b\u0443\u0433 \u0443 \u0441\u0444\u0435\u0440\u0456 \u0430\u0437\u0430\u0440\u0442\u043d\u0438\u0445 \u0456\u0433\u043e\u0440. \u0423 2026 \u043c\u0438 \u0430\u043a\u0442\u0438\u0432\u043d\u043e \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0443\u0454\u043c\u043e \u0456 \u043f\u0440\u043e\u0454\u043a\u0442\u0438, \u0456 \u0434\u0440\u0456\u043c \u0442\u0456\u043c. \u0422\u043e\u043c\u0443 \u0434\u043b\u044f \u043f\u0456\u0434\u0441\u0438\u043b\u0435\u043d\u043d\u044f QA \u0434\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0443 \u0448\u0443\u043a\u0430\u0454\u043c\u043e Senior Manual QA (Front SEO). \u2705 \u0422\u0432\u043e\u0457 \u043c\u0430\u0439\u0431\u0443\u0442\u043d\u0456 \u0437\u0430\u0434\u0430\u0447\u0456: \u0430\u043d\u0430\u043b\u0456\u0437 \u04223, \u0443\u0447\u0430\u0441\u0442\u044c \u0432 \u043e\u0431\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u0456 \u0437\u0430\u0432\u0434\u0430\u043d\u044c; \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u0447\u0435\u043a-\u043b\u0438\u0441\u0442\u0456\u0432, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043d\u044f \u0442\u0435\u0441\u0442-\u043a\u0435\u0439\u0441\u0456\u0432; \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043a\u043e\u0434\u0443 \u043d\u0430 \u0442\u0435\u0441\u0442\u043e\u0432\u0435 \u0441\u0435\u0440\u0435\u0434\u043e\u0432\u0438\u0449\u0435 \u0442\u0430 \u043f\u0440\u043e\u0434\u0430\u043a\u0448\u0435\u043d; \u0444\u0443\u043d\u043a\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0435, \u0440\u0435\u0433\u0440\u0435\u0441\u0456\u0439\u043d\u0435 \u0442\u0430 \u043f\u0440\u0438\u0439\u043c\u0430\u043b\u044c\u043d\u0435 \u0442\u0435\u0441\u0442\u0443\u0432\u0430\u043d\u043d\u044f; \u0430\u043d\u0430\u043b\u0456\u0437 \u043f\u0440\u043e\u0433\u043e\u043d\u0443 \u0442\u0430 \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u0430 \u0456\u0441\u043d\u0443\u044e\u0447\u0438\u0445 \u0442\u0435\u0441\u0442\u0456\u0432; \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044f demo; \u043d\u0430\u0434\u0430\u043d\u043d\u044f \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0457 \u0456\u043d\u0448\u0438\u043c \u0432\u0456\u0434\u0434\u0456\u043b\u0430\u043c (\u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0430 \u0432 \u0430\u043d\u0430\u043b\u0456\u0437\u0456 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u043d\u0438\u0445 \u0441\u0438\u0442\u0443\u0430\u0446\u0456\u0439); \u0441\u0443\u043f\u0440\u043e\u0432\u0456\u0434 \u0444\u0456\u0447, \u0431\u0430\u0433\u0456\u0432 \u0432 \u0446\u0438\u043a\u043b\u0456 STLC. \ud83d\udcaa \u0422\u0432\u043e\u0457 \u0441\u043a\u0456\u043b\u0438: \u0434\u043e\u0441\u0432\u0456\u0434 \u043d\u0430 \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u043d\u0456\u0439 \u043f\u043e\u0437\u0438\u0446\u0456\u0457 \u0432\u0456\u0434 5\u0445 \u0440\u043e\u043a\u0456\u0432; \u0440\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f \u043a\u043b\u0456\u0454\u043d\u0442-\u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0457 \u0430\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u0438 (WEB) \u0442\u0430 HTML/CSS; \u0434\u043e\u0441\u0432\u0456\u0434 \u0442\u0435\u0441\u0442\u0443\u0432\u0430\u043d\u043d\u044f web \u0441\u0430\u0439\u0442\u0456\u0432; \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u0432\u0430\u043d\u043d\u044f \u0442\u0435\u0445\u043d\u0456\u043a \u0442\u0435\u0441\u0442-\u0434\u0438\u0437\u0430\u0439\u043d\u0443; \u0432\u043c\u0456\u043d\u043d\u044f \u0441\u0442\u0432\u043e\u0440\u044e\u0432\u0430\u0442\u0438 \u0442\u0435\u0441\u0442\u043e\u0432\u0443 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0456\u044e (\u043e\u043f\u0438\u0441 \u0444\u0443\u043d\u043a\u0446\u0456\u043e\u043d\u0430\u043b\u0443, \u0442\u0435\u0441\u0442 \u043a\u0435\u0439\u0441\u0438, \u0447\u0435\u043a \u043b\u0438\u0441\u0442\u0438); \u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u0437 git, Jenkins, GitLab; \u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u0437 DevTools. \ud83e\udd1e \u0411\u0430\u0436\u0430\u043d\u043e, \u0430\u043b\u0435 \u043d\u0435 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e: \u0434\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0431\u043e\u0442\u0438 \u0432 iGaming; \u0440\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f SEO: \u0456\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0456\u044f, crawling, microdata (schema.org), \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u0456 \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0456 (\u0441\u0442\u0430\u0442\u0443\u0441-\u043a\u043e\u0434\u0438, \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0438), \u0432\u043f\u043b\u0438\u0432 \u0440\u0435\u043d\u0434\u0435\u0440\u0438\u043d\u0433\u0443 \u043d\u0430 \u0456\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0456\u044e; \u0440\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f \u0440\u0456\u0437\u043d\u043e\u0432\u0438\u0434\u0456\u0432 \u0440\u0435\u043d\u0434\u0435\u0440\u0438\u043d\u0433\u0443 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a \u0441\u0430\u0439\u0442\u0443 (SSR); \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T220337Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 1.83,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.15,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.32,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/upstars/jobs/senior-manual-qa-front-seo",
+    "id": "opp_acb322832c85",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T20:40:08+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 16.5,
+          "evidence": "85% of estimated effort is AI-carryable (1.8h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 41.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "grafana",
+      "html",
+      "css",
+      "manual-qa-engineer",
+      "qa-engineer",
+      "software-test-engineer",
+      "web-qa-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Manual QA (Front SEO)",
+    "updated_at": "2026-11-14T22:03:38+00:00",
+    "url": "https://himalayas.app/companies/upstars/jobs/senior-manual-qa-front-seo?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_acb372175774": {
