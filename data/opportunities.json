@@ -104437,6 +104437,138 @@
       "probability_low": 26.0
     }
   },
+  "opp_610db455f588": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TransPerfect",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:23:29+00:00",
+    "description": "Work Location: Remote in Mexico Engagement model: Independent Contractor/Freelance Project start: November 2026 Estimated project duration: until end of 2026 Estimated workload: up to 20 hours in total Required Languages: English About the Role We are looking for experienced professionals and subject-matter experts to contribute to an AI training and evaluation project focused on the creation of realistic professional knowledge-based tasks. The ideal candidate has hands-on experience in the Healthcare and Research Operations sector and understands how real workplace assignments are completed. The ideal candidate is also comfortable using modern LLM tools such as ChatGPT, Claude, Gemini, or similar platforms. What You\u2019ll Do Develop realistic professional task scenarios based on your work experience in different roles within the above-mentioned sectors. Create and review supporting business materials such as spreadsheets, reports, presentations, documents, datasets, or other occupation-specific files. Requirements Bachelor\u2019s degree or equivalent professional qualification, where appropriate. Minimum 3 years of relevant professional work experience in relevant role in the Healthcare and Research Operations sector. Be located in Mexico. Strong practical knowledge of workflows, tools, terminology, standards, and deliverables used in your profession. Have experience using tools such as ChatGPT, Claude, Gemini, or similar AI tools. Strong analytical and problem-solving skills. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/transperfect/jobs/sme-task-creator-healthcare-and-research-operations-mexico",
+    "id": "opp_610db455f588",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T04:23:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "machine learning",
+      "subject-matter-expert",
+      "training-content-specialist",
+      "instructional-designer",
+      "content-quality-analyst",
+      "ai-data-quality-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SME Task Creator \u2013 Healthcare and Research Operations - Mexico",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/transperfect/jobs/sme-task-creator-healthcare-and-research-operations-mexico?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6144167c9121": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -112222,6 +112354,128 @@
     "title": "Huntress: Sales Development Representative - Service Provider",
     "updated_at": "2026-10-13T13:45:21+00:00",
     "url": "https://weworkremotely.com/remote-jobs/huntress-sales-development-representative-service-provider",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_6890838d11a0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Leland",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:25:37+00:00",
+    "description": "Leland is building the home for ambition in the age of AI. We connect people with the experts, programs, and communities they need to land the job, get into the school, or upskill for a world being rewritten by AI. We help businesses become AI-native through training, hiring, and infrastructure. Since our founding in 2021, we've helped tens of thousands of people reach their most ambitious goals and raised $19M from world-class investors. Ambition is sacred to us, and we've built a product that takes that seriously. We're seeking an experienced Broadcasting Coach to work with clients looking to break into or grow within the broadcasting and news industry. This role includes teaching core broadcasting techniques, on-air presentation, and script writing, as well as helping clients strengthen their news reporting and video editing skills. Coaches also support clients on the career side, offering resume review and interview prep tailored to broadcasting roles, along with guidance on networking strategy and salary negotiation. Additional support includes skill building for on-camera and behind-the-scenes work, as well as guidance for those pursuing freelancing opportunities in the industry. Ideal candidates have hands-on experience in broadcasting or journalism (as an on-air talent, producer, reporter, or industry professional), a strong understanding of what it takes to succeed on-air and behind the scenes, and a clear, structured approach to coaching clients through both \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/leland/jobs/broadcasting-coach",
+    "id": "opp_6890838d11a0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T04:25:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "broadcasting",
+      "communication-coach",
+      "coaching",
+      "public-speaking-coach"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Broadcasting Coach",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/leland/jobs/broadcasting-coach?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -138525,6 +138779,140 @@
       "probability_low": 13.0
     }
   },
+  "opp_7cb9123e5c12": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Leland",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:21:59+00:00",
+    "description": "Leland is building the home for ambition in the age of AI. We connect people with the experts, programs, and communities they need to land the job, get into the school, or upskill for a world being rewritten by AI. We help businesses become AI-native through training, hiring, and infrastructure. Since our founding in 2021, we've helped tens of thousands of people reach their most ambitious goals and raised $19M from world-class investors. Ambition is sacred to us, and we've built a product that takes that seriously. We're seeking an experienced Business Operations & Strategy Coach to work with clients looking to break into or grow within operations and strategy roles. This role includes teaching core business strategy development, operations management, and process improvement, as well as helping clients build project management skills and apply financial analysis, competitive analysis, and market research to real business decisions. Coaches also guide clients on emerging tools like AI fundamentals and AI automation, and support the career side with resume review, LinkedIn review, and cover letter guidance, along with interview prep, networking strategy, and negotiation skills tailored to operations and strategy roles. Ideal candidates have hands-on experience in business operations or strategy (as an operations lead, strategy consultant, or industry professional), a strong track record of driving efficiency and growth, and a clear, structured approach to coaching clients \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/leland/jobs/business-operations-strategy-coach",
+    "id": "opp_7cb9123e5c12",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T04:21:59+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "automation",
+      "operations-coaching",
+      "operations-strategy-consultant",
+      "business-coach",
+      "business-coaching",
+      "business-strategy-and-operations",
+      "business-strategy-consultant",
+      "strategy-and-business-ops",
+      "business-operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Operations & Strategy Coach",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/leland/jobs/business-operations-strategy-coach?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_7cbe91414b1c": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -157570,6 +157958,139 @@
       "probability_low": 21.0
     }
   },
+  "opp_8e8950517459": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "ELITEBRAIN",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:26:40+00:00",
+    "description": "Our client is seeking experienced Backend Software Engineers to contribute to an innovative artificial intelligence project focused on improving the coding, reasoning, debugging, and problem-solving capabilities of next-generation AI models. In this fully remote, project-based contractor role, you will develop Reinforcement Learning Environments that challenge advanced AI systems to solve realistic software engineering problems. You will design complex coding tasks based on real-world repositories, create reproducible development environments, implement reliable verification mechanisms, and provide reference solutions. Previous experience in artificial intelligence is not required. Strong practical software engineering expertise is the primary qualification. Key Responsibilities Design realistic and technically challenging software engineering tasks based on existing code repositories. Develop complex programming challenges involving subtle bugs, non-trivial feature implementations, codebase refactoring, and performance optimization. Create reproducible development and testing environments for each assigned task. Design and implement deterministic verifiers that recognize valid solutions while rejecting incorrect, incomplete, or hard-coded implementations. Develop reference solutions demonstrating how each engineering challenge can be successfully resolved. Apply advanced knowledge of algorithms, data structures, and software engineering principles. Ensure coding challenges \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/elitebrain/jobs/software-engineer-backend",
+    "id": "opp_8e8950517459",
+    "is_demo": false,
+    "match_score": 56.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T04:26:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.7,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 40% of the 5 skills this listing names (missing: machine learning, rest, typescript)."
+        }
+      },
+      "final_score": 48.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "rest",
+      "typescript",
+      "machine learning",
+      "backend-engineer",
+      "software-engineer",
+      "software-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Software Engineer - Backend",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/elitebrain/jobs/software-engineer-backend?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_8e95293fc057": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -162240,6 +162761,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_92d089294780": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120,
+    "budget_min": 55,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "YO AI Labs",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:22:39+00:00",
+    "description": "Job Description: STEM Expert Role Type: Contractor Location: Global \u2013 Fully Remote About the Role We are seeking highly skilled STEM and scientific-domain experts to contribute to an AI training and evaluation project focused on technical problem-solving, scientific reasoning, data analysis, and Python programming. In this role, you will solve, review, and validate challenging problems within your area of expertise. You will analyze scientific or mathematical problems, develop rigorous solutions, use Python for calculations or simulations, and evaluate the technical accuracy of AI-generated answers. This is a highly coding-intensive role. Candidates must have hands-on experience using coding agents as part of their workflow. Candidates are not expected to have expertise across every STEM discipline. Deep knowledge in at least one relevant area is required. Areas of Expertise Chemistry Biology Mathematics Physics Earth Science, Geoscience, or Environmental Science Robotics Other relevant scientific or quantitative disciplines Key Responsibilities Solve complex scientific, mathematical, and technical problems within your area of expertise. Review AI-generated solutions for factual, mathematical, and scientific accuracy. Identify incorrect assumptions, reasoning errors, missing constraints, and subtle technical mistakes. Develop rigorous, well-explained solutions using scientific reasoning and quantitative methods. Use Python or other programming languages to perform \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 412.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/yo-ai-labs/jobs/video-recorder-san-francisco-remote",
+    "id": "opp_92d089294780",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T04:22:39+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 69.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $412 on $412 (100% margin). $88 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $110 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: pandas, python. Covers 67% of the 3 skills this listing names (missing: numpy)."
+        }
+      },
+      "final_score": 69.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "pandas",
+      "numpy",
+      "stem-expert",
+      "scientist",
+      "technical-evaluator",
+      "ai-training-specialist",
+      "scientific-programmer"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Video Recorder (San Francisco) - Remote",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/yo-ai-labs/jobs/video-recorder-san-francisco-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_92d2de2e8bf2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -163049,6 +163703,138 @@
       ],
       "probability_high": 59.0,
       "probability_low": 43.0
+    }
+  },
+  "opp_93bd3cf0aa45": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 15,
+    "budget_min": 13,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "ALTUS Receivables Management",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:25:36+00:00",
+    "description": "Altus Receivables is the leading and most trusted name in the world of debt recovery and financial solutions. With a track record of excellence and reliability, we have proudly served businesses across various industries for decades, ensuring efficient B2B collections and tailored debt recovery solutions. Altus Receivables is seeking First Party Collectors as we continue to grow our team! First Party Collectors collect payments or communicate/resolve issues from debtors. The collector will collaborate with clients, sales and peers on delinquent accounts. The primary role is to contact debtors by phone, mail or email. Upon contact, collectors will examine the debtor\u2019s financial situation, review documents/contracts, review/resolve disputes while working on establishing a resolution. They must adhere to all compliance requirements to resolve all cases until closure or escalation. *This position is a Remote/Telecommute position* Job Responsibilities: Negotiate payment in full or secure a payment arrangement Place daily calls to customers on behalf of our client Create a sense of urgency on non-paying debtors Work closely with Client Support Representative to resolve disputes Maintain a positive attitude Remain respectful to debtors & peers Strong work ethics and integrity Prioritize time management Remain professional at all times Meet/exceed monthly phone, activity & fee quota\u2019s Job Requirements: Collections, sales, telemarketing, customer service or call center experience \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 97.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/altus-receivables-management/jobs/first-party-collector-7630986142",
+    "id": "opp_93bd3cf0aa45",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T04:25:37+00:00",
+    "profit_score": 16.8,
+    "risk_flags": [],
+    "score": 58.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.1,
+          "evidence": "Estimated net $98 on $98 (100% margin). $21 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $26 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 58.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 58.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "data entry",
+      "collections-specialist",
+      "debt-collection-agent",
+      "credit-collections-specialist",
+      "accounts-receivable-specialist",
+      "customer-service"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "First Party Collector",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/altus-receivables-management/jobs/first-party-collector-7630986142?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_940f8392d729": {
@@ -180936,6 +181722,131 @@
       "probability_low": 4.0
     }
   },
+  "opp_a360c9f5732b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Terac",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:25:37+00:00",
+    "description": "What We\u2019re Researching: We\u2019re running a paid study on pharmacy operations, technology, and industry partnerships. Your input will help us understand the perspectives of people working in the pharmacy industry. How It Works: You\u2019ll complete a ~22-minute online survey with multiple-choice questions and a few recorded voice-response questions. You\u2019ll need a working microphone. Who This Is For: Professionals working across the US pharmacy industry, including independent pharmacies, pharmacy chains, retail and grocery pharmacies, specialty and mail-order pharmacies, and pharmacy service organizations. We\u2019d love to hear from people in a range of roles, from owners and leaders to those who work on pharmacy operations, partnerships, technology, or business strategy. What You\u2019ll Do: Answer multiple-choice questions about pharmacy operations and technology Record spoken answers to a few open questions Who Should Apply: Currently working in the US pharmacy industry Experience with the business or operations side of pharmacy Comfortable recording audio responses Compensation $130 one-time Ready to participate? Start your paid interview now About Terac Terac is building the world's largest pool of vetted human experts for AI. Researchers, AI labs, and product teams use Terac to recruit, screen, and pay study participants across industries, languages, and skill sets. Learn more at or on YouTube at @jointerac. Originally posted on Himalayas",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/terac/jobs/pharmacy-professionals-paid-survey-on-operations-and-technology",
+    "id": "opp_a360c9f5732b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-14T04:25:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "pharmacy-operations-management",
+      "pharmacy-management-and-operations",
+      "pharmacy-operations",
+      "pharmacy-operations-specialist",
+      "retail-pharmacy-operations",
+      "pharmacy-it",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Pharmacy Professionals: Paid Survey on Operations and Technology",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/terac/jobs/pharmacy-professionals-paid-survey-on-operations-and-technology?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_a367cd78308a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -184462,6 +185373,143 @@
       "probability_low": 4.0
     }
   },
+  "opp_a61cc7b8b9a8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 130,
+    "budget_min": 70,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "YO AI Labs",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-13T04:25:26+00:00",
+    "description": "Job Description: Game Developer \u2013 Godot Expert Role Type: Contractor Location: Remote About the Role We are seeking experienced Godot Game Engine specialists to support an AI training project. You will complete practical 2D and 3D game development tasks using Godot and document your workflows to help improve how AI systems understand game development. Key Responsibilities Create and modify 2D and 3D games using Godot. Develop gameplay mechanics, animations, and UI elements. Work with GDScript, scenes, nodes, and game physics. Troubleshoot issues and optimize game performance. Complete advanced Godot tasks and explain workflows step by step. Create clear instructions and detailed prompts for game development workflows. Required Qualifications Strong hands-on experience with the Godot Game Engine. Experience with GDScript or C# programming. Good understanding of 2D/3D game development, scenes, nodes, and animations. Ability to develop, debug, and optimize gameplay systems. Access to Godot and ability to record your screen while completing tasks. English proficiency at B2 level or higher. Ability to explain technical workflows clearly. Preferred Qualifications Portfolio showcasing Godot game development projects. Master's degree or PhD in Computer Science, Game Development, or a related field. Experience in data annotation, RLHF, or AI model evaluation. Knowledge of multiplayer games, game physics, or UI/UX development. Professional experience in game development. Originally \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 525.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/yo-ai-labs/jobs/game-developer-remote",
+    "id": "opp_a61cc7b8b9a8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T04:25:26+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 43.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $525 on $525 (100% margin). $112 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "node",
+      "game-developer",
+      "godot-developer",
+      "game-programmer",
+      "game-engine-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Game Developer- Remote",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/yo-ai-labs/jobs/game-developer-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_a62035e73b3b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -185696,6 +186744,145 @@
     "title": "EAP Care Manager 2",
     "updated_at": "2026-10-15T16:29:45+00:00",
     "url": "https://himalayas.app/companies/health-advocate-solutions-inc/jobs/eap-care-manager-2-7403028388",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_a759935d1221": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 19.23,
+    "budget_min": 16.83,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Health & Care Management LTD (HCML)",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-14T05:24:48+00:00",
+    "currency": "GBP",
+    "deadline": "2027-01-13T04:25:49+00:00",
+    "description": "Job title: Network Manager Location: Remote/Home Based (Please note that occasional office attendance may be required for client purposes, training, induction activities, or business meetings) Salary: \u00a335,000 to \u00a340,000 per year Status: Permanent Working Hours: Full time - 37.5 hours per week - Monday to Friday 09:00- 17:30 Closing Date: Friday 11th December Interviews: Taking place WC 14th December HCML is the UK\u2019s leading provider of rehabilitation, case management, occupational health, and workplace wellbeing services. We\u2019re proud to be recognised as a 2025 UK\u2019s Best Workplace for Wellbeing and for Best Workplaces in Healthcare\u2122 2026, reflecting our commitment to supporting the growth, development, and wellbeing. We are seeking a proactive and commercially minded Clinical Supply Chain - Network Manager to oversee supplier relationships, governance, procurement activity, and performance across HCML's clinical network. Working closely with operational teams and the Head of Strategic Partnerships & Clinical Supply Chain, you will lead supplier onboarding, contract management, performance reviews, risk management, and cost optimisation initiatives. You will play a key role in ensuring our suppliers deliver high-quality, compliant, and cost-effective services while supporting the ongoing development of HCML's provider network. This is an excellent opportunity for someone with experience in supplier, procurement, contract, or relationship management who is passionate about \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261114T052446Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 126.22,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/health-care-management-ltd-hcml/jobs/network-manager-clinical-supply-chain",
+    "id": "opp_a759935d1221",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-14T04:25:50+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $126 on $126 (100% margin). $27 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $34 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "network-manager",
+      "supplier-manager",
+      "procurement-manager",
+      "supply-chain-manager",
+      "vendor-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Network Manager (Clinical Supply Chain)",
+    "updated_at": "2026-11-14T05:24:48+00:00",
+    "url": "https://himalayas.app/companies/health-care-management-ltd-hcml/jobs/network-manager-clinical-supply-chain?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
