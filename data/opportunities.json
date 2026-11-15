@@ -21675,6 +21675,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_14c30995efac": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "web_research",
+    "client": "WebEngage",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-14T03:27:56+00:00",
+    "description": "About Us: WebEngage is an enterprise-grade customer engagement and retention platform that helps global brands across industries such as e-commerce, fintech, travel, edtech, gaming, media, and consumer apps. and turn data into measurable revenue impact. Trusted by 800+ brands globally, we have strong presence in India, UAE, KSA, SEA, Europe and beyond. WebEngage powers intelligent, real-time engagement across the entire customer lifecycle. We are built for scale. We are built for complexity. We are built for outcomes. At our core, WebEngage is a full-stack retention operating system that combines: A powerful Customer Data Platform (CDP) Real-time behavioral segmentation and intelligence Omnichannel journey orchestration AI-driven personalization and recommendations Deep analytics, experimentation, and revenue attribution WebEngage BLACK: our AI-native layer that brings Agentic capabilities to engagement. Learn more about us at www.webengage.com Responsibilities : Design and implement high-scale and secure infrastructure. Plan and own your slice of the infrastructure roadmap. Enhance security practices around everything infrastructure. Drive organization-wide infosec and compliance programs like ISO, SOC2, etc. Review operational efficiency of infrastructure and research ways to make it better. Design and operate robust scaling of distributed technologies. Research and implement innovative methods for reducing cloud costs. Boost platform reliability by setting up platforms \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/webengage/jobs/devops-engineer-senior-devops-engineer-9011145631",
+    "id": "opp_14c30995efac",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-15T03:27:57+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 56.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 14.6,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 20 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 4 profile skills: automation, ci/cd, excel, python. Covers 40% of the 10 skills this listing names (missing: analytics, aws, azure, gcp)."
+        }
+      },
+      "final_score": 56.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 56.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "aws",
+      "gcp",
+      "azure",
+      "kubernetes",
+      "ci/cd",
+      "automation",
+      "react",
+      "analytics",
+      "devops-engineer",
+      "cloud-infrastructure-engineer",
+      "site-reliability-engineer",
+      "platform-engineer",
+      "senior-devops-developer",
+      "senior-staff-devops-engineer",
+      "senior-devops",
+      "senior-engineer-cloud-and-devops-(p)",
+      "senior-devops-platform-engineer",
+      "sr-staff-devops-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Devops Engineer/ Senior Devops Engineer",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/webengage/jobs/devops-engineer-senior-devops-engineer-9011145631?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_14f3e522ff62": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -138542,6 +138687,157 @@
       "probability_low": 15.0
     }
   },
+  "opp_7a7dd81a83dc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 2.4,
+    "budget_min": 1.44,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Clera",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-14T03:51:43+00:00",
+    "description": "About the Role Join a lean team at an early-stage AI-driven biotech company, combining computational protein design with hands-on experimental work. You will own the design-make-test-model loop, from developing protein design models and operating an inference platform to measuring binding kinetics and feeding results back into improved designs. What You'll Do Improve and extend discrete diffusion and protein folding models, including model architecture, attention, and hierarchical reasoning. Operate and refine a biological design inference platform, analyzing usage patterns and diagnosing user behavior. Write, debug, and operate production protocols for liquid-handling robots and plate automation. Design and run BLI and SPR assays, fit kinetic curves, conduct quality control, and troubleshoot experimental failure modes. Develop robust protocols for cloud labs and manage internal screening instrumentation. Connect receptor biology, protein structure, scoring, and model outputs to practical experimental workflows. Design sequences, measure their kinetics, use results to update models, and iterate toward improved candidates. What We're Looking For 3 to 11 years of relevant experience, including hands-on wet-lab work and experience across biology, bioinformatics, and machine learning. Experience building or operating protein or biological models, such as discrete diffusion models, protein language models, or structure prediction systems, in an experimental feedback loop. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 10.37,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/clera/jobs/computational-and-experimental-scientist-837730028",
+    "id": "opp_7a7dd81a83dc",
+    "is_demo": false,
+    "match_score": 23.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-15T03:51:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $10 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 8.5,
+          "evidence": "Matched 2 profile skills: automation, python. Covers 67% of the 3 skills this listing names (missing: machine learning)."
+        }
+      },
+      "final_score": 41.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 5 hard requirement(s) with nothing in the operator profile behind them: \"relevant experience\"; \"including hands-on wet-lab work\"; \"across biology\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 41.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "automation",
+      "machine learning",
+      "computational-scientist",
+      "computational-physicist",
+      "computational-chemist",
+      "numerical-methods-scientist",
+      "computational-materials-scientist",
+      "computational-engineer",
+      "research-computational-analyst",
+      "computational-physics-specialist",
+      "hpc-computational-scientist",
+      "r&d"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Computational and Experimental Scientist",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/clera/jobs/computational-and-experimental-scientist-837730028?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_7a7dd90d80e0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -195228,6 +195524,129 @@
       "probability_low": 26.0
     }
   },
+  "opp_ae185154f7c2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Kirin",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-14T03:40:30+00:00",
+    "description": "We\u2019re looking for someone who lives and breathes AI image and video gen You should know the current image/video gen landscape cold, understand how to coax specific looks out of different systems, and be able to turn loose ideas into production-quality images and videos fast. You\u2019ll work closely with our marketing and product teams to shape the visual identity of the brand using cutting-edge AI tools. If you enjoy rapid experimentation, pushing new models to their limits, and building repeatable pipelines that deliver consistent, high-quality output, you\u2019ll fit perfectly. Requirements Deep experience with modern image and video models (Kling, Nano Banana, Seedream, Hailuo, Sora 2, etc) Strong familiarity with inference providers (Fal, Replicate, Krea, Florafauna, Weavy, etc) and their capabilities Ability to design and refine prompts, workflows, and pipelines to achieve specific visual styles through LoRAs and other methods Proven ability to deliver polished, on-brand assets quickly without heavy direction Strong sense of visual identity, composition, and storytelling Helpful but not required Technical / software engineering background Fluency with ComfyUI (self-hosted or Runpod/etc) Prompting with json is a plus Responsibilities Produce high-quality photos and videos for ads, website, social, and product needs Continuously test new models and workflows and apply improvements to our creative pipelines Maintain consistency and quality across all AI-generated assets Collaborate \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kirin/jobs/freelance-ai-artist-image-brand-8309043318",
+    "id": "opp_ae185154f7c2",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-15T03:40:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "freelance-ai-artist",
+      "freelance-creative-ai-specialist",
+      "ai-image-generation-artist",
+      "ai-artist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance AI Artist - Image & Brand",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/kirin/jobs/freelance-ai-artist-image-brand-8309043318?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_ae1bd6593985": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -198570,6 +198989,146 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_b06e2b9d4f6c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 61.92,
+    "budget_min": 36.15,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Washington University in St. Louis",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-14T03:31:21+00:00",
+    "description": "Location Remote, US Scheduled Hours 40 Position Summary Directly responsible for the supervision, oversight, training and education of research coordinators, and quality assurance monitoring of data in the Functional Research Groups. This position requires the ability to clinically assess protocols for budgetary and logistical issues associated with the coordination and implementation of clinical trials for institutional studies, cooperative group studies, and pharmaceutical industry-sponsored studies. Job Description Primary Duties & Responsibilities: Leadership of the Functional Research Groups Makes hiring and staffing decisions in the Functional Research Groups with input from the Administrative and Medical Directors of the Core. Orients and trains all staff in the Functional Research Groups, and assists in orienting new staff in the Regulatory and Protocol Development groups. Meet regularly with all staff, providing supervision and training. With the Administrative Director and Medical Director, plan strategically and implement plans for Functional Research Groups, including staffing (setting current and future a appropriate staff levels), education, adherence to federal regulations and standard operating procedures for ensuring quality data collection. Provides feedback and performs annual performance evaluations for Research Coordinators with assistance from Senior Clinical Research Associates and the Administrative Director. Supports Senior Clinical Research \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 173.52,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/washu/jobs/manager-clinical-trials-medical-oncology",
+    "id": "opp_b06e2b9d4f6c",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-15T03:31:22+00:00",
+    "profit_score": 43.4,
+    "risk_flags": [],
+    "score": 67.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.0,
+          "evidence": "Estimated net $174 on $174 (100% margin). $83 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $145 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: excel, sql. Covers 67% of the 3 skills this listing names (missing: ocr)."
+        }
+      },
+      "final_score": 67.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 67.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "excel",
+      "ocr",
+      "clinical-trials-manager",
+      "clinical-research-manager",
+      "clinical-trial-manager",
+      "research-operations-manager",
+      "oncology-clinical-research-manager"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Manager Clinical Trials - Medical Oncology",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/washu/jobs/manager-clinical-trials-medical-oncology?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_b0a5217bdf79": {
@@ -245694,6 +246253,149 @@
       "probability_low": 26.0
     }
   },
+  "opp_dbac7e5c06d4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 28.85,
+    "budget_min": 24.04,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Jerry",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-14T03:39:51+00:00",
+    "description": "You could lead a team anywhere. Why us? Join a pre-IPO startup with capital, traction, and runway ($240M funded | 60X revenue growth in 5 years | $2T market size). Work with a high-caliber team from companies like Lemonade, GEICO, Bain & Co, and McKinsey. Disrupt a massive market and help us scale to a $10B business in the next few years. Be immersed in a talent-dense environment that prioritizes first-principles thinking and rapid career acceleration. About the Opportunity: Jerry is growing fast, and more than 5 million customers count on us to make car insurance simple. As Team Lead on our Insurance Service team , you\u2019ll work closely with the Manager, Contact Center Operations, to coach a team of 10 insurance agents and make sure every customer gets a white-glove experience. Behind every great customer experience at Jerry is a team of licensed agents, ready on calls, chats, and digital channels. As their leader, you\u2019ll raise that team\u2019s game: coaching every agent to their best, setting a high bar for service, keeping the team compliant, and solving problems before customers ever notice them. How You Will Make an Impact: Coaching & Performance: Lift team results through regular 1:1s, clear feedback, and performance reviews, and catch performance issues early. Operations & Compliance: Own staffing and coverage, quality reviews, timesheets, and PTO, and keep every agent compliant with insurance regulations and Jerry policy. Escalations: Resolve complex product, carrier, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 240.4,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/jerry/jobs/insurance-services-team-lead",
+    "id": "opp_dbac7e5c06d4",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-15T03:39:51+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 40.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $240 on $240 (100% margin). $51 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $80 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "aws",
+      "insurance-team-lead",
+      "insurance-team-leader",
+      "insurance-operations-team-lead",
+      "insurance-team-manager",
+      "insurance-team-supervisor",
+      "team-lead-insurance",
+      "insurance-team-leadership",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Insurance Services Team Lead",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/jerry/jobs/insurance-services-team-lead?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_dbca6911bca2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -277758,6 +278460,138 @@
       ],
       "probability_high": 17.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_f7f03a980335": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 26.44,
+    "budget_min": 19.23,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "ORBCOMM",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-15T05:21:01+00:00",
+    "currency": "EUR",
+    "deadline": "2027-01-14T03:35:36+00:00",
+    "description": "Join Us as a Customer Success Operations Partner! Are you passionate about operational excellence, customer experience, and driving business performance through process optimization? ORBCOMM is seeking a Customer Success Operations Partner to support our VIACHAIN Smart Trailers business by managing critical customer operational processes, ensuring billing accuracy, and enabling exceptional service delivery. In this role, you will serve as a key operational liaison between customers and internal teams, helping to deliver seamless customer experiences while supporting revenue growth and operational efficiency. Why You'll Love Working Here At ORBCOMM , you'll help power the technologies that connect assets, vehicles, and operations around the world. As a Customer Success Operations Partner, you will play a critical role in supporting customer lifecycle activities, managing operational workflows, and ensuring service delivery excellence across assigned accounts. You'll work closely with Customer Success Managers, Delivery teams, Support, Billing, and other cross-functional stakeholders to improve customer outcomes, maintain operational integrity, and support scalable growth within the VIACHAIN Smart Trailers business. This is a full-time individual contributor role based remotely in Spain to support Spanish-speaking customers and business operations. No regular travel is required. What You'll Do Customer Operations Management Serve as the primary operational point of contact for \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261115T052059Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 138.46,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/orbcomm/jobs/customer-success-operations-partner",
+    "id": "opp_f7f03a980335",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-15T03:35:36+00:00",
+    "profit_score": 18.4,
+    "risk_flags": [],
+    "score": 63.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.4,
+          "evidence": "Estimated net $138 on $138 (100% margin). $48 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $96 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 67% of the 3 skills this listing names (missing: rest)."
+        }
+      },
+      "final_score": 63.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "automation",
+      "customer-success-operations-manager",
+      "customer-operations-specialist",
+      "billing-operations-specialist",
+      "order-management-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success Operations Partner",
+    "updated_at": "2026-11-15T05:21:01+00:00",
+    "url": "https://himalayas.app/companies/orbcomm/jobs/customer-success-operations-partner?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_f82e3fcd8b88": {
