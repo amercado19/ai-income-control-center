@@ -708,6 +708,146 @@
       "probability_low": 21.0
     }
   },
+  "opp_0122bb98f046": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 79.22,
+    "budget_min": 54.45,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Veradigm",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:43:44+00:00",
+    "description": "About the role Veradigm Payerpath is one of the most widely used revenue cycle and clearinghouse platforms in U.S. healthcare. More than 300,000 providers rely on us to check patient eligibility, submit clean claims, and track payments. We connect practices with payers, helping providers get paid faster and spend less time on paperwork. We\u2019re looking for an engineering manager to lead the Payerpath development team. You\u2019ll manage 8\u201312 software engineers, own delivery of your teams\u2019 outcomes, and keep a high-volume, business-critical platform reliable while continuing the team\u2019s shift to AI-first development What you\u2019ll do Lead AI-first development. Make AI a core part of how the team builds software. Put AI coding agents to work across design, coding, code review, testing, and documentation. Set the standards for using them safely with healthcare data, measure the gains in speed and quality, and coach every engineer to work this way. Lead and grow the team. Hire, onboard, coach, and retain a team of software engineers who build, test, and support Payerpath. Raise the bar with every hire and development conversation. Set OKRs that tie to product and company goals, give regular feedback, and address performance issues promptly. Own delivery and quality. Plan capacity across roadmap, maintenance, and support work. Keep commitments realistic and visible, and remove blockers so the team ships predictably. The team owns quality end to end: code review, automated testing, CI/CD, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 408.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/veradigm/jobs/manager-development",
+    "id": "opp_0122bb98f046",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T12:43:45+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 63.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $408 on $408 (100% margin). $87 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $109 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: ci/cd, sql. Covers 40% of the 5 skills this listing names (missing: aws, azure, rest)."
+        }
+      },
+      "final_score": 63.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "rest",
+      "aws",
+      "azure",
+      "ci/cd",
+      "engineering-manager",
+      "software-engineering-manager",
+      "software-development-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Manager, Development",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/veradigm/jobs/manager-development?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_013360ea2e28": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -5371,6 +5511,133 @@
         }
       ],
       "probability_high": 19.0,
+      "probability_low": 0.0
+    }
+  },
+  "opp_0516b605d0fa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Maven Clinic",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-16T15:06:25+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: New York, NY; Remote, US (Hub cities) Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife \u2014 improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Investment Group, Oak HC/FT, StepStone Group, Icon Ventures, and Lux Capital. Recognized for innovation and industry leadership, Maven has been named to the TIME100 Most Influential Companies, CNBC Disruptor 50, Fast Company's Most Innovative Companies, and FORTUNE Best Places to Work. Learn more at mavenclinic.com An award-winning culture working towards an important mission \u2013 Maven Clinic is a recipient of over 30 workplace and innovation awards, including: TIME 100 Most Influential Companies (2023, 2026) Fortune Change the World (2024) CNBC Disruptor 50 List \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/maven-clinic-head-of-member-growth-b2b2c",
+    "id": "opp_0516b605d0fa",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Thu, 22 Oct 2026 07:31:08 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "forecasting"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Maven Clinic: Head of Member Growth (B2B2C)",
+    "updated_at": "2026-11-16T15:06:25+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/maven-clinic-head-of-member-growth-b2b2c",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-18%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Stale listing",
+          "from": "20%",
+          "to": "5%",
+          "why": "About 25 days old; likely filled or abandoned."
+        }
+      ],
+      "probability_high": 18.0,
       "probability_low": 0.0
     }
   },
@@ -61898,6 +62165,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_397f51d42c22": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "division50",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:40:02+00:00",
+    "description": "Location: Remote Engagement: Freelance / Project-Based About the opportunity We are a lead generation and digital marketing company looking for one experienced freelance recruiter to manage our recruitment projects. Our priority is hiring cold callers, SDRs, PDRs, appointment setters, and other sales professionals serving the GCC market. You will also recruit for digital marketing and creative roles, including graphic designers, video editors, and account managers. Key responsibilities Manage recruitment projects from sourcing and screening through interviews, offers, and joining. Source qualified candidates through LinkedIn, job boards, referrals, communities, and your existing network. Assess sales candidates\u2019 cold-calling skills, communication, prospect qualification, objection handling, rebuttals, and ability to secure next steps. Conduct practical screening exercises and mock calls where appropriate. Evaluate candidates\u2019 previous performance using relevant KPIs, including call activity, connection rates, qualified meetings booked, meeting attendance, and conversion rates. Understand how sales performance expectations differ by campaign, audience, and sales process within the GCC market. Screen creative and marketing candidates through relevant experience, portfolios, client exposure, and measurable results. Submit shortlisted candidates with clear screening notes, compensation expectations, availability, and reasons for recommendation. Coordinate interviews, maintain \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/division50/jobs/project-based-freelance-recruiter-sales-digital-marketing",
+    "id": "opp_397f51d42c22",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-16T12:40:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "recruiter",
+      "talent-acquisition-specialist",
+      "freelance-recruiter",
+      "corporate-recruiter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project-Based Freelance Recruiter - Sales & Digital Marketing",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/division50/jobs/project-based-freelance-recruiter-sales-digital-marketing?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_3990ef3d6bdc": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -62604,6 +63000,146 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_3a2662480b2c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 35,
+    "budget_min": 28,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "Lavender",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "CAD",
+    "deadline": "2027-01-15T13:03:15+00:00",
+    "description": "Founded in 2020, Lavender is the largest nurse-owned and operated online psychiatry and therapy office in the United States. Our extraordinary team of 100+ talented and like-minded folks works remotely from across the United States, Canada and the Philippines to collaboratively increase access to high-quality, high-touch mental healthcare. Lavender is a human-first organization and our people embody: A bias towards action A capacity for self-direction Originality and creative instincts Courageous and bold thinking And the potential to achieve even more If you\u2019re looking for a fast-paced, constantly evolving environment where your voice matters and you can truly have an impact creating high-quality, user-centric mental health services, we want to hear from you! Lavender is an equal opportunity employer. We are proud to foster a workplace free from discrimination. We strongly believe that diversity of experience, perspectives and background will lead to a better environment for our team and a better experience for our clients. We strongly encourage people of color and members of the LGBTQ+ community to apply. Join the Lavender team We are looking for a Finance Operations Specialist to keep Lavender 's finances running smoothly behind the scenes: ensuring vendors and partners are paid accurately and on time, keeping cash where each of our entities needs it, and maintaining clear, simple programs that let our teams spend responsibly on their own. You'll start with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 78.68,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lavender/jobs/finance-operations-specialist",
+    "id": "opp_3a2662480b2c",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T13:03:16+00:00",
+    "profit_score": 58.1,
+    "risk_flags": [],
+    "score": 71.9,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 10.7,
+          "evidence": "Estimated net $79 on $79 (100% margin). $86 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $281 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: excel, forecasting. Covers 67% of the 3 skills this listing names (missing: google sheets)."
+        }
+      },
+      "final_score": 71.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "google sheets",
+      "forecasting",
+      "finance-operations-specialist",
+      "accounts-payable-specialist",
+      "financial-operations-specialist",
+      "bookkeeping-specialist",
+      "finance-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Finance Operations Specialist",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/lavender/jobs/finance-operations-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_3a36cac4774f": {
@@ -75330,6 +75866,156 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_46bb9e6fe986": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 24,
+    "budget_min": 23,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Installation Made Easy",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:48:12+00:00",
+    "description": "Position Title: Customer Solutions Supervisor Department: Customer Solutions Hourly Rate: $23.00-$24.00 Location: Remote Schedule: 9:00 AM - 6:00 PM ET (Monday, Tuesday, Thursday, Friday, Saturday; OFF on Wednesday and Sunday) Reports To: Customer Solutions Manager Installation Made Easy (\u201cIME\u201d) provides software and process management that enable retailers and contractors to offer installed home improvements to homeowners in a convenient, consistent, and affordable manner. IME senior management has over 100 years of retail management and home improvement industry experience. The Customer Solutions Supervisor leads a team of resolution specialists and customer service representatives to ensure timely, effective handling of escalated customer issues and overall high-quality service delivery. This role focuses on daily operational supervision, coaching, workflow optimization, and acting as a key escalation point for complex customer concerns. Key Daily Responsibilities Team Leadership & Supervision Supervise the day-to-day performance of customer resolution staff. Conduct team huddles to share priorities, operational updates, and service goals. Coach, mentor, and provide performance feedback to team members. Resolution & Escalation Management Act as primary escalation contact for complex or high-impact customer issues. Ensure consistent, professional resolution strategies aligned with policies. Monitor escalations and track outcomes to improve customer experience. Operational \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 172.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/installation-made-easy/jobs/customer-solutions-supervisor-4882094379",
+    "id": "opp_46bb9e6fe986",
+    "is_demo": false,
+    "match_score": 35.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T12:48:12+00:00",
+    "profit_score": 19.5,
+    "risk_flags": [],
+    "score": 47.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.6,
+          "evidence": "Estimated net $172 on $172 (100% margin). $37 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $46 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 13.0,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 47.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"retail management\"; \"home improvement industry experience\".",
+          "name": "Unmet stated requirements",
+          "points": 10.3
+        }
+      ],
+      "raw_total": 47.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "customer-solutions-manager",
+      "customer-support-supervisor",
+      "customer-service-supervisor",
+      "customer-support-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Solutions Supervisor",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/installation-made-easy/jobs/customer-solutions-supervisor-4882094379?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_46bffedef43a": {
@@ -91552,6 +92238,140 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_547737d34b00": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Yadimen Consulting Limited",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "EUR",
+    "deadline": "2027-01-15T12:56:43+00:00",
+    "description": "Redwood Automation Solution Designer (RunMyJobs / SAP BPA), SAP Finance Close, Hungary Contract: Duration being confirmed. Start: 15 November 2026. Location: Remote, for consultants based in Hungary. Day rate: EUR 400 a day. Language: English. The programme An established organisation is automating its SAP finance close on the Redwood platform, the same engine that runs RunMyJobs and that SAP sold for years as SAP Central Process Scheduling (CPS) and SAP Business Process Automation (BPA). The work covers the record-to-report cycle: accruals, balance sheet reconciliation, journal posting and the period-end close, all driven into SAP S/4HANA and ECC. You will own the solution design. You will work with the finance process owners to understand how the close runs today, decide what to automate and in what order, and set out a design the engineers can build on the Redwood platform. You will then stay with that design through build, testing and go-live, and make the calls when what was designed meets what is real. What you will work on Current-state analysis of the SAP period-end close with controllers and finance operations leads. The target automation design: close task lists, dependencies, calendars, approvals and exception paths, written up as the solution design. Accruals, balance sheet reconciliation and certification, and journal posting with its posting controls. The integration design with SAP S/4HANA or ECC and the other source systems, through APIs, files and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/yadimen-consulting-limited/jobs/redwood-automation-solution-designer-runmyjobs-sap-bpa-sap-finance-close-h",
+    "id": "opp_547737d34b00",
+    "is_demo": false,
+    "match_score": 72.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-16T12:56:43+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 43.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.7,
+          "evidence": "Matched 2 profile skills: automation, cron. Covers 67% of the 3 skills this listing names (missing: api)."
+        }
+      },
+      "final_score": 43.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 55.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "cron",
+      "solution-designer",
+      "automation-solution-designer",
+      "sap-solution-consultant",
+      "sap-finance-automation-consultant",
+      "sap-finance-transformation-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Redwood Automation Solution Designer (RunMyJobs / SAP BPA), SAP Finance Close, H",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/yadimen-consulting-limited/jobs/redwood-automation-solution-designer-runmyjobs-sap-bpa-sap-finance-close-h?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_54c2a0b40f12": {
@@ -129442,6 +130262,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_724b5444b3a0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 49.04,
+    "budget_min": 31.59,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wirb Copernicus Group",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:54:04+00:00",
+    "description": "About WCG WCG delivers transformational solutions that accelerate clinical research and advance human health. We serve the experts, innovators, and pathfinders on the frontlines of science and medicine\u2014empowering them to develop breakthrough therapies while ensuring the risks of progress never outweigh the value of human life. Together, we stimulate growth, maximize efficiency, and shape the future of clinical trials. Why WCG At WCG, we invest in our people because you are the driving force behind our mission. When you grow, our impact grows. When you thrive, research accelerates. We empower you to build a meaningful career while advancing the work that improves lives. What we offer: Comprehensive health and financial protection \u2013 Medical, dental, vision, life and disability insurance, 401(k) with company match, and flexible spending accountsResources that support your whole life \u2013 Employee assistance programs and work/life balance toolsInvestment in your growth \u2013 Referral bonuses, tuition reimbursement, on-the-job training, certification assistance, and continuing education supportTime to recharge \u2013 Paid holidays, vacation, and sick timePathways forward \u2013 Career development opportunities across One WCG We practice transparency in everything we do, including compensation. The salary range for this position reflects our commitment to fair, competitive pay based on your qualifications, experience, skills, education, and location. Together, we'll find the right fit for your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 236.93,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wirb-copernicus-group/jobs/business-development-associate-director",
+    "id": "opp_724b5444b3a0",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T12:54:05+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $237 on $237 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 38.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "business-development-director",
+      "sales-director",
+      "business-development-manager",
+      "account-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Business Development, Associate Director",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/wirb-copernicus-group/jobs/business-development-associate-director?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_725352048229": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -142153,6 +143103,141 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_7c7965e64d8c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Stord",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:49:52+00:00",
+    "description": "ABOUT STORD Stord is The Consumer Experience Company, powering seamless checkout through delivery for today's leading brands. Stord is rapidly growing and strategically scaling teams across the entire company, and seeking energetic experts to help us achieve our mission. By combining comprehensive commerce-enablement technology with high-volume fulfillment services, Stord provides brands a platform to compete with retail giants. Stord manages over $10 billion of commerce annually through its fulfillment, warehousing, transportation, and operator-built software suite including OMS, Pre- and Post-Purchase, and WMS platforms. Stord is leveling the playing field for all brands to deliver the best consumer experience at scale. With Stord , brands can increase cart conversion, improve unit economics, and drive sustained customer loyalty. Stord \u2019s end-to-end commerce solutions combine best-in-class omnichannel fulfillment and shipping with leading technology to ensure fast shipping, reliable delivery promises, easy access to more channels, and improved margins on every order. Hundreds of leading DTC and B2B companies like True Classic, Native, Seed Health, goodr, Sundays for Dogs, and more trust Stord to deliver industry-leading consumer experiences on every order. Stord is headquartered in Atlanta with facilities across the United States, Canada, and Europe. Stord is backed by top-tier investors including Kleiner Perkins, Franklin Templeton, Founders Fund, Strike Capital, Baillie \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/stord/jobs/regional-safety-compliance-and-loss-prevention-manager",
+    "id": "opp_7c7965e64d8c",
+    "is_demo": false,
+    "match_score": 62.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-16T12:49:53+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 35.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.2,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 50% of the 4 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 35.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 47.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "automation",
+      "safety-manager",
+      "compliance-manager",
+      "loss-prevention-manager",
+      "security-manager",
+      "regional-operations-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Regional Safety, Compliance, and Loss Prevention Manager",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/stord/jobs/regional-safety-compliance-and-loss-prevention-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_7c9a918f4364": {
@@ -172298,6 +173383,140 @@
       "probability_low": 4.0
     }
   },
+  "opp_97a73783ac00": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "SPD Technology",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:44:37+00:00",
+    "description": "At SPD Technology , we bring together a team of like-minded people who are driven by the desire to bring value through their work, united in their commitment to high performance and delivering custom, cutting-edge tech solutions that drive clients\u2019 growth. We empower our people with a culture of excellence and enable them with the opportunity to uphold their accountability to contribute on each level. We value humanity and collaboration, encourage professional and personal growth, and foster a supportive and flexible work environment where everyone\u2019s contribution is welcomed. And now we are looking for a Senior SEO/AIO Specialist to join us as part of our team. About Role SPD Technology is a global software product development and IT consulting company delivering custom engineering solutions across fintech, digital payments, data engineering, AI/ML, and cloud. Our work sits at the intersection of technology, product thinking, and measurable business impact, helping clients and teams solve complex challenges in fast-moving digital environments. As a Senior SEO/AIO Specialist, you will help shape how our expertise and offerings are discovered across both traditional search and emerging AI-driven discovery experiences. This role is positioned at the center of organic growth, connecting search strategy, content performance, and data-backed decision-making to support broader marketing objectives and strengthen visibility in a rapidly evolving search landscape. Work Environment \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/spd-technology/jobs/senior-seo-aio-specialist",
+    "id": "opp_97a73783ac00",
+    "is_demo": false,
+    "match_score": 41.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-16T12:44:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "analytics",
+      "seo-specialist",
+      "technical-seo-specialist",
+      "ai-search-optimization",
+      "search-marketing-specialist",
+      "digital-marketing-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior SEO/AIO Specialist",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/spd-technology/jobs/senior-seo-aio-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_97c3bb33fe54": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -177087,6 +178306,158 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_9b72cd6fb1bb": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 67.31,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Computrition",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:53:05+00:00",
+    "description": "Job Information: About Computrition Computrition , Inc. is a leading provider of enterprise foodservice, nutrition management, and retail technology, trusted by hundreds of organizations across North America, including healthcare systems, military installations, correctional facilities, and higher education institutions. For more than 44 years, we\u2019ve built technology in partnership with our customers, helping them improve operational efficiency, strengthen financial performance, and deliver better nutritional care. We\u2019re investing in the future of our platform by adopting modern technologies and working closely with customers to solve complex operational challenges. Our solutions have real-world impact by driving performance enhancement and show up directly in how hospitals, military installations, and other institutions operate every day. Computrition offers the stability of an established industry leader and the momentum of a company accelerating growth through innovation. We invest in our people and foster a culture of collaboration, accountability, continuous learning, and professional growth where employees can make a meaningful impact. You\u2019ll join experienced professionals who are passionate about solving meaningful problems and delivering measurable outcomes for customers. With team members across the U.S. and Canada, and as part of a growing portfolio of technology companies owned by Constellation Software Inc. (TSX: CSU.TO), we are well-positioned to continue \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 414.68,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/computrition/jobs/vp-marketing",
+    "id": "opp_9b72cd6fb1bb",
+    "is_demo": false,
+    "match_score": 21.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T12:53:06+00:00",
+    "profit_score": 67.3,
+    "risk_flags": [],
+    "score": 50.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.4,
+          "evidence": "Estimated net $415 on $415 (100% margin). $88 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $111 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 7.9,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 50.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 3 hard requirement(s) with nothing in the operator profile behind them: \"we\u2019ve built technology in partnership with our customers\"; \"helping them improve operational efficiency\"; \"strengthen financial performance\".",
+          "name": "Unmet stated requirements",
+          "points": 15.5
+        }
+      ],
+      "raw_total": 50.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "automation",
+      "analytics",
+      "vp-of-marketing",
+      "head-of-marketing",
+      "marketing-director",
+      "growth-marketing-director",
+      "demand-generation-director"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "VP, Marketing",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/computrition/jobs/vp-marketing?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
     }
   },
   "opp_9b7951ea322c": {
@@ -262061,6 +263432,151 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_e8b0432afd49": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 42.31,
+    "budget_min": 26.97,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "AmerisourceBergen",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-16T15:06:24+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-15T12:42:26+00:00",
+    "description": "Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywhere. Apply today! Job Details Candidates must be able to work 9am-6pm MST or PST Pay: This position ranges from $56,100.00-$88,000 *This Salary range reflects a National Average for this job. The actual range may vary based on you locale. Ranges in Colorado/California/Washington/New York/Hawaii/Vermont/Minnesota/Massachusetts/Illinois State - specific locations may be up to 10% lower than the minimum salary range, and 12% higher than the maximum salary range. Responsibilities: Initiates proactive customer engagement across digital channels to progress opportunities, renewals, and expansions. Develops territory and account contact plans that optimize outreach cadence and follow-up activities within assigned accounts. Conducts pre- and post-interaction research to define objectives, anticipate customer needs, and document next actions. Negotiates commercial terms within established policy and coordinates required quoting and contract documentation for activation. Coordinates account program activities and solution adoption milestones with cross-functional partners to support realized value. Monitors product availability, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261116T150622Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 202.27,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/amerisourcebergen/jobs/specialist-inside-sales-4443977994",
+    "id": "opp_e8b0432afd49",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-16T12:42:27+00:00",
+    "profit_score": 20.6,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 44.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.8,
+          "evidence": "Estimated net $202 on $202 (100% margin). $43 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $54 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 7.1,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 44.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 56.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "forecasting",
+      "inside-sales-specialist",
+      "sales-specialist",
+      "account-manager",
+      "business-development-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Specialist, Inside Sales",
+    "updated_at": "2026-11-16T15:06:24+00:00",
+    "url": "https://himalayas.app/companies/amerisourcebergen/jobs/specialist-inside-sales-4443977994?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_e8d603aafd57": {
