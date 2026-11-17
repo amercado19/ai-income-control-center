@@ -22371,6 +22371,145 @@
       "probability_low": 15.0
     }
   },
+  "opp_14db71dd8da3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "Fusemachines",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T15:01:35+00:00",
+    "description": "About Fusemachines Fusemachines is a leading AI strategy, talent, and education services and products provider. Founded by Sameer Maskey Ph.D., Adjunct Associate Professor at Columbia University, Fusemachines has a core mission of democratizing AI. With a presence in 4 countries (Nepal, United States, Canada, and Dominican Republic and more than 450 full-time employees), Fusemachines seeks to bring its global expertise in AI to transform companies around the world. Type: Remote, Contracted About the Role We are seeking a talented and experienced Senior Data Analyst / Analytics Engineer with deep expertise in Tableau, Google BigQuery, Snowflake, and modern semantic data modeling (LookML / Looker, dbt, Omni, or Looker Studio) to join our team. In this role, you will lead critical business intelligence modernization initiatives, reverse-engineering complex reporting logic from legacy dashboards and rebuilding high-performance analytical data models to power executive decision-making. Job Description As a Senior Data Analyst / Analytics Engineer, you will work closely with technical leads, product managers, and business stakeholders to modernize legacy BI environments. You will be responsible for deconstructing legacy dashboard architectures, extracting embedded business rules and Level of Detail (LOD) calculations, and re-architecting those metrics into scalable SQL models and LookML-governed cloud semantic layers. You will perform as a core data translator, bridging the gap \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fusemachines/jobs/senior-analytics-engineer-looker-7287635321",
+    "id": "opp_14db71dd8da3",
+    "is_demo": false,
+    "match_score": 72.4,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-17T15:01:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.7,
+          "evidence": "Matched 5 profile skills: dashboard, excel, reporting, sql, statistics. Covers 36% of the 11 skills this listing names (missing: analytics, bigquery, dbt, looker)."
+        }
+      },
+      "final_score": 57.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "sql",
+      "snowflake",
+      "bigquery",
+      "dbt",
+      "excel",
+      "dashboard",
+      "tableau",
+      "looker",
+      "statistics",
+      "analytics",
+      "ocr",
+      "analytics-engineer",
+      "data-analyst",
+      "business-intelligence-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Analytics Engineer (Looker)",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/fusemachines/jobs/senior-analytics-engineer-looker-7287635321?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "41%",
+          "to": "31%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_14e9a1447dc7": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -57777,6 +57916,137 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_3425875a3c16": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "OUIDOU",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T15:00:46+00:00",
+    "description": "Dans le cadre de son d\u00e9veloppement, OUIDOU CONSULTING recherche plusieurs Ing\u00e9nieurs en d\u00e9veloppement JAVA JEE dans le cadre d\u2019un contrat \u00e0 dur\u00e9e ind\u00e9termin\u00e9e. Ils/Elles interviendront sur diff\u00e9rents projets de d\u00e9veloppement n\u00e9cessitant exp\u00e9rience, comp\u00e9tences et int\u00e9r\u00eats en conception technique et fonctionnelle d\u2019applications web et/ou de gestion. Au sein d\u2019une \u00e9quipe pluridisciplinaire, Ils/Elles participeront \u00e0 la mise en \u0153uvre d\u2019applications (depuis la conception jusqu\u2019\u00e0 la livraison), \u00e0 la maintenance d\u2019applications (TMA) et \u00e0 la cr\u00e9ation de projets. Selon les niveaux, chacun(e) pourra trouver sa place siur les sujets pour lesquels il/elle est le plus \u00e0 l\u2019aise. Cela concerne les diff\u00e9rentes \u00e9tapes de r\u00e9alisation d\u2019une application depuis les d\u00e9veloppements \u00e0 l\u2019int\u00e9gration de modules dans un syst\u00e8me d\u2019information cible. Les missions cibl\u00e9es : Participation en lien avec la Production et le Chef de Projet \u00e0 la d\u00e9finition de l\u2019architecture technique et fonctionnelle d\u2019une application; Participation avec le chef de projet \u00e0 l\u2019\u00e9valuation des charges et \u00e0 la planification des d\u00e9veloppements; R\u00e9alisation et int\u00e9gration des diff\u00e9rents modules d\u2019une application; Participation en lien avec la Production et le chef de projet \u00e0 l\u2019automatisation des proc\u00e9dures de gestion et des interfaces; R\u00e9alisation des tests unitaires et participation aux recettes des livrables; Prise en charge des maintenances correctives et \u00e9volutives des modules ou applications ; Activit\u00e9s compl\u00e9mentaires : \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ouidou/jobs/developpeur-java-h-f",
+    "id": "opp_3425875a3c16",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-17T15:00:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "react",
+      "java-developer",
+      "software-engineer",
+      "web-developer",
+      "application-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "D\u00e9veloppeur JAVA H/F",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/ouidou/jobs/developpeur-java-h-f?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_34343c8b70eb": {
@@ -109485,6 +109755,134 @@
       "probability_low": 15.0
     }
   },
+  "opp_61f2e8de46a9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "Fusion Consulting",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T14:48:12+00:00",
+    "description": "We are looking for an experienced SAP Analytics Cloud (SAC) Planning Solution Architect / Senior Developer to design, develop, and implement scalable planning and analytics solutions within a complex SAP environment. The role combines solution architecture expertise with hands-on SAC Planning development, focusing on advanced planning models, calculations, data actions, and integration with enterprise data platforms. Working closely with business stakeholders, functional consultants, and technical teams, the specialist will be responsible for translating complex business planning requirements into efficient, reliable, and high-performing SAC solutions. Key Responsibilities Design and implement end-to-end SAP Analytics Cloud Planning solutions, ensuring alignment with business requirements and enterprise architecture standards. Lead the architecture and development of SAC planning models, including dimensions, measures, hierarchies, and data structures. Develop and optimize advanced formulas, calculations, data actions, and multi-actions to support complex planning processes. Design and implement planning functionalities, including allocations, forecasting, simulations, version management, and what-if analysis. Develop and enhance SAC planning applications, dashboards, and interactive planning interfaces. Define and oversee integration between SAC and SAP systems, including SAP Datasphere, SAP S/4HANA, SAP BW/4HANA, and other enterprise data sources. Collaborate with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/fusion-consulting/jobs/sac-planning-solution-architect-senior-developer",
+    "id": "opp_61f2e8de46a9",
+    "is_demo": false,
+    "match_score": 75.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-17T14:48:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 63.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 18.2,
+          "evidence": "Matched 3 profile skills: dashboard, excel, forecasting. Covers 60% of the 5 skills this listing names (missing: analytics, javascript)."
+        }
+      },
+      "final_score": 63.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 63.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "dashboard",
+      "javascript",
+      "forecasting",
+      "analytics",
+      "solutions-architect",
+      "senior-developer",
+      "sap-analytics-cloud-consultant",
+      "sap-consultant",
+      "enterprise-application-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "SAC Planning Solution Architect / Senior Developer",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/fusion-consulting/jobs/sac-planning-solution-architect-senior-developer?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_6213a393fed1": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -135204,6 +135602,132 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_75a22952014b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hey! I'm based in Pakistan and have over 4 years of freelance full-stack experience. I know that there are no full-stack",
+    "competition_score": 85.2,
+    "confidence": 25.0,
+    "created_at": "2026-11-17T15:38:38+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Hey! I'm based in Pakistan and have over 4 years of freelance full-stack experience (alongside technical writing and automation work). I know that there are no full-stack openings currently, but I'd love to be considered for any future roles. My email: [contact removed] Thanks!",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "hn_50528749",
+    "id": "opp_75a22952014b",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-17T08:07:46Z",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 2.5,
+          "evidence": "Thin description; 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 12.4,
+          "evidence": "Direct email to the poster; no bidding war, no reputation gate."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 49.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "automation"
+    ],
+    "source": "hackernews",
+    "status": "SKIP",
+    "title": "Hey! I'm based in Pakistan and have over 4 years of freelance full-stack experience. I know that there are no full-stack - contract role",
+    "updated_at": "2026-11-17T15:38:38+00:00",
+    "url": "https://news.ycombinator.com/item?id=50528749",
+    "win_estimate": {
+      "band": "High",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "High (56-76%)",
+      "factors": [
+        {
+          "effect": "85%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "85%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "85%",
+          "to": "75%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "75%",
+          "to": "60%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "60%",
+          "to": "66%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 76.0,
+      "probability_low": 56.0
     }
   },
   "opp_75ab6e73ae6d": {
@@ -165525,6 +166049,150 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_9029bc87fba3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 47.81,
+    "budget_min": 31.88,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Ensemble Health Partners",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T14:30:03+00:00",
+    "description": "Thank you for considering a career at Ensemble! Ensemble is a leading provider of technology-enabled revenue cycle management solutions for health systems, including hospitals and affiliated physician groups. They offer end-to-end revenue cycle solutions as well as a comprehensive suite of point solutions to clients across the country. Ensemble keeps communities healthy by keeping hospitals healthy. We recognize that healthcare requires a human touch, and we believe that every touch should be meaningful. This is why our people are the most important part of who we are. By empowering them to challenge the status quo, we know they will be the difference! O.N.E Purpose: Customer Obsession: Consistently provide exceptional experiences for our clients, patients, and colleagues by understanding their needs and exceeding their expectations. Embracing New Ideas: Continuously innovate by embracing emerging technology and fostering a culture of creativity and experimentation. Striving for Excellence: Execute at a high level by demonstrating our \u201cBest in KLAS\u201d Ensemble Difference Principles and consistently delivering outstanding results. The Opportunity: ENTRY LEVEL CAREER OPPORTUNITY OFFERING: Bonus Incentives Paid Certifications Tuition Reimbursement Comprehensive Benefits Career Advancement This position will pay between $66,300 - $99,450/annually based on experience. By embodying our core purpose of customer obsession, new ideas, and driving innovation, and delivering excellence, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 239.1,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ensemble-health-partners/jobs/senior-analyst-revenue-recovery",
+    "id": "opp_9029bc87fba3",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-17T14:30:03+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 56.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $239 on $239 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $64 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 56.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 56.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "revenue-cycle-analyst",
+      "recoveries-analyst",
+      "healthcare-analyst",
+      "claims-analyst",
+      "healthcare-revenue-cycle-specialist",
+      "revenue-recovery-specialist",
+      "senior-financial-analyst-\u2013-revenue",
+      "revenue-analyst",
+      "senior-collections-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Analyst, Revenue Recovery",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/ensemble-health-partners/jobs/senior-analyst-revenue-recovery?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_902ca82a38fe": {
@@ -197913,6 +198581,143 @@
       "probability_low": 21.0
     }
   },
+  "opp_ac2bd9d4838b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 50.96,
+    "budget_min": 31.73,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Peraton",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T14:59:40+00:00",
+    "description": "Peraton Overview Peraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy. As the world\u2019s leading mission capability integrator and transformative enterprise IT provider, we deliver trusted, highly differentiated solutions and technologies to protect our nation and allies. Peraton operates at the critical nexus between traditional and nontraditional threats across all domains: land, sea, space, air, and cyberspace. The company serves as a valued partner to essential government agencies and supports every branch of the U.S. armed forces. Each day, our employees do the can\u2019t be done by solving the most daunting challenges facing our customers. Visit peraton.com to learn how we\u2019re keeping people around the world safe and secure. Responsibilities You're the one who makes the trains run on time. Workstreams don't drift on your watch \u2014 they ship. Position Overview Day-to-day execution lead for one or more deployment workstreams, keeping scope, schedule, and quality aligned under the AFRH Program Manager. What You'll Do Run day-to-day execution of assigned workstreams (configuration, data, training, cutover, etc.) Keep the IMS fresh \u2014 tasks, dependencies, baselines, variance commentary Chair workstream status meetings and roll results up to the Program Manager Spot risks and issues early; drive them to closure or formal escalation Coordinate directly with Government functional \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 237.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/peraton/jobs/project-manager-9252727618",
+    "id": "opp_ac2bd9d4838b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-17T14:59:40+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 40.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $238 on $238 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "project-manager",
+      "program-manager",
+      "it-project-manager",
+      "federal-it-program-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Manager",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/peraton/jobs/project-manager-9252727618?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_ac3e0b40a0d0": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -219705,6 +220510,153 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_bf39d9d8b3b1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Keepgo",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2026-12-11T05:45:10+00:00",
+    "description": "This role is only for experienced B2B SaaS closers. Please apply only if all of the following are true: \u2022 At least 3 years of B2B SaaS sales experience \u2022 You have personally closed B2B SaaS deals of $20,000+ per year with new customers \u2022 You can name these deals (product, client, annual value) and provide a reference \u2022 Native or bilingual English Applications that don\u2019t meet these requirements are not eligible for further review. * Employment: Full-time, long-term, remote * Language: Fluent/Bilingual English Keepgo is a global mobile internet provider offering innovative products and solutions based on virtual technologies, primarily eSIM. (, , ) Since 2012, Keepgo has been global connectivity provider for IoT, M2M and consumer devices, with access to 200+ cellular networks in 150+ countries, powered by the Telef\u00f3nica global network. We are growing and looking for an experienced B2B Sales Closer to drive revenue of Keepgo\u2019s B2B solutions across our products. Main goal - convert qualified leads into long-term customers through consultative selling, strong product demos and consistent follow-up. Warm leads are provided. You will manage small and mid-size deals independently and work alongside the company\u2019s founders on enterprise deals. Responsibilities: * Manage qualified inbound opportunities throughout the entire sales cycle, from initial engagement to payment. * Qualify incoming leads and determine the right sales approach for each client. * Close small and mid-size deals \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/keepgo/jobs/b2b-sales-closer-saas",
+    "id": "opp_bf39d9d8b3b1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-17T14:49:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "remote-sales-closer",
+      "salescloser",
+      "saas-sales-specialist",
+      "b2b-saas-sales",
+      "saas-sales-executive",
+      "closer-sales-closer",
+      "saas-sales-representative",
+      "sales"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "B2B Sales Closer (SaaS)",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/keepgo/jobs/b2b-sales-closer-saas?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
     }
   },
   "opp_bf614b8d3000": {
@@ -259048,6 +260000,147 @@
       "probability_low": 74.0
     }
   },
+  "opp_e4b38502e06d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 16.83,
+    "budget_min": 16.83,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "WorkMotion",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "EUR",
+    "deadline": "2027-01-16T14:29:46+00:00",
+    "description": "Location: Remote (Within +/- 2 hours of CET) Contract type: Full-time Salary: Starting from \u20ac35,000 per annum gross, subject to location, skills and experience Not Your Typical Workplace.\u2026 Tired of the 9-to-5 grind? Imagine a World without borders, where opportunities are endless. That's the future of work, and what we are building at WorkMotion . Our remote-first team spans across the world, helping companies hire, onboard, and manage talent internationally through smart, flexible workforce solutions. Fast-paced, people-driven, and globally connected \u2014 we empower businesses to build teams without borders. More Than a Role... We don\u2019t just need a Global Entity Operations Associate (internal title: Global Entity Infrastructure Associate) \u2014 we need a builder, problem-solver, and operator who can bring structure to complexity and keep WorkMotion \u2019s global infrastructure running smoothly. We\u2019re looking for someone who gets their energy from solving complex operational challenges, coordinating across borders, and turning moving parts into clear, scalable processes, while keeping a sharp eye on compliance, accuracy, and business impact. This isn\u2019t a role for someone who wants to stay in their lane. You\u2019ll be at the center of WorkMotion \u2019s global entity infrastructure \u2014 driving day-to-day entity operations, coordinating compliance obligations, supporting international expansion, and helping build the infrastructure that enables WorkMotion to operate compliantly around the world . \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 126.22,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/workmotion/jobs/global-entity-operations-associate-63703392",
+    "id": "opp_e4b38502e06d",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-17T14:29:46+00:00",
+    "profit_score": 17.9,
+    "risk_flags": [],
+    "score": 57.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.3,
+          "evidence": "Estimated net $126 on $126 (100% margin). $27 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $34 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 57.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "operations-associate",
+      "entity-manager",
+      "compliance-associate",
+      "operations-specialist",
+      "business-operations-associate",
+      "general-operations-associate",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Global Entity Operations Associate",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/workmotion/jobs/global-entity-operations-associate-63703392?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (6-30%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "-8%",
+          "factor": "Non-US timezone overlap required",
+          "from": "30%",
+          "to": "22%",
+          "why": "Overlap requirement works against a US-based operator."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "22%",
+          "to": "28%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "28%",
+          "to": "18%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 30.0,
+      "probability_low": 6.0
+    }
+  },
   "opp_e4bde2a6b415": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -260726,6 +261819,145 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_e5af02e7003c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Reddit",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T14:55:36+00:00",
+    "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit . Location: Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands. The Ads Foundational Representations (AFR) team develops signals and representations of Reddit \u2019s core entities (ads, posts, users, and so on), capturing the semantic, contextual, and behavioral information that Reddit Ads needs. We work on building embeddings to understand content and users' interests based on the content they engage with. Our team has the potential to highlight one of Reddit 's biggest differentiators: genuinely curated, high-quality, extremely relevant, and daily updated organic content. We are a Machine Learning/Data heavy team with a focus on the following areas: Multimodal & Content Embeddings - Make sense of organic (posts, comments, subreddits) and promoted (ads, shopping products, their landing pages) text and media content by embedding them into a shared space. Contextual and Behavioral Relevance - Working with Product & Data Science, establishing definitions of what \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/reddit/jobs/senior-machine-learning-engineer-ads-foundational-representations",
+    "id": "opp_e5af02e7003c",
+    "is_demo": false,
+    "match_score": 58.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-17T14:55:37+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 14 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 14.2,
+          "evidence": "Matched 3 profile skills: automation, excel, python. Covers 33% of the 9 skills this listing names (missing: airflow, bigquery, data science, gcp)."
+        }
+      },
+      "final_score": 49.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "bigquery",
+      "airflow",
+      "excel",
+      "rest",
+      "gcp",
+      "automation",
+      "machine learning",
+      "data science",
+      "senior-ml-engineer",
+      "machine-learning-engineer",
+      "ai-engineer",
+      "ad-ranking",
+      "recommender-systems-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Machine Learning Engineer, Ads Foundational Representations",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/reddit/jobs/senior-machine-learning-engineer-ads-foundational-representations?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_e5c79d288b7b": {
@@ -273150,6 +274382,150 @@
       ],
       "probability_high": 18.0,
       "probability_low": 0.0
+    }
+  },
+  "opp_eef3941da89a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "spreadsheet",
+    "client": "PSI CRO",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-17T15:38:39+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-16T14:58:34+00:00",
+    "description": "Please submit your CV in English We are looking for experienced candidates to fill the Project Finance Manager position, and to be involved in clinical project budgeting, negotiating and analyzing budgets as well as providing support with proposals and contract management activities within the company. Responsibilities: Development of study budget (preparation of budgets for proposals and Change Order budgets for on-going projects) Management of study budget throughout the clinical project duration (setup and maintenance of project finance information in PSI internal systems, preparation of accrual reports, request for invoices) Development of Sponsor Contract (preparation of sponsor agreements and change orders, development of payment schedules) Timesheet System Management (setup and maintenance of project-specific timesheets in PSI\u2019s internal system, management of reconciliation of actual vs budget costs on a regular basis) College or University degree, preferably in Finance/Economics At least 3 years' experience in project budgeting and financial analysis in a CRO Common European Framework of Reference for Language (CEFR) C1 level in English Proficiency in standard MS Office applications, advanced use of MS Excel Strong analytical skills Strong communication/negotiation skills Strong organizational and time management skills Ability to communicate with all involved departments and sponsors Ability to produce accurate and timely information/reports Ability to work under \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261117T153837Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/psi-cro/jobs/project-finance-manager-clinical-trial-proposals",
+    "id": "opp_eef3941da89a",
+    "is_demo": false,
+    "match_score": 71.7,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-17T14:58:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 60.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 17.5,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.4,
+          "evidence": "Matched 1 profile skills: excel. Domain overlap: budgeting."
+        }
+      },
+      "final_score": 60.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 60.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "project-finance-manager",
+      "finance-manager",
+      "clinical-trial-budget-manager",
+      "project-budget-management"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Project Finance Manager (Clinical Trial Proposals)",
+    "updated_at": "2026-11-17T15:38:39+00:00",
+    "url": "https://himalayas.app/companies/psi-cro/jobs/project-finance-manager-clinical-trial-proposals?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "10%",
+          "to": "18%",
+          "why": "Mentions 'budgeting', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "18%",
+          "to": "24%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
     }
   },
   "opp_ef0a6b3d6fb3": {
