@@ -41006,6 +41006,132 @@
       "probability_low": 4.0
     }
   },
+  "opp_26310fa897c7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Clera",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:37:00+00:00",
+    "description": "About the Role Join an early-stage AI company building an AI coworker for teams. You will create the agent runtime and reliability systems that help AI act usefully, safely, and dependably in real work. What You'll Do Design and build the agent runtime, including how it gathers context, decides when to respond, selects tools, handles approvals, and completes tasks. Write and refine system prompts so the agent takes useful initiative without being noisy or reckless. Build evaluation and regression tests for real tasks, tool use, and failure cases, and use them to catch regressions in prompt changes. Improve reliability across long-running tasks, interruptions, and retries. Implement safe execution boundaries, including approval gates and multi-tenant data separation. Work directly with company leadership and early users to develop the product. What We're Looking For Typically 4 or more years of relevant experience, with demonstrated ownership of broad technical problems from prototype through production. Experience shipping tool-using LLM agents to production, beyond demos or thin prompt wrappers. Hands-on system prompt design, improved through testing and iteration. Experience building evaluation and regression test harnesses for LLM or agent behavior. Understanding of safe tool execution, approval gates, and multi-user data separation. Strong judgment about when an agent should act, ask for approval, or stay quiet, and the ability to explain technical tradeoffs. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/clera/jobs/founding-harness-engineer-8634063920",
+    "id": "opp_26310fa897c7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-18T00:37:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "harness-engineer",
+      "harness-engineering",
+      "ai-harness-engineer",
+      "founding-engineer",
+      "technical-founding-engineer",
+      "technical-cofounder",
+      "founder",
+      "head-of-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Founding Harness Engineer",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/clera/jobs/founding-harness-engineer-8634063920?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_264aad8fa345": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -66542,6 +66668,145 @@
     "title": "Sourcing Consultant",
     "updated_at": "2026-09-16T11:00:25+00:00",
     "url": "https://himalayas.app/companies/exl/jobs/sourcing-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_3d0d8b05dec7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Keyrock",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:37:06+00:00",
+    "description": "DeFi Quant Trader Intern (Credit) Since 2017, Keyrock has been a change-maker in digital assets. We're a global, remote-first team of 200+ people across 40+ nationalities, with hubs in Brussels, London, Paris and New York. We provide liquidity across 80+ centralized and decentralized exchanges - a position cemented by our Series C, led by SC Ventures. Today we run a full spectrum of capital markets businesses across centralized and on-chain venues: market making, high-frequency trading, options, OTC, DeFi trading desks, advisory, and asset management. We're building toward the agentic investment banking capabilities for the era of digital finance. A proprietary agentic layer runs the mechanics of the market, so our people can focus on the work code cannot do: the deal, the relationship, and the judgement. We're not just envisioning the future of finance - we're building it. About the Internship Program Our internship programme gives early-career talent the opportunity to build practical skills, contribute to meaningful projects and learn alongside experienced colleagues in digital finance. Typically lasting six months and based in our Brussels office (London possible), each internship includes hands-on experience, clear learning goals and dedicated guidance and regular feedback. We look for curiosity, relevant foundational skills, deep, active interest and passion for digital assets and the potential to grow exponentially with us - you don\u2019t need to arrive with all the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/keyrock-com/jobs/defi-quant-trader-intern-credit-london",
+    "id": "opp_3d0d8b05dec7",
+    "is_demo": false,
+    "match_score": 68.8,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-18T00:37:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 40.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 16.7,
+          "evidence": "Matched 3 profile skills: excel, python, sql. Covers 50% of the 6 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 40.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 52.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "api",
+      "rest",
+      "analytics",
+      "quantitative-finance-intern",
+      "junior-crypto-finance-associate",
+      "junior-quantitative-risk-analyst",
+      "credit-risk-analyst-intern",
+      "credit-risk-analyst",
+      "credit-analyst",
+      "junior-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DeFi Quant Trader Intern (Credit) - London",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/keyrock-com/jobs/defi-quant-trader-intern-credit-london?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -97362,6 +97627,143 @@
       "probability_low": 47.0
     }
   },
+  "opp_58a65fabd2e9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Dropbox",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:32:40+00:00",
+    "description": "Role Description As an Senior Account Executive in ANZ, you will grow customer relationships and revenue with Dropbox Core as your primary product. You will be developing existing accounts, and also creating and closing new-business opportunities across your assigned territory. You will understand how customers work, identify where they can gain more value from Dropbox , and build a clear business case for expansion. You will also sell across the wider Dropbox portfolio when additional solutions address a genuine customer need. You will bring customer insight into account planning and prospecting, develop relationships across buying teams, and share what works with the wider APJ team. This is a hands-on Account Executive role within an assigned territory. You will own your opportunities, maintain a disciplined pipeline and forecast, and work with your manager and cross-functional colleagues to deliver revenue and customer outcomes. Responsibilities Own and execute territory and account plans to deliver revenue targets, growing existing customers into additional teams, buying centres and use cases, with Dropbox Core as the primary product. Generate new-business opportunities through targeted prospecting, account research and collaboration with partners and internal teams, taking responsibility for building a qualified pipeline. Lead complex sales cycles from discovery and qualification through negotiation and close, building clear business cases and securing alignment across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/dropbox/jobs/senior-account-executive-anz",
+    "id": "opp_58a65fabd2e9",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-18T00:32:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "forecasting",
+      "senior-account-executive",
+      "account-executive",
+      "enterprise-account-executive",
+      "territory-account-executive"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Account Executive - ANZ",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/dropbox/jobs/senior-account-executive-anz?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_58cfe9a93596": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -122153,6 +122555,146 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_6b916957b27d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 120.19,
+    "budget_min": 86.54,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Blend360",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:34:34+00:00",
+    "description": "We are looking for a Director, Global Risk & Compliance to establish and lead the firm's first centralized risk management and compliance function. This role will build the enterprise risk framework, develop and implement global policies (AI governance, data privacy, vendor risk management, ESG compliance), manage the corporate insurance program, and coordinate compliance execution across all regions. This role will serve as the client-facing risk leader, engaging directly with enterprise clients on compliance questionnaires, security assessments, and risk governance. The role partners closely with the VP of IT and Sr. Security Engineer to ensure the enterprise risk framework reflects both business and technology dimensions. This is a governance and framework role, not a technical security engineering role. The Director defines risk policy and requirements (\"what\" and \"why\"); the Sr. Security Engineer implements at the infrastructure level (\"how\"). The two roles operate as complements with a clear boundary. Core Responsibilities Risk Management & Oversight Partner with executive leadership to define Blend360 's risk appetite and tolerance thresholds; translate those into a practical risk management framework with clear escalation protocols across all the global enterprise. Create and maintain a master risk register that tracks business, operational, regulatory, and technology risks; record who owns each risk, its likelihood and potential impact, and how we'll address it Run \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 649.05,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/blend360/jobs/senior-director-global-risk-and-compliance-1655961004",
+    "id": "opp_6b916957b27d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-18T00:34:35+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 45.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $649 on $649 (100% margin). $138 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $173 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "snowflake",
+      "aws",
+      "data science",
+      "analytics",
+      "risk-and-compliance-director",
+      "risk-management-director",
+      "compliance-director",
+      "chief-risk-officer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Director, Global Risk and Compliance",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/blend360/jobs/senior-director-global-risk-and-compliance-1655961004?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_6b9fd1b006dd": {
@@ -206689,6 +207231,144 @@
       "probability_low": 56.0
     }
   },
+  "opp_b283c7ac4e8d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Superside",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:36:47+00:00",
+    "description": "As a Senior Performance Strategist at Superside , you'll own how the work performs in market: what runs, how it's tested and how it keeps getting better. This is a strategy role, not a media-buying role. You'll be a senior strategic partner to enterprise clients and our creative leaders: advising on performance creative, shaping new solutions, and spotting opportunities for ongoing optimisation and account growth. You'll work alongside our creative strategists, creative teams and product team, using evidence to turn great ideas into results for global brands. What You'll Do Bring performance data and past results into every brief, so strategy starts from what people actually do. Lead performance-focused projects, finding the opportunity in the data and briefing creative teams. Turn campaign ideas into in-market plans across channels, formats and audiences. Design testing roadmaps and measurement frameworks, and set up tests and tracking. Analyse creative performance to show what's working, what isn't and why. Optimise creative in market, scaling what works and moving people through the funnel. Turn results into clear recommendations on what to scale, cut and try next. Advise senior client stakeholders as a trusted strategic partner, presenting results and recommendations with confidence. Identify opportunities to grow accounts, from ongoing optimisation programs to new performance offerings. Incorporate an AI-native mindset across the whole strategic process. Partner with \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/superside/jobs/senior-performance-strategist",
+    "id": "opp_b283c7ac4e8d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-18T00:36:48+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "performance-strategist",
+      "growth-strategist",
+      "marketing-strategist",
+      "creative-strategy-lead",
+      "media-strategist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Performance Strategist",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/superside/jobs/senior-performance-strategist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_b2ac4e0e3caf": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -213658,6 +214338,143 @@
       ],
       "probability_high": 50.0,
       "probability_low": 32.0
+    }
+  },
+  "opp_b838211949c5": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Superside",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:37:40+00:00",
+    "description": "Superside is looking for a Lead Creative (Motion Design) to push the boundaries of what\u2019s possible in motion and animation. In this role, you\u2019ll lead a global team of top-tier creatives, delivering world-class motion graphics, digital ads, explainer videos, promos, animated presentations, and more. You\u2019ll shape creative strategy, inspire your team, and partner with leading global brands to deliver impactful work that blends craft, innovation, and cutting-edge technology. What You'll Do Lead and inspire a team of motion designers, driving creative excellence and innovation across projects. Own the creative strategy, workflow, and delivery of multiple projects, ensuring quality, timeliness, and budget alignment. Collaborate with your dedicated account teams to successfully grow and develop our customers Partner directly with global brands, presenting work and building trust through outstanding creative direction. Mentor and develop your team, fostering growth, skill development, and collaboration. Champion the adoption of new tools and technologies, including AI, to elevate motion design processes and outputs. What you will need to succeed BA or higher within Design, Creative, Comms, or similar fields. 6+ years of experience as a world-class creative lead in an international top-tier creative agency or in-house design team in a global tech company Strong portfolio of creative work in Motion Design. Experience leading high-performing creative teams, managing end-to-end creative \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/superside/jobs/lead-creative-motion-design",
+    "id": "opp_b838211949c5",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-18T00:37:40+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "motion-graphics-designer",
+      "creative-director",
+      "motion-design-lead",
+      "animation-lead"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Lead Creative (Motion Design)",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/superside/jobs/lead-creative-motion-design?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_b83f63f13f7c": {
@@ -226327,6 +227144,131 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_c3405df5272f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 33.65,
+    "budget_min": 26.44,
+    "budget_type": "HOURLY",
+    "category": "spreadsheet",
+    "client": "AECOM",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:37:47+00:00",
+    "description": "We are seeking a highly organized, proactive, and detail-oriented Disaster Recovery Program Specialist to provide critical operational and administrative support for disaster recovery programs. This role serves as a key member of a fast-paced team, supporting project management, case management operations, client communications, data tracking, and program administration. The ideal candidate is a true multi-tasker who thrives in a dynamic environment, can effectively balance competing priorities, and consistently demonstrates a willingness to step in wherever support is needed. This individual will be a trusted resource for both internal teams and external clients, helping ensure program goals, compliance requirements, and customer service expectations are met. This position is expected to begin as soon as possible. The responsibilities of this position include, but are not limited to: Program Operations & Project Support Perform data analysis and reporting using Excel and other program management tools. Respond to client requests and provide timely program information. Support invoice processing, tracking, and documentation. Assist with budget tracking, reporting, and financial reconciliations. Support project teams through administrative and operational coordination. Identify issues, troubleshoot challenges, and recommend practical solutions. Maintain accurate records and ensure data integrity across multiple systems. Monitor program deliverables and assist with meeting \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 2.53,
+    "estimated_cost": 0.0,
+    "estimated_hours": 2.81,
+    "estimated_net_revenue": 74.3,
+    "estimated_non_ai_effort": 0.28,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/aecom/jobs/disaster-recovery-program-specialist",
+    "id": "opp_c3405df5272f",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-18T00:37:48+00:00",
+    "profit_score": 40.2,
+    "risk_flags": [],
+    "score": 69.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 8.3,
+          "evidence": "90% of estimated effort is AI-carryable (2.5h AI / 0.3h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 7.4,
+          "evidence": "Estimated net $74 on $74 (100% margin). $82 per effective hour vs $85 target (0.9 effective h = 0.3h human + 2.5h AI discounted). Leverage: $265 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, reporting."
+        }
+      },
+      "final_score": 69.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 69.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "recovery-program-specialist",
+      "program-specialist",
+      "program-administrator",
+      "project-coordinator",
+      "case-management-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Disaster Recovery Program Specialist",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/aecom/jobs/disaster-recovery-program-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "45%",
+          "to": "51%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "51%",
+          "to": "41%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_c37a1299485a": {
@@ -296155,6 +297097,144 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_ff4559a46703": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 46.63,
+    "budget_min": 43.27,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Sedgwick",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-18T00:40:49+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-17T00:37:00+00:00",
+    "description": "By joining Sedgwick , you'll be part of something truly meaningful. It\u2019s what our 33,000 colleagues do every day for people around the world who are facing the unexpected. We invite you to grow your career with us, experience our caring culture, and enjoy work-life balance. Here, there\u2019s no limit to what you can achieve. Newsweek Recognizes Sedgwick as America\u2019s Greatest Workplaces National Top Companies Certified as a Great Place to Work\u00ae Fortune Best Workplaces in Financial Services & Insurance Liability Claims Team Lead | General Liability & Auto Liability Experience Required | Supervisory experience preferred Are you looking for an opportunity to join a global industry leader where you can bring your big ideas to help solve problems for some of the world\u2019s best brands? Apply your General Liability & Auto Liability expertise & supervisory knowledge and experience to adjudicate complex customer claims in the context of an energetic culture. Deliver innovative customer-facing solutions to clients who represent virtually every industry and comprise some of the world\u2019s most respected organizations. Be a part of a rapidly growing, industry-leading global company known for its excellence and customer service. Leverage Sedgwick \u2019s broad, global network of experts to both learn from and to share your insights. Take advantage of a variety of professional development opportunities that help you perform your best work and grow your career. Enjoy flexibility and autonomy in your \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261118T004047Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 324.53,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/sedgwick/jobs/liability-claims-team-lead-general-liability-auto-liability-experience-requi",
+    "id": "opp_ff4559a46703",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-18T00:37:00+00:00",
+    "profit_score": 47.2,
+    "risk_flags": [],
+    "score": 62.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.7,
+          "evidence": "Estimated net $325 on $325 (100% margin). $69 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $87 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "claims-team-lead",
+      "claims-supervisor",
+      "claims-manager",
+      "general-liability-claims-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Liability Claims Team Lead | General Liability & Auto Liability Experience Requi",
+    "updated_at": "2026-11-18T00:40:49+00:00",
+    "url": "https://himalayas.app/companies/sedgwick/jobs/liability-claims-team-lead-general-liability-auto-liability-experience-requi?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_ff544e1cbb3b": {
