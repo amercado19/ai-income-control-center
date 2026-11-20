@@ -559,6 +559,146 @@
       "probability_low": 6.0
     }
   },
+  "opp_00d528a91d9c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 68.75,
+    "budget_min": 50.0,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "CenterWell Senior Primary Care",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:49:50+00:00",
+    "description": "Become a part of our caring community The Clinical Operations Strategy Lead designs and implements initiatives that optimize clinical operations and enhance care delivery across aligned area(s), or the organization. You will work on problems of diverse scope and complexity ranging from moderate to substantial. About Us Become a part of our caring community and help us put health first. Humana\u2019s Primary Care Organization is one of the largest and fastest growing value-based care, senior-focused primary care providers in the country, operating over 3400 centers across eight states under two brands: CenterWell & Conviva. Operating as a payor-agnostic, wholly owned subsidiary of Humana, our centers put the unique needs of seniors at the center of everything we do. CenterWell Medical Group is a new \u201cspecialty\u201d professional corporation under Primary Care Organization umbrella to provide virtual wraparound extensivity services to Humana members as well as CW-IPA and unengaged Primary Care Organization patients to address gaps which will impact Stars, MRA accuracy, and trend bending. Our Clinics offer a team-based care model where our physicians lead a multi-disciplinary care team supporting patient\u2019s physical, emotional, and social wellness. At CenterWell Senior Primary Care we want to help those in the communities we serve, including our associates, lead their best lives. We support our associates in becoming happier, healthier, and more productive in their professional and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/centerwell-senior-primary-care/jobs/clinical-operations-strategy-lead",
+    "id": "opp_00d528a91d9c",
+    "is_demo": false,
+    "match_score": 81.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:49:51+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 71.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 30.2,
+          "evidence": "Matched 3 profile skills: dashboard, financial modeling, forecasting. Covers 100% of the 3 skills this listing names."
+        }
+      },
+      "final_score": 71.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 71.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "dashboard",
+      "forecasting",
+      "financial modeling",
+      "clinical-operations-strategy",
+      "clinical-operations-lead",
+      "healthcare-operations-lead",
+      "healthcare-strategy-leadership",
+      "operations-strategy-consultant"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Clinical Operations Strategy Lead",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/centerwell-senior-primary-care/jobs/clinical-operations-strategy-lead?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_00f4c221ca36": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -34726,6 +34866,139 @@
       "probability_low": 38.0
     }
   },
+  "opp_1eda34042e75": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "BeyondTrust",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote United States BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role We are seeking a Lead-to-Cash Business Partner to support and continuously improve our Salesforce-enabled Lead-to-Cash processes across various business areas such as Revenue Operations, Finance, Quote to Order, Order to Cash, and Customer Success to surface and understand business needs, define well-scoped enhancement requests, and drive improvements through a structured Lead-to-Cash governance model. This is an individual contributor role that sits at the intersection of business process, system governance, and analytical rigor. The ideal candidate brings strong discovery instincts, a genuine curiosity for root cause problem-solving, and the ability to challenge and sharpen business asks before they enter the delivery pipeline. Salesforce familiarity, business judgment, strong interpersonal skills, and requirements rigor are the core of this role. What You\u2019ll Do Business Partnership & Discovery Partner with business stakeholders across assigned workstreams to understand current-state challenges, process friction, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/beyondtrust-lead-to-cash-business-partner",
+    "id": "opp_1eda34042e75",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Fri, 20 Nov 2026 18:32:28 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 51.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "BeyondTrust: Lead-to-Cash Business Partner",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-lead-to-cash-business-partner",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_1eebebc2559b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -46946,6 +47219,135 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_2b0294aa283f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hunteed",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T19:00:35+00:00",
+    "description": "Vous \u00eates Consultant(e) en recrutement, Charg\u00e9(e) de recherche, Charg\u00e9(e) de sourcing, Talent Acquisition Specialist, Charg\u00e9(e) de recrutement, Chasseur(se) de t\u00eates et vous souhaitez vous lancer dans une exp\u00e9rience entrepreneuriale ? Venez rejoindre la communaut\u00e9 des professionnels du recrutement de Hunteed ! Pourquoi rejoindre la communaut\u00e9 Hunteed ? Acc\u00e9der \u00e0 des missions de recrutement, sans avoir \u00e0 effectuer de prospection commerciale. - Collaborer avec de nombreux clients en France et en Europe et acc\u00e9der \u00e0 des clients Grands Comptes. - Travailler \u00e0 votre rythme et sans engagement. - Profiter de l'accompagnement et de l'expertise d'une \u00e9quipe d\u00e9di\u00e9e de professionnels du web et du recrutement. - Exploiter votre r\u00e9seau de relations professionnelles. - B\u00e9n\u00e9ficier d'un outil de travail innovant et intuitif pour trouver des missions et g\u00e9rer votre vivier de candidats. - Recevoir des primes de placement attractives : de 2 000EUR \u00e0 18 000EUR selon les postes, au succ\u00e8s. Assister \u00e0 des webinars interactifs, des ateliers, des rencontres, des afterworks. - Faire partie d'une communaut\u00e9 dynamique qui \u00e9change au quotidien sur des probl\u00e9matiques de recrutement. - S'assurer d'un chiffre d'affaires s\u00e9curis\u00e9 par des garanties de paiement assur\u00e9es par Hunteed . - S'\u00e9pargner le recouvrement L'acc\u00e8s \u00e0 la plateforme est gratuit, sans commission ni cotisations ! Vous souhaitez en savoir plus ? Participez \u00e0 notre webinaire de pr\u00e9sentation de la plateforme Hunteed : Comment vous lancer sur \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-nanterre-5659851989",
+    "id": "opp_2b0294aa283f",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T19:00:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "recruitment-consultant",
+      "recruiter",
+      "talent-acquisition-specialist",
+      "headhunter"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultant en recrutement ind\u00e9pendant H/F - Nanterre",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-nanterre-5659851989?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_2b10d951f951": {
@@ -68731,6 +69133,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_3cb005a9f52d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Crimson Education",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:57:11+00:00",
+    "description": "Our Mission Our mission at Crimson Education is to be the launching pad that equips students globally to compete on the world stage. Crimson's technology, resources, and expertise removes barriers of geography and legacy, seeing its students reach their greatest potential thanks to the dedication of their personalized Crimson teams. As we expand our team, we are seeking innovative educators who are passionate about helping students earn a place at the right US boarding or day school. Be part of a visionary team committed to making a significant impact on student success. Our Team The Boarding & Day School Admissions team brings together strategists and mentors across the US, Asia, Australia, and Europe who believe every student deserves a personalized path to the right school, regardless of where they're coming from. Hailing from top universities worldwide, our mentors bring their own experience of selective admissions to the table as they guide students and families through the boarding and day school process. What You'll Be Responsible For You will coach ambitious students across the US, Asia, Australia, and Europe who are applying to competitive US boarding and day schools, in one of two tracks. You'll indicate which track you're applying for. You will report to Head of Operations. Essay Mentor: mentoring students on their application essays, with clear feedback ahead of deadlines Interview Mentor: coaching students to tell their story and present with confidence in their \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/crimson-education/jobs/essay-interview-mentor-us-boarding-and-day-school-admissions",
+    "id": "opp_3cb005a9f52d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T18:57:11+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "writing-mentor",
+      "interview-coaching",
+      "admissions-consultant",
+      "college-counselor",
+      "education-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Essay & Interview Mentor, US Boarding and Day School Admissions",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/crimson-education/jobs/essay-interview-mentor-us-boarding-and-day-school-admissions?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_3cca490c1f6d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -71637,6 +72170,132 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_3fb10cc63d78": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "6sense",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.\u00c2 We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. \u00c2 Every 6sensor plays a part in de\u00ef\u00ac\u0081ning the future of our industry-leading technology.\u00c2 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers.\u00c2 We want 6sense to be the best chapter of your career.\u00c2 The Opportunity \u00c2 We are seeking an Agency Partnerships Director to build and scale 6sense's agency and systems integrator Partner program. You will own the strategy and operating model for these Partners, working with agencies, consultancies, and SIs to create a repeatable source of pipeline, quality implementations, and customer retention. \u00c2 You report to the Head of Partnerships & Alliances, and independently set the direction for agency and SI Partnerships, then lead its execution across Sales, Customer Success, Professional Services, Product, and Marketing. You set the standards and playbooks that others follow. \u00c2 Go-to-market is being rebuilt around agents, and the Partners who design and run that work are choosing their platforms now. Your job is to help make 6sense the GTM \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137811",
+    "id": "opp_3fb10cc63d78",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T10:03:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 33.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Agency Partnerships Director",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-agency-partnerships-director-6sense-1137811",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_3fb4df781898": {
@@ -83429,6 +84088,138 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_4a6a1693625d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "BeyondTrust",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role The Web Development Team, part of Brand, owns beyondtrust.com end to end: a React and Next.js front end backed by an enterprise headless CMS, serving a global cybersecurity audience and the pipeline that runs through it. beyondtrust.com is BeyondTrust's largest go-to-market surface, and this role builds it \u00e2\u0080\u0094 the campaign and launch experiences, the shared component system underneath them, and the front-end quality of the whole site. This is a hands-on, mid-level individual contributor role for an engineer who is strong in React, TypeScript and Next.js, has the visual judgment to make what they build look right without every state being specified, and uses AI tooling as an everyday part of how they work. Direction comes from the team; execution and craft are yours. The role reports to the Sr. Manager, UX/UI & Digital Experience. What You\u00e2\u0080\u0099ll Do Build the web experiences behind BeyondTrust's launches, campaigns and new product narratives, working from direction set with Brand, Demand Generation and Product Marketing, and turning it into something live \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137833",
+    "id": "opp_4a6a1693625d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T15:30:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 38.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "graphql",
+      "typescript",
+      "react",
+      "css",
+      "marketing"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Front-End Engineer, UX/UI",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-front-end-engineer-ux-ui-beyondtrust-1137833",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_4ad3e25e7fef": {
@@ -118504,6 +119295,131 @@
       "probability_low": 15.0
     }
   },
+  "opp_66e55c21c993": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Glean",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About Glean: \u00c2 Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry\u00e2\u0080\u0099s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. \u00c2 At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean\u00e2\u0080\u0099s agentic capabilities - AI agents that automate real work across teams by accessing the industry\u00e2\u0080\u0099s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level. \u00c2 Recognized by Fast Company as one of the World\u00e2\u0080\u0099s Most Innovative Companies (Top 10, 2025), by CNBC\u00e2\u0080\u0099s Disruptor 50, Bloomberg\u00e2\u0080\u0099s AI Startups to Watch (2026), Forbes AI 50, and Gartner\u00e2\u0080\u0099s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137826",
+    "id": "opp_66e55c21c993",
+    "is_demo": false,
+    "match_score": 52.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T13:45:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 51.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 12.7,
+          "evidence": "Matched 2 profile skills: excel, python. Covers 33% of the 6 skills this listing names (missing: api, aws, azure, gcp)."
+        }
+      },
+      "final_score": 51.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 51.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "api",
+      "aws",
+      "gcp",
+      "azure",
+      "sales"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Enterprise Solutions Engineer, East",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-enterprise-solutions-engineer-east-glean-1137826",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_66f961501257": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -123374,6 +124290,150 @@
       ],
       "probability_high": 32.0,
       "probability_low": 10.0
+    }
+  },
+  "opp_6a15bb841f3d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:48:45+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Music Production Expert - Korean Type: Contract Compensation: $12 per task Location: Remote Duration: Up to 6 months Commitment: 20+ hours/week Role Responsibilities Evaluate AI-generated music across genres for musicality, creativity, prompt adherence, vocal quality, and production/mix quality. Label songs by genre, structure, instruments, vocals, and other musical characteristics. Review AI-generated lyrics and vocals against reference material for quality and accuracy. Work independently and asynchronously to meet deadlines and improve AI model performance . Qualifications Must-Have Native or near-native proficiency in Korean and ability to follow detailed written instructions in English. 2+ years of experience as a music producer, audio engineer, or mixing engineer. Headphones or studio monitors suitable for critical listening. Preferred Formal training in music performance, theory, or composition. Credited or commercially released production, engineering, or mixing work. Broad familiarity with contemporary Korean genres, sub-genres, and artists. Start Date Immediate Application Process (Takes 20\u201330 mins to complete) Upload your resume. Complete the application steps, including the Bilingual Competency Interview in \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/audio-engineer-ai-trainer-1798182195",
+    "id": "opp_6a15bb841f3d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:48:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "audio-engineer",
+      "music-producer",
+      "mixing-engineer",
+      "audio-quality-assurance-specialist",
+      "ai-music-trainer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Audio Engineer - AI Trainer",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/audio-engineer-ai-trainer-1798182195?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (0-19%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "10%",
+          "to": "16%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "16%",
+          "to": "6%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 19.0,
+      "probability_low": 0.0
     }
   },
   "opp_6a185d76ef54": {
@@ -148113,6 +149173,150 @@
       "probability_low": 15.0
     }
   },
+  "opp_7b9a8c1d97fa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:48:20+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: AI Safety Practitioner Type: Contract Compensation: $60\u2013$70/hour Location: Remote Role Responsibilities Evaluate AI-generated responses for safety, factual accuracy, policy compliance, and overall quality. Review content involving misinformation, political persuasion, self-harm, violence, cyber, biosecurity, and other sensitive domains. Apply and refine evaluation rubrics for RLHF , SFT , and AI safety benchmarking . Identify unsafe outputs, hallucinations, reasoning failures, and policy violations. Provide structured feedback to improve model alignment and safety performance. Collaborate with AI researchers and safety teams on ongoing evaluation initiatives. Qualifications Must-Have Bachelor's degree or higher in Journalism, Communications, Psychology, Sociology, Public Policy, Law, Biology, Chemistry, Computer Science, or a related discipline. 5+ years of professional experience in AI Safety , Trust & Safety, journalism, public policy, scientific research, security, or a related field. Excellent written English , critical thinking, and analytical reasoning skills. Ability to consistently evaluate nuanced and policy-sensitive scenarios. Preferred Experience with AI Safety , RLHF , SFT , Trust & Safety, or AI evaluation. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/ai-safety-practitioner-expert-evaluator",
+    "id": "opp_7b9a8c1d97fa",
+    "is_demo": false,
+    "match_score": 13.3,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:48:21+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 48.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 4.9,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 48.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [
+        {
+          "evidence": "The listing names 6 hard requirement(s) with nothing in the operator profile behind them: \"professional experience in ai safety\"; \"trust & safety\"; \"journalism\".",
+          "name": "Unmet stated requirements",
+          "points": 18.4
+        }
+      ],
+      "raw_total": 48.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "ai-safety-practitioner",
+      "ai-evaluation-specialist",
+      "trust-and-safety-specialist",
+      "content-moderation-specialist",
+      "ai-quality-assurance-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "AI Safety Practitioner - Expert Evaluator",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/ai-safety-practitioner-expert-evaluator?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_7c2670cab5e2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -156181,6 +157385,135 @@
       "probability_low": 10.0
     }
   },
+  "opp_831faf9cf6e6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Everpure",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. This type of work\u00e2\u0080\u0094work that changes the world\u00e2\u0080\u0094is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. THE ROLE As a Regional Marketing Manager, you are a crucial revenue engine chartered to accelerate pipeline and drive growth for the Commercial segment in the Southeast Region. This strategic role serves as the primary marketing liaison, blending high-level planning with the execution of multi-channel campaigns that differentiate the Everpure Platform in a competitive landscape. You will bridge the gap between corporate strategy and local execution, working directly with sales leadership and channel partners to convert market potential into measurable business impact. WHAT YOU'LL DO Strategize & Execute Integrated Plans: Own the end-to-end marketing roadmap for the Commercial segment, designing high-impact initiatives that consistently exceed regional booking targets and pipeline health metrics. Drive Sales & Partner Synergy: Serve as the lead marketing advisor to the West Region sales organization, equipping teams and partners \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137810",
+    "id": "opp_831faf9cf6e6",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T09:58:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "aws",
+      "marketing"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Regional Marketing Manager, Southeast",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-regional-marketing-manager-southeast-everpure-1137810",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8326b20dbe81": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -157018,6 +158351,140 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_83ec32be8c45": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Abnormal",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About the role The Integrated Marketing Manager, Global Programs turns GTM campaign strategy into targeted programs for priority industries, executive audiences, and enterprise accounts. You\u00e2\u0080\u0099ll own a defined portfolio of vertical, executive, and threat intelligence programs that build credibility, engage buying committees, and generate pipeline. Working alongside Campaign Managers and regional teams, you\u00e2\u0080\u0099ll lead program planning, execution, and measurement. You\u00e2\u0080\u0099ll build repeatable programs that regions can adapt to their markets and directly execute select executive engagements. This role combines audience-focused program development with hands-on demand generation, turning campaign strategy into engagement, meetings, and pipeline. Initial priorities include one or two verticals, a defined executive program, and threat intelligence marketing. You\u00e2\u0080\u0099ll partner with Digital, Field, Customer, and Channel Marketing to deliver coordinated programs with clear responsibilities, milestones, and KPIs. What you\u00e2\u0080\u0099ll do Build targeted global programs Develop annual and quarterly program plans aligned with agreed campaign priorities, target-account needs, and pipeline goals. Partner with Product Marketing and Content to develop vertical and executive messaging that connects business challenges with customer stories, competitive differentiation, and threat research. Lead marketing programs for priority Fortune 1000 accounts in partnership with Sales and Field Marketing, aligning \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137829",
+    "id": "opp_83ec32be8c45",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T14:30:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 36.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 36.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 36.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "pdf",
+      "marketing"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Integrated Marketing Manager, Global Programs",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-integrated-marketing-manager-global-programs-abnormal-1137829",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_83ef969ce93e": {
@@ -163176,6 +164643,147 @@
       "probability_low": 26.0
     }
   },
+  "opp_898eb68c7700": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 63.37,
+    "budget_min": 50.67,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "EVgo",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:52:34+00:00",
+    "description": "About EVgo EVgo (Nasdaq: EVGO) is one of the nation\u2019s largest public fast charging networks for electric vehicles. Our mission is to build a sustainable business that powers our transportation and protects our planet. As a leader in clean transportation, EVgo sits at the intersection of technology, infrastructure, and innovation. We are rapidly expanding our national footprint through strategic partnerships with retailers, automakers, rideshare and, fleets, bringing fast charging to communities across the country. EVgo enables drivers of all makes and models to charge where they want, when they want. At EVgo , sustainability is not just what we do; it is who we are. We are committed to reducing carbon emissions, advancing clean energy solutions, and building infrastructure that supports a more sustainable future. We believe great companies are built by great people. Our culture is mission driven, customer centric, collaborative, and innovative, with a strong focus on creating an environment where employees can growand make a lasting positive impact. Join us as we charge forward. Position Summary The Staff Global Supply Manager owns supplier relationships from sourcing strategy through purchase order execution for key equipment and hardware suppliers, where cost, supply continuity, and day-to-day delivery all matter at once. The role develops sourcing strategies, leads negotiations and supplier performance governance, and manages supply risk. It also issues and tracks \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 506.7,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/evgo/jobs/staff-global-supply-manager",
+    "id": "opp_898eb68c7700",
+    "is_demo": false,
+    "match_score": 41.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:52:35+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 60.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $507 on $507 (100% margin). $107 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $169 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 15.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 60.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 60.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "analytics",
+      "global-supply-management",
+      "supply-chain-manager",
+      "procurement-manager",
+      "sourcing-manager",
+      "supply-chain-operations-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Staff Global Supply Manager",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/evgo/jobs/staff-global-supply-manager?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_89947023d79a": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -166444,6 +168052,141 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_8c69d2cfaac6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bitwarden",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Bitwarden promotes better internet security and safety with an open source password management solution for individuals, teams, and business organizations. Bitwarden seeks a Vice President of Public Sector Sales to build and lead our public sector business. You will own strategy and execution across federal, state, local, and education (SLED) markets, build a team of public sector sellers, and establish the partner, channel, and contract vehicle relationships that government buyers rely on. You bring deep relationships in the public sector community, a strong understanding of government procurement, and the leadership to turn Bitwarden\u00e2\u0080\u0099s trusted open source platform into a go-to choice for agencies and institutions. This is an all-remote role with a requirement for overlap with US East Coast hours. Proximity to the Washington, DC metro area is a plus. RESPONSIBILITIES Strategy and leadership Own the public sector go-to-market strategy across federal civilian, defense, and SLED segments, with accountability for pipeline, bookings, and forecast accuracy Build, lead, and develop a team of public sector account executives and supporting roles Partner with Bitwarden leadership on segment priorities, territory design, and long-term public sector investment Establish an operating cadence for forecasting, pipeline reviews, and reporting to company leadership Work closely with Security, Compliance, Product, and Engineering on FedRAMP and other government compliance requirements, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137843",
+    "id": "opp_8c69d2cfaac6",
+    "is_demo": false,
+    "match_score": 78.1,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-19T17:00:54+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 59.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 28.8,
+          "evidence": "Matched 3 profile skills: excel, forecasting, reporting."
+        }
+      },
+      "final_score": 59.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 59.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "forecasting",
+      "sales"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Vice President, Public Sector",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-vice-president-public-sector-bitwarden-1137843",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "35%",
+          "to": "40%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "40%",
+          "to": "46%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "46%",
+          "to": "36%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_8c760f26ad9e": {
@@ -169723,6 +171466,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_8eba9d9ddef3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "TestYantra Software Solutions",
+    "competition_score": 45.3,
+    "confidence": 25.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:52:26+00:00",
+    "description": "Experience & Qualifications 12+ years of experience within the Microsoft Dynamics 365 ecosystem. Proven experience as a Dynamics 365 Solution Architect, Technical Architect, or similar leadership role delivering enterprise-scale implementations. Strong consulting, communication, and stakeholder management skills. Demonstrated ability to independently lead solution discussions with senior business and technical stakeholders. Excellent analytical and problem-solving skills with the ability to translate business requirements into scalable technical solutions Originally posted on Himalayas",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/testyantra-software-solutions/jobs/d365-architect",
+    "id": "opp_8eba9d9ddef3",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T18:52:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 8.2,
+          "evidence": "Moderate description (>=300 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 49.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 49.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "dynamics-365-architect",
+      "solutions-architect",
+      "technical-architect",
+      "enterprise-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "D365 Architect",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/testyantra-software-solutions/jobs/d365-architect?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8f04c2670ed5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -172565,6 +174438,138 @@
     "title": "Director, Phare Flow Strategic Initiatives",
     "updated_at": "2026-09-14T21:36:24+00:00",
     "url": "https://himalayas.app/companies/r1-rcm/jobs/director-phare-flow-strategic-initiatives",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_91662fedf016": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "WOW Remote Teams",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T19:04:25+00:00",
+    "description": "This is a remote position. Our client is looking for a Part-Time Video Editor to join a creative production studio specializing in sports, outdoor, and social-first content. With over a decade of experience creating campaigns for internationally recognized brands and generating millions of video views, they have established a strong reputation for combining creative storytelling with engaging digital content. In this role, the Video Editor will primarily support the studio's founder by transforming scripted talking-head videos, podcasts, commercial breakdowns, and thought leadership content into compelling videos for LinkedIn and Instagram. They are seeking a creative, reliable, and proactive professional with strong editorial instincts, excellent English communication skills, and the ability to bring fresh ideas to the editing process. Responsibilities Edit engaging short-form and long-form videos for LinkedIn, Instagram, and other digital platforms. Produce high-quality thought leadership content featuring the studio's founder, ensuring clear messaging, strong storytelling, and engaging pacing. Edit scripted talking-head videos, interviews, and podcast recordings. Create compelling videos that analyze commercials, advertising campaigns, and creative production techniques. Support occasional internal video editing projects for the creative studio. Review raw video and audio recordings to identify the strongest moments, soundbites, and visual sequences. Transform scripts, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wow-remote-teams/jobs/video-editor-746434626",
+    "id": "opp_91662fedf016",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T19:04:26+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "video-editor",
+      "production-editor",
+      "social-media-video-editor",
+      "content-editor",
+      "digital-video-editor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Video Editor",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/wow-remote-teams/jobs/video-editor-746434626?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -186193,6 +188198,132 @@
       "probability_low": 4.0
     }
   },
+  "opp_9c23c571eb98": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bitwarden",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "\u00c2 Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere. Bitwarden makes it easy for all users to extend robust security across their devices with password management, secrets management, and passwordless and passkey innovations. The company is headquartered in Santa Barbara, California. Learn more at bitwarden.com .\u00c2 As an outbound Sales Development Representative (SDR) at Bitwarden, you will play a pivotal role as a Product Specialist, acting as the first point of contact for potential customers. Your responsibilities will include developing a deep understanding of our sales process, researching leads, initiating new relationships, and setting the stage for our sales team's success. You will engage primarily in outbound sales activities, showcasing our offerings compellingly through various channels. This is an all-remote team ,and we\u00e2\u0080\u0099re looking for someone located in the U.S. We do not offer visa sponsorship at this time.\u00c2 RESPONSIBILITIES Generate sales leads by effectively prospecting and engaging potential Mid-Market and Enterprise clients through outbound outreach. Manage and maintain an outbound sales pipeline, ensuring optimal lead and prospect qualification. Identify and respond to potential client\u00e2\u0080\u0099s needs and suggest appropriate solutions. Follow the sales playbook to guide sales leads through an Account Executive-led \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137824",
+    "id": "opp_9c23c571eb98",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T13:15:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 33.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sales"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Sales Development Representative",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-bitwarden-1137824",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_9c6196ac2ee2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -193696,6 +195827,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_a1fa764f8c08": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 33.65,
+    "budget_min": 33.65,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Unity Communications",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:52:24+00:00",
+    "description": "Clients hand over their telecom spend because they trust someone to manage it. That someone could be you! Unity Communications is seeking a Telecom Expense Project Manager to serve as the primary point of contact among clients, carriers, and our internal teams. You will own each project from scoping to closeout, keeping timelines tight, budgets in check, and savings on target. It is a role for someone who is organized, persistent, and comfortable speaking with client executives and carrier representatives alike. If you want your work to make a visible difference for every client you support, we\u2019d love to hear from you. How You Spend Your Eight Hours Lead end-to-end Telecom Expense Management (TEM) projects, including scoping, planning, execution, and closeout Build and validate telecom inventories of circuits, lines, devices, and contracts against carrier invoices Audit invoices for rate errors, duplicate charges, unused services, and incorrect taxes or surcharges Manage billing disputes with carriers and track credit recovery to resolution Identify and execute cost reduction opportunities such as service disconnects, plan rightsizing, and carrier consolidation Support contract negotiations, requests for proposal (RFPs), and renewals to secure better pricing and terms Coordinate carrier transitions, site cutovers, and new service installations Implement and configure TEM platforms, approval workflows, and cost allocation structures Track savings against targets and deliver \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 252.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/unity-communications/jobs/telecom-expense-project-manager-4009661238",
+    "id": "opp_a1fa764f8c08",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:52:25+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 62.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $252 on $252 (100% margin). $54 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $67 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 62.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "telecom-project-manager",
+      "it-project-manager",
+      "telecommunications-procurement-manager",
+      "vendor-management-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Telecom Expense Project Manager",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/unity-communications/jobs/telecom-expense-project-manager-4009661238?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_a22c272cc2ef": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -199944,6 +202212,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_a751f1eee825": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.59,
+    "budget_min": 1.35,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "HireBoost",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T19:01:33+00:00",
+    "description": "This is a remote position. About the company This education technology platform transforms authentic, real-world content from trusted sources into instruction-ready materials tailored for K\u201312 classrooms. Each text is available at five distinct reading levels, ensuring accessibility for every learner. Currently, more than 3.3 million teachers and 40 million students use the platform for content that aligns with student interests, meets instructional standards, and includes activities and reporting tools that promote accountability for both educators and learners. With a library of over 15,000 texts and new additions published daily across more than 20 genres, the platform empowers educators to explore any subject in depth. Why You'll Love This Role: They are looking for an operations contractor to manage resource planning, delivery logistics, and performance insights for their professional learning programs. You will translate customer success goals into operational execution, ensuring high educator satisfaction, efficient facilitator. What You'll Be Doing: Operational Strategy & Planning: Build and manage the professional learning roadmap, translating company and customer success objectives into clear execution plans while proactively managing operational risks and trade-offs. Facilitator & Budget Management: Forecast demand and allocate facilitators (both per diem and full-time managers) to match customer needs without over- or under-allocation; own and manage per-diem \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 10.12,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hireboost/jobs/learning-operations-specialist",
+    "id": "opp_a751f1eee825",
+    "is_demo": false,
+    "match_score": 52.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T19:01:33+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 49.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $10 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 19.4,
+          "evidence": "Matched 2 profile skills: forecasting, reporting. Covers 33% of the 3 skills this listing names (missing: analytics, rest)."
+        }
+      },
+      "final_score": 49.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 49.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "forecasting",
+      "analytics",
+      "learning-operations-specialist",
+      "program-operations-specialist",
+      "customer-success-operations-manager",
+      "learning-program-coordinator",
+      "operations-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Learning Operations Specialist",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/hireboost/jobs/learning-operations-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_a759935d1221": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -204274,6 +206675,137 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ab480dc43fc8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Airtable",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Airtable helps organizations build the applications and workflows they need to run their most important business processes, without being constrained by off-the-shelf software. Its flexible platform combines a relational database, custom applications, automations, and AI, giving teams the building blocks to create solutions around the way they actually work. Just like Lego blocks, what our customers can build with Airtable is virtually limitless.\u00c2 That flexibility is why more than 500,000 organizations, including 80% of the Fortune 100, use Airtable to power critical work across their businesses. About the role At Airtable, we are passionate about how our product democratizes software creation and empowers teams to build applications that connect their organization and drive outcomes, no code needed. As a Customer Success Manager, you will be the post-sales owner for a portfolio of enterprise customers, guiding them from onboarding through renewal as they adopt Airtable and our AI capabilities. You will help customers turn AI adoption and workflow innovation into measurable business outcomes, and you will partner closely with Account Executives so they can focus on growth. Customer Success at Airtable sits at the nexus of our Sales, Product and Marketing teams. We hire Customer Success Managers into one of two teams (Scaled and High Touch), depending on your experience and where our team needs you most. We will talk with you about which team is the best fit during the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137818",
+    "id": "opp_ab480dc43fc8",
+    "is_demo": false,
+    "match_score": 56.4,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T11:45:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 13.7,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 40% of the 5 skills this listing names (missing: analytics, aws, ocr)."
+        }
+      },
+      "final_score": 54.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "automation",
+      "analytics",
+      "ocr",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Customer Success Manager",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-airtable-1137818",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "45%",
+          "to": "50%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "50%",
+          "to": "35%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
     }
   },
   "opp_ab94b7b5d0dc": {
@@ -216083,6 +218615,137 @@
       "probability_low": 26.0
     }
   },
+  "opp_b530d98b767c": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EXP",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:59:45+00:00",
+    "description": "We are one of the first work-from-anywhere companies with 2,000+ team members utilizing our virtual office called eXp World. This role is work-from-anywhere in the US. Who is eXp? Doing the audacious is part of eXp Realty\u2019s DNA. We are a company that rewards creative minds who can offer bold solutions, where opinions matter, anything is possible and the outcome can be revolutionary. As a global full-service real estate brokerage utilizing a 3-D, fully immersive, cloud office environment, offering 24/7 access to collaborative tools & training, eXp has broken the traditional mold of real estate. We are doing big things.Come join us! What you will do: Technology at eXp builds the products and platforms that power a cloud-based brokerage serving 80,000+ agents across 29 international markets. With no physical offices, every agent, transaction and piece of data lives on our platform, which makes security and privacy part of the product itself. We're looking for a leader who can protect that platform and the people who rely on it, without slowing down the teams building it. This role owns the enterprise security and privacy program end to end. You'll set strategy, lead the teams that execute it, and be the accountable leader for cyber risk, incident response, data protection and privacy compliance across the U.S., Canada and our international markets. You'll work closely with AI governance, engineering, Legal and vendor management as we scale AI-enabled tools for our agents. How \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/exp/jobs/sr-director-it-security-privacy",
+    "id": "opp_b530d98b767c",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T18:59:46+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "aws",
+      "director-of-information-security",
+      "chief-information-security-officer",
+      "security-and-privacy-program-lead",
+      "it-security-manager",
+      "head-of-cybersecurity"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sr Director, IT Security & Privacy",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/exp/jobs/sr-director-it-security-privacy?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_b564d5faf0b8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -216907,6 +219570,136 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_b5bd9f1b3b59": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Salesloft",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Job Title: Head of Channel Sales & Alliances Location: United States, Remote This is a fully remote opportunity and can be worked from any location in the United States. ABOUT THE COMPANY: Revenue is complex, and clarity is rare. Our mission at Salesloft is to transform revenue complexity into clear, decisive action for every team driving growth. We\u00e2\u0080\u0099re building the industry\u00e2\u0080\u0099s first Predictive Revenue System, where humans and AI work together to make confident decisions based on real signals. Thousands of customers run on our platforms every day, which gives us Revenue Context: a view into what happens in a deal, when, and with what outcome. Our vision is a future where revenue growth is predictable and the teams driving it are unstoppable. If you want to help build it, alongside people who Move as One and let Evidence over Ego guide the work, we\u00e2\u0080\u0099d love to meet you. THE OPPORTUNITY Own the partner channel that sources a meaningful share of Salesloft\u00e2\u0080\u0099s new closed-won revenue. As our Head of Channel Sales & Alliances, you'll build and run a quota-carrying Channel Sales & Alliances organization focused on four motions: private equity partnerships, cloud marketplace and strategic platform alliances, ISV and MCP partnerships, and VAR, BPO, and services partnerships. The primary measure is closed-won revenue sourced through partners, supported by partner-influenced revenue and the retention and expansion of partner-sourced customers. Relationships, programs, and pipelines \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137816",
+    "id": "opp_b5bd9f1b3b59",
+    "is_demo": false,
+    "match_score": 41.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T11:15:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 45.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 10.0,
+          "evidence": "Matched 1 profile skills: excel. Covers 25% of the 4 skills this listing names (missing: api, aws, azure)."
+        }
+      },
+      "final_score": 45.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 45.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "aws",
+      "azure",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Head of Channel Sales & Alliances",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-head-of-channel-sales-alliances-salesloft-1137816",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -221436,6 +224229,127 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_b9efb11f4567": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Legion",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "JOB OVERVIEW Legion builds AI-powered workforce management software for enterprises that run hourly workforces in retail, hospitality, facilities management, and manufacturing. We're hiring a Revenue Enablement Manager to own how our go-to-market team learns, sells, and improves. You'll build onboarding that shortens ramp, run the enablement cadence, launch new products to the field, and reinforce a consistent sales methodology. You'll measure all of it against productivity, win rate, and pipeline outcomes. This is a builder role. You'll work across Sales, Solution Consulting, Marketing, Product, Partnerships, and RevOps, and you'll be the field's single point of contact for what to know and how to sell it. RESPONSIBILITIES AND DUTIES Onboarding and ramp Own new-hire onboarding for AEs, AMs, SDRs, and SCs, with clear milestones and visibility into ramp progress Build role-based certifications that confirm readiness before reps run deals on their own Curriculum and training Design and deliver curriculum across five domains: company, function, industry, product, and selling skills Map content to how reps work: manage, prospect, present, collaborate, sell, and deliver Run the bi-weekly enablement session and feed the enablement segment of weekly team meetings Sales methodology and process Reinforce a consistent methodology and drive adherence to the sales process Equip Account Executives for deal and forecast reviews Build skills in prospecting Content, playbooks, and knowledge \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137825",
+    "id": "opp_b9efb11f4567",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T13:30:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: automation."
+        }
+      },
+      "final_score": 52.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "aws",
+      "automation",
+      "sales"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Revenue Enablement Manager",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-revenue-enablement-manager-legion-1137825",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_ba1cbb98b0b8": {
@@ -235141,6 +238055,127 @@
       "probability_low": 26.0
     }
   },
+  "opp_c54cc8bf7893": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Tines",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Tines is the intelligent workflow company that powers some of the world's most important workflows.\u00c2 Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom), and McKesson. Tines 3B, launched in 2026, is the next generation of Tines \u00e2\u0080\u0093 a single, secure environment for every team\u00e2\u0080\u0099s apps, agents and automations. As an integrator across the entire tech stack, Tines is vendor-agnostic integrating with any API-enabled service. This flexibility enables our customers to achieve their highest-priority goals faster. Tines has security woven into its DNA, and our platform is secure and private by design.\u00c2 At Tines, we're driven by our values of Simplicity, Speed, and Soundness. We're committed to delivering exceptional customer experiences while fostering a company culture that nurtures individual curiosity, growth, and integrity. We\u00e2\u0080\u0099re excited about what\u00e2\u0080\u0099s next, and we\u00e2\u0080\u0099re looking for others to join us on our journey. Tines is hiring its first Paralegal to keep Legal running smoothly as we grow globally. Reporting to the Head of Legal, you'll join a lean global Legal team that includes a dedicated Legal Operations role. You'll partner with Sales, Deal Desk, Customer Success, Partnerships, Finance, Security and teams across the business to get agreements done quickly and soundly. You'll support the full range of our legal work, including commercial, partner, vendor and corporate matters. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137817",
+    "id": "opp_c54cc8bf7893",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T11:30:01+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 58.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, reporting."
+        }
+      },
+      "final_score": 58.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 58.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Paralegal",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-paralegal-tines-1137817",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_c56ae85bede3": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -242556,6 +245591,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_cba8b034bad0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Everpure",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. This type of work\u00e2\u0080\u0094work that changes the world\u00e2\u0080\u0094is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. THE ROLE You will be the strategic owner and revenue driver for Everpure's most valuable Enterprise accounts across the greater Atlanta and Tennessee area. Your mission is to evangelize our radically simple, all-flash data platform, driving value that redefines the customer experience and maintains our industry-leading satisfaction. You will lead cross-functional pursuit teams, coordinating with sales specialists and strategic partners globally to execute and win new business. This role offers the autonomy to craft and execute a robust, territory-wide sales strategy with massive financial and technological impact. Location and Territory: Atlanta/Tennessee WHAT YOU'LL DO Own a robust sales pipeline for your assigned territory, ensuring consistent activity and accurate forecasting that meets or exceeds quarterly and annual revenue quotas. Develop and execute comprehensive account strategies , mobilizing internal resources \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137827",
+    "id": "opp_cba8b034bad0",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T14:00:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: forecasting. Covers 33% of the 3 skills this listing names (missing: aws, rest)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "aws",
+      "forecasting",
+      "sales"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Account Executive, Enterprise (Atlanta/Tennessee)",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-account-executive-enterprise-atlanta-tennessee-everpure-1137827",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_cbb97af93f71": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -247654,6 +250818,143 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_cfd79e6565f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 61.3,
+    "budget_min": 30.65,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "PNC",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:56:58+00:00",
+    "description": "Position Overview Founded in 1987, Tempus Technologies is the expert leader of secure payments at the point of interaction. We're committed to developing exceptional point-of-sale payment integration technology and software solutions to meet the growing needs of our customers' business requirements. As a leader in the industry, we recognize our employees as one of our greatest assets. Tempus is growing and our team is growing with us, allowing for unlimited possibilities for career advancement and the potential for employees to develop their own individual career paths. As a Implementation Lead within Tempus Technologies, subsidiary of PNC , you will be based remotely. The ideal candidate is a highly experienced implementation professional with strong product and technical knowledge, exceptional customer support skills, and the ability to take on leadership responsibilities across the team. This individual will lead our most complex implementations and enterprise merchant engagements, serving as a trusted technical resource for customers, teammates, and internal partners. We are looking for someone who can troubleshoot complex issues, confidently navigate escalations, and help drive challenging projects forward. Just as importantly, this person should be passionate about developing others through mentoring, training, documentation, and knowledge sharing, helping build the team\u2019s overall technical knowledge and ensure others are prepared to provide the same high level of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 229.88,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pnc/jobs/implementation-lead-tempus-technologies",
+    "id": "opp_cfd79e6565f8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:56:59+00:00",
+    "profit_score": 21.2,
+    "risk_flags": [],
+    "score": 35.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.9,
+          "evidence": "Estimated net $230 on $230 (100% margin). $49 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $61 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 35.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "analytics",
+      "implementation-lead",
+      "implementation-consultant",
+      "implementation-manager",
+      "technical-project-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Implementation Lead, Tempus Technologies",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/pnc/jobs/implementation-lead-tempus-technologies?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_d07642e40c55": {
@@ -258687,6 +261988,143 @@
       "probability_low": 15.0
     }
   },
+  "opp_da137b156e63": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "NIKI Digital Engineering",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "NIKI is looking for a Postdoc/PhD/PhD cand. in Physics, Computer Science or similar discipline for industrial projects in the automotive industry. Become a member of NIKI Digital Engineering! If you are a Postdoc/PhD/PhD candidate looking for new challenges, interdisciplinary and diverse teams, and projects, send us your resume. Our strategy is to transfer the know-how into practice. TWT is our trusted long-term partner, sharing and supporting our vision. Through close, daily collaboration, we design and deliver innovative solutions for clients and partners across the energy, health, and automotive industries. Combining interdisciplinary expertise in IT, digital engineering, and consulting, we turn ideas into impactful results that reflect our shared vision for progress. What to expect Be a member of a TOP team: Highly qualified, innovative, and interconnected. Get involved with topics at the forefront of technology: Artificial Intelligence, Autonomous Driving, E-Mobility, Model Based Systems Engineering, or Virtual Experience. Acquire social skills and engage with professionals in the field of automotive and innovation. Collaborate with international groups of professionals on different projects. Ability to expand knowledge and responsibilities. An opportunity to influence the direction of a fast-growing area of business. Task Description Contribute to industry-focused R&D projects in Computer Science or Physics, with a focus on practical applications Utilize programming \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137837",
+    "id": "opp_da137b156e63",
+    "is_demo": false,
+    "match_score": 70.8,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-19T16:00:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 55.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.1,
+          "evidence": "Matched 2 profile skills: excel, python."
+        }
+      },
+      "final_score": 55.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 55.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "excel",
+      "design",
+      "consulting",
+      "technical",
+      "exec",
+      "c",
+      "c plus plus",
+      "matlab",
+      "medical",
+      "engineer",
+      "digital nomad"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Postdoc PhD PhD cand. Physics Computer Science",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-postdoc-phd-phd-cand-physics-computer-science-niki-digital-engineering-1137837",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_da29151dfb0e": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -262855,6 +266293,136 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_df48d66c62b6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 42.79,
+    "budget_min": 31.73,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wipfli",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T19:01:19+00:00",
+    "description": "Referral Details We greatly appreciate your referral, and we look forward to reviewing the qualifications of the candidate you've recommended. Here's a brief overview of the process: After you've completed this referral form, your recommended candidate will be directed to apply for the specific role through our website. This step is crucial for Wipfli to remain compliant with federal laws and to ensure a fair and transparent selection process. Once their application is received, our Talent Acquisition team will evaluate their qualifications, including how well they align with the requirements of the role and the broader needs of our organization. Your referred candidate will remain in our candidate database for future opportunities, offering them additional chances to become part of our team. As the referrer, your role in the recruitment process is to bring potential talent to our attention. We ask that you refrain from discussing updates on the candidate's status, out of respect for their personal consideration. Our Talent Acquisition team will provide you with a final update once the candidate has been informed of their application status. Throughout this process, we may reach out to you with questions or additional information to ensure a seamless and effective referral experience. Thank you for your invaluable contribution to our recruitment efforts, and we sincerely appreciate your understanding and support throughout this process. If you would like to read more about \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 237.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wipfli/jobs/payroll-compliance-amendments-consultant",
+    "id": "opp_df48d66c62b6",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T19:01:19+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 63.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $238 on $238 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 63.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "payroll-consultant",
+      "payroll-tax-consultant",
+      "payroll-compliance-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Payroll Compliance & Amendments Consultant",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/wipfli/jobs/payroll-compliance-amendments-consultant?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -279472,6 +283040,125 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ed06ad0cadd6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Talkspace",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-20T19:42:24+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "At Talkspace, we are committed to fostering a diverse, equitable, inclusive, and belonging-centered workplace where everyone can thrive while making a difference in mental health. Want to help over two million people receive quality mental healthcare? Come join our mission of getting therapy in the hands of everyone! We are looking for a Community Moderator\u00c2 to join our team at Wisdo as an Independent Contractor (1099). The Community Moderator will help maintain safe, supportive, and inclusive spaces within the Wisdo Health communities. This role focuses on reviewing community content and user profiles, identifying safety concerns, and taking action according to established protocols. The ideal candidate is detail-oriented, comfortable working independently, and committed to helping members feel safe and supported. This is a remote position based in the United States. Talkspace Headquarters is located in NYC. What You\u00e2\u0080\u0099ll Do Review community content and user profiles using Wisdo\u00e2\u0080\u0099s moderation tools to identify potential safety concerns and Code of Conduct violations. Take appropriate action on safety violations according to Wisdo\u00e2\u0080\u0099s established policies and procedures. Ensure community posts, responses, and user profiles align with Wisdo\u00e2\u0080\u0099s Code of Conduct. Model and promote supportive, respectful, and inclusive behavior within the community. Identify and escalate safety concerns according to established safety escalation policies. Provide appropriate crisis resources to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137819",
+    "id": "opp_ed06ad0cadd6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T12:00:02+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 33.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Community Moderator - Wisdo (1099)",
+    "updated_at": "2026-11-20T19:42:24+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-community-moderator-wisdo-1099-talkspace-1137819",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_ed1c31f0d768": {
@@ -304624,6 +308311,136 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_ff1ece0d2fdd": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "RemoteJobsOne",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-20T19:42:23+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-19T18:47:36+00:00",
+    "description": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application \u2014 it is not considered until that laststep is done. If you do not see it, check your spam folder. This is a fully remote position , open to candidates based in 55 countries, including Pakistan, United States, United Kingdom, Canada, Germany, India, France, Netherlands. Pay: $50\u2013$100/hr Role Title: Unreal Engine Developer Role Type: Contractor Location: Remote We are engaging experienced Unreal Engine Developers to contribute their technical expertise to a customer project focused on training next-generation AI systems. In this role, you'll apply your hands-on game development and C++ programming experience to help improve how AI models understand and perform technical game development tasks. Scope of Work Apply Unreal Engine and C++ expertise to real-world game development scenarios and technical challenges. Develop, review, debug, and optimize C++ code within Unreal Engine. Work with gameplay mechanics, Blueprints, and interactive systems. Evaluate technical solutions, identify errors, and provide structured feedback to support AI training. Document technical decisions and explain game development concepts clearly. Required Qualifications Strong hands-on experience developing games or interactive applications using Unreal Engine. Proficiency in C++ programming within Unreal Engine. Experience developing, debugging, and optimizing gameplay systems and mechanics. Solid \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261120T194221Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/remotejobsone/jobs/unreal-engine-developer-remote-worldwide",
+    "id": "opp_ff1ece0d2fdd",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T18:47:37+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 40.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 40.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 40.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "unreal-engine-developer",
+      "game-developer",
+      "c++-developer",
+      "gameplay-programmer",
+      "technical-artist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Unreal Engine Developer \u2013 Remote (Worldwide)",
+    "updated_at": "2026-11-20T19:42:23+00:00",
+    "url": "https://himalayas.app/companies/remotejobsone/jobs/unreal-engine-developer-remote-worldwide?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_ff4559a46703": {
