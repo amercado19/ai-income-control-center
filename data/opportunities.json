@@ -16056,6 +16056,136 @@
       "probability_low": 26.0
     }
   },
+  "opp_0d39fc3f1e9e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hunteed",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "EUR",
+    "deadline": "2027-01-20T04:05:48+00:00",
+    "description": "Vous \u00eates Consultant(e) en recrutement, Charg\u00e9(e) de recherche, Charg\u00e9(e) de sourcing, Talent Acquisition Specialist, Charg\u00e9(e) de recrutement, Chasseur(se) de t\u00eates et vous souhaitez vous lancer dans une exp\u00e9rience entrepreneuriale ? Venez rejoindre la communaut\u00e9 des professionnels du recrutement de Hunteed ! Pourquoi rejoindre la communaut\u00e9 Hunteed ? Acc\u00e9der \u00e0 des missions de recrutement, sans avoir \u00e0 effectuer de prospection commerciale. - Collaborer avec de nombreux clients en France et en Europe et acc\u00e9der \u00e0 des clients Grands Comptes. - Travailler \u00e0 votre rythme et sans engagement. - Profiter de l'accompagnement et de l'expertise d'une \u00e9quipe d\u00e9di\u00e9e de professionnels du web et du recrutement. - Exploiter votre r\u00e9seau de relations professionnelles. - B\u00e9n\u00e9ficier d'un outil de travail innovant et intuitif pour trouver des missions et g\u00e9rer votre vivier de candidats. - Recevoir des primes de placement attractives : de 2 000EUR \u00e0 18 000EUR selon les postes, au succ\u00e8s. Assister \u00e0 des webinars interactifs, des ateliers, des rencontres, des afterworks. - Faire partie d'une communaut\u00e9 dynamique qui \u00e9change au quotidien sur des probl\u00e9matiques de recrutement. - S'assurer d'un chiffre d'affaires s\u00e9curis\u00e9 par des garanties de paiement assur\u00e9es par Hunteed . - S'\u00e9pargner le recouvrement L'acc\u00e8s \u00e0 la plateforme est gratuit, sans commission ni cotisations ! Vous souhaitez en savoir plus ? Participez \u00e0 notre webinaire de pr\u00e9sentation de la plateforme Hunteed : Celui-ci a lieu tous les \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-boulogne-billancourt-5818444681",
+    "id": "opp_0d39fc3f1e9e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-21T04:05:49+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "recruitment-consultant",
+      "talent-acquisition-specialist",
+      "recruiter",
+      "headhunter",
+      "recruitment-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultant en recrutement ind\u00e9pendant H/F - Boulogne-Billancourt",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-boulogne-billancourt-5818444681?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_0d4b2208d4c6": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -45030,6 +45160,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_28ec3ac848e3": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Hunteed",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T04:01:24+00:00",
+    "description": "Vous \u00eates Consultant(e) en recrutement, Charg\u00e9(e) de recherche, Charg\u00e9(e) de sourcing, Talent Acquisition Specialist, Charg\u00e9(e) de recrutement, Chasseur(se) de t\u00eates et vous souhaitez vous lancer dans une exp\u00e9rience entrepreneuriale ? Venez rejoindre la communaut\u00e9 des professionnels du recrutement de Hunteed ! Pourquoi rejoindre la communaut\u00e9 Hunteed ? Acc\u00e9der \u00e0 des missions de recrutement, sans avoir \u00e0 effectuer de prospection commerciale. - Collaborer avec de nombreux clients en France et en Europe et acc\u00e9der \u00e0 des clients Grands Comptes. - Travailler \u00e0 votre rythme et sans engagement. - Profiter de l'accompagnement et de l'expertise d'une \u00e9quipe d\u00e9di\u00e9e de professionnels du web et du recrutement. - Exploiter votre r\u00e9seau de relations professionnelles. - B\u00e9n\u00e9ficier d'un outil de travail innovant et intuitif pour trouver des missions et g\u00e9rer votre vivier de candidats. - Recevoir des primes de placement attractives : de 2 000EUR \u00e0 18 000EUR selon les postes, au succ\u00e8s. Assister \u00e0 des webinars interactifs, des ateliers, des rencontres, des afterworks. - Faire partie d'une communaut\u00e9 dynamique qui \u00e9change au quotidien sur des probl\u00e9matiques de recrutement. - S'assurer d'un chiffre d'affaires s\u00e9curis\u00e9 par des garanties de paiement assur\u00e9es par Hunteed . - S'\u00e9pargner le recouvrement L'acc\u00e8s \u00e0 la plateforme est gratuit, sans commission ni cotisations ! Vous souhaitez en savoir plus ? Participez \u00e0 notre webinaire de pr\u00e9sentation de la plateforme Hunteed : Celui-ci a lieu tous les \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-toulon-6216883801",
+    "id": "opp_28ec3ac848e3",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-21T04:01:24+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "recruitment-consultant",
+      "recruiter",
+      "talent-acquisition-specialist",
+      "headhunter",
+      "recruitment-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Consultant en recrutement ind\u00e9pendant H/F - Toulon",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/hunteed/jobs/consultant-en-recrutement-independant-h-f-toulon-6216883801?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (32-50%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "30%",
+          "to": "35%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "35%",
+          "to": "41%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 50.0,
+      "probability_low": 32.0
+    }
+  },
   "opp_2906d385153b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -49418,6 +49678,138 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_2c17b6bcf132": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Pearster",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T04:00:34+00:00",
+    "description": "Spoiler: This is where your next big move begins. \ud83d\ude80 About the Opportunity At Pearster , a US-based company, we connect talented professionals with exciting international opportunities. We are looking for a Service Desk Analyst based in France to join our team and work through Pearster for one of our Canadian clients in the Fintech industry . In this role, you will provide first-level technical support to internal end users, helping them resolve issues related to desktop and mobile technologies, corporate applications, and IT services. You will play an important role in ensuring timely incident resolution, delivering an excellent user experience, and contributing to continuous service improvement. \ud83d\udcbb What You'll Be Doing Provide Level 1 technical support for internal users through phone, email, and self-service channels. Troubleshoot and resolve moderate to complex technical incidents within established service timelines. Identify root causes and provide effective solutions to minimize recurring issues. Support end users with Windows, MacOS, iOS, desktops, laptops, mobile devices, and meeting room technologies. Troubleshoot Microsoft 365 applications, including Outlook, Exchange Online, Teams, and OneDrive. Resolve user access, permissions, and Multi-Factor Authentication (MFA) issues. Manage user accounts and access through Azure Active Directory (Entra ID). Support Windows and MacOS devices using Microsoft Intune. Troubleshoot network connectivity issues involving LAN, WiFi, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/pearster/jobs/service-desk-analyst-french-english-remote-latam-or-europe-9316454677",
+    "id": "opp_2c17b6bcf132",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T04:00:35+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 52.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 52.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "azure",
+      "service-desk-analyst",
+      "it-support-specialist",
+      "technical-support-specialist",
+      "desktop-support-specialist",
+      "service-desk-technician"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Service Desk Analyst (French & English) \u2013 Remote | Latam or Europe",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/pearster/jobs/service-desk-analyst-french-english-remote-latam-or-europe-9316454677?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -90110,6 +90502,135 @@
       ],
       "probability_high": 98.0,
       "probability_low": 74.0
+    }
+  },
+  "opp_4f00889531a0": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Kodland",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T04:06:22+00:00",
+    "description": "Position Description: Do you enjoy playing Minecraft and also find coding and teaching fun? At Kodland , you can contribute to children\u2019s creativity, strengthen their problem-solving skills, and help them become creators in the digital world by teaching block-based coding and basic programming concepts through Minecraft: Education Edition . If you are energetic, patient, and enjoy communicating with children, this role is perfect for you! Responsibilities: Deliver fun and interactive Minecraft coding lessons using the provided materials. Help students understand the fundamentals of coding through Microsoft MakeCode . Encourage active participation and keep students motivated throughout the lessons. Collaborate with the Kodland instructor team by sharing feedback and improving lesson quality. Regularly report on student progress. Represent Kodland in a positive manner and creatively contribute to the learning experience. Requirements Basic knowledge of coding (experience with block-based platforms such as Scratch is a plus). Python knowledge is a must Prior experience playing Minecraft An English proficiency of at least C1 Availability to teach at least 10 hours per week . Willingness to work with children; patient, energetic, and enthusiastic. Successful completion of a digital skills test to demonstrate your coding abilities is required. This is a fully remote position. Willing to work flexible hours: Weekdays: 3 pm - 9.30 pm ( Eastern US Time ) Weekends: 8 am\u2013 9.30 pm \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/kodland/jobs/usa-minecraft",
+    "id": "opp_4f00889531a0",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T04:06:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: python."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "coding-instructor",
+      "online-coding-instructor",
+      "minecraft-instructor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "USA| Minecraft",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/kodland/jobs/usa-minecraft?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4f1282413583": {
@@ -175733,6 +176254,128 @@
       "probability_low": 4.0
     }
   },
+  "opp_920bb9ff74f1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Tebra",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Tebra only initiates contact with candidates via email from an official Tebra email address (@ tebra.com , @ patientpop.com , or @ kareo.com ) or through our applicant tracking system, Greenhouse.\u00c2 We will only ask you to provide sensitive personal information through our official application portal \u00e2\u0080\u0094 not via social media or text message. We do not conduct interviews via instant messaging. About the Role We are looking for a customer-focused individual to help shape the future of our Tebra platform. This role is an exciting and challenging opportunity to be a partner in an embedded team of cross-functional counterparts. You will be joining a close-knit, collaborative product design culture with a focus on raising the bar of the day-to-day product experience for our healthcare providers and their patients. Your Area of Focus You contribute to the vision and design strategy that connects customer and business value. You have strong creative and conceptual design skills and the ability to evolve ideas that drive innovation. You have an effortless working knowledge of design fundamentals, principles, and core skills.\u00c2 You build and utilize your product knowledge to navigate ambiguity, identify opportunities and define customer problem statements.\u00c2 You need minimal direction on design methods and approaches to validate solutions.\u00c2 You can facilitate cross-functional, collaborative ideation sessions using a variety of methods. You make proficient use of design system guidelines \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137873",
+    "id": "opp_920bb9ff74f1",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T02:00:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 46.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: api, aws)."
+        }
+      },
+      "final_score": 46.3,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 46.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "automation",
+      "design"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Product Designer",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-designer-tebra-1137873",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_923a40d238f2": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -189985,6 +190628,142 @@
       "probability_low": 15.0
     }
   },
+  "opp_9dfd3e66dd00": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Clover Health",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "At Clover, the Business Enablement team leads our technological advancement while ensuring robust security and compliance. We deliver user-friendly corporate applications, manage complex data ecosystems, and provide efficient tech solutions across the organization. Our goal is simple: we make it easy for the business to do what\u00e2\u0080\u0099s right for Clover. We\u00e2\u0080\u0099re hiring a Technical Chief of Staff with a background in software engineering who has expanded into product, consulting, or organizational leadership. You\u00e2\u0080\u0099ve shipped production software and still read code, investigate systems, and form independent technical opinions. You\u00e2\u0080\u0099ll spend about 10\u00e2\u0080\u009320% of your time on hands-on technical work, using that experience to inform decisions across Clover\u00e2\u0080\u0099s technology organization. You\u00e2\u0080\u0099ll help teams turn requests from across the business into practical next steps: understand the underlying need, assess existing capabilities, narrow the scope, and find the right owner. You\u00e2\u0080\u0099re outgoing and gregarious. You seek people out, build relationships, and earn trust by explaining priorities and constraints and following through. You\u00e2\u0080\u0099ll lead and develop a small team of portfolio managers, technical program managers, and delegated intake owners. Working with product and engineering leaders, you\u00e2\u0080\u0099ll make decisions within agreed authority and bring consequential or unresolved choices to the CTO with a clear recommendation. As a Technical Chief of Staff, you will: Draw on your engineering \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137883",
+    "id": "opp_9dfd3e66dd00",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T04:30:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 41.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "analytics",
+      "exec"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Technical Chief of Staff to the CTO",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-technical-chief-of-staff-to-the-cto-clover-health-1137883",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
+    }
+  },
   "opp_9e21da9d6b7d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -191544,6 +192323,136 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_9ef97c0329aa": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "6sense",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.\u00c2 We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. \u00c2 Every 6sensor plays a part in de\u00ef\u00ac\u0081ning the future of our industry-leading technology.\u00c2 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers.\u00c2 We want 6sense to be the best chapter of your career.\u00c2 About the Role:\u00c2 Are you a compensation leader who loves turning market data into smart, fair pay decisions? 6sense's Total Rewards team is looking for a Compensation Manager to design, govern and evolve our global compensation programs, so our pay and equity practices stay competitive, compliant and aligned with our business goals. You will own core compensation programs and cycles, strengthen job architecture and governance, and use technology, analytics, and AI to make compensation work faster, more consistent, and more actionable.\u00c2 What You\u00e2\u0080\u0099ll Do:\u00c2 Lead the design, implementation, and governance of 6sense's global compensation programs, policies, philosophy and operating standards in partnership, with the Senior Director, Total Rewards\u00c2 Own global salary and equity structures, job \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137878",
+    "id": "opp_9ef97c0329aa",
+    "is_demo": false,
+    "match_score": 82.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T03:15:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 54.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 19.9,
+          "evidence": "Matched 3 profile skills: automation, dashboard, excel. Covers 75% of the 4 skills this listing names (missing: analytics)."
+        }
+      },
+      "final_score": 54.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 54.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "automation",
+      "dashboard",
+      "analytics",
+      "exec"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Compensation Manager",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-compensation-manager-6sense-1137878",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -207649,6 +208558,127 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ac49948cb4cf": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ping Identity",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About Ping Identity:\u00c2 At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it.\u00c2 Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear.\u00c2 While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture.\u00c2 We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work.\u00c2 We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management.\u00c2 Director, Sales - New Logo The Role The Director, Sales - New Logo leads a team of Strategic Account Executives responsible for creating and closing new enterprise customer relationships at Ping Identity. This leader owns new-logo strategy, territory design, pipeline creation, forecast discipline, deal execution, partner \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137884",
+    "id": "opp_ac49948cb4cf",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T04:45:30+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "html",
+      "forecasting",
+      "devops"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Director, Sales",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-director-sales-ping-identity-1137884",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_ac6c409cadc4": {
@@ -257989,6 +259019,133 @@
       "probability_low": 4.0
     }
   },
+  "opp_d6ae4e475d1b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Elation Health",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "At Elation, our team is committed to enhancing physician and patient quality of life. We are a SaaS cloud-based clinical platform on a mission to enable every patient to receive the highest quality of care. Since inception, we\u00e2\u0080\u0099ve been focused on building a delightful, world\u00e2\u0080\u0091class customer experience that empowers physicians to focus on delivering phenomenal care to patients. Elation Health is looking for a Senior Manager, Training & Enablement to build and lead a dedicated function that strengthens how our employees and customers learn. As Elation grows, we\u00e2\u0080\u0099re investing in a coordinated, scalable approach to training and education. You\u00e2\u0080\u0099ll lead a small, nimble team and own internal learning programs for Sales, Customer Success, Professional Services, Onboarding, Support, and other teams. You\u00e2\u0080\u0099ll also set the direction for customer education, partnering with customer-facing leaders to develop programs for new and existing customers. This is a hands-on leadership role with the opportunity to shape the function\u00e2\u0080\u0099s strategy, programs, and ways of working. You\u00e2\u0080\u0099ll coach your team while staying directly involved in curriculum development, content creation, and training delivery. This role reports to the Director of Product and Customer Marketing and works closely with leaders and subject matter experts across the organization. What You\u00e2\u0080\u0099ll Do Build and lead the function Establish a training and enablement strategy aligned with company goals and functional priorities. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137859",
+    "id": "opp_d6ae4e475d1b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-19T21:00:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 33.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 33.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "aws",
+      "product"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Senior Manager, Commercial Learning and Development",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-commercial-learning-and-development-elation-health-1137859",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d6afd2cddd45": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -273847,6 +275004,135 @@
       "probability_low": 15.0
     }
   },
+  "opp_e5e8af566d8e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Reddit",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Reddit is a community of communities. It\u00e2\u0080\u0099s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u00e2\u0080\u0099s largest sources of information. For more information, visit www.redditinc.com . Position Overview We're seeking a Manager, Business Risk and AI Automation, to help shape the next chapter of Internal Audit at Reddit. You'll lead day-to-day oversight and hands-on execution of our SOX program across Business Process Controls, Entity Level Controls, Key Reports, and Tech Application Controls, while helping build an AI-first approach to assurance. As part of our Risk Advisory and Assurance team, you'll tackle complex control questions and turn emerging technology into practical improvements. You\u00e2\u0080\u0099ll have opportunities to apply your expertise more broadly to strengthen internal controls and improve processes across the business. This is an opportunity for a strong internal controls practitioner who enjoys owning delivery and building better ways to work. This is an individual contributor role . The Manager owns SOX program delivery and partners with a Senior teammate who performs business process testing, providing review, technical guidance, and cross-functional coordination. What You\u00e2\u0080\u0099ll Do Own day-to-day \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137879",
+    "id": "opp_e5e8af566d8e",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T03:30:17+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: analytics, rest)."
+        }
+      },
+      "final_score": 52.1,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "automation",
+      "analytics",
+      "exec"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Manager, Business Risk and AI Automation",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-manager-business-risk-and-ai-automation-reddit-1137879",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e61871a63445": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -274768,6 +276054,143 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_e6e4e259763d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 14,
+    "budget_min": 14,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "mercor",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T04:15:34+00:00",
+    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Music Audio Expert - Malayalam Type: Contract Compensation: $14/hour Location: Remote Duration: Up to 6 months Commitment: 10+ hours/week Role Responsibilities Evaluate AI model output in lyrics and voice generation across different music categories. Score the quality of musical training data to enhance model performance. Write music in the specified domain language to improve model outputs. Understand and follow directions in the English language . Work independently with flexible hours to meet project deadlines. Qualifications Must-Have 3+ years of experience as a music producer, audio engineer, or sound mixer. College degree in music, covering performance, theory, and lyrics. Experience writing lyrical music in the specified domain language. Native or near-native proficiency in both Malayalam and English . Start Date Immediate Application Process (Takes 20\u201330 mins to complete) Upload resume and application form. Complete a 25-minute conversational interview on your background, experience, and motivations. Receive next steps and onboarding details within a few days. Resources & Support For details about the interview process and platform information, please check: For any help or support, reach out to: PS: Our team \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 105.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/mercor/jobs/audio-engineer-fully-remote-upto-14-hr-8368076574",
+    "id": "opp_e6e4e259763d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T04:15:35+00:00",
+    "profit_score": 17.4,
+    "risk_flags": [],
+    "score": 33.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 3.2,
+          "evidence": "Estimated net $105 on $105 (100% margin). $22 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $28 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 33.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 33.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "audio-engineer",
+      "music-producer",
+      "sound-engineer",
+      "audio-data-annotator",
+      "music-evaluation-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Audio Engineer - Fully Remote | Upto $14/hr",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/mercor/jobs/audio-engineer-fully-remote-upto-14-hr-8368076574?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e6ed7e5a6420": {
@@ -302401,6 +303824,135 @@
       "probability_low": 4.0
     }
   },
+  "opp_faeaa532245a": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "6sense",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.\u00c2 We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. \u00c2 Every 6sensor plays a part in de\u00ef\u00ac\u0081ning the future of our industry-leading technology.\u00c2 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers.\u00c2 We want 6sense to be the best chapter of your career.\u00c2 Senior Product Manager, Audience & Discovery The Role As the Senior Product Manager, Audience & Discovery, you will own the strategy, roadmap, and execution for the capabilities that allow marketing and revenue teams to build and manage audiences, explore account and contact details, and take action across Activation channels. These capabilities support some of the core functionality of the 6sense Agentic GTM platform. This role covers the Audience & Discovery product area on the Activation team. You will build intuitive, scalable experiences for segment and list management, account and contact exploration, and handoff to Activation channels, in close partnership with Engineering, Design, Data Science, Customer Success, and go-to-market teams. This is an individual contributor role \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137886",
+    "id": "opp_faeaa532245a",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T05:15:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "data science",
+      "analytics",
+      "product"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Sr. Product Manager",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-sr-product-manager-6sense-1137886",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_fb45dcafcfe9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -303755,6 +305307,141 @@
     "title": "Director, Production and Infrastructure Engineering",
     "updated_at": "2026-10-27T17:38:20+00:00",
     "url": "https://himalayas.app/companies/trase-systems/jobs/director-production-and-infrastructure-engineering?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_fc11af668c0b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "BetterMe",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T06:00:13+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T04:15:53+00:00",
+    "description": "About us BetterMe \u2014 an all-in-one well-being ecosystem empowering millions to become better \u2014 physically, mentally, and emotionally. We build what makes people better and keep challenging ourselves to inspire others. We are looking for a freelance Content Operations Specialist (SEO) to join us on a part-time basis and support our content operations through keyword research, article publishing, and content updates. Your impact: Keyword research for new articles and updates (Ahrefs, Semrush, Google Search Console). Screening keywords against existing content and rejected topics. Publishing and updating articles in WordPress: formatting, meta title and description, images, internal links. Content moderation before publishing and choosing creatives (banners, images). Keeping Jira tickets and publishing trackers up to date. About you: 1+ year of experience in SEO or content operations. Hands-on experience with WordPress (Gutenberg). Practical experience using SEO tools such as Ahrefs or Semrush, as well as Google Search Console. English proficiency at B2 level or higher. Strong attention to detail and the ability to maintain accuracy and consistency across content and publishing tasks. Nice to Have: Experience in the health and fitness niche. Familiarity with AI tools. Find more about us on social media platforms: Instagram, LinkedIn. Originally posted on Himalayas",
+    "discovered_by_run": "20261121T060004Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/betterme/jobs/content-operations-specialist-seo",
+    "id": "opp_fc11af668c0b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T04:15:54+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "content-operations-specialist",
+      "seo-specialist",
+      "content-marketing-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Content Operations Specialist (SEO)",
+    "updated_at": "2026-11-21T06:00:13+00:00",
+    "url": "https://himalayas.app/companies/betterme/jobs/content-operations-specialist-seo?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
