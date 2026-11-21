@@ -24561,6 +24561,139 @@
       "probability_low": 4.0
     }
   },
+  "opp_165512b7a928": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 79.33,
+    "budget_min": 55.29,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "Bright Vision Technologies",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-20T13:03:38+00:00",
+    "description": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. This is an opportunity to contribute to technology initiatives in a collaborative environment with opportunities for professional growth. Job Title: Cloud Network Engineer Location: Remote Position Type: Full-time, Direct W2 - [Not open to C2C or 1099] Salary Range: $115,000\u2013$165,000 Annually Experience Required: 10 + years Sponsorship: U.S. Citizens, Green Card holders, EAD holders, and H-1B transfer candidates are encouraged to apply. Bright Vision Technologies is unable to sponsor new H-1B visa petitions for this position. Job Summary Bright Vision Technologies is seeking a Cloud Network Engineer to build, secure, automate, and operate cloud or enterprise infrastructure and platforms. The work focuses on availability, scalability, security, observability, automation, and dependable service operations. The successful candidate will apply practical expertise in TCP/IP, DNS, routing, firewalls, VPN, load balancing, AWS VPC/Azure VNet, and network security, work with cross-functional teams, and contribute to reliable, maintainable solutions through the delivery lifecycle. Key Responsibilities Design, provision, configure, and operate cloud or infrastructure components using approved architecture patterns. Automate repeatable provisioning, deployment, configuration, and operational tasks. Implement security, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 398.09,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-network-engineer-3346548417",
+    "id": "opp_165512b7a928",
+    "is_demo": false,
+    "match_score": 46.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T13:03:39+00:00",
+    "profit_score": 66.7,
+    "risk_flags": [],
+    "score": 62.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.3,
+          "evidence": "Estimated net $398 on $398 (100% margin). $138 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $276 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 17.2,
+          "evidence": "Matched 1 profile skills: automation. Covers 33% of the 3 skills this listing names (missing: aws, azure)."
+        }
+      },
+      "final_score": 62.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 62.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "aws",
+      "azure",
+      "automation",
+      "cloud-network-engineer",
+      "network-engineer",
+      "cloud-engineer",
+      "infrastructure-engineer",
+      "devops-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Cloud Network Engineer",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-network-engineer-3346548417?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_165c40c317f5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -60314,6 +60447,146 @@
       "probability_low": 15.0
     }
   },
+  "opp_33a928b79b42": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T02:56:08+00:00",
+    "description": "Role type: Contractor Location: Remote, United States only Commitment: Part-time, project-based Compensation: $160\u2013$180 USD per hour About the role micro1 is looking for experienced Medical Oncologists to support a customer project focused on improving AI-generated clinical documentation. In this role, you'll use your clinical expertise to evaluate AI-generated transcripts and medical notes from outpatient oncology encounters. Your feedback will help improve the accuracy, completeness, and clinical relevance of AI-assisted documentation. What you'll do Review AI-generated transcripts of outpatient oncology visits for clinical accuracy, completeness, and clarity. Evaluate clinical documentation, including History of Present Illness (HPI), interval histories, and Assessment and Plans (A&Ps). Identify inaccuracies or missing details related to cancer diagnoses, staging, treatment plans, and laboratory or imaging findings. Assess documentation of systemic cancer therapies, including chemotherapy, immunotherapy, targeted therapies, and supportive care. Review how clinical notes capture treatment responses, adverse effects, disease progression, and follow-up care. Provide clear, actionable feedback to improve AI-generated clinical notes and EHR documentation. Required qualifications MD, DO, or equivalent medical degree, with board certification or eligibility in Medical Oncology. At least 2 years of recent outpatient medical oncology experience following fellowship. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/medical-oncologist",
+    "id": "opp_33a928b79b42",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T13:00:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 29.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 29.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 29.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "medical-oncologist",
+      "medical-oncology",
+      "oncology-physician",
+      "oncologist",
+      "oncology-specialist",
+      "attending-physician-oncology",
+      "oncology-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Medical Oncologist",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/medical-oncologist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_33d096ff62c4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -61833,6 +62106,127 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_3515165d9aa6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Abnormal",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "About the Role Abnormal is built to look and feel like nothing else in security: precision-engineered, a little rebellious, and a few steps ahead of now. We protect more than 5,000 customers, including 30% of the Fortune 500, with a platform that stops the attacks everyone else misses. We need someone to make it look like the future it is. We're looking for an Art Director who is first and foremost an artist. This is not a creative production role. You will own Abnormal's aesthetic direction, a singular visual identity with a bold and cinematic sensibility, and communicate that vision clearly to every team, vendor, and collaborator who executes creative work. You'll work closely with our CEO, CMO, VP of Product Marketing, and VP of Revenue Marketing to internalize Abnormal's worldview, then make it your own, ideally pushing it further than we imagined. This role is distinct from our creative services function, which runs the production engine. Your job is to set the vision, protect its integrity, and elevate it. At Abnormal, you'll do the most exciting work of your career because you'll be shaping how the future of cybersecurity is seen, in a company where AI is at the core of the product and the way we work. The ideal candidate is a concept artist at heart, someone who has spent their career in sci-fi film, cyberpunk or sci-fi video games, or similarly high-craft visual storytelling environments. Specifically, we want someone who knows how to design computer interfaces, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137901",
+    "id": "opp_3515165d9aa6",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T08:20:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "pdf",
+      "devops"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Art Director",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-art-director-abnormal-1137901",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_353112e92b02": {
@@ -82709,6 +83103,134 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_487fecb2f002": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Reddit",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Reddit is a community of communities. It\u00e2\u0080\u0099s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u00e2\u0080\u0099s largest sources of information. For more information, visit www.redditinc.com . About the Team:\u00c2 We help people discover content and communities that make them want to return and participate. Our work connects personalized relevance with the health of the broader ecosystem: helping new users find their interests, elevating quality, and connecting communities with audiences who will value them. We care about both the usefulness of an individual recommendation and how discovery shapes the experience of users, contributors, and communities over time. About the Role: We\u00e2\u0080\u0099re looking for a Product Manager to lead Ecosystem Relevance, with a focus on new user experiences, content and community quality, and community coherence. You\u00e2\u0080\u0099ll shape how our relevance systems serve people when we know little about them, recognize worthwhile content and communities, and account for the context that makes a recommendation appropriate. Working with ML engineering, data science, research, and consumer product teams, you\u00e2\u0080\u0099ll translate these goals into signals, ranking objectives, product experiences, and experiments that \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137894",
+    "id": "opp_487fecb2f002",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T07:00:15+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "data science",
+      "product"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Product Manager, Ecosystem Relevance",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ecosystem-relevance-reddit-1137894",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_4884b0a93369": {
@@ -128174,6 +128696,134 @@
       "probability_low": 4.0
     }
   },
+  "opp_6bec78035a68": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T02:25:16+00:00",
+    "description": "Pediatric Hematology/Oncology Physician Role type: Contractor Location: Remote, United States only Commitment: Part-time, project-based Compensation: $160\u2013$180 USD per hour About the role micro1 is looking for experienced Pediatric Hematology/Oncology Physicians to support a customer project focused on improving AI-generated clinical documentation. In this role, you'll use your clinical expertise to evaluate AI-generated transcripts and medical notes from outpatient pediatric hematology/oncology encounters. Your feedback will help improve the accuracy, completeness, and clinical relevance of AI-assisted documentation. What you'll do Review AI-generated transcripts of outpatient pediatric hematology/oncology visits for clinical accuracy, completeness, and clarity. Evaluate clinical documentation, including History of Present Illness (HPI), interval histories, and Assessment and Plans (A&Ps). Identify inaccuracies or missing details related to chemotherapy regimens, treatment toxicities, supportive care, and laboratory findings. Assess pediatric-specific considerations, including weight- and BSA-based dosing, developmental milestones, and age-appropriate communication. Review how documentation captures caregiver involvement, shared decision-making, and psychosocial considerations. Provide clear, actionable feedback to improve AI-generated clinical notes and EHR documentation. Required qualifications MD, DO, or equivalent medical degree, with board certification or eligibility \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/pediatric-hematology-oncology-physician",
+    "id": "opp_6bec78035a68",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T13:00:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "hematology-oncology-specialist",
+      "oncology-physician",
+      "hematology-oncology"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Pediatric Hematology/Oncology Physician",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/pediatric-hematology-oncology-physician?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6bf23e513cab": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -149164,6 +149814,147 @@
       "probability_low": 26.0
     }
   },
+  "opp_7adaa41850f2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Talkspace",
+    "competition_score": 45.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "At Talkspace, we are committed to fostering a diverse, equitable, inclusive, and belonging-centered workplace where everyone can thrive while making a difference in mental health. Want to help over two million people receive quality mental healthcare? Come join our mission of getting therapy in the hands of everyone! We are looking for an experienced Group/IOP Therapist to join our virtual Intensive Outpatient Programs (vIOP)\u00c2 team. This role would be responsible for providing structured, group-based clinical care.\u00c2 We are looking for someone who has experience supporting individualized treatment planning, and collaborating with an interdisciplinary treatment team to promote client progress and continuity of care, and wants to bring their talents into a \u00e2\u0080\u009cfor purpose\u00e2\u0080\u009d space. To work at Talkspace, you need to be as passionate as we are about our work, and excited to partner with us on delivering quality mental healthcare. *The schedule is Monday, Wednesday, and Thursdays from 5:00p-8:00p CST/EST. This is a part-time role that can expect to work between 10-12 hours per week (9 hours of direct programming and 2-3 hours of treatment planning, meetings and documentation).* What You\u00e2\u0080\u0099ll Do Clinical Service Lead and co-facilitate structured, evidence-based virtual IOP group therapy sessions ensuring real-time clinical collaboration and balanced group management. Adhere to a structured group block schedule, demonstrating punctuality and consistent attendance to maintain program \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137895",
+    "id": "opp_7adaa41850f2",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T07:20:16+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 27.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 4.4,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 27.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 27.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "other"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Virtual IOP Clinician \u00e2\u0080\u0093 Florida & Texas",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-virtual-iop-clinician-florida-texas-talkspace-1137895",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
+    }
+  },
   "opp_7af4e09179a8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -169252,6 +170043,133 @@
       "probability_low": 26.0
     }
   },
+  "opp_8cb7f3a305d6": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Reddit",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Reddit is a community of communities. It\u00e2\u0080\u0099s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u00e2\u0080\u0099s largest sources of information. For more information, visit www.redditinc.com . About the Team:\u00c2 We build the shared ML and AI capabilities that power experiences across our consumer products. Our work spans the platform that enables teams to develop, evaluate, and deploy models, and the intelligence that helps those models understand content, people, and communities. We partner with consumer product teams and infrastructure engineering to turn advances in ML and AI into reusable capabilities that improve discovery, personalization, and other consumer experiences. About the Role: We\u00e2\u0080\u0099re looking for a senior individual contributor to lead product strategy across ML Platform and ML Understanding. Reporting to Consumer product leadership, you\u00e2\u0080\u0099ll shape the foundations that help teams build better products: from reliable, efficient model development and deployment to richer classifications and representations of content and users. This role combines technical depth, consumer product judgment, and organizational influence. You\u00e2\u0080\u0099ll connect needs across applications, identify the investments with the \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137893",
+    "id": "opp_8cb7f3a305d6",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T07:00:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: reporting."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "product"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Product Manager, AI Foundations",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ai-foundations-reddit-1137893",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_8cbbd874525b": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -175685,6 +176603,133 @@
           "from": "36%",
           "to": "26%",
           "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_919c7aaf842f": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Bitwarden",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Senior Customer Marketing Manager Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere. Bitwarden makes it easy for all users to extend robust security across their devices with password management, secrets management, and passwordless and passkeyinnovations. The company is headquartered in Santa Barbara, California with team members located across the globe. Learn more at\u00c2 bitwarden.com .\u00c2 THE ROLE Bitwarden is hiring a Senior Customer Marketing Manager to build and lead our customer marketing program to drive customer engagement, adoption, retention, and expansion. You will own customer advocacy, lifecycle marketing, onboarding and adoption content, customer communications, customer events, and the Customer Advisory Board. It's a rare opportunity to build the customer marketing foundation at a company with millions of users who love and contribute to the product. \u00c2 As the first end-to-end customer marketer at Bitwarden, you'll set the strategy and execute. You are a hands-on customer marketing leader who can turn strategy into scalable programs, partner across Customer Success, Sales, Product, Marketing, and Operations, and use data to continuously improve lifecycle programs and customer communications.\u00c2 \u00c2 Bitwarden is an all-remote team, and we\u00e2\u0080\u0099re looking for someone located in the U.S. We do not offer visa sponsorship at this \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137899",
+    "id": "opp_919c7aaf842f",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T08:00:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "product"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Senior Customer Marketing Manager",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-customer-marketing-manager-bitwarden-1137899",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
         }
       ],
       "probability_high": 37.0,
@@ -197910,6 +198955,148 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_a31a84adaeef": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "dashboard",
+    "client": "BeyondTrust",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role BeyondTrust\u00e2\u0080\u0099s Field Operations team sits at the center of how the company plans, forecasts, and executes revenue. We are building a team that operates with the analytic rigor of a finance org and the speed of a sales floor \u00e2\u0080\u0094 and we need operators who can do both. The Senior Sales Operations Analyst is a high-visibility individual contributor role reporting to the Director of Sales Operations. You will own the analytic backbone of our GTM motion: building the models, reports, and processes that sales leadership relies on to call the business, allocate resources, and drive execution across seven global theatres. Your work will span pipeline analytics and conversion trends, revenue planning and capacity modeling, and quota and territory design. \u00c2 You will be the person who turns raw Salesforce and Databricks data into forward-looking indicators that change how leaders make decisions \u00e2\u0080\u0094 and you will partner closely with our GTM Engineer to operationalize AI-driven workflows that make the entire sales org faster and more precise. This is not a back-office \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 9.1,
+    "estimated_cost": 0.0,
+    "estimated_hours": 13.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.9,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137902",
+    "id": "opp_a31a84adaeef",
+    "is_demo": false,
+    "match_score": 90.2,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T08:20:16+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 60.8,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (9.1h AI / 3.9h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 21.9,
+          "evidence": "Matched 6 profile skills: automation, dashboard, excel, forecasting, reporting, sql. Covers 56% of the 9 skills this listing names (missing: analytics, power bi, snowflake, tableau)."
+        }
+      },
+      "final_score": 60.8,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 60.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "sql",
+      "snowflake",
+      "excel",
+      "automation",
+      "dashboard",
+      "tableau",
+      "power bi",
+      "forecasting",
+      "analytics",
+      "devops"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Sr Sales Ops Analyst",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-sr-sales-ops-analyst-beyondtrust-1137902",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_a31c5d3a1cfc": {
@@ -226729,6 +227916,140 @@
       "probability_low": 15.0
     }
   },
+  "opp_bb3a9c687691": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Dropbox",
+    "competition_score": 45.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Role Description As a Technical Architect at Dropbox, you will help enterprise customers translate business goals and complex technical requirements into practical solution architectures. You will work with customers and internal teams to design how Dropbox fits into their existing systems, validate critical assumptions, and guide implementation and adoption. You will lead architecture discussions spanning workflows, integrations, identity and access, data movement, and operational readiness. You will explain design choices and tradeoffs, identify technical risks early, and produce clear guidance that implementation teams can act on. You will also turn lessons from customer engagements into reusable patterns and actionable feedback for Product and Engineering. Responsibilities Lead technical discovery with customer business and IT stakeholders to establish requirements, constraints, dependencies, and measurable success criteria. Design and document solution architectures, including system boundaries, integration and data flows, identity and permission models, and operational requirements. Evaluate design options and explain tradeoffs in reliability, security, performance, implementation effort, and ongoing cost. Validate high-risk assumptions through focused prototypes, integration tests, or technical evaluations with explicit acceptance criteria. Guide implementation and migration planning, defining sequencing, owners, testing, cutover, rollback, and handoff to delivery and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137908",
+    "id": "opp_bb3a9c687691",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-20T10:00:04+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 2 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 8.1,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.6,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Technical Architect",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-technical-architect-dropbox-1137908",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_bb3e129cf039": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -231808,6 +233129,128 @@
     "title": "(Japanese Bilingual) Sales Professionals Recruitment Consultant",
     "updated_at": "2026-10-03T15:52:48+00:00",
     "url": "https://himalayas.app/companies/cesna-recruitment/jobs/japanese-bilingual-sales-professionals-recruitment-consultant",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
+  "opp_bfd27206a71d": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-12T19:22:06+00:00",
+    "description": "Role Title: Hematology Physician Role Type: Contractor Location: United States, Remote micro1 is engaging Hematology Physicians to participate in a high-impact customer project focused on advancing clinical AI solutions. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. This opportunity is ideal for independent clinical experts interested in leveraging their hematology experience for transformative technology. Scope of Work Review and annotate AI Generated transcripts of outpatient hematology clinic conversations for accuracy, clinical completeness, and clarity. Assess AI Generated documentation sections such as History of Present Illness (HPI), interval histories, and Assessment & Plans (A&Ps), providing input on appropriate information inclusion. Identify and comment on nuances of anticoagulation management, transfusion and iron therapy, treatment toxicities, laboratory discussions, and decision-making processes in clinical documentation. Provide feedback on how well AI Generated transcripts reflect real-world clinical reasoning and patient interactions, especially during follow-up visits. Contribute to the evaluation and improvement of AI scribe outputs or EHR note templates, as needed. Preferred Qualifications Board certification in Hematology or Oncology with demonstrable outpatient clinical experience. Proficiency with electronic health \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hematology-physician",
+    "id": "opp_bfd27206a71d",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-21T13:00:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "hematologist",
+      "hematology-specialist",
+      "hematology"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Hematology Physician",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hematology-physician?utm_source=api",
     "win_estimate": {
       "band": "Medium",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
@@ -264154,6 +265597,134 @@
       "probability_low": 0.0
     }
   },
+  "opp_db2b0f1d79de": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Salsify",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:33+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Come join a company who is a key leader in the industry scaling the next core commerce infrastructure and on the path from $100M to $500M! Founded in 2012, Salsify helps brand manufacturers, distributors, and retailers in over 80 countries collaborate to win on the digital shelf. As the market leader globally, our products are shopper-centric, frictionless, and create memorable commerce experiences. Our products provide a competitive edge through experiences that improve brand trust, amplify product differentiation and assortments, increase conversion rate, improve profit margins, and speed time to market. Learn how the world\u00e2\u0080\u0099s largest brands, including Mars, L'Oreal, Coca-Cola, Bosch, and GSK, as well as retailers and distributors such as E.Leclerc, Carrefour, Metro, and Intermarch\u00c3\u00a9 use Salsify everyday to stand out on the digital shelf. At Salsify, we strive to embody an equitable, diverse, and inclusive company culture. We are united across countries, levels, tenures, and a host of other dimensions of diversity. We understand that while work is just one aspect of who we are, a truly inclusive culture accounts for the full authenticity of every single human being that works here.\u00c2 About the Opportunity About the Opportunity Salsify is seeking a commercially driven, proactive, and results-oriented Customer Success Manager to manage, retain, and grow a portfolio of customers in our Mid-Market segment. This role goes beyond traditional customer success. You'll own \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "1137909",
+    "id": "opp_db2b0f1d79de",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-20T10:00:06+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "rest",
+      "customer support"
+    ],
+    "source": "remoteok",
+    "status": "SKIP",
+    "title": "Customer Success Manager",
+    "updated_at": "2026-11-21T14:32:33+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-salsify-1137909",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 1 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_db2d1a1571e5": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -276752,6 +278323,145 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_e7b431076427": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-10T02:24:39+00:00",
+    "description": "Hematologist Role type: Contractor Location: Remote, United States only Commitment: Part-time, project-based Compensation: $160\u2013$180 USD per hour About the role micro1 is looking for experienced Hematologists to support a customer project focused on improving AI-generated clinical documentation. In this role, you'll use your clinical expertise to evaluate AI-generated transcripts and medical notes from outpatient hematology encounters. Your feedback will help improve the accuracy, completeness, and clinical relevance of AI-assisted documentation. What you'll do Review AI-generated transcripts of outpatient hematology visits for clinical accuracy, completeness, and clarity. Evaluate clinical documentation, including History of Present Illness (HPI), interval histories, and Assessment and Plans (A&Ps). Identify inaccuracies or missing details related to hematologic diagnoses, treatment plans, medication management, and laboratory findings. Assess documentation of blood disorders, including anemia, bleeding and clotting disorders, and hematologic malignancies. Review how clinical notes capture treatment responses, adverse effects, transfusion requirements, and follow-up care. Provide clear, actionable feedback to improve AI-generated clinical notes and EHR documentation. Required qualifications MD, DO, or equivalent medical degree, with board certification or eligibility in Hematology. At least 2 years of recent outpatient hematology experience following fellowship. Strong \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hematologist",
+    "id": "opp_e7b431076427",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-21T13:00:12+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 30.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 30.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 30.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "hematologist",
+      "hematology-specialist",
+      "hematology",
+      "hematology-oncology-specialist",
+      "consultor-de-hematologia",
+      "especialista-em-hematologia",
+      "especialista-en-hematolog\u00eda"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Hematologist",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hematologist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e7b77739f95f": {
@@ -290894,6 +292604,132 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_f17533010e53": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-21T14:32:32+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-09T02:21:49+00:00",
+    "description": "Role Title: Hematology/Oncology Physician Role Type: Contractor Location: United States, Remote micro1 is engaging Hematology/Oncology Physicians to contribute expertise and insights to a forward-thinking customer project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. This is an exciting opportunity for professionals who have recently practiced outpatient hematology/oncology after fellowship, and who are passionate about accurate clinical communication and documentation. Scope of Work Review and annotate AI Generated transcripts of outpatient hematology/oncology clinic conversations for accuracy, clinical completeness, and clarity. Assess AI Generated documentation sections such as History of Present Illness (HPI), interval histories, and Assessment & Plans (A&Ps), providing input on appropriate information inclusion. Identify and comment on nuances of chemotherapy cycles, treatment toxicities, laboratory discussions, and decision-making processes in clinical documentation. Provide feedback on how well AI Generated transcripts reflect real-world clinical reasoning and patient interactions, especially during follow-up visits. Contribute to the evaluation and improvement of AI scribe outputs or EHR note templates, as needed. Preferred Qualifications MD, DO, or equivalent with board certification or eligibility in Hematology and/or Oncology. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261121T143230Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/hematology-oncology-physician",
+    "id": "opp_f17533010e53",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-21T13:00:11+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "hematology-oncology-specialist",
+      "oncology-physician",
+      "hematology-oncology",
+      "hematologist",
+      "hematology-specialist",
+      "hematologic-oncology",
+      "medical-oncologist",
+      "attending-physician-oncology"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Hematology/Oncology Physician",
+    "updated_at": "2026-11-21T14:32:32+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/hematology-oncology-physician?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_f17cbf94765d": {
