@@ -18584,6 +18584,143 @@
       "probability_low": 4.0
     }
   },
+  "opp_0ef22201f087": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 140,
+    "budget_min": 120,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "YO AI Labs",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:35:50+00:00",
+    "description": "Job Description: Mathlib Contributor Role Type: Contractor Location: Global, Fully Remote Time Commitment: 15+ hours per week Schedule: Flexible About the Role We are seeking experienced Mathlib contributors with verifiable Lean 4 experience to support an AI training project. You will create formalization tasks, develop machine-checked proofs, evaluate generated Lean code, and establish standards for mathematical correctness. Key Responsibilities Create challenging mathematical tasks using Lean 4 and Mathlib. Convert mathematical requirements into formal definitions, theorem statements, and acceptance criteria. Write complete, machine-checked reference proofs following Mathlib conventions. Evaluate AI-generated Lean code for mathematical correctness and technical validity. Required Qualifications Demonstrable experience with Lean 4 and Mathlib. Publicly verifiable contributions, such as merged Mathlib pull requests, GitHub repositories, or formalization projects. Strong understanding of mathematical proofs and formal verification. Ability to review Lean code and assess proof correctness. Preferred Qualifications Multiple substantive Mathlib contributions. Experience reviewing or maintaining Lean code. Contributions to mathematical proofs, tactics, infrastructure, documentation, or testing. Research papers or technical projects involving Lean. Application Process Submit your application and GitHub username. Share links to your strongest Mathlib contributions. Complete an AI \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 900.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/yo-ai-labs/jobs/mathlib-contributor-remote",
+    "id": "opp_0ef22201f087",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-23T22:35:51+00:00",
+    "profit_score": 84.1,
+    "risk_flags": [],
+    "score": 47.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.5,
+          "evidence": "Estimated net $900 on $900 (100% margin). $192 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $240 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 47.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 47.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "mathematician",
+      "proof-engineer",
+      "software-engineer",
+      "mathematics-contributor",
+      "lean-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Mathlib Contributor - Remote",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/yo-ai-labs/jobs/mathlib-contributor-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_0f19739b9060": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -72537,6 +72674,136 @@
       "probability_low": 15.0
     }
   },
+  "opp_3de218e5e1c1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 35.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:36:13+00:00",
+    "description": "Job Title: Clinical Project Coordinator, IQVIA Biotech (home-based) Job Location: Reading, Berkshire, United Kingdom Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: Job Overview IQVIA Biotech partners exclusively with biotech and emerging biopharma companies to support clinical development across all phases and therapeutic areas. agile structure, collaborative culture, and deep therapeutic expertise allow us to deliver tailored solutions that help bring innovative treatments to patients faster. The Clinical Project Coordinator supports, with minimal supervision, the Project Leader (PL) and Clinical Project Manager (CPM) with project management activities to ensure all work is conducted in accordance with standard operating procedures (SOPs), policies and practices, good clinical practices (GCP), applicable regulatory requirements, and meets quality/timeline metrics. Ensure customer satisfaction is met in relation to assigned project/s. Essential Functions Assist in the establishment and maintenance of all project documentation including all files, records and reports according to the scope of work and standard operating procedures (SOPs). \u2022 Assist with periodic review/audit of files for accuracy and completeness. \u2022 Assist with the coordination and tracking of all information, communications, documents, materials, and supplies for assigned projects. \u2022 Manage study specific eTraining and oversee compliance. \u2022 Support the updating and maintenance of \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/clinical-project-coordinator-iqvia-biotech-home-based-7559072955",
+    "id": "opp_3de218e5e1c1",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-23T22:36:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: dashboard."
+        }
+      },
+      "final_score": 53.9,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 53.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "gcp",
+      "dashboard",
+      "clinical-project-coordinator",
+      "clinical-research-coordinator",
+      "project-coordinator"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Project Coordinator, IQVIA Biotech (home-based)",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/clinical-project-coordinator-iqvia-biotech-home-based-7559072955?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_3deb7e0c87ff": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -99027,6 +99294,142 @@
       "probability_low": 13.0
     }
   },
+  "opp_542d30502f32": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Reddit",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-23T23:30:58+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: Remote - United States Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet\u2019s largest sources of information. For more information, visit www.redditinc.com . The Ranking Platform team builds and runs the services that coordinate contextualized and personalized ranking on Reddit. We build infrastructure, including a scatter-gather ranking coordination service, feature indexes, and scalable data pipelines that power personalized feeds, search, and other Reddit products. We partner closely with machine learning engineers who develop and productionize models, and with ML Platform teams that build inference and training services and feature stores. Our team mantra is \u201cIntention over Attention.\u201d We help users fulfill their intention for visiting Reddit by connecting them with relevant content and communities. We are a team of builders who value impact, personal growth, openness, and kindness. How You\u2019ll Have Impact As Engineering Manager for Ranking Platform, you will lead the team building a robust, scalable, reliable, and performant ranking and indexing platform. You will partner with senior engineers, backend architects, product managers, and ML \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/reddit-engineering-manager-ranking-platform",
+    "id": "opp_542d30502f32",
+    "is_demo": false,
+    "match_score": 61.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 23 Nov 2026 18:32:25 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 53.6,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 14.8,
+          "evidence": "Matched 4 profile skills: automation, data pipeline, excel, python. Covers 27% of the 11 skills this listing names (missing: api, aws, docker, gcp)."
+        }
+      },
+      "final_score": 53.6,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 53.6,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "python",
+      "postgres",
+      "excel",
+      "api",
+      "rest",
+      "aws",
+      "gcp",
+      "docker",
+      "kubernetes",
+      "automation",
+      "machine learning"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Reddit: Engineering Manager, Ranking Platform",
+    "updated_at": "2026-11-23T23:30:58+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/reddit-engineering-manager-ranking-platform",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_542e30219fe4": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -100283,6 +100686,148 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_54c0a1e61c05": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Constellation West",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:25+00:00",
+    "description": "Job Overview: Role: (Application Modernization Engineer) Customer: Internal Revenue Services (IRS) Location: Remote, with occasional onsite support for meetings, deployments, production activities, or knowledge transfer as required. Clearance: No clearance required Position Summary Support the modernization of legacy enterprise applications through Java modernization, microservices implementation, cloud migration, containerization, and application transformation initiatives supporting IRS Common API Services. Required Experience 8+ years of systems/software engineering Application modernization Legacy system transformation Java Spring Boot Microservices OpenShift Kubernetes Containerization Cloud migration Technical solution design Enterprise integration CI/CD environments Preferred Experience IBM webMethods Federal Government experience IRS experience Enterprise architecture support Education Bachelor's degree or equivalent experience. Clearance No clearance required. Security Requirements: No active Secret or Top Secret security clearance is required. Candidates must be eligible to obtain IRS Staff-Like Access following contract award. Personnel requiring access to IRS facilities, systems, or Sensitive But Unclassified (SBU) information must successfully complete the IRS personnel security process before beginning work. This includes: IRS suitability determination FBI fingerprinting Background investigation (SF-85/SF-85P, as applicable) Tax compliance verification U.S. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/constellation-west/jobs/application-modernization-engineer",
+    "id": "opp_54c0a1e61c05",
+    "is_demo": false,
+    "match_score": 46.6,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:29:25+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 52.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 17 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 11.3,
+          "evidence": "Matched 1 profile skills: ci/cd. Covers 33% of the 3 skills this listing names (missing: api, kubernetes)."
+        }
+      },
+      "final_score": 52.7,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 52.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "kubernetes",
+      "ci/cd",
+      "application-modernization-engineer",
+      "java-developer",
+      "microservices-engineer",
+      "cloud-migration-engineer",
+      "backend-engineer",
+      "application-modernization-engineering",
+      "software-modernization-architect",
+      "system-modernization-engineer",
+      "migration-and-modernization-engineer",
+      "senior-application-migration-engineer",
+      "app-modernization-consultant",
+      "applications-modernization",
+      "mainframe-modernization-analyst",
+      "mainframe-modernization-developer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "APPLICATION MODERNIZATION ENGINEER",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/constellation-west/jobs/application-modernization-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_54c2a0b40f12": {
@@ -113854,6 +114399,142 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_5ee1874cc8b7": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Constellation West",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:23+00:00",
+    "description": "Job Overview: Customer: Internal Revenue Services (IRS) Location: Remote, with occasional onsite support for meetings, deployments, production activities, or knowledge transfer as required. Clearance: No clearance required. Position Summary Provide production operations, application sustainment, release support, troubleshooting, and incident response for enterprise applications supporting IRS Common API Services. Required Experience 7+ years supporting enterprise applications Production Operations & Maintenance Incident management Root Cause Analysis Application troubleshooting Production deployments Vulnerability remediation Performance monitoring Release implementation Operational documentation ServiceNow or similar ticketing tools Linux Java application support Preferred Experience IRS production environments Federal Government operations Monitoring tools such as AppDynamics or ELK OpenShift Education Bachelor's degree or equivalent experience. Clearance No clearance required. Security Requirements: No active Secret or Top Secret security clearance is required. Candidates must be eligible to obtain IRS Staff-Like Access following contract award. Personnel requiring access to IRS facilities, systems, or Sensitive But Unclassified (SBU) information must successfully complete the IRS personnel security process before beginning work. This includes: IRS suitability determination FBI fingerprinting Background investigation (SF-85/SF-85P, as applicable) Tax compliance \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/constellation-west/jobs/production-operations-maintenance-engineer",
+    "id": "opp_5ee1874cc8b7",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:29:23+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 41.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 41.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 41.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "production-operations",
+      "application-support-engineering",
+      "site-reliability-engineering",
+      "federal-it-operations",
+      "systems-engineering",
+      "production-operations-engineer",
+      "production-engineer",
+      "senior-production-engineer",
+      "manufacturing-engineer",
+      "operations"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "PRODUCTION OPERATIONS & MAINTENANCE ENGINEER",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/constellation-west/jobs/production-operations-maintenance-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_5eea9ca3cae8": {
@@ -136818,6 +137499,138 @@
       "probability_low": 4.0
     }
   },
+  "opp_6e92e4ccf8d9": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "AMS PSR",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:28:03+00:00",
+    "description": "On behalf of UKRI we are looking for an Identity & Collaboration Architect (Inside IR35) for an initial 4 month contract. Remote working with occasional office travel. The Identity & Collaboration Architect will lead the architecture and design of a large-scale Microsoft 365 consolidation programme involving the migration of multiple Microsoft 365 tenancies, mail domains and identity platforms into a single strategic environment. The role is accountable for developing the future-state architecture for identity, authentication, directory services, email namespace, collaboration services and associated governance models. The architect will work across technical, operational and business stakeholders to establish a coherent, sustainable target operating model that balances organisational requirements with Microsoft's strategic cloud architecture. A key aspect of the role is the development of target-state identity and namespace strategies, including the transition from multiple independentlymanaged directories and Microsoft 365 tenancies to a consolidated identity platform centred on Microsoft Entra ID. As an Identity & Collaboration Architect your main responsibilities will be to: Develop target-state identity architecture for a multi-organisational Microsoft 365 environment. Define authoritative sources for identity information and attribute ownership. Establish identity lifecycle architecture covering joiners, movers and leavers. Define future-state email namespace strategy. \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/ams-psr/jobs/identity-collaboration-architect",
+    "id": "opp_6e92e4ccf8d9",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:28:03+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 37.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 10.1,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 37.5,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 37.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "aws",
+      "azure",
+      "identity-and-collaboration-architect",
+      "identity-architect",
+      "collaboration-architect",
+      "cloud-solutions-architect",
+      "enterprise-architect"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Identity & Collaboration Architect",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/ams-psr/jobs/identity-collaboration-architect?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_6e9a357951fe": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -140557,6 +141370,130 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_714d8771b4df": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "RxBenefits",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:19+00:00",
+    "description": "We are adding a Coverage Determination (Pharmacy) Technician to our growing team. This role will be responsible for assisting the Prior Authorization Review Team in the clinical operations department in various capacities including, but not limited to, responsible for reviewing PA requests to make coverage determinations based on specific criteria, data entry and analysis of prior authorization (PA) requests submitted by physician\u2019s offices, reaching out to physician\u2019s offices to request additional information on incomplete PA requests via fax or phone, finalizing requests in the PA software platform, entering overrides into the PBM claims systems, answering internal and external inquiries regarding PAs in process, and assisting the PA team where required outside of specified duties. This is a contract position. The selected candidate will be assigned to work with RxBenefits through a third party vendor partner. Essential Job Responsibilities Include: Make accurate and timely coverage determinations for a variety of medication review types based on specific criteria, policies and procedures Use the RxBenefits \u2019 PA review workflow system to document all coverage determination reasoning Meeting daily quality and production metrics Performs data entry, including but not limited to, patient demographic, prescription, pharmacy, prescriber, and PA-related information Receives and performs an initial review on prescription prior authorization requests from physicians via fax, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/rxbenefits/jobs/contract-pharmacy-technician-4-6-months",
+    "id": "opp_714d8771b4df",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:29:19+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "data entry",
+      "pharmacy-technician",
+      "prior-authorization-specialist",
+      "healthcare-claims-processor",
+      "coverage-analysis-specialist",
+      "pharmacy-benefit-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Contract Pharmacy Technician: (4-6 months)",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/rxbenefits/jobs/contract-pharmacy-technician-4-6-months?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_71a5092c8fca": {
@@ -167911,6 +168848,155 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_86f0504846bc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 111.36,
+    "budget_min": 67.79,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "Docusign",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:18+00:00",
+    "description": "Company Overview Docusign brings agreements to life. More than 1.8 million customers and more than a billion people in over 180 countries use Docusign solutions to accelerate the process of doing business and simplify people\u2019s lives. With intelligent agreement management, Docusign unleashes business-critical data that is trapped inside of documents. Until now, these were disconnected from business systems of record, costing businesses time, money, and opportunity. Using the Docusign AI-native IAM platform, companies can create, commit, and manage agreements with solutions created by the #1 company in e-signature and contract lifecycle management (CLM). What you'll do The Process Transformation Director leads the strategic, long-term transformation of a high-touch portfolio of Docusign \u2019s most critical enterprise customers to leverage our Agentic platform capabilities. Operating as a hybrid between an executive consultant driving digital process transformation and a strategic account leader, this role builds trusted advisor and trusted partner status with customer executives to lead the strategic development of their Transformation Roadmap and target operating models to maximize the measurable value of Docusign \u2019s Intelligent Agreement Management (IAM) Platform. Working in close cross-functional alignment across Sales, Services, TAM, Partner Delivery, and Product teams, the Process Transformation Director connects technical delivery directly to executive business outcomes, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 677.9,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/docusign/jobs/process-transformation-director",
+    "id": "opp_86f0504846bc",
+    "is_demo": false,
+    "match_score": 56.7,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-23T22:29:18+00:00",
+    "profit_score": 71.6,
+    "risk_flags": [],
+    "score": 66.5,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.2,
+          "evidence": "Estimated net $678 on $678 (100% margin). $143 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $226 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 20.9,
+          "evidence": "Matched 2 profile skills: automation, excel. Covers 40% of the 5 skills this listing names (missing: analytics, api, rest)."
+        }
+      },
+      "final_score": 66.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "automation",
+      "analytics",
+      "process-transformation-manager",
+      "digital-transformation-director",
+      "management-consultant",
+      "customer-success-director",
+      "enterprise-account-director"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Process Transformation Director",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/docusign/jobs/process-transformation-director?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (10-32%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "+5%",
+          "factor": "Portfolio requested, and ours is relevant",
+          "from": "35%",
+          "to": "40%",
+          "why": "Asks for prior work in an area private internal projects genuinely demonstrate."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "40%",
+          "to": "25%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "31%",
+          "to": "21%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 32.0,
+      "probability_low": 10.0
     }
   },
   "opp_87100610e545": {
@@ -206307,6 +207393,136 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_a3813e904843": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "MetaMask",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-23T23:30:58+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: EMEA - Remote Please note that we are unable to consider applications from candidates based in France, Italy, or Germany for this role. Money is moving onto the internet, and the shift has a name: Open Money. This is money that is open, portable, agentic, and owned by you. MetaMask spent the last ten years building it; with 100M+ downloads, users in ~190 countries, and trillions in cumulative transaction volume, it's the most trusted self-custodial financial platform on the internet. Now we're building the operating system for your money: one place to hold, move, grow, and use anything you own. Join a remote-first, global team rebuilding how money works: a problem that touches everyone, every day. About the role MetaMask is a self-custody wallet that does not hold users\u2019 private keys. Blockchain transactions are generally irreversible, meaning a vulnerability in the product or its software delivery chain can lead directly to financial losses for users. As a result, MetaMask attracts sustained attention from financially motivated attackers and sophisticated supply chain actors. We are looking for a Senior Manager, Application Security to lead application security across the MetaMask extension, mobile app, Snaps, backend services, DeFi primitives, stablecoins, and supporting smart contracts. The role covers architecture, code, dependencies, build and release controls, security testing, and vulnerability disclosure. This is a hands-on leadership role. You will set \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/metamask-senior-manager-application-security",
+    "id": "opp_a3813e904843",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Mon, 23 Nov 2026 18:32:20 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: ci/cd. Covers 20% of the 5 skills this listing names (missing: api, javascript, rest, typescript)."
+        }
+      },
+      "final_score": 48.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "ci/cd",
+      "javascript",
+      "typescript"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "MetaMask: Senior Manager, Application Security",
+    "updated_at": "2026-11-23T23:30:58+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/metamask-senior-manager-application-security",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_a38713ddfb81": {
@@ -269505,6 +270721,155 @@
       "probability_low": 21.0
     }
   },
+  "opp_d6ef73c406b1": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Constellation West",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:22+00:00",
+    "description": "Job Overview: Customer: Internal Revenue Services (IRS) Location: Remote, with occasional onsite support for meetings, deployments, production activities, or knowledge transfer as required. Clearance: No clearance required. Position Summary: Lead the design, development, modernization, and support of enterprise middleware and API integration services supporting the Internal Revenue Service (IRS). This position will provide technical leadership for enterprise integration solutions utilizing Java-based technologies, IBM webMethods, and cloud-native architectures. Required Experience 10+ years of software engineering experience Enterprise API development Java Spring Boot REST and SOAP web services IBM webMethods Enterprise middleware Microservices architecture OpenShift or Kubernetes Enterprise system integration Application modernization Production support and troubleshooting Agile development Preferred Experience IRS experience Federal Government experience API Gateway experience DevSecOps environments Containerized applications Education Bachelor's degree in Computer Science, Information Systems, Engineering, or related field (or equivalent experience). Clearance No clearance required. We are an Equal Opportunity Employer: All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender, gender identity, national origin, disability status, protected veteran status, or any other characteristic \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/constellation-west/jobs/senior-middleware-integration-engineer",
+    "id": "opp_d6ef73c406b1",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:29:22+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 38.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 18 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "Matched 1 profile skills: api integration. Covers 0% of the 3 skills this listing names (missing: api, kubernetes, rest)."
+        }
+      },
+      "final_score": 38.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "The listing names 2 hard requirement(s) with nothing in the operator profile behind them: \"10+ years of software engineering experience enterprise api developmen\"; \"soap web services ibm webmethods enterpris\".",
+          "name": "Unmet stated requirements",
+          "points": 6.8
+        }
+      ],
+      "raw_total": 38.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "rest",
+      "kubernetes",
+      "middleware-engineering",
+      "integration-engineering",
+      "api-development",
+      "enterprise-integration",
+      "software-engineer",
+      "senior-middleware-engineer",
+      "middleware-integration-engineer",
+      "senior-middleware-developer",
+      "middleware-integration-developer",
+      "middleware-engineer",
+      "senior-integration-software-engineer",
+      "senior-integration-engineer",
+      "senior-integrations-engineer",
+      "java-middleware-engineer",
+      "senior-integration-engineering"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Senior Middleware/Integration Engineer",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/constellation-west/jobs/senior-middleware-integration-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_d705c8425993": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -289579,6 +290944,141 @@
       "probability_low": 32.0
     }
   },
+  "opp_e8ae37336863": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 57.69,
+    "budget_min": 48.08,
+    "budget_type": "HOURLY",
+    "category": "api_integration",
+    "client": "TruX Retail Partner, LLC",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:44:40+00:00",
+    "description": "About TruX Retail Partner TruX Retail Partner is a retail solutions company built to work differently. We combine experienced people, adaptable solutions, and forward-thinking technology to help retailers solve complex challenges and execute with confidence. Project Manager, Customer Integration & Launch The Project Manager, Customer Integration & Launch is responsible for independently leading and managing the end-to-end customer integration, onboarding, and launch process for the TruX platform. This role serves as the primary customer contact and has authority to establish implementation strategies, evaluate technical requirements, determine appropriate solutions, and direct cross-functional activities to ensure successful customer launches. The position applies advanced technical knowledge and innovative problem-solving to address complex implementation challenges, leverage AI and emerging technologies, and establish scalable processes that improve customer experience, operational efficiency, and business performance. Essential Functions: Own and independently direct the end-to-end customer integration and launch process, including kickoff, requirements gathering, technical discovery, solution definition, specifications, build coordination, testing, validation, launch, and handoff. Establish implementation approaches, priorities, milestones, and execution strategies to achieve successful customer outcomes. Serve as the primary customer contact throughout implementation by \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 480.8,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/trux-retail-partner-llc/jobs/project-manager-customer-integration-launch",
+    "id": "opp_e8ae37336863",
+    "is_demo": false,
+    "match_score": 85.2,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-23T22:44:41+00:00",
+    "profit_score": 68.4,
+    "risk_flags": [],
+    "score": 77.8,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 10 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.6,
+          "evidence": "Estimated net $481 on $481 (100% margin). $101 per effective hour vs $85 target (4.8 effective h = 3.0h human + 7.0h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 31.4,
+          "evidence": "Matched 4 profile skills: automation, excel, python, sql. Covers 67% of the 6 skills this listing names (missing: api, webhook)."
+        }
+      },
+      "final_score": 77.8,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 77.8,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "sql",
+      "excel",
+      "api",
+      "automation",
+      "webhook",
+      "project-manager",
+      "technical-project-manager",
+      "implementation-project-manager",
+      "customer-implementation-manager"
+    ],
+    "source": "himalayas",
+    "status": "PROPOSAL_DRAFTED",
+    "title": "Project Manager, Customer Integration & Launch",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/trux-retail-partner-llc/jobs/project-manager-customer-integration-launch?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_e8b0432afd49": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -292650,6 +294150,139 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_ea83df9188c2": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "The Church of Jesus Christ of Latter-day Saints",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:29:21+00:00",
+    "description": "Candidates must be fluent in English and submit their application in English to be considered. Only those currently living in and authorized to work in Brazil are eligible. The application system will store candidate information. Once submitted, application details will be shared with CES partners involved in the selection process. Applicants may receive a rejection email during or after review; however, unless a direct rejection is received from the hiring manager, applications will remain active and under consideration. This position is interest-based, meaning applicants may not receive communication unless a specific need arises, depending on enrollment. If not selected for this round, candidate information will remain on file for future opportunities. If you have any questions, please contact our Human Resources representative, Bryan, at . Job Description The WRIT 101 (Writing in Professional Contexts) Course Instructor is an important part of the instructional team. With a strong focus on the academic success of every student, team instructors use their subject matter expertise, deep understanding of the curriculum, and student population to: Identify trends impeding academic success. Conduct targeted outreach and provide instruction to target groups and individuals. Build capable learners, confident in their ability to succeed academically and in life. Instructors do not develop lessons or assessments, nor do they issue grades to students work (grading is handled by a \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/the-church-of-jesus-christ-of-latter-day-saints/jobs/writing-online-instructor-byu-pathway-worldwide",
+    "id": "opp_ea83df9188c2",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-23T22:29:21+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 15 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "rest",
+      "online-teaching",
+      "education",
+      "instruction",
+      "academic-support",
+      "writing-instruction",
+      "writing-instructor",
+      "english-writing-instructor",
+      "online-course-instructor",
+      "online-instructor",
+      "academic-writing-instructor",
+      "online-english-instructor",
+      "online-education-instructor",
+      "online-communications-instructor",
+      "online-teacher"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Writing Online Instructor - BYU-Pathway Worldwide",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/the-church-of-jesus-christ-of-latter-day-saints/jobs/writing-online-instructor-byu-pathway-worldwide?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
     }
   },
   "opp_ea866f279874": {
@@ -296559,6 +298192,147 @@
     "title": "Senior AI Trainer",
     "updated_at": "2026-09-11T19:27:19+00:00",
     "url": "https://himalayas.app/companies/micro1/jobs/senior-ai-trainer",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
+  "opp_ed533ebdf86b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 80.6,
+    "budget_min": 47.41,
+    "budget_type": "HOURLY",
+    "category": "automation",
+    "client": "ICF",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-23T23:30:56+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-22T22:43:32+00:00",
+    "description": "The Work: We are seeking a Senior Site Reliability Engineer (SRE) to support the reliability, availability, performance, and security of mission-critical federal government systems. In this role, you will take ownership of production reliability and help drive SRE practices across complex cloud-based environments, using automation, observability, and infrastructure engineering to improve system resilience and operational performance. You will partner with DevOps engineers, application teams, cloud architects, and security stakeholders to design and implement scalable, highly available solutions, strengthen monitoring and observability, automate operational processes, and proactively identify and resolve reliability risks. Job Location: This is a fully remote role which may require occasional travel to the DC Metro area as needed for onsite client meetings. Preference to candidates located within the Washington, DC Metro area. If you accept this position, you should note that ICF does monitor employee work locations and blocks access from foreign locations/foreign IP addresses, and also prohibits personal VPN connections. What You Will Do: Assist in maintaining and monitoring cloud-based infrastructure to support high availability, reliability, and performance of federal systems Support incident response activities, including monitoring alerts, troubleshooting issues, and participating in root cause analysis under guidance of senior engineers Help implement and maintain \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261123T233052Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 341.35,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/icf/jobs/site-reliability-engineer-top-secret-clearance-remote-us",
+    "id": "opp_ed533ebdf86b",
+    "is_demo": false,
+    "match_score": 74.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-23T22:43:33+00:00",
+    "profit_score": 65.7,
+    "risk_flags": [],
+    "score": 73.1,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 7.4,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.1,
+          "evidence": "Estimated net $341 on $341 (100% margin). $119 per effective hour vs $85 target (2.9 effective h = 1.4h human + 5.8h AI discounted). Leverage: $237 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 27.6,
+          "evidence": "Matched 3 profile skills: automation, ci/cd, python. Covers 60% of the 5 skills this listing names (missing: azure, rest)."
+        }
+      },
+      "final_score": 73.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "python",
+      "rest",
+      "azure",
+      "ci/cd",
+      "automation",
+      "site-reliability-engineer",
+      "cloud-infrastructure-engineer",
+      "devops-engineer",
+      "system-architect"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Site Reliability Engineer (Top Secret Clearance) - Remote US",
+    "updated_at": "2026-11-23T23:30:56+00:00",
+    "url": "https://himalayas.app/companies/icf/jobs/site-reliability-engineer-top-secret-clearance-remote-us?utm_source=api",
     "win_estimate": {
       "band": "Low",
       "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
