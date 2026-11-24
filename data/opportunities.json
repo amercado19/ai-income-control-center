@@ -13486,6 +13486,137 @@
       "probability_low": 15.0
     }
   },
+  "opp_0b2a9d173815": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 52.4,
+    "budget_min": 31.73,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Wipfli",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T18:52:09+00:00",
+    "description": "Referral Details Referral Job Board: We greatly appreciate your referral, and we look forward to reviewing the qualifications of the candidate you've recommended. Here's a brief overview of the process: After you've completed this referral form, your recommended candidate will be directed to apply for the specific role through our website. This step is crucial for Wipfli to remain compliant with federal laws and to ensure a fair and transparent selection process. Once their application is received, our Talent Acquisition team will evaluate their qualifications, including how well they align with the requirements of the role and the broader needs of our organization. Your referred candidate will remain in our candidate database for future opportunities, offering them additional chances to become part of our team. As the referrer, your role in the recruitment process is to bring potential talent to our attention. We ask that you refrain from discussing updates on the candidate's status, out of respect for their personal consideration. Our Talent Acquisition team will provide you with a final update once the candidate has been informed of their application status. Throughout this process, we may reach out to you with any questions or additional information to ensure a seamless and effective referral experience. Thank you for your invaluable contribution to our recruitment efforts, and we sincerely appreciate your understanding and support throughout this process. If you would \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 237.97,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/wipfli/jobs/assistant-controller-outsourced-accounting-skilled-nursing-industry",
+    "id": "opp_0b2a9d173815",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-24T21:27:10+00:00",
+    "profit_score": 45.6,
+    "risk_flags": [],
+    "score": 63.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.4,
+          "evidence": "Estimated net $238 on $238 (100% margin). $51 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $63 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 63.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 63.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "aws",
+      "assistant-controller",
+      "controller",
+      "accounting-manager",
+      "accountant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Assistant Controller - Outsourced Accounting, Skilled Nursing Industry",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/wipfli/jobs/assistant-controller-outsourced-accounting-skilled-nursing-industry?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_0b3db448020d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -41471,6 +41602,132 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_23e9d2094445": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "Ping Identity",
+    "competition_score": 45.3,
+    "confidence": 35.0,
+    "created_at": "2026-11-24T22:00:23+00:00",
+    "currency": "USD",
+    "deadline": "",
+    "description": "Headquarters: USA - Remote About Ping Identity: At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it. Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear. While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture. We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work. We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management. The Role The Regional Director of Sales for SLED East will lead a team of Strategic Account Executives serving State, Local, Higher Education, and K\u201312 customers across the Eastern United States. This leader owns regional strategy, pipeline creation, forecast discipline, deal execution, partner activation, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://weworkremotely.com/remote-jobs/ping-identity-director-sales-sled",
+    "id": "opp_23e9d2094445",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "Tue, 24 Nov 2026 18:32:27 +0000",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.9,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 1 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 6.6,
+          "evidence": "Aggregated listing; applicant volume unknown and often high."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: forecasting."
+        }
+      },
+      "final_score": 48.9,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.9,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "forecasting"
+    ],
+    "source": "weworkremotely",
+    "status": "SKIP",
+    "title": "Ping Identity: Director, Sales - SLED",
+    "updated_at": "2026-11-24T22:00:23+00:00",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-sales-sled",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_23eb7149534b": {
@@ -93078,6 +93335,152 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_4e6e1ad0a883": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 54.38,
+    "budget_min": 36.25,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "Penn State University",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:37:39+00:00",
+    "description": "APPLICATION INSTRUCTIONS: CURRENT PENN STATE EMPLOYEE (faculty, staff, technical service, or student), please login to Workday to complete the internal application process. Please do not apply here, apply internally through Workday. CURRENT PENN STATE STUDENT (not employed previously at the university) and seeking employment with Penn State, pleaselogin to Workday to complete thestudent application process. Please do not apply here, apply internally through Workday. If you are NOT a current employee or student, please click \u201cApply\u201d and complete the application process for external applicants. Approval of remote and hybrid work is not guaranteed regardless of work location. For additional information on remote work at Penn State, see Notice to Out of State Applicants. \u200b POSITION SPECIFICS \u200b Your working location can be fully remote, dependent on skillset and location, within Central Pennsylvania. Questions related to flexible work should be directed to the hiring manager during the interview process. We are searching for a Grants and Contracts Administrator to join our Subcontracts Office within the Business Services Division at the Applied Research Laboratory (ARL) at Penn State. ARL Business Services enables and facilitates the research, scholarship, and creative endeavors of ARL by providing efficient and high-quality contracting, purchasing, accounting, and related capabilities to all ARL programs. ARL is an authorized DoD SkillBridge partner and welcomes all \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 174.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/penn-state-university/jobs/contracts-and-subcontracts-administrator-arl",
+    "id": "opp_4e6e1ad0a883",
+    "is_demo": false,
+    "match_score": 68.9,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-24T21:37:39+00:00",
+    "profit_score": 43.4,
+    "risk_flags": [],
+    "score": 66.2,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 7 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.0,
+          "evidence": "Estimated net $174 on $174 (100% margin). $83 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $145 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 25.4,
+          "evidence": "Matched 1 profile skills: statistics. Domain overlap: grants."
+        }
+      },
+      "final_score": 66.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 66.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "rest",
+      "statistics",
+      "contracts-administrator",
+      "grants-and-contracts-administration",
+      "subcontracts-administrator",
+      "contracting-administrator",
+      "contract-specialist"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Contracts and Subcontracts Administrator (ARL)",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/penn-state-university/jobs/contracts-and-subcontracts-administrator-arl?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (13-35%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "20%",
+          "to": "28%",
+          "why": "Mentions 'grants', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "28%",
+          "to": "34%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "34%",
+          "to": "24%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 35.0,
+      "probability_low": 13.0
     }
   },
   "opp_4e6f4bdcdcae": {
@@ -167081,6 +167484,129 @@
       "probability_low": 4.0
     }
   },
+  "opp_8494dffbb864": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EngiFlex",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:55:10+00:00",
+    "description": "Functie omschrijving Jouw rol als Shutdown Planner Pharma Voor een groot industrieel project binnen de farmaceutische sector zoeken we een Shutdown Planner Pharma. Je staat in voor de voorbereiding en opvolging van geplande shutdowns. Daarbij plan je de werkzaamheden tijdig en volgens de geldende veiligheids-, kwaliteits- en compliancevereisten. Je stemt af met projectingenieurs, onderhoudsteams en plantco\u00f6rdinatoren om een realistische en betrouwbare planning op te stellen. Dankzij je ervaring in een GMP-omgeving weet je welke verwachtingen gelden op het vlak van documentatie, processen en compliance. Je brengt verschillende planningen samen in \u00e9\u00e9n overzicht en bewaakt de voortgang van de activiteiten. Jouw verantwoordelijkheden Opstellen en onderhouden van een integrale planning in MS Project voor shutdown- en projectactiviteiten. Uitwerken van WBS-, SBS- en OBS-structuren voor een overzichtelijke projectopvolging. Samenbrengen van onderhouds-, engineering- en projectplanningen in \u00e9\u00e9n ge\u00efntegreerd overzicht. Analyseren van kritieke paden, interferenties en planningsrisico's . Opstellen van KPI-rapporteringen, S-curves en voortgangsrapportages . Verwerken van scopewijzigingen en uitvoeren van SAP-gerelateerde analyses. Dagelijks actualiseren van de planning en deelnemen aan shutdown- en projectmeetings. \ud83d\udcdd Jouw profiel Soft skills Je werkt nauwkeurig, communiceert vlot met verschillende stakeholders en behoudt het overzicht wanneer deadlines en prioriteiten wijzigen. Hard \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/engiflex/jobs/shutdown-planner-pharma-geel-freelance-mogelijk",
+    "id": "opp_8494dffbb864",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-24T21:55:11+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 50.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 15.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 50.4,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 50.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "shutdown-planning",
+      "project-planner",
+      "planning-engineer",
+      "maintenance-planner"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Shutdown Planner Pharma - Geel (Freelance mogelijk)",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/engiflex/jobs/shutdown-planner-pharma-geel-freelance-mogelijk?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_84b5eab71ff9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -239021,6 +239547,133 @@
       "probability_low": 26.0
     }
   },
+  "opp_bc484af91372": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "medpace",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:50:12+00:00",
+    "description": "The Clinical Research Associate at Medpace is offering the unique opportunity to have an exciting career in the research of drug and medical device development while making a difference in the lives of those around them. For those with medical and/or health/life science interest and background who want to explore the research field, travel Turkey, and be part of a team bringing pharmaceutical and medical devices to market - this could be the right opportunity for you! This position is fully home-based and remote. Our successful Clinical Research Associates possess varied backgrounds in medical and other science-related healthcare fields. Individuals who have succeeded in the CRA role include: Nurses Dieticians Pharmacy Technicians Pharmaceutical/Device Sales Representatives Biotech Engineers PhD/Pharm.D candidates Health and Wellness Coordinators Site Coordinators, Clinical Research Coordinators Research Assistants. PACE\u00ae \u2013 MEDPACE CRA TRAINING PROGRAM Through our PACE\u00ae Training Program, you will join other P rofessionals A chieving C RA E xcellence: PACE\u00ae provides the platform to effectively and confidently carry out your duties, enhance your current abilities and ultimately help you become a high-functioning independent Medpace CRA. PACE\u00ae will prepare you by developing your CRA skills through interactive discussions and hands on job-related exercises and practicums. UNEXPECTED REWARDS This role takes you on a journey through travel and excitement which will allow you to \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/medpace/jobs/entry-level-clinical-research-associate",
+    "id": "opp_bc484af91372",
+    "is_demo": false,
+    "match_score": 38.3,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-24T21:50:13+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 48.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 13.6,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 9.3,
+          "evidence": "Matched 1 profile skills: excel. Covers 20% of the 5 skills this listing names (missing: api, gcp, ocr, rest)."
+        }
+      },
+      "final_score": 48.2,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 48.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "excel",
+      "api",
+      "rest",
+      "gcp",
+      "ocr",
+      "clinical-research-associate",
+      "clinical-research-coordinator",
+      "clinical-trial-monitor",
+      "research-assistant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Entry Level - Clinical Research Associate",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/medpace/jobs/entry-level-clinical-research-associate?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (26-46%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 46.0,
+      "probability_low": 26.0
+    }
+  },
   "opp_bc62c1afbe4d": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -254620,6 +255273,139 @@
       "probability_low": 15.0
     }
   },
+  "opp_c7c8eef2fa67": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 1.44,
+    "budget_min": 1.25,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Nearshore Business Solutions",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:48:38+00:00",
+    "description": "Job Title: DevOps Engineer Location: Remote \u2013 Latin America Type of Contract: Full-Time | 1-Year Contract (Possibility of Extension or Permanent Hire) Salary Range: $2,600\u2013$3,000 USD/month (Market Rates; candidates with exceptional experience may be considered above range) Ideal Start Date: January 4, 2027 Our client is seeking a highly skilled DevOps Engineer with strong cloud infrastructure, server migration, and systems administration experience to support the migration of their existing on-premises server infrastructure to Google Cloud managed services. You will play a critical role in maintaining infrastructure stability, scalability, security, and performance while supporting an environment serving approximately 1,300\u20131,500 clients. This role requires a hands-on engineer with deep technical expertise who can manage complex infrastructure and ensure a seamless cloud transition. Key Responsibilities Plan, execute, and support the migration of existing on-premises server infrastructure to Google Cloud managed services. Manage, monitor, and optimize cloud infrastructure supporting approximately 1,300\u20131,500 clients. Ensure infrastructure reliability, availability, scalability, and performance throughout the migration and ongoing operations. Implement and maintain automation for infrastructure provisioning, deployment, monitoring, and operational processes. Troubleshoot complex infrastructure, networking, server, and application performance issues. Implement and maintain \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 9.38,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/nearshore-business-solutions/jobs/devops-engineer",
+    "id": "opp_c7c8eef2fa67",
+    "is_demo": false,
+    "match_score": 73.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-24T21:48:39+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 57.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "Estimated value $9 is below the $50 floor."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 26.9,
+          "evidence": "Matched 2 profile skills: automation, ci/cd. Covers 67% of the 3 skills this listing names (missing: gcp)."
+        }
+      },
+      "final_score": 57.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 57.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "gcp",
+      "ci/cd",
+      "automation",
+      "devops-engineer",
+      "cloud-engineer",
+      "infrastructure-engineer",
+      "systems-engineer",
+      "site-reliability-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "DevOps Engineer",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/nearshore-business-solutions/jobs/devops-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_c7d5bbe01e82": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -258742,6 +259528,145 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_cbdedea8a5df": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "automation",
+    "client": "Atlassian",
+    "competition_score": 54.9,
+    "confidence": 60.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:49:06+00:00",
+    "description": "Overview Working at Atlassian Atlassian s can choose where they work \u2013 whether in an office, from home, or a combination of the two. That way, Atlassian s have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Responsibilities What you'll do In this role, you\u2019ll join the Customer Success Architect team within Sales and Success as a CSA (AI-Service Management) . This is an individual contributor role reporting to a regional leader. You'll help enterprise customers adopt Atlassian 's AI-powered Service Collection: Jira Service Management (JSM), Customer Service Management, Assets, and Rovo Service Agents. You'll lead time-boxed technical engagements and build solutions alongside customers, helping them turn traditional service desks into modern, AI-first service operations. Working with enterprise IT and business service leaders, you'll assess how they work today and co-design workflows across request, incident, problem, change, and asset management. You'll also help customers put autonomous and assisted AI experiences into production. As a technical expert in Atlassian solutions, you'll deliver effective guidance at scale to help customers increase adoption and get more from their investment. The work involves connecting product capabilities with customers' business needs and desired outcomes. You'll partner with Pre-Sales, Post-Sales, and Product teams to provide solutions and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 5.76,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.2,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 1.44,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/atlassian/jobs/customer-success-architect-ai-service-management",
+    "id": "opp_cbdedea8a5df",
+    "is_demo": false,
+    "match_score": 70.9,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-24T21:49:07+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [
+      "UNREALISTIC_DEADLINE"
+    ],
+    "score": 43.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 15.5,
+          "evidence": "80% of estimated effort is AI-carryable (5.8h AI / 1.4h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 6 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 6.7,
+          "evidence": "1 risk flag(s): UNREALISTIC_DEADLINE."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 17.2,
+          "evidence": "Matched 2 profile skills: automation, reporting."
+        }
+      },
+      "final_score": 43.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [
+        {
+          "evidence": "Urgency language paired with an estimate over four hours.",
+          "name": "UNREALISTIC_DEADLINE",
+          "points": 12.0
+        }
+      ],
+      "raw_total": 55.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "automation",
+      "customer-success-architect",
+      "solutions-architect",
+      "customer-success-consultant",
+      "technical-account-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Customer Success Architect (AI), Service Management",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/atlassian/jobs/customer-success-architect-ai-service-management?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_cc1b354291e2": {
@@ -276930,6 +277855,142 @@
           "from": "20%",
           "to": "26%",
           "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
+  "opp_db3cbf2fa5e4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 400,
+    "budget_min": 200,
+    "budget_type": "HOURLY",
+    "category": "web_research",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 100.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:36:28+00:00",
+    "description": "Role Title: Distinguished Researcher, Research Program Role Type: Contractor Location: Remote Time commitment: Time commitment is flexible. We understand that researchers at this level balance teaching, labs, and other research, so you set a weekly schedule that works around your existing commitments. micro1 is engaging Distinguished Researchers, Research Programs to contribute to an innovative customer project at the frontiers of computational science. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required \u2014 your domain knowledge is what matters. This opportunity is designed for early-career researchers with standout recognition, ready to drive progress on significant open problems and influence the future of AI research. Scope of Work Identify and propose an impactful open problem or theoretical bound within your research subfield for targeted investigation. Develop and execute sustained research strategies using advanced AI agents on tasks such as proofs, algorithmic innovation, and computational simulations. Meticulously verify all findings through reproducible computations, formal tools, or line-by-line proof validation prior to external review. Collaborate with program engineers and AI model specialists to enhance agent performance and address technical challenges encountered during exploration. Document \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.6,
+    "estimated_cost": 0.0,
+    "estimated_hours": 4.8,
+    "estimated_net_revenue": 960.0,
+    "estimated_non_ai_effort": 1.2,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/distinguished-researcher-research-program",
+    "id": "opp_db3cbf2fa5e4",
+    "is_demo": false,
+    "match_score": 63.5,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-24T21:36:28+00:00",
+    "profit_score": 84.6,
+    "risk_flags": [],
+    "score": 73.3,
+    "score_band": "REVIEW",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.9,
+          "evidence": "75% of estimated effort is AI-carryable (3.6h AI / 1.2h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 15.6,
+          "evidence": "Estimated net $960 on $960 (100% margin). $457 per effective hour vs $85 target (2.1 effective h = 1.2h human + 3.6h AI discounted). Leverage: $800 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 23.4,
+          "evidence": "Matched 1 profile skills: excel."
+        }
+      },
+      "final_score": 73.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 73.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "excel",
+      "research-principal-investigator",
+      "ai-research",
+      "research-program-director",
+      "distinguished-scientist",
+      "research-scientist",
+      "researcher",
+      "research-investigator",
+      "research-director",
+      "director-of-research",
+      "program-researcher"
+    ],
+    "source": "himalayas",
+    "status": "REVIEW",
+    "title": "Distinguished Researcher, Research Program",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/distinguished-researcher-research-program?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
         }
       ],
       "probability_high": 37.0,
@@ -318530,6 +319591,151 @@
       "probability_low": 15.0
     }
   },
+  "opp_fb32c9b521a4": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 88.94,
+    "budget_min": 72.12,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "Quantum Sky",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:27:27+00:00",
+    "description": "Description Quantum Sky is searching for an experienced Sales Engineer to support complex sales opportunities with U.S. Federal agencies and commercial software providers seeking authorization to sell their products and services to the Federal Government. The ideal candidate combines strong technical sales, cloud architecture, cybersecurity, and Federal compliance expertise. This role partners with sales and customers throughout the sales lifecycle\u2014from technical discovery and solution design through demonstrations, estimation, proposals, and technical validation. Candidates should be comfortable translating business, technical, and compliance requirements into cloud-native solutions using AWS, Azure, GCP, containers, Kubernetes, serverless technologies, and DevSecOps. Responsibilities Partner with sales teams to develop technical strategies for direct Federal agency opportunities and commercial software providers pursuing Federal market authorization. Lead technical discovery to understand customer requirements, application architectures, cloud environments, security posture, and compliance objectives. Serve as a technical advisor to commercial SaaS and software companies pursuing FedRAMP, FISMA, DoD, and other Federal security authorizations. Translate Federal cybersecurity and compliance requirements into practical cloud architectures and implementation approaches. Design solutions incorporating public cloud, containers, Kubernetes, serverless computing, cybersecurity, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 540.9,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/quantum-sky/jobs/sales-engineer",
+    "id": "opp_fb32c9b521a4",
+    "is_demo": false,
+    "match_score": 45.6,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-24T21:27:27+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 61.7,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $541 on $541 (100% margin). $115 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $144 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 16.8,
+          "evidence": "Matched 2 profile skills: automation, ci/cd. Covers 22% of the 9 skills this listing names (missing: api, aws, azure, docker)."
+        }
+      },
+      "final_score": 61.7,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 61.7,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "api",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "ci/cd",
+      "automation",
+      "sales-engineer",
+      "solutions-engineer",
+      "cloud-solutions-architect",
+      "technical-consultant"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Sales Engineer",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/quantum-sky/jobs/sales-engineer?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_fb45dcafcfe9": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -321475,6 +322681,143 @@
       ],
       "probability_high": 28.0,
       "probability_low": 4.0
+    }
+  },
+  "opp_fcc8c9361e68": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "generic",
+    "client": "EngiFlex",
+    "competition_score": 54.9,
+    "confidence": 35.0,
+    "created_at": "2026-11-24T22:00:21+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-23T21:40:44+00:00",
+    "description": "\ud83d\udccb T\u00e2ches et responsabilit\u00e9s Dans le cadre de programmes de transformation et de l'\u00e9volution de l'exp\u00e9rience clients, le consultant senior accompagnera le responsable Exp\u00e9rience Clients au sein de la Direction Marketing. La mission comporte deux volets compl\u00e9mentaires : Assurer le r\u00f4le de point de contact et de coordination pour l'organisation dans le cadre de travaux d'interop\u00e9rabilit\u00e9 billettique coordonn\u00e9s par un organisme sectoriel. Apporter un appui strat\u00e9gique et op\u00e9rationnel au responsable Exp\u00e9rience Clients, en prenant en charge de mani\u00e8re autonome des analyses, des dossiers de transformation et des chantiers transversaux. Le consultant \u00e9voluera dans un environnement r\u00e9unissant de nombreux interlocuteurs m\u00e9tiers, techniques et institutionnels, ainsi que plusieurs projets strat\u00e9giques men\u00e9s en parall\u00e8le. \ud83d\udccc Missions et responsabilit\u00e9s 1. Coordination des travaux d'interop\u00e9rabilit\u00e9 billettique Vous serez le point de contact privil\u00e9gi\u00e9 de l'organisation pour la coordination op\u00e9rationnelle de ces enjeux. \u00c0 ce titre, vous serez notamment charg\u00e9 de : Assurer l'interface entre l'organisme de coordination sectoriel, les partenaires techniques et les diff\u00e9rentes parties prenantes internes. Coordonner les contributions des \u00e9quipes m\u00e9tiers, techniques et support, en veillant \u00e0 la coh\u00e9rence des positions de l'organisation. Analyser les documents de cadrage, les propositions et les livrables, en identifier les impacts pour l'organisation, puis pr\u00e9parer les positions et arbitrages \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261124T220013Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/engiflex/jobs/freelance-possible-consultant-senior-en-strategie-transformation-et-coordinat",
+    "id": "opp_fcc8c9361e68",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "UNKNOWN",
+    "posted_time": "2026-11-24T21:40:45+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 35.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 19.4,
+          "awarded": 9.7,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 12.6,
+          "awarded": 7.6,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified."
+        },
+        "Expected Profitability": {
+          "available": 19.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 14.6,
+          "awarded": 8.0,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 9.7,
+          "awarded": 9.7,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 24.3,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 35.0,
+      "opportunity_class": "Unclassified - no budget stated",
+      "penalties": [],
+      "raw_total": 35.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 19.42,
+        "clarity_of_requirements": 12.62,
+        "expected_profitability": 19.42,
+        "likelihood_of_winning": 14.56,
+        "risk": 9.71,
+        "skill_fit": 24.27
+      }
+    },
+    "skills": [
+      "api",
+      "tableau",
+      "strategy-consultant",
+      "transformation-consultant",
+      "program-manager"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Freelance possible - Consultant senior en strat\u00e9gie, transformation et coordinat",
+    "updated_at": "2026-11-24T22:00:21+00:00",
+    "url": "https://himalayas.app/companies/engiflex/jobs/freelance-possible-consultant-senior-en-strategie-transformation-et-coordinat?utm_source=api",
+    "win_estimate": {
+      "band": "Medium",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Medium (21-41%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+5%",
+          "factor": "US timezone requested",
+          "from": "20%",
+          "to": "25%",
+          "why": "Being US-based is an advantage here, not a barrier."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "25%",
+          "to": "31%",
+          "why": "About 0 day(s) old; still being read."
+        }
+      ],
+      "probability_high": 41.0,
+      "probability_low": 21.0
     }
   },
   "opp_fcf15ce678eb": {
