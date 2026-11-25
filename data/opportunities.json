@@ -91003,6 +91003,141 @@
       "probability_low": 10.0
     }
   },
+  "opp_4cee855663dc": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 100,
+    "budget_min": 70,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:43+00:00",
+    "description": "Engagement Details Role Title: Federal Special Agent Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $70 - $100USD per hour About the opportunity This role is for people who have worked federal criminal cases as investigators or special agents (GS-1811 or equivalent, including OIG and military criminal investigative services) and are based in the US. If that's not you, this one isn't a fit. micro1 is seeking Federal Special Agents for a customer project focused on AI evaluation. You'll review how AI models handle federal criminal investigation work, such as case reports, interview plans, and evidence handling. You'll find the errors and explain what the correct approach is. You'll also write realistic investigation scenarios with reference answers. Your knowledge of how federal cases are built, documented, and handed to prosecutors is what matters. No prior AI experience is required. What you'll do Review AI-written investigative documents, such as reports of investigation, interview plans, and case closing memos. Flag errors and explain what should change. Check AI answers on evidence handling, chain of custody, and whether the evidence supports the next investigative step. Check AI answers on search and seizure, interviews, and other procedural rules that affect whether a case holds up in court. Find gaps in a case file or in the investigator's reasoning, and say \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 525.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-special-agent",
+    "id": "opp_4cee855663dc",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:43+00:00",
+    "profit_score": 69.5,
+    "risk_flags": [],
+    "score": 43.3,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 3 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.8,
+          "evidence": "Estimated net $525 on $525 (100% margin). $112 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $140 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.3,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.3,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "special-agent",
+      "federal-investigator",
+      "federal-law-enforcement"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal Special Agent",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-special-agent?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_4ceeb5117dc8": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -106352,6 +106487,149 @@
       ],
       "probability_high": 41.0,
       "probability_low": 21.0
+    }
+  },
+  "opp_58bad94df0f8": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 75,
+    "budget_min": 65,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:43+00:00",
+    "description": "Engagement details Role Title: Federal Government Auditor Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $65 - 75USD per hour About the opportunity This role is for people who have done performance audits or financial audits of federal programs (GS-0511 or equivalent, at an OIG, GAO, an agency audit office, or an audit firm working for the government) and are based in the US. If that's not you, this one isn't a fit. micro1 is seeking Federal Government Auditor for a customer project focused on AI evaluation. You'll write realistic federal audit scenarios from your own experience, write the correct answer for each, and review scenarios and answers written by other auditors. Your knowledge of government auditing standards and how findings and recommendations are built is what matters. No prior AI experience is required. What you'll do Write realistic federal audit scenarios based on work you've done, such as a performance audit of a program, a financial statement audit finding, an improper payments review, or a follow-up on open recommendations. Write the reference answer for each scenario: what the auditor should conclude, how the finding should be stated, and which standards support it. Review scenarios and answers written by other auditors. Flag wrong citations and unrealistic assumptions, and explain what should change. Check that each scenario follows government \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 487.5,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-government-auditor",
+    "id": "opp_58bad94df0f8",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:43+00:00",
+    "profit_score": 68.9,
+    "risk_flags": [],
+    "score": 43.2,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 11 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.7,
+          "evidence": "Estimated net $488 on $488 (100% margin). $104 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $130 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.2,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.2,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "federal-auditor",
+      "federal-government-auditing",
+      "government-auditor",
+      "federal-auditing",
+      "federal-audit",
+      "government-auditing",
+      "government-audit",
+      "governmental-audit",
+      "government-programs-auditor",
+      "auditor",
+      "internal-auditor"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal Government Auditor",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-government-auditor?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_58cfe9a93596": {
@@ -175237,6 +175515,147 @@
       "probability_low": 0.0
     }
   },
+  "opp_8b0a9cd75b5e": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 70,
+    "budget_min": 50,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:43+00:00",
+    "description": "Engagement details Role Title: Federal Regulatory Analyst Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $60 - $80USD per hour About the opportunity This role is for people who have worked on federal rulemaking , such as drafting rules or notices, or reviewing and responding to public comments (GS-0301, GS-0905, or equivalent, including contractors supporting a federal agency), and are based in the US. If that's not you, this one isn't a fit. micro1 is seeking Federal Regulatory Analysts for a customer project focused on AI evaluation. You'll write realistic rulemaking scenarios, write the correct answer for each, and review scenarios and answers written by other specialists. Your knowledge of how federal rules are drafted, how public comments are analyzed, and how agencies respond to them is what matters. No prior AI experience is required. What you'll do Write realistic rulemaking scenarios based on work you've done, such as a set of public comments on a proposed rule, a response-to-comments section, or a decision on whether to adopt a petition. Write the reference answer for each scenario: how the comments should be grouped by theme, what the agency's response should say, and which statutes, regulations, and procedures support it. Write the recommendation to adopt, modify, or reject a public proposal, with the evidence and reasoning behind it. Review scenarios \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 375.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-regulatory-analyst",
+    "id": "opp_8b0a9cd75b5e",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:43+00:00",
+    "profit_score": 48.3,
+    "risk_flags": [],
+    "score": 39.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 9 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 8.9,
+          "evidence": "Estimated net $375 on $375 (100% margin). $80 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $100 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 39.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 39.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "regulatory-analyst",
+      "federal-compliance-analyst",
+      "regulatory-policy-analyst",
+      "federal-analyst",
+      "federal-government-analyst",
+      "regulatory-compliance-analyst",
+      "policy-analyst",
+      "compliance-analyst",
+      "regulatory-affairs-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal Regulatory Analyst",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-regulatory-analyst?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
+    }
+  },
   "opp_8b6008cfdd38": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -178625,6 +179044,165 @@
       ],
       "probability_high": 37.0,
       "probability_low": 15.0
+    }
+  },
+  "opp_8d05300eeeca": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 85,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:43+00:00",
+    "description": "Engagement details Role Title: Federal Grants Specialist Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $60 - $85USD per hour About the opportunity This role is for people who have managed federal grants from the funder's side (GS-1109 or equivalent, including state, local, or tribal staff who administer federal funds, and contractors supporting a federal agency) and are based in the US. This is not a grant-writing role for applicants. If that's not you, this one isn't a fit. micro1 is seeking Federal Grants Specialists for a customer project focused on AI evaluation. You'll review how AI models handle federal grants work, such as funding notices, application scoring, and monitoring findings. You'll find the errors and explain what the correct answer is under 2 CFR Part 200. You'll also write realistic grant scenarios with reference answers. Your knowledge of how federal grants are announced, awarded, monitored, and closed out is what matters. No prior AI experience is required. What you'll do Review AI-written Notices of Funding Opportunity (NOFOs) and check that the objectives, eligibility, application instructions, and evaluation criteria are complete and consistent. Check how AI scores grant applications: whether it judges eligibility, merit, and budget justification correctly against the funding requirements. Review AI-written monitoring findings and check that \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-grants-specialist",
+    "id": "opp_8d05300eeeca",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:44+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 44.5,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 13 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 44.5,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 44.5,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "federal-grants-specialist",
+      "government-grants-specialist",
+      "grants-specialist",
+      "grant-specialist",
+      "grant-program-specialist",
+      "grants-financial-specialist",
+      "grant-administration-specialist",
+      "grant-management-specialist",
+      "grants-support-specialist",
+      "grant-support-specialist",
+      "grant-writer",
+      "budget-specialist",
+      "financial-specialist"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal Grants Specialist",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-grants-specialist?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (2-26%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "35%",
+          "to": "25%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "25%",
+          "to": "10%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+8%",
+          "factor": "Domain advantage",
+          "from": "10%",
+          "to": "18%",
+          "why": "Mentions 'grants', a background this operator actually has."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "18%",
+          "to": "24%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "24%",
+          "to": "14%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 26.0,
+      "probability_low": 2.0
     }
   },
   "opp_8d33d1d041aa": {
@@ -191989,6 +192567,135 @@
       "probability_low": 12.0
     }
   },
+  "opp_9787e553f103": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 85,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:46+00:00",
+    "description": "Engagement details Role Title: VA Claims Specialist Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $60 - $85USD per hour About the opportunity This role is for people who have processed, rated, or quality-checked VA disability compensation claims (GS-0996 or equivalent, including accredited representatives and contractors supporting VA) and are based in the US. If that's not you, this one isn't a fit. micro1 is seeking VA Claims Specialist for a customer project focused on AI evaluation. You'll review how AI models handle disability compensation claims, find the errors, and explain what the correct decision is under VA rules. You'll also work out the right determination on test cases. Your knowledge of claim development, evidence, rating criteria, and the appeals process is what matters. No prior AI experience is required. What you'll do Review AI-written disability claim analyses and check that the evidence is weighed correctly and the decision follows VA regulations and policy. Check how AI reads medical evidence and what effect it has on an existing claim, against the rating criteria. Work out the correct benefit determination on test cases and write the rationale for it. Do quality reviews of AI claims decisions and flag inconsistencies and errors against VA standards. Review how AI handles higher-level review, supplemental claims, and other appeal options, and \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/va-claims-specialist-remote",
+    "id": "opp_9787e553f103",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:46+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 43.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 4 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "va-claims-specialist",
+      "veteran-benefits-specialist",
+      "va-claims-consultant",
+      "claims-adjuster"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "VA Claims Specialist \u2013 Remote",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/va-claims-specialist-remote?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
+    }
+  },
   "opp_97a121364037": {
     "ai_allowed": null,
     "automation_policy": "FULL_AUTO",
@@ -200865,6 +201572,143 @@
       ],
       "probability_high": 59.0,
       "probability_low": 43.0
+    }
+  },
+  "opp_9e62c5ac276b": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": null,
+    "budget_min": null,
+    "budget_type": "UNKNOWN",
+    "category": "api_integration",
+    "client": "Lifelancer",
+    "competition_score": 55.1,
+    "confidence": 60.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:21:13+00:00",
+    "description": "Job Title: Clinical Database Developer (Homebased) m/w/d Job Location: Reading, Berkshire, United Kingdom Job Location Type: Remote Job Contract Type: Full-time Job Seniority Level: The EDC Data Acquisition Expert performs activities relating to the definition and implementation of Clinical Electronic Data Capture tools (EDC) and related documents and processes aligned with Clinical Trial Protocol defined requirements for data capture. Activities are performed in close collaboration with Data Managers, Study Responsible Physicians (SRP), Study Responsible Scientists (SRS), and Biostatisticians . Responsibilities: Assess EDC collection requirements per protocol and create study start-up eCRF package based on global eCRF libraries. Design eCRF layout including form dynamics. Program Edit check and Custom Function. Create and configure tSDV technical specifications, Safety Gateway integration specifications and Datamart mapping specifications. Implement EDC coding configuration based on trial defined coding requirements. Perform test and Prod Rave EDC Migration Oversee planning, requirements, and implementation of IWRS integrations to EDC. Serve as subject matter expertise for complex elements of EDC database builds (including integrations). Serve subject matter expertise for complex elements of EDC database builds (including optimal custom functions implementation). Provide training to junior staff on EDC build and migration process and Tools Participate in process, system, \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 7.0,
+    "estimated_cost": 0.0,
+    "estimated_hours": 10.0,
+    "estimated_net_revenue": 0.0,
+    "estimated_non_ai_effort": 3.0,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/lifelancer/jobs/clinical-database-developer-homebased-m-w-d",
+    "id": "opp_9e62c5ac276b",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:21:14+00:00",
+    "profit_score": 0.0,
+    "risk_flags": [],
+    "score": 32.4,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 6.5,
+          "evidence": "70% of estimated effort is AI-carryable (7.0h AI / 3.0h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 5 skills specified; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 0.0,
+          "evidence": "No budget stated, so profit cannot be estimated."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 32.4,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 32.4,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "gcp",
+      "clinical-database-developer",
+      "clinical-data-management-specialist",
+      "edc-database-designer",
+      "clinical-data-programmer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Clinical Database Developer (Homebased) m/w/d",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/clinical-database-developer-homebased-m-w-d?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Senior//long-experience framing",
+          "from": "45%",
+          "to": "35%",
+          "why": "Names a seniority level or a multi-year minimum, which filters on track record."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_9e6922440507": {
@@ -236693,6 +237537,139 @@
       ],
       "probability_high": 82.0,
       "probability_low": 60.0
+    }
+  },
+  "opp_ba263879be16": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 105,
+    "budget_min": 80,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:45+00:00",
+    "description": "Engagement details Role Title: Federal IT Specialist (Security & Systems) Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $80 - $105USD per hour About the opportunity This role is for people who have worked in federal IT (GS-2210 or equivalent, including contractors supporting a federal agency), in areas such as information security and compliance, incident response, or systems and network support, and are based in the US. If that's not you, this one isn't a fit. micro1 is seeking Federal IT Specialist (Security & Systems) for a customer project focused on AI evaluation. You'll review how AI models handle federal IT work, such as ATO documents, incident reports, troubleshooting, and security controls. You'll find the errors and explain what the correct answer is. Your knowledge of how federal IT and security work in practice is what matters. No prior AI experience is required. What you'll do Review AI-written federal IT documents, such as sections of an ATO package, privacy impact assessments, incident reports, and IT investment business cases. Flag errors and explain what should change. Check how AI diagnoses hardware, software, network, and application incidents, and say what the correct diagnosis and fix would be. Check AI-written system configurations and security control descriptions against federal requirements. Review how AI handles incident response \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 600.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-it-specialist-security-systems",
+    "id": "opp_ba263879be16",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:45+00:00",
+    "profit_score": 70.5,
+    "risk_flags": [],
+    "score": 45.0,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 7.4,
+          "evidence": "Detailed description (>=800 chars); 8 skills specified; budget stated; deliverables or scope named."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 13.0,
+          "evidence": "Estimated net $600 on $600 (100% margin). $128 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $160 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 45.0,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 45.0,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "federal-it-specialist",
+      "federal-it-engineer",
+      "federal-it-security",
+      "federal-cybersecurity-analyst",
+      "dod-it-specialist",
+      "security-analyst",
+      "cybersecurity-analyst",
+      "systems-engineer"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal IT Specialist (Security & Systems)",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-it-specialist-security-systems?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (15-37%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "45%",
+          "to": "30%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "30%",
+          "to": "36%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "36%",
+          "to": "26%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 37.0,
+      "probability_low": 15.0
     }
   },
   "opp_ba3c947a48e0": {
@@ -284305,6 +285282,150 @@
       ],
       "probability_high": 46.0,
       "probability_low": 26.0
+    }
+  },
+  "opp_e14716c50865": {
+    "ai_allowed": null,
+    "automation_policy": "FULL_AUTO",
+    "budget_max": 85,
+    "budget_min": 60,
+    "budget_type": "HOURLY",
+    "category": "generic",
+    "client": "micro1",
+    "competition_score": 55.1,
+    "confidence": 75.0,
+    "created_at": "2026-11-25T07:28:22+00:00",
+    "currency": "USD",
+    "deadline": "2027-01-24T05:20:43+00:00",
+    "description": "Engagement details Role Title: Federal Budget Analyst Role type: Contractor Location: Remote, US-based only Commitment: 12-15 hours per week, flexible around your schedule, part-time, project-based Compensation: $60 - $80USD per hour About the opportunity This role is for people who have done federal budget work, such as building budget requests, tracking and controlling funds, or closing out the fiscal year (GS-0560 or equivalent, including contractors supporting a federal agency), and are based in the US. This is not a corporate, state, or local budget role. If that's not you, this one isn't a fit. micro1 is seeking Federal Budget Analysts for a customer project focused on AI evaluation. You'll review how AI models handle federal budget work, such as justification narratives, responses to OMB, reprogramming, and year-end closeout. You'll find the errors and explain what the correct answer is. You'll also write realistic budget scenarios with reference answers. Your knowledge of how federal money is requested, spent, and tracked is what matters. No prior AI experience is required. What you'll do Review AI-written budget materials, such as justification narratives, responses to OMB passback, and spend plans. Flag errors and explain what should change. Check AI answers on budget execution and funds control: fund availability, actual spending against planned obligations, and the reasons for variances. Check AI answers on reprogramming and budget changes: which actions need \u2026 [excerpt - see source link for the full posting]",
+    "discovered_by_run": "20261125T072819Z",
+    "engagement_type": "",
+    "estimated_ai_effort": 3.75,
+    "estimated_cost": 0.0,
+    "estimated_hours": 7.5,
+    "estimated_net_revenue": 450.0,
+    "estimated_non_ai_effort": 3.75,
+    "estimated_platform_fee": 0.0,
+    "external_id": "https://himalayas.app/companies/micro1/jobs/federal-budget-analyst-3995545825",
+    "id": "opp_e14716c50865",
+    "is_demo": false,
+    "match_score": 0.0,
+    "opportunity_class": "ONGOING",
+    "posted_time": "2026-11-25T05:20:44+00:00",
+    "profit_score": 67.8,
+    "risk_flags": [],
+    "score": 43.1,
+    "score_band": "SKIP",
+    "score_breakdown": {
+      "factors": {
+        "Automation Potential": {
+          "available": 9.2,
+          "awarded": 4.6,
+          "evidence": "50% of estimated effort is AI-carryable (3.8h AI / 3.8h human)."
+        },
+        "Clarity of Requirements": {
+          "available": 7.4,
+          "awarded": 5.9,
+          "evidence": "Detailed description (>=800 chars); 12 skills specified; budget stated."
+        },
+        "Expected Profitability": {
+          "available": 18.4,
+          "awarded": 12.5,
+          "evidence": "Estimated net $450 on $450 (100% margin). $96 per effective hour vs $85 target (4.7 effective h = 3.8h human + 3.8h AI discounted). Leverage: $120 per human hour."
+        },
+        "Likelihood of Winning": {
+          "available": 18.0,
+          "awarded": 9.9,
+          "evidence": "Aggregated listing; applicant volume unknown and often high. Detailed technical brief favours a specialist applicant (+10%)."
+        },
+        "Risk": {
+          "available": 10.1,
+          "awarded": 10.1,
+          "evidence": "No risk flags detected."
+        },
+        "Skill Fit": {
+          "available": 36.9,
+          "awarded": 0.0,
+          "evidence": "No skill from the operator profile appears in this listing."
+        }
+      },
+      "final_score": 43.1,
+      "opportunity_class": "D - Ongoing / hourly contract",
+      "penalties": [],
+      "raw_total": 43.1,
+      "rejected": false,
+      "rejection_reason": "",
+      "weights_used": {
+        "automation_potential": 9.22,
+        "clarity_of_requirements": 7.37,
+        "expected_profitability": 18.43,
+        "likelihood_of_winning": 17.97,
+        "risk": 10.14,
+        "skill_fit": 36.87
+      }
+    },
+    "skills": [
+      "federal-budget-analyst",
+      "federal-financial-analyst",
+      "budget-analyst",
+      "fiscal-policy-analyst",
+      "federal-government-analyst",
+      "federal-analyst",
+      "federal-budget-consultant",
+      "fiscal-analyst",
+      "federal-financials-analyst",
+      "government-financial-analyst",
+      "budget-specialist",
+      "policy-analyst"
+    ],
+    "source": "himalayas",
+    "status": "SKIP",
+    "title": "Federal Budget Analyst",
+    "updated_at": "2026-11-25T07:28:22+00:00",
+    "url": "https://himalayas.app/companies/micro1/jobs/federal-budget-analyst-3995545825?utm_source=api",
+    "win_estimate": {
+      "band": "Low",
+      "calibration": "INITIAL HEURISTIC - not calibrated against outcomes",
+      "display": "Low (4-28%)",
+      "factors": [
+        {
+          "effect": "45%",
+          "factor": "Source prior",
+          "from": "-",
+          "to": "45%",
+          "why": "Structural competitiveness of this channel."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Portfolio requested in an unrelated area",
+          "from": "45%",
+          "to": "35%",
+          "why": "Asks for prior work we cannot show for this kind of job."
+        },
+        {
+          "effect": "-15%",
+          "factor": "Weak skill alignment",
+          "from": "35%",
+          "to": "20%",
+          "why": "Almost nothing in this listing matches the profile."
+        },
+        {
+          "effect": "+6%",
+          "factor": "Posted recently",
+          "from": "20%",
+          "to": "26%",
+          "why": "About 0 day(s) old; still being read."
+        },
+        {
+          "effect": "-10%",
+          "factor": "Ongoing engagement",
+          "from": "26%",
+          "to": "16%",
+          "why": "Judged over weeks against candidates with a track record."
+        }
+      ],
+      "probability_high": 28.0,
+      "probability_low": 4.0
     }
   },
   "opp_e160868d296f": {
